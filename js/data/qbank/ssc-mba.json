@@ -1,0 +1,3614 @@
+{
+ "ssc-cgl": [
+  [
+   "General Intelligence & Reasoning",
+   "Select the number that completes the analogy.\n7 : 50 :: 9 : ?",
+   [
+    "81",
+    "80",
+    "82",
+    "90"
+   ],
+   2,
+   "Rule: n² + 1. 7² + 1 = 50, so 9² + 1 = 82."
+  ],
+  [
+   "General Intelligence & Reasoning",
+   "Select the odd one out.\n17, 23, 29, 33",
+   [
+    "33",
+    "17",
+    "23",
+    "29"
+   ],
+   0,
+   "17, 23 and 29 are prime numbers; 33 = 3 × 11 is not."
+  ],
+  [
+   "General Intelligence & Reasoning",
+   "Find the next term of the series.\n3, 7, 15, 31, 63, ?",
+   [
+    "125",
+    "126",
+    "129",
+    "127"
+   ],
+   3,
+   "Each term = previous × 2 + 1, so 63 × 2 + 1 = 127."
+  ],
+  [
+   "General Intelligence & Reasoning",
+   "Find the next letter of the series.\nB, E, I, N, ?",
+   [
+    "S",
+    "U",
+    "R",
+    "T"
+   ],
+   3,
+   "Positions 2, 5, 9, 14 increase by +3, +4, +5; next is 14 + 6 = 20 = T."
+  ],
+  [
+   "General Intelligence & Reasoning",
+   "In a certain code language, MANGO is written as NBOHP. How will APPLE be written in that language?",
+   [
+    "BQQME",
+    "BQQMF",
+    "ZOOKD",
+    "BPQMF"
+   ],
+   1,
+   "Each letter is shifted one place forward: A→B, P→Q, P→Q, L→M, E→F."
+  ],
+  [
+   "General Intelligence & Reasoning",
+   "Pointing to a boy, Riya (a girl) says, \"He is the only son of the only daughter-in-law of my paternal grandfather.\" How is the boy related to Riya?",
+   [
+    "Brother",
+    "Cousin",
+    "Uncle",
+    "Father"
+   ],
+   0,
+   "The only daughter-in-law of Riya's paternal grandfather is Riya's mother; her only son is Riya's brother."
+  ],
+  [
+   "General Intelligence & Reasoning",
+   "Amit walks 6 km north, turns right and walks 8 km, then turns right again and walks 12 km. How far and in which direction is he now from his starting point?",
+   [
+    "10 km, North-East",
+    "14 km, South-East",
+    "10 km, South-East",
+    "8 km, East"
+   ],
+   2,
+   "He ends 8 km east and 12 − 6 = 6 km south of the start; distance = √(8² + 6²) = 10 km towards the South-East."
+  ],
+  [
+   "General Intelligence & Reasoning",
+   "Which statement correctly describes the relationship among Mothers, Women and Doctors?",
+   [
+    "All mothers are women; doctors partly overlap with both women and mothers",
+    "Mothers, Women and Doctors are three separate, non-overlapping groups",
+    "All women are mothers; doctors are separate from both",
+    "All doctors are mothers, and all mothers are women"
+   ],
+   0,
+   "Mothers form a subset of women, while some doctors are women (and some are mothers) and some are not."
+  ],
+  [
+   "General Intelligence & Reasoning",
+   "Statements:\nAll roses are flowers.\nSome flowers are red.\nConclusions:\nI. Some roses are red.\nII. Some flowers are roses.",
+   [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both I and II follow",
+    "Neither I nor II follows"
+   ],
+   1,
+   "The red flowers need not include any rose, so I does not follow; since all roses are flowers, some flowers are roses, so II follows."
+  ],
+  [
+   "General Intelligence & Reasoning",
+   "Find the missing number.\n4 → 18, 6 → 38, 8 → 66, 10 → ?",
+   [
+    "100",
+    "102",
+    "98",
+    "110"
+   ],
+   1,
+   "Rule: n² + 2. 16 + 2 = 18, 36 + 2 = 38, 64 + 2 = 66, so 100 + 2 = 102."
+  ],
+  [
+   "General Intelligence & Reasoning",
+   "In a row of 40 students, Ravi is 14th from the left. Mohan is 7 places to the right of Ravi. What is Mohan's position from the right end?",
+   [
+    "19th",
+    "21st",
+    "26th",
+    "20th"
+   ],
+   3,
+   "Mohan is 14 + 7 = 21st from the left, so from the right he is 40 − 21 + 1 = 20th."
+  ],
+  [
+   "General Intelligence & Reasoning",
+   "If in a certain code CAT = 24 (sum of alphabet positions), then DOG = ?",
+   [
+    "24",
+    "25",
+    "26",
+    "27"
+   ],
+   2,
+   "CAT = 3 + 1 + 20 = 24; DOG = 4 + 15 + 7 = 26."
+  ],
+  [
+   "General Intelligence & Reasoning",
+   "If 1 January of a non-leap year is a Wednesday, what day of the week will 1 January of the next year be?",
+   [
+    "Friday",
+    "Wednesday",
+    "Tuesday",
+    "Thursday"
+   ],
+   3,
+   "A non-leap year has 365 days = 52 weeks + 1 odd day, so the day moves forward by one: Wednesday → Thursday."
+  ],
+  [
+   "General Awareness",
+   "Which Article of the Constitution of India abolishes untouchability?",
+   [
+    "Article 14",
+    "Article 17",
+    "Article 21",
+    "Article 32"
+   ],
+   1,
+   "Article 17 abolishes untouchability and forbids its practice in any form."
+  ],
+  [
+   "General Awareness",
+   "The words 'Socialist' and 'Secular' were added to the Preamble of the Indian Constitution by which amendment?",
+   [
+    "44th Amendment",
+    "52nd Amendment",
+    "42nd Amendment",
+    "61st Amendment"
+   ],
+   2,
+   "The 42nd Amendment Act, 1976 added 'Socialist', 'Secular' and 'Integrity' to the Preamble."
+  ],
+  [
+   "General Awareness",
+   "Who presides over a joint sitting of both Houses of Parliament?",
+   [
+    "Speaker of the Lok Sabha",
+    "Vice-President of India",
+    "President of India",
+    "Prime Minister of India"
+   ],
+   0,
+   "Under Article 108 the President summons a joint sitting, and Article 118(4) provides that the Speaker of the Lok Sabha presides over it."
+  ],
+  [
+   "General Awareness",
+   "The Battle of Plassey was fought in which year?",
+   [
+    "1757",
+    "1764",
+    "1761",
+    "1748"
+   ],
+   0,
+   "Robert Clive's East India Company forces defeated Siraj-ud-Daulah at Plassey in 1757."
+  ],
+  [
+   "General Awareness",
+   "In which year did Mahatma Gandhi begin the Dandi March?",
+   [
+    "1920",
+    "1942",
+    "1930",
+    "1919"
+   ],
+   2,
+   "The Salt (Dandi) March began from Sabarmati Ashram on 12 March 1930, launching the Civil Disobedience Movement."
+  ],
+  [
+   "General Awareness",
+   "Which is the longest river of peninsular India?",
+   [
+    "Krishna",
+    "Narmada",
+    "Kaveri",
+    "Godavari"
+   ],
+   3,
+   "The Godavari (about 1,465 km) is the longest peninsular river and is often called the 'Dakshin Ganga'."
+  ],
+  [
+   "General Awareness",
+   "The Tropic of Cancer does NOT pass through which of the following states?",
+   [
+    "Jharkhand",
+    "Odisha",
+    "Tripura",
+    "Mizoram"
+   ],
+   1,
+   "The Tropic of Cancer passes through Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram, but not Odisha."
+  ],
+  [
+   "General Awareness",
+   "Which authority issues the ₹1 currency note in India?",
+   [
+    "Reserve Bank of India",
+    "State Bank of India",
+    "Ministry of Finance, Government of India",
+    "Securities and Exchange Board of India"
+   ],
+   2,
+   "The ₹1 note is issued by the Government of India (Ministry of Finance) and bears the Finance Secretary's signature; other notes are issued by the RBI."
+  ],
+  [
+   "General Awareness",
+   "The repo rate is the rate at which:",
+   [
+    "the RBI lends short-term funds to commercial banks",
+    "commercial banks lend to their best customers",
+    "the RBI borrows from commercial banks",
+    "banks pay interest on savings accounts"
+   ],
+   0,
+   "Repo rate is the rate at which the RBI lends to banks against government securities; the reverse repo rate is for RBI borrowing."
+  ],
+  [
+   "General Awareness",
+   "What is the SI unit of electric charge?",
+   [
+    "Ampere",
+    "Coulomb",
+    "Volt",
+    "Ohm"
+   ],
+   1,
+   "Electric charge is measured in coulombs; 1 coulomb = 1 ampere × 1 second."
+  ],
+  [
+   "General Awareness",
+   "What is the chemical formula of baking soda?",
+   [
+    "Na₂CO₃",
+    "NaOH",
+    "CaCO₃",
+    "NaHCO₃"
+   ],
+   3,
+   "Baking soda is sodium hydrogen carbonate (NaHCO₃); Na₂CO₃ is washing soda."
+  ],
+  [
+   "General Awareness",
+   "Deficiency of which vitamin causes scurvy?",
+   [
+    "Vitamin A",
+    "Vitamin C",
+    "Vitamin D",
+    "Vitamin K"
+   ],
+   1,
+   "Vitamin C (ascorbic acid) is needed for collagen formation; its deficiency causes scurvy with bleeding gums."
+  ],
+  [
+   "Quantitative Aptitude",
+   "What is the remainder when 2³¹ is divided by 5?",
+   [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   2,
+   "2⁴ = 16 leaves remainder 1, and 31 = 4 × 7 + 3, so the remainder equals that of 2³ = 8, i.e. 3."
+  ],
+  [
+   "Quantitative Aptitude",
+   "The HCF of two numbers is 12 and their LCM is 360. If one number is 72, what is the other?",
+   [
+    "60",
+    "48",
+    "72",
+    "84"
+   ],
+   0,
+   "Product of numbers = HCF × LCM, so other = 12 × 360 ÷ 72 = 60."
+  ],
+  [
+   "Quantitative Aptitude",
+   "Simplify: 18 ÷ 3 × 2 + 4² − 5",
+   [
+    "3",
+    "19",
+    "27",
+    "23"
+   ],
+   3,
+   "By BODMAS: 18 ÷ 3 = 6, 6 × 2 = 12, 4² = 16, so 12 + 16 − 5 = 23."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A number is first increased by 20% and then decreased by 20%. What is the net change?",
+   [
+    "No change",
+    "4% decrease",
+    "4% increase",
+    "2% decrease"
+   ],
+   1,
+   "Net factor = 1.2 × 0.8 = 0.96, i.e. a 4% decrease."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A shopkeeper marks an article 40% above its cost price and allows a discount of 15%. What is his profit percentage?",
+   [
+    "25%",
+    "21%",
+    "17%",
+    "19%"
+   ],
+   3,
+   "Selling price = 1.40 × 0.85 = 1.19 times the cost price, so profit = 19%."
+  ],
+  [
+   "Quantitative Aptitude",
+   "What is the difference between compound interest and simple interest on ₹10,000 for 2 years at 10% per annum (compounded annually)?",
+   [
+    "₹110",
+    "₹50",
+    "₹100",
+    "₹200"
+   ],
+   2,
+   "For 2 years, CI − SI = P(r/100)² = 10,000 × (0.1)² = ₹100."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A can complete a work in 12 days and B in 18 days. In how many days can they complete it working together?",
+   [
+    "7.2 days",
+    "7.5 days",
+    "6 days",
+    "15 days"
+   ],
+   0,
+   "Combined rate = 1/12 + 1/18 = 5/36, so time = 36/5 = 7.2 days."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A train 240 m long crosses a pole in 12 seconds. What is its speed in km/h?",
+   [
+    "60 km/h",
+    "72 km/h",
+    "80 km/h",
+    "54 km/h"
+   ],
+   1,
+   "Speed = 240/12 = 20 m/s = 20 × 18/5 = 72 km/h."
+  ],
+  [
+   "Quantitative Aptitude",
+   "If x + 1/x = 5, what is the value of x³ + 1/x³?",
+   [
+    "110",
+    "115",
+    "125",
+    "120"
+   ],
+   0,
+   "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x) = 125 − 15 = 110."
+  ],
+  [
+   "Quantitative Aptitude",
+   "The angles of a triangle are in the ratio 2 : 3 : 4. What is the largest angle?",
+   [
+    "60°",
+    "90°",
+    "80°",
+    "100°"
+   ],
+   2,
+   "9 parts = 180°, so 1 part = 20° and the largest angle = 4 × 20° = 80°."
+  ],
+  [
+   "Quantitative Aptitude",
+   "If sin θ = 3/5 and θ is acute, what is the value of tan θ + sec θ?",
+   [
+    "7/4",
+    "8/5",
+    "3/2",
+    "2"
+   ],
+   3,
+   "cos θ = 4/5, so tan θ = 3/4 and sec θ = 5/4; sum = 8/4 = 2."
+  ],
+  [
+   "Quantitative Aptitude",
+   "What is the volume of a cylinder of radius 7 cm and height 10 cm? (Take π = 22/7)",
+   [
+    "1540 cm³",
+    "1440 cm³",
+    "1640 cm³",
+    "770 cm³"
+   ],
+   0,
+   "V = πr²h = 22/7 × 49 × 10 = 1540 cm³."
+  ],
+  [
+   "Quantitative Aptitude",
+   "Annual sales of a company (₹ lakh): 2019 – 120, 2020 – 150, 2021 – 135, 2022 – 180. What is the percentage increase in sales from 2021 to 2022?",
+   [
+    "25%",
+    "33⅓%",
+    "30%",
+    "45%"
+   ],
+   1,
+   "Increase = 180 − 135 = 45; 45/135 × 100 = 33⅓%."
+  ],
+  [
+   "English Comprehension",
+   "Select the most appropriate synonym of ABUNDANT.",
+   [
+    "Scarce",
+    "Rare",
+    "Plentiful",
+    "Meagre"
+   ],
+   2,
+   "Abundant means existing in large quantities, i.e. plentiful."
+  ],
+  [
+   "English Comprehension",
+   "Select the most appropriate antonym of OBSCURE.",
+   [
+    "Vague",
+    "Hidden",
+    "Ambiguous",
+    "Evident"
+   ],
+   3,
+   "Obscure means unclear or hidden; its opposite is evident (clearly seen)."
+  ],
+  [
+   "English Comprehension",
+   "Select the most appropriate meaning of the idiom 'to beat around the bush'.",
+   [
+    "To avoid coming to the main point",
+    "To work very hard",
+    "To search everywhere carefully",
+    "To punish someone severely"
+   ],
+   0,
+   "To beat around the bush is to talk indirectly and avoid the main issue."
+  ],
+  [
+   "English Comprehension",
+   "Select the one word for: 'One who knows everything'.",
+   [
+    "Omnipotent",
+    "Omnipresent",
+    "Optimist",
+    "Omniscient"
+   ],
+   3,
+   "Omniscient = all-knowing; omnipotent = all-powerful; omnipresent = present everywhere."
+  ],
+  [
+   "English Comprehension",
+   "Select the correctly spelt word.",
+   [
+    "Acommodation",
+    "Accomodation",
+    "Accommodation",
+    "Acomodation"
+   ],
+   2,
+   "The correct spelling has double 'c' and double 'm': accommodation."
+  ],
+  [
+   "English Comprehension",
+   "Identify the segment that contains a grammatical error.\nEach of the boys / have submitted / the assignment / on time.",
+   [
+    "Each of the boys",
+    "have submitted",
+    "the assignment",
+    "on time"
+   ],
+   1,
+   "'Each' takes a singular verb, so it should be 'has submitted'."
+  ],
+  [
+   "English Comprehension",
+   "Fill in the blank with the most appropriate word.\nShe has been working in this company ______ 2015.",
+   [
+    "for",
+    "from",
+    "by",
+    "since"
+   ],
+   3,
+   "'Since' is used with a point of time in the perfect continuous tense."
+  ],
+  [
+   "English Comprehension",
+   "Select the most appropriate improvement for the underlined part.\n'If I was the captain', I would change the batting order.",
+   [
+    "If I am the captain",
+    "If I be the captain",
+    "If I were the captain",
+    "No improvement"
+   ],
+   2,
+   "Hypothetical conditions use the subjunctive 'were' for all persons."
+  ],
+  [
+   "English Comprehension",
+   "Select the correct passive form of: The chef is cooking the meal.",
+   [
+    "The meal was being cooked by the chef.",
+    "The meal is being cooked by the chef.",
+    "The meal has been cooked by the chef.",
+    "The meal is cooked by the chef."
+   ],
+   1,
+   "Present continuous active (is cooking) becomes 'is being + past participle' in the passive."
+  ],
+  [
+   "English Comprehension",
+   "Select the correct indirect form of: He said, \"I am tired.\"",
+   [
+    "He said that he was tired.",
+    "He said that I was tired.",
+    "He told that he is tired.",
+    "He said that he had been tiring."
+   ],
+   0,
+   "With a past reporting verb, 'I' becomes 'he' and 'am' changes to 'was'."
+  ],
+  [
+   "English Comprehension",
+   "Fill in the blank with the most appropriate word.\nThe committee has not yet ______ a decision on the matter.",
+   [
+    "arrived",
+    "achieved",
+    "gained",
+    "reached"
+   ],
+   3,
+   "The correct collocation is 'reach a decision'; 'arrived' would need 'at'."
+  ],
+  [
+   "English Comprehension",
+   "Select the one word for: 'A place where birds are kept'.",
+   [
+    "Aviary",
+    "Apiary",
+    "Aquarium",
+    "Arsenal"
+   ],
+   0,
+   "An aviary houses birds; an apiary houses bees; an aquarium houses fish."
+  ]
+ ],
+ "ssc-chsl": [
+  [
+   "General Intelligence",
+   "Select the word that completes the analogy.\nBird : Flock :: Fish : ?",
+   [
+    "Herd",
+    "Pack",
+    "Swarm",
+    "School"
+   ],
+   3,
+   "A group of birds is a flock; a group of fish is a school (or shoal)."
+  ],
+  [
+   "General Intelligence",
+   "Select the letter-cluster that completes the analogy.\nACE : BDF :: GIK : ?",
+   [
+    "HIJ",
+    "HKM",
+    "HJL",
+    "IKM"
+   ],
+   2,
+   "Each letter moves one place forward: G→H, I→J, K→L."
+  ],
+  [
+   "General Intelligence",
+   "Select the odd one out.\nMercury, Venus, Moon, Mars",
+   [
+    "Moon",
+    "Mercury",
+    "Venus",
+    "Mars"
+   ],
+   0,
+   "Mercury, Venus and Mars are planets; the Moon is a natural satellite."
+  ],
+  [
+   "General Intelligence",
+   "Find the next term of the series.\n2, 6, 12, 20, 30, ?",
+   [
+    "40",
+    "42",
+    "44",
+    "36"
+   ],
+   1,
+   "Terms are n(n + 1): 1×2, 2×3, 3×4, 4×5, 5×6, so next is 6×7 = 42."
+  ],
+  [
+   "General Intelligence",
+   "Find the next term of the series.\n5, 11, 23, 47, ?",
+   [
+    "95",
+    "94",
+    "96",
+    "93"
+   ],
+   0,
+   "Each term = previous × 2 + 1, so 47 × 2 + 1 = 95."
+  ],
+  [
+   "General Intelligence",
+   "In a certain code language, TIGER is written as REGIT. How will HORSE be written in that language?",
+   [
+    "ESORH",
+    "EROSH",
+    "ESROH",
+    "HSROE"
+   ],
+   2,
+   "The letters are written in reverse order, so HORSE becomes ESROH."
+  ],
+  [
+   "General Intelligence",
+   "A is B's brother. C is A's mother. D is C's father. How is D related to B?",
+   [
+    "Uncle",
+    "Father",
+    "Brother-in-law",
+    "Grandfather"
+   ],
+   3,
+   "C is the mother of both A and B; D is C's father, so D is B's (maternal) grandfather."
+  ],
+  [
+   "General Intelligence",
+   "A man is facing North. He turns 90° clockwise, then 180° anticlockwise, and then 45° clockwise. Which direction is he facing now?",
+   [
+    "South-West",
+    "North-East",
+    "North-West",
+    "South-East"
+   ],
+   2,
+   "North → (90° clockwise) East → (180° anticlockwise) West → (45° clockwise) North-West."
+  ],
+  [
+   "General Intelligence",
+   "In a group of 60 people, 35 like tea, 30 like coffee and 10 like both. How many like neither tea nor coffee?",
+   [
+    "10",
+    "0",
+    "15",
+    "5"
+   ],
+   3,
+   "People who like at least one = 35 + 30 − 10 = 55, so neither = 60 − 55 = 5."
+  ],
+  [
+   "General Intelligence",
+   "Statements:\nNo cat is a dog.\nAll dogs are animals.\nConclusions:\nI. No cat is an animal.\nII. Some animals are dogs.",
+   [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both I and II follow",
+    "Neither I nor II follows"
+   ],
+   1,
+   "Cats may still be animals outside the dog group, so I does not follow; all dogs are animals, so some animals are dogs and II follows."
+  ],
+  [
+   "General Intelligence",
+   "If 2 # 3 = 13 and 4 # 1 = 17, then 5 # 2 = ?",
+   [
+    "29",
+    "27",
+    "21",
+    "31"
+   ],
+   0,
+   "a # b = a² + b²: 4 + 9 = 13, 16 + 1 = 17, so 25 + 4 = 29."
+  ],
+  [
+   "General Intelligence",
+   "Among A, B, C, D and E: A is taller than B but shorter than C. D is the tallest. E is shorter than B. Who is the shortest?",
+   [
+    "B",
+    "E",
+    "A",
+    "C"
+   ],
+   1,
+   "Order: D > C > A > B > E, so E is the shortest."
+  ],
+  [
+   "General Intelligence",
+   "What is the angle between the hour hand and the minute hand of a clock at 3:30?",
+   [
+    "90°",
+    "60°",
+    "75°",
+    "80°"
+   ],
+   2,
+   "Angle = |30H − 5.5M| = |90 − 165| = 75°."
+  ],
+  [
+   "General Awareness",
+   "Fundamental Duties are contained in which Part of the Constitution of India?",
+   [
+    "Part III",
+    "Part IV-A",
+    "Part IV",
+    "Part V"
+   ],
+   1,
+   "Fundamental Duties (Article 51A) are in Part IV-A, inserted by the 42nd Amendment."
+  ],
+  [
+   "General Awareness",
+   "What is the minimum age required to be elected as President of India?",
+   [
+    "25 years",
+    "30 years",
+    "40 years",
+    "35 years"
+   ],
+   3,
+   "Article 58 requires a presidential candidate to have completed 35 years of age."
+  ],
+  [
+   "General Awareness",
+   "Which Article guarantees the Right to Constitutional Remedies, letting citizens move the Supreme Court for enforcing Fundamental Rights?",
+   [
+    "Article 32",
+    "Article 19",
+    "Article 21",
+    "Article 226"
+   ],
+   0,
+   "Article 32 allows direct approach to the Supreme Court; Article 226 gives writ power to High Courts."
+  ],
+  [
+   "General Awareness",
+   "Who is credited with founding the Indian National Congress in 1885?",
+   [
+    "Dadabhai Naoroji",
+    "W. C. Bonnerjee",
+    "A. O. Hume",
+    "Bal Gangadhar Tilak"
+   ],
+   2,
+   "Allan Octavian Hume helped found the INC in 1885; W. C. Bonnerjee presided over its first session."
+  ],
+  [
+   "General Awareness",
+   "The Jallianwala Bagh massacre took place in which year?",
+   [
+    "1920",
+    "1919",
+    "1915",
+    "1922"
+   ],
+   1,
+   "General Dyer ordered firing on a peaceful gathering at Amritsar on 13 April 1919."
+  ],
+  [
+   "General Awareness",
+   "Which Harappan site is known for its dockyard?",
+   [
+    "Kalibangan",
+    "Mohenjo-daro",
+    "Harappa",
+    "Lothal"
+   ],
+   3,
+   "Lothal in Gujarat had a brick dockyard, showing maritime trade."
+  ],
+  [
+   "General Awareness",
+   "Which is the highest mountain peak located in India?",
+   [
+    "Kangchenjunga",
+    "Nanda Devi",
+    "Kamet",
+    "Anamudi"
+   ],
+   0,
+   "Kangchenjunga (8,586 m) on the Sikkim–Nepal border is the highest peak in India."
+  ],
+  [
+   "General Awareness",
+   "Which soil is most suitable for growing cotton?",
+   [
+    "Black soil",
+    "Laterite soil",
+    "Alluvial soil",
+    "Red soil"
+   ],
+   0,
+   "Black (regur) soil retains moisture well and is ideal for cotton, hence called black cotton soil."
+  ],
+  [
+   "General Awareness",
+   "The Goods and Services Tax (GST) was rolled out in India on:",
+   [
+    "1 April 2017",
+    "1 July 2016",
+    "1 July 2017",
+    "1 January 2018"
+   ],
+   2,
+   "GST came into effect nationwide on 1 July 2017 after the 101st Constitutional Amendment."
+  ],
+  [
+   "General Awareness",
+   "What is the SI unit of power?",
+   [
+    "Joule",
+    "Newton",
+    "Pascal",
+    "Watt"
+   ],
+   3,
+   "Power is work done per unit time; 1 watt = 1 joule per second."
+  ],
+  [
+   "General Awareness",
+   "Which gas is the most abundant in the Earth's atmosphere?",
+   [
+    "Oxygen",
+    "Nitrogen",
+    "Argon",
+    "Carbon dioxide"
+   ],
+   1,
+   "Nitrogen makes up about 78% of dry air by volume, oxygen about 21%."
+  ],
+  [
+   "General Awareness",
+   "Which cell organelle is known as the 'powerhouse of the cell'?",
+   [
+    "Ribosome",
+    "Golgi apparatus",
+    "Mitochondria",
+    "Nucleus"
+   ],
+   2,
+   "Mitochondria produce ATP through cellular respiration."
+  ],
+  [
+   "Quantitative Aptitude",
+   "If a + b = 10 and ab = 21, what is the value of a² + b²?",
+   [
+    "79",
+    "58",
+    "42",
+    "62"
+   ],
+   1,
+   "a² + b² = (a + b)² − 2ab = 100 − 42 = 58."
+  ],
+  [
+   "Quantitative Aptitude",
+   "What is the least number which, when divided by 6, 8 and 12, leaves a remainder of 3 in each case?",
+   [
+    "24",
+    "51",
+    "30",
+    "27"
+   ],
+   3,
+   "LCM(6, 8, 12) = 24, so the least such number = 24 + 3 = 27."
+  ],
+  [
+   "Quantitative Aptitude",
+   "Simplify: (0.5)² + 0.25 ÷ 0.5",
+   [
+    "0.75",
+    "1",
+    "0.5",
+    "0.375"
+   ],
+   0,
+   "(0.5)² = 0.25 and 0.25 ÷ 0.5 = 0.5, so the total is 0.75."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A student's marks: Maths 84, Science 76, English 68, Hindi 72 (each out of 100). What is his overall percentage?",
+   [
+    "72%",
+    "75%",
+    "76%",
+    "78%"
+   ],
+   1,
+   "Total = 84 + 76 + 68 + 72 = 300 out of 400, i.e. 75%."
+  ],
+  [
+   "Quantitative Aptitude",
+   "₹1,800 is divided among A, B and C in the ratio 2 : 3 : 4. What is C's share?",
+   [
+    "₹600",
+    "₹400",
+    "₹900",
+    "₹800"
+   ],
+   3,
+   "C's share = 4/9 × 1800 = ₹800."
+  ],
+  [
+   "Quantitative Aptitude",
+   "The average of 5 numbers is 24. If one number is removed, the average of the remaining numbers becomes 22. What is the removed number?",
+   [
+    "32",
+    "30",
+    "28",
+    "34"
+   ],
+   0,
+   "Removed number = 5 × 24 − 4 × 22 = 120 − 88 = 32."
+  ],
+  [
+   "Quantitative Aptitude",
+   "The selling price of 12 articles equals the cost price of 15 articles. What is the profit percentage?",
+   [
+    "20%",
+    "30%",
+    "25%",
+    "15%"
+   ],
+   2,
+   "Taking CP of one article = ₹1, SP of 12 = ₹15, so profit = 3/12 × 100 = 25%."
+  ],
+  [
+   "Quantitative Aptitude",
+   "What is the simple interest on ₹6,000 at 8% per annum for 3 years?",
+   [
+    "₹1,200",
+    "₹1,440",
+    "₹1,540",
+    "₹1,480"
+   ],
+   1,
+   "SI = 6000 × 8 × 3 / 100 = ₹1,440."
+  ],
+  [
+   "Quantitative Aptitude",
+   "6 men can complete a work in 10 days. In how many days can 15 men complete the same work?",
+   [
+    "5 days",
+    "6 days",
+    "25 days",
+    "4 days"
+   ],
+   3,
+   "Total work = 6 × 10 = 60 man-days, so 15 men need 60/15 = 4 days."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A car goes to a place at 40 km/h and returns at 60 km/h. What is its average speed for the whole journey?",
+   [
+    "48 km/h",
+    "50 km/h",
+    "45 km/h",
+    "52 km/h"
+   ],
+   0,
+   "For equal distances, average speed = 2xy/(x + y) = 2 × 40 × 60 / 100 = 48 km/h."
+  ],
+  [
+   "Quantitative Aptitude",
+   "Each exterior angle of a regular polygon is 30°. How many sides does it have?",
+   [
+    "10",
+    "8",
+    "12",
+    "15"
+   ],
+   2,
+   "Number of sides = 360°/30° = 12."
+  ],
+  [
+   "Quantitative Aptitude",
+   "What is the value of sin²60° + cos²30°?",
+   [
+    "3/2",
+    "1",
+    "3/4",
+    "2"
+   ],
+   0,
+   "sin 60° = cos 30° = √3/2, so the value is 3/4 + 3/4 = 3/2."
+  ],
+  [
+   "Quantitative Aptitude",
+   "What is the area of a square whose diagonal is 10 cm?",
+   [
+    "100 cm²",
+    "25 cm²",
+    "50 cm²",
+    "40 cm²"
+   ],
+   2,
+   "Area = d²/2 = 100/2 = 50 cm²."
+  ],
+  [
+   "English Language",
+   "Select the most appropriate synonym of CANDID.",
+   [
+    "Secretive",
+    "Cunning",
+    "Timid",
+    "Frank"
+   ],
+   3,
+   "Candid means honest and straightforward, i.e. frank."
+  ],
+  [
+   "English Language",
+   "Select the most appropriate antonym of EXPAND.",
+   [
+    "Enlarge",
+    "Contract",
+    "Extend",
+    "Inflate"
+   ],
+   1,
+   "Expand means to become larger; contract means to become smaller."
+  ],
+  [
+   "English Language",
+   "Select the most appropriate meaning of the idiom 'a blessing in disguise'.",
+   [
+    "A gift that is given secretly",
+    "Something that seems bad at first but turns out to be good",
+    "A person who hides his kindness",
+    "A pleasant surprise that is expected"
+   ],
+   1,
+   "A blessing in disguise is an apparent misfortune that later proves beneficial."
+  ],
+  [
+   "English Language",
+   "Select the one word for: 'A person who does not believe in the existence of God'.",
+   [
+    "Atheist",
+    "Theist",
+    "Agnostic",
+    "Fanatic"
+   ],
+   0,
+   "An atheist denies God's existence; an agnostic holds that it cannot be known."
+  ],
+  [
+   "English Language",
+   "Select the correctly spelt word.",
+   [
+    "Neccessary",
+    "Necesary",
+    "Necessary",
+    "Neccesary"
+   ],
+   2,
+   "The correct spelling is 'necessary' — one 'c' and double 's'."
+  ],
+  [
+   "English Language",
+   "Identify the segment that contains a grammatical error.\nNeither the manager nor his assistants / was present / at the meeting / yesterday.",
+   [
+    "Neither the manager nor his assistants",
+    "at the meeting",
+    "yesterday",
+    "was present"
+   ],
+   3,
+   "With 'neither…nor', the verb agrees with the nearer subject 'assistants', so it should be 'were present'."
+  ],
+  [
+   "English Language",
+   "Fill in the blank with the most appropriate preposition.\nHe is good ______ mathematics.",
+   [
+    "at",
+    "in",
+    "on",
+    "with"
+   ],
+   0,
+   "The correct expression is 'good at' a subject or skill."
+  ],
+  [
+   "English Language",
+   "Select the most appropriate improvement for the underlined part.\nHe 'did not came' to school yesterday.",
+   [
+    "does not came",
+    "had not came",
+    "did not come",
+    "No improvement"
+   ],
+   2,
+   "After the auxiliary 'did', the base form of the verb ('come') is used."
+  ],
+  [
+   "English Language",
+   "Select the correct passive form of: Who wrote this letter?",
+   [
+    "By whom this letter was written?",
+    "By whom was this letter written?",
+    "Who was this letter written?",
+    "By whom has this letter been written?"
+   ],
+   1,
+   "'Who' becomes 'By whom' and simple past becomes 'was + past participle' in question form."
+  ],
+  [
+   "English Language",
+   "Select the correct indirect form of: She said to me, \"Please help me.\"",
+   [
+    "She said me to please help her.",
+    "She requested me to help me.",
+    "She told to me that please help her.",
+    "She requested me to help her."
+   ],
+   3,
+   "Requests are reported with 'requested + to-infinitive', and 'me' (speaker) changes to 'her'."
+  ],
+  [
+   "English Language",
+   "Select the most appropriate synonym of METICULOUS.",
+   [
+    "Careless",
+    "Hasty",
+    "Thorough",
+    "Casual"
+   ],
+   2,
+   "Meticulous means showing great attention to detail, i.e. thorough."
+  ],
+  [
+   "English Language",
+   "Select the most appropriate antonym of HOSTILE.",
+   [
+    "Friendly",
+    "Aggressive",
+    "Unfriendly",
+    "Belligerent"
+   ],
+   0,
+   "Hostile means unfriendly or antagonistic; its opposite is friendly."
+  ]
+ ],
+ "ssc-mts": [
+  [
+   "Numerical Ability",
+   "Which of the following numbers is divisible by 9?",
+   [
+    "4535",
+    "4536",
+    "4537",
+    "4538"
+   ],
+   1,
+   "A number is divisible by 9 if its digit sum is; 4 + 5 + 3 + 6 = 18 is divisible by 9."
+  ],
+  [
+   "Numerical Ability",
+   "What is the HCF of 36 and 48?",
+   [
+    "6",
+    "18",
+    "24",
+    "12"
+   ],
+   3,
+   "36 = 2² × 3², 48 = 2⁴ × 3, so HCF = 2² × 3 = 12."
+  ],
+  [
+   "Numerical Ability",
+   "Simplify: 45 + 15 × 3 − 20 ÷ 4",
+   [
+    "85",
+    "175",
+    "80",
+    "90"
+   ],
+   0,
+   "By BODMAS: 15 × 3 = 45 and 20 ÷ 4 = 5, so 45 + 45 − 5 = 85."
+  ],
+  [
+   "Numerical Ability",
+   "What is 25% of 360?",
+   [
+    "80",
+    "72",
+    "96",
+    "90"
+   ],
+   3,
+   "25% = 1/4, and 360 ÷ 4 = 90."
+  ],
+  [
+   "Numerical Ability",
+   "Two numbers are in the ratio 3 : 5 and their sum is 64. What is the larger number?",
+   [
+    "24",
+    "32",
+    "40",
+    "36"
+   ],
+   2,
+   "8 parts = 64, so 1 part = 8 and the larger number = 5 × 8 = 40."
+  ],
+  [
+   "Numerical Ability",
+   "What is the average of the first 10 even natural numbers?",
+   [
+    "11",
+    "10",
+    "12",
+    "20"
+   ],
+   0,
+   "The numbers are 2, 4, …, 20; average = (2 + 20)/2 = 11."
+  ],
+  [
+   "Numerical Ability",
+   "An article bought for ₹500 is sold for ₹575. What is the profit percentage?",
+   [
+    "12%",
+    "15%",
+    "75%",
+    "13%"
+   ],
+   1,
+   "Profit = ₹75, so profit% = 75/500 × 100 = 15%."
+  ],
+  [
+   "Numerical Ability",
+   "What is the simple interest on ₹2,000 at 5% per annum for 4 years?",
+   [
+    "₹450",
+    "₹300",
+    "₹500",
+    "₹400"
+   ],
+   3,
+   "SI = 2000 × 5 × 4 / 100 = ₹400."
+  ],
+  [
+   "Numerical Ability",
+   "A and B together can finish a work in 10 days. A alone can finish it in 15 days. In how many days can B alone finish it?",
+   [
+    "25 days",
+    "20 days",
+    "30 days",
+    "5 days"
+   ],
+   2,
+   "B's rate = 1/10 − 1/15 = 1/30, so B takes 30 days."
+  ],
+  [
+   "Numerical Ability",
+   "Convert 54 km/h into metres per second.",
+   [
+    "18 m/s",
+    "15 m/s",
+    "12 m/s",
+    "20 m/s"
+   ],
+   1,
+   "54 × 5/18 = 15 m/s."
+  ],
+  [
+   "Numerical Ability",
+   "What is the perimeter of a rectangle of length 20 m and breadth 15 m?",
+   [
+    "70 m",
+    "35 m",
+    "300 m",
+    "60 m"
+   ],
+   0,
+   "Perimeter = 2 × (20 + 15) = 70 m."
+  ],
+  [
+   "Numerical Ability",
+   "What is the unit digit of 7²⁵?",
+   [
+    "9",
+    "3",
+    "7",
+    "1"
+   ],
+   2,
+   "Unit digits of powers of 7 repeat as 7, 9, 3, 1; 25 = 4 × 6 + 1, so the unit digit is 7."
+  ],
+  [
+   "Numerical Ability",
+   "A father is 3 times as old as his son. After 15 years, he will be twice as old as his son. What is the son's present age?",
+   [
+    "10 years",
+    "15 years",
+    "12 years",
+    "20 years"
+   ],
+   1,
+   "3x + 15 = 2(x + 15) gives x = 15."
+  ],
+  [
+   "Reasoning Ability",
+   "Select the word that completes the analogy.\nDoctor : Hospital :: Teacher : ?",
+   [
+    "Office",
+    "Court",
+    "Field",
+    "School"
+   ],
+   3,
+   "A doctor works in a hospital; a teacher works in a school."
+  ],
+  [
+   "Reasoning Ability",
+   "Select the number that completes the analogy.\n4 : 64 :: 5 : ?",
+   [
+    "125",
+    "25",
+    "100",
+    "120"
+   ],
+   0,
+   "4³ = 64, so 5³ = 125."
+  ],
+  [
+   "Reasoning Ability",
+   "Select the odd one out.\nApple, Mango, Potato, Banana",
+   [
+    "Apple",
+    "Mango",
+    "Banana",
+    "Potato"
+   ],
+   3,
+   "Apple, mango and banana are fruits; potato is a vegetable (a tuber)."
+  ],
+  [
+   "Reasoning Ability",
+   "Find the next term of the series.\n1, 4, 9, 16, 25, ?",
+   [
+    "30",
+    "36",
+    "35",
+    "49"
+   ],
+   1,
+   "The terms are squares 1², 2², 3², 4², 5², so next is 6² = 36."
+  ],
+  [
+   "Reasoning Ability",
+   "Find the next term of the series.\nAZ, BY, CX, ?",
+   [
+    "DW",
+    "DV",
+    "EW",
+    "DX"
+   ],
+   0,
+   "The first letter moves forward (A, B, C, D) and the second moves backward (Z, Y, X, W)."
+  ],
+  [
+   "Reasoning Ability",
+   "In a certain code language, CAT is written as DBU. How will DOG be written in that language?",
+   [
+    "EPG",
+    "CNF",
+    "EPH",
+    "EOH"
+   ],
+   2,
+   "Each letter moves one place forward: D→E, O→P, G→H."
+  ],
+  [
+   "Reasoning Ability",
+   "Ramesh's father is the only son of Suresh's father. Suresh is a man. How is Suresh related to Ramesh?",
+   [
+    "Uncle",
+    "Grandfather",
+    "Father",
+    "Brother"
+   ],
+   2,
+   "Suresh's father has only one son, who must be Suresh himself; so Suresh is Ramesh's father."
+  ],
+  [
+   "Reasoning Ability",
+   "Rita walks 5 km towards East, then turns left and walks 5 km. In which direction is she now from her starting point?",
+   [
+    "North-East",
+    "North-West",
+    "South-East",
+    "North"
+   ],
+   0,
+   "Turning left from East means walking North; she ends 5 km east and 5 km north of the start, i.e. North-East."
+  ],
+  [
+   "Reasoning Ability",
+   "Which pair is best represented by two circles, one lying completely inside the other?",
+   [
+    "Doctors, Teachers",
+    "India, Asia",
+    "Pens, Pencils",
+    "Men, Women"
+   ],
+   1,
+   "India is entirely a part of Asia, so one circle lies inside the other."
+  ],
+  [
+   "Reasoning Ability",
+   "Statements:\nAll pens are books.\nAll books are bags.\nConclusions:\nI. All pens are bags.\nII. Some bags are pens.",
+   [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both I and II follow",
+    "Neither I nor II follows"
+   ],
+   2,
+   "Pens ⊂ books ⊂ bags, so all pens are bags (I) and hence some bags are pens (II)."
+  ],
+  [
+   "Reasoning Ability",
+   "Find the missing number.\n6, 12, 24, ?, 96",
+   [
+    "36",
+    "42",
+    "54",
+    "48"
+   ],
+   3,
+   "Each term is double the previous one: 24 × 2 = 48 and 48 × 2 = 96."
+  ],
+  [
+   "Reasoning Ability",
+   "In a class, Sonu is 9th from the top and 21st from the bottom. How many students are there in the class?",
+   [
+    "30",
+    "28",
+    "31",
+    "29"
+   ],
+   3,
+   "Total = 9 + 21 − 1 = 29."
+  ],
+  [
+   "Reasoning Ability",
+   "If today is Monday, what day of the week will it be after 61 days?",
+   [
+    "Friday",
+    "Sunday",
+    "Saturday",
+    "Thursday"
+   ],
+   2,
+   "61 = 7 × 8 + 5, so it is 5 days after Monday, i.e. Saturday."
+  ],
+  [
+   "General Awareness",
+   "In the Rajya Sabha, one-third of the members retire after every:",
+   [
+    "2 years",
+    "3 years",
+    "5 years",
+    "6 years"
+   ],
+   0,
+   "Rajya Sabha is a permanent body; members serve 6-year terms and one-third retire every second year."
+  ],
+  [
+   "General Awareness",
+   "Who wrote India's National Song 'Vande Mataram'?",
+   [
+    "Rabindranath Tagore",
+    "Bankim Chandra Chattopadhyay",
+    "Muhammad Iqbal",
+    "Sarojini Naidu"
+   ],
+   1,
+   "Vande Mataram is from Bankim Chandra's novel Anandamath; Tagore wrote the National Anthem."
+  ],
+  [
+   "General Awareness",
+   "Who was the first Governor-General of independent India?",
+   [
+    "C. Rajagopalachari",
+    "Lord Canning",
+    "Lord Wavell",
+    "Lord Mountbatten"
+   ],
+   3,
+   "Lord Mountbatten served first (1947–48); C. Rajagopalachari was the first and only Indian Governor-General."
+  ],
+  [
+   "General Awareness",
+   "Where did Gautama Buddha attain enlightenment?",
+   [
+    "Sarnath",
+    "Lumbini",
+    "Bodh Gaya",
+    "Kushinagar"
+   ],
+   2,
+   "He attained enlightenment at Bodh Gaya, was born at Lumbini, preached first at Sarnath and died at Kushinagar."
+  ],
+  [
+   "General Awareness",
+   "The Quit India Movement was launched in which year?",
+   [
+    "1942",
+    "1940",
+    "1930",
+    "1946"
+   ],
+   0,
+   "Gandhiji gave the 'Do or Die' call at the Bombay session in August 1942."
+  ],
+  [
+   "General Awareness",
+   "Which is the largest state of India by area?",
+   [
+    "Madhya Pradesh",
+    "Rajasthan",
+    "Maharashtra",
+    "Uttar Pradesh"
+   ],
+   1,
+   "Rajasthan covers about 3.42 lakh sq km, the largest area of any state."
+  ],
+  [
+   "General Awareness",
+   "Which planet is known as the 'Red Planet'?",
+   [
+    "Jupiter",
+    "Mars",
+    "Venus",
+    "Saturn"
+   ],
+   1,
+   "Iron oxide on its surface gives Mars a reddish appearance."
+  ],
+  [
+   "General Awareness",
+   "Kaziranga National Park, famous for the one-horned rhinoceros, is located in which state?",
+   [
+    "West Bengal",
+    "Odisha",
+    "Assam",
+    "Uttarakhand"
+   ],
+   2,
+   "Kaziranga, a UNESCO World Heritage Site, is in Assam."
+  ],
+  [
+   "General Awareness",
+   "Which body replaced the Planning Commission in 2015?",
+   [
+    "NITI Aayog",
+    "Finance Commission",
+    "National Development Council",
+    "Inter-State Council"
+   ],
+   0,
+   "NITI Aayog was set up on 1 January 2015 in place of the Planning Commission."
+  ],
+  [
+   "General Awareness",
+   "Sound cannot travel through:",
+   [
+    "Water",
+    "Steel",
+    "Air",
+    "Vacuum"
+   ],
+   3,
+   "Sound is a mechanical wave and needs a material medium to travel."
+  ],
+  [
+   "General Awareness",
+   "What is the chemical symbol of sodium?",
+   [
+    "So",
+    "Na",
+    "Sd",
+    "S"
+   ],
+   1,
+   "The symbol Na comes from the Latin name 'Natrium'; S is sulphur."
+  ],
+  [
+   "General Awareness",
+   "What is the normal body temperature of a healthy human being?",
+   [
+    "About 37 °C",
+    "About 98 °C",
+    "About 35 °C",
+    "About 40 °C"
+   ],
+   0,
+   "Normal body temperature is about 37 °C (98.6 °F)."
+  ],
+  [
+   "English Language",
+   "Select the most appropriate synonym of BRAVE.",
+   [
+    "Coward",
+    "Weak",
+    "Fearful",
+    "Courageous"
+   ],
+   3,
+   "Brave means ready to face danger, i.e. courageous."
+  ],
+  [
+   "English Language",
+   "Select the most appropriate antonym of ANCIENT.",
+   [
+    "Old",
+    "Antique",
+    "Modern",
+    "Historic"
+   ],
+   2,
+   "Ancient means very old; its opposite is modern."
+  ],
+  [
+   "English Language",
+   "Select the most appropriate meaning of the idiom 'once in a blue moon'.",
+   [
+    "Very often",
+    "At night",
+    "Every month",
+    "Very rarely"
+   ],
+   3,
+   "Once in a blue moon means something happens very rarely."
+  ],
+  [
+   "English Language",
+   "Select the one word for: 'A person who cannot read or write'.",
+   [
+    "Illiterate",
+    "Ignorant",
+    "Innocent",
+    "Amateur"
+   ],
+   0,
+   "An illiterate person is unable to read or write."
+  ],
+  [
+   "English Language",
+   "Select the correctly spelt word.",
+   [
+    "Beutiful",
+    "Beautiful",
+    "Beautifull",
+    "Beatiful"
+   ],
+   1,
+   "The correct spelling is 'beautiful'."
+  ],
+  [
+   "English Language",
+   "Identify the segment that contains a grammatical error.\nShe do not / like coffee / in the morning.",
+   [
+    "like coffee",
+    "in the morning",
+    "She do not",
+    "No error"
+   ],
+   2,
+   "With a third-person singular subject, 'does not' must be used."
+  ],
+  [
+   "English Language",
+   "Fill in the blank with the most appropriate preposition.\nThe sun rises ______ the east.",
+   [
+    "in",
+    "from",
+    "at",
+    "on"
+   ],
+   0,
+   "The correct usage is 'rises in the east'."
+  ],
+  [
+   "English Language",
+   "Fill in the blank with the most appropriate article.\nHe is ______ honest man.",
+   [
+    "a",
+    "any",
+    "an",
+    "much"
+   ],
+   2,
+   "'Honest' begins with a vowel sound (silent h), so 'an' is used."
+  ],
+  [
+   "English Language",
+   "Select the most appropriate improvement for the underlined part.\n'I have seen him' yesterday.",
+   [
+    "I had seen him",
+    "I saw him",
+    "I have saw him",
+    "No improvement"
+   ],
+   1,
+   "A definite past time (yesterday) requires the simple past, not the present perfect."
+  ],
+  [
+   "English Language",
+   "Select the correct passive form of: Rahul plays football.",
+   [
+    "Football was played by Rahul.",
+    "Football is being played by Rahul.",
+    "Football has been played by Rahul.",
+    "Football is played by Rahul."
+   ],
+   3,
+   "Simple present active becomes 'is/are + past participle' in the passive."
+  ],
+  [
+   "English Language",
+   "Select the correct indirect form of: He said, \"I like mangoes.\"",
+   [
+    "He said that I liked mangoes.",
+    "He said that he likes the mangoes.",
+    "He said that he liked mangoes.",
+    "He told that I like mangoes."
+   ],
+   2,
+   "With a past reporting verb, 'I' becomes 'he' and 'like' changes to 'liked'."
+  ],
+  [
+   "English Language",
+   "Select the most appropriate antonym of GENEROUS.",
+   [
+    "Kind",
+    "Liberal",
+    "Charitable",
+    "Stingy"
+   ],
+   3,
+   "Generous means giving freely; stingy means unwilling to give or spend."
+  ]
+ ],
+ "cat": [
+  [
+   "Verbal Ability & Reading Comprehension",
+   "Read the passage and answer the question.\n\nWhen we store a phone number in a device rather than in memory, we engage in what psychologists call cognitive offloading. Critics treat this as a symptom of intellectual decline, but the history of writing suggests otherwise: Socrates worried that writing would erode memory, yet literate cultures went on to build bodies of knowledge far more complex than any oral tradition could sustain. The question, then, is not whether we offload but what we do with the capacity that is freed. Offloading becomes corrosive only when the freed attention is spent on nothing in particular.\n\nThe author's primary purpose is to:",
+   [
+    "argue that digital devices have caused a measurable decline in human intelligence",
+    "reframe a common worry about cognitive offloading by shifting attention to how the freed capacity is used",
+    "defend Socrates' view that writing weakens human memory",
+    "show that oral traditions were more sophisticated than literate cultures"
+   ],
+   1,
+   "The author rejects the decline narrative and says the real issue is 'what we do with the capacity that is freed'."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "Read the passage and answer the question.\n\nWhen we store a phone number in a device rather than in memory, we engage in what psychologists call cognitive offloading. Critics treat this as a symptom of intellectual decline, but the history of writing suggests otherwise: Socrates worried that writing would erode memory, yet literate cultures went on to build bodies of knowledge far more complex than any oral tradition could sustain. The question, then, is not whether we offload but what we do with the capacity that is freed. Offloading becomes corrosive only when the freed attention is spent on nothing in particular.\n\nWhich of the following, if true, would most weaken the author's argument?",
+   [
+    "Literate societies produced more written records than oral ones",
+    "Socrates' concerns about writing were shared by other ancient philosophers",
+    "Most people today store phone numbers on their devices rather than memorising them",
+    "The act of offloading itself, regardless of how freed attention is used, impairs the ability to form new long-term memories"
+   ],
+   3,
+   "The author claims offloading is harmful only depending on how freed capacity is used; harm from offloading itself, independent of use, directly undercuts this."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "Read the passage and answer the question.\n\nFisheries managers once assumed that if a fish stock collapsed, the fleet would simply move elsewhere and the fish would recover. The cod off Newfoundland disproved this. Two decades after fishing was halted, the population remained a fraction of its former size, partly because the ecosystem had reorganised: smaller species that cod once preyed upon had multiplied and now fed on young cod. A collapse, in other words, can be self-perpetuating, because it alters the very conditions that made the earlier abundance possible.\n\nThe managers' earlier assumption was flawed mainly because it:",
+   [
+    "overestimated the fleet's willingness to move to other fishing grounds",
+    "ignored the economic cost of halting fishing",
+    "treated the ecosystem as a fixed backdrop that would remain unchanged while the stock recovered",
+    "relied on population counts that had been deliberately inflated"
+   ],
+   2,
+   "The passage says the ecosystem 'reorganised' after the collapse, which the managers' assumption of automatic recovery overlooked."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "Read the passage and answer the question.\n\nFisheries managers once assumed that if a fish stock collapsed, the fleet would simply move elsewhere and the fish would recover. The cod off Newfoundland disproved this. Two decades after fishing was halted, the population remained a fraction of its former size, partly because the ecosystem had reorganised: smaller species that cod once preyed upon had multiplied and now fed on young cod. A collapse, in other words, can be self-perpetuating, because it alters the very conditions that made the earlier abundance possible.\n\nThe 'self-perpetuating' collapse described in the passage is best understood as:",
+   [
+    "a shift to a new stable state that resists a return to the earlier condition",
+    "a temporary dip followed by automatic recovery once fishing stops",
+    "a decline caused solely by continued overfishing after the ban",
+    "a regular boom-and-bust cycle that repeats every decade"
+   ],
+   0,
+   "Because the collapse altered the conditions (predators of young cod multiplied), the system stayed in its new state even without fishing."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "Read the passage and answer the question.\n\nA translator of poetry faces a choice that prose translators can often evade. Prose carries most of its meaning in its propositions, so a faithful paraphrase preserves most of what matters. In a poem, however, the sound, the line break and the ambiguity of a single word may be the meaning. To translate the propositions alone is to deliver a summary; to chase the music is to write a new poem. The best translators accept that loss is certain and decide, case by case, which loss the poem can best survive.\n\nThe author would most likely agree that:",
+   [
+    "prose translation is a purely mechanical task requiring no judgement",
+    "translators should always give priority to sound over sense",
+    "a faithful paraphrase is the ideal form of poetic translation",
+    "no translation of a poem can preserve everything that the original achieves"
+   ],
+   3,
+   "The author says 'loss is certain' in translating poetry; the other options overstate or contradict the passage."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "Read the passage and answer the question.\n\nA translator of poetry faces a choice that prose translators can often evade. Prose carries most of its meaning in its propositions, so a faithful paraphrase preserves most of what matters. In a poem, however, the sound, the line break and the ambiguity of a single word may be the meaning. To translate the propositions alone is to deliver a summary; to chase the music is to write a new poem. The best translators accept that loss is certain and decide, case by case, which loss the poem can best survive.\n\nThe phrase 'which loss the poem can best survive' implies that translators should:",
+   [
+    "judge which elements are least essential to a particular poem's effect",
+    "avoid translating poems whose meaning depends on sound",
+    "translate only the literal propositions of every poem",
+    "add new material to make up for every feature that is lost"
+   ],
+   0,
+   "Choosing which loss a poem 'can best survive' means deciding, case by case, what the poem can most afford to give up."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "Read the passage and answer the question.\n\nCities have long planted trees for shade, but planners now value them for a subtler reason. A street tree cools its surroundings less by blocking sunlight than by transpiring water, which absorbs heat as it evaporates. A tree's cooling benefit therefore depends on its access to water: a drought-stressed tree closes its pores and cools far less, precisely during the hot, dry spells when cooling is most needed. Planting programmes that count trees but ignore soil volume and irrigation may therefore deliver less relief than their numbers suggest.\n\nWhich of the following is best supported by the passage?",
+   [
+    "Shade from trees plays no role in cooling cities",
+    "Two cities with the same number of street trees may get very different cooling benefits from them",
+    "Drought-stressed trees make streets hotter than streets with no trees at all",
+    "Irrigating street trees costs more than planting new ones"
+   ],
+   1,
+   "Since cooling depends on water access, equal tree counts can yield unequal cooling; the other options are extreme or unsupported."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "Read the passage and answer the question.\n\nCities have long planted trees for shade, but planners now value them for a subtler reason. A street tree cools its surroundings less by blocking sunlight than by transpiring water, which absorbs heat as it evaporates. A tree's cooling benefit therefore depends on its access to water: a drought-stressed tree closes its pores and cools far less, precisely during the hot, dry spells when cooling is most needed. Planting programmes that count trees but ignore soil volume and irrigation may therefore deliver less relief than their numbers suggest.\n\nThe last sentence of the passage primarily serves to:",
+   [
+    "introduce a new scientific mechanism of cooling",
+    "reject the idea that trees cool cities at all",
+    "draw a practical implication for how tree-planting programmes should be assessed",
+    "summarise the history of urban tree planting"
+   ],
+   2,
+   "It applies the preceding explanation to planting programmes, warning that tree counts alone overstate relief."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "Choose the option that best captures the essence of the paragraph.\n\nMost consumers say they prefer ethically produced goods, yet sales data rarely match these stated preferences. The gap is often blamed on hypocrisy, but a simpler explanation exists: at the moment of purchase, price and convenience are visible and immediate, whereas ethical attributes are abstract and must be researched. Preferences that require effort to act upon lose out to those that do not, even when sincerely held.",
+   [
+    "Consumers who claim to prefer ethical goods are largely hypocritical.",
+    "Ethical goods fail to sell mainly because they are priced higher than ordinary goods.",
+    "The gap between stated ethical preferences and actual purchases reflects the unequal effort needed to act on different preferences, not necessarily insincerity.",
+    "Sales data are an unreliable measure of what consumers actually prefer."
+   ],
+   2,
+   "The paragraph rejects the hypocrisy explanation and attributes the gap to the effort required to act on ethical preferences."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "Choose the option that best captures the essence of the paragraph.\n\nEarly maps were not neutral records of territory. A map placed some places at its centre and pushed others to its margins; it named some rivers and left others blank; it drew borders that existed on paper long before they existed on the ground. In this sense, maps did not merely describe political realities—they helped create them, by making claims that later came to be treated as facts.",
+   [
+    "Early maps were inaccurate because cartographers lacked proper survey tools.",
+    "Maps historically helped shape political realities by encoding choices and claims that later hardened into accepted fact.",
+    "Borders drawn on early maps were usually ignored by people on the ground.",
+    "Unlike early maps, modern maps are entirely neutral records of territory."
+   ],
+   1,
+   "The core claim is that maps did not just describe but helped create political realities through their choices."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "Choose the option that best captures the essence of the paragraph.\n\nStandardised tests are often defended as objective because every candidate answers the same questions under the same conditions. But identical conditions do not produce identical opportunities: a candidate who has had years of coaching meets the test as a familiar genre, while another meets it as a stranger. Uniformity of procedure can therefore coexist with—and even conceal—inequality of preparation.",
+   [
+    "Uniform testing procedures do not guarantee fairness, because unequal prior preparation can hide behind identical conditions.",
+    "Standardised tests should be abolished because coaching is widespread.",
+    "Coaching improves test scores more than natural ability does.",
+    "Tests are objective only when candidates answer different questions."
+   ],
+   0,
+   "The paragraph argues that procedural uniformity may mask unequal preparation; it does not call for abolition or compare coaching with ability."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "The four sentences below, when properly sequenced, form a coherent paragraph. Choose the correct order.\n\n1. Reliability, in other words, is a quality that tends to be noticed only in its absence.\n2. Weather forecasting has improved steadily for half a century, and a five-day forecast today is about as accurate as a one-day forecast once was.\n3. Yet public trust in forecasters has not risen in step.\n4. Accurate predictions simply blend into the background of daily life, while the occasional miss is remembered for years.",
+   [
+    "2314",
+    "3241",
+    "2431",
+    "2341"
+   ],
+   3,
+   "2 states the improvement, 3 introduces the contrast ('Yet'), 4 explains it, and 1 concludes with 'in other words'."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "The four sentences below, when properly sequenced, form a coherent paragraph. Choose the correct order.\n\n1. These tiny organisms, however, are not passive passengers.\n2. The human gut hosts trillions of microbes, long regarded as little more than residents that happen to share our food.\n3. Some produce compounds that influence inflammation, and a few may even affect mood through signals sent to the brain.\n4. This growing evidence has turned the microbiome from a curiosity into a target for new therapies.",
+   [
+    "2134",
+    "2314",
+    "1234",
+    "2143"
+   ],
+   0,
+   "2 introduces the microbes, 1 counters the old view ('however'), 3 gives examples, and 4 refers back to 'this growing evidence'."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "The four sentences below, when properly sequenced, form a coherent paragraph. Choose the correct order.\n\n1. To address this, some cities have begun charging drivers a fee for entering the busiest districts at peak hours.\n2. Building more roads has rarely solved urban congestion, because new capacity tends to attract new traffic until the roads are full again.\n3. Critics call such charges regressive, but supporters point out that the revenue can fund buses used largely by lower-income residents.\n4. The aim is not to forbid driving but to make each driver weigh the delay that the trip imposes on others.",
+   [
+    "2134",
+    "2143",
+    "1243",
+    "2413"
+   ],
+   1,
+   "2 states the problem, 1 offers the response ('To address this'), 4 explains its aim, and 3 discusses criticism of 'such charges'."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "Four of the five sentences below can be arranged into a coherent paragraph. Identify the sentence that does NOT belong.\n\n1. Bamboo is botanically a grass, not a tree, despite reaching heights of over twenty metres.\n2. Some species can grow nearly a metre in a single day, making it one of the fastest-growing plants known.\n3. This rapid growth has made it attractive as a renewable building material in tropical regions.\n4. Its tensile strength compares with that of some steels, while its weight is a fraction of theirs.\n5. Giant pandas, which depend almost entirely on bamboo for food, have a digestive system better suited to meat.",
+   [
+    "1",
+    "3",
+    "5",
+    "4"
+   ],
+   2,
+   "Sentences 1–4 discuss bamboo's nature and value as a building material; sentence 5 shifts to panda digestion."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "Four of the five sentences below can be arranged into a coherent paragraph. Identify the sentence that does NOT belong.\n\n1. Double-entry bookkeeping records every transaction twice, once as a debit and once as a credit.\n2. Because the two sides must balance, many errors reveal themselves automatically.\n3. Cryptocurrencies promise to replace banks with decentralised networks of computers.\n4. The system was described in print by the Italian mathematician Luca Pacioli in 1494.\n5. Modern accounting software still rests on the same principle, even if the ledgers are now invisible.",
+   [
+    "1",
+    "2",
+    "4",
+    "3"
+   ],
+   3,
+   "Sentences 1, 2, 4 and 5 trace double-entry bookkeeping from its principle to its history and present use; sentence 3 is about cryptocurrencies."
+  ],
+  [
+   "Verbal Ability & Reading Comprehension",
+   "Four of the five sentences below can be arranged into a coherent paragraph. Identify the sentence that does NOT belong.\n\n1. Sleep was long thought of as a period when the brain simply switched off.\n2. Research now shows that during deep sleep, fluid flows through brain tissue and clears away metabolic waste.\n3. Memories formed during the day are also replayed and consolidated during certain stages of sleep.\n4. Many people find that reading a printed book helps them fall asleep faster than using a screen.\n5. Sleep, in short, is an active process of maintenance rather than mere rest.",
+   [
+    "4",
+    "1",
+    "2",
+    "3"
+   ],
+   0,
+   "Sentences 1, 2, 3 and 5 argue that sleep is an active process; sentence 4 is about falling asleep, a different topic."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "Revenue (₹ crore) of four firms:\nFirm | 2021 | 2022 | 2023\nP | 120 | 150 | 180\nQ | 200 | 190 | 228\nR | 80 | 100 | 125\nS | 150 | 165 | 198\nFor how many firms was the percentage growth in revenue in 2023 (over 2022) strictly greater than the percentage growth in 2022 (over 2021)?",
+   [
+    "1",
+    "3",
+    "2",
+    "4"
+   ],
+   2,
+   "Growth 2022 vs 2023: P 25% vs 20%, Q −5% vs 20%, R 25% vs 25%, S 10% vs 20%; only Q and S qualify."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "Six people A, B, C, D, E and F sit in seats numbered 1 to 6 placed clockwise around a circular table.\n• A sits in seat 1 and D sits directly opposite A.\n• B sits in the seat immediately clockwise of A.\n• E does not sit next to D.\n• C sits next to B.\nWho sits between D and E?",
+   [
+    "C",
+    "F",
+    "B",
+    "A"
+   ],
+   1,
+   "D is in seat 4 and B in seat 2; E cannot be in 3 or 5, so E is in 6; C next to B takes seat 3, leaving F in seat 5, between D (4) and E (6)."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "Four teams P, Q, R and S play a round-robin tournament (each pair plays once). A win earns 3 points, a draw 1 point and a loss 0. Final points: P = 7, Q = 5, R = 2, S = 1.\nWhat was the result of the match between Q and S?",
+   [
+    "S won",
+    "The match was drawn",
+    "Cannot be determined",
+    "Q won"
+   ],
+   3,
+   "P (7) = 2W 1D, Q (5) = 1W 2D, R (2) = 2D 1L, S (1) = 1D 2L; P and Q never lose, so P–Q is a draw, P beats R and S, R's other games are draws, and Q's win must be over S."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "In a survey of 200 students: 120 study Maths, 90 Physics and 70 Chemistry; 50 study both Maths and Physics, 40 both Maths and Chemistry, 30 both Physics and Chemistry, and 20 study all three. How many students study exactly one of the three subjects?",
+   [
+    "80",
+    "110",
+    "120",
+    "100"
+   ],
+   3,
+   "Only Maths = 120 − 50 − 40 + 20 = 50, only Physics = 90 − 50 − 30 + 20 = 30, only Chemistry = 70 − 40 − 30 + 20 = 20; total = 100."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "Five tasks J, K, L, M and N are scheduled one per day from Monday to Friday.\n• K is on the day immediately after J.\n• L is on neither Monday nor Friday.\n• M is on Wednesday.\n• N is on an earlier day than J.\nWhich task is scheduled on Tuesday?",
+   [
+    "N",
+    "L",
+    "J",
+    "K"
+   ],
+   1,
+   "With M on Wednesday, J–K must be Mon–Tue or Thu–Fri; N before J rules out Mon–Tue, so J = Thu, K = Fri; L cannot be Monday, so L = Tuesday and N = Monday."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "A player starts with ₹100. In each round she bets exactly half of the money she currently holds; if she wins she gains the amount bet, and if she loses she loses it. After 4 rounds she has won exactly 2 and lost exactly 2 (in some order). How much money does she have?",
+   [
+    "₹100",
+    "₹75",
+    "₹56.25",
+    "₹62.50"
+   ],
+   2,
+   "A win multiplies her money by 1.5 and a loss by 0.5, so in any order she ends with 100 × 1.5² × 0.5² = ₹56.25."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "Scores (out of 50) of five students in three tests:\nStudent | T1 | T2 | T3\nA | 42 | 35 | 48\nB | 38 | 44 | 40\nC | 45 | 30 | 41\nD | 36 | 47 | 39\nE | 40 | 41 | 43\nA student qualifies if the total is at least 120 and no single test score is below 35. How many students qualify?",
+   [
+    "4",
+    "2",
+    "3",
+    "5"
+   ],
+   0,
+   "Totals: A 125, B 122, C 116, D 122, E 124; C fails (total < 120 and a 30), while A's lowest score of 35 is not below 35, so A, B, D, E qualify."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "P, Q, R, S and T live on floors 1 to 5 of a building, one per floor (floor 1 is the lowest).\n• Q lives on an even-numbered floor.\n• Exactly one floor lies between P and R.\n• S lives immediately above T.\n• R lives above Q.\n• P does not live on floor 1.\nWho lives immediately below P?",
+   [
+    "T",
+    "S",
+    "Q",
+    "R"
+   ],
+   1,
+   "If Q = 2, the only valid case is P1-Q2-R3-T4-S5, which the last clue rules out; so Q = 4, R = 5, P = 3, T = 1, S = 2, and S is just below P."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "A company's total expenditure of ₹800 lakh is split as: Salaries 35%, Raw material 25%, Marketing 15%, R&D 10%, Others 15%. Next year total expenditure rises by 25%, salaries rise by 20% in absolute terms and R&D spending doubles. What percentage of next year's total expenditure goes to heads other than Salaries and R&D?",
+   [
+    "55%",
+    "49.6%",
+    "50.4%",
+    "52%"
+   ],
+   2,
+   "Next year: total = 1000, salaries = 280 × 1.2 = 336, R&D = 80 × 2 = 160; others = 1000 − 496 = 504, i.e. 50.4%."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "On an island, each person is either a knight (always tells the truth) or a knave (always lies). A says: \"B is a knave.\" B says: \"A and C are both knights.\" C says: \"B is a knight.\"\nHow many of the three are knights?",
+   [
+    "1",
+    "0",
+    "2",
+    "3"
+   ],
+   0,
+   "If A were a knave, B would be a knight and A a knight — a contradiction; so A is a knight, B a knave, and B's false claim with A a knight makes C a knave (C's statement is indeed false)."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "One-way roads with travel times (in minutes): A→B 4, A→C 2, C→B 1, B→D 5, C→D 8, C→E 10, D→E 2, B→E 9.\nIf the road C→B is closed, what is the minimum travel time from A to E?",
+   [
+    "10 minutes",
+    "12 minutes",
+    "13 minutes",
+    "11 minutes"
+   ],
+   3,
+   "Without C→B the routes are A→B→D→E = 11, A→B→E = 13, A→C→D→E = 12, A→C→E = 12; the minimum is 11."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "Six candidates U, V, W, X, Y and Z took a test; no two scored the same.\n• V scored more than W but less than X.\n• Y scored less than W.\n• Z scored more than X.\n• U scored less than V but more than W.\nWho had the fourth-highest score?",
+   [
+    "W",
+    "V",
+    "U",
+    "X"
+   ],
+   2,
+   "The clues give the complete order Z > X > V > U > W > Y, so U is fourth."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "Units sold by a shop (price per unit unchanged):\nProduct | Jan units | Feb units | Price (₹/unit)\nX | 120 | 150 | 40\nY | 80 | 70 | 90\nZ | 50 | 60 | 120\nBy what percentage did total revenue change from January to February?",
+   [
+    "7.5% increase",
+    "8⅓% increase",
+    "10% increase",
+    "8⅓% decrease"
+   ],
+   1,
+   "Jan revenue = 4800 + 7200 + 6000 = 18,000; Feb = 6000 + 6300 + 7200 = 19,500; change = 1500/18000 = 8⅓% increase."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "Two players start with a pile of 25 stones and alternately remove 1, 2 or 3 stones. The player who takes the last stone wins. A moves first. If both play optimally, how many stones must A remove on the first move to guarantee a win?",
+   [
+    "2",
+    "3",
+    "A cannot guarantee a win",
+    "1"
+   ],
+   3,
+   "Multiples of 4 are losing positions for the player to move; A removes 1 to leave 24 and thereafter always restores a multiple of 4."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "A 5 × 5 × 5 cube is painted on all its faces and then cut into 125 unit cubes. How many unit cubes have exactly two faces painted?",
+   [
+    "36",
+    "24",
+    "48",
+    "54"
+   ],
+   0,
+   "Two-face cubes lie on edges excluding corners: 12 edges × (5 − 2) = 36."
+  ],
+  [
+   "Data Interpretation & Logical Reasoning",
+   "Anil, Bina, Chetan and Divya each own a different pet (cat, dog, parrot, rabbit) and live in different cities (Delhi, Pune, Jaipur, Kochi).\n• Bina owns the parrot.\n• The dog owner lives in Pune.\n• Divya lives in Delhi.\n• The cat owner lives in Jaipur.\n• Chetan does not own the cat.\nWho lives in Kochi?",
+   [
+    "Anil",
+    "Chetan",
+    "Divya",
+    "Bina"
+   ],
+   3,
+   "Divya (Delhi) cannot own the dog or cat, so she owns the rabbit; Chetan then owns the dog (Pune) and Anil the cat (Jaipur), leaving Kochi for Bina."
+  ],
+  [
+   "Quantitative Ability",
+   "A 60-litre mixture contains milk and water in the ratio 7 : 3. How many litres of water must be added to make the ratio 3 : 2?",
+   [
+    "8",
+    "12",
+    "10",
+    "15"
+   ],
+   2,
+   "Milk = 42 L, water = 18 L; 42/(18 + x) = 3/2 gives 18 + x = 28, so x = 10."
+  ],
+  [
+   "Quantitative Ability",
+   "Pipe A can fill a tank in 12 hours and pipe B in 15 hours, while pipe C can empty the full tank in 20 hours. If all three are opened together on an empty tank, how long will it take to fill?",
+   [
+    "10 hours",
+    "8 hours",
+    "12 hours",
+    "9 hours"
+   ],
+   0,
+   "Net rate = 1/12 + 1/15 − 1/20 = (5 + 4 − 3)/60 = 1/10, so 10 hours."
+  ],
+  [
+   "Quantitative Ability",
+   "A trader buys goods at a 20% discount on the list price and sells them at 10% above the list price. What is his profit percentage?",
+   [
+    "30%",
+    "37.5%",
+    "32.5%",
+    "40%"
+   ],
+   1,
+   "Cost = 0.8L, selling price = 1.1L, so profit = 0.3L/0.8L = 37.5%."
+  ],
+  [
+   "Quantitative Ability",
+   "Two trains start at the same time from stations X and Y towards each other. After they meet, the train from X takes 9 hours to reach Y and the train from Y takes 16 hours to reach X. What is the ratio of the speed of the train from X to that of the train from Y?",
+   [
+    "4 : 3",
+    "3 : 4",
+    "16 : 9",
+    "9 : 16"
+   ],
+   0,
+   "Speed ratio = √(time of other after meeting / own time after meeting) = √(16/9) = 4 : 3."
+  ],
+  [
+   "Quantitative Ability",
+   "The roots of x² − 13x + k = 0 differ by 7. What is the value of k?",
+   [
+    "36",
+    "30",
+    "40",
+    "42"
+   ],
+   1,
+   "Roots r and r + 7 sum to 13, so r = 3 and the roots are 3 and 10; k = 3 × 10 = 30."
+  ],
+  [
+   "Quantitative Ability",
+   "How many integers x satisfy |x − 3| + |x + 2| ≤ 11?",
+   [
+    "11",
+    "13",
+    "12",
+    "10"
+   ],
+   2,
+   "For −2 ≤ x ≤ 3 the sum is 5; for x > 3, 2x − 1 ≤ 11 gives x ≤ 6; for x < −2, 1 − 2x ≤ 11 gives x ≥ −5; integers −5 to 6 number 12."
+  ],
+  [
+   "Quantitative Ability",
+   "If x and y are positive real numbers with xy = 16, what is the minimum value of x + 4y?",
+   [
+    "8",
+    "20",
+    "17",
+    "16"
+   ],
+   3,
+   "By AM–GM, x + 4y ≥ 2√(4xy) = 2√64 = 16, attained at x = 8, y = 2."
+  ],
+  [
+   "Quantitative Ability",
+   "In triangle ABC, AB = 13, BC = 14 and CA = 15. What is the length of the altitude from A to BC?",
+   [
+    "11.2",
+    "12.6",
+    "12",
+    "13"
+   ],
+   2,
+   "By Heron's formula, s = 21 and area = √(21 × 8 × 7 × 6) = 84; altitude = 2 × 84/14 = 12."
+  ],
+  [
+   "Quantitative Ability",
+   "In a circle, a chord of length 16 cm is at a distance of 6 cm from the centre. What is the length of a chord at a distance of 8 cm from the centre?",
+   [
+    "10 cm",
+    "14 cm",
+    "8 cm",
+    "12 cm"
+   ],
+   3,
+   "Radius = √(8² + 6²) = 10; the other chord = 2√(10² − 8²) = 2 × 6 = 12 cm."
+  ],
+  [
+   "Quantitative Ability",
+   "A solid metal sphere of radius 6 cm is melted and recast into solid cones of radius 3 cm and height 4 cm. How many cones are obtained?",
+   [
+    "18",
+    "24",
+    "32",
+    "36"
+   ],
+   1,
+   "Sphere volume = (4/3)π(216) = 288π; cone volume = (1/3)π(9)(4) = 12π; 288π/12π = 24."
+  ],
+  [
+   "Quantitative Ability",
+   "How many trailing zeros does 125! have?",
+   [
+    "31",
+    "30",
+    "25",
+    "28"
+   ],
+   0,
+   "Count factors of 5: ⌊125/5⌋ + ⌊125/25⌋ + ⌊125/125⌋ = 25 + 5 + 1 = 31."
+  ],
+  [
+   "Quantitative Ability",
+   "What is the remainder when 7¹⁰⁰ is divided by 13?",
+   [
+    "3",
+    "1",
+    "10",
+    "9"
+   ],
+   3,
+   "7⁶ ≡ −1 (mod 13), so 7¹² ≡ 1; 100 = 12 × 8 + 4, and 7⁴ = 2401 = 13 × 184 + 9."
+  ],
+  [
+   "Quantitative Ability",
+   "How many positive divisors does 720 have?",
+   [
+    "24",
+    "30",
+    "28",
+    "36"
+   ],
+   1,
+   "720 = 2⁴ × 3² × 5, so the number of divisors = 5 × 3 × 2 = 30."
+  ],
+  [
+   "Quantitative Ability",
+   "In how many ways can the letters of the word BANANA be arranged so that the two N's are not together?",
+   [
+    "40",
+    "60",
+    "20",
+    "36"
+   ],
+   0,
+   "Total = 6!/(3! 2!) = 60; with NN together = 5!/3! = 20; required = 60 − 20 = 40."
+  ],
+  [
+   "Quantitative Ability",
+   "Two fair dice are rolled. What is the probability that the sum of the numbers is a prime number?",
+   [
+    "1/2",
+    "7/18",
+    "5/12",
+    "1/3"
+   ],
+   2,
+   "Prime sums 2, 3, 5, 7, 11 occur in 1 + 2 + 4 + 6 + 2 = 15 of 36 outcomes; 15/36 = 5/12."
+  ],
+  [
+   "Quantitative Ability",
+   "What is the sum of all three-digit natural numbers that are divisible by 7?",
+   [
+    "70343",
+    "69237",
+    "70336",
+    "71435"
+   ],
+   2,
+   "They run from 105 to 994: n = (994 − 105)/7 + 1 = 128, sum = 128 × (105 + 994)/2 = 64 × 1099 = 70336."
+  ],
+  [
+   "Quantitative Ability",
+   "If log₂x + log₄x + log₁₆x = 7, what is the value of x?",
+   [
+    "8",
+    "32",
+    "64",
+    "16"
+   ],
+   3,
+   "log₂x × (1 + 1/2 + 1/4) = 7, so log₂x × 7/4 = 7, giving log₂x = 4 and x = 16."
+  ]
+ ],
+ "cmat": [
+  [
+   "Quantitative Techniques & Data Interpretation",
+   "The price of an article rises by 25%. By what percentage must a household reduce its consumption so that its expenditure on the article remains unchanged?",
+   [
+    "25%",
+    "15%",
+    "20%",
+    "22.5%"
+   ],
+   2,
+   "Required reduction = 25/(100 + 25) × 100 = 20%."
+  ],
+  [
+   "Quantitative Techniques & Data Interpretation",
+   "What is the compound interest on ₹8,000 for 3 years at 10% per annum, compounded annually?",
+   [
+    "₹2,400",
+    "₹2,560",
+    "₹2,728",
+    "₹2,648"
+   ],
+   3,
+   "Amount = 8000 × 1.1³ = 8000 × 1.331 = ₹10,648, so CI = ₹2,648."
+  ],
+  [
+   "Quantitative Techniques & Data Interpretation",
+   "The average age of 30 students is 15 years. When the teacher's age is included, the average rises by 1 year. What is the teacher's age?",
+   [
+    "45 years",
+    "46 years",
+    "31 years",
+    "47 years"
+   ],
+   1,
+   "Teacher = 31 × 16 − 30 × 15 = 496 − 450 = 46 years."
+  ],
+  [
+   "Quantitative Techniques & Data Interpretation",
+   "A boat covers 24 km upstream in 6 hours and 24 km downstream in 4 hours. What is the speed of the stream?",
+   [
+    "2 km/h",
+    "1 km/h",
+    "5 km/h",
+    "1.5 km/h"
+   ],
+   1,
+   "Upstream speed = 4, downstream = 6; stream speed = (6 − 4)/2 = 1 km/h."
+  ],
+  [
+   "Quantitative Techniques & Data Interpretation",
+   "A invests ₹40,000 for 12 months and B invests ₹60,000 for 8 months in a business. Out of a total profit of ₹18,000, what is B's share?",
+   [
+    "₹10,800",
+    "₹7,200",
+    "₹9,000",
+    "₹12,000"
+   ],
+   2,
+   "Capital-months: A = 4,80,000 and B = 4,80,000, a 1 : 1 ratio, so B gets ₹9,000."
+  ],
+  [
+   "Quantitative Techniques & Data Interpretation",
+   "The area of a circle is 154 cm². What is its circumference? (Take π = 22/7)",
+   [
+    "22 cm",
+    "88 cm",
+    "49 cm",
+    "44 cm"
+   ],
+   3,
+   "πr² = 154 gives r² = 49, r = 7; circumference = 2 × 22/7 × 7 = 44 cm."
+  ],
+  [
+   "Quantitative Techniques & Data Interpretation",
+   "In how many ways can a committee of 3 be chosen from 5 men and 4 women so that it includes at least one woman?",
+   [
+    "74",
+    "80",
+    "64",
+    "84"
+   ],
+   0,
+   "Total C(9,3) = 84 minus all-men C(5,3) = 10 gives 74."
+  ],
+  [
+   "Quantitative Techniques & Data Interpretation",
+   "Quarterly production of a factory ('000 units): Q1 – 40, Q2 – 50, Q3 – 45, Q4 – 65. What percentage of the year's production came in the second half (Q3 + Q4)?",
+   [
+    "45%",
+    "55%",
+    "50%",
+    "60%"
+   ],
+   1,
+   "Total = 200; Q3 + Q4 = 110; 110/200 × 100 = 55%."
+  ],
+  [
+   "Quantitative Techniques & Data Interpretation",
+   "Market shares among 2,40,000 smartphone users in a city: Brand A 30%, B 25%, C 20%, D 15%, others 10%. How many more users does Brand A have than Brand C?",
+   [
+    "12,000",
+    "36,000",
+    "24,000",
+    "20,000"
+   ],
+   2,
+   "Difference = (30% − 20%) of 2,40,000 = 24,000."
+  ],
+  [
+   "Quantitative Techniques & Data Interpretation",
+   "A bag contains 4 red and 6 blue balls. Two balls are drawn at random without replacement. What is the probability that both are red?",
+   [
+    "4/25",
+    "1/5",
+    "1/15",
+    "2/15"
+   ],
+   3,
+   "P = (4/10) × (3/9) = 12/90 = 2/15."
+  ],
+  [
+   "Logical Reasoning",
+   "Find the next term of the series.\n2, 3, 5, 9, 17, ?",
+   [
+    "31",
+    "33",
+    "34",
+    "35"
+   ],
+   1,
+   "Differences are 1, 2, 4, 8, so the next difference is 16: 17 + 16 = 33."
+  ],
+  [
+   "Logical Reasoning",
+   "In a certain code, FRIEND is written as HUMJTK. How will CANDLE be written in that code?",
+   [
+    "EDRJRL",
+    "ECRIRL",
+    "EDRIRL",
+    "EDQIRL"
+   ],
+   2,
+   "Letters shift by +2, +3, +4, +5, +6, +7: C→E, A→D, N→R, D→I, L→R, E→L."
+  ],
+  [
+   "Logical Reasoning",
+   "If A + B means A is the mother of B, A − B means A is the brother of B, and A × B means A is the father of B, what does P × Q − R + S indicate about P and S?",
+   [
+    "P is the maternal grandfather of S",
+    "P is the paternal grandfather of S",
+    "P is the uncle of S",
+    "P is the father of S"
+   ],
+   0,
+   "P is the father of Q, Q is the brother of R, so P is R's father; R is S's mother, so P is S's maternal grandfather."
+  ],
+  [
+   "Logical Reasoning",
+   "Statements:\nSome managers are leaders.\nAll leaders are visionaries.\nConclusions:\nI. Some managers are visionaries.\nII. All visionaries are leaders.",
+   [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both I and II follow",
+    "Neither I nor II follows"
+   ],
+   0,
+   "The managers who are leaders are also visionaries, so I follows; 'All leaders are visionaries' cannot be reversed, so II does not."
+  ],
+  [
+   "Logical Reasoning",
+   "Neha walks 3 km north, then 4 km east, then 3 km north, and then 4 km east. How far is she from her starting point?",
+   [
+    "14 km",
+    "12 km",
+    "8 km",
+    "10 km"
+   ],
+   3,
+   "She is 6 km north and 8 km east of the start; distance = √(36 + 64) = 10 km."
+  ],
+  [
+   "Logical Reasoning",
+   "Statement: An advertisement says, \"Use our new app to book train tickets in under a minute.\"\nAssumptions:\nI. People want to save time while booking tickets.\nII. No other app allows booking in under a minute.",
+   [
+    "Only assumption I is implicit",
+    "Only assumption II is implicit",
+    "Both I and II are implicit",
+    "Neither I nor II is implicit"
+   ],
+   0,
+   "The ad's appeal rests on people valuing speed (I); it makes no claim about rival apps, so II is not assumed."
+  ],
+  [
+   "Logical Reasoning",
+   "A company found that employees who attended a voluntary training programme were more productive than those who did not, and concluded that the training raises productivity. Which of the following, if true, most weakens this conclusion?",
+   [
+    "The training sessions were held during working hours",
+    "Productivity was measured as output per hour worked",
+    "The employees who volunteered for the training were already the most productive before it began",
+    "The company plans to make the training compulsory next year"
+   ],
+   2,
+   "If volunteers were already more productive, the difference may reflect self-selection rather than the effect of training."
+  ],
+  [
+   "Logical Reasoning",
+   "Five people A, B, C, D and E sit in a row facing north. C is in the middle. A is at the extreme left. B is immediately to the right of C. E is not adjacent to C. Who is second from the right end?",
+   [
+    "D",
+    "E",
+    "C",
+    "B"
+   ],
+   3,
+   "From the left: A(1), C(3), B(4); E cannot be in 2 (adjacent to C), so E is 5 and D is 2; second from the right is B."
+  ],
+  [
+   "Logical Reasoning",
+   "Select the word that completes the analogy.\nBook : Library :: Painting : ?",
+   [
+    "Artist",
+    "Gallery",
+    "Canvas",
+    "Frame"
+   ],
+   1,
+   "Books are kept and displayed in a library; paintings are kept and displayed in a gallery."
+  ],
+  [
+   "Logical Reasoning",
+   "Which number does NOT belong to the group?\n27, 64, 100, 125",
+   [
+    "100",
+    "27",
+    "64",
+    "125"
+   ],
+   0,
+   "27, 64 and 125 are perfect cubes (3³, 4³, 5³); 100 is not."
+  ],
+  [
+   "Language Comprehension",
+   "Select the word closest in meaning to EPHEMERAL.",
+   [
+    "Eternal",
+    "Robust",
+    "Vivid",
+    "Transient"
+   ],
+   3,
+   "Ephemeral means lasting a very short time, i.e. transient."
+  ],
+  [
+   "Language Comprehension",
+   "Select the word most nearly opposite in meaning to LOQUACIOUS.",
+   [
+    "Talkative",
+    "Garrulous",
+    "Reticent",
+    "Verbose"
+   ],
+   2,
+   "Loquacious means talkative; reticent means reserved and quiet."
+  ],
+  [
+   "Language Comprehension",
+   "Fill in the blank with the most appropriate word.\nThe new policy is intended to ______ the compliance burden on small businesses.",
+   [
+    "alleviate",
+    "aggravate",
+    "exacerbate",
+    "intensify"
+   ],
+   0,
+   "A policy meant to help would lighten the burden; 'alleviate' means to reduce or ease."
+  ],
+  [
+   "Language Comprehension",
+   "Identify the part of the sentence that contains an error.\nOne of my friends / have gone to Germany / for higher studies.",
+   [
+    "One of my friends",
+    "have gone to Germany",
+    "for higher studies",
+    "No error"
+   ],
+   1,
+   "The subject 'One' is singular, so it should be 'has gone'."
+  ],
+  [
+   "Language Comprehension",
+   "Select the most appropriate meaning of the idiom 'to burn the midnight oil'.",
+   [
+    "To work or study late into the night",
+    "To waste resources carelessly",
+    "To lose one's temper",
+    "To celebrate late at night"
+   ],
+   0,
+   "The idiom refers to working late at night, originally by lamplight."
+  ],
+  [
+   "Language Comprehension",
+   "Select the grammatically correct sentence.",
+   [
+    "Hardly had he reached the station than the train left.",
+    "Hardly he had reached the station when the train left.",
+    "Hardly did he reached the station when the train left.",
+    "Hardly had he reached the station when the train left."
+   ],
+   3,
+   "'Hardly' takes inversion (had he) and is followed by 'when', not 'than'."
+  ],
+  [
+   "Language Comprehension",
+   "Select the word that completes the analogy.\nVerbose : Concise :: Lethargic : ?",
+   [
+    "Sluggish",
+    "Tired",
+    "Energetic",
+    "Lazy"
+   ],
+   2,
+   "Verbose and concise are antonyms; the antonym of lethargic is energetic."
+  ],
+  [
+   "Language Comprehension",
+   "Read the passage and answer the question.\n\nMany founders treat their first product as a test of their vision. A more useful attitude is to treat it as a test of their assumptions. A minimum viable product—the simplest version that can be put before real customers—is valuable not because it is cheap but because it generates evidence. A founder who builds the full product before testing risks spending years perfecting something nobody wants; one who tests early may discover that customers value a feature the founder considered minor.\n\nAccording to the passage, the main value of a minimum viable product lies in:",
+   [
+    "its low cost of development",
+    "generating evidence about what customers actually value",
+    "proving that the founder's vision is correct",
+    "allowing the full product to be launched sooner"
+   ],
+   1,
+   "The passage says an MVP is valuable 'not because it is cheap but because it generates evidence'."
+  ],
+  [
+   "Language Comprehension",
+   "Read the passage and answer the question.\n\nMany founders treat their first product as a test of their vision. A more useful attitude is to treat it as a test of their assumptions. A minimum viable product—the simplest version that can be put before real customers—is valuable not because it is cheap but because it generates evidence. A founder who builds the full product before testing risks spending years perfecting something nobody wants; one who tests early may discover that customers value a feature the founder considered minor.\n\nThe author implies that a founder who builds the complete product before testing it:",
+   [
+    "may invest heavily in something for which there is little demand",
+    "will always launch a better product",
+    "is testing assumptions more rigorously",
+    "will discover customer needs sooner"
+   ],
+   0,
+   "Building first 'risks spending years perfecting something nobody wants'."
+  ],
+  [
+   "Language Comprehension",
+   "Read the passage and answer the question.\n\nMany founders treat their first product as a test of their vision. A more useful attitude is to treat it as a test of their assumptions. A minimum viable product—the simplest version that can be put before real customers—is valuable not because it is cheap but because it generates evidence. A founder who builds the full product before testing risks spending years perfecting something nobody wants; one who tests early may discover that customers value a feature the founder considered minor.\n\nThe tone of the passage is best described as:",
+   [
+    "nostalgic",
+    "sarcastic",
+    "advisory",
+    "indignant"
+   ],
+   2,
+   "The author recommends a 'more useful attitude' to founders, which is advisory."
+  ],
+  [
+   "General Awareness",
+   "Where is the central office (headquarters) of the Reserve Bank of India located?",
+   [
+    "New Delhi",
+    "Kolkata",
+    "Chennai",
+    "Mumbai"
+   ],
+   3,
+   "The RBI's central office moved from Kolkata to Mumbai in 1937 and has remained there."
+  ],
+  [
+   "General Awareness",
+   "Which Article of the Constitution of India provides for the Finance Commission?",
+   [
+    "Article 112",
+    "Article 280",
+    "Article 148",
+    "Article 324"
+   ],
+   1,
+   "Article 280 provides for the Finance Commission; 112 is the Budget, 148 the CAG and 324 the Election Commission."
+  ],
+  [
+   "General Awareness",
+   "The Comptroller and Auditor General of India is appointed by:",
+   [
+    "the Prime Minister",
+    "the President of India",
+    "Parliament",
+    "the Chief Justice of India"
+   ],
+   1,
+   "Under Article 148 the CAG is appointed by the President by warrant under his hand and seal."
+  ],
+  [
+   "General Awareness",
+   "Who wrote 'The Discovery of India'?",
+   [
+    "Jawaharlal Nehru",
+    "Mahatma Gandhi",
+    "B. R. Ambedkar",
+    "Maulana Abul Kalam Azad"
+   ],
+   0,
+   "Nehru wrote it during his imprisonment at Ahmednagar Fort (1942–46)."
+  ],
+  [
+   "General Awareness",
+   "What is the currency of Japan?",
+   [
+    "Won",
+    "Yuan",
+    "Ringgit",
+    "Yen"
+   ],
+   3,
+   "Japan uses the yen; won is Korean, yuan Chinese and ringgit Malaysian."
+  ],
+  [
+   "General Awareness",
+   "Where is the headquarters of the World Trade Organization (WTO)?",
+   [
+    "New York",
+    "Paris",
+    "Geneva",
+    "Vienna"
+   ],
+   2,
+   "The WTO, established in 1995, is headquartered in Geneva, Switzerland."
+  ],
+  [
+   "General Awareness",
+   "The Securities and Exchange Board of India (SEBI) was given statutory powers in which year?",
+   [
+    "1988",
+    "1992",
+    "1991",
+    "1995"
+   ],
+   1,
+   "SEBI was set up in 1988 as a non-statutory body and became statutory under the SEBI Act, 1992."
+  ],
+  [
+   "General Awareness",
+   "Who was the Chairman of the Drafting Committee of the Constituent Assembly?",
+   [
+    "Rajendra Prasad",
+    "Jawaharlal Nehru",
+    "Sardar Vallabhbhai Patel",
+    "B. R. Ambedkar"
+   ],
+   3,
+   "Dr B. R. Ambedkar chaired the Drafting Committee; Rajendra Prasad was President of the Constituent Assembly."
+  ],
+  [
+   "General Awareness",
+   "The 'Make in India' initiative was launched in which year?",
+   [
+    "2016",
+    "2012",
+    "2014",
+    "2015"
+   ],
+   2,
+   "Make in India was launched on 25 September 2014 to promote manufacturing."
+  ],
+  [
+   "General Awareness",
+   "Fiscal deficit of a government is defined as:",
+   [
+    "total expenditure minus total receipts excluding borrowings",
+    "total expenditure minus revenue receipts",
+    "revenue expenditure minus revenue receipts",
+    "fiscal deficit minus interest payments"
+   ],
+   0,
+   "Fiscal deficit shows total borrowing needs; revenue expenditure minus revenue receipts is the revenue deficit, and fiscal deficit minus interest is the primary deficit."
+  ],
+  [
+   "Innovation & Entrepreneurship",
+   "The Startup India initiative of the Government of India was launched in:",
+   [
+    "August 2014",
+    "July 2015",
+    "January 2016",
+    "March 2018"
+   ],
+   2,
+   "Startup India was launched on 16 January 2016."
+  ],
+  [
+   "Innovation & Entrepreneurship",
+   "In India, the term of a patent is:",
+   [
+    "20 years from the date of filing the application",
+    "10 years from the date of grant",
+    "15 years from the date of filing",
+    "25 years from the date of grant"
+   ],
+   0,
+   "Under Section 53 of the Patents Act, 1970, a patent lasts 20 years from the filing date."
+  ],
+  [
+   "Innovation & Entrepreneurship",
+   "Which form of intellectual property protects a brand name or logo?",
+   [
+    "Patent",
+    "Trademark",
+    "Copyright",
+    "Geographical Indication"
+   ],
+   1,
+   "A trademark protects marks such as names, logos and symbols that identify the source of goods or services."
+  ],
+  [
+   "Innovation & Entrepreneurship",
+   "'Darjeeling Tea' is protected in India as which type of intellectual property?",
+   [
+    "Trademark",
+    "Patent",
+    "Copyright",
+    "Geographical Indication"
+   ],
+   3,
+   "Darjeeling Tea was India's first registered Geographical Indication (2004–05)."
+  ],
+  [
+   "Innovation & Entrepreneurship",
+   "A business model in which basic features are offered free of charge while advanced features are paid for is called:",
+   [
+    "Franchising",
+    "Freemium",
+    "Razor-and-blade",
+    "Reverse auction"
+   ],
+   1,
+   "Freemium combines 'free' and 'premium': free basic use with paid upgrades."
+  ],
+  [
+   "Innovation & Entrepreneurship",
+   "A privately held startup valued at over US$1 billion is commonly called a:",
+   [
+    "Decacorn",
+    "Centaur",
+    "Unicorn",
+    "Pegasus"
+   ],
+   2,
+   "A unicorn is valued above $1 billion; a decacorn above $10 billion."
+  ],
+  [
+   "Innovation & Entrepreneurship",
+   "According to Clayton Christensen's theory, disruptive innovation typically begins by:",
+   [
+    "serving overlooked low-end or new customers with simpler, cheaper offerings",
+    "adding premium features for the most demanding customers",
+    "acquiring the market leader",
+    "lobbying for regulatory changes"
+   ],
+   0,
+   "Disruptors start at the low end or in new markets ignored by incumbents and then move upmarket."
+  ],
+  [
+   "Innovation & Entrepreneurship",
+   "An angel investor is best described as:",
+   [
+    "a bank that lends to startups at concessional rates",
+    "a government agency that gives grants to startups",
+    "a firm that buys listed shares of large companies",
+    "an individual who invests personal funds in early-stage startups, usually for equity"
+   ],
+   3,
+   "Angel investors are typically wealthy individuals who fund early-stage ventures in exchange for ownership."
+  ],
+  [
+   "Innovation & Entrepreneurship",
+   "The Atal Innovation Mission (AIM) has been set up under:",
+   [
+    "the Ministry of Finance",
+    "the Reserve Bank of India",
+    "NITI Aayog",
+    "the Department of Space"
+   ],
+   2,
+   "AIM was established in 2016 under NITI Aayog to promote innovation and entrepreneurship."
+  ],
+  [
+   "Innovation & Entrepreneurship",
+   "In entrepreneurship, 'bootstrapping' refers to:",
+   [
+    "raising money through an initial public offering",
+    "building a business with personal savings and internal revenue, without external capital",
+    "copying a competitor's business model",
+    "selling a company soon after founding it"
+   ],
+   1,
+   "Bootstrapping means self-funding growth rather than relying on outside investors."
+  ]
+ ],
+ "mat": [
+  [
+   "Language Comprehension",
+   "Choose the word closest in meaning to PRAGMATIC.",
+   [
+    "Idealistic",
+    "Practical",
+    "Dogmatic",
+    "Romantic"
+   ],
+   1,
+   "Pragmatic means dealing with things sensibly and realistically, i.e. practical."
+  ],
+  [
+   "Language Comprehension",
+   "Choose the word most opposite in meaning to ADVERSITY.",
+   [
+    "Misfortune",
+    "Hardship",
+    "Calamity",
+    "Prosperity"
+   ],
+   3,
+   "Adversity means difficulty or misfortune; prosperity is its opposite."
+  ],
+  [
+   "Language Comprehension",
+   "Choose the correct meaning of the idiom 'to cut corners'.",
+   [
+    "To take a shorter route while driving",
+    "To do something in the easiest or cheapest way, often at the cost of quality",
+    "To reduce the size of a document",
+    "To avoid meeting people"
+   ],
+   1,
+   "Cutting corners means skimping on effort or quality to save time or money."
+  ],
+  [
+   "Language Comprehension",
+   "Choose the one word for: 'Government by the wealthy'.",
+   [
+    "Autocracy",
+    "Theocracy",
+    "Bureaucracy",
+    "Plutocracy"
+   ],
+   3,
+   "Plutocracy is rule by the rich; theocracy is rule by religious authority."
+  ],
+  [
+   "Language Comprehension",
+   "Fill in the blank with the most appropriate word.\nDespite his ______ efforts, the project could not be completed on time.",
+   [
+    "lethargic",
+    "feeble",
+    "strenuous",
+    "negligent"
+   ],
+   2,
+   "'Despite' signals contrast, so the efforts must have been great; 'strenuous' fits."
+  ],
+  [
+   "Language Comprehension",
+   "Identify the part of the sentence that contains an error.\nThe number of applicants / are increasing / every year.",
+   [
+    "The number of applicants",
+    "are increasing",
+    "every year",
+    "No error"
+   ],
+   1,
+   "'The number of' takes a singular verb, so it should be 'is increasing'."
+  ],
+  [
+   "Language Comprehension",
+   "The first sentence is given. Arrange P, Q, R and S to form a coherent paragraph.\n1. Commercial tea cultivation in India began in Assam in the 1830s.\nP. Before long, however, the native Assam variety proved better suited to local conditions.\nQ. At first, planters relied on seeds and expertise brought from China.\nR. Today, India ranks among the world's largest producers of tea.\nS. Its success encouraged the spread of plantations to Darjeeling and the Nilgiris.",
+   [
+    "PQSR",
+    "QSPR",
+    "SQPR",
+    "QPSR"
+   ],
+   3,
+   "Q ('At first') follows the start, P ('however') contrasts with it, S builds on that success, and R ('Today') concludes."
+  ],
+  [
+   "Language Comprehension",
+   "Choose the correct passive form of: They are building a new bridge over the river.",
+   [
+    "A new bridge is being built over the river by them.",
+    "A new bridge was being built over the river by them.",
+    "A new bridge has been built over the river by them.",
+    "A new bridge is built over the river by them."
+   ],
+   0,
+   "Present continuous active becomes 'is being + past participle' in the passive."
+  ],
+  [
+   "Language Comprehension",
+   "Which of the following words is misspelt?",
+   [
+    "Embarrass",
+    "Occurrence",
+    "Recieve",
+    "Millennium"
+   ],
+   2,
+   "The correct spelling is 'receive' (e before i after c)."
+  ],
+  [
+   "Language Comprehension",
+   "Read the passage and answer the question.\n\nHabits are often described as a matter of willpower, but research suggests that the environment does much of the work. People who appear unusually disciplined frequently arrange their surroundings so that temptations are hard to reach and desirable actions are easy. A person who keeps fruit on the counter and biscuits in a high cupboard is not resisting temptation more strongly; she has simply made resistance unnecessary. Willpower, on this view, is less a muscle to be strengthened than a scarce resource to be conserved.\n\nWhich of the following best expresses the main idea of the passage?",
+   [
+    "Disciplined people have far stronger willpower than others",
+    "Willpower can be increased through regular practice",
+    "Eating fruit is the best way to build good habits",
+    "Shaping one's surroundings is often more effective than relying on willpower to sustain good habits"
+   ],
+   3,
+   "The passage argues that environment 'does much of the work' and that willpower should be conserved."
+  ],
+  [
+   "Language Comprehension",
+   "Read the passage and answer the question.\n\nHabits are often described as a matter of willpower, but research suggests that the environment does much of the work. People who appear unusually disciplined frequently arrange their surroundings so that temptations are hard to reach and desirable actions are easy. A person who keeps fruit on the counter and biscuits in a high cupboard is not resisting temptation more strongly; she has simply made resistance unnecessary. Willpower, on this view, is less a muscle to be strengthened than a scarce resource to be conserved.\n\nThe example of fruit on the counter and biscuits in a high cupboard illustrates:",
+   [
+    "that fruit is healthier than biscuits",
+    "how arranging surroundings removes the need to resist temptation",
+    "that disciplined people resist temptation more strongly",
+    "that kitchens should be redesigned by experts"
+   ],
+   1,
+   "The author says such a person 'has simply made resistance unnecessary'."
+  ],
+  [
+   "Language Comprehension",
+   "Read the passage and answer the question.\n\nHabits are often described as a matter of willpower, but research suggests that the environment does much of the work. People who appear unusually disciplined frequently arrange their surroundings so that temptations are hard to reach and desirable actions are easy. A person who keeps fruit on the counter and biscuits in a high cupboard is not resisting temptation more strongly; she has simply made resistance unnecessary. Willpower, on this view, is less a muscle to be strengthened than a scarce resource to be conserved.\n\nAccording to the passage, willpower is best viewed as:",
+   [
+    "a limited resource that should be conserved",
+    "a muscle that grows stronger with exercise",
+    "irrelevant to forming any habit",
+    "unlimited in disciplined people"
+   ],
+   0,
+   "The last sentence calls willpower 'a scarce resource to be conserved' rather than a muscle."
+  ],
+  [
+   "Language Comprehension",
+   "Read the passage and answer the question.\n\nHabits are often described as a matter of willpower, but research suggests that the environment does much of the work. People who appear unusually disciplined frequently arrange their surroundings so that temptations are hard to reach and desirable actions are easy. A person who keeps fruit on the counter and biscuits in a high cupboard is not resisting temptation more strongly; she has simply made resistance unnecessary. Willpower, on this view, is less a muscle to be strengthened than a scarce resource to be conserved.\n\nAs used in the passage, the word 'scarce' most nearly means:",
+   [
+    "frightening",
+    "in short supply",
+    "unnecessary",
+    "abundant"
+   ],
+   1,
+   "Scarce means insufficient for the demand, i.e. in short supply."
+  ],
+  [
+   "Intelligence & Critical Reasoning",
+   "Find the next term of the series.\n1, 2, 6, 24, 120, ?",
+   [
+    "600",
+    "840",
+    "720",
+    "240"
+   ],
+   2,
+   "Terms are multiplied by 2, 3, 4, 5, so the next is 120 × 6 = 720."
+  ],
+  [
+   "Intelligence & Critical Reasoning",
+   "Find the next letter of the series.\nZ, X, U, Q, L, ?",
+   [
+    "F",
+    "G",
+    "E",
+    "H"
+   ],
+   0,
+   "Positions 26, 24, 21, 17, 12 fall by 2, 3, 4, 5; next is 12 − 6 = 6 = F."
+  ],
+  [
+   "Intelligence & Critical Reasoning",
+   "If SKY is coded as 19-11-25, how is MAT coded?",
+   [
+    "13-2-20",
+    "12-1-20",
+    "14-1-21",
+    "13-1-20"
+   ],
+   3,
+   "Each letter is replaced by its alphabet position: M = 13, A = 1, T = 20."
+  ],
+  [
+   "Intelligence & Critical Reasoning",
+   "Introducing a woman, Arun said, \"Her mother is the only daughter of my mother.\" How is the woman related to Arun?",
+   [
+    "Sister",
+    "Daughter",
+    "Cousin",
+    "Niece"
+   ],
+   3,
+   "The only daughter of Arun's mother is Arun's sister; the woman is his sister's daughter, i.e. his niece."
+  ],
+  [
+   "Intelligence & Critical Reasoning",
+   "A clock is placed so that at 12 noon its minute hand points North-East. In which direction will its hour hand point at 3:00 pm?",
+   [
+    "South-East",
+    "North-West",
+    "South-West",
+    "East"
+   ],
+   0,
+   "The 12 mark faces North-East; the 3 mark is 90° clockwise from it, i.e. South-East."
+  ],
+  [
+   "Intelligence & Critical Reasoning",
+   "Statements:\nAll engineers are graduates.\nNo graduate is illiterate.\nConclusions:\nI. No engineer is illiterate.\nII. Some graduates are engineers.",
+   [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both I and II follow",
+    "Neither I nor II follows"
+   ],
+   2,
+   "Engineers lie inside graduates, who are all literate, so I follows; since all engineers are graduates, some graduates are engineers, so II follows."
+  ],
+  [
+   "Intelligence & Critical Reasoning",
+   "Argument: \"Our city should build a metro rail line, because it will reduce road traffic congestion.\" Which of the following is an assumption of this argument?",
+   [
+    "Metro rail is cheaper to build than new roads",
+    "Traffic congestion is the city's only problem",
+    "A significant number of road commuters will switch to the metro",
+    "Other cities have already built metro lines"
+   ],
+   2,
+   "The metro can reduce road congestion only if enough road users shift to it."
+  ],
+  [
+   "Intelligence & Critical Reasoning",
+   "A café owner noticed that sales rose after she began playing slow music, and concluded that slow music makes customers stay longer and buy more. Which of the following, if true, most strengthens her conclusion?",
+   [
+    "Fast music is more popular among young people",
+    "Customers' average time in the café increased after the change, while menu, prices and staffing stayed the same",
+    "A nearby café closed during the same period",
+    "The café raised its prices at the same time"
+   ],
+   1,
+   "It confirms the proposed mechanism (longer stays) and rules out other changes; the closure and price rise offer alternative explanations."
+  ],
+  [
+   "Intelligence & Critical Reasoning",
+   "Statement: Many students in a district failed the board examination in Mathematics.\nCourses of action:\nI. Remedial classes in Mathematics should be organised for these students.\nII. Mathematics should be removed from the syllabus.",
+   [
+    "Only I follows",
+    "Only II follows",
+    "Both I and II follow",
+    "Neither I nor II follows"
+   ],
+   0,
+   "Remedial classes address the problem practically; removing a core subject is an extreme, impractical step."
+  ],
+  [
+   "Intelligence & Critical Reasoning",
+   "In a queue, Pooja is 12th from the front and Ritu is 18th from the back. There are 4 people between them, and Pooja is ahead of Ritu. How many people are in the queue?",
+   [
+    "34",
+    "33",
+    "35",
+    "30"
+   ],
+   0,
+   "Ritu is 12 + 4 + 1 = 17th from the front, so total = 17 + 18 − 1 = 34."
+  ],
+  [
+   "Intelligence & Critical Reasoning",
+   "Select the word that completes the analogy.\nCardiology : Heart :: Nephrology : ?",
+   [
+    "Nerves",
+    "Kidney",
+    "Liver",
+    "Lungs"
+   ],
+   1,
+   "Cardiology studies the heart; nephrology studies the kidneys."
+  ],
+  [
+   "Intelligence & Critical Reasoning",
+   "Which number does NOT belong to the group?\n132, 156, 182, 200",
+   [
+    "132",
+    "156",
+    "200",
+    "182"
+   ],
+   2,
+   "132 = 11 × 12, 156 = 12 × 13, 182 = 13 × 14 are products of consecutive integers; 200 is not."
+  ],
+  [
+   "Intelligence & Critical Reasoning",
+   "A cube painted on all faces is cut into 64 identical smaller cubes. How many smaller cubes have no painted face?",
+   [
+    "16",
+    "24",
+    "4",
+    "8"
+   ],
+   3,
+   "Each edge has 4 small cubes; unpainted inner cubes = (4 − 2)³ = 8."
+  ],
+  [
+   "Mathematical Skills",
+   "A sum of money doubles itself in 8 years at simple interest. What is the rate of interest per annum?",
+   [
+    "10%",
+    "12.5%",
+    "8%",
+    "15%"
+   ],
+   1,
+   "Interest = principal in 8 years, so rate = 100/8 = 12.5%."
+  ],
+  [
+   "Mathematical Skills",
+   "Two numbers are in the ratio 5 : 7 and their LCM is 420. What is their HCF?",
+   [
+    "12",
+    "15",
+    "10",
+    "14"
+   ],
+   0,
+   "Numbers are 5k and 7k with LCM 35k = 420, so k = 12 = HCF."
+  ],
+  [
+   "Mathematical Skills",
+   "A sells an article to B at a 10% profit, and B sells it to C at a 20% profit. If C pays ₹1,320, what did A pay for it?",
+   [
+    "₹1,100",
+    "₹1,050",
+    "₹1,200",
+    "₹1,000"
+   ],
+   3,
+   "A's cost × 1.1 × 1.2 = 1320, so A's cost = 1320/1.32 = ₹1,000."
+  ],
+  [
+   "Mathematical Skills",
+   "The speed of a boat in still water is 15 km/h and the speed of the stream is 3 km/h. How long will the boat take to go 36 km downstream and return?",
+   [
+    "4.8 hours",
+    "6 hours",
+    "5 hours",
+    "4.5 hours"
+   ],
+   2,
+   "Time = 36/18 + 36/12 = 2 + 3 = 5 hours."
+  ],
+  [
+   "Mathematical Skills",
+   "If 3x − 2y = 4 and 2x + y = 12, what is the value of x + y?",
+   [
+    "6",
+    "8",
+    "10",
+    "7"
+   ],
+   1,
+   "From y = 12 − 2x: 3x − 24 + 4x = 4, so x = 4, y = 4 and x + y = 8."
+  ],
+  [
+   "Mathematical Skills",
+   "What is the perimeter of a semicircle of radius 14 cm? (Take π = 22/7)",
+   [
+    "72 cm",
+    "44 cm",
+    "58 cm",
+    "88 cm"
+   ],
+   0,
+   "Perimeter = πr + 2r = 44 + 28 = 72 cm."
+  ],
+  [
+   "Mathematical Skills",
+   "In an election between two candidates, the winner received 58% of the valid votes and won by 4,800 votes. What was the total number of valid votes?",
+   [
+    "28,000",
+    "32,000",
+    "30,000",
+    "24,000"
+   ],
+   2,
+   "Margin = 58% − 42% = 16% of total = 4,800, so total = 30,000."
+  ],
+  [
+   "Mathematical Skills",
+   "A is twice as efficient as B. Working together, they finish a job in 12 days. How many days will A alone take?",
+   [
+    "24 days",
+    "36 days",
+    "16 days",
+    "18 days"
+   ],
+   3,
+   "If B does x per day and A 2x, then 3x = 1/12, x = 1/36, so A's rate = 1/18 and A takes 18 days."
+  ],
+  [
+   "Mathematical Skills",
+   "A man covers one-third of a distance at 20 km/h and the rest at 40 km/h. What is his average speed for the whole journey?",
+   [
+    "30 km/h",
+    "32 km/h",
+    "28 km/h",
+    "33.33 km/h"
+   ],
+   0,
+   "Take distance 3 km: time = 1/20 + 2/40 = 0.1 h, so average speed = 3/0.1 = 30 km/h."
+  ],
+  [
+   "Mathematical Skills",
+   "An arc of a circle subtends an angle of 100° at the centre. What angle does it subtend at a point on the remaining part of the circle?",
+   [
+    "100°",
+    "80°",
+    "50°",
+    "130°"
+   ],
+   2,
+   "The angle at the circumference is half the angle at the centre: 100°/2 = 50°."
+  ],
+  [
+   "Mathematical Skills",
+   "What are the roots of the equation x² − 5x + 6 = 0?",
+   [
+    "−2 and −3",
+    "1 and 6",
+    "−1 and 6",
+    "2 and 3"
+   ],
+   3,
+   "x² − 5x + 6 = (x − 2)(x − 3) = 0, so x = 2 or 3."
+  ],
+  [
+   "Mathematical Skills",
+   "At what rate per annum, compounded annually, will ₹5,000 amount to ₹6,050 in 2 years?",
+   [
+    "11%",
+    "10%",
+    "10.5%",
+    "12%"
+   ],
+   1,
+   "(1 + r)² = 6050/5000 = 1.21, so 1 + r = 1.1 and r = 10%."
+  ],
+  [
+   "Data Analysis & Sufficiency",
+   "Exports (₹ crore) of a company:\n2019 – 250, 2020 – 200, 2021 – 300, 2022 – 360, 2023 – 450\nIn which year was the percentage increase in exports over the previous year the highest?",
+   [
+    "2021",
+    "2022",
+    "2023",
+    "2020"
+   ],
+   0,
+   "Changes: 2020 −20%, 2021 +50%, 2022 +20%, 2023 +25%; the highest is 2021."
+  ],
+  [
+   "Data Analysis & Sufficiency",
+   "Exports (₹ crore) of a company:\n2019 – 250, 2020 – 200, 2021 – 300, 2022 – 360, 2023 – 450\nWhat were the average annual exports over the five years?",
+   [
+    "₹300 crore",
+    "₹312 crore",
+    "₹320 crore",
+    "₹315 crore"
+   ],
+   1,
+   "Total = 250 + 200 + 300 + 360 + 450 = 1560; average = 1560/5 = ₹312 crore."
+  ],
+  [
+   "Data Analysis & Sufficiency",
+   "A family's monthly income of ₹60,000 is spent as: Rent 25%, Food 30%, Education 15%, Transport 10%, Savings 20%.\nIn a pie chart of this spending, what is the central angle for Food?",
+   [
+    "90°",
+    "120°",
+    "72°",
+    "108°"
+   ],
+   3,
+   "Angle = 30% of 360° = 108°."
+  ],
+  [
+   "Data Analysis & Sufficiency",
+   "A family's monthly income of ₹60,000 is spent as: Rent 25%, Food 30%, Education 15%, Transport 10%, Savings 20%.\nHow much more does the family spend on Food than on Transport each month?",
+   [
+    "₹10,000",
+    "₹18,000",
+    "₹12,000",
+    "₹6,000"
+   ],
+   2,
+   "Difference = (30% − 10%) of ₹60,000 = ₹12,000."
+  ],
+  [
+   "Data Analysis & Sufficiency",
+   "Cars sold by a dealer: January 120, February 90, March 150, April 140. What is the ratio of total sales in January–February to total sales in March–April?",
+   [
+    "3 : 4",
+    "21 : 29",
+    "7 : 10",
+    "29 : 21"
+   ],
+   1,
+   "Jan–Feb = 210 and Mar–Apr = 290, so the ratio is 210 : 290 = 21 : 29."
+  ],
+  [
+   "Data Analysis & Sufficiency",
+   "A firm's profit percentage (Profit % = (Income − Expenditure)/Expenditure × 100) was 20% in 2021 and 25% in 2022. Its expenditure was ₹80 lakh in 2021 and ₹96 lakh in 2022. By what percentage did its income increase from 2021 to 2022?",
+   [
+    "25%",
+    "20%",
+    "24%",
+    "30%"
+   ],
+   0,
+   "Income 2021 = 80 × 1.2 = 96 and 2022 = 96 × 1.25 = 120; increase = 24/96 = 25%."
+  ],
+  [
+   "Data Analysis & Sufficiency",
+   "What is the value of x?\nI. 3x + 2 = 11\nII. x² = 9",
+   [
+    "Statement I alone is sufficient, but Statement II alone is not",
+    "Statement II alone is sufficient, but Statement I alone is not",
+    "Both statements together are needed, but neither alone is sufficient",
+    "Each statement alone is sufficient"
+   ],
+   0,
+   "Statement I gives x = 3 uniquely; Statement II allows x = 3 or −3."
+  ],
+  [
+   "Data Analysis & Sufficiency",
+   "n is an integer. Is n even?\nI. n² is a multiple of 4.\nII. 3n is even.",
+   [
+    "Statement I alone is sufficient, but Statement II alone is not",
+    "Statement II alone is sufficient, but Statement I alone is not",
+    "Both statements together are needed, but neither alone is sufficient",
+    "Each statement alone is sufficient"
+   ],
+   3,
+   "If n² is a multiple of 4, n² is even and so n is even; if 3n is even, n must be even since 3 is odd. Each alone answers the question."
+  ],
+  [
+   "Data Analysis & Sufficiency",
+   "What is the area of rectangle ABCD?\nI. Its perimeter is 28 cm.\nII. Its diagonal is 10 cm.",
+   [
+    "Statement I alone is sufficient, but Statement II alone is not",
+    "Statement II alone is sufficient, but Statement I alone is not",
+    "Both statements together are needed, but neither alone is sufficient",
+    "Each statement alone is sufficient"
+   ],
+   2,
+   "Together l + w = 14 and l² + w² = 100, so 2lw = 196 − 100 = 96 and area = 48 cm²; neither statement alone fixes the area."
+  ],
+  [
+   "Data Analysis & Sufficiency",
+   "What is Ravi's present age?\nI. Ravi is 5 years older than Sita.\nII. Sita's age is half of her mother's age, and her mother is 50 years old.",
+   [
+    "Statement I alone is sufficient, but Statement II alone is not",
+    "Statement II alone is sufficient, but Statement I alone is not",
+    "Both statements together are needed, but neither alone is sufficient",
+    "Each statement alone is sufficient"
+   ],
+   2,
+   "II gives Sita = 25, and then I gives Ravi = 30; neither statement alone gives Ravi's age."
+  ],
+  [
+   "Data Analysis & Sufficiency",
+   "How many students are there in the class?\nI. The ratio of boys to girls is 3 : 2.\nII. There are 18 boys, and the number of girls is 12 less than the number of boys.",
+   [
+    "Statement I alone is sufficient, but Statement II alone is not",
+    "Statement II alone is sufficient, but Statement I alone is not",
+    "Both statements together are needed, but neither alone is sufficient",
+    "Each statement alone is sufficient"
+   ],
+   1,
+   "II gives 18 boys and 6 girls, i.e. 24 students; I gives only a ratio."
+  ],
+  [
+   "Data Analysis & Sufficiency",
+   "What is the speed of the train?\nI. It covers 180 km in 2.5 hours at a uniform speed.\nII. The train is 300 m long.",
+   [
+    "Statement I alone is sufficient, but Statement II alone is not",
+    "Statement II alone is sufficient, but Statement I alone is not",
+    "Both statements together are needed, but neither alone is sufficient",
+    "Each statement alone is sufficient"
+   ],
+   0,
+   "I gives speed = 180/2.5 = 72 km/h; II gives only the length."
+  ]
+ ]
+}

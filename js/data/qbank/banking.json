@@ -1,0 +1,3012 @@
+{
+ "ibps-po": [
+  [
+   "English Language",
+   "Read the passage and answer the question.\nMicrofinance institutions extend small, collateral-free loans to borrowers who lack formal credit histories. Because many such borrowers are women in rural households, lenders often rely on group guarantees, where members of a group share responsibility for repayment. Critics argue that peer pressure within these groups can push borrowers into taking fresh loans merely to repay old ones.\nAccording to the passage, why do lenders rely on group guarantees?",
+   [
+    "Because rural women prefer to borrow in large groups",
+    "Because peer pressure guarantees high profits for lenders",
+    "Because the borrowers usually cannot offer collateral or a credit record",
+    "Because the government requires every microloan to be guaranteed"
+   ],
+   2,
+   "The passage says the loans are collateral-free and the borrowers lack credit histories, so the group guarantee replaces these securities."
+  ],
+  [
+   "English Language",
+   "Read the passage and answer the question.\nWhen a country's currency weakens, its exports become cheaper for foreign buyers, which can help exporters win orders. At the same time, imported goods such as crude oil and electronic components become costlier, and these higher costs can feed into domestic prices. Policymakers therefore rarely welcome a sharp fall in the currency, even if exporters gain from it.\nWhich of the following can be inferred from the passage?",
+   [
+    "A weaker currency always lowers domestic inflation",
+    "A weaker currency has both benefits and costs for an economy",
+    "Exporters lose orders when the currency weakens",
+    "Policymakers prefer a sharp fall in the currency"
+   ],
+   1,
+   "The passage lists a gain (cheaper exports) and a cost (costlier imports feeding inflation), so the effect is mixed."
+  ],
+  [
+   "English Language",
+   "Read the passage and answer the question.\nThe new branch manager was known for her candid assessments; she told her team plainly where they had fallen short and what needed to change. Though some found her manner abrupt at first, most came to value her honesty.\nWhich word is most nearly the SAME in meaning as 'candid' as used in the passage?",
+   [
+    "Secretive",
+    "Polite",
+    "Frank",
+    "Hasty"
+   ],
+   2,
+   "'Candid' means open and honest; the passage confirms this with 'told her team plainly' and 'honesty'."
+  ],
+  [
+   "English Language",
+   "Choose the word that best fills the blank.\nTo curb rising inflation, the central bank decided to ________ the policy rate by 25 basis points.",
+   [
+    "raise",
+    "lower",
+    "waive",
+    "dilute"
+   ],
+   0,
+   "Raising the policy rate makes borrowing costlier and reduces demand, which helps curb inflation."
+  ],
+  [
+   "English Language",
+   "Choose the word that best fills the blank.\nDespite repeated reminders, the borrower failed to ________ the loan instalments on time.",
+   [
+    "reply",
+    "repay",
+    "repeal",
+    "reprise"
+   ],
+   1,
+   "A borrower 'repays' instalments; the other words do not collocate with 'loan instalments'."
+  ],
+  [
+   "English Language",
+   "Choose the pair of words that best fills both blanks.\nThe audit team was ________ to find that the records had been ________ maintained, with not a single entry missing.",
+   [
+    "pleased, meticulously",
+    "dismayed, carelessly",
+    "pleased, poorly",
+    "shocked, hardly"
+   ],
+   0,
+   "'Not a single entry missing' shows careful record-keeping (meticulously), which would please the auditors."
+  ],
+  [
+   "English Language",
+   "Identify the part of the sentence that contains a grammatical error.\nNeither the manager nor his assistants (A) / was present in the branch (B) / when the auditors (C) / arrived on Monday morning. (D)",
+   [
+    "(A)",
+    "(B)",
+    "(C)",
+    "(D)"
+   ],
+   1,
+   "With 'neither…nor', the verb agrees with the nearer subject 'assistants', so 'was' should be 'were'."
+  ],
+  [
+   "English Language",
+   "Identify the part of the sentence that contains a grammatical error.\nThe committee submitted its report (A) / to the board last week (B) / after discussing about the proposal (C) / for several months. (D)",
+   [
+    "(A)",
+    "(B)",
+    "(C)",
+    "(D)"
+   ],
+   2,
+   "'Discuss' is a transitive verb and takes no preposition; it should be 'after discussing the proposal'."
+  ],
+  [
+   "English Language",
+   "Choose the option that best replaces the underlined part (in capitals). If no change is needed, choose 'No improvement required'.\nHardly had the customer left the branch THAN THE ALARM WENT OFF.",
+   [
+    "when the alarm went off",
+    "then the alarm went off",
+    "that the alarm went off",
+    "No improvement required"
+   ],
+   0,
+   "'Hardly' is followed by 'when' (or 'before'), not 'than', which pairs with 'no sooner'."
+  ],
+  [
+   "English Language",
+   "Rearrange the sentences to form a coherent paragraph.\nP: As a result, households began to move their savings from cash into bank accounts.\nQ: Later, the government pushed banks to open branches in remote villages.\nR: Some decades ago, many rural families had no safe place to keep their money.\nS: Banks, in turn, could use these deposits to lend to local businesses.",
+   [
+    "QRPS",
+    "RPQS",
+    "RQPS",
+    "PRSQ"
+   ],
+   2,
+   "R sets up the problem, Q gives the response, P its result ('As a result'), and S the follow-on effect ('in turn')."
+  ],
+  [
+   "English Language",
+   "Choose the word most similar in meaning to PRUDENT.",
+   [
+    "Reckless",
+    "Lavish",
+    "Judicious",
+    "Timid"
+   ],
+   2,
+   "Prudent means acting with care and good judgement, i.e. judicious."
+  ],
+  [
+   "English Language",
+   "Choose the word most opposite in meaning to FRUGAL.",
+   [
+    "Thrifty",
+    "Economical",
+    "Extravagant",
+    "Careful"
+   ],
+   2,
+   "Frugal means sparing with money; its opposite is extravagant."
+  ],
+  [
+   "English Language",
+   "Choose the correct meaning of the idiom: 'To burn the midnight oil'.",
+   [
+    "To waste resources carelessly",
+    "To start a bitter quarrel",
+    "To celebrate a festival with lamps",
+    "To work or study late into the night"
+   ],
+   3,
+   "The idiom refers to staying up late to work or study."
+  ],
+  [
+   "English Language",
+   "Choose the correctly spelt word.",
+   [
+    "Acommodation",
+    "Accommodation",
+    "Accomodation",
+    "Acomodation"
+   ],
+   1,
+   "The correct spelling has a double 'c' and a double 'm': accommodation."
+  ],
+  [
+   "English Language",
+   "Choose the option that best replaces the part in capitals. If no change is needed, choose 'No improvement required'.\nIF I WOULD HAVE KNOWN about the holiday, I would have planned the trip earlier.",
+   [
+    "If I knew",
+    "Had I known",
+    "If I would know",
+    "No improvement required"
+   ],
+   1,
+   "A past unreal condition uses the past perfect ('If I had known' or inverted 'Had I known'), not 'would have' in the if-clause."
+  ],
+  [
+   "Quantitative Aptitude",
+   "What approximate value should come in place of the question mark (?)\n24.98% of 639.97 + 17.02 × 11.99 = ?",
+   [
+    "352",
+    "376",
+    "364",
+    "388"
+   ],
+   2,
+   "≈ 25% of 640 + 17 × 12 = 160 + 204 = 364."
+  ],
+  [
+   "Quantitative Aptitude",
+   "What will come in place of the question mark (?) in the series?\n7, 15, 32, 67, 138, ?",
+   [
+    "279",
+    "283",
+    "281",
+    "276"
+   ],
+   2,
+   "Pattern ×2+1, ×2+2, ×2+3, ×2+4, ×2+5: 138 × 2 + 5 = 281."
+  ],
+  [
+   "Quantitative Aptitude",
+   "Two equations I and II are given. Solve both and choose the correct relationship between x and y.\nI. x² − 11x + 30 = 0\nII. y² − 15y + 56 = 0",
+   [
+    "x > y",
+    "x < y",
+    "x ≥ y",
+    "Relationship cannot be established"
+   ],
+   1,
+   "x = 5, 6 (factors of 30 adding to 11); y = 7, 8. Every x is smaller than every y, so x < y."
+  ],
+  [
+   "Quantitative Aptitude",
+   "The population of a town increased by 10% in the first year and decreased by 10% in the second year. If the population at the end of two years was 29,700, what was the initial population?",
+   [
+    "29,700",
+    "30,300",
+    "27,000",
+    "30,000"
+   ],
+   3,
+   "P × 1.1 × 0.9 = 0.99P = 29,700, so P = 30,000."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A shopkeeper marks an article 40% above its cost price and allows a discount of 15%. If he earns a profit of ₹171, what is the cost price?",
+   [
+    "₹950",
+    "₹900",
+    "₹855",
+    "₹1,140"
+   ],
+   1,
+   "SP = 1.40 × 0.85 = 1.19 × CP, so profit = 19% of CP = 171 → CP = 171 ÷ 0.19 = ₹900."
+  ],
+  [
+   "Quantitative Aptitude",
+   "The difference between the compound interest (compounded annually) and the simple interest on a sum for 2 years at 8% per annum is ₹96. What is the sum?",
+   [
+    "₹12,000",
+    "₹15,000",
+    "₹18,000",
+    "₹16,500"
+   ],
+   1,
+   "For 2 years, CI − SI = P(r/100)² → P × 0.0064 = 96 → P = ₹15,000."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A and B started a business with ₹24,000 and ₹36,000 respectively. After 4 months, A invested ₹6,000 more and B withdrew ₹6,000. If the profit at the end of the year was ₹22,800, what is A's share?",
+   [
+    "₹12,160",
+    "₹9,120",
+    "₹11,400",
+    "₹10,640"
+   ],
+   3,
+   "A = 24,000×4 + 30,000×8 = 3,36,000; B = 36,000×4 + 30,000×8 = 3,84,000; ratio 7 : 8, so A gets 22,800 × 7/15 = ₹10,640."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A can complete a work in 12 days and B in 18 days. They work together for 4 days, after which A leaves. In how many more days will B finish the remaining work?",
+   [
+    "6 days",
+    "9 days",
+    "10 days",
+    "8 days"
+   ],
+   3,
+   "Together they do 1/12 + 1/18 = 5/36 per day; in 4 days 20/36 = 5/9. Remaining 4/9 × 18 = 8 days."
+  ],
+  [
+   "Quantitative Aptitude",
+   "Pipes A and B can fill a tank in 20 minutes and 30 minutes respectively, while pipe C can empty the full tank in 15 minutes. If all three are opened together on an empty tank, in how much time will it be filled?",
+   [
+    "45 minutes",
+    "40 minutes",
+    "60 minutes",
+    "72 minutes"
+   ],
+   2,
+   "Net rate = 1/20 + 1/30 − 1/15 = (3 + 2 − 4)/60 = 1/60, so 60 minutes."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A train 240 m long crosses a platform 360 m long in 30 seconds. What is the speed of the train?",
+   [
+    "64.8 km/h",
+    "80 km/h",
+    "28.8 km/h",
+    "72 km/h"
+   ],
+   3,
+   "Distance = 240 + 360 = 600 m; speed = 600/30 = 20 m/s = 20 × 18/5 = 72 km/h."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A boat covers 48 km downstream in 3 hours and the same distance upstream in 4 hours. How long will it take to cover 70 km in still water?",
+   [
+    "4 hours",
+    "5 hours",
+    "5.5 hours",
+    "6 hours"
+   ],
+   1,
+   "Downstream 16 km/h, upstream 12 km/h, so still-water speed = (16 + 12)/2 = 14 km/h; 70/14 = 5 hours."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A vessel contains 60 litres of a mixture of milk and water in the ratio 7 : 3. How many litres of water must be added to make the ratio 3 : 2?",
+   [
+    "8 litres",
+    "10 litres",
+    "12 litres",
+    "15 litres"
+   ],
+   1,
+   "Milk = 42 L, water = 18 L. 42/(18 + w) = 3/2 → 18 + w = 28 → w = 10 L."
+  ],
+  [
+   "Quantitative Aptitude",
+   "The perimeter of a rectangle is 56 cm and its length is 4 cm more than its breadth. What is the area of a square whose side equals the diagonal of the rectangle?",
+   [
+    "384 cm²",
+    "196 cm²",
+    "441 cm²",
+    "400 cm²"
+   ],
+   3,
+   "l + b = 28, l − b = 4 → l = 16, b = 12; diagonal² = 256 + 144 = 400, which is the area of the square."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A bag contains 5 red, 4 blue and 3 green balls. Two balls are drawn at random. What is the probability that both are of the same colour?",
+   [
+    "17/66",
+    "1/3",
+    "5/22",
+    "19/66"
+   ],
+   3,
+   "Favourable = ⁵C₂ + ⁴C₂ + ³C₂ = 10 + 6 + 3 = 19; total = ¹²C₂ = 66; probability = 19/66."
+  ],
+  [
+   "Quantitative Aptitude",
+   "In how many ways can the letters of the word BANKER be arranged so that the vowels always come together?",
+   [
+    "120",
+    "720",
+    "480",
+    "240"
+   ],
+   3,
+   "Treat A and E as one unit: 5 units → 5! = 120, and the vowels can swap in 2! ways: 120 × 2 = 240."
+  ],
+  [
+   "Quantitative Aptitude",
+   "The table shows the number of loans (in hundreds) sanctioned by a bank branch.\nHome loans: 2019 – 45, 2020 – 52\nCar loans: 2019 – 30, 2020 – 36\nEducation loans: 2019 – 25, 2020 – 22\nBy what percentage did the total number of loans increase from 2019 to 2020?",
+   [
+    "12%",
+    "8%",
+    "15%",
+    "10%"
+   ],
+   3,
+   "Total 2019 = 45 + 30 + 25 = 100; total 2020 = 52 + 36 + 22 = 110; increase = 10/100 = 10%."
+  ],
+  [
+   "Quantitative Aptitude",
+   "The ratio of the present ages of P and Q is 5 : 7. Eight years hence, the ratio will be 7 : 9. What is Q's present age?",
+   [
+    "28 years",
+    "35 years",
+    "21 years",
+    "30 years"
+   ],
+   0,
+   "(5x + 8)/(7x + 8) = 7/9 → 45x + 72 = 49x + 56 → x = 4, so Q = 7 × 4 = 28 years."
+  ],
+  [
+   "Quantitative Aptitude",
+   "The average of 11 results is 50. The average of the first six is 49 and that of the last six is 52. What is the sixth result?",
+   [
+    "56",
+    "50",
+    "52",
+    "58"
+   ],
+   0,
+   "Sixth result = 6×49 + 6×52 − 11×50 = 294 + 312 − 550 = 56."
+  ],
+  [
+   "Reasoning Ability",
+   "Seven persons A, B, C, D, E, F and G live on seven different floors of a building numbered 1 (lowest) to 7 (top).\n• C lives on an even-numbered floor which is neither the lowest nor the highest even-numbered floor.\n• Exactly two persons live between C and B.\n• E lives above B.\n• G lives immediately above E.\n• Only one person lives between G and F.\n• A lives on an even-numbered floor.\n• D lives above F.\nWho lives on the floor immediately above C?",
+   [
+    "A",
+    "F",
+    "G",
+    "D"
+   ],
+   1,
+   "C = 4; B = 1 (B = 7 fails as E is above B); E–G = 2–3 (other pairs clash), F = 5, A = 6, D = 7. Floor 5 is F."
+  ],
+  [
+   "Reasoning Ability",
+   "Seven persons A, B, C, D, E, F and G live on seven different floors of a building numbered 1 (lowest) to 7 (top).\n• C lives on an even-numbered floor which is neither the lowest nor the highest even-numbered floor.\n• Exactly two persons live between C and B.\n• E lives above B.\n• G lives immediately above E.\n• Only one person lives between G and F.\n• A lives on an even-numbered floor.\n• D lives above F.\nHow many persons live between D and G?",
+   [
+    "Three",
+    "Two",
+    "Four",
+    "One"
+   ],
+   0,
+   "Arrangement (1→7): B, E, G, C, F, A, D. Between D (7) and G (3) are C, F, A – three persons."
+  ],
+  [
+   "Reasoning Ability",
+   "Six persons J, K, L, M, N and O sit in a row facing north.\n• M sits at one of the extreme ends.\n• Exactly two persons sit between M and J.\n• K sits immediately to the left of M.\n• L sits second to the left of O.\n• N is not an immediate neighbour of J.\nWho sits third from the right end?",
+   [
+    "O",
+    "J",
+    "L",
+    "K"
+   ],
+   0,
+   "K left of M forces M = 6, K = 5, J = 3; L and O take 2 and 4, N = 1. Order: N, L, J, O, K, M; third from right is O."
+  ],
+  [
+   "Reasoning Ability",
+   "Statements: Only a few banks are branches. All branches are offices. No office is a vault.\nConclusions: I. Some banks are offices. II. No branch is a vault.",
+   [
+    "Both I and II follow",
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Neither I nor II follows"
+   ],
+   0,
+   "Some banks are branches and all branches are offices, so some banks are offices. Branches lie inside offices, which have nothing in common with vaults, so no branch is a vault."
+  ],
+  [
+   "Reasoning Ability",
+   "Statements: Some coins are notes. All notes are cheques. No cheque is a draft.\nConclusions: I. Some coins are not drafts. II. Some notes are drafts.",
+   [
+    "Only conclusion II follows",
+    "Either I or II follows",
+    "Only conclusion I follows",
+    "Both I and II follow"
+   ],
+   2,
+   "The coins that are notes are cheques and hence not drafts, so I follows. Notes lie within cheques, which have no drafts, so II is false."
+  ],
+  [
+   "Reasoning Ability",
+   "Statements: P ≥ Q > R = S; T < S ≤ U\nConclusions: I. P > T  II. U > R",
+   [
+    "Only conclusion II follows",
+    "Either I or II follows",
+    "Both I and II follow",
+    "Only conclusion I follows"
+   ],
+   3,
+   "P ≥ Q > R = S > T gives P > T. U ≥ S = R gives only U ≥ R, so II does not follow."
+  ],
+  [
+   "Reasoning Ability",
+   "Introducing Arjun, Kavya says, 'His father is the only son of my father.' How is Arjun related to Kavya?",
+   [
+    "Son",
+    "Brother",
+    "Nephew",
+    "Cousin"
+   ],
+   2,
+   "The only son of Kavya's father is Kavya's brother; Arjun is his son, so Arjun is Kavya's nephew."
+  ],
+  [
+   "Reasoning Ability",
+   "A + B means A is the mother of B; A − B means A is the brother of B; A × B means A is the wife of B; A ÷ B means A is the father of B.\nIf P + Q − R ÷ S × T, how is T related to P?",
+   [
+    "Grandson-in-law",
+    "Son-in-law",
+    "Grandson",
+    "Nephew"
+   ],
+   0,
+   "P is mother of Q, Q is brother of R, so R is P's child; R (male, a father) is father of S; S (female, a wife) is P's granddaughter, and T is her husband."
+  ],
+  [
+   "Reasoning Ability",
+   "Ravi walks 10 m north, turns right and walks 6 m, turns right again and walks 18 m, then turns left and walks 9 m. How far and in which direction is he from his starting point?",
+   [
+    "15 m, South-East",
+    "17 m, South-East",
+    "17 m, North-East",
+    "13 m, South-West"
+   ],
+   1,
+   "Positions: (0,10) → (6,10) → (6,−8) → (15,−8). Distance = √(15² + 8²) = 17 m towards the south-east."
+  ],
+  [
+   "Reasoning Ability",
+   "In a certain code language, BRANCH is written as CTDRHN. How is LOAN written in that code?",
+   [
+    "MQDR",
+    "MPDR",
+    "MQER",
+    "NQDR"
+   ],
+   0,
+   "Letters are shifted +1, +2, +3, +4, … in order: L+1 = M, O+2 = Q, A+3 = D, N+4 = R."
+  ],
+  [
+   "Reasoning Ability",
+   "In a code language, 'save money now' is written as 'la pi ko', 'money is safe' as 'tu pi re', and 'now is time' as 're ko zu'. What is the code for 'safe'?",
+   [
+    "re",
+    "pi",
+    "tu",
+    "zu"
+   ],
+   2,
+   "money = pi (1st & 2nd), now = ko (1st & 3rd), is = re (2nd & 3rd); so in 'money is safe', safe = tu."
+  ],
+  [
+   "Reasoning Ability",
+   "In a row of 40 students, Meena is 14th from the left end and Sahil is 19th from the right end. How many students sit between them?",
+   [
+    "6",
+    "8",
+    "5",
+    "7"
+   ],
+   3,
+   "Sahil is 40 − 19 + 1 = 22nd from the left; between 14th and 22nd are 22 − 14 − 1 = 7 students."
+  ],
+  [
+   "Reasoning Ability",
+   "Study the arrangement:\n7 K # 3 B @ M 9 % E 2 R & 5 T U 8 $ W 4\nHow many symbols are immediately preceded by a number and immediately followed by a letter?",
+   [
+    "One",
+    "Two",
+    "Three",
+    "None"
+   ],
+   1,
+   "Only '9 % E' and '8 $ W' satisfy the condition."
+  ],
+  [
+   "Reasoning Ability",
+   "A word-arrangement machine works as follows: in each step, the word that comes first in alphabetical order among the words not yet arranged is placed to the immediate right of the words already arranged at the left end; other words keep their order.\nInput: tank vote echo pin rise blue\nWhich of the following is Step 3?",
+   [
+    "blue echo pin tank vote rise",
+    "blue echo tank vote pin rise",
+    "blue echo pin rise tank vote",
+    "blue echo pin vote tank rise"
+   ],
+   0,
+   "Step 1: blue tank vote echo pin rise; Step 2: blue echo tank vote pin rise; Step 3: blue echo pin tank vote rise."
+  ],
+  [
+   "Reasoning Ability",
+   "Among P, Q, R, S and T, each of a different height: Q is taller than only R and T. S is shorter than P. T is taller than R. Who is the tallest?",
+   [
+    "P",
+    "S",
+    "Q",
+    "T"
+   ],
+   0,
+   "Q is taller than exactly two (R, T), so Q is third tallest and P, S are above Q; S < P makes P the tallest."
+  ],
+  [
+   "Reasoning Ability",
+   "Statements: M ≥ N = O < P ≤ Q\nConclusions: I. Q > O  II. M > O",
+   [
+    "Only conclusion II follows",
+    "Either I or II follows",
+    "Both I and II follow",
+    "Only conclusion I follows"
+   ],
+   3,
+   "Q ≥ P > O gives Q > O. M ≥ N = O gives M ≥ O only, so II does not follow."
+  ],
+  [
+   "Reasoning Ability",
+   "Facing east, Neha walks 12 m, turns left and walks 5 m. She then turns left again and walks 24 m. Which direction is she now from her starting point?",
+   [
+    "North-West",
+    "North-East",
+    "South-West",
+    "North"
+   ],
+   0,
+   "Positions: (12,0) → (12,5) → (−12,5). She is 12 m west and 5 m north of the start, i.e. north-west."
+  ]
+ ],
+ "ibps-clerk": [
+  [
+   "English Language",
+   "Read the passage and answer the question.\nRamesh, a small shopkeeper, opened a recurring deposit account and saved a fixed amount every month. When his daughter got admission to college three years later, he was able to pay her fees without borrowing from a moneylender.\nWhat helped Ramesh pay his daughter's fees?",
+   [
+    "A loan from a moneylender",
+    "A scholarship from the college",
+    "Regular monthly savings in a recurring deposit",
+    "Profits from selling his shop"
+   ],
+   2,
+   "The passage says he saved a fixed amount every month in a recurring deposit and so did not need to borrow."
+  ],
+  [
+   "English Language",
+   "Read the passage and answer the question.\nMany people ignore the small print on loan documents. Hidden charges such as processing fees and prepayment penalties can raise the real cost of a loan considerably. Reading every clause before signing can save a borrower a lot of money.\nWhat is the main advice given in the passage?",
+   [
+    "Avoid taking any loans at all",
+    "Always choose the bank with the most branches",
+    "Pay prepayment penalties as early as possible",
+    "Read all the terms of a loan carefully before signing"
+   ],
+   3,
+   "The last sentence states the advice directly: read every clause before signing."
+  ],
+  [
+   "English Language",
+   "Read the passage and answer the question.\nThe flood had damaged the village bridge, so the bank's mobile van could not reach the market. The officials decided to set up a temporary counter in the school building instead.\nWhat does the word 'temporary' mean as used in the passage?",
+   [
+    "Permanent and fixed",
+    "Very expensive",
+    "Hidden from view",
+    "Lasting for only a short time"
+   ],
+   3,
+   "The counter was a stop-gap arrangement until the van could return, i.e. lasting only a short time."
+  ],
+  [
+   "English Language",
+   "Choose the word that best fills the blank.\nShe was so tired after the long journey that she fell ________ as soon as she lay down.",
+   [
+    "sleeping",
+    "slept",
+    "asleep",
+    "sleepy"
+   ],
+   2,
+   "The fixed expression is 'fall asleep'."
+  ],
+  [
+   "English Language",
+   "Choose the word that best fills the blank.\nThe bank will remain ________ on Sunday.",
+   [
+    "close",
+    "closed",
+    "closing",
+    "closure"
+   ],
+   1,
+   "After 'remain', an adjective is needed; 'closed' describes the state of the bank."
+  ],
+  [
+   "English Language",
+   "Choose the word that best fills the blank.\nHe has been working in this branch ________ 2019.",
+   [
+    "for",
+    "by",
+    "at",
+    "since"
+   ],
+   3,
+   "'Since' is used with a point of time (2019) in the perfect continuous tense."
+  ],
+  [
+   "English Language",
+   "Identify the part of the sentence that contains an error.\nEach of the students (A) / have submitted (B) / the assignment (C) / on time. (D)",
+   [
+    "(A)",
+    "(B)",
+    "(C)",
+    "(D)"
+   ],
+   1,
+   "'Each of' takes a singular verb: 'has submitted'."
+  ],
+  [
+   "English Language",
+   "Identify the part of the sentence that contains an error.\nShe is one of the best (A) / cashier who have (B) / ever worked (C) / at this branch. (D)",
+   [
+    "(A)",
+    "(B)",
+    "(C)",
+    "(D)"
+   ],
+   1,
+   "'One of the best' must be followed by a plural noun: 'cashiers who have'."
+  ],
+  [
+   "English Language",
+   "Choose the option that best replaces the part in capitals. If no change is needed, choose 'No improvement required'.\nHe DID NOT KNEW the answer.",
+   [
+    "does not knew",
+    "did not know",
+    "did not known",
+    "No improvement required"
+   ],
+   1,
+   "After the auxiliary 'did', the base form of the verb is used: 'did not know'."
+  ],
+  [
+   "English Language",
+   "Rearrange the sentences to form a meaningful paragraph.\nP: Finally, she deposited the cheque at the bank counter.\nQ: First, Anita checked the date and amount on the cheque.\nR: After filling in the slip, she signed on the back of the cheque.\nS: Next, she filled in the deposit slip.",
+   [
+    "QRSP",
+    "QSRP",
+    "SQRP",
+    "QSPR"
+   ],
+   1,
+   "First (Q) → Next, the slip (S) → After filling the slip (R) → Finally (P)."
+  ],
+  [
+   "English Language",
+   "Choose the word most similar in meaning to ABUNDANT.",
+   [
+    "Plentiful",
+    "Scarce",
+    "Tiny",
+    "Rare"
+   ],
+   0,
+   "Abundant means existing in large quantities, i.e. plentiful."
+  ],
+  [
+   "English Language",
+   "Choose the word most opposite in meaning to ANCIENT.",
+   [
+    "Modern",
+    "Old",
+    "Aged",
+    "Historic"
+   ],
+   0,
+   "Ancient means very old; its opposite is modern."
+  ],
+  [
+   "English Language",
+   "Choose the correct meaning of the idiom: 'A piece of cake'.",
+   [
+    "Something very easy to do",
+    "Something very tasty",
+    "A small reward",
+    "Something costly"
+   ],
+   0,
+   "'A piece of cake' describes a task that is very easy."
+  ],
+  [
+   "English Language",
+   "Which of the following words is spelt correctly?",
+   [
+    "Neccessary",
+    "Necesary",
+    "Neccesary",
+    "Necessary"
+   ],
+   3,
+   "The correct spelling has one 'c' and a double 's': necessary."
+  ],
+  [
+   "English Language",
+   "Choose the one word for: 'A person who lends money at very high rates of interest'.",
+   [
+    "Usurer",
+    "Philanthropist",
+    "Debtor",
+    "Auditor"
+   ],
+   0,
+   "A usurer lends money at excessive interest; a debtor is a borrower."
+  ],
+  [
+   "Numerical Ability",
+   "What will come in place of the question mark (?)\n35% of 480 + 18² − 125 = ?",
+   [
+    "367",
+    "357",
+    "377",
+    "349"
+   ],
+   0,
+   "168 + 324 − 125 = 367."
+  ],
+  [
+   "Numerical Ability",
+   "What approximate value should come in place of the question mark (?)\n19.97 × 15.02 − 149.99 ÷ 5.01 = ?",
+   [
+    "250",
+    "300",
+    "270",
+    "285"
+   ],
+   2,
+   "≈ 20 × 15 − 150 ÷ 5 = 300 − 30 = 270."
+  ],
+  [
+   "Numerical Ability",
+   "What will come in place of the question mark (?) in the series?\n3, 8, 18, 38, 78, ?",
+   [
+    "156",
+    "158",
+    "148",
+    "160"
+   ],
+   1,
+   "Each term = previous × 2 + 2: 78 × 2 + 2 = 158."
+  ],
+  [
+   "Numerical Ability",
+   "Two equations I and II are given. Solve both and choose the correct relationship between x and y.\nI. x² = 49\nII. y² − 14y + 49 = 0",
+   [
+    "x > y",
+    "x ≥ y",
+    "x ≤ y",
+    "x < y"
+   ],
+   2,
+   "x = +7 or −7; (y − 7)² = 0 gives y = 7. So x is either equal to or less than y: x ≤ y."
+  ],
+  [
+   "Numerical Ability",
+   "40% of a number is 64 more than 20% of the same number. What is the number?",
+   [
+    "160",
+    "256",
+    "320",
+    "400"
+   ],
+   2,
+   "40% − 20% = 20% of the number = 64, so the number = 64 × 5 = 320."
+  ],
+  [
+   "Numerical Ability",
+   "By selling an article for ₹1,035, a shopkeeper gains 15%. What is its cost price?",
+   [
+    "₹900",
+    "₹880",
+    "₹920",
+    "₹875"
+   ],
+   0,
+   "CP = 1,035 × 100/115 = ₹900."
+  ],
+  [
+   "Numerical Ability",
+   "What is the difference between the compound interest (compounded annually) and the simple interest on ₹5,000 for 2 years at 10% per annum?",
+   [
+    "₹100",
+    "₹25",
+    "₹50",
+    "₹55"
+   ],
+   2,
+   "CI = 5,000 × 1.21 − 5,000 = ₹1,050; SI = ₹1,000; difference = ₹50."
+  ],
+  [
+   "Numerical Ability",
+   "A invested ₹15,000 for 12 months and B invested ₹20,000 for 6 months in a business. Out of a total profit of ₹10,000, what is A's share?",
+   [
+    "₹4,000",
+    "₹4,286",
+    "₹6,000",
+    "₹5,000"
+   ],
+   2,
+   "Ratio = 15,000×12 : 20,000×6 = 1,80,000 : 1,20,000 = 3 : 2; A gets 10,000 × 3/5 = ₹6,000."
+  ],
+  [
+   "Numerical Ability",
+   "The average of five numbers is 28. If one number is removed, the average of the remaining four becomes 25. What is the removed number?",
+   [
+    "40",
+    "35",
+    "28",
+    "43"
+   ],
+   0,
+   "Total of five = 140, total of four = 100, so the removed number = 40."
+  ],
+  [
+   "Numerical Ability",
+   "A father is three times as old as his son. After 12 years, he will be twice as old as his son. What is the son's present age?",
+   [
+    "10 years",
+    "12 years",
+    "15 years",
+    "18 years"
+   ],
+   1,
+   "3x + 12 = 2(x + 12) → x = 12 years."
+  ],
+  [
+   "Numerical Ability",
+   "A can do a piece of work in 10 days and B in 15 days. In how many days can they finish it working together?",
+   [
+    "5 days",
+    "6 days",
+    "8 days",
+    "12.5 days"
+   ],
+   1,
+   "Combined rate = 1/10 + 1/15 = 1/6, so 6 days."
+  ],
+  [
+   "Numerical Ability",
+   "Pipe A can fill a tank in 6 hours and pipe B in 12 hours. If both are opened together, in how many hours will the empty tank be filled?",
+   [
+    "3 hours",
+    "9 hours",
+    "4 hours",
+    "5 hours"
+   ],
+   2,
+   "1/6 + 1/12 = 3/12 = 1/4, so 4 hours."
+  ],
+  [
+   "Numerical Ability",
+   "A train 150 m long passes an electric pole in 9 seconds. What is its speed in km/h?",
+   [
+    "60 km/h",
+    "54 km/h",
+    "66 km/h",
+    "50 km/h"
+   ],
+   0,
+   "Speed = 150/9 m/s = 150/9 × 18/5 = 60 km/h."
+  ],
+  [
+   "Numerical Ability",
+   "A 40-litre mixture contains milk and water in the ratio 3 : 1. How much water should be added so that the ratio becomes 5 : 3?",
+   [
+    "10 litres",
+    "8 litres",
+    "6 litres",
+    "12 litres"
+   ],
+   1,
+   "Milk = 30 L, water = 10 L. 30/(10 + w) = 5/3 → 10 + w = 18 → w = 8 L."
+  ],
+  [
+   "Numerical Ability",
+   "The circumference of a circle is 88 cm. What is its area? (Take π = 22/7)",
+   [
+    "154 cm²",
+    "308 cm²",
+    "1,232 cm²",
+    "616 cm²"
+   ],
+   3,
+   "2πr = 88 → r = 14 cm; area = 22/7 × 14 × 14 = 616 cm²."
+  ],
+  [
+   "Numerical Ability",
+   "Two fair dice are thrown together. What is the probability that the sum of the numbers is 8?",
+   [
+    "1/6",
+    "1/9",
+    "7/36",
+    "5/36"
+   ],
+   3,
+   "Favourable outcomes: (2,6), (3,5), (4,4), (5,3), (6,2) = 5 out of 36."
+  ],
+  [
+   "Numerical Ability",
+   "The table shows mobile phones sold by four shops in a month.\nShop P – 240, Shop Q – 180, Shop R – 300, Shop S – 280\nWhat percentage of the total sales was made by shop R?",
+   [
+    "28%",
+    "30%",
+    "25%",
+    "32%"
+   ],
+   1,
+   "Total = 240 + 180 + 300 + 280 = 1,000; R's share = 300/1,000 = 30%."
+  ],
+  [
+   "Reasoning Ability",
+   "Five friends P, Q, R, S and T sit in a row facing north. R sits in the middle. Q sits at the extreme right end. T sits immediately to the left of R. P is not an immediate neighbour of Q.\nWho sits between R and Q?",
+   [
+    "P",
+    "T",
+    "None",
+    "S"
+   ],
+   3,
+   "R = 3, Q = 5, T = 2; P cannot be at 4 (next to Q), so P = 1 and S = 4, which is between R and Q."
+  ],
+  [
+   "Reasoning Ability",
+   "Five boxes A, B, C, D and E are kept one above the other. C is at the top. Only one box is kept between C and A. B is kept immediately below A. D is not at the bottom.\nWhich box is at the bottom?",
+   [
+    "B",
+    "D",
+    "E",
+    "A"
+   ],
+   2,
+   "From top: C (5), A (3), B (2); D cannot be at 1, so D = 4 and E is at the bottom."
+  ],
+  [
+   "Reasoning Ability",
+   "Five persons F, G, H, I and J attend a training programme on different days from Monday to Friday. H attends on Wednesday. Exactly two persons attend between G and F. I attends on a day after F. J attends immediately before H. F does not attend on Monday.\nWho attends on Friday?",
+   [
+    "F",
+    "I",
+    "G",
+    "J"
+   ],
+   1,
+   "J = Tuesday. G and F must be Monday/Thursday; F is not Monday, so G = Mon, F = Thu, and I (after F) = Friday."
+  ],
+  [
+   "Reasoning Ability",
+   "Statements: All pens are books. Some books are bags.\nConclusions: I. Some pens are bags. II. Some bags are books.",
+   [
+    "Only conclusion I follows",
+    "Both I and II follow",
+    "Neither I nor II follows",
+    "Only conclusion II follows"
+   ],
+   3,
+   "Pens and bags need not overlap, so I does not follow. 'Some books are bags' converts to 'some bags are books', so II follows."
+  ],
+  [
+   "Reasoning Ability",
+   "Statements: No apple is a mango. All mangoes are fruits.\nConclusions: I. Some fruits are not apples. II. No fruit is an apple.",
+   [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Either I or II follows",
+    "Both I and II follow"
+   ],
+   0,
+   "The fruits that are mangoes are not apples, so I follows. Other fruits may be apples, so II is not definite."
+  ],
+  [
+   "Reasoning Ability",
+   "Statements: M ≥ N = O < P ≤ Q\nConclusions: I. M ≥ O  II. Q > N",
+   [
+    "Only conclusion I follows",
+    "Both I and II follow",
+    "Only conclusion II follows",
+    "Neither I nor II follows"
+   ],
+   1,
+   "M ≥ N = O gives M ≥ O. Q ≥ P > O = N gives Q > N. Both follow."
+  ],
+  [
+   "Reasoning Ability",
+   "A is the sister of B. C is the mother of B. D is the father of C. How is A related to D?",
+   [
+    "Daughter",
+    "Niece",
+    "Grandmother",
+    "Granddaughter"
+   ],
+   3,
+   "A is C's daughter (sister of C's child B), and D is C's father, so A is D's granddaughter."
+  ],
+  [
+   "Reasoning Ability",
+   "Pointing to a boy, Rina said, 'He is the son of the only son of my father's father.' How is the boy related to Rina?",
+   [
+    "Brother",
+    "Cousin",
+    "Nephew",
+    "Uncle"
+   ],
+   0,
+   "The only son of Rina's father's father is Rina's father; his son is Rina's brother."
+  ],
+  [
+   "Reasoning Ability",
+   "Sita walks 5 km east, turns left and walks 3 km, then turns left again and walks 5 km. Where is she now with respect to her starting point?",
+   [
+    "3 km South",
+    "5 km North",
+    "3 km North",
+    "8 km West"
+   ],
+   2,
+   "Positions: (5,0) → (5,3) → (0,3), i.e. 3 km due north of the start."
+  ],
+  [
+   "Reasoning Ability",
+   "Amit is facing north. He turns 90° clockwise, then 180° anticlockwise, and then 45° clockwise. Which direction is he facing now?",
+   [
+    "North-West",
+    "North-East",
+    "South-West",
+    "South-East"
+   ],
+   0,
+   "North → 90° clockwise = East → 180° anticlockwise = West → 45° clockwise = North-West."
+  ],
+  [
+   "Reasoning Ability",
+   "If CAT is coded as 24 (sum of letter positions), what is the code for DOG?",
+   [
+    "24",
+    "27",
+    "25",
+    "26"
+   ],
+   3,
+   "D(4) + O(15) + G(7) = 26."
+  ],
+  [
+   "Reasoning Ability",
+   "If MONEY is coded as NPOFZ, how is CASH coded?",
+   [
+    "DBSI",
+    "DBTI",
+    "BZRG",
+    "DCTI"
+   ],
+   1,
+   "Each letter is moved one step forward: C→D, A→B, S→T, H→I."
+  ],
+  [
+   "Reasoning Ability",
+   "Rohit is 9th from the top and 26th from the bottom in his class. How many students are there in the class?",
+   [
+    "34",
+    "35",
+    "33",
+    "36"
+   ],
+   0,
+   "Total = 9 + 26 − 1 = 34."
+  ],
+  [
+   "Reasoning Ability",
+   "In a row, Ajay is 12th from the left and Vijay is 8th from the right. When they interchange their positions, Ajay becomes 20th from the left. How many persons are in the row?",
+   [
+    "28",
+    "32",
+    "27",
+    "26"
+   ],
+   2,
+   "Ajay's new position is Vijay's old one: 20th from left and 8th from right, so total = 20 + 8 − 1 = 27."
+  ],
+  [
+   "Reasoning Ability",
+   "Study the arrangement:\n4 A 7 # K 2 P @ 9 B $ 3 M & 6\nHow many letters are immediately followed by a number?",
+   [
+    "One",
+    "Three",
+    "Four",
+    "Two"
+   ],
+   3,
+   "Only 'A 7' and 'K 2' qualify."
+  ],
+  [
+   "Reasoning Ability",
+   "If the English alphabet is written in reverse order, which letter will be 7th to the right of the 10th letter from the left?",
+   [
+    "K",
+    "I",
+    "J",
+    "P"
+   ],
+   2,
+   "In reverse order, the 10th + 7 = 17th letter from the left is the 27 − 17 = 10th letter of the normal alphabet, J."
+  ],
+  [
+   "Reasoning Ability",
+   "Find the odd one out: 27, 64, 125, 144, 216",
+   [
+    "144",
+    "27",
+    "125",
+    "216"
+   ],
+   0,
+   "All others are perfect cubes (3³, 4³, 5³, 6³); 144 is 12², not a cube."
+  ],
+  [
+   "Reasoning Ability",
+   "A number-arrangement machine, in each step, places the largest of the numbers not yet arranged immediately to the right of the numbers already arranged at the left end; the other numbers keep their order.\nInput: 34 89 17 66 52\nWhich of the following is Step 2?",
+   [
+    "89 34 17 66 52",
+    "89 66 52 34 17",
+    "89 66 17 34 52",
+    "89 66 34 17 52"
+   ],
+   3,
+   "Step 1: 89 34 17 66 52; Step 2: 89 66 34 17 52; Step 3: 89 66 52 34 17."
+  ]
+ ],
+ "sbi-po": [
+  [
+   "English Language",
+   "Read the passage and answer the question.\nBehavioural economists have found that people often prefer a smaller reward today over a larger one in the future, even when waiting would clearly make them better off. This tendency, known as present bias, helps explain why many people under-save for retirement. Automatic enrolment in pension schemes, where employees must actively opt out rather than opt in, has been shown to raise participation sharply.\nWhich feature of automatic enrolment, as described in the passage, raises participation?",
+   [
+    "It offers employees a larger reward today",
+    "Employees must take action to stay out rather than to join",
+    "It removes present bias from people's minds",
+    "Employees are legally barred from opting out"
+   ],
+   1,
+   "The passage says employees 'must actively opt out rather than opt in', so inertia keeps them enrolled."
+  ],
+  [
+   "English Language",
+   "Read the passage and answer the question.\nA bank's capital acts as a cushion against unexpected losses. If a bank holds too little capital, even a modest rise in bad loans can wipe out its equity and threaten depositors. Regulators therefore require banks to hold capital in proportion to the riskiness of their assets, so that riskier lending must be backed by more capital.\nWhich of the following statements is supported by the passage?",
+   [
+    "Banks with more capital never face bad loans",
+    "Regulators prohibit banks from making risky loans",
+    "Depositors are protected only by the government",
+    "A bank that makes riskier loans must hold more capital against them"
+   ],
+   3,
+   "The last sentence states that riskier lending must be backed by more capital."
+  ],
+  [
+   "English Language",
+   "Read the passage and answer the question.\nThe report praises the scheme for widening access to credit but warns that rapid expansion without proper checks could lead to a rise in defaults. It recommends stronger verification of borrowers before further growth.\nThe report's attitude towards the scheme is best described as:",
+   [
+    "Openly hostile",
+    "Completely indifferent",
+    "Uncritically enthusiastic",
+    "Cautiously supportive"
+   ],
+   3,
+   "It praises the scheme but adds warnings and safeguards, which is cautious support."
+  ],
+  [
+   "English Language",
+   "Choose the word that best fills the blank.\nThe new policy is expected to ________ the flow of credit to small businesses, which had slowed down sharply.",
+   [
+    "curtail",
+    "stall",
+    "hinder",
+    "boost"
+   ],
+   3,
+   "Since credit had slowed, the policy is expected to increase (boost) it; the other words mean reduce or stop."
+  ],
+  [
+   "English Language",
+   "Choose the word that best fills the blank.\nThe speaker's arguments were so ________ that even the sceptics in the audience were convinced.",
+   [
+    "tedious",
+    "persuasive",
+    "ambiguous",
+    "incoherent"
+   ],
+   1,
+   "Convincing sceptics requires persuasive arguments."
+  ],
+  [
+   "English Language",
+   "Choose the pair of words that best fills both blanks.\nThe bank's bad loans ________ sharply after it ________ its credit appraisal process, rejecting weak applications early.",
+   [
+    "declined, tightened",
+    "rose, tightened",
+    "declined, relaxed",
+    "rose, abandoned"
+   ],
+   0,
+   "Rejecting weak applications means the process was tightened, which would reduce (decline) bad loans."
+  ],
+  [
+   "English Language",
+   "Identify the part of the sentence that contains an error.\nNot only the borrowers (A) / but also the guarantor (B) / were informed (C) / about the default notice. (D)",
+   [
+    "(A)",
+    "(B)",
+    "(C)",
+    "(D)"
+   ],
+   2,
+   "With 'not only…but also', the verb agrees with the nearer subject 'guarantor': 'was informed'."
+  ],
+  [
+   "English Language",
+   "Identify the part of the sentence that contains an error.\nThe new rules, which came into effect (A) / last month, has made (B) / it easier for customers (C) / to open accounts online. (D)",
+   [
+    "(A)",
+    "(B)",
+    "(C)",
+    "(D)"
+   ],
+   1,
+   "The subject 'rules' is plural, so it should be 'have made'."
+  ],
+  [
+   "English Language",
+   "Choose the option that best replaces the part in capitals. If no change is needed, choose 'No improvement required'.\nThe manager insisted that every clerk COMPLETES the training by Friday.",
+   [
+    "completed",
+    "will complete",
+    "complete",
+    "No improvement required"
+   ],
+   2,
+   "After 'insist that', the subjunctive base form is used: 'every clerk complete'."
+  ],
+  [
+   "English Language",
+   "Rearrange the sentences to form a coherent paragraph.\nP: However, these gains can vanish quickly if borrowers lose their incomes.\nQ: Easy credit allows households to buy homes and vehicles they could not otherwise afford.\nR: That is why lenders are told to assess not just a borrower's present income but its stability.\nS: When repayments stop, both the household and the lender suffer.",
+   [
+    "QPSR",
+    "QSPR",
+    "PQSR",
+    "QPRS"
+   ],
+   0,
+   "Q introduces the benefit, P adds the caveat ('However'), S states the consequence, and R gives the lesson ('That is why')."
+  ],
+  [
+   "English Language",
+   "Choose the word most similar in meaning to MITIGATE.",
+   [
+    "Aggravate",
+    "Mandate",
+    "Alleviate",
+    "Imitate"
+   ],
+   2,
+   "Mitigate means to make less severe, i.e. alleviate; aggravate is its opposite."
+  ],
+  [
+   "English Language",
+   "Choose the word most opposite in meaning to OBSCURE.",
+   [
+    "Evident",
+    "Vague",
+    "Hidden",
+    "Murky"
+   ],
+   0,
+   "Obscure means unclear or hidden; evident means clear and obvious."
+  ],
+  [
+   "English Language",
+   "Choose the correct meaning of the idiom: 'To bite the bullet'.",
+   [
+    "To avoid responsibility",
+    "To face a painful situation bravely",
+    "To speak harshly to someone",
+    "To act without thinking"
+   ],
+   1,
+   "The idiom means to accept and endure something unpleasant with courage."
+  ],
+  [
+   "English Language",
+   "Choose the word that can fill both blanks appropriately.\n(i) He deposited the money in his savings ________.\n(ii) Please give a brief ________ of what happened.",
+   [
+    "summary",
+    "account",
+    "purse",
+    "version"
+   ],
+   1,
+   "'Savings account' and 'an account of what happened' both use 'account'."
+  ],
+  [
+   "English Language",
+   "Choose the grammatically correct sentence.",
+   [
+    "She is living in Pune since 2015.",
+    "She lives in Pune since 2015.",
+    "She has been lived in Pune since 2015.",
+    "She has lived in Pune since 2015."
+   ],
+   3,
+   "An action continuing from a past point ('since 2015') takes the present perfect: 'has lived'."
+  ],
+  [
+   "Quantitative Aptitude",
+   "What approximate value should come in place of the question mark (?)\n√624.8 × 7.96 + 39.97% of 449.9 = ?",
+   [
+    "360",
+    "400",
+    "420",
+    "380"
+   ],
+   3,
+   "≈ 25 × 8 + 40% of 450 = 200 + 180 = 380."
+  ],
+  [
+   "Quantitative Aptitude",
+   "Find the wrong number in the series:\n4, 9, 25, 49, 121, 169, 288",
+   [
+    "121",
+    "49",
+    "288",
+    "25"
+   ],
+   2,
+   "The series is squares of consecutive primes: 2², 3², 5², 7², 11², 13², 17² = 289, not 288."
+  ],
+  [
+   "Quantitative Aptitude",
+   "What will come in place of the question mark (?)\n12, 14, 19, 29, 46, ?",
+   [
+    "70",
+    "72",
+    "75",
+    "67"
+   ],
+   1,
+   "Differences are n² + 1: 2, 5, 10, 17, 26; 46 + 26 = 72."
+  ],
+  [
+   "Quantitative Aptitude",
+   "Two equations I and II are given. Solve both and choose the correct relationship between x and y.\nI. x² − 4x − 21 = 0\nII. y² + 9y + 18 = 0",
+   [
+    "x > y",
+    "x < y",
+    "x ≥ y",
+    "x ≤ y"
+   ],
+   2,
+   "x = 7 or −3; y = −3 or −6. Every x is greater than or equal to every y (−3 = −3), so x ≥ y."
+  ],
+  [
+   "Quantitative Aptitude",
+   "In an election between two candidates, 10% of the voters did not vote and 1,000 votes cast were invalid. The winner got 54% of the valid votes and won by 1,000 votes. How many voters were on the list?",
+   [
+    "15,000",
+    "13,500",
+    "12,500",
+    "14,000"
+   ],
+   0,
+   "Margin = 54% − 46% = 8% of valid votes = 1,000 → valid = 12,500; votes cast = 13,500 = 90% of voters → 15,000."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A trader sells two articles for ₹1,980 each. On one he gains 10% and on the other he loses 10%. What is his overall result?",
+   [
+    "No profit, no loss",
+    "Loss of 1%",
+    "Gain of 1%",
+    "Loss of 2%"
+   ],
+   1,
+   "CPs = 1,980/1.1 = 1,800 and 1,980/0.9 = 2,200; total CP 4,000, total SP 3,960 → loss ₹40 = 1%."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A sum of money amounts to ₹13,310 in 3 years at 10% per annum compounded annually. What is the sum?",
+   [
+    "₹11,000",
+    "₹9,800",
+    "₹10,000",
+    "₹10,500"
+   ],
+   2,
+   "P × (1.1)³ = P × 1.331 = 13,310 → P = ₹10,000."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A, B and C start a business with investments in the ratio 3 : 4 : 5. After 6 months, A doubles his investment. If the annual profit is ₹40,500, what is B's share?",
+   [
+    "₹12,000",
+    "₹13,500",
+    "₹15,000",
+    "₹13,000"
+   ],
+   0,
+   "Units: A = 3×6 + 6×6 = 54, B = 4×12 = 48, C = 5×12 = 60; total 162. B = 40,500 × 48/162 = ₹12,000."
+  ],
+  [
+   "Quantitative Aptitude",
+   "Five years ago, the average age of A and B was 25 years. At present, the average age of A, B and C is 30 years. What will be C's age after 5 years?",
+   [
+    "30 years",
+    "40 years",
+    "25 years",
+    "35 years"
+   ],
+   3,
+   "A + B now = 2×25 + 10 = 60; A + B + C = 90 → C = 30, so after 5 years C = 35."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A is 50% more efficient than B. Working together, they finish a work in 18 days. In how many days can A alone finish it?",
+   [
+    "27 days",
+    "36 days",
+    "45 days",
+    "30 days"
+   ],
+   3,
+   "Efficiency A : B = 3 : 2; total work = (3 + 2) × 18 = 90 units; A alone = 90/3 = 30 days."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A pipe can fill a tank in 8 hours. Because of a leak at the bottom, it takes 10 hours to fill. In how many hours can the leak empty the full tank?",
+   [
+    "18 hours",
+    "40 hours",
+    "20 hours",
+    "32 hours"
+   ],
+   1,
+   "Leak rate = 1/8 − 1/10 = 1/40, so 40 hours."
+  ],
+  [
+   "Quantitative Aptitude",
+   "Two trains of lengths 180 m and 220 m run on parallel tracks in opposite directions at 54 km/h and 90 km/h. How long will they take to cross each other completely?",
+   [
+    "10 seconds",
+    "12 seconds",
+    "8 seconds",
+    "15 seconds"
+   ],
+   0,
+   "Relative speed = 144 km/h = 40 m/s; distance = 400 m; time = 10 s."
+  ],
+  [
+   "Quantitative Aptitude",
+   "The speed of a boat in still water is 15 km/h. It goes 36 km downstream and returns to the starting point in a total of 5 hours. What is the speed of the stream?",
+   [
+    "3 km/h",
+    "2 km/h",
+    "4 km/h",
+    "5 km/h"
+   ],
+   0,
+   "36/(15 + s) + 36/(15 − s) = 5 → 1,080 = 5(225 − s²) → s² = 9 → s = 3 km/h. Check: 36/18 + 36/12 = 2 + 3 = 5."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A container holds 80 litres of pure milk. 8 litres are taken out and replaced with water. This process is carried out three times in all. How much milk is left in the container?",
+   [
+    "56 litres",
+    "58.32 litres",
+    "64.8 litres",
+    "57.6 litres"
+   ],
+   1,
+   "Milk left = 80 × (1 − 8/80)³ = 80 × 0.729 = 58.32 L."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A right circular cone has base radius 6 cm and height 8 cm. What is its total surface area?",
+   [
+    "60π cm²",
+    "132π cm²",
+    "84π cm²",
+    "96π cm²"
+   ],
+   3,
+   "Slant height = √(36 + 64) = 10; TSA = πr(l + r) = π × 6 × 16 = 96π cm²."
+  ],
+  [
+   "Quantitative Aptitude",
+   "Two cards are drawn at random from a well-shuffled pack of 52 cards. What is the probability that both are kings or both are queens?",
+   [
+    "2/221",
+    "1/221",
+    "4/221",
+    "1/169"
+   ],
+   0,
+   "Favourable = ⁴C₂ + ⁴C₂ = 12; total = ⁵²C₂ = 1,326; 12/1,326 = 2/221."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A committee of 5 is to be formed from 6 men and 4 women. In how many ways can it be formed if it must contain at least 3 men?",
+   [
+    "180",
+    "206",
+    "186",
+    "246"
+   ],
+   2,
+   "⁶C₃·⁴C₂ + ⁶C₄·⁴C₁ + ⁶C₅ = 120 + 60 + 6 = 186."
+  ],
+  [
+   "Quantitative Aptitude",
+   "The table shows applications received (in thousands) by a bank.\nSavings account: 2021 – 40, 2022 – 48, 2023 – 60\nCredit card: 2021 – 25, 2022 – 30, 2023 – 33\nPersonal loan: 2021 – 35, 2022 – 42, 2023 – 27\nWhat is the ratio of savings-account applications in 2022 to personal-loan applications in 2023?",
+   [
+    "8 : 7",
+    "16 : 9",
+    "4 : 3",
+    "12 : 7"
+   ],
+   1,
+   "48 : 27 = 16 : 9."
+  ],
+  [
+   "Reasoning Ability",
+   "Six persons A, B, C, D, E and F sit around a circular table facing the centre.\n• B sits third to the left of A.\n• E sits immediately to the right of B.\n• C is an immediate neighbour of E.\n• D is not an immediate neighbour of B.\nWho sits immediately to the left of F?",
+   [
+    "D",
+    "B",
+    "A",
+    "C"
+   ],
+   0,
+   "Clockwise from A: A, C, E, B, F, D (right = anticlockwise when facing the centre). F's immediate left is D."
+  ],
+  [
+   "Reasoning Ability",
+   "Six persons A, B, C, D, E and F sit around a circular table facing the centre.\n• B sits third to the left of A.\n• E sits immediately to the right of B.\n• C is an immediate neighbour of E.\n• D is not an immediate neighbour of B.\nWho sits second to the right of D?",
+   [
+    "A",
+    "C",
+    "E",
+    "B"
+   ],
+   3,
+   "Clockwise order A, C, E, B, F, D. Moving right (anticlockwise) from D: F, then B."
+  ],
+  [
+   "Reasoning Ability",
+   "Seven persons P, Q, R, S, T, U and V were born in January, March, April, June, August, September and November of the same year, one in each month.\n• P was born in a month having 30 days.\n• Exactly three persons were born between P and S.\n• T was born immediately before P.\n• Q was born in a month having 31 days, but not in January.\n• U was born immediately after Q.\n• V was born after P but before Q.\nWho was born in June?",
+   [
+    "Q",
+    "S",
+    "V",
+    "T"
+   ],
+   2,
+   "Q in March leaves no room for V between P and Q, so Q = Aug, U = Sep; V between P and Q forces P = Apr, V = Jun, T = Mar, S = Nov, R = Jan."
+  ],
+  [
+   "Reasoning Ability",
+   "Seven persons P, Q, R, S, T, U and V were born in January, March, April, June, August, September and November of the same year, one in each month.\n• P was born in a month having 30 days.\n• Exactly three persons were born between P and S.\n• T was born immediately before P.\n• Q was born in a month having 31 days, but not in January.\n• U was born immediately after Q.\n• V was born after P but before Q.\nHow many persons were born between T and U?",
+   [
+    "Two",
+    "Three",
+    "Four",
+    "One"
+   ],
+   1,
+   "Order: R (Jan), T (Mar), P (Apr), V (Jun), Q (Aug), U (Sep), S (Nov). Between T and U are P, V and Q."
+  ],
+  [
+   "Reasoning Ability",
+   "Statements: Only a few loans are secured. All secured items are insured.\nConclusions: I. Some loans are not secured. II. All secured items are definitely loans.",
+   [
+    "Only conclusion II follows",
+    "Only conclusion I follows",
+    "Either I or II follows",
+    "Both I and II follow"
+   ],
+   1,
+   "'Only a few loans are secured' implies some loans are not secured, so I follows. Nothing restricts secured items to loans, so II does not follow."
+  ],
+  [
+   "Reasoning Ability",
+   "Statements: No branch is a vault. Some vaults are lockers. All lockers are safes.\nConclusions: I. Some safes are not branches. II. Some lockers are not branches.",
+   [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both I and II follow",
+    "Neither I nor II follows"
+   ],
+   2,
+   "The lockers that are vaults cannot be branches (II), and those lockers are safes, so some safes are not branches (I)."
+  ],
+  [
+   "Reasoning Ability",
+   "'P @ Q' means P ≥ Q; 'P # Q' means P > Q; 'P $ Q' means P = Q; 'P % Q' means P < Q.\nStatements: A # B, B @ C, C $ D, D % E\nConclusions: I. A # D  II. E # B",
+   [
+    "Only conclusion II follows",
+    "Either I or II follows",
+    "Both I and II follow",
+    "Only conclusion I follows"
+   ],
+   3,
+   "A > B ≥ C = D < E. So A > D (I follows); E and B cannot be compared (II does not follow)."
+  ],
+  [
+   "Reasoning Ability",
+   "Statements: J > K ≥ L; L < M ≤ N; O ≥ K\nConclusions: I. O > L  II. O = L",
+   [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Either I or II follows",
+    "Neither I nor II follows"
+   ],
+   2,
+   "O ≥ K ≥ L gives O ≥ L; neither part is certain alone, but one of them must be true, so either I or II follows."
+  ],
+  [
+   "Reasoning Ability",
+   "In a family of six — P, Q, R, S, T and U — P is married to T. Q is the son of T. U is the wife of Q. R and S are U's children. S is a girl and R is S's brother.\nHow is S related to P?",
+   [
+    "Granddaughter",
+    "Daughter",
+    "Niece",
+    "Daughter-in-law"
+   ],
+   0,
+   "Q is the son of P and T; S is the daughter of Q and U, so S is P's granddaughter."
+  ],
+  [
+   "Reasoning Ability",
+   "Point A is 12 m west of point B. Point C is 5 m north of B. Point D is 7 m south of A, and point E is 7 m east of D. What is the distance between E and C, and in which direction is C from E?",
+   [
+    "13 m, North-West",
+    "12 m, North-East",
+    "15 m, North",
+    "13 m, North-East"
+   ],
+   3,
+   "Take B = (0,0): A = (−12,0), C = (0,5), D = (−12,−7), E = (−5,−7). C − E = (5,12), distance 13 m, north-east."
+  ],
+  [
+   "Reasoning Ability",
+   "In a code language, 'market rates rise' is written as 'mo ta ki', 'rates fall today' as 'su ta ne', and 'today market opens' as 'ne pa mo'. What is the code for 'rise'?",
+   [
+    "ki",
+    "mo",
+    "su",
+    "pa"
+   ],
+   0,
+   "market = mo, rates = ta, today = ne (common words); so in the first sentence, rise = ki."
+  ],
+  [
+   "Reasoning Ability",
+   "In a certain code, CREDIT is written as FSDUJE. Following the same rule, how is SAVING written?",
+   [
+    "WBTHOJ",
+    "WBTJOH",
+    "UZRHMI",
+    "WBSHOJ"
+   ],
+   0,
+   "Split into halves, reverse each (CRE→ERC, DIT→TID) and shift each letter +1. SAV→VAS→WBT, ING→GNI→HOJ."
+  ],
+  [
+   "Reasoning Ability",
+   "In a class of 45 students, Neha's rank from the top is 4 more than twice her rank from the bottom. What is her rank from the top?",
+   [
+    "32nd",
+    "30th",
+    "28th",
+    "33rd"
+   ],
+   0,
+   "Let bottom rank = b: (2b + 4) + b − 1 = 45 → b = 14, so top rank = 32."
+  ],
+  [
+   "Reasoning Ability",
+   "Study the arrangement:\nB 5 % H 2 J # 9 Q E 4 @ 7 N $ U 1 D\nIf all the symbols are removed, which element will be 4th to the right of the 7th element from the left end?",
+   [
+    "7",
+    "N",
+    "U",
+    "4"
+   ],
+   1,
+   "Without symbols: B 5 H 2 J 9 Q E 4 7 N U 1 D. The 7th is Q; 4th to its right (11th) is N."
+  ],
+  [
+   "Reasoning Ability",
+   "A machine rearranges words and numbers. In each step, the word that comes first alphabetically among those not yet arranged is placed to the right of the words already arranged at the left end, and the largest number not yet arranged is placed to the left of the numbers already arranged at the right end. Other elements keep their order.\nInput: rate 41 fund 17 loan 86 asset 53\nWhich of the following is Step 2?",
+   [
+    "asset rate 41 fund 17 loan 53 86",
+    "asset fund loan rate 17 41 53 86",
+    "asset fund rate 41 17 loan 53 86",
+    "asset fund rate 17 41 loan 53 86"
+   ],
+   2,
+   "Step 1: asset rate 41 fund 17 loan 53 86; Step 2: asset fund rate 41 17 loan 53 86 (fund and 53 placed)."
+  ],
+  [
+   "Reasoning Ability",
+   "Five persons A, B, C, D and E have different weights. B is heavier than only two persons. A is heavier than D but lighter than E. C is heavier than B. E is not the heaviest.\nWho is the heaviest?",
+   [
+    "E",
+    "A",
+    "B",
+    "C"
+   ],
+   3,
+   "B is 3rd lightest. D < A < E with E not heaviest forces E = 4th, A = 2nd, D = lightest; so C is the heaviest."
+  ],
+  [
+   "Reasoning Ability",
+   "Just before sunset, Arun stands with his shadow falling directly behind him. Which direction is he facing?",
+   [
+    "East",
+    "North",
+    "West",
+    "South"
+   ],
+   2,
+   "Near sunset the sun is in the west and shadows fall to the east; with the shadow behind him, he faces west."
+  ]
+ ],
+ "sbi-clerk": [
+  [
+   "English Language",
+   "Read the passage and answer the question.\nMeera wanted to send money to her parents in another city. Instead of travelling to the bank, she used her phone to transfer the amount within seconds. Her parents received a message as soon as the money reached their account.\nHow did Meera send the money?",
+   [
+    "By travelling to her parents' city",
+    "By posting a cheque",
+    "Through a friend who was travelling",
+    "Through a transfer made on her phone"
+   ],
+   3,
+   "The passage says she used her phone to transfer the amount."
+  ],
+  [
+   "English Language",
+   "Read the passage and answer the question.\nTrees in cities do more than provide shade. They absorb dust, reduce noise and keep streets cooler in summer. Some municipal bodies now plant trees along busy roads to make them more pleasant for walkers.\nWhich of the following is NOT mentioned as a benefit of city trees?",
+   [
+    "They absorb dust",
+    "They reduce noise",
+    "They increase the price of land",
+    "They keep streets cooler"
+   ],
+   2,
+   "Land prices are never mentioned; the other three benefits are listed."
+  ],
+  [
+   "English Language",
+   "Read the passage and answer the question.\nRavi kept missing his loan instalments because he never tracked his monthly expenses. After a bank officer showed him how to keep a simple budget, he cleared his dues within a year and even began saving.\nWhich is the most suitable title for the passage?",
+   [
+    "The Strict Bank Officer",
+    "Why Loans Are Dangerous",
+    "A Budget That Changed Things",
+    "Saving Without Earning"
+   ],
+   2,
+   "The turning point in the passage is learning to budget, which helped Ravi clear dues and save."
+  ],
+  [
+   "English Language",
+   "Choose the word that best fills the blank.\nPlease ________ your passbook updated regularly.",
+   [
+    "kept",
+    "keeps",
+    "keeping",
+    "keep"
+   ],
+   3,
+   "An imperative sentence uses the base form of the verb: 'Please keep'."
+  ],
+  [
+   "English Language",
+   "Choose the option that best fills the blank.\nThe train was delayed ________ heavy rain.",
+   [
+    "due to",
+    "despite",
+    "although",
+    "instead of"
+   ],
+   0,
+   "The rain was the cause of the delay, so 'due to' fits."
+  ],
+  [
+   "English Language",
+   "Choose the word that best fills the blank.\nShe waited for ________ hour at the counter.",
+   [
+    "a",
+    "much",
+    "many",
+    "an"
+   ],
+   3,
+   "'Hour' begins with a vowel sound (silent h), so 'an hour'."
+  ],
+  [
+   "English Language",
+   "Identify the part of the sentence that contains an error.\nMy brother and I (A) / goes to the bank (B) / every Saturday (C) / to deposit money. (D)",
+   [
+    "(A)",
+    "(B)",
+    "(C)",
+    "(D)"
+   ],
+   1,
+   "A compound subject ('My brother and I') takes a plural verb: 'go'."
+  ],
+  [
+   "English Language",
+   "Identify the part of the sentence that contains an error.\nHe is more taller (A) / than his brother (B) / but shorter (C) / than his father. (D)",
+   [
+    "(A)",
+    "(B)",
+    "(C)",
+    "(D)"
+   ],
+   0,
+   "'More taller' is a double comparative; it should be 'taller'."
+  ],
+  [
+   "English Language",
+   "Choose the option that best replaces the part in capitals. If no change is needed, choose 'No improvement required'.\nThe cashier counted the notes carefully, ISN'T IT?",
+   [
+    "didn't he?",
+    "doesn't he?",
+    "wasn't it?",
+    "No improvement required"
+   ],
+   0,
+   "A positive past-tense statement with 'counted' takes the tag 'didn't he?'."
+  ],
+  [
+   "English Language",
+   "Rearrange the sentences to form a meaningful paragraph.\nP: She then collected a token from the machine.\nQ: Sunita reached the bank at ten in the morning.\nR: When her number was called, she went to the counter.\nS: She sat down and waited for her token number to be called.",
+   [
+    "QSPR",
+    "QPSR",
+    "PQSR",
+    "QPRS"
+   ],
+   1,
+   "Arrival (Q) → token (P) → waiting (S) → called to the counter (R)."
+  ],
+  [
+   "English Language",
+   "Choose the word most similar in meaning to BRAVE.",
+   [
+    "Timid",
+    "Lazy",
+    "Angry",
+    "Courageous"
+   ],
+   3,
+   "Brave means showing courage."
+  ],
+  [
+   "English Language",
+   "Choose the word most opposite in meaning to EXPAND.",
+   [
+    "Enlarge",
+    "Extend",
+    "Widen",
+    "Contract"
+   ],
+   3,
+   "Expand means to grow larger; contract means to become smaller."
+  ],
+  [
+   "English Language",
+   "Choose the correct meaning of the idiom: 'Once in a blue moon'.",
+   [
+    "Every night",
+    "During festivals",
+    "Very rarely",
+    "At a fixed time"
+   ],
+   2,
+   "The idiom describes something that happens very seldom."
+  ],
+  [
+   "English Language",
+   "Select the word with the correct spelling.",
+   [
+    "Reciept",
+    "Receipt",
+    "Receit",
+    "Recipt"
+   ],
+   1,
+   "The correct spelling is r-e-c-e-i-p-t (with a silent p)."
+  ],
+  [
+   "English Language",
+   "Choose the one word for: 'A list of items to be discussed at a meeting'.",
+   [
+    "Agenda",
+    "Minutes",
+    "Memo",
+    "Ledger"
+   ],
+   0,
+   "An agenda lists items for discussion; minutes record what was discussed."
+  ],
+  [
+   "Numerical Ability",
+   "What will come in place of the question mark (?)\n(15 × 12 ÷ 4) + 3³ − 18 = ?",
+   [
+    "54",
+    "45",
+    "63",
+    "72"
+   ],
+   0,
+   "15 × 12 ÷ 4 = 45; 45 + 27 − 18 = 54."
+  ],
+  [
+   "Numerical Ability",
+   "What approximate value should come in place of the question mark (?)\n(64.02% of 499.9) ÷ 7.98 = ?",
+   [
+    "32",
+    "40",
+    "45",
+    "48"
+   ],
+   1,
+   "≈ 64% of 500 = 320; 320 ÷ 8 = 40."
+  ],
+  [
+   "Numerical Ability",
+   "What will come in place of the question mark (?)\n2, 6, 12, 20, 30, ?",
+   [
+    "40",
+    "36",
+    "42",
+    "44"
+   ],
+   2,
+   "Terms are n(n + 1): 1×2, 2×3, …, 6×7 = 42."
+  ],
+  [
+   "Numerical Ability",
+   "What will come in place of the question mark (?)\n5, 11, 23, 47, 95, ?",
+   [
+    "191",
+    "189",
+    "190",
+    "193"
+   ],
+   0,
+   "Each term = previous × 2 + 1: 95 × 2 + 1 = 191."
+  ],
+  [
+   "Numerical Ability",
+   "A student scored 432 marks out of 600. What percentage of marks did he score?",
+   [
+    "72%",
+    "70%",
+    "74%",
+    "68%"
+   ],
+   0,
+   "432/600 × 100 = 72%."
+  ],
+  [
+   "Numerical Ability",
+   "The marked price of a watch is ₹2,500. If a discount of 12% is given, what is the selling price?",
+   [
+    "₹2,300",
+    "₹2,120",
+    "₹2,250",
+    "₹2,200"
+   ],
+   3,
+   "SP = 2,500 × 0.88 = ₹2,200."
+  ],
+  [
+   "Numerical Ability",
+   "At what rate of simple interest per annum will ₹4,000 amount to ₹5,200 in 5 years?",
+   [
+    "6%",
+    "5%",
+    "8%",
+    "7.5%"
+   ],
+   0,
+   "SI = 1,200 = 4,000 × r × 5/100 → r = 6%."
+  ],
+  [
+   "Numerical Ability",
+   "What is the compound interest on ₹8,000 for 2 years at 5% per annum, compounded annually?",
+   [
+    "₹800",
+    "₹840",
+    "₹820",
+    "₹810"
+   ],
+   2,
+   "Amount = 8,000 × 1.05² = 8,820, so CI = ₹820."
+  ],
+  [
+   "Numerical Ability",
+   "Two numbers are in the ratio 4 : 7. If 6 is added to each, the ratio becomes 2 : 3. What are the numbers?",
+   [
+    "8 and 14",
+    "12 and 21",
+    "16 and 28",
+    "20 and 35"
+   ],
+   1,
+   "(4x + 6)/(7x + 6) = 2/3 → 12x + 18 = 14x + 12 → x = 3; numbers 12 and 21."
+  ],
+  [
+   "Numerical Ability",
+   "The average of four consecutive even numbers is 27. What is the largest of these numbers?",
+   [
+    "28",
+    "30",
+    "32",
+    "26"
+   ],
+   1,
+   "Numbers a, a+2, a+4, a+6 have average a + 3 = 27 → a = 24; largest = 30."
+  ],
+  [
+   "Numerical Ability",
+   "The sum of the present ages of a mother and her daughter is 50 years. Five years ago, the mother's age was 7 times the daughter's age. What is the daughter's present age?",
+   [
+    "8 years",
+    "10 years",
+    "12 years",
+    "15 years"
+   ],
+   1,
+   "m + d = 50 and m − 5 = 7(d − 5) → m = 7d − 30 → 8d = 80 → d = 10."
+  ],
+  [
+   "Numerical Ability",
+   "12 men can complete a work in 15 days. In how many days can 18 men complete the same work?",
+   [
+    "10 days",
+    "12 days",
+    "9 days",
+    "22.5 days"
+   ],
+   0,
+   "Total = 12 × 15 = 180 man-days; 180 ÷ 18 = 10 days."
+  ],
+  [
+   "Numerical Ability",
+   "A boat's downstream speed is 18 km/h and its upstream speed is 12 km/h. What is the speed of the boat in still water?",
+   [
+    "3 km/h",
+    "16 km/h",
+    "14 km/h",
+    "15 km/h"
+   ],
+   3,
+   "Still-water speed = (18 + 12)/2 = 15 km/h."
+  ],
+  [
+   "Numerical Ability",
+   "In what ratio must rice costing ₹40 per kg be mixed with rice costing ₹55 per kg so that the mixture is worth ₹45 per kg?",
+   [
+    "1 : 2",
+    "3 : 2",
+    "2 : 1",
+    "2 : 3"
+   ],
+   2,
+   "By alligation: (55 − 45) : (45 − 40) = 10 : 5 = 2 : 1."
+  ],
+  [
+   "Numerical Ability",
+   "What is the volume of a cylinder with radius 7 cm and height 12 cm? (Take π = 22/7)",
+   [
+    "1,584 cm³",
+    "924 cm³",
+    "2,156 cm³",
+    "1,848 cm³"
+   ],
+   3,
+   "V = πr²h = 22/7 × 49 × 12 = 1,848 cm³."
+  ],
+  [
+   "Numerical Ability",
+   "How many 3-digit numbers can be formed using the digits 1, 2, 3, 4 and 5 if no digit is repeated?",
+   [
+    "125",
+    "60",
+    "120",
+    "20"
+   ],
+   1,
+   "5 × 4 × 3 = 60."
+  ],
+  [
+   "Numerical Ability",
+   "The table shows new accounts opened by a branch.\nJanuary – 120, February – 150, March – 135, April – 175\nWhat is the average number of accounts opened per month?",
+   [
+    "140",
+    "150",
+    "135",
+    "145"
+   ],
+   3,
+   "(120 + 150 + 135 + 175)/4 = 580/4 = 145."
+  ],
+  [
+   "Reasoning Ability",
+   "Seven persons A, B, C, D, E, F and G sit in a row facing north.\n• G sits exactly in the middle of the row.\n• A and D are the immediate neighbours of G.\n• E sits at one of the extreme ends.\n• Only one person sits between E and D.\n• C sits second to the left of A.\n• B sits second to the left of G.\nWho sits immediately to the right of B?",
+   [
+    "C",
+    "G",
+    "A",
+    "D"
+   ],
+   2,
+   "If A were 5th, C would be 3rd = D's seat; so A = 3, D = 5, E = 7, C = 1, B = 2, F = 6. Right of B is A."
+  ],
+  [
+   "Reasoning Ability",
+   "Seven persons A, B, C, D, E, F and G sit in a row facing north.\n• G sits exactly in the middle of the row.\n• A and D are the immediate neighbours of G.\n• E sits at one of the extreme ends.\n• Only one person sits between E and D.\n• C sits second to the left of A.\n• B sits second to the left of G.\nHow many persons sit between C and F?",
+   [
+    "Three",
+    "Four",
+    "Five",
+    "Two"
+   ],
+   1,
+   "Order: C, B, A, G, D, F, E. Between C (1) and F (6): B, A, G, D."
+  ],
+  [
+   "Reasoning Ability",
+   "Five persons V, W, X, Y and Z live on the five floors of a building numbered 1 (lowest) to 5 (top). Z lives on an odd-numbered floor but not on the top floor. Y lives immediately below Z. W lives below Y. X lives above V.\nWho lives on the floor immediately above Z?",
+   [
+    "X",
+    "Y",
+    "V",
+    "W"
+   ],
+   2,
+   "Z = 3 (Z = 1 leaves no room below for Y), Y = 2, W = 1; X above V gives V = 4, X = 5."
+  ],
+  [
+   "Reasoning Ability",
+   "Statements: Some cards are coins. Some coins are notes.\nConclusions: I. Some cards are notes. II. No card is a note.",
+   [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Either I or II follows",
+    "Neither I nor II follows"
+   ],
+   2,
+   "Neither is definite on its own, but I and II form a complementary pair, so either I or II follows."
+  ],
+  [
+   "Reasoning Ability",
+   "Statements: All clerks are officers. All officers are graduates.\nConclusions: I. All clerks are graduates. II. Some graduates are clerks.",
+   [
+    "Both I and II follow",
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Neither I nor II follows"
+   ],
+   0,
+   "Clerks ⊂ officers ⊂ graduates gives I; converting I gives 'some graduates are clerks' (II)."
+  ],
+  [
+   "Reasoning Ability",
+   "Statements: P < Q ≤ R; S ≥ R > T\nConclusions: I. T > P  II. Q < S",
+   [
+    "Neither I nor II follows",
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both I and II follow"
+   ],
+   0,
+   "T and P are not connected by a definite relation. S ≥ R ≥ Q gives only S ≥ Q, so II is not certain. Neither follows."
+  ],
+  [
+   "Reasoning Ability",
+   "X is the son of Y. Y is the sister of Z. Z is the father of W. How is X related to W?",
+   [
+    "Brother",
+    "Nephew",
+    "Cousin",
+    "Uncle"
+   ],
+   2,
+   "X's mother Y is the sister of W's father Z, so X and W are cousins."
+  ],
+  [
+   "Reasoning Ability",
+   "From her house, Pooja walks 8 m south, then turns right and walks 6 m. What is the shortest distance between her and her house?",
+   [
+    "10 m",
+    "14 m",
+    "12 m",
+    "8 m"
+   ],
+   0,
+   "Turning right while facing south means going west; distance = √(8² + 6²) = 10 m."
+  ],
+  [
+   "Reasoning Ability",
+   "In the morning, the shadow of a tower falls exactly towards Ravi's right. Which direction is Ravi facing?",
+   [
+    "North",
+    "South",
+    "East",
+    "West"
+   ],
+   1,
+   "In the morning the sun is in the east, so shadows fall towards the west. West on his right means he faces south."
+  ],
+  [
+   "Reasoning Ability",
+   "If BANK is coded as YZMP, how is LOAN coded?",
+   [
+    "OLAM",
+    "PLZM",
+    "OKZM",
+    "OLZM"
+   ],
+   3,
+   "Each letter is replaced by its opposite letter (A↔Z, B↔Y…): L→O, O→L, A→Z, N→M."
+  ],
+  [
+   "Reasoning Ability",
+   "If GREAT is written as TAERG, how is SMART written?",
+   [
+    "TSRAM",
+    "TRAMS",
+    "TRASM",
+    "MSTRA"
+   ],
+   1,
+   "The word is written in reverse order: SMART → TRAMS."
+  ],
+  [
+   "Reasoning Ability",
+   "In a queue, Kiran is 7th from the front and 11th from the back. How many people are in the queue?",
+   [
+    "18",
+    "16",
+    "17",
+    "19"
+   ],
+   2,
+   "Total = 7 + 11 − 1 = 17."
+  ],
+  [
+   "Reasoning Ability",
+   "A is heavier than B but lighter than C. D is heavier than C. E is the lightest of all. Who is the second heaviest?",
+   [
+    "A",
+    "D",
+    "B",
+    "C"
+   ],
+   3,
+   "Order: D > C > A > B > E, so C is second heaviest."
+  ],
+  [
+   "Reasoning Ability",
+   "How many pairs of letters are there in the word BRANCH which have as many letters between them in the word as in the English alphabet (in either direction)?",
+   [
+    "Two",
+    "Three",
+    "None",
+    "One"
+   ],
+   3,
+   "Only A–C qualifies: one letter (N) between them in the word and one (B) in the alphabet."
+  ],
+  [
+   "Reasoning Ability",
+   "Study the arrangement:\nR 4 # T 8 K @ 2 M $ 7 P W 3 & Z\nWhich element is 5th to the left of the 9th element from the right end?",
+   [
+    "T",
+    "#",
+    "R",
+    "@"
+   ],
+   1,
+   "The 9th from the right is 2 (8th from the left); 5th to its left is the 3rd from the left, '#'."
+  ],
+  [
+   "Reasoning Ability",
+   "Find the odd one out: BDF, HJL, MOQ, RTW",
+   [
+    "BDF",
+    "HJL",
+    "RTW",
+    "MOQ"
+   ],
+   2,
+   "In BDF, HJL and MOQ each step skips exactly one letter; in RTW, R→T skips one letter (S) but T→W skips two (U, V)."
+  ],
+  [
+   "Reasoning Ability",
+   "Find the missing term: 8 : 64 :: 11 : ?",
+   [
+    "111",
+    "121",
+    "132",
+    "99"
+   ],
+   1,
+   "The second number is the square of the first: 11² = 121."
+  ],
+  [
+   "Reasoning Ability",
+   "Five persons V, W, X, Y and Z live on the five floors of a building numbered 1 (lowest) to 5 (top). Z lives on an odd-numbered floor but not on the top floor. Y lives immediately below Z. W lives below Y. X lives above V.\nWho lives on the top floor?",
+   [
+    "X",
+    "V",
+    "Z",
+    "Y"
+   ],
+   0,
+   "Arrangement from floor 1: W, Y, Z, V, X; X is on the top floor."
+  ]
+ ],
+ "rbi-b": [
+  [
+   "General Awareness",
+   "Under which Act was the Reserve Bank of India constituted?",
+   [
+    "Banking Regulation Act, 1949",
+    "Reserve Bank of India Act, 1934",
+    "Companies Act, 1956",
+    "Foreign Exchange Management Act, 1999"
+   ],
+   1,
+   "The RBI was set up under the RBI Act, 1934 and began operations in April 1935."
+  ],
+  [
+   "General Awareness",
+   "Under the Cash Reserve Ratio (CRR), a scheduled bank must keep a specified share of its net demand and time liabilities in which form?",
+   [
+    "As a cash balance with the RBI",
+    "As gold in its own vaults",
+    "As government securities in its own portfolio",
+    "As deposits with other commercial banks"
+   ],
+   0,
+   "CRR is maintained as cash balances with the RBI; liquid assets held by the bank itself count towards SLR, not CRR."
+  ],
+  [
+   "General Awareness",
+   "Which RBI facility allows scheduled banks to borrow overnight, at a rate above the policy repo rate, by dipping into their SLR holdings up to a limit?",
+   [
+    "Reverse repo",
+    "Marginal Standing Facility",
+    "Cash Reserve Ratio",
+    "Open market sale"
+   ],
+   1,
+   "The MSF is a penal-rate overnight window above the repo rate under which banks may use a portion of their SLR securities."
+  ],
+  [
+   "General Awareness",
+   "When the RBI purchases government securities in the open market, what is the immediate effect on liquidity in the banking system?",
+   [
+    "Liquidity is injected into the system",
+    "Liquidity is absorbed from the system",
+    "The CRR rises automatically",
+    "Money supply falls"
+   ],
+   0,
+   "The RBI pays for the securities it buys, adding reserves (rupee liquidity) to the banking system."
+  ],
+  [
+   "General Awareness",
+   "Which body determines the policy repo rate in India under the flexible inflation targeting framework?",
+   [
+    "Monetary Policy Committee",
+    "Finance Commission",
+    "NITI Aayog",
+    "Securities and Exchange Board of India"
+   ],
+   0,
+   "Under the amended RBI Act, the Monetary Policy Committee decides the policy repo rate."
+  ],
+  [
+   "General Awareness",
+   "How many members make up the Monetary Policy Committee constituted under the RBI Act, 1934?",
+   [
+    "Four",
+    "Six",
+    "Five",
+    "Seven"
+   ],
+   1,
+   "The MPC has six members: three from the RBI (including the Governor) and three external members appointed by the Government."
+  ],
+  [
+   "General Awareness",
+   "Which price index is used to define the inflation target under India's flexible inflation targeting framework?",
+   [
+    "Consumer Price Index (Combined)",
+    "Wholesale Price Index",
+    "GDP deflator",
+    "Producer Price Index"
+   ],
+   0,
+   "The target is set in terms of headline CPI (Combined) inflation."
+  ],
+  [
+   "General Awareness",
+   "As per RBI's prudential norms, a term loan generally becomes a Non-Performing Asset when interest or principal instalment remains overdue for more than how many days?",
+   [
+    "30 days",
+    "60 days",
+    "90 days",
+    "180 days"
+   ],
+   2,
+   "Under the income recognition and asset classification norms, an asset is an NPA if dues remain overdue for more than 90 days."
+  ],
+  [
+   "General Awareness",
+   "Which Act enables secured creditors such as banks to enforce their security interest without the intervention of a court?",
+   [
+    "SARFAESI Act, 2002",
+    "Insolvency and Bankruptcy Code, 2016",
+    "Negotiable Instruments Act, 1881",
+    "Banking Regulation Act, 1949"
+   ],
+   0,
+   "The SARFAESI Act lets secured lenders take possession of and sell secured assets without going to court."
+  ],
+  [
+   "General Awareness",
+   "Which of the following activities is a payments bank NOT permitted to undertake?",
+   [
+    "Accepting demand deposits",
+    "Issuing debit cards",
+    "Offering remittance services",
+    "Lending money to customers"
+   ],
+   3,
+   "Payments banks may accept deposits, issue debit cards and offer remittances, but they cannot lend or issue credit cards."
+  ],
+  [
+   "General Awareness",
+   "Which RBI function refers to providing emergency liquidity support to a solvent bank facing a temporary cash shortage?",
+   [
+    "Custodian of foreign exchange reserves",
+    "Lender of last resort",
+    "Issuer of currency",
+    "Debt manager to the Government"
+   ],
+   1,
+   "As lender of last resort, the RBI supplies emergency funds to banks to prevent a liquidity crisis spreading."
+  ],
+  [
+   "General Awareness",
+   "Which authority issues the one-rupee note in India?",
+   [
+    "Government of India",
+    "Reserve Bank of India",
+    "State Bank of India",
+    "NABARD"
+   ],
+   0,
+   "One-rupee notes and coins are issued by the Government of India (Ministry of Finance); higher-denomination notes are issued by the RBI."
+  ],
+  [
+   "General Awareness",
+   "Fiscal deficit of the Government is best defined as:",
+   [
+    "Total expenditure minus total receipts excluding borrowings",
+    "Revenue expenditure minus revenue receipts",
+    "Fiscal deficit minus interest payments",
+    "Value of imports minus value of exports"
+   ],
+   0,
+   "Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts); the other options define revenue deficit, primary deficit and trade deficit."
+  ],
+  [
+   "General Awareness",
+   "Gross National Product (GNP) is equal to Gross Domestic Product (GDP) plus:",
+   [
+    "Net factor income from abroad",
+    "Depreciation",
+    "Net indirect taxes",
+    "Subsidies"
+   ],
+   0,
+   "GNP = GDP + net factor income from abroad; depreciation and indirect taxes link gross/net and market-price/factor-cost measures."
+  ],
+  [
+   "General Awareness",
+   "Stagflation refers to an economic situation marked by:",
+   [
+    "High inflation along with stagnant growth and high unemployment",
+    "Falling prices along with rapid growth",
+    "Low inflation along with full employment",
+    "A sustained fall in the general price level"
+   ],
+   0,
+   "Stagflation combines rising prices with economic stagnation and unemployment."
+  ],
+  [
+   "General Awareness",
+   "Which monetary aggregate is commonly referred to as 'broad money' in India?",
+   [
+    "M3",
+    "M1",
+    "M0",
+    "M2"
+   ],
+   0,
+   "M1 is narrow money and M0 is reserve money; M3 (M1 + time deposits with banks) is broad money."
+  ],
+  [
+   "General Awareness",
+   "Where is the headquarters of the Bank for International Settlements (BIS)?",
+   [
+    "Geneva, Switzerland",
+    "Washington, D.C., USA",
+    "Basel, Switzerland",
+    "Paris, France"
+   ],
+   2,
+   "The BIS, often called the central bank of central banks, is headquartered in Basel."
+  ],
+  [
+   "General Awareness",
+   "Which institution was established along with the International Monetary Fund at the Bretton Woods Conference of 1944?",
+   [
+    "World Trade Organization",
+    "Asian Development Bank",
+    "New Development Bank",
+    "International Bank for Reconstruction and Development"
+   ],
+   3,
+   "The 1944 Bretton Woods Conference created the IMF and the IBRD; the WTO was set up only in 1995."
+  ],
+  [
+   "General Awareness",
+   "Which national financial inclusion mission, launched in 2014, aims to provide every household with a basic bank account along with a RuPay debit card?",
+   [
+    "Atal Pension Yojana",
+    "Pradhan Mantri Suraksha Bima Yojana",
+    "Stand-Up India",
+    "Pradhan Mantri Jan Dhan Yojana"
+   ],
+   3,
+   "PMJDY, launched in August 2014, focuses on universal access to basic banking accounts with RuPay cards."
+  ],
+  [
+   "General Awareness",
+   "Which of the following is a qualitative (selective) tool of credit control rather than a quantitative one?",
+   [
+    "Cash Reserve Ratio",
+    "Open market operations",
+    "Bank rate",
+    "Moral suasion"
+   ],
+   3,
+   "Moral suasion (persuasion of banks) is qualitative; CRR, OMOs and the bank rate act on the overall quantity of credit."
+  ],
+  [
+   "English Language",
+   "Read the passage and answer the question.\nCentral banks face a classic trade-off when inflation and unemployment move in opposite directions. Raising interest rates may cool prices but can also slow hiring, while cutting rates may support jobs but risks letting inflation become entrenched. Credibility matters because if people believe the central bank will act decisively, their inflation expectations stay anchored and smaller policy moves are needed.\nAccording to the passage, why is credibility valuable to a central bank?",
+   [
+    "It removes the trade-off between inflation and unemployment",
+    "It allows the bank to keep interest rates unchanged permanently",
+    "Anchored expectations let it achieve its goals with smaller policy moves",
+    "It guarantees that unemployment falls whenever rates rise"
+   ],
+   2,
+   "The last sentence links credibility to anchored expectations and smaller policy moves; the trade-off itself is not removed."
+  ],
+  [
+   "English Language",
+   "Read the passage and answer the question.\nProponents of universal basic income argue that unconditional cash transfers reduce administrative costs and avoid the exclusion errors that plague targeted schemes. Sceptics counter that a payment generous enough to matter would be fiscally prohibitive, while one that is affordable would be too small to replace existing welfare.\nThe sceptics' argument is best described as:",
+   [
+    "A claim that targeted schemes have no exclusion errors",
+    "A dilemma between adequacy and affordability",
+    "An objection based on administrative complexity",
+    "A demand that transfers be linked to employment"
+   ],
+   1,
+   "Sceptics say a large payment is unaffordable and an affordable one is inadequate — a two-sided dilemma."
+  ],
+  [
+   "English Language",
+   "Choose the word that best fills the blank.\nThe committee's recommendations, though ________ in theory, proved difficult to implement given the state's limited administrative capacity.",
+   [
+    "flawed",
+    "obsolete",
+    "sound",
+    "trivial"
+   ],
+   2,
+   "'Though' signals contrast with 'difficult to implement', so the recommendations must be good in theory: sound."
+  ],
+  [
+   "English Language",
+   "Choose the phrase that best fills the blank.\nPersistent fiscal deficits can ________ private investment if government borrowing pushes up interest rates.",
+   [
+    "crowd in",
+    "bail out",
+    "phase in",
+    "crowd out"
+   ],
+   3,
+   "Higher interest rates caused by government borrowing reduce, i.e. crowd out, private investment."
+  ],
+  [
+   "English Language",
+   "Identify the part of the sentence that contains an error.\nScarcely had the regulator announced (A) / the new norms than (B) / several lenders revised (C) / their lending rates. (D)",
+   [
+    "(A)",
+    "(B)",
+    "(C)",
+    "(D)"
+   ],
+   1,
+   "'Scarcely' is followed by 'when', not 'than': 'the new norms when'."
+  ],
+  [
+   "English Language",
+   "Identify the part of the sentence that contains an error.\nThe number of applicants (A) / for the post (B) / have increased (C) / significantly this year. (D)",
+   [
+    "(A)",
+    "(B)",
+    "(C)",
+    "(D)"
+   ],
+   2,
+   "'The number of' takes a singular verb: 'has increased'."
+  ],
+  [
+   "English Language",
+   "Choose the option that best replaces the part in capitals. If no change is needed, choose 'No improvement required'.\nNo sooner did the auditors arrive WHEN THE FILES WENT MISSING.",
+   [
+    "then the files went missing",
+    "as the files went missing",
+    "No improvement required",
+    "than the files went missing"
+   ],
+   3,
+   "'No sooner' is always paired with 'than'."
+  ],
+  [
+   "English Language",
+   "Rearrange the sentences to form a coherent paragraph.\nP: Yet this growth has not been evenly shared.\nQ: Over the past two decades, digital payments have expanded at a remarkable pace.\nR: Bridging this gap will require investment in both connectivity and financial literacy.\nS: Rural users and the elderly still lag behind, often for want of reliable internet or familiarity with apps.",
+   [
+    "QSPR",
+    "PQSR",
+    "QPRS",
+    "QPSR"
+   ],
+   3,
+   "Q states the growth, P qualifies it ('Yet'), S describes who is left out, and R proposes how to bridge 'this gap'."
+  ],
+  [
+   "English Language",
+   "Choose the word most similar in meaning to OBDURATE.",
+   [
+    "Pliant",
+    "Obscure",
+    "Gentle",
+    "Stubborn"
+   ],
+   3,
+   "Obdurate means stubbornly refusing to change one's opinion."
+  ],
+  [
+   "English Language",
+   "Choose the correct meaning of the idiom: 'A red herring'.",
+   [
+    "A clear warning of danger",
+    "Something that distracts attention from the real issue",
+    "A lucky find",
+    "A rare opportunity"
+   ],
+   1,
+   "A red herring is a misleading clue or distraction."
+  ],
+  [
+   "Quantitative Aptitude",
+   "What approximate value should come in place of the question mark (?)\n(3.98)³ + 21.03% of 799.95 − √2024 = ?",
+   [
+    "177",
+    "187",
+    "197",
+    "209"
+   ],
+   1,
+   "≈ 4³ + 21% of 800 − 45 = 64 + 168 − 45 = 187."
+  ],
+  [
+   "Quantitative Aptitude",
+   "What will come in place of the question mark (?)\n3, 4, 12, 39, 103, ?",
+   [
+    "216",
+    "232",
+    "228",
+    "224"
+   ],
+   2,
+   "Differences are cubes: 1, 8, 27, 64, 125; 103 + 125 = 228."
+  ],
+  [
+   "Quantitative Aptitude",
+   "Two equations I and II are given. Solve both and choose the correct relationship between x and y.\nI. 6x² − 7x + 2 = 0\nII. 12y² − 7y + 1 = 0",
+   [
+    "x > y",
+    "x < y",
+    "x ≥ y",
+    "Relationship cannot be established"
+   ],
+   0,
+   "(2x − 1)(3x − 2) = 0 → x = 1/2, 2/3; (3y − 1)(4y − 1) = 0 → y = 1/3, 1/4. Every x exceeds every y, so x > y."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A sum of money invested at compound interest (compounded annually) amounts to ₹6,050 in 2 years and to ₹6,655 in 3 years. What is the sum?",
+   [
+    "₹5,500",
+    "₹4,800",
+    "₹5,000",
+    "₹5,050"
+   ],
+   2,
+   "Rate = (6,655 − 6,050)/6,050 = 10%; P = 6,050/1.1² = 6,050/1.21 = ₹5,000."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A and B can complete a job in 15 days and 20 days respectively. With the help of C, the three finish it in 6 days. If they are paid ₹3,600 in all, how much should C get?",
+   [
+    "₹1,200",
+    "₹1,080",
+    "₹1,440",
+    "₹900"
+   ],
+   1,
+   "C's rate = 1/6 − 1/15 − 1/20 = 1/20; in 6 days C does 6/20 = 3/10 of the work, so C gets 3/10 × 3,600 = ₹1,080."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A man travels from P to Q at 40 km/h and returns from Q to P at 60 km/h. If the whole journey takes 10 hours, what is the distance between P and Q?",
+   [
+    "240 km",
+    "250 km",
+    "200 km",
+    "300 km"
+   ],
+   0,
+   "Average speed = 2 × 40 × 60/100 = 48 km/h; total distance = 480 km, so PQ = 240 km (check: 6 h + 4 h)."
+  ],
+  [
+   "Quantitative Aptitude",
+   "Vessel A contains milk and water in the ratio 5 : 3, and vessel B in the ratio 3 : 1. In what ratio should the contents of A and B be mixed to obtain a mixture with milk and water in the ratio 2 : 1?",
+   [
+    "1 : 2",
+    "2 : 1",
+    "3 : 2",
+    "5 : 3"
+   ],
+   1,
+   "Milk fractions: A = 5/8, B = 3/4, target = 2/3. A : B = (3/4 − 2/3) : (2/3 − 5/8) = 1/12 : 1/24 = 2 : 1."
+  ],
+  [
+   "Quantitative Aptitude",
+   "A box contains 4 red, 5 white and 6 blue balls. Three balls are drawn at random. What is the probability that the three balls are of different colours?",
+   [
+    "12/91",
+    "24/91",
+    "4/15",
+    "18/91"
+   ],
+   1,
+   "Favourable = 4 × 5 × 6 = 120; total = ¹⁵C₃ = 455; 120/455 = 24/91."
+  ],
+  [
+   "Quantitative Aptitude",
+   "In how many different ways can the letters of the word RESERVE be arranged?",
+   [
+    "840",
+    "5040",
+    "210",
+    "420"
+   ],
+   3,
+   "7 letters with E repeated 3 times and R twice: 7!/(3! × 2!) = 5,040/12 = 420."
+  ],
+  [
+   "Quantitative Aptitude",
+   "The table shows deposits and loans (₹ crore) of three bank branches.\nBranch X: deposits 250, loans 180\nBranch Y: deposits 320, loans 256\nBranch Z: deposits 400, loans 260\nWhich branch has the highest credit–deposit ratio?",
+   [
+    "Branch X",
+    "Branch Z",
+    "X and Y are equal",
+    "Branch Y"
+   ],
+   3,
+   "C–D ratios: X = 180/250 = 72%, Y = 256/320 = 80%, Z = 260/400 = 65%. Y is highest."
+  ],
+  [
+   "Reasoning",
+   "Eight persons A, B, C, D, E, F, G and H live on eight different floors of a building numbered 1 (lowest) to 8 (top).\n• D lives on an odd-numbered floor above floor 3.\n• Exactly two persons live between D and C.\n• A lives on an even-numbered floor below D.\n• G lives immediately above C.\n• E lives below C.\n• Exactly four persons live between E and H.\n• B lives immediately above H.\nWho lives on floor 3?",
+   [
+    "A",
+    "C",
+    "G",
+    "E"
+   ],
+   2,
+   "D = 5 or 7. If D = 7, then C = 4, G = 5 and E (floor 1–3) puts H on 6, 7 or 8, but B must be immediately above H on a free floor — impossible. So D = 5, C = 2, G = 3, E = 1, H = 6, B = 7, A = 4, F = 8."
+  ],
+  [
+   "Reasoning",
+   "Eight persons A, B, C, D, E, F, G and H live on eight different floors of a building numbered 1 (lowest) to 8 (top).\n• D lives on an odd-numbered floor above floor 3.\n• Exactly two persons live between D and C.\n• A lives on an even-numbered floor below D.\n• G lives immediately above C.\n• E lives below C.\n• Exactly four persons live between E and H.\n• B lives immediately above H.\nHow many persons live between A and B?",
+   [
+    "One",
+    "Three",
+    "Two",
+    "Four"
+   ],
+   2,
+   "Order (1→8): E, C, G, A, D, H, B, F. Between A (4) and B (7) are D and H."
+  ],
+  [
+   "Reasoning",
+   "Six persons L, M, N, O, P and Q sit around a circular table facing the centre. M sits second to the left of L. N sits opposite Q. P is an immediate neighbour of both M and N.\nWho sits immediately to the right of L?",
+   [
+    "Q",
+    "M",
+    "O",
+    "P"
+   ],
+   2,
+   "Clockwise from L: L, Q, M, P, N, O (facing the centre, left is clockwise). L's immediate right (anticlockwise) is O."
+  ],
+  [
+   "Reasoning",
+   "Statements: Some debts are bonds. No bond is a share. All shares are equities.\nConclusions: I. Some equities are not bonds. II. Some debts being shares is a possibility.",
+   [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both I and II follow",
+    "Neither I nor II follows"
+   ],
+   2,
+   "Shares are equities and no share is a bond, so some equities are not bonds. Debts outside the bond region may be shares, so II is possible."
+  ],
+  [
+   "Reasoning",
+   "Statement: A ≥ B > C ≤ D < E = F ≥ G\nWhich of the following is definitely true?",
+   [
+    "B > D",
+    "G > C",
+    "F > C",
+    "A ≥ E"
+   ],
+   2,
+   "F = E > D ≥ C gives F > C. B–D, G–C and A–E cannot be compared definitely."
+  ],
+  [
+   "Reasoning",
+   "A # B means A is the son of B; A @ B means A is the wife of B; A & B means A is the brother of B; A % B means A is the father of B.\nIf M & N # O @ P % Q, how is M related to P?",
+   [
+    "Nephew",
+    "Brother",
+    "Son-in-law",
+    "Son"
+   ],
+   3,
+   "O is P's wife and N is O's son, so N is P's son; M is N's brother, hence also P's son."
+  ],
+  [
+   "Reasoning",
+   "Ankit starts from point X and walks 15 m north to Y. He turns left and walks 20 m to Z, turns left again and walks 30 m to W, then turns left and walks 20 m to V. Where is X with respect to V?",
+   [
+    "15 m North",
+    "15 m South",
+    "20 m East",
+    "25 m North-East"
+   ],
+   0,
+   "X(0,0) → Y(0,15) → Z(−20,15) → W(−20,−15) → V(0,−15). X is 15 m north of V."
+  ],
+  [
+   "Reasoning",
+   "In a certain code, FISCAL is written as GHTBBK. How is MARKET written in that code?",
+   [
+    "NBSJFS",
+    "NZSJFS",
+    "NZSLFS",
+    "LZQJDS"
+   ],
+   1,
+   "Letters are shifted +1 and −1 alternately: M+1 = N, A−1 = Z, R+1 = S, K−1 = J, E+1 = F, T−1 = S."
+  ],
+  [
+   "Reasoning",
+   "In a row of 50 students, A is 18th from the left end and B is 27th from the right end. C sits exactly midway between A and B. What is C's position from the left end?",
+   [
+    "20th",
+    "22nd",
+    "23rd",
+    "21st"
+   ],
+   3,
+   "B is 50 − 27 + 1 = 24th from the left; midway between 18 and 24 is 21."
+  ],
+  [
+   "Reasoning",
+   "Study the arrangement:\nE 3 @ K 7 % 2 D # 5 L 8 & W 9 * 6 G Y 4 $\nHow many numbers are immediately preceded by a letter and immediately followed by a symbol?",
+   [
+    "Three",
+    "Five",
+    "Four",
+    "Six"
+   ],
+   1,
+   "E 3 @, K 7 %, L 8 &, W 9 * and Y 4 $ — five such numbers."
+  ]
+ ]
+}

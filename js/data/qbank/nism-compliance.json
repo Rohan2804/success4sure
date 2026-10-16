@@ -1,0 +1,3012 @@
+{
+ "ix": [
+  [
+   "Introduction to Capital Market",
+   "Which feature best distinguishes the primary market from the secondary market?",
+   [
+    "Securities are issued for the first time and the issuer receives the money",
+    "Only listed securities are traded between existing investors",
+    "Prices are always fixed by SEBI rather than by demand and supply",
+    "Only institutional investors are permitted to participate"
+   ],
+   0,
+   "In the primary market, new securities are created and sold so funds flow to the issuer; secondary market trades happen between investors."
+  ],
+  [
+   "Introduction to Capital Market",
+   "Under which statute did SEBI acquire statutory powers to regulate the Indian securities market?",
+   [
+    "The Securities Contracts (Regulation) Act, 1956",
+    "The Depositories Act, 1996",
+    "The Securities and Exchange Board of India Act, 1992",
+    "The Companies Act, 2013"
+   ],
+   2,
+   "SEBI was set up in 1988 as a non-statutory body and received statutory powers through the SEBI Act, 1992."
+  ],
+  [
+   "Introduction to Capital Market",
+   "A company already listed on a stock exchange offers fresh shares to the public. What is this issue called?",
+   [
+    "Initial public offer (IPO)",
+    "Further public offer (FPO)",
+    "Private placement",
+    "Bonus issue"
+   ],
+   1,
+   "A public issue of fresh securities by an issuer that is already listed is a further public offer; an IPO is by an unlisted issuer."
+  ],
+  [
+   "Introduction to Capital Market",
+   "Which of the following is a function of a depository in the Indian capital market?",
+   [
+    "Guaranteeing the settlement of trades executed on the exchange",
+    "Fixing the issue price of securities in a public issue",
+    "Providing credit ratings for debt instruments",
+    "Holding securities in dematerialised form and effecting transfers by book entry"
+   ],
+   3,
+   "Depositories (NSDL and CDSL) hold securities electronically and transfer them by book entry; settlement guarantee is the clearing corporation's role."
+  ],
+  [
+   "Introduction to Merchant Banking",
+   "Under the SEBI (Merchant Bankers) Regulations, 1992, the core activity that defines a merchant banker is:",
+   [
+    "Accepting public deposits and granting loans to corporates",
+    "Holding securities in electronic form on behalf of investors",
+    "Issue management, including arranging the selling, buying or subscription of securities and acting as manager, consultant or adviser",
+    "Executing trades on a stock exchange on behalf of clients"
+   ],
+   2,
+   "The regulations define a merchant banker by its issue-management business; deposit taking, custody and broking are other activities."
+  ],
+  [
+   "Introduction to Merchant Banking",
+   "Which of these services is typically offered by a merchant banker?",
+   [
+    "Advising a company on the structure and timing of a capital-raising issue",
+    "Issuing currency notes on behalf of the government",
+    "Acting as the depository for a listed company's shares",
+    "Running the clearing and settlement system of a stock exchange"
+   ],
+   0,
+   "Merchant bankers advise on and manage capital-raising; currency issue, depository and clearing functions belong to other institutions."
+  ],
+  [
+   "Introduction to Merchant Banking",
+   "A merchant banker that acts as the lead manager to a public issue is commonly called the:",
+   [
+    "Registrar to the issue",
+    "Sponsor bank",
+    "Debenture trustee",
+    "Book running lead manager (BRLM)"
+   ],
+   3,
+   "The lead manager that manages the book-building process is the BRLM; the registrar, sponsor bank and trustee perform separate roles."
+  ],
+  [
+   "Introduction to Merchant Banking",
+   "Why does SEBI require a merchant banker to be involved in a public issue of securities?",
+   [
+    "To guarantee investors a minimum return on the issue",
+    "To ensure professional due diligence and disclosure so that investors receive accurate information",
+    "To replace the board of directors of the issuer during the issue",
+    "To fix the market price of the shares after listing"
+   ],
+   1,
+   "The merchant banker's due diligence and disclosure role protects investors; it does not guarantee returns or control post-listing prices."
+  ],
+  [
+   "Registration, Code of Conduct & Obligations",
+   "Which of the following is permitted to act as a merchant banker in India?",
+   [
+    "Any chartered accountant in practice without SEBI registration",
+    "A body corporate registered with SEBI as a merchant banker",
+    "Any listed company for its own issues without registration",
+    "An individual investor with a demat account"
+   ],
+   1,
+   "No one can carry on merchant banking activity without a certificate of registration from SEBI, and registration is granted to body corporates."
+  ],
+  [
+   "Registration, Code of Conduct & Obligations",
+   "A merchant banker discovers that it is an associate of the issuer whose IPO it has been asked to lead manage. What should it do?",
+   [
+    "Act as lead manager after disclosing the relationship in the red herring prospectus",
+    "Act as lead manager if the issue size is small",
+    "Act as lead manager after taking approval from the stock exchange",
+    "Decline to act as lead manager, because a merchant banker cannot lead manage an issue of an associate"
+   ],
+   3,
+   "The regulations bar a merchant banker from lead managing an issue where it is an associate of the issuer, to avoid conflicts of interest; disclosure does not cure this."
+  ],
+  [
+   "Registration, Code of Conduct & Obligations",
+   "The SEBI-mandated code of conduct requires a merchant banker to:",
+   [
+    "Act with integrity, due skill, care and diligence and avoid conflicts of interest",
+    "Promise investors a guaranteed listing gain",
+    "Share confidential client information with other clients to improve pricing",
+    "Recommend only issues on which it earns the highest fee"
+   ],
+   0,
+   "The code of conduct centres on integrity, diligence, fairness to clients and managing conflicts; promising returns or misusing information is prohibited."
+  ],
+  [
+   "Registration, Code of Conduct & Obligations",
+   "Which officer must a SEBI-registered merchant banker appoint to monitor compliance with securities laws and to redress investor grievances?",
+   [
+    "Statutory auditor",
+    "Registrar to the issue",
+    "Compliance officer",
+    "Debenture trustee"
+   ],
+   2,
+   "A merchant banker must appoint a compliance officer responsible for monitoring compliance with SEBI rules and handling investor grievances."
+  ],
+  [
+   "Registration, Code of Conduct & Obligations",
+   "An employee of a merchant banker learns of a pending, unannounced acquisition by a client company and buys its shares. This is:",
+   [
+    "Insider trading, prohibited under the SEBI (Prohibition of Insider Trading) Regulations, 2015",
+    "Permitted, as long as the employee holds the shares for at least one year",
+    "Permitted, because the merchant banker itself did not trade",
+    "A matter only for the company's internal disciplinary policy"
+   ],
+   0,
+   "Trading while in possession of unpublished price sensitive information is insider trading, regardless of holding period or who placed the trade."
+  ],
+  [
+   "Registration, Code of Conduct & Obligations",
+   "SEBI finds that a merchant banker has failed to carry out due diligence in an issue. Which action is SEBI empowered to take?",
+   [
+    "Only issue an advisory letter, as SEBI cannot penalise intermediaries",
+    "Refer the matter to the stock exchange, which alone can act",
+    "Initiate enforcement action such as a penalty, suspension or cancellation of registration",
+    "Order the issuer to replace its statutory auditor"
+   ],
+   2,
+   "SEBI can impose monetary penalties and suspend or cancel registration of an intermediary that violates its regulations."
+  ],
+  [
+   "Issue Management – Important Terms",
+   "What does the term 'red herring prospectus' (RHP) refer to in a book-built issue?",
+   [
+    "A prospectus filed after the issue has closed containing allotment details",
+    "An offer document that does not contain the final price or the exact number of shares offered",
+    "A document used only for private placements to QIBs",
+    "A prospectus that SEBI has rejected"
+   ],
+   1,
+   "The RHP carries all disclosures except the final price and quantity, which are determined through book building and appear in the final prospectus."
+  ],
+  [
+   "Issue Management – Important Terms",
+   "In a book-built public issue, who is permitted to bid at the 'cut-off' price?",
+   [
+    "Qualified institutional buyers",
+    "Non-institutional investors applying above ₹2 lakh",
+    "Anchor investors",
+    "Retail individual investors (and eligible employee/shareholder reservation categories)"
+   ],
+   3,
+   "The cut-off option is available only to retail individual investors and certain reserved categories; QIBs and NIIs must bid at a specific price."
+  ],
+  [
+   "Issue Management – Important Terms",
+   "As per SEBI ICDR, a 'retail individual investor' is an individual who applies for securities of value:",
+   [
+    "Not more than ₹5 lakh",
+    "Not more than ₹10 lakh",
+    "Not more than ₹2 lakh",
+    "Not more than ₹1 lakh"
+   ],
+   2,
+   "ICDR defines a retail individual investor as one applying for not more than ₹2 lakh in an issue; applications above that fall in the non-institutional category."
+  ],
+  [
+   "Issue Management – Important Terms",
+   "In a book-built issue, the cap of the price band must not exceed what percentage of the floor price?",
+   [
+    "120%",
+    "110%",
+    "150%",
+    "200%"
+   ],
+   0,
+   "Under ICDR, the cap of the price band cannot be more than 120% of the floor price."
+  ],
+  [
+   "Issue Management – Important Terms",
+   "An IPO consists entirely of shares sold by existing shareholders. What is this component called and who receives the proceeds?",
+   [
+    "Fresh issue; the company receives the proceeds",
+    "Rights issue; the company receives the proceeds",
+    "Bonus issue; no money is received by anyone",
+    "Offer for sale; the selling shareholders receive the proceeds"
+   ],
+   3,
+   "In an offer for sale, existing shareholders sell their shares, so proceeds go to them and not to the company."
+  ],
+  [
+   "Issue Management – Important Terms",
+   "Which statement about a 'shelf prospectus' is correct?",
+   [
+    "It is a prospectus kept confidential and never filed with SEBI",
+    "It allows an eligible issuer to make one or more issues over a validity period without filing a fresh prospectus each time",
+    "It is required only for bonus issues",
+    "It replaces the need for any disclosure of material changes"
+   ],
+   1,
+   "A shelf prospectus enables multiple issues during its validity period; issuers file an information memorandum or addendum for material changes."
+  ],
+  [
+   "Issue Management – Important Terms",
+   "'Anchor investors' in a main-board book-built IPO are drawn from which category?",
+   [
+    "Retail individual investors",
+    "Qualified institutional buyers",
+    "Employees of the issuer",
+    "Promoters of the issuer"
+   ],
+   1,
+   "Anchor investors are QIBs to whom a part of the QIB portion is allocated before the issue opens."
+  ],
+  [
+   "Issue Management – Important Terms",
+   "What is a 'green shoe option' in a public issue?",
+   [
+    "An option for promoters to buy back shares at the issue price after listing",
+    "A discount offered to retail investors on the issue price",
+    "An option to extend the issue period indefinitely",
+    "An over-allotment option used by a stabilising agent to support the post-listing price"
+   ],
+   3,
+   "The green shoe option permits over-allotment, with a stabilising agent using the proceeds to buy shares in the market if the price falls below the issue price."
+  ],
+  [
+   "Issue Management – Process & Underwriting",
+   "Which of the following is one of the eligibility tests under Regulation 6(1) of SEBI ICDR for a main-board IPO?",
+   [
+    "An average operating profit of at least ₹15 crore during the preceding three years, with operating profit in each of those years",
+    "A net worth of at least ₹100 crore in each of the preceding five years",
+    "A minimum of 10,000 shareholders before filing the draft offer document",
+    "A track record of dividends for ten consecutive years"
+   ],
+   0,
+   "Regulation 6(1) requires net tangible assets, an operating profit track record (average ₹15 crore over three years with profit each year) and net worth tests."
+  ],
+  [
+   "Issue Management – Process & Underwriting",
+   "An unlisted company does not meet the profitability track record test of Regulation 6(1). Under Regulation 6(2) it can still do an IPO if:",
+   [
+    "Its promoters contribute 50% of the post-issue capital",
+    "It lists only on a regional stock exchange",
+    "At least 75% of the net offer is allotted to qualified institutional buyers",
+    "It obtains a guarantee from a scheduled commercial bank"
+   ],
+   2,
+   "Regulation 6(2) allows issuers not meeting 6(1) to make an IPO through book building if at least 75% of the net offer goes to QIBs."
+  ],
+  [
+   "Issue Management – Process & Underwriting",
+   "Under ICDR, the minimum promoter contribution in an IPO is:",
+   [
+    "20% of the post-issue capital",
+    "10% of the pre-issue capital",
+    "51% of the post-issue capital",
+    "25% of the issue size"
+   ],
+   0,
+   "Promoters must hold at least 20% of the post-issue capital as minimum promoter contribution, which is subject to lock-in."
+  ],
+  [
+   "Issue Management – Process & Underwriting",
+   "In a main-board IPO whose objects do not involve capital expenditure, the minimum promoter contribution is locked in for:",
+   [
+    "6 months from the date of allotment",
+    "3 years from the date of allotment",
+    "18 months from the date of allotment",
+    "5 years from the date of allotment"
+   ],
+   2,
+   "Since 2021 the lock-in on minimum promoter contribution is 18 months (3 years where objects involve capital expenditure for a project)."
+  ],
+  [
+   "Issue Management – Process & Underwriting",
+   "A public issue has failed to receive minimum subscription of 90% of the fresh issue. What must happen?",
+   [
+    "The lead manager must allot shares to itself at a discount",
+    "The application money must be refunded to applicants",
+    "The issue period is extended automatically by 30 days",
+    "Shares are allotted proportionately to whoever applied"
+   ],
+   1,
+   "If minimum subscription of 90% of the fresh issue is not received, the issuer must refund the entire application money within the prescribed time."
+  ],
+  [
+   "Issue Management – Process & Underwriting",
+   "In the standard book-building allocation for an issuer eligible under Regulation 6(1), the QIB portion can be:",
+   [
+    "Not less than 75% of the net offer",
+    "Exactly 35% of the net offer",
+    "Not more than 10% of the net offer",
+    "Not more than 50% of the net offer"
+   ],
+   3,
+   "For a 6(1) issuer, ICDR caps QIB allocation at 50% of the net offer, with minimum allocations to non-institutional and retail investors."
+  ],
+  [
+   "Issue Management – Process & Underwriting",
+   "How long must a public issue remain open for bidding under ICDR, in the normal course?",
+   [
+    "Exactly one working day",
+    "At least ten working days and not more than thirty days",
+    "At least three working days and not more than ten working days",
+    "Until the issue is fully subscribed, without any limit"
+   ],
+   2,
+   "ICDR requires an issue to be kept open for a minimum of three working days and a maximum of ten working days."
+  ],
+  [
+   "Issue Management – Process & Underwriting",
+   "What is the current timeline, after issue closure, by which shares in a public issue must be listed?",
+   [
+    "T+3 working days, where T is the issue closing date",
+    "T+6 working days",
+    "T+12 working days",
+    "T+30 calendar days"
+   ],
+   0,
+   "SEBI made the T+3 listing timeline mandatory for public issues from December 2023, reducing it from T+6."
+  ],
+  [
+   "Issue Management – Process & Underwriting",
+   "In an underwriting arrangement for a public issue, 'devolvement' means:",
+   [
+    "The issuer cancels the issue for lack of demand",
+    "The stock exchange lists the securities before allotment",
+    "Shares are transferred from promoters to the public",
+    "The underwriter must subscribe to the unsubscribed portion it has underwritten"
+   ],
+   3,
+   "When the issue is undersubscribed, the shortfall devolves on the underwriter, who must take up the unsubscribed securities as per its commitment."
+  ],
+  [
+   "Issue Management – Process & Underwriting",
+   "Which applicants in a public issue must apply only through ASBA (Application Supported by Blocked Amount)?",
+   [
+    "Only retail individual investors",
+    "All applicants other than anchor investors",
+    "Only qualified institutional buyers",
+    "Only non-resident investors"
+   ],
+   1,
+   "ASBA is mandatory for all investors in public issues, with anchor investors being the exception as they apply directly to the BRLMs."
+  ],
+  [
+   "Issue Management – Obligations & Due Diligence",
+   "The due diligence certificate in a public issue is submitted to SEBI by:",
+   [
+    "The registrar to the issue",
+    "The lead manager(s) to the issue",
+    "The bankers to the issue",
+    "The stock exchange"
+   ],
+   1,
+   "The lead manager files a due diligence certificate confirming that disclosures in the offer document are true, fair and adequate."
+  ],
+  [
+   "Issue Management – Obligations & Due Diligence",
+   "The draft offer document filed with SEBI is made public for comments for at least:",
+   [
+    "7 days",
+    "45 days",
+    "90 days",
+    "21 days"
+   ],
+   3,
+   "ICDR requires the draft offer document to be kept open for public comments for a period of at least 21 days from filing."
+  ],
+  [
+   "Issue Management – Obligations & Due Diligence",
+   "After SEBI issues its observations on a draft offer document, within what period must the issue open?",
+   [
+    "12 months from the date of SEBI's observations",
+    "3 months from the date of SEBI's observations",
+    "24 months from the date of filing the draft",
+    "There is no time limit"
+   ],
+   0,
+   "An issuer must open the issue within 12 months of SEBI's observations, failing which it must file a fresh draft offer document."
+  ],
+  [
+   "Issue Management – Obligations & Due Diligence",
+   "In an IPO, the amount raised for 'general corporate purposes' cannot exceed:",
+   [
+    "50% of the gross proceeds of the issue",
+    "10% of the net worth of the issuer",
+    "25% of the gross proceeds of the issue",
+    "75% of the fresh issue"
+   ],
+   2,
+   "ICDR caps the amount that can be earmarked for general corporate purposes at 25% of the gross proceeds."
+  ],
+  [
+   "Issue Management – Obligations & Due Diligence",
+   "What is the role of a monitoring agency appointed in a public issue?",
+   [
+    "To monitor the use of issue proceeds against the objects stated in the offer document",
+    "To stabilise the share price after listing",
+    "To underwrite the unsubscribed portion",
+    "To verify the KYC of each applicant"
+   ],
+   0,
+   "The monitoring agency reports on how the issue proceeds are actually used compared with the stated objects."
+  ],
+  [
+   "Issue Management – Obligations & Due Diligence",
+   "While performing due diligence, the lead manager finds an undisclosed pending litigation that could materially affect the issuer. The best course is:",
+   [
+    "Ignore it if the issuer's management says it will be settled",
+    "Mention it only in an internal file note",
+    "Ensure the litigation and its possible impact are disclosed in the offer document before proceeding",
+    "Withdraw from the issue without informing anyone"
+   ],
+   2,
+   "The lead manager must ensure all material information is disclosed so that investors can take an informed decision."
+  ],
+  [
+   "Issue Management – Obligations & Due Diligence",
+   "Which statement about the merchant banker's role after the issue closes is correct?",
+   [
+    "Its responsibilities end the moment bidding closes",
+    "It continues to coordinate post-issue activities such as basis of allotment, refunds and listing",
+    "It becomes responsible for paying dividends to investors",
+    "It takes over as the company secretary of the issuer"
+   ],
+   1,
+   "The lead manager remains responsible for post-issue activities including finalisation of allotment, refunds, credit of shares and listing."
+  ],
+  [
+   "Mergers, Acquisitions & Takeovers",
+   "Under the SEBI (SAST) Regulations, 2011, an acquirer must make an open offer when it acquires shares or voting rights entitling it to:",
+   [
+    "10% or more of the voting rights",
+    "51% or more of the voting rights",
+    "5% or more of the voting rights",
+    "25% or more of the voting rights in the target company"
+   ],
+   3,
+   "Regulation 3(1) of SAST triggers a mandatory open offer when an acquirer crosses 25% of voting rights."
+  ],
+  [
+   "Mergers, Acquisitions & Takeovers",
+   "An acquirer already holds 30% of a listed company. Without making an open offer, how much more can it acquire in a financial year under the creeping acquisition route?",
+   [
+    "Up to 10% of the voting rights",
+    "Up to 15% of the voting rights",
+    "Up to 5% of the voting rights",
+    "Up to 25% of the voting rights"
+   ],
+   2,
+   "An acquirer holding between 25% and the maximum permissible non-public shareholding can acquire up to 5% per financial year without an open offer."
+  ],
+  [
+   "Mergers, Acquisitions & Takeovers",
+   "The minimum size of a mandatory open offer under SAST is:",
+   [
+    "26% of the total shares of the target company",
+    "20% of the total shares",
+    "51% of the total shares",
+    "15% of the total shares"
+   ],
+   0,
+   "A mandatory open offer must be for at least 26% of the total shares of the target company."
+  ],
+  [
+   "Mergers, Acquisitions & Takeovers",
+   "Who must the acquirer appoint to manage an open offer under SAST?",
+   [
+    "The statutory auditor of the target company",
+    "Any stock broker registered with the exchange",
+    "The company secretary of the target company",
+    "A SEBI-registered merchant banker who is not an associate of the acquirer"
+   ],
+   3,
+   "The manager to the open offer must be a SEBI-registered merchant banker independent of the acquirer."
+  ],
+  [
+   "Mergers, Acquisitions & Takeovers",
+   "In an open offer, the acquirer must open an escrow account. For an offer consideration of ₹600 crore, what is the minimum escrow?",
+   [
+    "₹150 crore",
+    "₹135 crore",
+    "₹60 crore",
+    "₹125 crore"
+   ],
+   1,
+   "Escrow is 25% of the first ₹500 crore (₹125 crore) plus 10% of the balance ₹100 crore (₹10 crore), totalling ₹135 crore."
+  ],
+  [
+   "Mergers, Acquisitions & Takeovers",
+   "Under SAST, a person holding 5% or more of a listed company's shares must make a disclosure when the holding changes by:",
+   [
+    "0.5% or more",
+    "2% or more of the total shareholding or voting rights",
+    "10% or more",
+    "Any change, however small, every day"
+   ],
+   1,
+   "Regulation 29 requires disclosure on reaching 5% and thereafter on every change of 2% or more."
+  ],
+  [
+   "Disinvestment & Buyback",
+   "Under the Companies Act, 2013, a buyback approved only by the board of directors (without a special resolution) is limited to:",
+   [
+    "25% of the total paid-up equity capital and free reserves",
+    "5% of the paid-up equity capital only",
+    "50% of the free reserves",
+    "10% of the total paid-up equity capital and free reserves"
+   ],
+   3,
+   "Section 68 allows a board-approved buyback up to 10% of paid-up equity capital and free reserves; above that, a special resolution is needed (overall cap 25%)."
+  ],
+  [
+   "Disinvestment & Buyback",
+   "Post-buyback, the ratio of a company's aggregate secured and unsecured debt to its paid-up capital and free reserves generally cannot exceed:",
+   [
+    "2:1",
+    "1:1",
+    "3:1",
+    "4:1"
+   ],
+   0,
+   "Section 68 of the Companies Act requires the post-buyback debt-equity ratio to be not more than 2:1 (unless a higher ratio is notified for a class of companies)."
+  ],
+  [
+   "Disinvestment & Buyback",
+   "A company completed a buyback eight months ago. Can it make a fresh buyback offer now?",
+   [
+    "Yes, there is no gap required between buybacks",
+    "Yes, provided the new buyback is under 5% of capital",
+    "No, a fresh buyback cannot be made within one year of the closure of the previous buyback offer",
+    "Yes, if the stock exchange approves"
+   ],
+   2,
+   "The Companies Act prohibits a buyback offer within one year from the closure of the preceding buyback offer."
+  ],
+  [
+   "Disinvestment & Buyback",
+   "Which method of buyback involves the company offering to buy shares from all shareholders on a proportionate basis at a fixed price?",
+   [
+    "Tender offer",
+    "Open market purchase through stock exchange",
+    "Private placement",
+    "Odd-lot purchase"
+   ],
+   0,
+   "In a tender offer, the company offers to buy shares from existing shareholders proportionately at a specified price."
+  ],
+  [
+   "Disinvestment & Buyback",
+   "In India, which department of the Government of India handles disinvestment of the Centre's stake in public sector enterprises?",
+   [
+    "Department of Economic Affairs, Capital Markets Division",
+    "Reserve Bank of India",
+    "Department of Investment and Public Asset Management (DIPAM)",
+    "Department of Financial Services"
+   ],
+   2,
+   "DIPAM, under the Ministry of Finance, manages the Government's disinvestment programme and equity in CPSEs."
+  ]
+ ],
+ "xxiii": [
+  [
+   "Social Sector Ecosystem",
+   "How many Sustainable Development Goals (SDGs) were adopted by the United Nations under the 2030 Agenda?",
+   [
+    "17",
+    "8",
+    "12",
+    "21"
+   ],
+   0,
+   "The 2030 Agenda adopted in 2015 contains 17 SDGs, succeeding the 8 Millennium Development Goals."
+  ],
+  [
+   "Social Sector Ecosystem",
+   "Which of the following is a typical legal form of a not-for-profit organisation in India?",
+   [
+    "A limited liability partnership distributing profits to partners",
+    "A private limited company paying dividends",
+    "A company registered under Section 8 of the Companies Act, 2013",
+    "A sole proprietorship"
+   ],
+   2,
+   "Trusts, societies and Section 8 companies are the main NPO forms; they cannot distribute profits to members."
+  ],
+  [
+   "Social Sector Ecosystem",
+   "Under Section 135 of the Companies Act, 2013, a company meeting the CSR thresholds must spend on CSR in a financial year at least:",
+   [
+    "5% of its turnover of the preceding year",
+    "2% of its average net profits of the three immediately preceding financial years",
+    "1% of its net worth",
+    "10% of its dividend payout"
+   ],
+   1,
+   "Section 135 requires qualifying companies to spend at least 2% of average net profits of the preceding three years on CSR activities."
+  ],
+  [
+   "Social Sector Ecosystem",
+   "'Impact investing' is best described as:",
+   [
+    "Donating money with no expectation of any outcome",
+    "Investing only in government bonds",
+    "Short-term trading in shares of large companies",
+    "Investing with the intention to generate measurable social or environmental impact alongside a financial return"
+   ],
+   3,
+   "Impact investors seek intentional, measurable positive impact together with financial return, distinguishing them from pure philanthropy."
+  ],
+  [
+   "SSE: Introduction, Funding Structures & Instruments",
+   "The Social Stock Exchange (SSE) in India operates as:",
+   [
+    "A new stock exchange owned by the Government",
+    "A department of the Reserve Bank of India",
+    "A separate segment of a recognised stock exchange",
+    "A wing of NITI Aayog that grants funds"
+   ],
+   2,
+   "SEBI's framework sets up the SSE as a separate segment of an existing recognised stock exchange, such as those of BSE and NSE."
+  ],
+  [
+   "SSE: Introduction, Funding Structures & Instruments",
+   "Which two types of 'Social Enterprises' can access the Social Stock Exchange?",
+   [
+    "Not-for-profit organisations (NPOs) and for-profit social enterprises (FPEs)",
+    "Listed banks and insurance companies",
+    "Political parties and religious organisations",
+    "Mutual funds and portfolio managers"
+   ],
+   0,
+   "The SSE framework recognises NPOs and FPEs with social intent and impact as Social Enterprises."
+  ],
+  [
+   "SSE: Introduction, Funding Structures & Instruments",
+   "A Zero Coupon Zero Principal (ZCZP) instrument issued by an NPO on the SSE:",
+   [
+    "Pays a fixed coupon but no principal",
+    "Repays principal at maturity with no coupon",
+    "Converts into equity shares of the NPO",
+    "Pays no interest and does not repay the principal at maturity"
+   ],
+   3,
+   "ZCZP instruments are effectively donations through the exchange: investors receive neither coupon nor principal, but receive impact reporting."
+  ],
+  [
+   "SSE: Introduction, Funding Structures & Instruments",
+   "Which instrument can a for-profit social enterprise use to raise funds through the SSE route?",
+   [
+    "Zero Coupon Zero Principal instruments",
+    "Equity shares through the main board, SME platform or Innovators Growth Platform",
+    "Donations through mutual fund schemes only",
+    "Government grants routed via the exchange"
+   ],
+   1,
+   "FPEs raise funds like other companies, for example through equity or debt issues; ZCZP instruments are available only to NPOs."
+  ],
+  [
+   "SSE: Introduction, Funding Structures & Instruments",
+   "Which of the following entities is NOT eligible to be identified as a Social Enterprise under the SSE framework?",
+   [
+    "A Section 8 company working on child education for low-income families",
+    "A corporate foundation",
+    "A registered trust providing healthcare to tribal communities",
+    "A for-profit firm providing livelihood support to small farmers as its main activity"
+   ],
+   1,
+   "The ICDR excludes corporate foundations, political or religious organisations, professional or trade associations and most infrastructure/housing companies."
+  ],
+  [
+   "SSE: Introduction, Funding Structures & Instruments",
+   "Under the SSE framework, an entity must show social intent by targeting underserved or less privileged populations. At least what share of its activities should be eligible social activities?",
+   [
+    "25%, measured by number of employees",
+    "51%, measured by share capital",
+    "100% of all activities without exception",
+    "67%, measured by revenue, expenditure or beneficiaries (3-year average)"
+   ],
+   3,
+   "An entity must demonstrate that at least 67% of its activities (by revenue, expenditure or customer/beneficiary base over the preceding three years) are eligible activities."
+  ],
+  [
+   "Registration and Listing on SSE",
+   "Why does an NPO need to register on the Social Stock Exchange before raising funds through it?",
+   [
+    "Registration is a prerequisite for an NPO to issue securities such as ZCZP instruments on the SSE",
+    "Registration automatically lists its shares on the main board",
+    "Registration exempts it from all income-tax obligations",
+    "Registration converts it into a for-profit company"
+   ],
+   0,
+   "An NPO must first register with the SSE segment; only then can it raise funds through instruments like ZCZP."
+  ],
+  [
+   "Registration and Listing on SSE",
+   "An NPO registered on the SSE has not raised any funds through the exchange. Which statement is correct?",
+   [
+    "It has no obligations at all until it raises funds",
+    "It must delist immediately",
+    "It still has ongoing disclosure obligations as a registered NPO",
+    "It must convert into a for-profit enterprise"
+   ],
+   2,
+   "Registration carries annual disclosure obligations even if the NPO has not yet raised funds through the SSE."
+  ],
+  [
+   "Registration and Listing on SSE",
+   "A for-profit social enterprise wishes to list its equity shares. Which statement is correct?",
+   [
+    "It must meet the listing requirements applicable to the platform it lists on, in addition to the SSE social impact requirements",
+    "It is exempt from all listing requirements because it is a social enterprise",
+    "It can list only ZCZP instruments",
+    "It can list only on a foreign exchange"
+   ],
+   0,
+   "FPEs follow the ICDR and listing requirements of the relevant board, together with the additional social-intent and impact-reporting norms."
+  ],
+  [
+   "Registration and Listing on SSE",
+   "Which document must an NPO issuing ZCZP instruments on the SSE file with the exchange?",
+   [
+    "A red herring prospectus with price band",
+    "A takeover open-offer letter",
+    "A fund-raising document with disclosures such as vision, objectives, programmes, risks and proposed use of funds",
+    "A buyback letter of offer"
+   ],
+   2,
+   "NPOs raising funds through ZCZP issue a fund-raising document containing prescribed disclosures, including details of the projects and planned use of funds."
+  ],
+  [
+   "Registration and Listing on SSE",
+   "An NPO wants to register on the SSE. Which of these would be a basic eligibility consideration?",
+   [
+    "A minimum paid-up equity capital of ₹10 crore",
+    "Valid registration as an NPO and registration under income-tax law that grants it exemption, with a track record of operations",
+    "Positive net profits in each of the last five years",
+    "A credit rating of AA or above"
+   ],
+   1,
+   "NPO registration on SSE looks at legal registration, income-tax registration and track record; profit or equity capital tests do not apply to NPOs."
+  ],
+  [
+   "Registration and Listing on SSE",
+   "What happens to the funds that investors contribute through a ZCZP issue on the SSE?",
+   [
+    "They are held by the exchange and returned with interest",
+    "They are invested in equity shares on behalf of the investors",
+    "They are transferred to SEBI's Investor Protection Fund",
+    "They are used by the NPO for the specified social project, and the NPO reports on utilisation and impact"
+   ],
+   3,
+   "ZCZP funds go to the NPO for the stated project, and the NPO must disclose fund utilisation and social impact."
+  ],
+  [
+   "Logic Model in Social Programs",
+   "In a logic model, which is the correct sequence?",
+   [
+    "Outputs → Inputs → Activities → Impact → Outcomes",
+    "Activities → Impact → Inputs → Outputs → Outcomes",
+    "Inputs → Activities → Outputs → Outcomes → Impact",
+    "Impact → Outcomes → Outputs → Activities → Inputs"
+   ],
+   2,
+   "A logic model links resources (inputs) to activities, their direct products (outputs), resulting changes (outcomes) and long-term change (impact)."
+  ],
+  [
+   "Logic Model in Social Programs",
+   "An NGO runs a skilling programme. 'Number of youth who completed the 3-month training' is an example of:",
+   [
+    "An output",
+    "An input",
+    "An impact",
+    "An assumption"
+   ],
+   0,
+   "Outputs are the direct, countable products of activities; outcomes would be changes such as youth getting jobs."
+  ],
+  [
+   "Logic Model in Social Programs",
+   "In the same skilling programme, '60% of trained youth secured jobs within six months and increased household income' is best classified as:",
+   [
+    "An input",
+    "An activity",
+    "An output",
+    "An outcome"
+   ],
+   3,
+   "Outcomes are the changes experienced by beneficiaries as a result of outputs, such as employment and income gains."
+  ],
+  [
+   "Logic Model in Social Programs",
+   "How is a 'theory of change' related to a logic model?",
+   [
+    "It is a financial statement showing the NGO's income",
+    "It explains the causal pathway and assumptions behind why the activities are expected to lead to the desired change",
+    "It lists only the inputs used",
+    "It replaces the need to measure any outcomes"
+   ],
+   1,
+   "A theory of change articulates the causal logic and assumptions; the logic model is often a concise representation of that pathway."
+  ],
+  [
+   "Social Impact Assessment & Assessors",
+   "Under the SSE framework, who may carry out the social impact assessment of a Social Enterprise?",
+   [
+    "Any employee of the Social Enterprise",
+    "A social auditor registered with a self-regulatory organisation and holding the NISM social impact assessor certification",
+    "The stock exchange's listing department",
+    "A credit rating agency without any certification"
+   ],
+   1,
+   "Social impact assessment is done by social auditors who are members of an SRO under a recognised professional institute and hold the required NISM certification."
+  ],
+  [
+   "Social Impact Assessment & Assessors",
+   "A social auditor is asked to assess an NPO where her brother is the chief executive. What should she do?",
+   [
+    "Accept, but give the NPO a slightly lower rating",
+    "Accept, as long as she discloses it after the report is issued",
+    "Accept, because family relationships are irrelevant in social audit",
+    "Decline the engagement because of a conflict of interest that impairs independence"
+   ],
+   3,
+   "Independence is fundamental; a close relationship with management creates a conflict of interest that should lead to declining the engagement."
+  ],
+  [
+   "Social Impact Assessment & Assessors",
+   "What is the main purpose of social impact assessment for SSE-registered enterprises?",
+   [
+    "To provide investors and donors credible evidence of the social outcomes and impact achieved",
+    "To compute the enterprise's income-tax liability",
+    "To value the enterprise's shares for listing",
+    "To decide the coupon rate on ZCZP instruments"
+   ],
+   0,
+   "SIA verifies and reports the social impact achieved so that funders can rely on it."
+  ],
+  [
+   "Social Impact Assessment & Assessors",
+   "Which professional quality is most essential for a social impact assessor?",
+   [
+    "Ability to promote the enterprise to donors",
+    "Willingness to accept performance-linked fees from the enterprise",
+    "Objectivity and professional scepticism",
+    "Prior employment with the enterprise being audited"
+   ],
+   2,
+   "Assessors must be objective and sceptical; promotional roles or contingent fees would undermine independence."
+  ],
+  [
+   "Social Impact Assessment & Assessors",
+   "A social auditor collects beneficiary data and plans to publish names and phone numbers in the report as evidence. What is the appropriate approach?",
+   [
+    "Protect beneficiary privacy and use anonymised or aggregated data unless informed consent is obtained",
+    "Publish the details, since transparency overrides privacy",
+    "Sell the data to researchers to recover costs",
+    "Share the data with the NPO's marketing team"
+   ],
+   0,
+   "Confidentiality and data-protection principles require anonymisation and consent when handling beneficiary information."
+  ],
+  [
+   "Social Impact Assessment & Assessors",
+   "Which of the following is a key difference between social impact assessment and a statutory financial audit?",
+   [
+    "SIA is concerned only with the balance sheet",
+    "A financial audit measures outcomes for beneficiaries",
+    "SIA evaluates changes in the lives of beneficiaries, while a financial audit expresses an opinion on financial statements",
+    "There is no difference; the terms are interchangeable"
+   ],
+   2,
+   "SIA focuses on social outcomes and impact; a financial audit focuses on the truth and fairness of financial statements."
+  ],
+  [
+   "SIA Frameworks, Techniques & Standards",
+   "In the Social Return on Investment (SROI) method, an NPO invested ₹20 lakh and the present value of social benefits is estimated at ₹70 lakh. What is the SROI ratio?",
+   [
+    "1:3.5",
+    "3.5:1",
+    "2.5:1",
+    "0.29:1"
+   ],
+   1,
+   "SROI = present value of benefits ÷ value of inputs = 70 ÷ 20 = 3.5, i.e., ₹3.5 of social value per ₹1 invested."
+  ],
+  [
+   "SIA Frameworks, Techniques & Standards",
+   "In impact measurement, 'deadweight' refers to:",
+   [
+    "The cost of the programme's staff",
+    "The total number of beneficiaries",
+    "Outcomes displaced from one area to another",
+    "The outcome that would have happened even without the intervention"
+   ],
+   3,
+   "Deadweight estimates what would have occurred anyway and is deducted to avoid over-claiming impact."
+  ],
+  [
+   "SIA Frameworks, Techniques & Standards",
+   "Which of the following is a recognised catalogue of standardised impact metrics, maintained by the Global Impact Investing Network?",
+   [
+    "GAAP",
+    "Basel III",
+    "IRIS+",
+    "IFRS 9"
+   ],
+   2,
+   "IRIS+ by the GIIN provides standard metrics for measuring and managing impact; the others are accounting or banking standards."
+  ],
+  [
+   "SIA Frameworks, Techniques & Standards",
+   "The OECD-DAC evaluation criteria include relevance, coherence, effectiveness, efficiency, impact and:",
+   [
+    "Sustainability",
+    "Profitability",
+    "Liquidity",
+    "Popularity"
+   ],
+   0,
+   "The six OECD-DAC criteria are relevance, coherence, effectiveness, efficiency, impact and sustainability."
+  ],
+  [
+   "SIA Frameworks, Techniques & Standards",
+   "An evaluator compares outcomes of villages in a programme with similar villages not in the programme. This approach establishes a:",
+   [
+    "Logic model",
+    "Output target",
+    "Budget variance",
+    "Counterfactual, to attribute the change to the intervention"
+   ],
+   3,
+   "Comparison groups estimate what would have happened without the intervention, helping attribute impact."
+  ],
+  [
+   "SIA Frameworks, Techniques & Standards",
+   "Which data collection technique is primarily qualitative?",
+   [
+    "Counting the number of clinics built",
+    "Focus group discussions with beneficiaries",
+    "Analysing the NPO's audited accounts",
+    "Calculating the SROI ratio"
+   ],
+   1,
+   "Focus groups capture perceptions and experiences in depth, which is qualitative data."
+  ],
+  [
+   "SIA Reporting",
+   "Under the SSE framework, the Annual Impact Report (AIR) of a Social Enterprise must be:",
+   [
+    "Prepared only for internal use and never disclosed",
+    "Assessed by a social auditor and submitted to the SSE",
+    "Approved by SEBI before publication",
+    "Audited only by the statutory financial auditor"
+   ],
+   1,
+   "The AIR, covering qualitative and quantitative aspects of impact, must be assessed by a social auditor and submitted to the exchange."
+  ],
+  [
+   "SIA Reporting",
+   "Which of these should a social impact assessment report clearly state?",
+   [
+    "Only the positive stories of beneficiaries",
+    "The share price target of the enterprise",
+    "The personal views of the enterprise's founder",
+    "The scope, methodology, data sources, limitations and the assessor's conclusions"
+   ],
+   3,
+   "A credible SIA report is transparent about its scope, methods, evidence and limitations."
+  ],
+  [
+   "SIA Reporting",
+   "An assessor finds that an NPO's claimed beneficiaries are 30% higher than supported by evidence. In the report the assessor should:",
+   [
+    "Report the verified figures and highlight the discrepancy",
+    "Accept the NPO's figures to maintain good relations",
+    "Average the two figures",
+    "Omit the beneficiary numbers entirely"
+   ],
+   0,
+   "The assessor must report only what is supported by evidence and flag material discrepancies."
+  ],
+  [
+   "SIA Reporting",
+   "Reporting both positive and negative or unintended outcomes in an SIA report reflects which principle?",
+   [
+    "Selective disclosure",
+    "Marketing communication",
+    "Balanced and transparent reporting",
+    "Confidential reporting to management only"
+   ],
+   2,
+   "Credible impact reports present both intended and unintended, positive and negative effects."
+  ],
+  [
+   "SIA Case Studies",
+   "A water NGO reports '500 handpumps installed'. In the assessment, the auditor finds only 300 are functional after a year. Which is the most meaningful impact indicator to examine next?",
+   [
+    "Change in households' access to safe drinking water and related health outcomes",
+    "The total cost of handpumps purchased",
+    "The number of staff employed by the NGO",
+    "The number of press releases issued"
+   ],
+   0,
+   "Impact relates to changes in beneficiaries' lives, such as safe water access and health, not merely outputs or inputs."
+  ],
+  [
+   "SIA Case Studies",
+   "An NPO's literacy programme shows test score gains, but a nearby government scheme also started at the same time. What should the assessor consider?",
+   [
+    "Nothing, and attribute the full gain to the NPO",
+    "Only the NPO's expenditure",
+    "Attribution, to estimate how much of the gain is due to the NPO's programme",
+    "Only the number of books distributed"
+   ],
+   2,
+   "When other interventions may contribute, the assessor must address attribution to avoid overstating impact."
+  ],
+  [
+   "SIA Case Studies",
+   "An NPO running a microenterprise programme shows strong first-year income gains, but gains fade in later years. Which SROI concept captures this decline?",
+   [
+    "Deadweight",
+    "Drop-off",
+    "Displacement",
+    "Leverage"
+   ],
+   1,
+   "Drop-off accounts for the decline of an outcome's effect over time."
+  ],
+  [
+   "Disclosure Norms, Reporting & Penalties",
+   "Who is primarily responsible for the accuracy of the information disclosed by a Social Enterprise to the SSE?",
+   [
+    "The investors who funded it",
+    "The stock exchange",
+    "The beneficiaries",
+    "The Social Enterprise and its management"
+   ],
+   3,
+   "The enterprise is responsible for its disclosures; the social auditor provides independent assessment of the impact reported."
+  ],
+  [
+   "Disclosure Norms, Reporting & Penalties",
+   "A listed NPO that raised funds through ZCZP must disclose details of fund utilisation because:",
+   [
+    "It is required to pay dividends from these funds",
+    "SEBI uses the data to fix stock prices",
+    "Donors need to know that the funds were used for the stated social project",
+    "It replaces the need for an annual impact report"
+   ],
+   2,
+   "Fund utilisation statements let funders verify use of money against stated objects; they are in addition to impact reporting."
+  ],
+  [
+   "Disclosure Norms, Reporting & Penalties",
+   "A social auditor issues an impact assessment report knowing it contains false information. Which consequence is most likely?",
+   [
+    "Disciplinary action by the SRO and regulatory action, besides liability under applicable law",
+    "No consequence, because social audit is voluntary",
+    "Only the NPO will be held responsible",
+    "The auditor's fee will be doubled"
+   ],
+   0,
+   "Social auditors are accountable through their SRO and the regulatory framework; knowingly false reporting attracts disciplinary and legal consequences."
+  ],
+  [
+   "Disclosure Norms, Reporting & Penalties",
+   "Which of the following is a typical disclosure in a Social Enterprise's Annual Impact Report?",
+   [
+    "The personal tax returns of the founders",
+    "The daily share price movement",
+    "Names and addresses of all individual donors",
+    "Strategic intent, approach, outcomes achieved and impact scorecard for the year"
+   ],
+   3,
+   "The AIR covers the enterprise's intent, approach, measured outcomes and impact, not unrelated personal or market data."
+  ],
+  [
+   "Disclosure Norms, Reporting & Penalties",
+   "Why are regular disclosures by registered Social Enterprises important for the SSE ecosystem?",
+   [
+    "They allow the exchange to guarantee returns",
+    "They build trust and allow donors and investors to compare and track social performance",
+    "They exempt enterprises from statutory audits",
+    "They let SEBI fix the enterprise's budget"
+   ],
+   1,
+   "Transparent, periodic disclosure is the foundation of credibility for social capital markets."
+  ],
+  [
+   "Taxation",
+   "Registration of a charitable trust under the income-tax law (as an approved charitable institution) primarily allows:",
+   [
+    "Donors to receive guaranteed returns",
+    "The trust's income applied to charitable purposes to be exempt from income tax, subject to conditions",
+    "The trust to distribute profits to trustees tax-free",
+    "The trust to avoid maintaining books of account"
+   ],
+   1,
+   "Registration as a charitable institution exempts income applied to charitable objects, subject to prescribed conditions."
+  ],
+  [
+   "Taxation",
+   "For a for-profit social enterprise listed through the SSE framework, its business profits are generally:",
+   [
+    "Fully exempt because it is a social enterprise",
+    "Taxed only when distributed to shareholders",
+    "Taxed at the rates applicable to charitable trusts",
+    "Taxed under the normal provisions applicable to companies"
+   ],
+   3,
+   "FPEs are ordinary taxable entities; the SSE framework does not by itself grant income-tax exemption."
+  ],
+  [
+   "Key Regulations",
+   "Receipt of foreign contributions by an Indian NPO is regulated mainly by:",
+   [
+    "The Foreign Contribution (Regulation) Act, 2010",
+    "The Securities Contracts (Regulation) Act, 1956",
+    "The Insolvency and Bankruptcy Code, 2016",
+    "The Depositories Act, 1996"
+   ],
+   0,
+   "The FCRA, 2010 governs acceptance and use of foreign contributions by NGOs and requires registration or prior permission."
+  ],
+  [
+   "Key Regulations",
+   "Societies in India are commonly registered under:",
+   [
+    "The Indian Partnership Act, 1932",
+    "The Limited Liability Partnership Act, 2008",
+    "The Societies Registration Act, 1860 (or the corresponding state law)",
+    "The Banking Regulation Act, 1949"
+   ],
+   2,
+   "Societies are registered under the Societies Registration Act, 1860 or state-specific versions of it."
+  ],
+  [
+   "Key Regulations",
+   "Which regulations contain SEBI's provisions on fund raising by Social Enterprises through the SSE?",
+   [
+    "SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018",
+    "SEBI (Merchant Bankers) Regulations, 1992",
+    "SEBI (Mutual Funds) Regulations, 1996",
+    "SEBI (Buy-back of Securities) Regulations, 2018"
+   ],
+   0,
+   "The SSE fund-raising framework was inserted into the ICDR Regulations (Chapter X-A), with related disclosure obligations in the LODR Regulations."
+  ],
+  [
+   "Key Regulations",
+   "A Section 8 company under the Companies Act, 2013 is required to:",
+   [
+    "Distribute at least 50% of profits as dividends",
+    "List its shares on the main board of a stock exchange",
+    "Apply its profits or income to promote its objects and not pay dividends to members",
+    "Have only government shareholders"
+   ],
+   2,
+   "Section 8 companies are formed for charitable objects and are prohibited from paying dividends to members."
+  ]
+ ],
+ "xxiv": [
+  [
+   "Introduction to AML, CFT and PF",
+   "Which sequence correctly describes the three classic stages of money laundering?",
+   [
+    "Placement, layering, integration",
+    "Layering, placement, integration",
+    "Integration, placement, layering",
+    "Placement, integration, layering"
+   ],
+   0,
+   "Illicit cash is first placed in the financial system, then layered through complex transactions, and finally integrated into the legitimate economy."
+  ],
+  [
+   "Introduction to AML, CFT and PF",
+   "A person makes many small cash deposits, each just below the reporting threshold, into several accounts. This technique is called:",
+   [
+    "Integration",
+    "Round tripping through FDI",
+    "Structuring (smurfing)",
+    "Trade-based layering"
+   ],
+   2,
+   "Breaking large cash amounts into smaller deposits to evade reporting thresholds is known as structuring or smurfing, a placement technique."
+  ],
+  [
+   "Introduction to AML, CFT and PF",
+   "How does terrorist financing typically differ from money laundering?",
+   [
+    "Terrorist financing always involves proceeds of drug trafficking",
+    "Funds for terrorism may come from legitimate sources, and the focus is on their intended use",
+    "Terrorist financing involves only large amounts of money",
+    "Terrorist financing cannot pass through the formal financial system"
+   ],
+   1,
+   "Unlike money laundering, which hides illicit origins, terrorist financing can use clean money; the concern is its use for terrorist purposes."
+  ],
+  [
+   "Introduction to AML, CFT and PF",
+   "'Proliferation financing' refers to providing funds or financial services for:",
+   [
+    "Expanding a company's branch network",
+    "Investing in multiple asset classes to diversify risk",
+    "Funding political campaigns",
+    "Manufacture, acquisition or transport of weapons of mass destruction and their delivery systems"
+   ],
+   3,
+   "Proliferation financing is the financing of nuclear, chemical or biological weapons and their means of delivery, in breach of national law or international obligations."
+  ],
+  [
+   "Introduction to AML, CFT and PF",
+   "The Financial Action Task Force (FATF) is best described as:",
+   [
+    "India's agency that receives suspicious transaction reports",
+    "A UN court that tries money laundering offences",
+    "An inter-governmental body that sets international standards to combat money laundering, terrorist financing and proliferation financing",
+    "A credit rating agency for countries"
+   ],
+   2,
+   "FATF, set up in 1989, issues the FATF Recommendations and assesses countries' compliance; India has been a member since 2010."
+  ],
+  [
+   "Introduction to AML, CFT and PF",
+   "In India, the central national agency that receives, analyses and disseminates information on suspicious financial transactions is:",
+   [
+    "Financial Intelligence Unit – India (FIU-IND)",
+    "Enforcement Directorate",
+    "Central Bureau of Investigation",
+    "SEBI's Investigation Department"
+   ],
+   0,
+   "FIU-IND, under the Department of Revenue, Ministry of Finance, receives reports such as STRs and CTRs from reporting entities."
+  ],
+  [
+   "Prevention of Money Laundering Act, 2002",
+   "Under the PMLA, 2002, the offence of money laundering is defined in which section?",
+   [
+    "Section 12",
+    "Section 45",
+    "Section 24",
+    "Section 3"
+   ],
+   3,
+   "Section 3 defines the offence of money laundering as being involved in any process or activity connected with proceeds of crime."
+  ],
+  [
+   "Prevention of Money Laundering Act, 2002",
+   "The punishment for money laundering under Section 4 of the PMLA (where the scheduled offence is not under the NDPS Act) is rigorous imprisonment of:",
+   [
+    "Not less than 1 year, which may extend to 3 years",
+    "Not less than 3 years, which may extend to 7 years, and fine",
+    "Not less than 7 years, which may extend to life",
+    "Fine only, with no imprisonment"
+   ],
+   1,
+   "Section 4 prescribes 3 to 7 years of rigorous imprisonment plus fine; the upper limit extends to 10 years for NDPS-linked scheduled offences."
+  ],
+  [
+   "Prevention of Money Laundering Act, 2002",
+   "Under the PMLA, 'proceeds of crime' means:",
+   [
+    "Any income on which tax has not been paid, regardless of source",
+    "Property derived or obtained, directly or indirectly, as a result of criminal activity relating to a scheduled offence",
+    "Profits earned by a company in a loss-making year",
+    "Any property held in cash"
+   ],
+   1,
+   "Proceeds of crime are linked to criminal activity relating to a scheduled offence, including property of equivalent value."
+  ],
+  [
+   "Prevention of Money Laundering Act, 2002",
+   "Under Section 5 of the PMLA, the Director may provisionally attach property involved in money laundering for a period not exceeding:",
+   [
+    "30 days",
+    "90 days",
+    "1 year",
+    "180 days"
+   ],
+   3,
+   "A provisional attachment order under Section 5 is valid for up to 180 days, within which the Adjudicating Authority must confirm it."
+  ],
+  [
+   "Prevention of Money Laundering Act, 2002",
+   "Under Section 13 of the PMLA, the Director, FIU-IND may impose on a reporting entity that fails to comply with its obligations a monetary penalty of:",
+   [
+    "Not less than ₹10,000 but up to ₹1 lakh for each failure",
+    "A flat ₹5,000 per year",
+    "Up to ₹10 crore for each failure",
+    "No monetary penalty; only a warning"
+   ],
+   0,
+   "Section 13 allows a fine of not less than ₹10,000 that may extend to ₹1 lakh for each failure, besides other measures."
+  ],
+  [
+   "Prevention of Money Laundering Act, 2002",
+   "In a PMLA proceeding, the burden of proving that proceeds of crime are untainted property lies on:",
+   [
+    "The Enforcement Directorate",
+    "The FIU-IND",
+    "The person accused of money laundering",
+    "The reporting entity that filed the STR"
+   ],
+   2,
+   "Section 24 places the burden of proof on the person charged with money laundering to show the property is not proceeds of crime."
+  ],
+  [
+   "Prevention of Money Laundering Act, 2002",
+   "Which agency investigates offences of money laundering under the PMLA?",
+   [
+    "Directorate of Enforcement",
+    "FIU-IND",
+    "SEBI",
+    "Reserve Bank of India"
+   ],
+   0,
+   "The Enforcement Directorate investigates and prosecutes money laundering; FIU-IND is the intelligence agency that receives reports."
+  ],
+  [
+   "Prevention of Money Laundering Act, 2002",
+   "Which of the following is a 'reporting entity' under the PMLA?",
+   [
+    "An individual retail investor",
+    "A listed company's shareholder",
+    "A stock broker registered under Section 12 of the SEBI Act",
+    "A newspaper that publishes stock prices"
+   ],
+   2,
+   "Intermediaries registered under Section 12 of the SEBI Act, such as stock brokers and depository participants, are reporting entities under PMLA."
+  ],
+  [
+   "PML (Maintenance of Records) Rules, 2005",
+   "Under the PML Rules, cash transactions exceeding what value (or integrally connected cash transactions aggregating above it in a month) must be reported to FIU-IND?",
+   [
+    "₹50,000",
+    "₹10 lakh",
+    "₹2 lakh",
+    "₹1 crore"
+   ],
+   1,
+   "Cash transactions above ₹10 lakh, or a series of integrally connected cash transactions aggregating above ₹10 lakh within a month, are reported in the CTR."
+  ],
+  [
+   "PML (Maintenance of Records) Rules, 2005",
+   "A suspicious transaction report (STR) must be furnished to FIU-IND:",
+   [
+    "By the 15th of the next month",
+    "Within 30 days of the transaction",
+    "Only at the end of the financial year",
+    "Within 7 working days of being satisfied that the transaction is suspicious"
+   ],
+   3,
+   "The rules require an STR to be filed promptly, not later than seven working days after the principal officer concludes the transaction is suspicious."
+  ],
+  [
+   "PML (Maintenance of Records) Rules, 2005",
+   "The cash transaction report (CTR) for a month must be submitted to FIU-IND by:",
+   [
+    "The last day of the same month",
+    "Seven working days after each transaction",
+    "The 15th day of the succeeding month",
+    "The end of the quarter"
+   ],
+   2,
+   "Monthly CTRs are due by the 15th of the following month."
+  ],
+  [
+   "PML (Maintenance of Records) Rules, 2005",
+   "Under the PML Rules, who is responsible for furnishing information to the Director, FIU-IND on behalf of a reporting entity?",
+   [
+    "Principal Officer",
+    "Designated Director",
+    "Statutory auditor",
+    "Company secretary of the client"
+   ],
+   0,
+   "The Principal Officer is the official responsible for furnishing reports and information to FIU-IND; the Designated Director ensures overall compliance."
+  ],
+  [
+   "PML (Maintenance of Records) Rules, 2005",
+   "For a client that is a company, the PML Rules (as amended in 2023) treat as a beneficial owner a natural person who, alone or together, holds an ownership entitlement of:",
+   [
+    "More than 25% of shares, capital or profits",
+    "More than 51% of shares",
+    "Any shareholding, however small",
+    "More than 10% of shares, capital or profits"
+   ],
+   3,
+   "The 2023 amendment reduced the threshold for companies from 25% to more than 10% for identifying beneficial owners."
+  ],
+  [
+   "PML (Maintenance of Records) Rules, 2005",
+   "A broker receives a request from a client to transfer funds, and the client becomes evasive when asked about the source of funds. The broker decides to file an STR. Which of these is correct?",
+   [
+    "The broker must inform the client in writing before filing the STR",
+    "The broker must not disclose to the client that an STR is being filed",
+    "The broker must close the account immediately and inform the press",
+    "The broker should file the STR only if the transaction is completed"
+   ],
+   1,
+   "Tipping off is prohibited; reporting entities must keep the filing of STRs confidential, and STRs can be filed even for attempted transactions."
+  ],
+  [
+   "PML (Maintenance of Records) Rules, 2005",
+   "Which of the following must be reported to FIU-IND as a counterfeit currency report?",
+   [
+    "Transactions in foreign currency by authorised dealers",
+    "Cash transactions where forged or counterfeit currency notes have been used as genuine",
+    "Payments made through UPI",
+    "Transactions in derivatives"
+   ],
+   1,
+   "The PML Rules require reporting of cash transactions in which counterfeit currency notes were used as genuine or where forgery of valuable security took place."
+  ],
+  [
+   "Scheduled Offences",
+   "Under the PMLA framework, a 'scheduled offence' is significant because:",
+   [
+    "It is the only offence that can be tried by a magistrate",
+    "It is exempt from investigation by the Enforcement Directorate",
+    "It is an offence that is punishable only by fine",
+    "Money laundering can arise only in relation to proceeds of crime from a scheduled offence"
+   ],
+   3,
+   "Proceeds of crime under PMLA must be linked to a scheduled offence, so the Schedule defines the predicate crimes for money laundering."
+  ],
+  [
+   "Scheduled Offences",
+   "Which SEBI Act offence is included as a scheduled offence under the PMLA?",
+   [
+    "Prohibition of manipulative and deceptive devices, insider trading and substantial acquisition (Section 12A read with Section 24)",
+    "Failure to pay SEBI registration fees",
+    "Delay in filing annual reports with the Registrar of Companies",
+    "Non-attendance at a SEBI investor awareness programme"
+   ],
+   0,
+   "Fraud, insider trading and unlawful substantial acquisition under Section 12A, punishable under Section 24 of the SEBI Act, are scheduled offences."
+  ],
+  [
+   "Scheduled Offences",
+   "Which Companies Act, 2013 provision is a scheduled offence under the PMLA?",
+   [
+    "Section 135 – corporate social responsibility",
+    "Section 149 – appointment of independent directors",
+    "Section 447 – punishment for fraud",
+    "Section 123 – declaration of dividend"
+   ],
+   2,
+   "Fraud punishable under Section 447 of the Companies Act, 2013 is included in the PMLA Schedule."
+  ],
+  [
+   "Scheduled Offences",
+   "Part C of the PMLA Schedule covers:",
+   [
+    "Offences with cross-border implications",
+    "Only offences under the Income-tax Act",
+    "Only offences committed by minors",
+    "Civil disputes between companies"
+   ],
+   0,
+   "Part C covers any Part A offence (and specified others) that has cross-border implications."
+  ],
+  [
+   "AML, CFT and PF Guidelines",
+   "FATF's 'risk-based approach' requires countries and reporting entities to:",
+   [
+    "Apply the same level of due diligence to every customer regardless of risk",
+    "Avoid serving all customers from high-risk sectors",
+    "Identify and assess ML/TF risks and apply measures proportionate to those risks",
+    "Rely solely on government lists to identify risk"
+   ],
+   2,
+   "Under a risk-based approach, enhanced measures apply to higher risks and simplified measures may apply to lower risks."
+  ],
+  [
+   "AML, CFT and PF Guidelines",
+   "Under Section 51A of the Unlawful Activities (Prevention) Act, 1967, a securities intermediary that finds a client's name matches a designated individual on the UNSC sanctions list must:",
+   [
+    "Continue transactions but monitor them more closely",
+    "Freeze the funds and securities without delay and report to the authorities as prescribed",
+    "Close the account and return the securities to the client",
+    "Ask the client to confirm whether the match is correct before acting"
+   ],
+   1,
+   "The UAPA Section 51A order requires prompt freezing of assets of designated persons and immediate reporting; the client must not be tipped off."
+  ],
+  [
+   "AML, CFT and PF Guidelines",
+   "India's legal framework for combating proliferation financing of weapons of mass destruction includes Section 12A of:",
+   [
+    "The Companies Act, 2013",
+    "The Foreign Exchange Management Act, 1999",
+    "The Securities Contracts (Regulation) Act, 1956",
+    "The Weapons of Mass Destruction and their Delivery Systems (Prohibition of Unlawful Activities) Act, 2005"
+   ],
+   3,
+   "Section 12A of the WMD Act, 2005 prohibits financing of WMD-related activities and empowers freezing of funds."
+  ],
+  [
+   "AML, CFT and PF Guidelines",
+   "A 'politically exposed person' (PEP) is generally:",
+   [
+    "Any person who votes in a general election",
+    "A journalist who reports on politics",
+    "An individual entrusted with prominent public functions, such as a senior politician, senior government or judicial official or senior executive of a state-owned enterprise",
+    "Any employee of a government department"
+   ],
+   2,
+   "PEPs hold prominent public functions and are treated as higher-risk, requiring enhanced due diligence and senior management approval."
+  ],
+  [
+   "AML, CFT and PF Guidelines",
+   "Which customer is most appropriately classified as high risk for AML purposes?",
+   [
+    "A client resident in a jurisdiction identified by FATF as having strategic AML/CFT deficiencies",
+    "A salaried employee investing a small monthly SIP through a bank account",
+    "A government pension fund",
+    "A listed public sector bank"
+   ],
+   0,
+   "Clients from FATF-identified high-risk or non-cooperative jurisdictions warrant enhanced due diligence."
+  ],
+  [
+   "AML, CFT and PF Guidelines",
+   "'Enhanced due diligence' (EDD) is applied to:",
+   [
+    "All customers, at the same intensity, every day",
+    "Only customers who invest less than ₹50,000",
+    "Only government-owned entities",
+    "Higher-risk customers and transactions, involving more information, verification and monitoring"
+   ],
+   3,
+   "EDD means additional scrutiny such as source-of-funds checks and closer monitoring for customers assessed as higher risk."
+  ],
+  [
+   "SEBI Guidelines on AML/CFT/PF Standards",
+   "Under the SEBI AML/CFT master circular, each registered intermediary must:",
+   [
+    "Outsource all AML compliance to the stock exchange",
+    "Adopt written AML/CFT policies and procedures approved by its board or senior management",
+    "Report all transactions above ₹1,000 to SEBI daily",
+    "Obtain a separate AML licence from FIU-IND"
+   ],
+   1,
+   "SEBI requires every intermediary to have documented AML/CFT policies and procedures covering CDD, monitoring, reporting and record-keeping."
+  ],
+  [
+   "SEBI Guidelines on AML/CFT/PF Standards",
+   "Under SEBI's AML guidelines, which of the following is a 'Client of Special Category' (CSC)?",
+   [
+    "A resident individual with a salary account and low trading volumes",
+    "A non-resident client",
+    "A SEBI-registered mutual fund",
+    "A Central Government ministry"
+   ],
+   1,
+   "SEBI lists non-resident clients, HNIs, trusts and charities, PEPs, clients from high-risk countries and non-face-to-face clients among CSCs."
+  ],
+  [
+   "SEBI Guidelines on AML/CFT/PF Standards",
+   "Under SEBI's AML framework, the Designated Director of an intermediary is responsible for:",
+   [
+    "Personally verifying each client's PAN",
+    "Executing client trades on the exchange",
+    "Approving each STR before the client is informed",
+    "Ensuring overall compliance with the obligations under the PMLA and its rules"
+   ],
+   3,
+   "The Designated Director ensures overall compliance with PMLA obligations, while the Principal Officer handles reporting to FIU-IND."
+  ],
+  [
+   "SEBI Guidelines on AML/CFT/PF Standards",
+   "A client with a declared annual income of ₹4 lakh suddenly starts trading ₹5 crore a month in illiquid penny stocks. The intermediary should:",
+   [
+    "Treat this as an alert, examine it and file an STR if the activity appears suspicious",
+    "Ignore it as long as the client pays brokerage on time",
+    "Inform the client that an STR may be filed",
+    "Block only the client's dividend payments"
+   ],
+   0,
+   "Trading wholly out of line with the declared financial profile is a red flag requiring scrutiny and, if unexplained, an STR."
+  ],
+  [
+   "SEBI Guidelines on AML/CFT/PF Standards",
+   "Under SEBI's AML guidelines, intermediaries must retain records of transactions and client identification for at least:",
+   [
+    "Six months",
+    "One year from account opening",
+    "The period prescribed under PMLA and its rules, i.e., five years as applicable",
+    "As long as the employee who opened the account remains employed"
+   ],
+   2,
+   "Records of transactions and client identity are maintained for the period under PMLA, generally five years from the transaction or end of the relationship."
+  ],
+  [
+   "SEBI Guidelines on AML/CFT/PF Standards",
+   "Why must intermediaries screen clients against UNSC sanctions lists both at onboarding and periodically?",
+   [
+    "Because designated lists are updated, and assets of newly designated persons must be frozen without delay",
+    "Because SEBI charges a fee for each screening",
+    "Because the lists are used to calculate brokerage",
+    "Because screening replaces the need for KYC"
+   ],
+   0,
+   "Sanctions lists change; ongoing screening ensures that a client designated after onboarding is identified and dealt with immediately."
+  ],
+  [
+   "SEBI Guidelines on AML/CFT/PF Standards",
+   "Which of the following is a red flag for possible money laundering in a demat account?",
+   [
+    "Regular SIP purchases of a large-cap index fund",
+    "Receiving bonus shares from a listed company",
+    "Frequent off-market transfers to unrelated accounts with no apparent economic rationale",
+    "Holding a single blue-chip stock for many years"
+   ],
+   2,
+   "Unexplained off-market transfers to unrelated parties can be used to move value and are a recognised red flag."
+  ],
+  [
+   "SEBI Guidelines on AML/CFT/PF Standards",
+   "An intermediary relies on a third party for client due diligence. Who bears the ultimate responsibility for CDD?",
+   [
+    "The third party alone",
+    "The intermediary itself",
+    "SEBI",
+    "The client's bank"
+   ],
+   1,
+   "Reliance on a third party is permitted subject to conditions, but the ultimate responsibility for CDD remains with the intermediary."
+  ],
+  [
+   "SEBI Guidelines on AML/CFT/PF Standards",
+   "An intermediary should review the risk categorisation of its clients:",
+   [
+    "Only once, at the time of account opening",
+    "Only when SEBI conducts an inspection",
+    "Only when the client requests it",
+    "Periodically, and whenever there is a change in the client's profile or activity"
+   ],
+   3,
+   "Risk profiles must be reviewed periodically and updated when the client's circumstances or activity change."
+  ],
+  [
+   "SEBI Guidelines on KYC Norms",
+   "Which document is mandatory for any investor transacting in the Indian securities market, subject to limited exemptions?",
+   [
+    "Passport",
+    "Voter ID",
+    "PAN (Permanent Account Number)",
+    "Ration card"
+   ],
+   2,
+   "SEBI has made PAN the sole identification number for securities market transactions, with limited exemptions such as for certain government officials and residents of Sikkim."
+  ],
+  [
+   "SEBI Guidelines on KYC Norms",
+   "What is the function of a KYC Registration Agency (KRA) in the securities market?",
+   [
+    "To centrally hold KYC records so that an investor need not repeat KYC with every intermediary",
+    "To execute trades on behalf of investors",
+    "To issue PAN cards",
+    "To approve IPO offer documents"
+   ],
+   0,
+   "KRAs registered under SEBI's KRA Regulations, 2011 maintain KYC records accessible to intermediaries, avoiding duplication."
+  ],
+  [
+   "SEBI Guidelines on KYC Norms",
+   "The Central KYC Records Registry (CKYCR) in India is operated by:",
+   [
+    "SEBI",
+    "NSDL",
+    "FIU-IND",
+    "CERSAI (Central Registry of Securitisation Asset Reconstruction and Security Interest of India)"
+   ],
+   3,
+   "The Government has authorised CERSAI to act as the Central KYC Records Registry across the financial sector."
+  ],
+  [
+   "SEBI Guidelines on KYC Norms",
+   "In-person verification (IPV) of a client in the securities market can be carried out through:",
+   [
+    "Only a physical visit to SEBI's office",
+    "Video-based in-person verification using approved processes",
+    "A telephone call with no visual verification",
+    "An email from the client confirming identity"
+   ],
+   1,
+   "SEBI permits IPV through video (VIPV) with safeguards such as live capture and geo-tagging, as an alternative to physical verification."
+  ],
+  [
+   "SEBI Guidelines on KYC Norms",
+   "When a client is a trust, the intermediary must identify as beneficial owners:",
+   [
+    "Only the trust's bank",
+    "The author, trustees, beneficiaries with 10% or more interest and any natural person exercising ultimate effective control",
+    "Only the trust's auditor",
+    "No one, since trusts are exempt from KYC"
+   ],
+   1,
+   "The PML Rules require identification of the settlor/author, trustees, beneficiaries with 10% or more interest and anyone exercising ultimate control over the trust."
+  ],
+  [
+   "SEBI Guidelines on KYC Norms",
+   "An existing client changes their address. Under KYC norms, the intermediary should:",
+   [
+    "Close the account, as address changes are not allowed",
+    "Ignore it until the next annual audit",
+    "Ask the client to open a new PAN",
+    "Obtain supporting documents and update the client's KYC records"
+   ],
+   3,
+   "KYC is ongoing; changes in client details must be captured with documentary evidence and updated in records, including with the KRA."
+  ],
+  [
+   "SEBI Guidelines on KYC Norms",
+   "Which of the following is an 'officially valid document' (OVD) for proof of address under the PML Rules?",
+   [
+    "Passport",
+    "PAN card",
+    "Bank cheque leaf",
+    "Employee ID of a private company"
+   ],
+   0,
+   "OVDs include passport, driving licence, voter ID, proof of Aadhaar possession and NREGA job card; PAN is proof of identity, not address."
+  ],
+  [
+   "Discussion on PMLA Cases",
+   "In Vijay Madanlal Choudhary v. Union of India (2022), the Supreme Court held that an Enforcement Case Information Report (ECIR):",
+   [
+    "Must be registered with the local police before any investigation",
+    "Is the same as a chargesheet filed in court",
+    "Is an internal document of the ED and is not equivalent to an FIR, so supplying it to the accused is not mandatory",
+    "Must be published in the Official Gazette"
+   ],
+   2,
+   "The Court held that an ECIR is an internal document and need not be supplied, though the accused must be informed of the grounds of arrest."
+  ],
+  [
+   "Discussion on PMLA Cases",
+   "If the accused is finally acquitted of the scheduled offence and there is no other basis, what follows for the money laundering charge according to the Supreme Court's 2022 PMLA ruling?",
+   [
+    "There can be no offence of money laundering, since there are no proceeds of crime",
+    "The money laundering charge continues independently in all cases",
+    "The ED must file a fresh scheduled offence case",
+    "The property is automatically confiscated by the Government"
+   ],
+   0,
+   "The Court held that money laundering depends on proceeds of crime from a scheduled offence; acquittal or discharge in the scheduled offence removes the basis."
+  ],
+  [
+   "Discussion on PMLA Cases",
+   "A compliance officer notices that a client deposited large funds shortly before a family member was arrested for a scheduled offence. Investigators approach the firm. What should the firm do?",
+   [
+    "Warn the client so that they can withdraw the funds",
+    "Delete records of the deposit to protect the client's privacy",
+    "Cooperate with authorities, preserve records and ensure no tipping off to the client",
+    "Refuse to share any information without the client's consent"
+   ],
+   2,
+   "Reporting entities must preserve records, assist investigating agencies and avoid tipping off; client consent is not required."
+  ]
+ ],
+ "xxv-a": [
+  [
+   "Research Profession & Securities Markets",
+   "Research analysts in India are registered and regulated under:",
+   [
+    "SEBI (Research Analysts) Regulations, 2014",
+    "SEBI (Investment Advisers) Regulations, 2013",
+    "SEBI (Stock Brokers) Regulations, 1992",
+    "RBI Master Directions on NBFCs"
+   ],
+   0,
+   "Research analysts are governed by the SEBI (Research Analysts) Regulations, 2014, as amended."
+  ],
+  [
+   "Research Profession & Securities Markets",
+   "Which activity is typically within the scope of a person associated with research services in a sales or non-core role?",
+   [
+    "Independently preparing buy/sell recommendations without supervision",
+    "Signing off research reports as the research analyst",
+    "Explaining published research reports to clients and handling service queries",
+    "Guaranteeing returns on recommended stocks"
+   ],
+   2,
+   "Non-core staff support distribution and servicing of research; preparing and signing recommendations is the role of the qualified research analyst."
+  ],
+  [
+   "Research Profession & Securities Markets",
+   "Which body has been recognised by SEBI to administer and supervise research analysts?",
+   [
+    "AMFI",
+    "Research Analyst Administration and Supervisory Body (RAASB), i.e., BSE",
+    "NISM",
+    "Clearing Corporation of India"
+   ],
+   1,
+   "SEBI recognised BSE as the RAASB to administer and supervise registered research analysts."
+  ],
+  [
+   "Research Profession & Securities Markets",
+   "The market in which existing listed shares are bought and sold among investors is the:",
+   [
+    "Primary market",
+    "Money market only",
+    "Over-the-counter grey market",
+    "Secondary market"
+   ],
+   3,
+   "The secondary market provides liquidity for securities already issued, through stock exchanges."
+  ],
+  [
+   "Research Profession & Securities Markets",
+   "Which of the following is a market intermediary regulated by SEBI?",
+   [
+    "A scheduled commercial bank's lending business",
+    "An insurance agent",
+    "A stock broker",
+    "A pension fund manager under PFRDA"
+   ],
+   2,
+   "Stock brokers are SEBI-registered intermediaries; bank lending is regulated by RBI, insurance by IRDAI and NPS by PFRDA."
+  ],
+  [
+   "Research Profession & Securities Markets",
+   "A client asks a PARS staff member what a 'derivative' is. Which explanation is accurate?",
+   [
+    "A contract whose value is derived from an underlying asset such as a stock, index, currency or commodity",
+    "A share that always pays a fixed dividend",
+    "A government bond with zero risk",
+    "A bank deposit linked to the repo rate"
+   ],
+   0,
+   "Derivatives such as futures and options derive their value from an underlying asset."
+  ],
+  [
+   "Research Profession & Securities Markets",
+   "Which index is commonly used as a benchmark for India's large-cap equity market?",
+   [
+    "MSCI World",
+    "Dow Jones Industrial Average",
+    "CRISIL Liquid Fund Index",
+    "NIFTY 50"
+   ],
+   3,
+   "NIFTY 50 (along with the BSE SENSEX) is the main benchmark for Indian large-cap equities."
+  ],
+  [
+   "Research Profession & Securities Markets",
+   "The main role of SEBI in the securities market is to:",
+   [
+    "Set the repo rate",
+    "Protect investors' interests and promote and regulate the securities market",
+    "Guarantee returns to investors",
+    "Run all listed companies"
+   ],
+   1,
+   "SEBI's statutory mandate is investor protection and the development and regulation of the securities market."
+  ],
+  [
+   "Research Profession & Securities Markets",
+   "'Market capitalisation' of a listed company equals:",
+   [
+    "Total assets − total liabilities",
+    "Number of shares outstanding × current market price per share",
+    "Annual revenue × P/E ratio",
+    "Face value × number of shareholders"
+   ],
+   1,
+   "Market cap is the market value of all outstanding shares."
+  ],
+  [
+   "Research Fundamentals & Market Analysis",
+   "Which indicator measures the total value of goods and services produced in an economy in a period?",
+   [
+    "Consumer Price Index (CPI)",
+    "Repo rate",
+    "Current account deficit",
+    "Gross Domestic Product (GDP)"
+   ],
+   3,
+   "GDP measures economic output; CPI measures inflation and the repo rate is a policy rate."
+  ],
+  [
+   "Research Fundamentals & Market Analysis",
+   "If the RBI raises the repo rate, what is the most likely immediate effect?",
+   [
+    "Borrowing costs rise, which tends to slow credit growth and may weigh on interest-sensitive sectors",
+    "Loans become cheaper and credit growth accelerates",
+    "Inflation rises immediately",
+    "Corporate earnings increase automatically"
+   ],
+   0,
+   "A higher repo rate transmits into higher lending rates, cooling demand and affecting rate-sensitive sectors such as banks, autos and real estate."
+  ],
+  [
+   "Research Fundamentals & Market Analysis",
+   "A company's EPS is ₹25 and its share price is ₹500. What is its P/E ratio?",
+   [
+    "12.5",
+    "25",
+    "20",
+    "0.05"
+   ],
+   2,
+   "P/E = price ÷ EPS = 500 ÷ 25 = 20."
+  ],
+  [
+   "Research Fundamentals & Market Analysis",
+   "Which type of analysis studies past price and volume data to forecast future price movements?",
+   [
+    "Technical analysis",
+    "Fundamental analysis",
+    "Credit analysis",
+    "Macroeconomic analysis"
+   ],
+   0,
+   "Technical analysis relies on charts, price and volume patterns rather than business fundamentals."
+  ],
+  [
+   "Research Fundamentals & Market Analysis",
+   "Fundamental analysis of a company typically involves:",
+   [
+    "Studying only candlestick patterns",
+    "Following social media tips",
+    "Examining its financial statements, business model, management and industry prospects to estimate intrinsic value",
+    "Comparing today's price with yesterday's only"
+   ],
+   2,
+   "Fundamental analysis estimates intrinsic value from financial and business information."
+  ],
+  [
+   "Research Fundamentals & Market Analysis",
+   "Which sector is generally considered 'defensive', with relatively stable demand across economic cycles?",
+   [
+    "Real estate",
+    "Fast-moving consumer goods (FMCG)",
+    "Capital goods",
+    "Metals"
+   ],
+   1,
+   "Demand for essentials like FMCG is relatively stable, whereas cyclical sectors swing with the economy."
+  ],
+  [
+   "Research Fundamentals & Market Analysis",
+   "Which of the following is a primary data source for listed company announcements in India?",
+   [
+    "Unverified messaging groups",
+    "Anonymous blogs",
+    "Rumours in market chatrooms",
+    "Stock exchange corporate filings"
+   ],
+   3,
+   "Exchange filings are official disclosures under LODR; unverified sources should not be relied upon."
+  ],
+  [
+   "Research Fundamentals & Market Analysis",
+   "Rising inflation generally affects bond prices in which way?",
+   [
+    "Bond prices always rise",
+    "Bond prices are unaffected",
+    "Bond prices tend to fall as interest rates rise",
+    "Only equity prices are affected"
+   ],
+   2,
+   "Higher inflation pushes up interest rates and yields, which lowers prices of existing fixed-coupon bonds."
+  ],
+  [
+   "Research Fundamentals & Market Analysis",
+   "Return on Equity (ROE) is calculated as:",
+   [
+    "Net profit ÷ shareholders' equity",
+    "Revenue ÷ total assets",
+    "Dividend ÷ share price",
+    "Total debt ÷ equity"
+   ],
+   0,
+   "ROE measures the profit generated on shareholders' funds."
+  ],
+  [
+   "Risk and Return Fundamentals",
+   "Which type of risk can be reduced through diversification?",
+   [
+    "Systematic (market) risk",
+    "Interest rate risk of the whole economy",
+    "Inflation risk in the economy",
+    "Unsystematic (company-specific) risk"
+   ],
+   3,
+   "Company-specific risk diversifies away across many holdings; market-wide risk cannot be diversified."
+  ],
+  [
+   "Risk and Return Fundamentals",
+   "A stock with a beta of 1.5 is expected, on average, to:",
+   [
+    "Move half as much as the market",
+    "Move about 1.5 times the market's movement",
+    "Not move with the market at all",
+    "Always give 1.5% return"
+   ],
+   1,
+   "Beta measures sensitivity to market movements; a beta of 1.5 implies higher volatility than the market."
+  ],
+  [
+   "Risk and Return Fundamentals",
+   "An investor buys a share at ₹200, receives a dividend of ₹10 and sells it a year later at ₹230. What is the holding period return?",
+   [
+    "15%",
+    "20%",
+    "5%",
+    "25%"
+   ],
+   1,
+   "HPR = (230 − 200 + 10) ÷ 200 = 40 ÷ 200 = 20%."
+  ],
+  [
+   "Risk and Return Fundamentals",
+   "Standard deviation of returns is used as a measure of:",
+   [
+    "Average return",
+    "Liquidity",
+    "Dividend yield",
+    "Total volatility (risk) of an investment"
+   ],
+   3,
+   "Standard deviation measures dispersion of returns around the mean, indicating total risk."
+  ],
+  [
+   "Risk and Return Fundamentals",
+   "The Sharpe ratio measures:",
+   [
+    "Excess return over the risk-free rate per unit of total risk",
+    "Return per unit of systematic risk only",
+    "The price-to-earnings multiple",
+    "The dividend payout ratio"
+   ],
+   0,
+   "Sharpe ratio = (portfolio return − risk-free rate) ÷ standard deviation."
+  ],
+  [
+   "Risk and Return Fundamentals",
+   "A client asks why a research report includes a risk disclosure. The best explanation is:",
+   [
+    "The risk disclosure is a formality with no meaning",
+    "The disclosure means the stock is certain to fall",
+    "Investments are subject to market risks and past performance does not guarantee future results",
+    "It indicates the research analyst guarantees a minimum return"
+   ],
+   2,
+   "Risk disclosures inform clients that returns are uncertain, helping them make informed decisions."
+  ],
+  [
+   "Risk and Return Fundamentals",
+   "Which statement about the risk–return relationship is generally correct?",
+   [
+    "Higher expected returns usually come with higher risk",
+    "Higher risk always guarantees higher returns",
+    "Low-risk assets always outperform high-risk assets",
+    "Risk and return are unrelated"
+   ],
+   0,
+   "Investors demand higher expected returns for bearing higher risk, but higher risk does not guarantee higher realised returns."
+  ],
+  [
+   "Research Reporting, Ethics & Regulation",
+   "Under the SEBI RA Regulations, a research analyst must disclose in a research report if it or its associates hold actual or beneficial ownership in the subject company of:",
+   [
+    "10% or more at any time",
+    "25% or more only",
+    "1% or more at the end of the month immediately preceding the report",
+    "Any holding acquired after the report"
+   ],
+   2,
+   "Ownership of 1% or more of the subject company as at the end of the preceding month must be disclosed."
+  ],
+  [
+   "Research Reporting, Ethics & Regulation",
+   "Within what restricted window are research analysts and their associates prohibited from dealing in a security they cover?",
+   [
+    "1 day before and 1 day after the report",
+    "30 days before and 5 days after the publication of a research report",
+    "90 days before and 90 days after the report",
+    "There is no such restriction"
+   ],
+   1,
+   "The RA Regulations bar dealing in the subject security from 30 days before to 5 days after publication of the report."
+  ],
+  [
+   "Research Reporting, Ethics & Regulation",
+   "Which of the following is an essential quality of a good research report?",
+   [
+    "Promises of assured returns to attract clients",
+    "Hiding unfavourable information about the company",
+    "Use of jargon to impress clients",
+    "Clear, objective analysis with required disclosures of conflicts and risks"
+   ],
+   3,
+   "Clarity, objectivity and full disclosure are expected of research reports under the RA Regulations."
+  ],
+  [
+   "Research Reporting, Ethics & Regulation",
+   "To prevent misuse of unpublished price-sensitive information, a firm with both research and investment banking functions should maintain:",
+   [
+    "A shared office space for both teams",
+    "A common bonus pool linked to deal fees",
+    "Information barriers (Chinese walls) between the two functions",
+    "Joint client meetings for all deals"
+   ],
+   2,
+   "Chinese walls separate the teams so that research is independent and UPSI is not misused."
+  ],
+  [
+   "Research Reporting, Ethics & Regulation",
+   "Which platform should a client use to lodge a complaint against a SEBI-registered research analyst if not resolved by the RA?",
+   [
+    "SEBI's SCORES platform, and thereafter the online dispute resolution mechanism if needed",
+    "The local police station only",
+    "The income-tax department",
+    "A consumer forum in another country"
+   ],
+   0,
+   "Clients can escalate unresolved complaints on SCORES and use the SEBI-mandated ODR mechanism."
+  ],
+  [
+   "Research Reporting, Ethics & Regulation",
+   "Under SEBI's SCORES 2.0 framework, an intermediary must resolve complaints received through SCORES within:",
+   [
+    "60 days",
+    "6 months",
+    "3 working days",
+    "21 calendar days"
+   ],
+   3,
+   "SEBI's revised SCORES framework requires entities to resolve complaints within 21 calendar days."
+  ],
+  [
+   "Research Reporting, Ethics & Regulation",
+   "Which mode of fee payment by clients to a research analyst is permitted?",
+   [
+    "Cash at the office",
+    "Through banking channels, such as account transfer or UPI",
+    "Cash collected by sales staff at the client's home",
+    "Any mode the sales staff prefers"
+   ],
+   1,
+   "RA fees must be received only through banking channels; cash payments are not permitted."
+  ],
+  [
+   "Research Reporting, Ethics & Regulation",
+   "A PARS employee learns of a target company's unannounced results from a friend in that company and shares it with a client. This is:",
+   [
+    "Permitted if the client is an HNI",
+    "Communication of UPSI, which is prohibited under SEBI insider trading regulations",
+    "Permitted if the information turns out to be correct",
+    "A normal part of client servicing"
+   ],
+   1,
+   "Communicating unpublished price-sensitive information is prohibited under the PIT Regulations, 2015."
+  ],
+  [
+   "Research Reporting, Ethics & Regulation",
+   "A research analyst must perform KYC of its clients because:",
+   [
+    "KYC is needed only for clients investing over ₹1 crore",
+    "KYC is optional for research services",
+    "KYC replaces the need for risk disclosures",
+    "SEBI and PMLA requirements mandate verifying client identity before providing services"
+   ],
+   3,
+   "Regulated entities, including RAs, must complete client KYC as per SEBI and PMLA requirements."
+  ],
+  [
+   "Research Reporting, Ethics & Regulation",
+   "Under the RA Regulations, records such as research reports, recommendations and client communications must be maintained for at least:",
+   [
+    "Five years",
+    "Six months",
+    "One year",
+    "Ten years"
+   ],
+   0,
+   "Research analysts must preserve specified records for a minimum period of five years."
+  ],
+  [
+   "Research Reporting, Ethics & Regulation",
+   "The 'Most Important Terms and Conditions' (MITC) for research services are meant to:",
+   [
+    "Guarantee a minimum return to clients",
+    "Replace the need for KYC",
+    "Clearly disclose key terms of the service to clients, such as fees, nature of service and that returns are not guaranteed",
+    "Allow the RA to change fees without notice"
+   ],
+   2,
+   "SEBI requires RAs to share MITC with clients so that key terms are clearly understood before onboarding."
+  ],
+  [
+   "Client Interaction & Relationship Skills",
+   "A client is upset after a recommended stock fell 20%. The best initial response by a PARS staff member is to:",
+   [
+    "Listen empathetically, explain the rationale and risks in the original report, and escalate if needed",
+    "Promise that the stock will recover within a month",
+    "Blame the research analyst",
+    "Avoid the client's calls until the market recovers"
+   ],
+   0,
+   "Effective crisis handling involves empathy, factual explanation and escalation, without making promises."
+  ],
+  [
+   "Client Interaction & Relationship Skills",
+   "Which statement reflects ethical objection handling in research sales?",
+   [
+    "Overcome objections by promising guaranteed returns",
+    "Pressure the client to decide immediately",
+    "Address the client's concerns honestly without overstating benefits or understating risks",
+    "Ignore the objection and repeat the pitch"
+   ],
+   2,
+   "Objection handling must be truthful and balanced; pressure tactics and promises of returns are unethical."
+  ],
+  [
+   "Client Interaction & Relationship Skills",
+   "An investor holds on to a losing stock refusing to sell because selling would 'confirm the loss'. This bias is:",
+   [
+    "Overconfidence",
+    "Loss aversion",
+    "Herd behaviour",
+    "Anchoring"
+   ],
+   1,
+   "Loss aversion means the pain of losses outweighs equivalent gains, leading investors to hold losers too long."
+  ],
+  [
+   "Client Interaction & Relationship Skills",
+   "A client insists a stock is cheap because it once traded at ₹1,000 and now trades at ₹400. This bias is:",
+   [
+    "Loss aversion",
+    "Mental accounting",
+    "Recency bias",
+    "Anchoring"
+   ],
+   3,
+   "Anchoring is relying excessively on a reference point, such as a past price, rather than fundamentals."
+  ],
+  [
+   "Client Interaction & Relationship Skills",
+   "Investors rushing to buy a stock simply because everyone else is buying it reflects:",
+   [
+    "Confirmation bias",
+    "Status quo bias",
+    "Herd behaviour",
+    "Regret aversion"
+   ],
+   2,
+   "Herd behaviour is following the crowd rather than independent analysis."
+  ],
+  [
+   "Client Interaction & Relationship Skills",
+   "A client asks for advance information about a report that has not yet been released to all clients. The PARS staff member should:",
+   [
+    "Politely decline, as research must be disseminated fairly to all eligible clients at the same time",
+    "Share it, since the client is a large subscriber",
+    "Share only the target price",
+    "Ask the client to keep it confidential and share it"
+   ],
+   0,
+   "Selective disclosure before publication is unfair to other clients and against research dissemination norms."
+  ],
+  [
+   "Client Interaction & Relationship Skills",
+   "Which practice best builds long-term client relationships in research services?",
+   [
+    "Contacting clients only when selling new subscriptions",
+    "Highlighting only successful recommendations",
+    "Making informal promises of returns",
+    "Consistent, transparent communication and timely service, including when recommendations do not work out"
+   ],
+   3,
+   "Trust grows from transparency and service consistency, not from selective or promotional communication."
+  ],
+  [
+   "Client Interaction & Relationship Skills",
+   "During a sharp market fall, many clients call simultaneously. What is the best approach?",
+   [
+    "Switch off phones until the market stabilises",
+    "Communicate proactively with factual updates, prioritise urgent queries and avoid speculative predictions",
+    "Tell all clients to sell immediately",
+    "Assure clients that the market will recover by next week"
+   ],
+   1,
+   "Crisis management calls for proactive, factual and calm communication without speculation."
+  ],
+  [
+   "Client Interaction & Relationship Skills",
+   "Which statement about 'confirmation bias' is correct?",
+   [
+    "It is the tendency to follow the crowd",
+    "It is the tendency to seek out information that supports one's existing view and ignore contrary evidence",
+    "It is the fear of regret from a wrong decision",
+    "It is preferring familiar local stocks"
+   ],
+   1,
+   "Confirmation bias leads investors to filter information to fit pre-existing beliefs."
+  ],
+  [
+   "Professional Efficiency & Tools",
+   "In the Eisenhower (urgent–important) matrix, tasks that are important but not urgent should generally be:",
+   [
+    "Ignored",
+    "Delegated immediately",
+    "Done before urgent and important tasks",
+    "Scheduled and given planned time"
+   ],
+   3,
+   "Important but not urgent tasks, such as learning and planning, should be scheduled so they are not crowded out."
+  ],
+  [
+   "Professional Efficiency & Tools",
+   "Under India's Digital Personal Data Protection Act, 2023, client personal data should be processed:",
+   [
+    "For a lawful purpose with the consent of the data principal or other legitimate use, with reasonable security safeguards",
+    "Freely and shared with any third party for marketing",
+    "Only on paper, never electronically",
+    "Without any security measures if the client is a retail investor"
+   ],
+   0,
+   "The DPDP Act requires lawful, purpose-limited processing with consent or legitimate use and security safeguards."
+  ],
+  [
+   "Professional Efficiency & Tools",
+   "A sales executive wants to use a free online AI tool to summarise a client's portfolio and personal details. What is the right approach?",
+   [
+    "Upload the data since the tool is free",
+    "Share the client's PAN and phone number with the tool to improve accuracy",
+    "Use only firm-approved tools and avoid uploading identifiable client data to unapproved platforms",
+    "Ask a friend to run the tool on their device"
+   ],
+   2,
+   "Client data confidentiality requires using approved tools and protecting personal information."
+  ],
+  [
+   "Professional Efficiency & Tools",
+   "Why is continuing professional development important for persons associated with research services?",
+   [
+    "Markets, products and regulations change, so knowledge and skills need regular updating",
+    "It allows staff to give recommendations without an RA",
+    "It replaces the need for certification",
+    "It is required only for senior management"
+   ],
+   0,
+   "Ongoing learning keeps staff competent and compliant as regulations and markets evolve."
+  ],
+  [
+   "Professional Efficiency & Tools",
+   "A CRM (customer relationship management) system helps a research services firm mainly by:",
+   [
+    "Generating guaranteed stock tips",
+    "Replacing the need for KYC records",
+    "Recording client interactions, preferences and service requests to support consistent follow-up",
+    "Executing trades automatically for clients"
+   ],
+   2,
+   "CRM tools organise client information and interactions so that service is timely and consistent."
+  ]
+ ],
+ "xxv-b": [
+  [
+   "Personal Financial Planning & Financial Markets",
+   "Which is usually the first step in the personal financial planning process?",
+   [
+    "Establishing the client relationship and gathering information about goals and finances",
+    "Selecting specific mutual fund schemes",
+    "Executing investment transactions",
+    "Rebalancing the portfolio"
+   ],
+   0,
+   "Planning starts with understanding the client and their goals; product selection and implementation come later."
+  ],
+  [
+   "Personal Financial Planning & Financial Markets",
+   "'Risk capacity' of a client refers to:",
+   [
+    "The client's emotional comfort with volatility",
+    "The number of risky products the client already holds",
+    "The financial ability to bear losses, based on income, wealth, obligations and time horizon",
+    "The maximum return the client expects"
+   ],
+   2,
+   "Risk capacity is an objective financial measure; risk tolerance is the psychological willingness to take risk."
+  ],
+  [
+   "Personal Financial Planning & Financial Markets",
+   "A 28-year-old with stable income and no dependants, but who panics at small losses, has:",
+   [
+    "Low risk capacity and high risk tolerance",
+    "High risk capacity but low risk tolerance",
+    "High risk capacity and high risk tolerance",
+    "Low risk capacity and low risk tolerance"
+   ],
+   1,
+   "Age, income and few obligations give high capacity, while emotional discomfort with losses indicates low tolerance."
+  ],
+  [
+   "Personal Financial Planning & Financial Markets",
+   "Which of the following best describes a SMART financial goal?",
+   [
+    "Become rich someday",
+    "Save more money",
+    "Invest in good stocks",
+    "Accumulate ₹15 lakh for a child's education in 10 years"
+   ],
+   3,
+   "SMART goals are specific, measurable, achievable, relevant and time-bound."
+  ],
+  [
+   "Personal Financial Planning & Financial Markets",
+   "Which regulator oversees the National Pension System (NPS)?",
+   [
+    "SEBI",
+    "IRDAI",
+    "PFRDA",
+    "RBI"
+   ],
+   2,
+   "The Pension Fund Regulatory and Development Authority regulates NPS."
+  ],
+  [
+   "Personal Financial Planning & Financial Markets",
+   "Which of the following is a function of financial markets?",
+   [
+    "Channelling savings into productive investment and enabling price discovery",
+    "Guaranteeing returns to all investors",
+    "Setting the income-tax rates",
+    "Printing currency"
+   ],
+   0,
+   "Financial markets mobilise savings, allocate capital and discover prices."
+  ],
+  [
+   "Personal Financial Planning & Financial Markets",
+   "Why is an emergency fund recommended before investing in volatile assets?",
+   [
+    "It earns the highest returns of any asset",
+    "It is required by SEBI for opening a demat account",
+    "It replaces the need for insurance",
+    "It covers unexpected expenses so that long-term investments need not be sold at a bad time"
+   ],
+   3,
+   "Liquid reserves prevent forced selling of long-term investments during emergencies."
+  ],
+  [
+   "Personal Financial Planning & Financial Markets",
+   "Which grievance redressal option is available to investors against SEBI-registered intermediaries?",
+   [
+    "Only civil courts, with no regulatory route",
+    "SCORES and the Online Dispute Resolution (ODR) platform",
+    "The RBI Ombudsman for all securities complaints",
+    "The intermediary's sales team alone"
+   ],
+   1,
+   "SEBI provides SCORES for complaints and an ODR mechanism for conciliation and arbitration."
+  ],
+  [
+   "Securities Markets & Basics of Investment",
+   "Using the Rule of 72, approximately how many years will it take for money to double at 9% per annum?",
+   [
+    "6 years",
+    "8 years",
+    "9 years",
+    "12 years"
+   ],
+   1,
+   "Years to double ≈ 72 ÷ rate = 72 ÷ 9 = 8 years."
+  ],
+  [
+   "Securities Markets & Basics of Investment",
+   "₹1,00,000 invested at 10% per annum compounded annually will grow in 2 years to:",
+   [
+    "₹1,20,000",
+    "₹1,10,000",
+    "₹1,25,000",
+    "₹1,21,000"
+   ],
+   3,
+   "1,00,000 × 1.10² = ₹1,21,000; compounding earns interest on interest."
+  ],
+  [
+   "Securities Markets & Basics of Investment",
+   "Which statement best distinguishes investing from saving?",
+   [
+    "Investing deploys money in assets with the aim of growth, accepting some risk; saving sets aside money, typically with low risk and high liquidity",
+    "Saving always earns more than investing",
+    "Investing involves no risk at all",
+    "There is no difference between them"
+   ],
+   0,
+   "Investing seeks returns above inflation by taking risk; saving prioritises safety and liquidity."
+  ],
+  [
+   "Securities Markets & Basics of Investment",
+   "Asset allocation refers to:",
+   [
+    "Picking the single best-performing stock",
+    "Investing all money in one mutual fund",
+    "Dividing a portfolio among asset classes such as equity, debt and gold according to goals and risk profile",
+    "Timing the market to buy at the bottom"
+   ],
+   2,
+   "Asset allocation is the mix across asset classes and is a key determinant of portfolio risk and return."
+  ],
+  [
+   "Securities Markets & Basics of Investment",
+   "A client's target allocation is 60% equity and 40% debt. After a rally, the portfolio is 72% equity. Rebalancing would involve:",
+   [
+    "Selling some equity and buying debt to restore 60:40",
+    "Buying more equity to ride the rally",
+    "Selling all debt",
+    "Doing nothing, because allocations never need adjustment"
+   ],
+   0,
+   "Rebalancing brings the portfolio back to target, controlling risk drift."
+  ],
+  [
+   "Securities Markets & Basics of Investment",
+   "Inflation risk for an investor means:",
+   [
+    "The issuer may default on payments",
+    "The investor may not be able to sell quickly",
+    "The real value of returns may be eroded if returns do not keep pace with rising prices",
+    "The share price may rise too fast"
+   ],
+   2,
+   "Inflation reduces purchasing power; returns below inflation mean negative real returns."
+  ],
+  [
+   "Securities Markets & Basics of Investment",
+   "If a fixed deposit earns 7% and inflation is 5%, the approximate real rate of return is:",
+   [
+    "12%",
+    "2%",
+    "7%",
+    "−2%"
+   ],
+   1,
+   "Real return ≈ nominal return − inflation = 7% − 5% = 2%."
+  ],
+  [
+   "Securities Markets & Basics of Investment",
+   "Why does a long investment horizon generally favour equity investing?",
+   [
+    "Equity prices never fall over long periods",
+    "Equity is risk-free if held for one year",
+    "Long horizons remove all market risk",
+    "Short-term volatility tends to even out over longer periods, and compounding has more time to work"
+   ],
+   3,
+   "Longer horizons reduce the impact of short-term fluctuations, though they do not eliminate risk."
+  ],
+  [
+   "Securities Markets & Basics of Investment",
+   "Which participant in the securities market holds investors' securities in electronic form?",
+   [
+    "Stock exchange",
+    "Registrar to an issue",
+    "Depository, through depository participants",
+    "Credit rating agency"
+   ],
+   2,
+   "Depositories hold securities in demat form, and investors access them via DPs."
+  ],
+  [
+   "Financial Asset Classes",
+   "Equity shareholders of a company are:",
+   [
+    "Owners who share in profits and bear residual risk",
+    "Lenders who receive fixed interest",
+    "Guaranteed a fixed dividend",
+    "Paid before creditors on liquidation"
+   ],
+   0,
+   "Equity holders own the company, receive residual profits and are last in line on liquidation."
+  ],
+  [
+   "Financial Asset Classes",
+   "When market interest rates rise, the price of an existing fixed-coupon bond generally:",
+   [
+    "Rises",
+    "Remains unchanged",
+    "Doubles",
+    "Falls"
+   ],
+   3,
+   "Bond prices and yields move inversely."
+  ],
+  [
+   "Financial Asset Classes",
+   "Which bond would be most sensitive to a change in interest rates, other things being equal?",
+   [
+    "A bond maturing in one month",
+    "A bond with a longer duration",
+    "A treasury bill",
+    "An overnight money market instrument"
+   ],
+   1,
+   "Duration measures interest-rate sensitivity; longer duration means larger price change."
+  ],
+  [
+   "Financial Asset Classes",
+   "Government securities issued by the Central Government are generally considered to have:",
+   [
+    "High credit risk and no interest-rate risk",
+    "Negligible credit (default) risk but exposure to interest-rate risk",
+    "No risk of any kind",
+    "Equity-like risk"
+   ],
+   1,
+   "G-secs are sovereign-backed, so default risk is minimal, but their prices change with interest rates."
+  ],
+  [
+   "Financial Asset Classes",
+   "Bank deposits in India are insured by DICGC up to what limit per depositor per bank (principal and interest)?",
+   [
+    "₹1 lakh",
+    "₹10 lakh",
+    "₹50 lakh",
+    "₹5 lakh"
+   ],
+   3,
+   "DICGC insures deposits up to ₹5 lakh per depositor per bank, covering principal and interest together."
+  ],
+  [
+   "Financial Asset Classes",
+   "A credit rating of 'AAA' on a corporate bond indicates:",
+   [
+    "The highest degree of safety regarding timely servicing of financial obligations",
+    "The bond is guaranteed by the Government",
+    "The bond's price cannot fall",
+    "The bond pays the highest interest rate"
+   ],
+   0,
+   "AAA is the highest rating for credit safety, but it is not a guarantee and does not remove market risk."
+  ],
+  [
+   "Financial Asset Classes",
+   "The maximum loss for the buyer of a call option is:",
+   [
+    "Unlimited",
+    "The strike price",
+    "The premium paid",
+    "The full value of the underlying"
+   ],
+   2,
+   "An option buyer's loss is limited to the premium, as the option can simply be allowed to expire."
+  ],
+  [
+   "Financial Asset Classes",
+   "Exchange-traded futures contracts in India are settled through a clearing corporation, which:",
+   [
+    "Acts as counterparty to both sides and manages risk through margins",
+    "Guarantees profits to all traders",
+    "Fixes the price of each futures contract",
+    "Is not regulated by SEBI"
+   ],
+   0,
+   "The clearing corporation novates trades and uses margins to manage counterparty risk."
+  ],
+  [
+   "Financial Asset Classes",
+   "Why are derivatives considered high-risk for retail investors?",
+   [
+    "They are not permitted to be traded in India",
+    "They always lose money",
+    "Leverage magnifies both gains and losses, and losses can exceed the initial margin",
+    "They are guaranteed by the exchange"
+   ],
+   2,
+   "Leverage means small price moves create large P&L swings; SEBI studies have shown most retail F&O traders lose money."
+  ],
+  [
+   "Financial Products",
+   "In India, a mutual fund is constituted as a:",
+   [
+    "Private limited company owned by investors",
+    "Trust, with an asset management company managing its schemes",
+    "Partnership firm",
+    "Department of SEBI"
+   ],
+   1,
+   "Mutual funds are set up as trusts; the AMC manages the schemes under trustee oversight and SEBI regulation."
+  ],
+  [
+   "Financial Products",
+   "Under SEBI's scheme categorisation, a 'large cap' company for mutual funds is one ranked:",
+   [
+    "1st to 250th",
+    "101st to 250th",
+    "251st onwards",
+    "1st to 100th by full market capitalisation"
+   ],
+   3,
+   "Large caps are the top 100 companies, mid caps 101–250 and small caps from 251 onward."
+  ],
+  [
+   "Financial Products",
+   "What is the main difference between the direct plan and the regular plan of a mutual fund scheme?",
+   [
+    "The direct plan invests in different securities",
+    "The regular plan has guaranteed returns",
+    "The direct plan has no distributor commission, so its expense ratio is lower",
+    "The direct plan cannot be redeemed"
+   ],
+   2,
+   "Both plans share the same portfolio; the regular plan's expense ratio includes distribution costs."
+  ],
+  [
+   "Financial Products",
+   "A mutual fund scheme's NAV is ₹50. An investor invests ₹10,000 (ignoring stamp duty). How many units are allotted?",
+   [
+    "200",
+    "500",
+    "20",
+    "2,000"
+   ],
+   0,
+   "Units = amount ÷ NAV = 10,000 ÷ 50 = 200."
+  ],
+  [
+   "Financial Products",
+   "The riskometer on a mutual fund scheme indicates:",
+   [
+    "The expected return of the scheme",
+    "The fund manager's experience",
+    "The scheme's past rank",
+    "The risk level of the scheme on a scale from low to very high"
+   ],
+   3,
+   "SEBI's riskometer has six levels from low to very high, helping investors judge scheme risk."
+  ],
+  [
+   "Financial Products",
+   "What is the minimum investment amount for a client in Portfolio Management Services (PMS)?",
+   [
+    "₹5 lakh",
+    "₹50 lakh",
+    "₹1 crore",
+    "₹10,000"
+   ],
+   1,
+   "SEBI's PMS Regulations set a minimum investment of ₹50 lakh per client."
+  ],
+  [
+   "Financial Products",
+   "The minimum investment by an investor in an Alternative Investment Fund (other than accredited investors and specified employees) is:",
+   [
+    "₹10 lakh",
+    "₹1 crore",
+    "₹25 lakh",
+    "₹5 crore"
+   ],
+   1,
+   "SEBI's AIF Regulations require a minimum investment of ₹1 crore for most investors."
+  ],
+  [
+   "Financial Products",
+   "A Specialized Investment Fund (SIF) under SEBI's framework is offered by:",
+   [
+    "Banks, as a fixed deposit product",
+    "Insurance companies as part of ULIPs",
+    "Any unregistered investment club",
+    "Eligible mutual funds, with a minimum investment of ₹10 lakh per investor across SIF strategies"
+   ],
+   3,
+   "SIFs sit between mutual funds and PMS; they are launched by eligible AMCs with a ₹10 lakh minimum investment."
+  ],
+  [
+   "Financial Products",
+   "A term life insurance plan is best described as:",
+   [
+    "Pure protection that pays a sum assured on death during the term, with no maturity benefit",
+    "An investment plan with guaranteed high returns",
+    "A health insurance policy",
+    "A mutual fund scheme"
+   ],
+   0,
+   "Term insurance offers high cover at low cost for protection only."
+  ],
+  [
+   "Financial Products",
+   "Why is health insurance important in a financial plan?",
+   [
+    "It provides market-linked returns",
+    "It replaces the emergency fund entirely",
+    "It protects savings and investments from being depleted by large medical expenses",
+    "It is required to open a demat account"
+   ],
+   2,
+   "Health cover transfers medical cost risk to the insurer, preserving the client's financial goals."
+  ],
+  [
+   "Sales Skills",
+   "In an RIA setup, how does advisory-led sales differ from product selling?",
+   [
+    "It starts from the client's needs and goals, and recommends solutions only if suitable",
+    "It aims to sell the product with the highest commission",
+    "It pushes the same product to every client",
+    "It avoids risk profiling to save time"
+   ],
+   0,
+   "Advisory-based sales is client-centric and suitability-driven, in line with the IA Regulations."
+  ],
+  [
+   "Sales Skills",
+   "A sales staff member is asked by a 70-year-old retiree, who needs steady income, about a small-cap fund that did well last year. The appropriate response is to:",
+   [
+    "Recommend investing all savings since last year's returns were high",
+    "Promise that small caps will repeat last year's returns",
+    "Explain that small-cap funds are highly volatile and may not suit their income needs and risk profile",
+    "Refuse to discuss the client's needs"
+   ],
+   2,
+   "Suitability requires matching recommendations to the client's needs, horizon and risk profile, not past returns."
+  ],
+  [
+   "Sales Skills",
+   "Which statement reflects ethical negotiation and closing in advisory sales?",
+   [
+    "Use fear of missing out to close quickly",
+    "Close only when the client understands the advice and agrees voluntarily, without pressure",
+    "Offer a cash rebate to close the deal",
+    "Withhold fee details until after signing"
+   ],
+   1,
+   "Ethical closing relies on informed, voluntary consent and full disclosure of fees."
+  ],
+  [
+   "Sales Skills",
+   "Active listening during a client meeting means:",
+   [
+    "Talking more than the client to show expertise",
+    "Interrupting to present products quickly",
+    "Thinking about the next sales pitch while the client speaks",
+    "Paying full attention, asking clarifying questions and summarising the client's needs"
+   ],
+   3,
+   "Active listening helps the advisory team understand the client accurately."
+  ],
+  [
+   "Sales Skills",
+   "During client profiling, which information is most relevant to determine risk capacity?",
+   [
+    "The client's favourite stock",
+    "The client's social media activity",
+    "Income stability, existing assets and liabilities, dependants and time horizon",
+    "The brand of the client's car"
+   ],
+   2,
+   "Risk capacity depends on objective financial factors like income, wealth, obligations and horizon."
+  ],
+  [
+   "Sales Skills",
+   "A client objects that advisory fees are high compared with 'free' advice from a distributor. A sound response is:",
+   [
+    "Explain the fee-only model, absence of commission-driven conflicts and the value of unbiased advice",
+    "Offer to waive fees by accepting commission from product companies",
+    "Criticise the distributor personally",
+    "Promise higher returns to justify fees"
+   ],
+   0,
+   "RIAs are paid by clients, not product makers, which reduces conflicts; this is the value proposition."
+  ],
+  [
+   "Sales Skills",
+   "How can a CRM tool improve service continuity in an RIA firm?",
+   [
+    "By selling client data to product manufacturers",
+    "By making trades without client consent",
+    "By replacing risk profiling",
+    "By keeping a record of client profiles, interactions and pending actions accessible to the team"
+   ],
+   3,
+   "A CRM ensures that any team member can continue servicing a client with full context."
+  ],
+  [
+   "Sales Skills",
+   "A client wants to invest based on a tip from a social media 'finfluencer'. The best approach is to:",
+   [
+    "Execute the tip immediately to keep the client happy",
+    "Discuss the client's goals and risk profile and explain why unverified tips may be unsuitable or risky",
+    "Share more tips from other influencers",
+    "Tell the client never to use social media"
+   ],
+   1,
+   "Bringing the discussion back to goals and suitability protects the client from unsuitable decisions."
+  ],
+  [
+   "Professionalism, Ethics & Compliance",
+   "Investment advisers in India are regulated under:",
+   [
+    "SEBI (Research Analysts) Regulations, 2014",
+    "SEBI (Investment Advisers) Regulations, 2013",
+    "IRDAI (Insurance Brokers) Regulations",
+    "SEBI (Portfolio Managers) Regulations, 2020"
+   ],
+   1,
+   "Investment advisers are governed by the SEBI (Investment Advisers) Regulations, 2013, as amended."
+  ],
+  [
+   "Professionalism, Ethics & Compliance",
+   "An investment adviser acting in a fiduciary capacity must:",
+   [
+    "Recommend products that maximise the adviser's income",
+    "Guarantee returns to clients",
+    "Follow the instructions of product manufacturers",
+    "Act in the best interest of the client and disclose any conflicts of interest"
+   ],
+   3,
+   "The IA Regulations impose a fiduciary duty to act in the client's best interest."
+  ],
+  [
+   "Professionalism, Ethics & Compliance",
+   "Under SEBI's framework, an investment adviser must ensure 'segregation' between advisory and distribution. This means:",
+   [
+    "Advisory and distribution services cannot be offered to the same client by the IA (or its group), and an individual IA cannot be a distributor",
+    "The IA must distribute products through its own sales team",
+    "The IA can accept commissions if disclosed",
+    "The IA can advise only on stocks it distributes"
+   ],
+   0,
+   "SEBI requires client-level segregation of advisory and distribution to remove commission-driven conflicts."
+  ],
+  [
+   "Professionalism, Ethics & Compliance",
+   "Before giving advice, an investment adviser is required to:",
+   [
+    "Collect fees in cash",
+    "Promise a minimum return",
+    "Carry out risk profiling of the client and ensure suitability of the advice",
+    "Obtain approval from SEBI for each recommendation"
+   ],
+   2,
+   "Risk profiling and suitability assessment are mandatory obligations under the IA Regulations."
+  ],
+  [
+   "Professionalism, Ethics & Compliance",
+   "A sales staff member in an RIA firm is asked by a client to recommend a specific stock. What should the staff member do?",
+   [
+    "Refer the request to the qualified investment adviser, as giving advice is outside the sales role",
+    "Recommend a stock based on personal opinion",
+    "Share a tip from a friend",
+    "Recommend the stock with the highest past return"
+   ],
+   0,
+   "Persons in sales and non-core roles must stay within role boundaries; investment advice is given by the registered adviser."
+  ],
+  [
+   "Professionalism, Ethics & Compliance",
+   "Which body has SEBI recognised to administer and supervise investment advisers?",
+   [
+    "AMFI",
+    "NISM",
+    "Investment Adviser Administration and Supervisory Body (IAASB), i.e., BSE",
+    "FIU-IND"
+   ],
+   2,
+   "SEBI recognised BSE as the IAASB for administering and supervising investment advisers."
+  ]
+ ]
+}

@@ -1,0 +1,2410 @@
+{
+ "ic-38": [
+  [
+   "Introduction to Insurance",
+   "Insurance is able to compensate the few who suffer a loss mainly because:",
+   [
+    "The insurer invests every premium only in government bonds",
+    "The government reimburses the insurer for every claim",
+    "The premiums of many people facing a similar risk are pooled to pay the losses of the few",
+    "Insured persons promise never to make a claim"
+   ],
+   2,
+   "Insurance works on pooling: many contribute small premiums so that the fund can pay the losses of the few who actually suffer them."
+  ],
+  [
+   "Introduction to Insurance",
+   "Which of the following risks is normally NOT insurable?",
+   [
+    "Loss from a fall in the price of shares an investor bought",
+    "Damage to a factory by fire",
+    "Death of the family breadwinner",
+    "Theft of goods from a warehouse"
+   ],
+   0,
+   "Insurance covers pure risks (only loss or no loss); a share-price fall is a speculative risk, which also carries a chance of gain and is not insurable."
+  ],
+  [
+   "Introduction to Insurance",
+   "A shop owner stops locking his store properly because he knows the stock is insured. This is an example of:",
+   [
+    "Physical hazard",
+    "Moral hazard",
+    "Peril",
+    "Speculative risk"
+   ],
+   1,
+   "Moral hazard is a change in the insured's attitude or behaviour (here, carelessness) that increases the chance of loss because insurance exists."
+  ],
+  [
+   "Introduction to Insurance",
+   "Buying an insurance policy is which risk-management technique?",
+   [
+    "Risk avoidance",
+    "Risk retention",
+    "Loss prevention",
+    "Risk transfer"
+   ],
+   3,
+   "By paying a premium the individual transfers the financial consequence of the risk to the insurer."
+  ],
+  [
+   "Customer Service & Grievances",
+   "Under IRDAI's 2024 policyholder-protection framework, the free-look period for life and health insurance policies is:",
+   [
+    "7 days from the date of proposal",
+    "15 days from the date of the first premium",
+    "30 days from receipt of the policy document",
+    "45 days from the risk commencement date"
+   ],
+   2,
+   "IRDAI's 2024 regulations extended the free-look period to 30 days from receipt of the policy document for life and health policies."
+  ],
+  [
+   "Customer Service & Grievances",
+   "Before a policyholder can file a complaint with the Insurance Ombudsman, he or she must normally:",
+   [
+    "File a civil suit in the district court",
+    "Get written approval from the insurance agent",
+    "Obtain a no-objection certificate from IRDAI",
+    "First complain in writing to the insurer and be rejected, get no reply in the prescribed time, or be dissatisfied with the reply"
+   ],
+   3,
+   "The Ombudsman is an appellate forum for grievances: the insurer must first be given the chance to resolve the complaint."
+  ],
+  [
+   "Customer Service & Grievances",
+   "Bima Bharosa is best described as:",
+   [
+    "A government scheme that guarantees all insurance claims",
+    "A crop insurance scheme for small farmers",
+    "The licensing portal through which agents pay their fees",
+    "IRDAI's online platform for registering and tracking grievances against insurers"
+   ],
+   3,
+   "Bima Bharosa (the successor to IGMS) is IRDAI's integrated grievance management system for policyholder complaints."
+  ],
+  [
+   "Customer Service & Grievances",
+   "An agent who looks at a customer as a source of repeat business, referrals and renewals over many years is focusing on:",
+   [
+    "One-time sales incentive",
+    "Moral hazard",
+    "Customer lifetime value",
+    "Adverse selection"
+   ],
+   2,
+   "Customer lifetime value is the value of all business a customer may bring over the whole relationship, which rewards good long-term service."
+  ],
+  [
+   "Regulatory Aspects of Agency",
+   "Section 41 of the Insurance Act, 1938 prohibits:",
+   [
+    "Offering a rebate of commission or premium as an inducement to take a policy",
+    "Nomination by the policyholder",
+    "Assignment of a policy to a bank",
+    "Payment of premium by cheque"
+   ],
+   0,
+   "Section 41 bars allowing or offering any rebate as an inducement to take or renew insurance; the agent cannot share commission with the customer."
+  ],
+  [
+   "Regulatory Aspects of Agency",
+   "Under Section 64VB of the Insurance Act, an insurer cannot assume a risk unless:",
+   [
+    "The agent has visited the proposer's home",
+    "The policy has been in force for one year",
+    "The proposer has submitted an income-tax return",
+    "The premium is received in advance (or guaranteed / deposited in the prescribed manner)"
+   ],
+   3,
+   "Section 64VB requires premium to be received in advance before the insurer assumes risk, so cover starts only after payment."
+  ],
+  [
+   "Regulatory Aspects of Agency",
+   "Under the framework after the 2015 amendment to the Insurance Act, an individual insurance agent is appointed by:",
+   [
+    "IRDAI directly, through a licence issued to the individual",
+    "The Ministry of Finance",
+    "The insurer, following IRDAI's eligibility, training and examination norms",
+    "The Insurance Ombudsman"
+   ],
+   2,
+   "Since the 2015 amendment, insurers appoint agents under IRDAI-approved policies; IRDAI sets the qualification and exam requirements."
+  ],
+  [
+   "Regulatory Aspects of Agency",
+   "Which of the following actions by an agent violates the code of conduct?",
+   [
+    "Explaining all benefits and exclusions of a plan",
+    "Persuading a policyholder to let an existing policy lapse so that a new one can be sold",
+    "Disclosing the agent's identity and the insurer represented",
+    "Helping the claimant complete claim forms"
+   ],
+   1,
+   "Inducing a customer to discontinue an existing policy to buy a new one (twisting) harms the policyholder and is prohibited."
+  ],
+  [
+   "Legal Principles of Insurance",
+   "The principle of utmost good faith requires:",
+   [
+    "Both proposer and insurer to voluntarily disclose all material facts accurately",
+    "Only the insurer to disclose its financial results",
+    "The proposer to disclose facts only if specifically asked",
+    "The agent to guarantee the claim amount"
+   ],
+   0,
+   "Insurance contracts are uberrimae fidei: each party must disclose all material facts, whether asked or not."
+  ],
+  [
+   "Legal Principles of Insurance",
+   "In life insurance, insurable interest must exist:",
+   [
+    "Only at the time of claim",
+    "At the time the policy is taken",
+    "Both at inception and at the time of claim",
+    "At no stage, since life insurance is a gift"
+   ],
+   1,
+   "For life insurance, insurable interest is required at inception; it need not continue until death (e.g., after divorce)."
+  ],
+  [
+   "Legal Principles of Insurance",
+   "Which principle does NOT apply to a life insurance policy?",
+   [
+    "Utmost good faith",
+    "Insurable interest",
+    "Valid consideration",
+    "Indemnity"
+   ],
+   3,
+   "Human life cannot be valued exactly, so a life policy pays the agreed sum assured; it is a contract of assurance, not indemnity (hence no contribution or subrogation)."
+  ],
+  [
+   "Legal Principles of Insurance",
+   "A building is insured with Insurer A for ₹4 lakh and Insurer B for ₹6 lakh. A fire causes a loss of ₹2 lakh. Under contribution, Insurer A will pay:",
+   [
+    "₹1,00,000",
+    "₹1,20,000",
+    "₹80,000",
+    "₹2,00,000"
+   ],
+   2,
+   "Rateable share = 4/(4+6) × ₹2,00,000 = ₹80,000; Insurer B pays the remaining ₹1,20,000."
+  ],
+  [
+   "Legal Principles of Insurance",
+   "For a valid insurance contract the parties must be competent. Who among these is NOT competent to contract on his own?",
+   [
+    "A 25-year-old salaried employee",
+    "A 60-year-old retired teacher",
+    "A 40-year-old businesswoman",
+    "A 16-year-old proposing for a policy on his own life"
+   ],
+   3,
+   "Under the Indian Contract Act a minor (below 18) cannot enter a valid contract, so a proposal must be made by a guardian or adult."
+  ],
+  [
+   "Life Insurance & Financial Planning",
+   "Using the income-capitalisation method, what is the Human Life Value of a person who contributes ₹4,80,000 a year to the family if the assumed interest rate is 8%?",
+   [
+    "₹60,00,000",
+    "₹38,40,000",
+    "₹48,00,000",
+    "₹96,00,000"
+   ],
+   0,
+   "HLV = annual contribution ÷ interest rate = ₹4,80,000 ÷ 0.08 = ₹60,00,000, the sum that would yield the same income."
+  ],
+  [
+   "Life Insurance & Financial Planning",
+   "Using the Rule of 72, money invested at 9% per annum will roughly double in:",
+   [
+    "6 years",
+    "9 years",
+    "12 years",
+    "8 years"
+   ],
+   3,
+   "Years to double ≈ 72 ÷ rate = 72 ÷ 9 = 8 years."
+  ],
+  [
+   "Life Insurance & Financial Planning",
+   "For a young married earner with small children and a home loan, the top insurance priority is usually:",
+   [
+    "A single-premium pension plan",
+    "Adequate pure term cover to protect the family's income",
+    "A short-term travel policy",
+    "An immediate annuity"
+   ],
+   1,
+   "At this life stage dependants rely on the earner's income, so high protection at low cost (term insurance) is the main need."
+  ],
+  [
+   "Life Insurance Products",
+   "A pure term insurance plan typically:",
+   [
+    "Pays the sum assured on survival to maturity",
+    "Pays the sum assured only if the insured dies during the policy term",
+    "Guarantees bonuses every year",
+    "Has a compulsory five-year lock-in"
+   ],
+   1,
+   "Term insurance is pure protection; if the insured survives the term, nothing is payable (unless it is a return-of-premium variant)."
+  ],
+  [
+   "Life Insurance Products",
+   "The minimum lock-in period for a Unit Linked Insurance Plan (ULIP) is:",
+   [
+    "5 years",
+    "1 year",
+    "3 years",
+    "10 years"
+   ],
+   0,
+   "IRDAI rules lock ULIP funds for five years; discontinued policies move to a discontinuance fund until the lock-in ends."
+  ],
+  [
+   "Life Insurance Products",
+   "An endowment assurance policy pays the sum assured:",
+   [
+    "On death during the term or on survival to the end of the term, whichever is earlier",
+    "Only on death during the term",
+    "Only after the insured reaches age 100",
+    "Only if the insured becomes disabled"
+   ],
+   0,
+   "Endowment combines protection and savings: the benefit is paid on earlier death or at maturity."
+  ],
+  [
+   "Life Insurance Products",
+   "In a money-back policy, if the insured dies after receiving two survival benefits, the nominee usually gets:",
+   [
+    "Only the balance after deducting survival benefits paid",
+    "Only the premiums paid without interest",
+    "The full sum assured (plus applicable bonus), without deduction of survival benefits already paid",
+    "Nothing, because survival benefits were already paid"
+   ],
+   2,
+   "Money-back plans pay periodic survival benefits, but the full death benefit is payable on death within the term regardless of earlier payouts."
+  ],
+  [
+   "Life Insurance Products",
+   "An annuity mainly protects a person against:",
+   [
+    "The risk of dying too early",
+    "The risk of outliving one's savings (living too long)",
+    "Damage to property",
+    "Hospitalisation expenses"
+   ],
+   1,
+   "An annuity converts a corpus into a regular income for life, addressing longevity risk."
+  ],
+  [
+   "Pricing & Valuation",
+   "The office (gross) premium of a life policy is:",
+   [
+    "Net premium plus loadings for expenses, contingencies and (for with-profit plans) bonus",
+    "Net premium minus the agent's commission",
+    "Only the mortality cost of the year",
+    "The sum assured divided by the term"
+   ],
+   0,
+   "Net premium covers mortality and interest; loadings for expenses and other margins are added to arrive at the office premium."
+  ],
+  [
+   "Pricing & Valuation",
+   "If an actuary assumes a higher rate of interest on invested premiums, other factors remaining the same, the premium will:",
+   [
+    "Decrease",
+    "Increase",
+    "Remain unchanged",
+    "Become equal to the sum assured"
+   ],
+   0,
+   "Higher assumed investment earnings mean less premium is needed today to fund the future benefit, so premiums fall."
+  ],
+  [
+   "Pricing & Valuation",
+   "Life insurers in India price and value policies using mortality tables known as:",
+   [
+    "Consumer Price Index tables",
+    "National Sample Survey tables",
+    "Life Insurance Penetration tables",
+    "Indian Assured Lives Mortality (IALM) tables"
+   ],
+   3,
+   "IALM tables, built from insured lives' experience in India, are the standard base for mortality assumptions."
+  ],
+  [
+   "Documentation & Underwriting",
+   "The primary document on which a life insurance contract is based is the:",
+   [
+    "Proposal form",
+    "Premium receipt",
+    "Agent's report only",
+    "Claim form"
+   ],
+   0,
+   "The proposal form carries the proposer's declarations and is the foundation of the contract; misstatements in it can affect claims."
+  ],
+  [
+   "Documentation & Underwriting",
+   "Which of the following is generally treated as a STANDARD age proof?",
+   [
+    "Self-declaration of age",
+    "Horoscope",
+    "School leaving certificate",
+    "Village elders' certificate"
+   ],
+   2,
+   "Standard age proofs are official records such as birth or school certificates and passports; self-declarations are non-standard."
+  ],
+  [
+   "Documentation & Underwriting",
+   "A policy taken under Section 6 of the Married Women's Property Act, 1874 for the benefit of wife and children:",
+   [
+    "Creates a trust, so the policy money cannot be attached by the policyholder's creditors",
+    "Can be surrendered freely by the husband for his own use",
+    "Must be assigned to the insurer",
+    "Can be nominated in favour of a friend"
+   ],
+   0,
+   "An MWPA policy is held in trust for the named beneficiaries and is outside the reach of the policyholder's creditors or control."
+  ],
+  [
+   "Documentation & Underwriting",
+   "Under Section 45 of the Insurance Act, an insurer cannot call a life policy in question on any ground after:",
+   [
+    "One year from issue",
+    "Three years from the date of the policy, revival or rider, whichever is later",
+    "Five years from issue",
+    "Ten years from issue"
+   ],
+   1,
+   "Section 45 makes a policy indisputable after three years, protecting policyholders against late repudiation."
+  ],
+  [
+   "Documentation & Underwriting",
+   "In underwriting a substandard life, a 'lien' means:",
+   [
+    "The premium is waived for the first year",
+    "The policy is issued without medical tests",
+    "The sum assured payable is reduced if death occurs within a specified early period",
+    "The nominee is changed to the insurer"
+   ],
+   2,
+   "A lien temporarily reduces the death benefit in early years to offset a higher, decreasing extra risk."
+  ],
+  [
+   "Documentation & Underwriting",
+   "Under Section 39 as amended in 2015, which nominee is a 'beneficial nominee' entitled to the policy money in their own right?",
+   [
+    "The policyholder's friend",
+    "The policyholder's spouse",
+    "The policyholder's employer",
+    "The policyholder's cousin"
+   ],
+   1,
+   "Parents, spouse and children (or any of them) nominated are beneficial nominees; others merely receive the money as trustees for the legal heirs."
+  ],
+  [
+   "Documentation & Underwriting",
+   "When a life policy is absolutely assigned under Section 38 (other than to the insurer for a policy loan), the existing nomination:",
+   [
+    "Continues to remain valid",
+    "Is automatically cancelled",
+    "Passes to the assignee's spouse",
+    "Becomes a joint nomination"
+   ],
+   1,
+   "Assignment transfers rights to the assignee, so an existing nomination is cancelled except where assignment is to the insurer against a loan."
+  ],
+  [
+   "Life Insurance Claims",
+   "A policy has sum assured ₹5,00,000 with 20 annual premiums. After paying 8 premiums the policyholder stops paying; accrued bonus is ₹40,000. The paid-up value is:",
+   [
+    "₹2,00,000",
+    "₹3,40,000",
+    "₹5,40,000",
+    "₹2,40,000"
+   ],
+   3,
+   "Paid-up SA = 5,00,000 × 8/20 = ₹2,00,000; add accrued bonus ₹40,000 = ₹2,40,000."
+  ],
+  [
+   "Life Insurance Claims",
+   "Insurers usually investigate a death claim more closely when death occurs:",
+   [
+    "After the maturity date",
+    "After 15 years of continuous premium payment",
+    "Within three years of the policy or revival (an early claim)",
+    "Only when the nominee is the spouse"
+   ],
+   2,
+   "Early claims, within the period in which Section 45 allows contesting the policy, are checked for non-disclosure or fraud."
+  ],
+  [
+   "Life Insurance Claims",
+   "If the life assured has been missing and not heard of for a continuous period, the law presumes death after:",
+   [
+    "1 year",
+    "3 years",
+    "7 years",
+    "12 years"
+   ],
+   2,
+   "Indian evidence law allows a presumption of death if a person has not been heard of for seven years; claimants usually need a court decree."
+  ],
+  [
+   "Health Insurance",
+   "A hospitalisation claim admissible at ₹1,50,000 is subject to a 10% co-payment. The insurer will pay:",
+   [
+    "₹1,50,000",
+    "₹1,40,000",
+    "₹1,35,000",
+    "₹15,000"
+   ],
+   2,
+   "Co-pay of 10% = ₹15,000 is borne by the insured; insurer pays 1,50,000 − 15,000 = ₹1,35,000."
+  ],
+  [
+   "Health Insurance",
+   "Following IRDAI's 2024 health insurance reforms, the maximum waiting period that can be applied to pre-existing diseases is:",
+   [
+    "12 months",
+    "48 months",
+    "60 months",
+    "36 months"
+   ],
+   3,
+   "IRDAI's 2024 health master circular cut the maximum waiting period for pre-existing diseases from four years to three years (36 months)."
+  ],
+  [
+   "Health Insurance",
+   "A top-up policy has a deductible of ₹3 lakh and sum insured ₹10 lakh. For a single admissible claim of ₹5 lakh, the top-up insurer pays:",
+   [
+    "₹5 lakh",
+    "₹3 lakh",
+    "₹2 lakh",
+    "Nothing"
+   ],
+   2,
+   "The top-up pays only the amount above the deductible: 5 − 3 = ₹2 lakh."
+  ],
+  [
+   "Health Insurance",
+   "A cumulative bonus in a health policy means:",
+   [
+    "A cash payment at the end of each year",
+    "An increase in sum insured for each claim-free year without extra premium",
+    "A discount on the agent's commission",
+    "Refund of all premiums at policy end"
+   ],
+   1,
+   "Insurers reward claim-free years by raising the sum insured (within limits) at no extra cost."
+  ],
+  [
+   "Health Insurance",
+   "A Third Party Administrator (TPA) in health insurance:",
+   [
+    "Decides the premium rates for all insurers",
+    "Acts as the policyholder's legal advocate",
+    "Underwrites and bears the risk itself",
+    "Provides services such as cashless authorisation and claim processing on behalf of the insurer"
+   ],
+   3,
+   "TPAs are IRDAI-registered service providers who handle claim services for insurers; the risk stays with the insurer."
+  ],
+  [
+   "Health Insurance",
+   "Health insurance portability allows a policyholder to:",
+   [
+    "Move to another insurer while retaining credit for waiting periods already served",
+    "Transfer the policy to a relative",
+    "Convert the policy into a life policy",
+    "Claim from two insurers for the same bill amount twice"
+   ],
+   0,
+   "Portability protects continuity: waiting periods completed with the earlier insurer are credited by the new insurer up to the earlier sum insured."
+  ],
+  [
+   "Health Insurance",
+   "Which of the following is generally covered under a standard personal accident policy?",
+   [
+    "Hospitalisation for typhoid",
+    "Permanent total disablement caused by a road accident",
+    "Death due to heart disease",
+    "Treatment for diabetes"
+   ],
+   1,
+   "Personal accident cover pays for death or disablement caused solely by accidental, external and visible means, not illness."
+  ],
+  [
+   "General Insurance",
+   "A house worth ₹10 lakh is insured for ₹6 lakh under a policy with an average clause. A fire causes a loss of ₹4 lakh. The claim payable is:",
+   [
+    "₹2,40,000",
+    "₹4,00,000",
+    "₹6,00,000",
+    "₹1,60,000"
+   ],
+   0,
+   "Under-insurance applies: claim = loss × SI/value = 4,00,000 × 6/10 = ₹2,40,000."
+  ],
+  [
+   "General Insurance",
+   "Third-party liability cover for motor vehicles plying in public places is compulsory under:",
+   [
+    "The Insurance Act, 1938",
+    "The Motor Vehicles Act, 1988",
+    "The Consumer Protection Act, 2019",
+    "The Indian Contract Act, 1872"
+   ],
+   1,
+   "The Motor Vehicles Act mandates third-party cover; own-damage cover is optional."
+  ],
+  [
+   "General Insurance",
+   "The Insured Declared Value (IDV) of a private car is based on:",
+   [
+    "The price the owner hopes to sell the car for",
+    "The manufacturer's listed selling price less depreciation as per the prescribed schedule",
+    "The amount of the car loan outstanding",
+    "The total premiums paid since purchase"
+   ],
+   1,
+   "IDV is the sum insured for own damage, computed from the listed price adjusted for age-based depreciation."
+  ],
+  [
+   "General Insurance",
+   "A No Claim Bonus (NCB) in motor insurance:",
+   [
+    "Is a cash reward paid to the driver each year",
+    "Increases the third-party premium",
+    "Belongs to the vehicle and stays with it on sale",
+    "Is a discount on own-damage premium for claim-free years and is usually lost when a claim is made"
+   ],
+   3,
+   "NCB rewards claim-free renewals with an own-damage premium discount; it belongs to the insured, not the vehicle, and is forfeited on a claim."
+  ],
+  [
+   "General Insurance",
+   "In marine cargo insurance, insurable interest must exist:",
+   [
+    "At the time of loss",
+    "Only at the time of proposal",
+    "Only on the date of shipment",
+    "At no time, as cargo is always insured"
+   ],
+   0,
+   "Since cargo changes hands during transit, marine law requires the insured to have insurable interest when the loss occurs."
+  ]
+ ],
+ "ncfm-cmd": [
+  [
+   "Securities Market Basics",
+   "In the primary market:",
+   [
+    "Investors trade already-listed shares among themselves",
+    "Only government securities are traded",
+    "Securities are issued by the company for the first time (or additionally) to raise capital",
+    "Derivatives are settled daily"
+   ],
+   2,
+   "The primary market is the new-issue market where funds flow to the issuer; existing securities trade in the secondary market."
+  ],
+  [
+   "Securities Market Basics",
+   "The Nifty 50 index is calculated using the:",
+   [
+    "Price-weighted method",
+    "Equal-weighted method",
+    "Free-float market capitalisation weighted method",
+    "Full market capitalisation including promoter shares"
+   ],
+   2,
+   "Nifty weights stocks by market value of shares freely available for trading, excluding promoter and locked-in holdings."
+  ],
+  [
+   "Securities Market Basics",
+   "Dematerialisation refers to:",
+   [
+    "Converting shares into bonds",
+    "Cancelling shares bought back by a company",
+    "Converting physical share certificates into electronic holdings in a depository account",
+    "Converting shares into cash on sale"
+   ],
+   2,
+   "Demat holdings are electronic book entries with a depository, eliminating risks of physical certificates."
+  ],
+  [
+   "Securities Market Basics",
+   "An equity shareholder has a claim on the company's profits and assets that is:",
+   [
+    "Fixed at a guaranteed rate of interest",
+    "Ranked ahead of secured lenders",
+    "Limited to the dividend declared in the first year",
+    "Residual, i.e., after the claims of creditors and preference shareholders are met"
+   ],
+   3,
+   "Equity owners bear the most risk and receive what remains after all prior claims, which is why equity returns are not guaranteed."
+  ],
+  [
+   "Securities Market Basics",
+   "A bulk deal is a transaction where the total quantity traded by a client in a scrip in a day exceeds:",
+   [
+    "0.05% of listed shares",
+    "5% of listed shares",
+    "10% of listed shares",
+    "0.5% of the number of equity shares of the company listed"
+   ],
+   3,
+   "Exchanges disclose bulk deals where a client's total traded quantity exceeds 0.5% of the listed shares in a day."
+  ],
+  [
+   "Market Participants",
+   "The two depositories in India are:",
+   [
+    "NSE and BSE",
+    "SEBI and RBI",
+    "NSE Clearing and ICCL",
+    "NSDL and CDSL"
+   ],
+   3,
+   "National Securities Depository Ltd and Central Depository Services (India) Ltd hold securities in electronic form."
+  ],
+  [
+   "Market Participants",
+   "An investor opens a demat account through a:",
+   [
+    "Depository Participant",
+    "Registrar to an issue",
+    "Credit rating agency",
+    "Clearing corporation"
+   ],
+   0,
+   "Depository Participants (banks, brokers etc.) act as agents of the depository and provide account services to investors."
+  ],
+  [
+   "Market Participants",
+   "Foreign portfolio investors typically use a custodian to:",
+   [
+    "Hold their securities in safekeeping and handle settlement and corporate-action services",
+    "Rate their investments",
+    "Fix the issue price of IPOs",
+    "Act as market makers on the exchange"
+   ],
+   0,
+   "Custodians provide safekeeping, settlement and related services for institutional clients."
+  ],
+  [
+   "Market Participants",
+   "A Professional Clearing Member (PCM) is one who:",
+   [
+    "Only trades for its own account without clearing",
+    "Regulates the stock exchange",
+    "Clears and settles trades executed by other trading members but does not trade itself",
+    "Issues shares on behalf of companies"
+   ],
+   2,
+   "PCMs (often banks/custodians) undertake clearing and settlement for trading members or custodial participants without trading rights."
+  ],
+  [
+   "Trading Membership",
+   "After SEBI's rationalisation (2018), existing sub-brokers had to either become trading members or migrate to the category of:",
+   [
+    "Authorised Person",
+    "Portfolio Manager",
+    "Investment Adviser",
+    "Depository Participant"
+   ],
+   0,
+   "SEBI merged the sub-broker category into Authorised Persons, who act as agents of a trading member."
+  ],
+  [
+   "Trading Membership",
+   "The purpose of the Unique Client Code (UCC) is to:",
+   [
+    "Fix brokerage rates for clients",
+    "Generate the client's income-tax return",
+    "Identify each client uniquely so that orders and trades are tagged to the correct client",
+    "Allocate IPO shares on priority"
+   ],
+   2,
+   "Every order must carry the client's UCC (linked to PAN) for audit trail, surveillance and risk control."
+  ],
+  [
+   "Trading Membership",
+   "A trading member must issue a contract note to the client:",
+   [
+    "Within 7 days of the trade",
+    "Within 24 hours of execution of the trade",
+    "Only at the end of the month",
+    "Only when the client requests it"
+   ],
+   1,
+   "SEBI requires contract notes (physical or electronic) within 24 hours of the trade."
+  ],
+  [
+   "Trading Membership",
+   "Under SEBI's running-account norms, unless the client opts otherwise, a broker must settle the client's unused funds:",
+   [
+    "Once every two years",
+    "At least once every quarter (or monthly, if the client chooses)",
+    "Only when the account is closed",
+    "Only after the financial year ends"
+   ],
+   1,
+   "Brokers must return unused client funds through periodic (quarterly or monthly) running-account settlement."
+  ],
+  [
+   "Trading Membership",
+   "Which of the following is permitted for a trading member?",
+   [
+    "Using one client's funds to meet another client's obligations",
+    "Keeping client funds in a separate client bank account",
+    "Using client funds for its proprietary trades",
+    "Pledging client securities for its own borrowing"
+   ],
+   1,
+   "Client funds and securities must be segregated and used only for that client's obligations."
+  ],
+  [
+   "Trading System & Orders",
+   "Orders in NSE's trading system are matched on the basis of:",
+   [
+    "Size of order",
+    "Price-time priority",
+    "Client's net worth",
+    "Alphabetical order of broker codes"
+   ],
+   1,
+   "The best-priced order gets priority; among orders at the same price, the earlier one is matched first."
+  ],
+  [
+   "Trading System & Orders",
+   "Among outstanding buy orders for a stock, the 'best' buy order is the one with the:",
+   [
+    "Highest price",
+    "Lowest price",
+    "Largest quantity",
+    "Most recent time stamp"
+   ],
+   0,
+   "Buyers willing to pay more get priority; for sell orders the lowest price is best."
+  ],
+  [
+   "Trading System & Orders",
+   "The order book has buy orders at ₹201 (entered first), ₹202 (entered second) and ₹200 (entered third). A new sell limit order at ₹200 arrives. It will first match with:",
+   [
+    "The buy order at ₹201, at ₹200",
+    "The buy order at ₹200, at ₹200",
+    "The buy order at ₹201, at ₹201",
+    "The buy order at ₹202, at a trade price of ₹202"
+   ],
+   3,
+   "The best (highest) buy order is matched first, and the trade occurs at the price of the passive order already in the book, i.e., ₹202."
+  ],
+  [
+   "Trading System & Orders",
+   "A stop-loss sell order has a trigger price of ₹95 and limit price of ₹94. It means:",
+   [
+    "The share is sold immediately at ₹95",
+    "When the last traded price reaches ₹95, the order is released as a sell limit order at ₹94",
+    "The order is cancelled if the price reaches ₹95",
+    "It becomes a buy order at ₹94"
+   ],
+   1,
+   "A stop-loss order stays inactive until the trigger price is hit, then enters the book as a limit order at the specified limit price."
+  ],
+  [
+   "Trading System & Orders",
+   "An Immediate or Cancel (IOC) order:",
+   [
+    "Remains in the system until the end of the day",
+    "Is executed only in the closing session",
+    "Is executed to the extent possible as soon as it is released, and any unmatched portion is cancelled",
+    "Can be modified throughout the day"
+   ],
+   2,
+   "IOC orders do not rest in the book: whatever is not filled immediately is cancelled."
+  ],
+  [
+   "Trading System & Orders",
+   "On NSE, the disclosed quantity for an order must be at least:",
+   [
+    "1% of the order quantity",
+    "25% of the order quantity",
+    "50% of the order quantity",
+    "10% of the order quantity"
+   ],
+   3,
+   "Disclosed quantity lets a trader reveal only part of a large order, subject to a minimum of 10% of the total order."
+  ],
+  [
+   "Trading System & Orders",
+   "The normal market session for equities on NSE runs from:",
+   [
+    "9:15 a.m. to 3:30 p.m.",
+    "9:00 a.m. to 3:00 p.m.",
+    "10:00 a.m. to 4:00 p.m.",
+    "9:30 a.m. to 3:45 p.m."
+   ],
+   0,
+   "Pre-open call auction runs 9:00–9:15 and continuous normal-market trading is from 9:15 a.m. to 3:30 p.m."
+  ],
+  [
+   "Trading System & Orders",
+   "In the pre-open call auction, the equilibrium (opening) price is the price at which:",
+   [
+    "The first order was entered",
+    "The previous day's closing price is repeated",
+    "The highest buy order was placed",
+    "The maximum quantity can be traded"
+   ],
+   3,
+   "Call auctions discover a single price that maximises matched volume, reducing opening volatility."
+  ],
+  [
+   "Trading System & Orders",
+   "Index-based market-wide circuit breakers in India are triggered at index movements of:",
+   [
+    "2%, 5% and 10%",
+    "5%, 10% and 15%",
+    "20%, 30% and 40%",
+    "10%, 15% and 20%"
+   ],
+   3,
+   "A movement of 10%, 15% or 20% in Nifty 50 or Sensex triggers a coordinated trading halt across the market."
+  ],
+  [
+   "Trading System & Orders",
+   "A market order is one that:",
+   [
+    "Specifies the maximum buy price",
+    "Is executed only at the closing price",
+    "Becomes active only on hitting a trigger price",
+    "Is executed at the best price available in the order book at that time"
+   ],
+   3,
+   "Market orders carry no price limit and take the best available counter-price, giving speed but not price certainty."
+  ],
+  [
+   "Clearing & Settlement",
+   "The standard settlement cycle for equity trades in India's cash market is:",
+   [
+    "T+1",
+    "T+2",
+    "T+3",
+    "T+5"
+   ],
+   0,
+   "India completed migration to T+1 rolling settlement for all listed equities in January 2023."
+  ],
+  [
+   "Clearing & Settlement",
+   "Novation by a clearing corporation means it:",
+   [
+    "Becomes the legal counterparty – buyer to every seller and seller to every buyer",
+    "Rejects trades above a certain value",
+    "Nets only trades of the same client",
+    "Charges an extra fee for settlement"
+   ],
+   0,
+   "Novation substitutes the clearing corporation as central counterparty, removing bilateral counterparty risk."
+  ],
+  [
+   "Clearing & Settlement",
+   "A member, on its proprietary account, buys 500 shares of X at ₹100 and sells 300 shares of X at ₹102 on the same day. After netting, it must:",
+   [
+    "Deliver 200 shares and receive ₹19,400",
+    "Receive 500 shares and pay ₹50,000",
+    "Receive 200 shares and pay ₹20,000",
+    "Receive 200 shares and pay ₹19,400"
+   ],
+   3,
+   "Net shares = 500 − 300 = 200 to receive; funds = 50,000 − 30,600 = ₹19,400 payable."
+  ],
+  [
+   "Clearing & Settlement",
+   "The clearing corporation of the National Stock Exchange is:",
+   [
+    "Indian Clearing Corporation Ltd",
+    "NSE Clearing Limited",
+    "Clearing Corporation of India Ltd",
+    "National Securities Depository Ltd"
+   ],
+   1,
+   "NSE Clearing Ltd (formerly NSCCL) clears and settles trades on NSE; ICCL is BSE's clearing corporation."
+  ],
+  [
+   "Clearing & Settlement",
+   "When a selling member fails to deliver shares on the pay-in day, the clearing corporation generally:",
+   [
+    "Cancels the trade without any charge",
+    "Asks the buyer to wait until the seller buys shares",
+    "Pays the buyer the previous day's closing price only",
+    "Conducts an auction to buy the shares, and closes out if the auction fails"
+   ],
+   3,
+   "Short deliveries are met through the auction mechanism; if shares cannot be bought, the position is closed out at a prescribed price."
+  ],
+  [
+   "Clearing & Settlement",
+   "'Pay-in' in clearing and settlement refers to:",
+   [
+    "Members delivering funds and securities to the clearing corporation",
+    "The clearing corporation releasing funds and securities to members",
+    "Clients paying brokerage",
+    "Companies paying dividends"
+   ],
+   0,
+   "Pay-in is members' delivery of obligations to the CC; pay-out is the CC's release to receiving members."
+  ],
+  [
+   "Clearing & Settlement",
+   "The Core Settlement Guarantee Fund maintained by a clearing corporation is meant to:",
+   [
+    "Compensate investors for poor investment returns",
+    "Pay listing fees of companies",
+    "Ensure timely completion of settlement even if a clearing member defaults",
+    "Fund the exchange's technology upgrades"
+   ],
+   2,
+   "The Core SGF backs the CC's settlement guarantee so that non-defaulting members are not affected by a default."
+  ],
+  [
+   "Clearing & Settlement",
+   "Under the T+1 settlement cycle, the ex-date for a corporate action such as a dividend is:",
+   [
+    "One day after the record date",
+    "Two days before the record date",
+    "The same day as the record date",
+    "Five days before the record date"
+   ],
+   2,
+   "With T+1, a purchase made a day before the record date settles on the record date, so the ex-date coincides with the record date."
+  ],
+  [
+   "Risk Management & Margins",
+   "VaR margin in the cash market is designed to cover:",
+   [
+    "All possible losses under any circumstances",
+    "Only brokerage and taxes",
+    "The largest loss expected on most days (a high, e.g. 99%, confidence level) over a one-day horizon",
+    "Losses over a one-year period"
+   ],
+   2,
+   "VaR margin covers potential one-day losses at a high confidence level; extreme losses beyond it are covered by ELM."
+  ],
+  [
+   "Risk Management & Margins",
+   "A client bought 200 shares at ₹450. The day's closing price is ₹438. The mark-to-market loss is:",
+   [
+    "₹1,200",
+    "₹2,400",
+    "₹8,760",
+    "₹12"
+   ],
+   1,
+   "MTM loss = (450 − 438) × 200 = ₹2,400."
+  ],
+  [
+   "Risk Management & Margins",
+   "For a trade value of ₹5,00,000, VaR margin is 12% and extreme loss margin is 3.5%. The total of these margins is:",
+   [
+    "₹60,000",
+    "₹17,500",
+    "₹77,500",
+    "₹62,500"
+   ],
+   2,
+   "Total = (12% + 3.5%) × 5,00,000 = 15.5% × 5,00,000 = ₹77,500."
+  ],
+  [
+   "Risk Management & Margins",
+   "The Extreme Loss Margin (ELM) is collected to cover:",
+   [
+    "Losses beyond those captured by VaR margin in extreme market conditions",
+    "Brokerage payable by the client",
+    "Securities transaction tax",
+    "Delay in issuing contract notes"
+   ],
+   0,
+   "ELM is an additional buffer for tail events that VaR does not capture."
+  ],
+  [
+   "Risk Management & Margins",
+   "A stock has a 5% price band and its previous close is ₹400. Orders can be placed within the range of:",
+   [
+    "₹380 to ₹420",
+    "₹395 to ₹405",
+    "₹360 to ₹440",
+    "₹400 to ₹420"
+   ],
+   0,
+   "5% of 400 = 20, so the band is 400 − 20 = ₹380 to 400 + 20 = ₹420."
+  ],
+  [
+   "Risk Management & Margins",
+   "Under SEBI's margin framework, brokers must collect margins from clients:",
+   [
+    "Only at the end of the settlement week",
+    "Upfront, before or at the time of the trade, with shortfalls attracting penalty",
+    "Only if the client makes a loss",
+    "Only for trades above ₹10 crore"
+   ],
+   1,
+   "Upfront and peak-margin rules require margins to be collected in advance; shortfalls are penalised."
+  ],
+  [
+   "Legal Framework",
+   "Recognition of stock exchanges in India is governed by the:",
+   [
+    "Securities Contracts (Regulation) Act, 1956",
+    "Depositories Act, 1996",
+    "Companies Act, 2013",
+    "Foreign Exchange Management Act, 1999"
+   ],
+   0,
+   "SCRA 1956 provides for recognition of stock exchanges and regulation of contracts in securities."
+  ],
+  [
+   "Legal Framework",
+   "SEBI was given statutory powers by the:",
+   [
+    "Securities and Exchange Board of India Act, 1992",
+    "Reserve Bank of India Act, 1934",
+    "Banking Regulation Act, 1949",
+    "Indian Contract Act, 1872"
+   ],
+   0,
+   "SEBI was set up in 1988 and became a statutory regulator under the SEBI Act, 1992."
+  ],
+  [
+   "Legal Framework",
+   "A company official trades in the company's shares while aware of an unannounced merger. This is an example of:",
+   [
+    "Legitimate arbitrage",
+    "Market making",
+    "Insider trading on unpublished price-sensitive information",
+    "Normal hedging"
+   ],
+   2,
+   "SEBI's insider trading regulations prohibit dealing while in possession of UPSI such as an unannounced merger."
+  ],
+  [
+   "Legal Framework",
+   "Under the Prevention of Money Laundering Act, 2002, intermediaries report suspicious transactions to:",
+   [
+    "The stock exchange's listing department",
+    "Financial Intelligence Unit – India (FIU-IND)",
+    "Registrar of Companies",
+    "The Insurance Ombudsman"
+   ],
+   1,
+   "FIU-IND is the central agency receiving STRs and other reports under PMLA."
+  ],
+  [
+   "Legal Framework",
+   "The legal framework for depositories and electronic holding of securities in India is provided by the:",
+   [
+    "Depositories Act, 1996",
+    "Securities Contracts (Regulation) Act, 1956",
+    "Negotiable Instruments Act, 1881",
+    "Indian Trusts Act, 1882"
+   ],
+   0,
+   "The Depositories Act, 1996 enabled dematerialisation and electronic transfer of securities."
+  ],
+  [
+   "Legal Framework",
+   "SCORES is:",
+   [
+    "NSE's index of small-cap stocks",
+    "A margin calculation system",
+    "The clearing corporation's settlement software",
+    "SEBI's online platform for investors to lodge and track complaints against listed companies and intermediaries"
+   ],
+   3,
+   "SCORES (SEBI Complaints Redress System) lets investors file grievances and monitor their resolution online."
+  ],
+  [
+   "Fundamental Valuation Concepts",
+   "A company earns a net profit of ₹50 crore and has 10 crore shares. If the share price is ₹100, its P/E ratio is:",
+   [
+    "5",
+    "10",
+    "50",
+    "20"
+   ],
+   3,
+   "EPS = 50 ÷ 10 = ₹5; P/E = 100 ÷ 5 = 20."
+  ],
+  [
+   "Fundamental Valuation Concepts",
+   "A share priced at ₹150 pays an annual dividend of ₹6. Its dividend yield is:",
+   [
+    "6%",
+    "4%",
+    "2.5%",
+    "25%"
+   ],
+   1,
+   "Dividend yield = 6 ÷ 150 × 100 = 4%."
+  ],
+  [
+   "Fundamental Valuation Concepts",
+   "Expected dividend next year is ₹5, required return is 13% and dividends grow at 8% forever. The share's value by the constant-growth model is:",
+   [
+    "₹38.46",
+    "₹100",
+    "₹62.50",
+    "₹125"
+   ],
+   1,
+   "Value = D1 ÷ (k − g) = 5 ÷ (0.13 − 0.08) = 5 ÷ 0.05 = ₹100."
+  ],
+  [
+   "Fundamental Valuation Concepts",
+   "What is the present value of ₹1,10,250 receivable after 2 years if the discount rate is 5% compounded annually?",
+   [
+    "₹1,05,000",
+    "₹1,00,000",
+    "₹99,225",
+    "₹1,00,227"
+   ],
+   1,
+   "PV = 1,10,250 ÷ (1.05)² = 1,10,250 ÷ 1.1025 = ₹1,00,000."
+  ],
+  [
+   "Fundamental Valuation Concepts",
+   "A company has net worth of ₹200 crore and 4 crore shares; the share trades at ₹75. Its price-to-book ratio is:",
+   [
+    "0.67",
+    "2.0",
+    "1.5",
+    "3.75"
+   ],
+   2,
+   "Book value per share = 200 ÷ 4 = ₹50; P/BV = 75 ÷ 50 = 1.5."
+  ],
+  [
+   "Fundamental Valuation Concepts",
+   "Return on Equity (ROE) is calculated as:",
+   [
+    "Operating profit ÷ total assets",
+    "Net profit after tax ÷ shareholders' equity",
+    "Dividend ÷ market price",
+    "Sales ÷ shareholders' equity"
+   ],
+   1,
+   "ROE measures profit earned for each rupee of shareholders' funds."
+  ]
+ ],
+ "jaiib": [
+  [
+   "Indian Economy & Indian Financial System",
+   "Fiscal deficit of the government is:",
+   [
+    "Revenue expenditure minus revenue receipts",
+    "Total expenditure minus total receipts including borrowings",
+    "Interest payments minus tax revenue",
+    "Total expenditure minus (revenue receipts plus non-debt capital receipts)"
+   ],
+   3,
+   "Fiscal deficit measures the total borrowing requirement: expenditure not covered by revenue and non-debt capital receipts."
+  ],
+  [
+   "Indian Economy & Indian Financial System",
+   "GDP at market prices is ₹250 lakh crore, indirect taxes are ₹30 lakh crore and subsidies ₹10 lakh crore. GDP at factor cost is:",
+   [
+    "₹210 lakh crore",
+    "₹230 lakh crore",
+    "₹270 lakh crore",
+    "₹290 lakh crore"
+   ],
+   1,
+   "Factor cost = market price − net indirect taxes = 250 − (30 − 10) = ₹230 lakh crore."
+  ],
+  [
+   "Indian Economy & Indian Financial System",
+   "The Monetary Policy Committee of RBI consists of:",
+   [
+    "Five members, all from RBI",
+    "Seven members appointed by Parliament",
+    "Four members, with the Finance Secretary as chair",
+    "Six members, with the Governor having a casting vote in case of a tie"
+   ],
+   3,
+   "The MPC has three RBI members (including the Governor, who chairs) and three external members; the Governor has a casting vote."
+  ],
+  [
+   "Indian Economy & Indian Financial System",
+   "Under India's flexible inflation targeting framework, the CPI inflation target is:",
+   [
+    "2% with a band of ±1%",
+    "5% with a band of ±3%",
+    "4% with a tolerance band of ±2%",
+    "6% with no band"
+   ],
+   2,
+   "The government has set the target at 4% CPI inflation, with an upper limit of 6% and lower limit of 2%."
+  ],
+  [
+   "Indian Economy & Indian Financial System",
+   "In RBI's liquidity adjustment framework, if the policy repo rate is 6.00%, the Marginal Standing Facility rate is:",
+   [
+    "5.75%",
+    "6.50%",
+    "7.00%",
+    "6.25%"
+   ],
+   3,
+   "MSF is set 25 basis points above the repo rate (and SDF 25 bps below), so MSF = 6.25%."
+  ],
+  [
+   "Indian Economy & Indian Financial System",
+   "Cash Reserve Ratio (CRR) balances are:",
+   [
+    "Maintained by banks as cash balances with RBI, on which no interest is paid",
+    "Held by banks in gold in their own vaults",
+    "Invested in corporate bonds",
+    "Lent to NBFCs at the repo rate"
+   ],
+   0,
+   "CRR is a share of net demand and time liabilities kept as balances with RBI and earns no interest."
+  ],
+  [
+   "Indian Economy & Indian Financial System",
+   "Statutory Liquidity Ratio (SLR) can be maintained in the form of:",
+   [
+    "Loans to priority sector",
+    "Cash, gold and unencumbered approved securities held by the bank",
+    "Equity shares of listed companies",
+    "Fixed deposits with other banks only"
+   ],
+   1,
+   "SLR assets are liquid assets like cash, gold and approved government securities, maintained by the bank itself."
+  ],
+  [
+   "Indian Economy & Indian Financial System",
+   "Treasury bills in India are currently issued with maturities of:",
+   [
+    "91, 182 and 364 days",
+    "30, 60 and 90 days",
+    "1, 3 and 5 years",
+    "14, 28 and 56 days"
+   ],
+   0,
+   "The Government of India issues T-bills of 91-day, 182-day and 364-day tenors through RBI auctions."
+  ],
+  [
+   "Indian Economy & Indian Financial System",
+   "Commercial Paper in India can be issued for a maturity of:",
+   [
+    "Minimum 1 day and maximum 30 days",
+    "Minimum 1 year and maximum 5 years",
+    "Exactly 90 days only",
+    "Minimum 7 days and maximum one year"
+   ],
+   3,
+   "RBI directions allow CP tenors from 7 days up to one year from the date of issue."
+  ],
+  [
+   "Indian Economy & Indian Financial System",
+   "The regulator for the National Pension System is:",
+   [
+    "IRDAI",
+    "SEBI",
+    "PFRDA",
+    "NABARD"
+   ],
+   2,
+   "The Pension Fund Regulatory and Development Authority regulates NPS and pension funds."
+  ],
+  [
+   "Indian Economy & Indian Financial System",
+   "The apex development financial institution for agriculture and rural development in India is:",
+   [
+    "SIDBI",
+    "EXIM Bank",
+    "NABARD",
+    "NHB"
+   ],
+   2,
+   "NABARD finances and supervises rural credit institutions and promotes agricultural development; SIDBI serves MSMEs."
+  ],
+  [
+   "Indian Economy & Indian Financial System",
+   "Foreign Direct Investment inflows into India are recorded in the Balance of Payments under the:",
+   [
+    "Capital (financial) account",
+    "Current account – merchandise trade",
+    "Current account – invisibles",
+    "Errors and omissions"
+   ],
+   0,
+   "FDI creates claims on assets/liabilities and is a capital account item; trade and remittances are current account items."
+  ],
+  [
+   "Indian Economy & Indian Financial System",
+   "When RBI purchases government securities through open market operations, it:",
+   [
+    "Injects liquidity into the banking system",
+    "Absorbs liquidity from the banking system",
+    "Increases the CRR",
+    "Reduces the repo rate automatically"
+   ],
+   0,
+   "RBI pays banks for the securities, adding to their reserves and increasing liquidity."
+  ],
+  [
+   "Principles & Practices of Banking",
+   "With respect to a savings bank deposit, the relationship between the bank and the customer is primarily that of:",
+   [
+    "Creditor (bank) and debtor (customer)",
+    "Trustee and beneficiary",
+    "Agent and principal",
+    "Debtor (bank) and creditor (customer)"
+   ],
+   3,
+   "The bank owes the deposited money to the customer, so the bank is the debtor and the depositor the creditor."
+  ],
+  [
+   "Principles & Practices of Banking",
+   "Under Section 138 of the Negotiable Instruments Act, after a cheque is dishonoured for insufficient funds, the payee must send a written demand notice to the drawer within:",
+   [
+    "30 days of receiving information of dishonour",
+    "7 days of the cheque date",
+    "3 months of dishonour",
+    "1 year of dishonour"
+   ],
+   0,
+   "The payee must issue notice within 30 days; the drawer then gets 15 days to pay before a complaint can be filed."
+  ],
+  [
+   "Principles & Practices of Banking",
+   "As per RBI instructions, banks should not pay cheques presented after:",
+   [
+    "One month from the date of the cheque",
+    "Three months from the date of the cheque",
+    "Six months from the date of the cheque",
+    "One year from the date of the cheque"
+   ],
+   1,
+   "Cheques become stale after three months from their date and are returned unpaid."
+  ],
+  [
+   "Principles & Practices of Banking",
+   "A cheque crossed 'Account Payee' should be:",
+   [
+    "Collected only for credit to the account of the named payee",
+    "Paid in cash across the counter",
+    "Endorsed to any third party freely",
+    "Paid only after six months"
+   ],
+   0,
+   "The account payee crossing directs the collecting banker to credit the proceeds only to the payee's account."
+  ],
+  [
+   "Principles & Practices of Banking",
+   "A banker's general lien is often described as:",
+   [
+    "An implied pledge, as the bank can sell the goods/securities after reasonable notice",
+    "A mortgage of immovable property",
+    "A guarantee by a third party",
+    "An unsecured claim"
+   ],
+   0,
+   "Unlike an ordinary lien (only retention), a banker's lien carries an implied power of sale, so it is called an implied pledge."
+  ],
+  [
+   "Principles & Practices of Banking",
+   "A garnishee order received by a bank is:",
+   [
+    "An instruction from the customer to stop payment",
+    "A notice from RBI to freeze all accounts",
+    "An order to open a new account",
+    "A court order attaching the money of a judgement-debtor held by the bank"
+   ],
+   3,
+   "The bank (garnishee) must stop payment of the attached funds and hold them as directed by the court."
+  ],
+  [
+   "Principles & Practices of Banking",
+   "Under RBI's KYC directions, periodic updation of KYC for a high-risk customer must be done at least once every:",
+   [
+    "8 years",
+    "10 years",
+    "2 years",
+    "5 years"
+   ],
+   2,
+   "Re-KYC is required every 2 years for high-risk, 8 years for medium-risk and 10 years for low-risk customers."
+  ],
+  [
+   "Principles & Practices of Banking",
+   "A term loan becomes a non-performing asset when interest or instalment remains overdue for more than:",
+   [
+    "30 days",
+    "60 days",
+    "180 days",
+    "90 days"
+   ],
+   3,
+   "Under RBI's IRAC norms, a term loan is an NPA if interest/instalment is overdue for more than 90 days."
+  ],
+  [
+   "Principles & Practices of Banking",
+   "A secured loan of ₹20 lakh has been classified as substandard. At the general provisioning rate of 15%, the provision required is:",
+   [
+    "₹2 lakh",
+    "₹5 lakh",
+    "₹20 lakh",
+    "₹3 lakh"
+   ],
+   3,
+   "Provision = 15% × ₹20 lakh = ₹3 lakh."
+  ],
+  [
+   "Principles & Practices of Banking",
+   "A customer's savings account has a credit balance of ₹50,000 and his personal loan in the same name and capacity has ₹80,000 overdue. The bank's right to adjust the deposit against the overdue loan is called the:",
+   [
+    "Garnishee order",
+    "Right of set-off",
+    "Right of subrogation",
+    "Mandate"
+   ],
+   1,
+   "Set-off lets a bank combine accounts of the same customer held in the same capacity to recover a debt that has become due, ordinarily after notice to the customer."
+  ],
+  [
+   "Principles & Practices of Banking",
+   "A 'holder in due course' under the Negotiable Instruments Act is one who obtains the instrument:",
+   [
+    "For consideration, in good faith, before it became due, without reason to doubt the transferor's title",
+    "As a gift from the drawer",
+    "After its maturity date",
+    "By finding it on the road"
+   ],
+   0,
+   "These conditions give a holder in due course a better title, free from defects of prior parties."
+  ],
+  [
+   "Principles & Practices of Banking",
+   "Statutory protection to a collecting banker who collects a crossed cheque in good faith and without negligence is provided by:",
+   [
+    "Section 138 of the Negotiable Instruments Act",
+    "Section 131 of the Negotiable Instruments Act",
+    "Section 5 of the Banking Regulation Act",
+    "Section 45 of the RBI Act"
+   ],
+   1,
+   "Section 131 protects the collecting banker from liability to the true owner if it acted in good faith and without negligence."
+  ],
+  [
+   "Principles & Practices of Banking",
+   "Which of the following deposits is NOT covered by DICGC deposit insurance?",
+   [
+    "Savings bank deposits of individuals",
+    "Deposits of foreign governments",
+    "Fixed deposits of a proprietorship firm",
+    "Recurring deposits of a salaried person"
+   ],
+   1,
+   "DICGC excludes deposits of foreign governments, central/state governments, inter-bank deposits and certain others."
+  ],
+  [
+   "Accounting & Financial Management for Bankers",
+   "₹1,00,000 is invested at 10% per annum compounded annually. The amount after 2 years is:",
+   [
+    "₹1,20,000",
+    "₹1,21,000",
+    "₹1,10,000",
+    "₹1,22,000"
+   ],
+   1,
+   "A = 1,00,000 × (1.10)² = 1,00,000 × 1.21 = ₹1,21,000."
+  ],
+  [
+   "Accounting & Financial Management for Bankers",
+   "The effective annual rate of a 12% nominal rate compounded quarterly is approximately:",
+   [
+    "12.00%",
+    "12.36%",
+    "12.55%",
+    "12.68%"
+   ],
+   2,
+   "EAR = (1 + 0.12/4)⁴ − 1 = (1.03)⁴ − 1 = 0.1255, i.e., 12.55%."
+  ],
+  [
+   "Accounting & Financial Management for Bankers",
+   "A machine costs ₹1,00,000, has a scrap value of ₹10,000 and a useful life of 5 years. Annual depreciation under the straight-line method is:",
+   [
+    "₹20,000",
+    "₹18,000",
+    "₹22,000",
+    "₹10,000"
+   ],
+   1,
+   "SLM depreciation = (1,00,000 − 10,000) ÷ 5 = ₹18,000."
+  ],
+  [
+   "Accounting & Financial Management for Bankers",
+   "An asset costing ₹1,00,000 is depreciated at 20% on the written-down value method. Depreciation for the second year is:",
+   [
+    "₹20,000",
+    "₹16,000",
+    "₹12,800",
+    "₹18,000"
+   ],
+   1,
+   "Year 1: 20,000, WDV = 80,000; Year 2: 20% × 80,000 = ₹16,000."
+  ],
+  [
+   "Accounting & Financial Management for Bankers",
+   "A firm has current assets of ₹6 lakh and current liabilities of ₹4 lakh. Its current ratio is:",
+   [
+    "0.67 : 1",
+    "2 : 1",
+    "1.5 : 1",
+    "1.33 : 1"
+   ],
+   2,
+   "Current ratio = 6 ÷ 4 = 1.5."
+  ],
+  [
+   "Accounting & Financial Management for Bankers",
+   "Fixed costs are ₹2,00,000, selling price is ₹50 per unit and variable cost is ₹30 per unit. The break-even quantity is:",
+   [
+    "4,000 units",
+    "10,000 units",
+    "6,667 units",
+    "20,000 units"
+   ],
+   1,
+   "BEP = fixed cost ÷ contribution per unit = 2,00,000 ÷ (50 − 30) = 10,000 units."
+  ],
+  [
+   "Accounting & Financial Management for Bankers",
+   "A bond of face value ₹100 with an 8% annual coupon is trading at ₹80. Its current yield is:",
+   [
+    "8%",
+    "6.4%",
+    "10%",
+    "12.5%"
+   ],
+   2,
+   "Current yield = annual coupon ÷ price = 8 ÷ 80 = 10%."
+  ],
+  [
+   "Accounting & Financial Management for Bankers",
+   "The main purpose of preparing a trial balance is to:",
+   [
+    "Find the market value of assets",
+    "Calculate income tax",
+    "Detect all errors of principle",
+    "Check the arithmetical accuracy of ledger postings"
+   ],
+   3,
+   "A trial balance verifies that total debits equal total credits; it cannot reveal errors such as errors of principle or compensating errors."
+  ],
+  [
+   "Accounting & Financial Management for Bankers",
+   "While reconciling, a firm finds cheques issued to suppliers but not yet presented for payment. As a result, the balance as per the bank passbook will be:",
+   [
+    "Higher than the balance as per the cash book",
+    "Lower than the balance as per the cash book",
+    "Equal to the balance as per the cash book",
+    "Negative in all cases"
+   ],
+   0,
+   "The cash book is credited when cheques are issued, but the bank has not yet debited them, so the passbook shows a higher balance."
+  ],
+  [
+   "Accounting & Financial Management for Bankers",
+   "A project costs ₹1,000 and returns ₹600 at the end of each of the next two years. At a discount rate of 10%, its NPV is approximately:",
+   [
+    "₹200",
+    "₹91",
+    "₹41",
+    "₹−41"
+   ],
+   2,
+   "PV = 600/1.1 + 600/1.21 = 545.45 + 495.87 = 1,041.32; NPV = 1,041.32 − 1,000 ≈ ₹41."
+  ],
+  [
+   "Accounting & Financial Management for Bankers",
+   "A project costing ₹5,00,000 generates an even cash inflow of ₹1,25,000 per year. Its payback period is:",
+   [
+    "2.5 years",
+    "4 years",
+    "5 years",
+    "6.25 years"
+   ],
+   1,
+   "Payback = 5,00,000 ÷ 1,25,000 = 4 years."
+  ],
+  [
+   "Accounting & Financial Management for Bankers",
+   "In India, the quote 'USD 1 = ₹84.00' is an example of a:",
+   [
+    "Indirect quote",
+    "Cross rate",
+    "Direct quote",
+    "Forward discount"
+   ],
+   2,
+   "A direct quote expresses the price of one unit of foreign currency in home currency; India uses direct quotes."
+  ],
+  [
+   "Retail Banking & Wealth Management",
+   "Under RBI norms, the maximum loan-to-value ratio for an individual housing loan up to ₹30 lakh is:",
+   [
+    "75%",
+    "90%",
+    "80%",
+    "100%"
+   ],
+   1,
+   "LTV caps are 90% for loans up to ₹30 lakh, 80% for above ₹30 lakh up to ₹75 lakh, and 75% above ₹75 lakh."
+  ],
+  [
+   "Retail Banking & Wealth Management",
+   "In a standard reducing-balance EMI loan, the early instalments consist of:",
+   [
+    "A larger interest component and a smaller principal component",
+    "Only principal and no interest",
+    "Equal principal and interest every month",
+    "A smaller interest component than later instalments"
+   ],
+   0,
+   "Interest is charged on the outstanding balance, which is highest early, so early EMIs are mostly interest."
+  ],
+  [
+   "Retail Banking & Wealth Management",
+   "Credit Information Companies (such as those producing credit scores) in India are governed by the:",
+   [
+    "Banking Ombudsman Scheme",
+    "SARFAESI Act, 2002",
+    "Insurance Act, 1938",
+    "Credit Information Companies (Regulation) Act, 2005"
+   ],
+   3,
+   "CICRA 2005 regulates credit bureaus, which collect credit data and generate credit reports and scores."
+  ],
+  [
+   "Retail Banking & Wealth Management",
+   "For a 28-year-old investor with a long investment horizon and high risk tolerance, an adviser would ordinarily recommend:",
+   [
+    "A relatively higher allocation to equity",
+    "Investing everything in savings bank deposits",
+    "Only short-term debt funds",
+    "Only gold"
+   ],
+   0,
+   "Long horizons allow equity volatility to average out, so higher equity exposure suits young, risk-tolerant investors."
+  ],
+  [
+   "Retail Banking & Wealth Management",
+   "An investor puts ₹1,200 each month into a mutual fund through SIP at NAVs of ₹10, ₹12 and ₹15. The average cost per unit is:",
+   [
+    "₹12.33",
+    "₹13.50",
+    "₹12.00",
+    "₹11.00"
+   ],
+   2,
+   "Units = 120 + 100 + 80 = 300 for ₹3,600; average cost = 3,600 ÷ 300 = ₹12, lower than the average NAV of ₹12.33 (rupee-cost averaging)."
+  ],
+  [
+   "Retail Banking & Wealth Management",
+   "Which feature best characterises retail banking?",
+   [
+    "A large number of customers with relatively small, standardised transactions",
+    "A few large corporate borrowers with customised loans",
+    "Only inter-bank money market dealings",
+    "Only foreign exchange trading for exporters"
+   ],
+   0,
+   "Retail banking serves individuals and small businesses with mass-market products such as deposits, cards and personal loans."
+  ],
+  [
+   "Retail Banking & Wealth Management",
+   "The first step in the financial planning process for a client is to:",
+   [
+    "Establish the client–planner relationship and define its scope",
+    "Implement the recommended products",
+    "Monitor the portfolio",
+    "Sell a mutual fund scheme"
+   ],
+   0,
+   "Planning begins by defining the engagement, followed by gathering data, analysis, recommendations, implementation and monitoring."
+  ],
+  [
+   "Retail Banking & Wealth Management",
+   "A reverse mortgage loan is designed for:",
+   [
+    "First-time home buyers",
+    "Builders financing construction",
+    "Senior citizens who own a house and want periodic payments against it",
+    "Students financing education"
+   ],
+   2,
+   "The senior citizen continues living in the house and receives payments; the loan is settled from the property later."
+  ],
+  [
+   "Retail Banking & Wealth Management",
+   "On a credit card, the interest-free period on purchases is generally available only if the cardholder:",
+   [
+    "Pays only the minimum amount due",
+    "Withdraws cash using the card",
+    "Pays after the due date with late fee",
+    "Pays the total amount due in full by the payment due date"
+   ],
+   3,
+   "If only part of the bill is paid, interest is charged on purchases from the transaction date and the free credit period is lost."
+  ],
+  [
+   "Retail Banking & Wealth Management",
+   "When a bank sells insurance policies to its customers as a corporate agent of an insurer, it is called:",
+   [
+    "Reinsurance",
+    "Bancassurance",
+    "Securitisation",
+    "Factoring"
+   ],
+   1,
+   "Bancassurance uses the bank's branch network and customer base to distribute insurance products."
+  ],
+  [
+   "Retail Banking & Wealth Management",
+   "Unified Payments Interface (UPI) is operated by:",
+   [
+    "SEBI",
+    "Indian Banks' Association",
+    "National Payments Corporation of India",
+    "NABARD"
+   ],
+   2,
+   "NPCI, an RBI-promoted umbrella organisation, operates UPI along with IMPS, RuPay and other retail payment systems."
+  ],
+  [
+   "Retail Banking & Wealth Management",
+   "A borrower earns ₹1,00,000 a month and already pays EMIs of ₹15,000. If the bank caps the fixed obligations to income ratio (FOIR) at 50%, the maximum new EMI allowed is:",
+   [
+    "₹50,000",
+    "₹15,000",
+    "₹42,500",
+    "₹35,000"
+   ],
+   3,
+   "Total EMIs allowed = 50% × 1,00,000 = ₹50,000; less existing ₹15,000 = ₹35,000."
+  ]
+ ],
+ "caiib": [
+  [
+   "Advanced Bank Management",
+   "The population variance of the observations 2, 4, 6, 8 and 10 is:",
+   [
+    "8",
+    "6",
+    "10",
+    "2.83"
+   ],
+   0,
+   "Mean = 6; squared deviations = 16, 4, 0, 4, 16 → sum 40; variance = 40 ÷ 5 = 8."
+  ],
+  [
+   "Advanced Bank Management",
+   "Karl Pearson's coefficient of correlation always lies between:",
+   [
+    "−1 and +1",
+    "0 and 1",
+    "−∞ and +∞",
+    "0 and 100"
+   ],
+   0,
+   "Correlation is a bounded measure: +1 is perfect positive, −1 perfect negative and 0 no linear relationship."
+  ],
+  [
+   "Advanced Bank Management",
+   "The median of 3, 7, 9, 12, 15 and 20 is:",
+   [
+    "9",
+    "10.5",
+    "12",
+    "11"
+   ],
+   1,
+   "For an even number of ordered values, median = average of the middle two = (9 + 12) ÷ 2 = 10.5."
+  ],
+  [
+   "Advanced Bank Management",
+   "Two fair coins are tossed. The probability of getting at least one head is:",
+   [
+    "1/2",
+    "1/4",
+    "1",
+    "3/4"
+   ],
+   3,
+   "P(no head) = 1/2 × 1/2 = 1/4, so P(at least one head) = 1 − 1/4 = 3/4."
+  ],
+  [
+   "Advanced Bank Management",
+   "In a normal distribution, approximately what share of observations lie within one standard deviation of the mean?",
+   [
+    "68%",
+    "50%",
+    "95%",
+    "99.7%"
+   ],
+   0,
+   "The empirical rule: about 68% within ±1σ, 95% within ±2σ and 99.7% within ±3σ."
+  ],
+  [
+   "Advanced Bank Management",
+   "According to Herzberg's two-factor theory, salary and working conditions are:",
+   [
+    "Motivators that create high job satisfaction",
+    "Self-actualisation needs",
+    "Irrelevant to employees",
+    "Hygiene factors whose absence causes dissatisfaction"
+   ],
+   3,
+   "Herzberg separated hygiene factors (prevent dissatisfaction) from motivators like achievement and recognition."
+  ],
+  [
+   "Advanced Bank Management",
+   "The highest level in Maslow's hierarchy of needs is:",
+   [
+    "Safety",
+    "Esteem",
+    "Social belonging",
+    "Self-actualisation"
+   ],
+   3,
+   "Maslow's order is physiological, safety, social, esteem and, at the top, self-actualisation."
+  ],
+  [
+   "Advanced Bank Management",
+   "A borrower has current assets of ₹400 lakh and current liabilities other than bank borrowings of ₹100 lakh. Under Tandon Committee's second method of lending, MPBF is:",
+   [
+    "₹200 lakh",
+    "₹225 lakh",
+    "₹300 lakh",
+    "₹275 lakh"
+   ],
+   0,
+   "Method II: MPBF = 75% of CA − CL = 0.75 × 400 − 100 = 300 − 100 = ₹200 lakh."
+  ],
+  [
+   "Advanced Bank Management",
+   "Under the Nayak Committee (turnover) method, a MSME borrower with projected annual turnover of ₹2 crore should get working capital bank finance of at least:",
+   [
+    "₹50 lakh",
+    "₹40 lakh",
+    "₹10 lakh",
+    "₹20 lakh"
+   ],
+   1,
+   "WC requirement is 25% of turnover, of which bank finance is at least 20% of turnover = 0.20 × 2 crore = ₹40 lakh (margin 5%)."
+  ],
+  [
+   "Advanced Bank Management",
+   "A project's cash available for debt service (PAT + depreciation + interest) is ₹30 lakh and its debt obligations (interest + principal instalments) are ₹20 lakh. The DSCR is:",
+   [
+    "0.67",
+    "2.5",
+    "1.0",
+    "1.5"
+   ],
+   3,
+   "DSCR = 30 ÷ 20 = 1.5, meaning cash flows cover debt service 1.5 times."
+  ],
+  [
+   "Advanced Bank Management",
+   "Compliance risk in a bank refers to:",
+   [
+    "The risk of a fall in share prices",
+    "The risk of legal or regulatory sanctions, financial loss or reputational damage from failure to comply with laws, rules and standards",
+    "The risk of borrowers prepaying loans",
+    "The risk arising only from foreign exchange movements"
+   ],
+   1,
+   "Compliance risk arises from non-adherence to laws, regulations and codes of conduct, and is managed by an independent compliance function."
+  ],
+  [
+   "Advanced Bank Management",
+   "A 360-degree performance appraisal gathers feedback from:",
+   [
+    "Only the immediate supervisor",
+    "Only the HR department",
+    "Superiors, peers, subordinates and sometimes customers",
+    "Only the employee's self-assessment"
+   ],
+   2,
+   "360-degree appraisal uses multiple raters around the employee for a rounded assessment."
+  ],
+  [
+   "Advanced Bank Management",
+   "Higher deposits every March and October due to festivals and financial-year closing, repeating each year, illustrate which component of a time series?",
+   [
+    "Secular trend",
+    "Cyclical variation",
+    "Seasonal variation",
+    "Irregular variation"
+   ],
+   2,
+   "Seasonal variations are regular patterns recurring within a year; cycles span several years."
+  ],
+  [
+   "Bank Financial Management",
+   "A bank has Tier 1 capital of ₹900 crore, Tier 2 capital of ₹300 crore and risk-weighted assets of ₹10,000 crore. Its CRAR is:",
+   [
+    "9%",
+    "3%",
+    "10%",
+    "12%"
+   ],
+   3,
+   "CRAR = (900 + 300) ÷ 10,000 = 12%."
+  ],
+  [
+   "Bank Financial Management",
+   "A loan of ₹200 crore carrying a 75% risk weight adds how much to risk-weighted assets?",
+   [
+    "₹75 crore",
+    "₹200 crore",
+    "₹150 crore",
+    "₹275 crore"
+   ],
+   2,
+   "RWA = exposure × risk weight = 200 × 0.75 = ₹150 crore."
+  ],
+  [
+   "Bank Financial Management",
+   "Under RBI's Basel III framework, the minimum total capital ratio including the Capital Conservation Buffer is:",
+   [
+    "11.5% of RWAs",
+    "8% of RWAs",
+    "9% of RWAs",
+    "10.5% of RWAs"
+   ],
+   0,
+   "RBI requires minimum total capital of 9% plus a CCB of 2.5%, i.e., 11.5% (higher than the Basel minimum of 8% + 2.5%)."
+  ],
+  [
+   "Bank Financial Management",
+   "The Liquidity Coverage Ratio requires banks to hold high-quality liquid assets at least equal to:",
+   [
+    "50% of total deposits",
+    "100% of total net cash outflows over the next 30 days under stress",
+    "100% of total assets",
+    "25% of net cash outflows over one year"
+   ],
+   1,
+   "LCR = HQLA ÷ net cash outflows over 30 stress days, with a minimum of 100%."
+  ],
+  [
+   "Bank Financial Management",
+   "A bank has rate-sensitive assets of ₹500 crore and rate-sensitive liabilities of ₹700 crore in a time bucket. If interest rates rise by 1%, its net interest income will approximately:",
+   [
+    "Rise by ₹2 crore",
+    "Rise by ₹12 crore",
+    "Remain unchanged",
+    "Fall by ₹2 crore"
+   ],
+   3,
+   "Gap = 500 − 700 = −₹200 crore (negative); ΔNII = −200 × 1% = −₹2 crore."
+  ],
+  [
+   "Bank Financial Management",
+   "A bond has Macaulay duration of 5 years and yield of 10%. For a 1% rise in yield, its price will fall by approximately:",
+   [
+    "5.00%",
+    "0.50%",
+    "4.55%",
+    "10.00%"
+   ],
+   2,
+   "Modified duration = 5 ÷ 1.10 = 4.545; % price change ≈ −4.545 × 1% ≈ −4.55%."
+  ],
+  [
+   "Bank Financial Management",
+   "If USD/INR is 84.00 and EUR/USD is 1.10, the EUR/INR cross rate is:",
+   [
+    "76.36",
+    "85.10",
+    "92.40",
+    "82.90"
+   ],
+   2,
+   "EUR/INR = EUR/USD × USD/INR = 1.10 × 84.00 = 92.40."
+  ],
+  [
+   "Bank Financial Management",
+   "Spot USD/INR is 83.00 and the 3-month forward rate is 83.50. The annualised forward premium on USD is approximately:",
+   [
+    "0.60%",
+    "2.41%",
+    "6.02%",
+    "1.20%"
+   ],
+   1,
+   "Premium = (83.50 − 83.00)/83.00 × 12/3 × 100 = 0.006024 × 4 × 100 ≈ 2.41% p.a."
+  ],
+  [
+   "Bank Financial Management",
+   "A 'Nostro' account is:",
+   [
+    "A foreign bank's rupee account with an Indian bank",
+    "An Indian bank's account in foreign currency maintained with a bank abroad",
+    "A resident individual's savings account",
+    "An account maintained with RBI for CRR"
+   ],
+   1,
+   "Nostro means 'our account with you'; a foreign bank's rupee account in India is a Vostro account."
+  ],
+  [
+   "Bank Financial Management",
+   "Under Basel norms, operational risk is the risk of loss resulting from:",
+   [
+    "Default of borrowers",
+    "Inadequate or failed internal processes, people and systems, or external events",
+    "Adverse movement in market prices",
+    "Changes in the government's fiscal deficit"
+   ],
+   1,
+   "This is the Basel definition; it includes legal risk but excludes strategic and reputational risk."
+  ],
+  [
+   "Bank Financial Management",
+   "Under UCP 600, banks dealing with a letter of credit:",
+   [
+    "Inspect the goods physically before payment",
+    "Must verify the quality of goods at the port",
+    "Deal with documents and not with the goods to which the documents relate",
+    "Are responsible for the buyer's commercial disputes"
+   ],
+   2,
+   "LC operations are document-based: payment depends on presentation of complying documents."
+  ],
+  [
+   "Bank Financial Management",
+   "Under RBI's Basel III norms, the minimum leverage ratio for Domestic Systemically Important Banks is:",
+   [
+    "3%",
+    "3.5%",
+    "8%",
+    "4%"
+   ],
+   3,
+   "RBI prescribes a leverage ratio of 4% for D-SIBs and 3.5% for other scheduled commercial banks."
+  ],
+  [
+   "Bank Financial Management",
+   "A trading portfolio has a 1-day VaR of ₹10 crore at 99% confidence. This means:",
+   [
+    "The portfolio can never lose more than ₹10 crore",
+    "The portfolio will lose ₹10 crore every day",
+    "There is a 99% chance of losing ₹10 crore",
+    "Losses exceeding ₹10 crore are expected on only about 1 day in 100"
+   ],
+   3,
+   "VaR is a threshold loss: at 99% confidence, a one-day loss larger than ₹10 crore should occur on about 1% of days."
+  ],
+  [
+   "Advanced Business & Financial Management",
+   "When the price of a product rises by 10%, quantity demanded falls by 20%. The price elasticity of demand (absolute value) is:",
+   [
+    "0.5",
+    "1",
+    "20",
+    "2"
+   ],
+   3,
+   "Elasticity = % change in quantity ÷ % change in price = 20 ÷ 10 = 2 (elastic demand)."
+  ],
+  [
+   "Advanced Business & Financial Management",
+   "A firm is financed 60% by equity costing 15% and 40% by debt costing 10% before tax. With a 25% tax rate, its WACC is:",
+   [
+    "13%",
+    "10.5%",
+    "15%",
+    "12%"
+   ],
+   3,
+   "After-tax debt cost = 10% × 0.75 = 7.5%; WACC = 0.6 × 15 + 0.4 × 7.5 = 9 + 3 = 12%."
+  ],
+  [
+   "Advanced Business & Financial Management",
+   "A company has net profit margin of 5%, asset turnover of 2 times and equity multiplier of 2. Using DuPont analysis, its ROE is:",
+   [
+    "10%",
+    "9%",
+    "20%",
+    "5%"
+   ],
+   2,
+   "ROE = margin × asset turnover × equity multiplier = 5% × 2 × 2 = 20%."
+  ],
+  [
+   "Advanced Business & Financial Management",
+   "A share will pay a dividend of ₹10 next year; the required return is 12% and growth is 7% forever. Its intrinsic value is:",
+   [
+    "₹200",
+    "₹83.33",
+    "₹142.86",
+    "₹214"
+   ],
+   0,
+   "Value = D1 ÷ (k − g) = 10 ÷ (0.12 − 0.07) = 10 ÷ 0.05 = ₹200."
+  ],
+  [
+   "Advanced Business & Financial Management",
+   "Which of the following is NOT one of Porter's five competitive forces?",
+   [
+    "Government fiscal deficit",
+    "Threat of new entrants",
+    "Bargaining power of buyers",
+    "Threat of substitute products"
+   ],
+   0,
+   "Porter's forces are rivalry, new entrants, substitutes, and the bargaining power of buyers and suppliers."
+  ],
+  [
+   "Advanced Business & Financial Management",
+   "In the BCG matrix, a business with a high relative market share in a low-growth market is a:",
+   [
+    "Star",
+    "Question mark",
+    "Cash cow",
+    "Dog"
+   ],
+   2,
+   "Cash cows dominate mature markets and generate surplus cash that can fund other businesses."
+  ],
+  [
+   "Advanced Business & Financial Management",
+   "A merger between two banks offering similar services in the same market is a:",
+   [
+    "Horizontal merger",
+    "Vertical merger",
+    "Conglomerate merger",
+    "Reverse merger"
+   ],
+   0,
+   "Horizontal mergers combine firms at the same stage of the same industry; vertical ones combine supplier and buyer stages."
+  ],
+  [
+   "Advanced Business & Financial Management",
+   "A company's NOPAT is ₹50 crore, capital employed is ₹300 crore and WACC is 12%. Its Economic Value Added is:",
+   [
+    "₹36 crore",
+    "₹50 crore",
+    "₹14 crore",
+    "₹−14 crore"
+   ],
+   2,
+   "EVA = NOPAT − WACC × capital = 50 − 0.12 × 300 = 50 − 36 = ₹14 crore."
+  ],
+  [
+   "Advanced Business & Financial Management",
+   "A firm has a contribution of ₹400 lakh and EBIT of ₹100 lakh. Its degree of operating leverage is:",
+   [
+    "0.25",
+    "4",
+    "3",
+    "5"
+   ],
+   1,
+   "DOL = contribution ÷ EBIT = 400 ÷ 100 = 4; a 1% change in sales changes EBIT by about 4%."
+  ],
+  [
+   "Advanced Business & Financial Management",
+   "A situation of high inflation combined with stagnant output and high unemployment is called:",
+   [
+    "Stagflation",
+    "Deflation",
+    "Disinflation",
+    "Boom"
+   ],
+   0,
+   "Stagflation combines stagnation in growth with rising prices, making policy choices difficult."
+  ],
+  [
+   "Advanced Business & Financial Management",
+   "In a SWOT analysis, which elements relate to factors internal to the organisation?",
+   [
+    "Opportunities and threats",
+    "Strengths and weaknesses",
+    "Strengths and threats",
+    "Weaknesses and opportunities"
+   ],
+   1,
+   "Strengths and weaknesses are internal; opportunities and threats come from the external environment."
+  ],
+  [
+   "Advanced Business & Financial Management",
+   "According to Modigliani–Miller (without taxes), the value of a firm:",
+   [
+    "Rises continuously with more debt",
+    "Falls continuously with more debt",
+    "Is maximised at 50% debt",
+    "Is independent of its capital structure"
+   ],
+   3,
+   "In perfect markets without taxes, MM show that financing mix does not change firm value; only the assets' cash flows matter."
+  ],
+  [
+   "Banking Regulations & Business Laws",
+   "Under Section 5(b) of the Banking Regulation Act, 'banking' means accepting deposits of money from the public for the purpose of:",
+   [
+    "Lending or investment, repayable on demand or otherwise and withdrawable by cheque, draft, order or otherwise",
+    "Trading in commodities",
+    "Only issuing credit cards",
+    "Only remitting funds abroad"
+   ],
+   0,
+   "This statutory definition centres on accepting public deposits for lending/investment that are repayable and withdrawable."
+  ],
+  [
+   "Banking Regulations & Business Laws",
+   "The power of RBI to issue directions to banking companies in public interest is contained in:",
+   [
+    "Section 35A of the Banking Regulation Act",
+    "Section 138 of the NI Act",
+    "Section 13(2) of SARFAESI Act",
+    "Section 7 of IBC"
+   ],
+   0,
+   "Section 35A empowers RBI to give directions to banks in the public interest, interest of depositors or banking policy."
+  ],
+  [
+   "Banking Regulations & Business Laws",
+   "Under Section 22 of the Banking Regulation Act, a company cannot carry on banking business in India without:",
+   [
+    "A licence from SEBI",
+    "A licence from RBI",
+    "Approval of the Ministry of Corporate Affairs alone",
+    "Registration with IRDAI"
+   ],
+   1,
+   "Section 22 requires every banking company to hold a licence issued by RBI."
+  ],
+  [
+   "Banking Regulations & Business Laws",
+   "Under Section 13(2) of the SARFAESI Act, the secured creditor gives the defaulting borrower a notice to discharge liabilities within:",
+   [
+    "15 days",
+    "60 days",
+    "30 days",
+    "90 days"
+   ],
+   1,
+   "If the borrower does not pay within 60 days of the demand notice, the lender may take measures under Section 13(4)."
+  ],
+  [
+   "Banking Regulations & Business Laws",
+   "SARFAESI enforcement cannot be taken where the amount due is less than:",
+   [
+    "50% of the principal amount",
+    "10% of the sanctioned limit",
+    "₹10 crore",
+    "20% of the principal amount and interest thereon"
+   ],
+   3,
+   "Section 31(j) excludes cases where the dues are less than 20% of principal and interest."
+  ],
+  [
+   "Banking Regulations & Business Laws",
+   "The minimum amount of default required to initiate a corporate insolvency resolution process under the IBC is currently:",
+   [
+    "₹1 lakh",
+    "₹20 lakh",
+    "₹1 crore",
+    "₹10 crore"
+   ],
+   2,
+   "The threshold was raised from ₹1 lakh to ₹1 crore in 2020."
+  ],
+  [
+   "Banking Regulations & Business Laws",
+   "Including extensions and time spent in legal proceedings, the CIRP under the IBC must ordinarily be completed within:",
+   [
+    "330 days",
+    "180 days",
+    "270 days",
+    "365 days"
+   ],
+   0,
+   "The basic period is 180 days, extendable by 90 days, with an overall cap of 330 days including litigation time."
+  ],
+  [
+   "Banking Regulations & Business Laws",
+   "Banks can approach a Debts Recovery Tribunal for recovery of debts of:",
+   [
+    "₹1 lakh and above",
+    "₹20 lakh and above",
+    "₹5 lakh and above",
+    "₹1 crore and above"
+   ],
+   1,
+   "The pecuniary threshold for DRT jurisdiction was raised from ₹10 lakh to ₹20 lakh in 2018."
+  ],
+  [
+   "Banking Regulations & Business Laws",
+   "Under the Limitation Act, the general period to file a suit for recovery of a loan is:",
+   [
+    "1 year",
+    "12 years",
+    "3 years",
+    "30 years"
+   ],
+   2,
+   "Most money-recovery suits must be filed within three years; 12 years applies to enforcing a mortgage."
+  ],
+  [
+   "Banking Regulations & Business Laws",
+   "Under PMLA rules, banks must report cash transactions to FIU-IND in a Cash Transaction Report when they exceed:",
+   [
+    "₹50,000",
+    "₹2 lakh",
+    "₹10 lakh (or its equivalent, including integrally connected series in a month)",
+    "₹1 crore"
+   ],
+   2,
+   "CTRs cover cash transactions above ₹10 lakh and connected series aggregating above that within a month."
+  ],
+  [
+   "Banking Regulations & Business Laws",
+   "A Suspicious Transaction Report must be furnished to FIU-IND within:",
+   [
+    "30 days of the transaction",
+    "7 days of arriving at the conclusion that the transaction is suspicious",
+    "24 hours of account opening",
+    "90 days of the transaction"
+   ],
+   1,
+   "PMLA rules require STRs within seven days of the bank concluding that a transaction is suspicious."
+  ],
+  [
+   "Banking Regulations & Business Laws",
+   "Customer complaints against RBI-regulated entities such as banks and NBFCs are now handled under:",
+   [
+    "The Reserve Bank – Integrated Ombudsman Scheme, 2021",
+    "The Banking Ombudsman Scheme, 1995",
+    "The Insurance Ombudsman Rules, 2017",
+    "SEBI SCORES"
+   ],
+   0,
+   "RB-IOS 2021 integrated the earlier banking, NBFC and digital transactions ombudsman schemes into one."
+  ]
+ ]
+}

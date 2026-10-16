@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Success4Sure</title>
+  <meta name="description" content="Exam-pattern mock tests for NISM certifications, banking, SSC, MBA entrance and insurance exams.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=12">
+</head>
+<body>
+  <header class="topbar" id="topbar">
+    <div class="wrap topbar-inner">
+      <a href="#/" class="brand"><span class="brand-mark">S<i>4</i></span><span class="brand-name">Success<b>4</b>Sure</span></a>
+      <nav id="nav" class="nav"></nav>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a href="#/" class="brand brand-light"><span class="brand-mark">S<i>4</i></span><span class="brand-name">Success<b>4</b>Sure</span></a>
+        <p class="footer-tag">Exam-pattern mock tests with clear explanations for NISM, banking, SSC, MBA entrance and insurance exams.</p>
+      </div>
+      <div>
+        <h4>Popular exams</h4>
+        <a href="#/exam/v-a">Series V-A · Mutual Funds</a>
+        <a href="#/exam/viii">Series VIII · Equity Derivatives</a>
+        <a href="#/exam/ibps-po">IBPS PO</a>
+        <a href="#/exam/ssc-cgl">SSC CGL</a>
+        <a href="#/exam/cat">CAT</a>
+      </div>
+      <div>
+        <h4>Platform</h4>
+        <a href="#/exams">All exams</a>
+        <a href="#/study-material">Free study material</a>
+        <a href="#/dashboard">My dashboard</a>
+        <a href="#/admin">Admin (prototype)</a>
+      </div>
+    </div>
+    <div class="wrap footer-legal">
+      Success4Sure is an independent practice platform and is not affiliated with, endorsed by, or connected to NISM, SEBI, IBPS, SBI, RBI, SSC, the IIMs, NTA, AIMA, IRDAI, the Insurance Institute of India, NSE or IIBF. All questions are original practice questions based on publicly available syllabi; they are not actual exam questions. Study material links point to each publisher's official website.
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <script src="js/data/exams.js?v=12"></script>
+  <script src="js/data/questions.js?v=12"></script>
+  <script src="js/data/qbank.js?v=12"></script>
+  <script src="js/app.js?v=12"></script>
+</body>
+</html>

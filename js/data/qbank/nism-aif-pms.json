@@ -1,0 +1,4216 @@
+{
+ "xix-a": [
+  [
+   "Overview of Alternative Investments",
+   "Which feature most clearly distinguishes alternative investments such as private equity from traditional listed equity?",
+   [
+    "Daily exchange-traded pricing",
+    "Guaranteed minimum returns",
+    "Lower minimum ticket sizes than mutual funds",
+    "Lower liquidity and less frequent, less transparent pricing"
+   ],
+   3,
+   "Private assets are not traded on an exchange, so they are illiquid and valued only periodically, unlike listed shares."
+  ],
+  [
+   "Overview of Alternative Investments",
+   "An HNI says she wants to add private equity mainly because it is 'uncorrelated with everything'. What is the most accurate response?",
+   [
+    "Private equity has zero correlation with listed markets by regulation",
+    "Private equity always moves opposite to listed equity",
+    "Private assets can diversify a portfolio, but reported low correlation is partly due to infrequent, appraisal-based valuations",
+    "Correlation is irrelevant for illiquid assets"
+   ],
+   2,
+   "Smoothed, periodic valuations understate measured volatility and correlation, so the diversification benefit is real but overstated by reported numbers."
+  ],
+  [
+   "Overview of Alternative Investments",
+   "Which of the following is generally treated as an alternative asset class?",
+   [
+    "Listed large-cap shares",
+    "Government treasury bills",
+    "Bank fixed deposits",
+    "Venture capital"
+   ],
+   3,
+   "Venture capital invests in unlisted early-stage companies and falls outside traditional stocks, bonds and cash."
+  ],
+  [
+   "Alternative Investment Funds in India",
+   "Under the SEBI (AIF) Regulations, 2012, an AIF is best described as a privately pooled investment vehicle that:",
+   [
+    "Collects funds from investors for investing according to a defined investment policy for their benefit",
+    "Accepts deposits from the public and pays fixed interest",
+    "Is a scheme of a SEBI-registered mutual fund",
+    "Is a portfolio of individually held securities managed for one client"
+   ],
+   0,
+   "The AIF definition centres on a privately pooled vehicle investing under a stated policy; mutual funds and PMS are covered by separate regulations."
+  ],
+  [
+   "Alternative Investment Funds in India",
+   "A fund that provides risk capital to early-stage start-ups would ordinarily register under which AIF category?",
+   [
+    "Category I",
+    "Category II",
+    "Category III",
+    "It cannot register as an AIF"
+   ],
+   0,
+   "Venture capital funds, including angel funds, are a sub-category of Category I AIFs, which invest in sectors seen as socially or economically desirable."
+  ],
+  [
+   "Alternative Investment Funds in India",
+   "A private equity fund investing in growth-stage unlisted companies, with no special incentives and no leverage, would typically be registered as:",
+   [
+    "Category I AIF",
+    "Category II AIF",
+    "Category III AIF",
+    "A mutual fund scheme"
+   ],
+   1,
+   "Category II is the residual category for funds such as PE and debt funds that are neither Category I nor Category III and do not use leverage."
+  ],
+  [
+   "Alternative Investment Funds in India",
+   "Special situation funds, which invest in stressed assets, are classified under:",
+   [
+    "Category II AIF",
+    "Category III AIF",
+    "Real estate investment trusts",
+    "Category I AIF"
+   ],
+   3,
+   "SEBI introduced special situation funds as a sub-category of Category I AIFs to invest in stressed loans and assets."
+  ],
+  [
+   "Concepts in the AIF Industry",
+   "In a typical AIF, the 'commitment' of an investor refers to:",
+   [
+    "The amount paid upfront on signing",
+    "The total amount the investor agrees to contribute over the fund's life, drawn down as needed",
+    "The fund manager's personal investment",
+    "The NAV of the investor's units on a given date"
+   ],
+   1,
+   "Investors commit capital upfront but pay it in tranches through drawdowns (capital calls) as the manager finds investments."
+  ],
+  [
+   "Concepts in the AIF Industry",
+   "An investor committed ₹2 crore to a Category II AIF. The manager has so far called 40% of commitments. How much commitment remains uncalled?",
+   [
+    "₹80 lakh",
+    "₹1.2 crore",
+    "₹2 crore",
+    "₹1.6 crore"
+   ],
+   1,
+   "Called = 40% × ₹2 crore = ₹80 lakh; uncalled = ₹2 crore − ₹80 lakh = ₹1.2 crore."
+  ],
+  [
+   "Concepts in the AIF Industry",
+   "The 'J-curve' in private equity describes:",
+   [
+    "A steady linear rise in NAV from inception",
+    "The shape of a fund's fee schedule",
+    "Negative early returns due to fees and costs, followed by gains as investments mature and are exited",
+    "Rising leverage over the fund life"
+   ],
+   2,
+   "Fees and set-up costs hit early while value creation and exits come later, so cumulative returns dip before rising."
+  ],
+  [
+   "Concepts in the AIF Industry",
+   "The 'hurdle rate' in an AIF fee structure is:",
+   [
+    "The maximum management fee the manager may charge",
+    "The rate at which uncalled capital earns interest",
+    "The minimum return investors must earn before the manager is entitled to carried interest",
+    "The penalty rate for a defaulting investor"
+   ],
+   2,
+   "Carry is shared only after investors receive their preferred return, i.e. the hurdle."
+  ],
+  [
+   "Concepts in the AIF Industry",
+   "A fund earns ₹50 crore profit on ₹100 crore of contributed capital. Carried interest is 20% with no hurdle. What is the manager's carry?",
+   [
+    "₹20 crore",
+    "₹5 crore",
+    "₹8 crore",
+    "₹10 crore"
+   ],
+   3,
+   "Carry = 20% × ₹50 crore profit = ₹10 crore."
+  ],
+  [
+   "AIF Regulatory Framework",
+   "The minimum corpus required for each scheme of an AIF is:",
+   [
+    "₹5 crore",
+    "₹50 crore",
+    "₹20 crore",
+    "₹100 crore"
+   ],
+   2,
+   "The AIF Regulations require each scheme (other than angel funds, which have separate rules) to have a corpus of at least ₹20 crore."
+  ],
+  [
+   "AIF Regulatory Framework",
+   "Ignoring accredited investors and employees/directors of the manager, the minimum investment an individual must make in an AIF is:",
+   [
+    "₹10 lakh",
+    "₹25 lakh",
+    "₹50 lakh",
+    "₹1 crore"
+   ],
+   3,
+   "The general minimum ticket is ₹1 crore; a lower ₹25 lakh limit applies to employees or directors of the AIF/manager, and accredited investors are exempt."
+  ],
+  [
+   "AIF Regulatory Framework",
+   "A Category II AIF has a corpus of ₹300 crore. What is the minimum continuing interest the sponsor or manager must hold?",
+   [
+    "₹7.5 crore",
+    "₹10 crore",
+    "₹5 crore",
+    "₹15 crore"
+   ],
+   2,
+   "For Category I and II it is the lower of 2.5% of corpus (₹7.5 crore) and ₹5 crore, i.e. ₹5 crore."
+  ],
+  [
+   "AIF Regulatory Framework",
+   "Apart from angel funds, the maximum number of investors permitted in a single AIF scheme is:",
+   [
+    "1,000",
+    "200",
+    "500",
+    "No limit"
+   ],
+   0,
+   "The AIF Regulations cap each scheme (other than angel funds) at 1,000 investors."
+  ],
+  [
+   "AIF Regulatory Framework",
+   "Can a Category II AIF borrow money to make investments?",
+   [
+    "No, it may borrow only temporarily to meet day-to-day operational needs, within SEBI limits",
+    "Yes, up to two times its NAV",
+    "Yes, without any limit if investors agree",
+    "Only by issuing listed bonds"
+   ],
+   0,
+   "Category I and II AIFs cannot use leverage for investment; only short-term borrowing for operational needs is permitted."
+  ],
+  [
+   "AIF Regulatory Framework",
+   "The tenure of a close-ended Category I or II AIF may be extended beyond its stated life:",
+   [
+    "By up to two years, with approval of two-thirds of unit holders by value",
+    "Indefinitely at the manager's discretion",
+    "Only with prior approval of the RBI",
+    "By up to five years with a simple majority of investors by number"
+   ],
+   0,
+   "The regulations allow a maximum two-year extension subject to approval of two-thirds of investors by value of their investment."
+  ],
+  [
+   "Alternative Investment Fund Structuring",
+   "In India, most AIFs are set up as:",
+   [
+    "Public limited companies",
+    "Trusts",
+    "Partnership firms under the 1932 Act",
+    "Co-operative societies"
+   ],
+   1,
+   "The trust structure is preferred for flexibility, ease of distribution and tax pass-through for Category I and II."
+  ],
+  [
+   "Alternative Investment Fund Structuring",
+   "In a trust-structured AIF, the document that governs the investor's commitment and drawdown obligations is the:",
+   [
+    "Contribution agreement",
+    "Memorandum of association",
+    "Certificate of incorporation",
+    "Scheme information document"
+   ],
+   0,
+   "The contribution agreement between investor, trustee and manager records commitment, drawdowns, fees and other rights."
+  ],
+  [
+   "Alternative Investment Fund Structuring",
+   "Which party in a trust-based AIF holds the fund's assets on behalf of the beneficiaries?",
+   [
+    "The distributor",
+    "The investment committee",
+    "The trustee",
+    "The placement agent"
+   ],
+   2,
+   "The trustee holds the trust property for the beneficiaries and oversees the manager under the trust deed."
+  ],
+  [
+   "Alternative Investment Fund Structuring",
+   "A foreign investor wants exposure to an Indian Category II AIF. A common structure for pooling several offshore investors is:",
+   [
+    "Registering the AIF as a mutual fund",
+    "An offshore feeder vehicle that invests into the Indian AIF",
+    "Investing through a PMS account in the AIF manager's name",
+    "Converting the AIF into a company"
+   ],
+   1,
+   "Offshore feeders aggregate foreign investors and invest into the onshore AIF, simplifying KYC and tax treatment for those investors."
+  ],
+  [
+   "Risk and Return – Fund and Investor Perspective",
+   "For a Category I or II AIF, the most appropriate return measure that captures the timing of capital calls and distributions is:",
+   [
+    "Simple average annual return",
+    "Time-weighted daily NAV return",
+    "Dividend yield",
+    "Internal rate of return (IRR)"
+   ],
+   3,
+   "Because the manager controls the timing of cash flows, money-weighted IRR is the standard measure for closed-ended private funds."
+  ],
+  [
+   "Risk and Return – Fund and Investor Perspective",
+   "A fund has paid-in capital of ₹100 crore, has distributed ₹80 crore and holds a residual NAV of ₹70 crore. What is its TVPI?",
+   [
+    "0.8x",
+    "0.7x",
+    "1.8x",
+    "1.5x"
+   ],
+   3,
+   "TVPI = (Distributions + Residual value) / Paid-in = (80 + 70) / 100 = 1.5x."
+  ],
+  [
+   "Risk and Return – Fund and Investor Perspective",
+   "Using the same fund (paid-in ₹100 crore, distributions ₹80 crore, NAV ₹70 crore), the DPI is:",
+   [
+    "0.8x",
+    "1.5x",
+    "0.7x",
+    "1.0x"
+   ],
+   0,
+   "DPI = Distributions / Paid-in = 80 / 100 = 0.8x; it counts only cash actually returned."
+  ],
+  [
+   "Risk and Return – Fund and Investor Perspective",
+   "Which risk is most specific to an investor in a close-ended private equity AIF?",
+   [
+    "Liquidity risk, because capital is locked in until the fund exits investments",
+    "Daily NAV volatility risk",
+    "Interest rate reset risk on deposits",
+    "Counterparty risk on exchange-traded futures"
+   ],
+   0,
+   "Investors generally cannot redeem before maturity, so the inability to access capital is the key risk."
+  ],
+  [
+   "Investment Process and Governance of Funds",
+   "In an AIF, the investment committee's principal role is to:",
+   [
+    "Market the fund to new investors",
+    "Approve investment and exit decisions in line with the fund's strategy and PPM",
+    "Act as custodian of the fund's securities",
+    "Calculate tax payable by each investor"
+   ],
+   1,
+   "The investment committee scrutinises and approves deals; its members are responsible for decisions taken within the PPM framework."
+  ],
+  [
+   "Investment Process and Governance of Funds",
+   "A Category II AIF wishes to invest in a company that is an associate of its sponsor. What is required?",
+   [
+    "Only the trustee's consent",
+    "Approval of at least 75% of investors by value of their investment",
+    "Prior approval of the stock exchange",
+    "Nothing, since the deal is at market price"
+   ],
+   1,
+   "Investments in associates are a conflict of interest and need approval of 75% of investors by value."
+  ],
+  [
+   "Investment Process and Governance of Funds",
+   "Under the AIF Regulations, a Category I or II AIF may invest in a single investee company up to:",
+   [
+    "10% of its investable funds",
+    "25% of its investable funds",
+    "50% of its investable funds",
+    "100% if disclosed in the PPM"
+   ],
+   1,
+   "Category I and II AIFs face a 25% single-company concentration limit (large value funds for accredited investors have a higher limit)."
+  ],
+  [
+   "Investment Process and Governance of Funds",
+   "A Category II AIF has investable funds of ₹400 crore. Applying the general concentration limit, the most it can put into one investee company is:",
+   [
+    "₹100 crore",
+    "₹40 crore",
+    "₹200 crore",
+    "₹80 crore"
+   ],
+   0,
+   "25% × ₹400 crore = ₹100 crore."
+  ],
+  [
+   "Fund Due Diligence – Investor Perspective",
+   "When doing due diligence on a first-time fund manager, an investor should place the greatest weight on:",
+   [
+    "The fund's brochure design",
+    "The team's attributable track record, stability and alignment of interest",
+    "Projected IRRs in the pitch deck alone",
+    "The number of distributors selling the fund"
+   ],
+   1,
+   "Without a fund-level history, the team's past deals, cohesion and skin in the game are the best evidence of capability."
+  ],
+  [
+   "Fund Due Diligence – Investor Perspective",
+   "Operational due diligence on an AIF primarily examines:",
+   [
+    "Only the macroeconomic outlook",
+    "Back-office processes, valuation policy, custody, compliance and controls",
+    "The investor's own risk appetite",
+    "The stock exchange listing of the fund"
+   ],
+   1,
+   "Operational DD tests whether non-investment processes are robust enough to protect investor assets and reporting."
+  ],
+  [
+   "Fund Due Diligence – Investor Perspective",
+   "Which of the following is a red flag in AIF due diligence?",
+   [
+    "A clearly documented valuation policy",
+    "Use of a reputed independent custodian",
+    "A sponsor commitment above the regulatory minimum",
+    "Frequent unexplained turnover of key investment professionals"
+   ],
+   3,
+   "Key-person churn threatens execution of the strategy and often signals internal problems."
+  ],
+  [
+   "Fund Due Diligence – Investor Perspective",
+   "An investor compares two PE funds with the same IRR. Fund X achieved it with mostly realised exits; Fund Y largely through unrealised marks. Which conclusion is most reasonable?",
+   [
+    "Fund X's performance is more reliable because it is backed by cash returned",
+    "Fund Y is superior because unrealised gains are untaxed",
+    "Both are identical in quality",
+    "Fund Y is safer because it has not sold assets"
+   ],
+   0,
+   "Realised returns (high DPI) are certain, whereas unrealised marks depend on valuation assumptions."
+  ],
+  [
+   "Legal Documentation and Negotiation – Investor Perspective",
+   "The Private Placement Memorandum (PPM) of an AIF is mainly meant to:",
+   [
+    "Serve as the trust's registration certificate",
+    "Act as a contract note for each drawdown",
+    "Replace KYC documents",
+    "Disclose the fund's strategy, risks, fees, terms and the manager's background to prospective investors"
+   ],
+   3,
+   "The PPM is the primary offer document giving investors the information needed to make an informed decision."
+  ],
+  [
+   "Legal Documentation and Negotiation – Investor Perspective",
+   "A 'key person' clause in an AIF agreement typically provides that:",
+   [
+    "The key person receives all carried interest",
+    "Investors must stay invested even if all key staff leave",
+    "The distributor is the key person",
+    "If named key professionals leave, the investment period may be suspended until investors approve a replacement"
+   ],
+   3,
+   "It protects investors who committed capital on the strength of specific individuals."
+  ],
+  [
+   "Legal Documentation and Negotiation – Investor Perspective",
+   "A large investor negotiates a side letter granting it any better terms later offered to others. This right is called:",
+   [
+    "Clawback",
+    "Drag-along right",
+    "Catch-up",
+    "Most favoured nation (MFN) clause"
+   ],
+   3,
+   "An MFN clause entitles the investor to terms as favourable as those given to comparable investors."
+  ],
+  [
+   "Legal Documentation and Negotiation – Investor Perspective",
+   "A 'clawback' provision in AIF documents protects investors by:",
+   [
+    "Allowing the fund to recall distributions to pay management fees",
+    "Letting investors withdraw at any time",
+    "Requiring the manager to return carried interest that turns out to be excess on final reckoning",
+    "Capping the fund's total expenses"
+   ],
+   2,
+   "If early deals pay carry but later losses mean total carry was overpaid, the manager must give back the excess."
+  ],
+  [
+   "Fund Monitoring, Reporting and Exit",
+   "During the life of a close-ended AIF, which of the following is a common exit route for the fund's portfolio investments?",
+   [
+    "Initial public offering or strategic sale of the investee company",
+    "Redemption of units by the investee company",
+    "Daily repurchase by the AIF",
+    "Conversion into bank deposits"
+   ],
+   0,
+   "PE funds realise value by taking companies public, selling to strategic buyers or other funds, or by buybacks."
+  ],
+  [
+   "Fund Monitoring, Reporting and Exit",
+   "If an AIF makes a material change to its PPM, dissenting investors must ordinarily be:",
+   [
+    "Offered an option to exit the scheme",
+    "Forced to accept the change",
+    "Charged a penalty for objecting",
+    "Shifted to a mutual fund scheme"
+   ],
+   0,
+   "SEBI requires that investors who do not agree to material changes be given an exit option."
+  ],
+  [
+   "Fund Monitoring, Reporting and Exit",
+   "When a close-ended AIF reaches the end of its tenure with some investments still unsold, one outcome allowed under SEBI's framework is:",
+   [
+    "Automatic conversion into an open-ended fund",
+    "Write-off of the investments to zero",
+    "Distribution of the unsold investments to investors in specie, subject to investor approval",
+    "Transfer of the investments to the distributor"
+   ],
+   2,
+   "SEBI's liquidation framework permits in-specie distribution or a liquidation scheme for unliquidated investments with investor consent."
+  ],
+  [
+   "Valuation",
+   "Valuation of unlisted investments held by Category I and II AIFs is required to be carried out by:",
+   [
+    "The distributor who sold the fund",
+    "The investee company's own management only",
+    "An independent valuer, following a disclosed valuation methodology",
+    "Any investor holding the most units"
+   ],
+   2,
+   "Independence avoids conflicts, since manager fees and reported performance depend on valuations."
+  ],
+  [
+   "Valuation",
+   "For a young start-up with no revenue that recently raised money from an arm's-length investor, the most suitable starting point for valuation is often:",
+   [
+    "Dividend discount model",
+    "The price of the recent investment round, adjusted for subsequent developments",
+    "Book value of fixed assets",
+    "Liquidation value"
+   ],
+   1,
+   "With no earnings or cash flows to model, a recent arm's-length price is a key reference, calibrated for later changes."
+  ],
+  [
+   "Valuation",
+   "Which valuation approach values a mature, profitable unlisted company by applying peer multiples like EV/EBITDA?",
+   [
+    "Market (comparable companies) approach",
+    "Cost approach",
+    "Net asset approach",
+    "Replacement value approach"
+   ],
+   0,
+   "Applying listed peer or transaction multiples to the company's metrics is the market approach."
+  ],
+  [
+   "Taxation – India Specific",
+   "For Category I and II AIFs, income other than business income is generally taxed:",
+   [
+    "Only at the fund level at the maximum marginal rate",
+    "Neither in the fund's nor the investors' hands",
+    "In the hands of investors, as if they had invested directly (pass-through)",
+    "Only when the fund is wound up"
+   ],
+   2,
+   "Indian tax law gives Category I and II AIFs pass-through status for non-business income."
+  ],
+  [
+   "Taxation – India Specific",
+   "If a Category II AIF earns business income, that income is:",
+   [
+    "Exempt in the fund's hands and taxed in the investor's hands",
+    "Taxed at the fund level, not passed through",
+    "Fully exempt",
+    "Taxed only for foreign investors"
+   ],
+   1,
+   "Pass-through is denied for business income, which is taxed at the AIF level."
+  ],
+  [
+   "Taxation – India Specific",
+   "The pass-through regime for Category I and II AIFs means an investor needs to know:",
+   [
+    "Only the total amount distributed",
+    "Only the fund's NAV",
+    "The nature of the income (capital gains, interest, dividend) allocated to them, as reported by the fund",
+    "Nothing, since all income is exempt"
+   ],
+   2,
+   "Because tax is levied as if the investor earned the income directly, its character determines the investor's tax treatment."
+  ],
+  [
+   "Good Practices",
+   "An AIF distributor is approached by a retired client with ₹1.2 crore of total savings who needs regular income. Recommending that she commit ₹1 crore to a 10-year PE fund is:",
+   [
+    "Suitable, because she meets the minimum ticket size",
+    "Suitable, because PE returns are higher",
+    "Unsuitable, because it concentrates her savings in an illiquid product that does not match her income need",
+    "Acceptable if she signs a risk disclaimer"
+   ],
+   2,
+   "Meeting the minimum investment does not make a product suitable; liquidity needs and concentration matter."
+  ],
+  [
+   "Good Practices",
+   "Under SEBI's direct plan requirement for AIFs, a direct plan:",
+   [
+    "Is available only to foreign investors",
+    "Charges a higher management fee",
+    "Is allowed only for Category III",
+    "Carries no distribution fee or placement fee"
+   ],
+   3,
+   "Investors approaching an AIF directly or through a SEBI-registered investment adviser can invest via a direct plan without distribution charges."
+  ],
+  [
+   "Good Practices",
+   "For Category I and II AIFs (other than certain exempt cases), distribution commission must be paid:",
+   [
+    "Entirely upfront at first close",
+    "Largely on an equal trail basis, with at most one-third of the total distribution fee payable upfront",
+    "Only on exit of the fund",
+    "As a percentage of the carried interest"
+   ],
+   1,
+   "SEBI moved AIF commissions toward trail payments to reduce mis-selling, permitting only a limited upfront portion for Category I and II."
+  ]
+ ],
+ "xix-b": [
+  [
+   "Overview of Alternative Investments",
+   "Hedge-fund-style strategies are usually described as 'absolute return' strategies because they:",
+   [
+    "Aim to generate positive returns across market conditions rather than merely beat an index",
+    "Guarantee a fixed return every year",
+    "Track an index with zero tracking error",
+    "Invest only in government securities"
+   ],
+   0,
+   "Absolute return funds target returns independent of market direction, using tools such as shorting and hedging."
+  ],
+  [
+   "Overview of Alternative Investments",
+   "Compared with a long-only equity mutual fund, a typical hedge fund strategy is more likely to:",
+   [
+    "Be restricted to large-cap stocks",
+    "Offer daily liquidity with no lock-in",
+    "Use short selling, derivatives and leverage",
+    "Be sold to retail investors with ₹500 SIPs"
+   ],
+   2,
+   "Hedge strategies rely on flexible tools like shorting, derivatives and leverage that mutual funds use only in limited ways."
+  ],
+  [
+   "Overview of Alternative Investments",
+   "Which statement about the risk of alternative investments is correct?",
+   [
+    "Alternatives always have lower risk than equities",
+    "Alternative assets cannot lose capital",
+    "Risk in alternatives is measured only by credit rating",
+    "Reported volatility may understate true risk when assets are illiquid or infrequently priced"
+   ],
+   3,
+   "Smoothed pricing of illiquid holdings can make returns look less volatile than economic reality."
+  ],
+  [
+   "Overview of Alternative Investments",
+   "An investor allocates 10% of his portfolio to a market-neutral strategy. The most likely objective is to:",
+   [
+    "Maximise exposure to an equity rally",
+    "Earn a fixed coupon",
+    "Add returns with low correlation to the direction of the equity market",
+    "Eliminate all risk from the portfolio"
+   ],
+   2,
+   "Market-neutral funds balance long and short exposure to reduce market beta, so returns come mostly from stock selection."
+  ],
+  [
+   "Growth of AIFs in India and Suitability of Category III AIFs",
+   "Which feature makes Category III AIFs different from Category I and II AIFs?",
+   [
+    "They must invest only in unlisted start-ups",
+    "They receive tax pass-through status",
+    "They may employ leverage and complex trading strategies, including derivatives",
+    "They cannot invest in listed securities"
+   ],
+   2,
+   "Category III funds trade with a view to short-term returns and may use leverage, unlike Category I and II."
+  ],
+  [
+   "Growth of AIFs in India and Suitability of Category III AIFs",
+   "Category III AIFs, unlike Category I and II AIFs, may be structured as:",
+   [
+    "Only close-ended",
+    "Only interval schemes",
+    "Only exchange-traded funds",
+    "Open-ended or close-ended"
+   ],
+   3,
+   "Category I and II AIFs must be close-ended, while Category III may be either."
+  ],
+  [
+   "Growth of AIFs in India and Suitability of Category III AIFs",
+   "Which investor is generally most suitable for a leveraged long-short Category III AIF?",
+   [
+    "A first-time investor seeking capital protection",
+    "A retiree depending on the investment for monthly expenses",
+    "An investor who needs the money within three months",
+    "A financially sophisticated investor with a high risk appetite and investable surplus well beyond the minimum ticket"
+   ],
+   3,
+   "Leverage and complex strategies suit investors who understand them and can absorb losses without affecting their essential needs."
+  ],
+  [
+   "Growth of AIFs in India and Suitability of Category III AIFs",
+   "A client has a total financial portfolio of ₹1.5 crore. Placing ₹1 crore of it in a single Category III fund is a concern mainly because of:",
+   [
+    "Exceeding the maximum investment limit",
+    "The fund being unable to accept individuals",
+    "Concentration risk relative to the client's overall wealth",
+    "Tax being levied twice"
+   ],
+   2,
+   "Two-thirds of wealth in one complex strategy concentrates risk, even though the ₹1 crore minimum is met."
+  ],
+  [
+   "Growth of AIFs in India and Suitability of Category III AIFs",
+   "A Category III AIF that mainly invests in listed equities with a long-only, concentrated approach would compete most directly with:",
+   [
+    "Bank recurring deposits",
+    "Portfolio management services and active equity mutual funds",
+    "Venture capital funds",
+    "Infrastructure investment trusts"
+   ],
+   1,
+   "Long-only Category III funds offer listed equity exposure similar to PMS and active mutual funds, differing in structure, fees and taxation."
+  ],
+  [
+   "Introduction to Category III AIF Ecosystem",
+   "In a Category III AIF, the entity that sets up the fund and contributes the continuing interest is the:",
+   [
+    "Sponsor",
+    "Custodian",
+    "Registrar and transfer agent",
+    "Auditor"
+   ],
+   0,
+   "The sponsor establishes the AIF and must maintain the required continuing interest in the scheme."
+  ],
+  [
+   "Introduction to Category III AIF Ecosystem",
+   "Which entity is responsible for investment decisions and day-to-day management of a Category III AIF?",
+   [
+    "The trustee",
+    "The distributor",
+    "The investment manager",
+    "The valuer"
+   ],
+   2,
+   "The manager runs the portfolio within the PPM; the trustee oversees, and others provide services."
+  ],
+  [
+   "Introduction to Category III AIF Ecosystem",
+   "A prime broker typically provides a Category III AIF with:",
+   [
+    "Distribution of fund units to retail investors",
+    "Statutory audit of accounts",
+    "Securities lending, financing, trade clearing and custody-related services",
+    "Registration of the fund with SEBI"
+   ],
+   2,
+   "Prime brokers support hedge-fund strategies with leverage, stock borrowing and consolidated clearing."
+  ],
+  [
+   "Introduction to Category III AIF Ecosystem",
+   "An AIF distributor's role in the Category III ecosystem is primarily to:",
+   [
+    "Decide which stocks the fund buys",
+    "Value the portfolio at month-end",
+    "Hold investors' units in safe custody",
+    "Identify suitable investors, explain the product and its risks, and facilitate onboarding"
+   ],
+   3,
+   "Distributors are responsible for sales conduct and suitability, not investment or operational functions."
+  ],
+  [
+   "Category III AIF: Fund Structures and Service Providers",
+   "Most Category III AIFs in India are set up as trusts. The trustee's role is to:",
+   [
+    "Execute the fund's trades",
+    "Market the fund",
+    "Oversee that the fund is managed in line with the trust deed and investors' interests",
+    "Compute investors' tax returns"
+   ],
+   2,
+   "The trustee holds trust property and supervises the manager's compliance with the trust deed and PPM."
+  ],
+  [
+   "Category III AIF: Fund Structures and Service Providers",
+   "Why must a Category III AIF appoint a custodian?",
+   [
+    "To guarantee investor returns",
+    "To safekeep the fund's securities independently of the manager",
+    "To approve investment decisions",
+    "To act as the fund's distributor"
+   ],
+   1,
+   "Independent custody reduces the risk of misuse of assets; SEBI requires AIFs to appoint a custodian."
+  ],
+  [
+   "Category III AIF: Fund Structures and Service Providers",
+   "The fund accountant or fund administrator of a Category III AIF is mainly responsible for:",
+   [
+    "Sourcing new investors",
+    "Choosing the fund's benchmark index",
+    "Approving investment committee decisions",
+    "Maintaining books of accounts and computing NAV"
+   ],
+   3,
+   "Fund administration covers accounting, NAV computation and investor records."
+  ],
+  [
+   "Category III AIF: Fund Structures and Service Providers",
+   "A Category III fund running a long-short strategy needs to borrow shares to short. This service is usually arranged through:",
+   [
+    "The fund's statutory auditor",
+    "Securities lending and borrowing via a prime broker or exchange mechanism",
+    "The registrar and transfer agent",
+    "The trustee's bank account"
+   ],
+   1,
+   "Short sales require borrowing shares, typically through SLB facilities arranged via brokers."
+  ],
+  [
+   "Category III AIF: Fund Structures and Service Providers",
+   "Units issued by AIFs to investors are now required to be held in:",
+   [
+    "Physical certificates only",
+    "Dematerialised form",
+    "Bearer form",
+    "Unregistered form at the manager's office"
+   ],
+   1,
+   "SEBI requires AIF units to be dematerialised, improving transparency and record-keeping."
+  ],
+  [
+   "Regulatory Framework",
+   "For Category III AIFs, SEBI caps leverage such that gross exposure does not exceed:",
+   [
+    "One time the NAV",
+    "Five times the NAV",
+    "Two times the fund's NAV",
+    "Ten times the NAV"
+   ],
+   2,
+   "Category III AIFs may use leverage only up to a gross exposure of 2x NAV."
+  ],
+  [
+   "Regulatory Framework",
+   "A Category III AIF has NAV of ₹150 crore. What is the maximum gross exposure it can take under the leverage cap?",
+   [
+    "₹150 crore",
+    "₹300 crore",
+    "₹225 crore",
+    "₹450 crore"
+   ],
+   1,
+   "Maximum gross exposure = 2 × NAV = 2 × ₹150 crore = ₹300 crore."
+  ],
+  [
+   "Regulatory Framework",
+   "The sponsor or manager of a Category III AIF must maintain a continuing interest of:",
+   [
+    "The lower of 2.5% of the corpus or ₹5 crore",
+    "Exactly 1% of the corpus",
+    "Nothing, as Category III is exempt",
+    "The lower of 5% of the corpus or ₹10 crore"
+   ],
+   3,
+   "Category III has a higher skin-in-the-game requirement than Category I and II."
+  ],
+  [
+   "Regulatory Framework",
+   "A Category III AIF has a corpus of ₹150 crore. The minimum continuing interest of the sponsor/manager is:",
+   [
+    "₹7.5 crore",
+    "₹10 crore",
+    "₹3.75 crore",
+    "₹15 crore"
+   ],
+   0,
+   "5% × ₹150 crore = ₹7.5 crore, which is lower than ₹10 crore."
+  ],
+  [
+   "Regulatory Framework",
+   "Which investors are exempt from the ₹1 crore minimum investment requirement in an AIF?",
+   [
+    "All resident individuals",
+    "Any investor introduced by a distributor",
+    "Investors in close-ended schemes",
+    "Accredited investors"
+   ],
+   3,
+   "Accredited investors, certified by an accreditation agency, can invest below ₹1 crore."
+  ],
+  [
+   "Regulatory Framework",
+   "Individual accredited investor status in India is granted by:",
+   [
+    "An accreditation agency recognised by SEBI",
+    "The AIF's distributor",
+    "The investor's bank branch",
+    "The fund manager after a phone call"
+   ],
+   0,
+   "Accreditation agencies (subsidiaries of depositories/exchanges) verify income and net-worth criteria and issue certificates."
+  ],
+  [
+   "Regulatory Framework",
+   "From whom should an investor expect to receive the PPM and complete KYC before investing in a Category III AIF?",
+   [
+    "From the stock exchange website",
+    "From the AIF or its manager/distributor, as part of the private placement process",
+    "From the RBI",
+    "Only after the investment is made"
+   ],
+   1,
+   "AIF units are privately placed; investors must receive the PPM and complete KYC before subscribing."
+  ],
+  [
+   "Fees Structure, Fund Performance and Benchmarking",
+   "A Category III fund's NAV rose from ₹100 to ₹120 in a year. The performance fee is 20% of gains above the high-water mark of ₹100, with no hurdle. Fee per unit is:",
+   [
+    "₹20",
+    "₹4",
+    "₹2",
+    "₹24"
+   ],
+   1,
+   "Gain above HWM = 120 − 100 = ₹20; 20% × ₹20 = ₹4 per unit."
+  ],
+  [
+   "Fees Structure, Fund Performance and Benchmarking",
+   "A fund's NAV starts the year at ₹100 (also the high-water mark), falls to ₹90 at the end of year 1 and rises to ₹110 at the end of year 2. With 20% performance fee on gains above HWM, the year-2 fee per unit is:",
+   [
+    "₹2",
+    "₹4",
+    "₹0",
+    "₹6"
+   ],
+   0,
+   "Only gains above the HWM of ₹100 earn fees: (110 − 100) × 20% = ₹2; the recovery from 90 to 100 is not charged."
+  ],
+  [
+   "Fees Structure, Fund Performance and Benchmarking",
+   "The main purpose of a high-water mark in hedge fund fees is to:",
+   [
+    "Cap the management fee",
+    "Guarantee the investor's capital",
+    "Prevent the manager from earning performance fees twice on the same gains after a loss",
+    "Set the minimum investment"
+   ],
+   2,
+   "Performance fees are payable only when NAV exceeds the previous peak on which fees were charged."
+  ],
+  [
+   "Fees Structure, Fund Performance and Benchmarking",
+   "A Category III AIF reports a Sharpe ratio. If the fund returned 15%, the risk-free rate was 7% and the fund's standard deviation was 16%, the Sharpe ratio is:",
+   [
+    "0.50",
+    "0.94",
+    "0.44",
+    "1.00"
+   ],
+   0,
+   "Sharpe = (15 − 7) / 16 = 0.50."
+  ],
+  [
+   "Fees Structure, Fund Performance and Benchmarking",
+   "A long-short fund earned 12% while the Nifty 50 TRI earned 18%. The distributor tells a client the fund 'underperformed'. Why is this comparison potentially misleading?",
+   [
+    "Nifty 50 TRI cannot be used for any fund",
+    "Returns of AIFs cannot be compared with anything",
+    "A long-short fund has lower net market exposure, so it should be judged against a benchmark reflecting its risk and strategy",
+    "Long-short funds are guaranteed to beat indices"
+   ],
+   2,
+   "Benchmarks should match the strategy's exposure; a long-only index penalises a hedged fund in a rally and flatters it in a fall."
+  ],
+  [
+   "Fees Structure, Fund Performance and Benchmarking",
+   "A fund's NAV fell from a peak of ₹150 to a trough of ₹120 before recovering. Its maximum drawdown is:",
+   [
+    "20%",
+    "25%",
+    "30%",
+    "12%"
+   ],
+   0,
+   "Maximum drawdown = (150 − 120) / 150 = 20%."
+  ],
+  [
+   "Fees Structure, Fund Performance and Benchmarking",
+   "Under SEBI's framework, distribution commission for Category III AIFs must be paid:",
+   [
+    "Fully upfront",
+    "Only on an equal trail basis, with no upfront commission",
+    "One-third upfront and the rest on trail",
+    "Only from carried interest"
+   ],
+   1,
+   "Category III AIFs cannot pay upfront distribution commission; it must be on equal trail."
+  ],
+  [
+   "Category III AIF Investment Strategies and Due Diligence Process",
+   "A fund buys shares in the cash market and simultaneously sells the same quantity in futures to capture the price difference. This is:",
+   [
+    "Cash-futures arbitrage",
+    "Directional long-only investing",
+    "Global macro trading",
+    "Venture debt"
+   ],
+   0,
+   "Buying spot and selling futures locks in the basis, earning a near-risk-free spread if held to expiry."
+  ],
+  [
+   "Category III AIF Investment Strategies and Due Diligence Process",
+   "A fund holding long positions of ₹70 crore and short positions of ₹30 crore has a NAV of ₹50 crore. Its gross exposure and net exposure are:",
+   [
+    "Gross ₹40 crore; net ₹100 crore",
+    "Gross ₹100 crore; net ₹40 crore long",
+    "Gross ₹70 crore; net ₹30 crore",
+    "Gross ₹50 crore; net ₹20 crore"
+   ],
+   1,
+   "Gross = 70 + 30 = ₹100 crore (2x NAV); net = 70 − 30 = ₹40 crore long."
+  ],
+  [
+   "Category III AIF Investment Strategies and Due Diligence Process",
+   "An 'event-driven' strategy seeks to profit from:",
+   [
+    "Changes in weather",
+    "Only the RBI's repo rate decisions",
+    "Holding index stocks without trading",
+    "Corporate events such as mergers, demergers, buybacks or restructurings"
+   ],
+   3,
+   "Event-driven managers trade securities whose prices are expected to move due to specific corporate actions."
+  ],
+  [
+   "Category III AIF Investment Strategies and Due Diligence Process",
+   "In due diligence of a Category III fund, checking whether the manager's actual trading matches the strategy described in the PPM is a test of:",
+   [
+    "Survivorship bias",
+    "Style drift",
+    "Dividend yield",
+    "Tax efficiency"
+   ],
+   1,
+   "Style drift occurs when a manager deviates from the stated strategy, changing the risk the investor signed up for."
+  ],
+  [
+   "Category III AIF Investment Strategies and Due Diligence Process",
+   "Which question is most relevant during operational due diligence of a hedge-style AIF?",
+   [
+    "What was the manager's college grade?",
+    "Who independently prices the portfolio and reconciles positions with the custodian and prime broker?",
+    "Which index did the fund beat last month?",
+    "How many advertisements does the fund run?"
+   ],
+   1,
+   "Independent pricing and reconciliation are core operational controls that guard against errors and fraud."
+  ],
+  [
+   "Category III AIF Investment Strategies and Due Diligence Process",
+   "A 'quantitative' Category III strategy primarily relies on:",
+   [
+    "Discretionary judgement of a single analyst",
+    "Physical commodity storage",
+    "Lending to unlisted companies",
+    "Systematic models and data-driven rules to take positions"
+   ],
+   3,
+   "Quant funds use statistical models and algorithms to generate trading signals."
+  ],
+  [
+   "Category III AIF Investment Strategies and Due Diligence Process",
+   "A client asks why a market-neutral fund lost money when the market rose. The most likely explanation is:",
+   [
+    "Its short positions rose more than its long positions, so stock selection hurt",
+    "Market-neutral funds always lose in rising markets",
+    "The fund must have been fully long",
+    "Leverage is prohibited for such funds"
+   ],
+   0,
+   "With market beta hedged, returns depend on the relative performance of longs versus shorts."
+  ],
+  [
+   "Valuation",
+   "The NAV per unit of a Category III AIF with total assets of ₹105 crore, liabilities of ₹5 crore and 1 crore units outstanding is:",
+   [
+    "₹105",
+    "₹100",
+    "₹110",
+    "₹95"
+   ],
+   1,
+   "NAV = (105 − 5) / 1 crore units = ₹100 per unit."
+  ],
+  [
+   "Valuation",
+   "Listed equity shares held by a Category III AIF are ordinarily valued at:",
+   [
+    "Their market price on the valuation date",
+    "Their purchase cost",
+    "Their face value",
+    "The manager's estimate of intrinsic value"
+   ],
+   0,
+   "Liquid listed securities are marked to market using exchange prices."
+  ],
+  [
+   "Valuation",
+   "Why is the valuation of thinly traded or unlisted positions a key risk in a Category III fund?",
+   [
+    "Such positions are always valued at zero",
+    "SEBI fixes their prices daily",
+    "They do not affect NAV",
+    "NAV-based fees and investor entry/exit prices depend on judgement-based valuations"
+   ],
+   3,
+   "Subjective marks can distort NAV, fees and fairness between entering and exiting investors."
+  ],
+  [
+   "Valuation",
+   "In an open-ended Category III AIF, accurate NAV is important for fairness because:",
+   [
+    "NAV only matters at final liquidation",
+    "Distributors are paid on NAV only",
+    "Investors subscribe and redeem at NAV, so mispricing transfers value between investors",
+    "NAV is used to set the risk-free rate"
+   ],
+   2,
+   "If NAV is overstated, redeeming investors gain at the expense of those staying; understated NAV does the reverse."
+  ],
+  [
+   "Taxation",
+   "How is a Category III AIF set up as a trust generally taxed in India?",
+   [
+    "All income passes through to investors",
+    "It is fully tax exempt",
+    "It does not get pass-through status; income is generally taxed at the fund level",
+    "Only the distributor pays tax"
+   ],
+   2,
+   "Statutory pass-through is limited to Category I and II, so Category III income is taxed at the trust level."
+  ],
+  [
+   "Taxation",
+   "Since tax on a Category III trust's income is largely paid at the fund level, distributions to investors are generally:",
+   [
+    "Not taxed again in investors' hands",
+    "Taxed again at the investor's slab rate",
+    "Treated as salary income",
+    "Subject to GST"
+   ],
+   0,
+   "Avoiding double taxation, income already taxed in the trust is typically not taxed again on distribution."
+  ],
+  [
+   "Taxation",
+   "A Category III fund trades frequently in derivatives. The tax authorities may treat the resulting income as:",
+   [
+    "Agricultural income",
+    "Exempt income",
+    "Salary income",
+    "Business income rather than capital gains"
+   ],
+   3,
+   "Frequent trading, especially in derivatives, is commonly characterised as business income."
+  ],
+  [
+   "Taxation",
+   "When comparing a Category III AIF with PMS for a client, a key tax difference is that in PMS:",
+   [
+    "No tax is ever payable",
+    "The client is taxed directly on each transaction in the portfolio",
+    "Tax is paid by the portfolio manager",
+    "Tax is deferred until the client dies"
+   ],
+   1,
+   "PMS holdings are in the client's name, so gains, dividends and interest are taxed in the client's hands as they arise."
+  ],
+  [
+   "Good Practices",
+   "A distributor promises a client that a Category III long-short fund 'cannot lose money because it is hedged'. This is:",
+   [
+    "Mis-selling, because hedged strategies can still lose money",
+    "Acceptable, since hedging removes all risk",
+    "Acceptable if the client is wealthy",
+    "Required disclosure"
+   ],
+   0,
+   "No strategy is risk-free; implying guaranteed outcomes is misleading."
+  ],
+  [
+   "Good Practices",
+   "Before recommending a Category III AIF, a distributor should first:",
+   [
+    "Assess the client's risk profile, investment horizon, liquidity needs and understanding of the product",
+    "Check the fund's commission rate",
+    "Confirm the client has ₹1 crore and nothing else",
+    "Get the client to sign a blank form"
+   ],
+   0,
+   "Suitability assessment is the foundation of ethical distribution."
+  ],
+  [
+   "Good Practices",
+   "A distributor receives higher trail commission from Fund A than Fund B. Good practice requires the distributor to:",
+   [
+    "Recommend Fund A since it pays more",
+    "Hide the commission difference",
+    "Split the commission with the client",
+    "Disclose the commission and recommend based on client suitability, not on commission"
+   ],
+   3,
+   "Conflicts of interest must be disclosed and must not drive recommendations; sharing commission as a rebate is also improper."
+  ]
+ ],
+ "xix-c": [
+  [
+   "Investments Landscape",
+   "An investor earns a nominal return of 10% when inflation is 6%. Using the exact Fisher relationship, the real return is approximately:",
+   [
+    "4.00%",
+    "16.00%",
+    "6.00%",
+    "3.77%"
+   ],
+   3,
+   "Real return = (1.10 / 1.06) − 1 ≈ 3.77%."
+  ],
+  [
+   "Investments Landscape",
+   "Which of the following is a real asset rather than a financial asset?",
+   [
+    "A corporate bond",
+    "An equity share",
+    "A fixed deposit receipt",
+    "A commercial office building"
+   ],
+   3,
+   "Real assets are physical or tangible; financial assets are claims on them or on issuers."
+  ],
+  [
+   "Types of Investments",
+   "Which of these is a hybrid security combining features of debt and equity?",
+   [
+    "Treasury bill",
+    "Equity share",
+    "Compulsorily convertible debenture",
+    "Commercial paper"
+   ],
+   2,
+   "A CCD pays interest like debt and later converts into equity, which is why it is widely used in PE deals."
+  ],
+  [
+   "Types of Investments",
+   "Mezzanine financing in private markets typically ranks:",
+   [
+    "Above senior secured debt",
+    "Equal to common equity",
+    "Below common equity",
+    "Below senior secured debt but above common equity"
+   ],
+   3,
+   "Mezzanine is subordinated debt or preferred capital that sits between senior loans and equity in the capital structure."
+  ],
+  [
+   "Concept of Informational Efficiency",
+   "If prices fully reflect all publicly available information, so that fundamental analysis of published data cannot consistently earn excess returns, the market is:",
+   [
+    "Weak form efficient only",
+    "Strong form efficient",
+    "Inefficient",
+    "Semi-strong form efficient"
+   ],
+   3,
+   "Semi-strong efficiency means public information (including financial statements) is already in prices."
+  ],
+  [
+   "Concept of Informational Efficiency",
+   "Private equity managers argue that they can earn excess returns partly because:",
+   [
+    "Private company prices are published daily",
+    "Insider trading laws do not apply to anyone",
+    "Private companies have no information asymmetry",
+    "Private markets are less informationally efficient than listed markets"
+   ],
+   3,
+   "Limited disclosure and fewer participants create information gaps that skilled managers can exploit."
+  ],
+  [
+   "Introduction to Modern Portfolio Theory",
+   "Two assets each have standard deviation of 20% and correlation of +1. A 50:50 portfolio of them will have a standard deviation of:",
+   [
+    "10%",
+    "20%",
+    "14.1%",
+    "0%"
+   ],
+   1,
+   "With perfect positive correlation there is no diversification benefit; portfolio σ is the weighted average, 20%."
+  ],
+  [
+   "Introduction to Modern Portfolio Theory",
+   "The efficient frontier represents portfolios that:",
+   [
+    "Have zero risk",
+    "Contain only one asset",
+    "Offer the highest expected return for each level of risk",
+    "Have the lowest return for each level of risk"
+   ],
+   2,
+   "Portfolios on the frontier dominate all others with the same risk."
+  ],
+  [
+   "Introduction to Capital Market Theory",
+   "Using CAPM, if the risk-free rate is 6%, the expected market return is 12% and a fund's beta is 1.2, its required return is:",
+   [
+    "14.4%",
+    "12.0%",
+    "13.2%",
+    "7.2%"
+   ],
+   2,
+   "Required return = 6% + 1.2 × (12% − 6%) = 6% + 7.2% = 13.2%."
+  ],
+  [
+   "Introduction to Capital Market Theory",
+   "According to capital market theory, which risk is compensated by a higher expected return?",
+   [
+    "Systematic (market) risk",
+    "Company-specific risk",
+    "Total risk including diversifiable risk",
+    "Operational risk at the investee level"
+   ],
+   0,
+   "Diversifiable risk can be removed at no cost, so only systematic risk (beta) earns a premium."
+  ],
+  [
+   "Introduction to Capital Market Theory",
+   "A fund earned 14% with a beta of 1.0 while CAPM predicted 12%. Its Jensen's alpha is:",
+   [
+    "−2%",
+    "+14%",
+    "+2%",
+    "+1.2%"
+   ],
+   2,
+   "Alpha = actual return − CAPM required return = 14% − 12% = +2%."
+  ],
+  [
+   "AIFs in India and Its Suitability",
+   "An AIF that invests in unlisted equity of growth companies, cannot use leverage for investments, and receives no specific government incentives fits:",
+   [
+    "Category I",
+    "Category II",
+    "Category III",
+    "None; it must be a mutual fund"
+   ],
+   1,
+   "Category II is the residual category for PE and debt funds without leverage or specific incentives."
+  ],
+  [
+   "AIFs in India and Its Suitability",
+   "A fund manager wants to launch an open-ended fund offering periodic liquidity and using derivatives for hedging and leverage. Which AIF category fits?",
+   [
+    "Category I",
+    "Category III",
+    "Category II",
+    "Angel fund"
+   ],
+   1,
+   "Only Category III AIFs may be open-ended and use leverage."
+  ],
+  [
+   "AIFs in India and Its Suitability",
+   "Social impact funds are a sub-category of:",
+   [
+    "Category I AIFs",
+    "Category II AIFs",
+    "Category III AIFs",
+    "Mutual funds"
+   ],
+   0,
+   "Social impact funds (formerly social venture funds) fall under Category I."
+  ],
+  [
+   "AIF Ecosystem",
+   "Which ecosystem participant is responsible for ensuring the AIF's assets are kept safely and separately from the manager?",
+   [
+    "Placement agent",
+    "Investment committee",
+    "Fund's legal counsel",
+    "Custodian"
+   ],
+   3,
+   "A custodian holds securities independently, reducing misuse risk; SEBI mandates custodians for AIFs."
+  ],
+  [
+   "AIF Ecosystem",
+   "In an Indian AIF, the 'sponsor' is:",
+   [
+    "The largest investor",
+    "The company in which the AIF invests",
+    "The person who sets up the AIF and maintains a continuing interest in it",
+    "The SEBI officer handling registration"
+   ],
+   2,
+   "The sponsor establishes the AIF (e.g. promoter of a company or settlor of a trust) and keeps skin in the game."
+  ],
+  [
+   "AIF Ecosystem",
+   "SEBI requires that at least one key investment team member of the AIF manager hold the relevant NISM certification. The purpose is to:",
+   [
+    "Replace the need for an investment committee",
+    "Allow the manager to skip KYC",
+    "Guarantee investor returns",
+    "Ensure a minimum standard of knowledge in the team managing investors' money"
+   ],
+   3,
+   "Certification raises baseline competence of those making investment decisions."
+  ],
+  [
+   "AIF Structuring",
+   "The main advantage of using a trust structure for an Indian Category II AIF is:",
+   [
+    "Statutory tax pass-through for non-business income and operational flexibility",
+    "Limited liability for the trustee under the Companies Act",
+    "Ability to list units on day one",
+    "Exemption from SEBI regulation"
+   ],
+   0,
+   "Trusts are flexible and Category I/II trusts get pass-through status under tax law."
+  ],
+  [
+   "AIF Structuring",
+   "An Indian AIF accepts foreign investors, but its sponsor and manager are Indian-owned and controlled. Under FEMA, its downstream investments are:",
+   [
+    "Treated as domestic investments",
+    "Treated as foreign direct investment",
+    "Prohibited",
+    "Subject to RBI prior approval in all cases"
+   ],
+   0,
+   "Downstream investment by an AIF is considered indirect foreign investment only if the sponsor or manager is foreign-owned or controlled."
+  ],
+  [
+   "AIF Structuring",
+   "Many AIFs offer different unit classes (e.g. for the manager team). The main purpose is to:",
+   [
+    "Give some investors preferential exit at others' expense",
+    "Apply different fee or carry terms to different investor groups as disclosed in the PPM",
+    "Avoid KYC for some classes",
+    "Bypass the minimum investment rule"
+   ],
+   1,
+   "Unit classes administer differential fees and carry (e.g. carry units for the team) within SEBI's pro-rata rights framework."
+  ],
+  [
+   "Fee Structure and Fund Performance",
+   "Fund size ₹100 crore; total proceeds ₹150 crore; preferred return equals ₹8 crore; carry 20% with 100% GP catch-up. What is the manager's total carry?",
+   [
+    "₹10 crore",
+    "₹8.4 crore",
+    "₹8 crore",
+    "₹12 crore"
+   ],
+   0,
+   "With full catch-up the manager ends up with 20% of total profit: 20% × (150 − 100) = ₹10 crore."
+  ],
+  [
+   "Fee Structure and Fund Performance",
+   "Same fund (₹100 crore capital, ₹150 crore proceeds, ₹8 crore preferred return, 20% carry) but with no catch-up. The carry is:",
+   [
+    "₹10 crore",
+    "₹8.4 crore",
+    "₹8 crore",
+    "₹1.6 crore"
+   ],
+   1,
+   "Without catch-up, carry is 20% of profit above the hurdle: 20% × (50 − 8) = ₹8.4 crore."
+  ],
+  [
+   "Fee Structure and Fund Performance",
+   "A 'European' (whole-of-fund) distribution waterfall differs from an 'American' (deal-by-deal) waterfall because:",
+   [
+    "The manager earns carry on each profitable exit immediately",
+    "Investors receive all contributed capital plus hurdle before the manager earns carry",
+    "There is no hurdle in European waterfalls",
+    "It applies only to Category III funds"
+   ],
+   1,
+   "Whole-of-fund waterfalls defer carry until the entire fund returns capital and hurdle, which is more investor-friendly."
+  ],
+  [
+   "Fee Structure and Fund Performance",
+   "A management fee of 2% p.a. is charged on committed capital of ₹250 crore during the investment period. The annual fee is:",
+   [
+    "₹5 crore",
+    "₹2.5 crore",
+    "₹50 lakh",
+    "₹10 crore"
+   ],
+   0,
+   "2% × ₹250 crore = ₹5 crore per year."
+  ],
+  [
+   "Indices and Benchmarking",
+   "For comparing a Category I or II AIF's performance with public markets, the Public Market Equivalent (PME) approach:",
+   [
+    "Compares the fund's IRR with the index's one-year return",
+    "Invests the fund's cash flows hypothetically in a public index to compare outcomes",
+    "Uses only the fund's final NAV",
+    "Ignores the timing of cash flows"
+   ],
+   1,
+   "PME mirrors the fund's contributions and distributions in an index so that timing is matched."
+  ],
+  [
+   "Indices and Benchmarking",
+   "SEBI's performance benchmarking framework for AIFs relies on:",
+   [
+    "Benchmarking agencies that publish industry benchmarks using data reported by AIFs",
+    "Each AIF choosing any benchmark it likes without reporting",
+    "The RBI publishing AIF returns",
+    "Distributors calculating returns for each investor"
+   ],
+   0,
+   "AIFs report data to benchmarking agencies, which publish industry-level performance (e.g. by vintage) for comparison."
+  ],
+  [
+   "Investment Strategies, Investment Process and Governance of Funds",
+   "An AIF's investment committee includes external members. Under SEBI's rules, these external members:",
+   [
+    "Are responsible for investment decisions they approve, subject to the conditions in the regulations",
+    "Bear no responsibility for decisions",
+    "Must be SEBI officers",
+    "Can be anonymous to investors"
+   ],
+   0,
+   "Investment committee members, including external ones, are accountable for decisions and must comply with the PPM and regulations."
+  ],
+  [
+   "Investment Strategies, Investment Process and Governance of Funds",
+   "A 'buyout' strategy differs from a 'growth equity' strategy in that it typically:",
+   [
+    "Takes small minority stakes in early-stage start-ups",
+    "Acquires a controlling stake, often using acquisition debt",
+    "Invests only in listed shares",
+    "Avoids any change in management"
+   ],
+   1,
+   "Buyouts gain control and often use leverage at the company level to drive returns."
+  ],
+  [
+   "Investment Strategies, Investment Process and Governance of Funds",
+   "Which is the best example of conflict-of-interest management in an AIF?",
+   [
+    "Allocating attractive deals first to the manager's personal account",
+    "Letting the manager value its own assets without review",
+    "Not disclosing fees received from investee companies",
+    "Requiring investor approval for transactions with the sponsor's associates"
+   ],
+   3,
+   "Related-party deals need prior investor approval (75% by value) to protect investors."
+  ],
+  [
+   "Investment Strategies, Investment Process and Governance of Funds",
+   "A Category II debt AIF invests in a stressed company's loans and later converts them to equity. Its investment process should particularly include:",
+   [
+    "Only a review of past share prices",
+    "Index-tracking rules",
+    "Detailed credit, legal and recovery analysis, including security and enforceability",
+    "Daily NAV publication"
+   ],
+   2,
+   "Credit and stressed strategies depend on security, legal rights and recovery prospects."
+  ],
+  [
+   "Fund Due Diligence – Investor Perspective",
+   "During due diligence, an investor finds the manager's reported gross IRR is 25% but net IRR is 16%. The difference mainly reflects:",
+   [
+    "Management fees, fund expenses and carried interest",
+    "Investor's personal tax",
+    "Inflation",
+    "Currency conversion only"
+   ],
+   0,
+   "Net IRR is after fees, expenses and carry, which investors actually receive."
+  ],
+  [
+   "Fund Due Diligence – Investor Perspective",
+   "Which is a legitimate concern about a fund's reported track record?",
+   [
+    "Use of audited financial statements",
+    "Reporting both gross and net returns",
+    "Disclosure of all funds managed",
+    "Selective presentation of only successful past funds or deals"
+   ],
+   3,
+   "Cherry-picking deals (survivorship/selection bias) overstates skill."
+  ],
+  [
+   "Fund Due Diligence – Investor Perspective",
+   "An investor wants assurance that a manager will act in investors' interest. The strongest alignment signal is:",
+   [
+    "A low hurdle rate",
+    "Glossy marketing material",
+    "A meaningful personal commitment by the manager team to the fund",
+    "A high management fee"
+   ],
+   2,
+   "When managers invest their own money, they share investors' outcomes."
+  ],
+  [
+   "Legal Documentation and Negotiations",
+   "A 'no-fault divorce' clause in fund documents allows investors to:",
+   [
+    "Exit the fund individually at any time",
+    "Avoid paying any fees from day one",
+    "Remove the manager or terminate the investment period by a specified supermajority vote, even without cause",
+    "Transfer units without consent"
+   ],
+   2,
+   "It gives investors collective power to replace the manager without having to prove misconduct."
+  ],
+  [
+   "Legal Documentation and Negotiations",
+   "If an investor fails to meet a capital call, AIF documents usually provide that:",
+   [
+    "Other investors must pay the shortfall with no consequence to the defaulter",
+    "The fund must be wound up",
+    "SEBI pays the shortfall",
+    "The defaulting investor may face penalties such as forfeiture or forced sale of its interest"
+   ],
+   3,
+   "Default provisions protect the fund and non-defaulting investors from funding gaps."
+  ],
+  [
+   "Legal Documentation and Negotiations",
+   "Under SEBI's rules on investor rights, an AIF generally must ensure that each investor's rights in a scheme are:",
+   [
+    "Determined by the distributor",
+    "Equal per investor regardless of commitment",
+    "Decided after each investment",
+    "Pro-rata to its commitment, except for differential rights permitted within SEBI's framework"
+   ],
+   3,
+   "SEBI requires pro-rata and pari-passu rights; differential rights are allowed only within prescribed limits."
+  ],
+  [
+   "Valuation",
+   "IPEV-style valuation guidelines require unlisted investments to be measured at:",
+   [
+    "Fair value at the reporting date",
+    "Historical cost until exit",
+    "Face value",
+    "The lowest price ever paid"
+   ],
+   0,
+   "Fair value reflects the price that would be received in an orderly transaction at the measurement date."
+  ],
+  [
+   "Valuation",
+   "A portfolio company has EBITDA of ₹40 crore; comparable listed peers trade at 10x EV/EBITDA; net debt is ₹100 crore. Applying the multiple, the equity value is:",
+   [
+    "₹400 crore",
+    "₹500 crore",
+    "₹140 crore",
+    "₹300 crore"
+   ],
+   3,
+   "EV = 10 × 40 = ₹400 crore; equity = 400 − 100 = ₹300 crore (before any illiquidity discount)."
+  ],
+  [
+   "Valuation",
+   "Why are discounts for lack of marketability sometimes applied in private company valuation?",
+   [
+    "Because unlisted companies never make profits",
+    "Because the holding cannot be readily sold, unlike a comparable listed share",
+    "To reduce management fees",
+    "Because SEBI fixes a flat discount"
+   ],
+   1,
+   "Illiquidity reduces value relative to otherwise similar freely traded securities."
+  ],
+  [
+   "Fund Monitoring, Reporting and Exit",
+   "A secondary sale of an LP interest allows an investor in a close-ended AIF to:",
+   [
+    "Force the fund to redeem its units",
+    "Exit before fund maturity by selling its interest to another investor",
+    "Increase its commitment without approval",
+    "Avoid paying carry"
+   ],
+   1,
+   "The secondaries market provides liquidity for otherwise illiquid fund interests."
+  ],
+  [
+   "Fund Monitoring, Reporting and Exit",
+   "An AIF must conduct an annual audit of compliance with the terms of its PPM. The findings are typically placed before:",
+   [
+    "The trustee/board of the AIF and the sponsor/manager, with reporting to SEBI as required",
+    "Only the distributor",
+    "The stock exchange",
+    "The investee companies"
+   ],
+   0,
+   "The PPM audit checks that the fund operates as promised, and results go to those charged with oversight."
+  ],
+  [
+   "Fund Monitoring, Reporting and Exit",
+   "Which report is most useful for an investor tracking a PE fund's progress during its life?",
+   [
+    "Periodic capital account statements showing contributions, distributions and NAV",
+    "Daily stock exchange bhavcopy",
+    "The manager's personal bank statement",
+    "The distributor's commission statement"
+   ],
+   0,
+   "Capital account statements track the investor's position and support IRR/TVPI calculation."
+  ],
+  [
+   "Taxation",
+   "Losses incurred by a Category I or II AIF (other than business losses) are generally:",
+   [
+    "Absorbed by the sponsor",
+    "Never usable by anyone",
+    "Passed through to investors, subject to conditions such as minimum holding of units",
+    "Refunded by the government"
+   ],
+   2,
+   "Tax law allows non-business losses to be passed through to unit holders who meet holding conditions."
+  ],
+  [
+   "Taxation",
+   "The tax character of income distributed by a Category II AIF to its investors is:",
+   [
+    "Always converted into dividend income",
+    "Retained, so capital gains remain capital gains in the investor's hands",
+    "Always converted into business income",
+    "Always treated as exempt income"
+   ],
+   1,
+   "Pass-through preserves the nature of income for the investor."
+  ],
+  [
+   "Taxation",
+   "A Category III AIF earning trading income from derivatives is generally taxed:",
+   [
+    "At the fund level, as Category III does not have statutory pass-through",
+    "Only in investors' hands",
+    "Under GST only",
+    "Not at all"
+   ],
+   0,
+   "Category III is outside the statutory pass-through regime."
+  ],
+  [
+   "Regulatory Framework",
+   "Which body registers and regulates AIFs in India?",
+   [
+    "RBI",
+    "SEBI",
+    "IRDAI",
+    "PFRDA"
+   ],
+   1,
+   "AIFs are governed by the SEBI (Alternative Investment Funds) Regulations, 2012."
+  ],
+  [
+   "Regulatory Framework",
+   "The minimum continuing interest for a Category I AIF with a corpus of ₹120 crore is:",
+   [
+    "₹5 crore",
+    "₹6 crore",
+    "₹3 crore",
+    "₹12 crore"
+   ],
+   2,
+   "Lower of 2.5% × ₹120 crore (₹3 crore) and ₹5 crore = ₹3 crore."
+  ],
+  [
+   "Regulatory Framework",
+   "Under the PMLA framework, an AIF is required to:",
+   [
+    "Report only to its distributors",
+    "Avoid verifying beneficial owners",
+    "Carry out KYC on investors and report suspicious transactions",
+    "Accept cash subscriptions of any amount"
+   ],
+   2,
+   "AIFs are reporting entities and must perform KYC/CDD, identify beneficial owners and report suspicious transactions."
+  ],
+  [
+   "Regulatory Framework",
+   "The Stewardship Code issued by SEBI requires AIFs to:",
+   [
+    "Guarantee investor returns",
+    "Invest only in listed companies",
+    "Have a policy for monitoring and engaging with investee companies and voting",
+    "Avoid voting in shareholder meetings"
+   ],
+   2,
+   "Stewardship principles require institutional investors to monitor, engage and disclose voting policies."
+  ],
+  [
+   "Regulatory Framework",
+   "Before launching a new scheme, an AIF must ordinarily:",
+   [
+    "Obtain a credit rating for the scheme",
+    "File the scheme's PPM with SEBI through a SEBI-registered merchant banker",
+    "List the scheme's units on a stock exchange",
+    "Seek approval from the RBI"
+   ],
+   1,
+   "SEBI requires scheme PPMs to be filed through a merchant banker, who carries out due diligence on the disclosures."
+  ]
+ ],
+ "xix-d": [
+  [
+   "Investments Landscape",
+   "Which investor type is typically best positioned to hold long-dated, illiquid private equity commitments?",
+   [
+    "A household saving for a house purchase next year",
+    "A money market fund",
+    "A pension fund or endowment with long-term liabilities",
+    "A corporate treasury managing daily working capital"
+   ],
+   2,
+   "Long-horizon institutions can tolerate illiquidity and earn the associated premium."
+  ],
+  [
+   "Investments Landscape",
+   "The 'illiquidity premium' in private markets refers to:",
+   [
+    "Extra expected return investors demand for locking up capital",
+    "A fee paid to exit early",
+    "The discount on listed shares at IPO",
+    "A regulatory charge on AIFs"
+   ],
+   0,
+   "Investors require compensation for being unable to sell freely, raising expected returns on illiquid assets."
+  ],
+  [
+   "Types of Investments",
+   "Venture debt provided by a Category II AIF to a start-up typically:",
+   [
+    "Ranks below common equity",
+    "Is guaranteed by the government",
+    "Supplements equity funding and often carries warrants giving the lender equity upside",
+    "Never carries interest"
+   ],
+   2,
+   "Venture debt lends to VC-backed companies, usually with warrants to compensate for higher risk."
+  ],
+  [
+   "Types of Investments",
+   "A private credit fund lending to mid-sized companies earns returns mainly from:",
+   [
+    "Dividend income from listed stocks",
+    "Daily trading of index futures",
+    "Rental income from offices",
+    "Interest income, fees and repayment of principal"
+   ],
+   3,
+   "Private credit returns are contractual cash flows from loans rather than equity appreciation."
+  ],
+  [
+   "Types of Investments",
+   "Which instrument gives a PE investor downside protection through priority in liquidation while retaining upside?",
+   [
+    "Plain equity shares",
+    "Convertible preference shares with a liquidation preference",
+    "Treasury bills",
+    "Unsecured trade payables"
+   ],
+   1,
+   "Liquidation preference returns capital first, while conversion allows participation in upside."
+  ],
+  [
+   "AIFs in India and Its Suitability",
+   "A fund that will invest in infrastructure projects such as roads and power, and that registers under a category regarded as socially or economically desirable, is a:",
+   [
+    "Category III hedge fund",
+    "Category I infrastructure fund",
+    "Category II fund-of-funds",
+    "Mutual fund infrastructure scheme"
+   ],
+   1,
+   "Infrastructure funds are a sub-category of Category I AIFs."
+  ],
+  [
+   "AIFs in India and Its Suitability",
+   "Why can Category I and II AIFs not be open-ended?",
+   [
+    "SEBI prohibits all open-ended funds",
+    "Open-ended funds cannot hold equity",
+    "They invest in illiquid unlisted assets, so the regulations require them to be close-ended",
+    "Investors in them are always foreign"
+   ],
+   2,
+   "Illiquid portfolios cannot meet ongoing redemptions, so a close-ended structure with fixed tenure is mandated."
+  ],
+  [
+   "AIFs in India and Its Suitability",
+   "A family office with a 3-year horizon asks to invest in a newly launched 10-year Category II PE fund. The manager should recognise that:",
+   [
+    "The investor can redeem at NAV any time",
+    "Tenure is irrelevant for suitability",
+    "The fund can be converted to open-ended for them",
+    "The fund is unsuitable unless the family office can tolerate holding to maturity or selling in the secondary market"
+   ],
+   3,
+   "Investment horizon must match the fund's tenure; close-ended AIFs offer no redemption before maturity."
+  ],
+  [
+   "AIF Ecosystem",
+   "The main role of a placement agent for a Category II AIF is to:",
+   [
+    "Value portfolio companies",
+    "Introduce the fund to prospective investors during fundraising",
+    "Hold the fund's securities in custody",
+    "Approve investments as part of the investment committee"
+   ],
+   1,
+   "Placement agents and distributors help raise commitments."
+  ],
+  [
+   "AIF Ecosystem",
+   "Which participant provides independent assurance on the AIF's financial statements?",
+   [
+    "Investment manager",
+    "Placement agent",
+    "Investee company",
+    "Statutory auditor"
+   ],
+   3,
+   "The auditor examines and reports on the accounts independently."
+  ],
+  [
+   "AIF Ecosystem",
+   "An AIF manager is required to appoint a compliance officer. This officer is responsible for:",
+   [
+    "Monitoring compliance with the SEBI AIF Regulations and circulars and reporting non-compliance",
+    "Generating deal flow",
+    "Negotiating investee valuations",
+    "Raising commitments"
+   ],
+   0,
+   "The compliance officer oversees regulatory compliance for the manager and the AIF."
+  ],
+  [
+   "AIF Structuring",
+   "In an AIF set up as a trust, the investment manager is appointed by:",
+   [
+    "The investors individually",
+    "SEBI directly",
+    "The custodian",
+    "The trustee through an investment management agreement"
+   ],
+   3,
+   "The trustee delegates management to the manager under an investment management agreement."
+  ],
+  [
+   "AIF Structuring",
+   "Compared with a trust, an LLP structure for an AIF:",
+   [
+    "Is mandatory for Category II AIFs",
+    "Offers limited liability to partners but is less commonly used for Indian AIFs",
+    "Cannot be registered with SEBI",
+    "Has no legal personality"
+   ],
+   1,
+   "LLPs are permitted for AIFs but trusts dominate due to flexibility and established tax treatment."
+  ],
+  [
+   "AIF Structuring",
+   "A domestic AIF wants to raise money from both Indian and offshore investors. A common approach is:",
+   [
+    "Two separate SEBI registrations for the same scheme",
+    "Accepting foreign money without KYC",
+    "Onshore AIF with a co-investing or feeder offshore vehicle for foreign LPs",
+    "Converting the AIF into a mutual fund"
+   ],
+   2,
+   "Unified or feeder structures let foreign investors invest efficiently while the AIF remains SEBI-regulated."
+  ],
+  [
+   "AIF Structuring",
+   "Under SEBI's rules on co-investment, a manager offering co-investment opportunities to AIF investors alongside the AIF must ensure that:",
+   [
+    "Co-investors get priority exit over the AIF",
+    "Only the manager's employees co-invest",
+    "Co-investment terms are not more favourable than the AIF's terms for the same investee",
+    "Co-investment is done without any disclosure"
+   ],
+   2,
+   "To protect fund investors, co-investment must be on terms no better than those of the AIF and exit must be aligned."
+  ],
+  [
+   "AIF Structuring",
+   "A manager wants a separate unit class for the sponsor team carrying no management fee. This is generally acceptable if:",
+   [
+    "It is disclosed in the PPM and consistent with SEBI's rules on differential rights",
+    "It is kept confidential from other investors",
+    "The team invests less than ₹1 lakh",
+    "SEBI is not informed"
+   ],
+   0,
+   "Different fee classes are common but must be transparent and within SEBI's framework."
+  ],
+  [
+   "Fee Structure of AIFs",
+   "Management fees during a fund's investment period are usually charged on:",
+   [
+    "Only realised gains",
+    "Committed capital",
+    "The investee companies' revenues",
+    "Distributions made"
+   ],
+   1,
+   "Fees on commitments fund the manager while capital is being deployed; post-investment period fees often step down to invested capital."
+  ],
+  [
+   "Fee Structure of AIFs",
+   "A fund with ₹500 crore commitments charges 2% p.a. on commitments during the 4-year investment period and 1.5% on invested capital of ₹400 crore thereafter. What is the annual fee after the investment period?",
+   [
+    "₹10 crore",
+    "₹7.5 crore",
+    "₹6 crore",
+    "₹8 crore"
+   ],
+   2,
+   "1.5% × ₹400 crore = ₹6 crore per year."
+  ],
+  [
+   "Fee Structure of AIFs",
+   "Fund capital ₹200 crore; total proceeds ₹260 crore; preferred return amount ₹16 crore; carry 20% with no catch-up. The manager's carry is:",
+   [
+    "₹8.8 crore",
+    "₹12 crore",
+    "₹3.2 crore",
+    "₹10.4 crore"
+   ],
+   0,
+   "Profit = ₹60 crore; above hurdle = 60 − 16 = ₹44 crore; carry = 20% × 44 = ₹8.8 crore."
+  ],
+  [
+   "Fee Structure of AIFs",
+   "In a carried interest waterfall, the 'GP catch-up' tier:",
+   [
+    "Returns all management fees to investors",
+    "Gives investors their capital back first",
+    "Applies only when the fund makes losses",
+    "Allocates a high share of profits to the manager after the hurdle until it has received its full carry percentage of total profits"
+   ],
+   3,
+   "Catch-up lets the manager 'catch up' so that its carry equals the agreed share of all profits, not just those above the hurdle."
+  ],
+  [
+   "Fund Performance and Benchmarking",
+   "A fund invested ₹20 crore in a company and realised ₹50 crore on exit. The multiple on invested capital (MOIC) is:",
+   [
+    "1.5x",
+    "2.5x",
+    "3.0x",
+    "0.4x"
+   ],
+   1,
+   "MOIC = 50 / 20 = 2.5x."
+  ],
+  [
+   "Fund Performance and Benchmarking",
+   "Fund A has an IRR of 30% but a MOIC of 1.3x; Fund B has an IRR of 18% and a MOIC of 2.5x. What best explains this?",
+   [
+    "Fund A must have made losses",
+    "IRR and MOIC always rank funds identically",
+    "Fund A returned capital quickly with modest gains; Fund B held longer and generated larger absolute gains",
+    "Fund B charged no fees"
+   ],
+   2,
+   "IRR is time-sensitive while MOIC measures absolute value; quick small wins can produce high IRR with low multiples."
+  ],
+  [
+   "Fund Performance and Benchmarking",
+   "When comparing a 2019-vintage fund with peers, the most appropriate peer group is:",
+   [
+    "All funds ever launched",
+    "Listed equity mutual funds",
+    "Funds of a different strategy in the same city",
+    "Funds of similar strategy and the same vintage year"
+   ],
+   3,
+   "Vintage-year and strategy matching controls for economic cycle and strategy differences."
+  ],
+  [
+   "Fund Performance and Benchmarking",
+   "RVPI for a fund with paid-in capital of ₹100 crore, distributions of ₹40 crore and residual value of ₹90 crore is:",
+   [
+    "0.9x",
+    "0.4x",
+    "1.3x",
+    "0.5x"
+   ],
+   0,
+   "RVPI = Residual value / Paid-in = 90 / 100 = 0.9x."
+  ],
+  [
+   "Legal Documentation and Negotiations",
+   "The Limited Partner Advisory Committee (or investor advisory committee) of a fund typically:",
+   [
+    "Reviews conflicts of interest and certain matters requiring investor consent",
+    "Makes all investment decisions",
+    "Acts as the fund's custodian",
+    "Markets the fund"
+   ],
+   0,
+   "LPACs provide an investor check on conflicts, valuations and waivers without running the portfolio."
+  ],
+  [
+   "Legal Documentation and Negotiations",
+   "A side letter granted to a large anchor investor should be handled in a way that:",
+   [
+    "Gives that investor priority distributions in all cases",
+    "Is hidden from the trustee",
+    "Overrides the PPM without disclosure",
+    "Respects SEBI's pro-rata rights framework and is disclosed as required"
+   ],
+   3,
+   "SEBI limits differential rights and requires transparency, so side letters must stay within those bounds."
+  ],
+  [
+   "Legal Documentation and Negotiations",
+   "A fund document provides that carry is placed in escrow until investors have received their capital back. This mainly protects against:",
+   [
+    "High management fees",
+    "The need for clawback if later deals lose money",
+    "Currency depreciation",
+    "Delays in KYC"
+   ],
+   1,
+   "Escrow holds back carry so that excess payments need not be recovered later."
+  ],
+  [
+   "Legal Documentation and Negotiations",
+   "A 'term sheet' between a PE fund and an investee company is primarily used to:",
+   [
+    "Register the fund with SEBI",
+    "Report NAV to investors",
+    "Set out the key commercial terms before definitive agreements are drafted",
+    "File the fund's tax return"
+   ],
+   2,
+   "Term sheets record valuation, rights and conditions that are then formalised in shareholder agreements."
+  ],
+  [
+   "Investment Strategies",
+   "In a PE deal, an 'anti-dilution' right protects the investor if:",
+   [
+    "The company later issues shares at a lower price than the investor paid",
+    "The company's revenue grows faster than expected",
+    "The investor wants to sell to a third party",
+    "The fund's management fee changes"
+   ],
+   0,
+   "Anti-dilution adjusts the investor's conversion price or shareholding in a down round."
+  ],
+  [
+   "Investment Strategies",
+   "A 'tag-along' right allows a minority investor to:",
+   [
+    "Sell its shares on the same terms when the majority shareholder sells",
+    "Force all shareholders to sell",
+    "Block any new hiring",
+    "Receive dividends before others"
+   ],
+   0,
+   "Tag-along protects minorities from being left behind when control changes hands."
+  ],
+  [
+   "Investment Strategies",
+   "A 'drag-along' right is valuable to a PE investor because it:",
+   [
+    "Guarantees a minimum IRR",
+    "Restricts the company from raising debt",
+    "Lets the investor avoid taxes",
+    "Lets the majority compel minority shareholders to join a sale, enabling a clean exit"
+   ],
+   3,
+   "Buyers often want 100% of a company; drag-along ensures holdouts cannot block a sale."
+  ],
+  [
+   "Investment Strategies",
+   "A Category I special situation fund's core opportunity typically lies in:",
+   [
+    "Short-term trading in index futures",
+    "Investing only in start-up seed rounds",
+    "Buying government bonds",
+    "Acquiring stressed loans or assets, including through insolvency and resolution processes"
+   ],
+   3,
+   "Special situation funds target stressed assets where restructuring can unlock value."
+  ],
+  [
+   "Investment Process and Governance of Funds",
+   "Which sequence best reflects the PE investment process?",
+   [
+    "Exit → closing → sourcing → due diligence",
+    "Closing → due diligence → sourcing → exit",
+    "Sourcing → screening → due diligence → investment committee approval → closing → monitoring → exit",
+    "Monitoring → sourcing → exit → screening"
+   ],
+   2,
+   "Deals are found and screened, then investigated, approved, closed, monitored and finally exited."
+  ],
+  [
+   "Investment Process and Governance of Funds",
+   "A fund manager learns that an investee is about to be acquired by a company in which another fund of the same manager holds a stake. The best practice is to:",
+   [
+    "Proceed without disclosure since both are the manager's funds",
+    "Disclose the conflict and follow the conflict-management policy, seeking investor approval where needed",
+    "Favour the fund with the higher fee",
+    "Ask the distributor to decide"
+   ],
+   1,
+   "Cross-fund conflicts must be disclosed and managed fairly under the manager's conflict policy."
+  ],
+  [
+   "Investment Process and Governance of Funds",
+   "In a Category I or II AIF, the PPM states the fund will invest in healthcare. The manager wants to invest in a fintech company. This would be:",
+   [
+    "A deviation from the PPM requiring investor consent as per the documents",
+    "Freely permitted",
+    "Permitted if the deal is profitable",
+    "Permitted if the distributor agrees"
+   ],
+   0,
+   "Managers must invest in line with the PPM; material deviations require consent and may trigger exit rights."
+  ],
+  [
+   "Investment Process and Governance of Funds",
+   "Which governance practice best supports objective investment decisions?",
+   [
+    "A documented investment committee process with recorded minutes and recusal for conflicted members",
+    "Decisions by a single partner without records",
+    "Approval by the investee company",
+    "Deciding investments by investor vote each time"
+   ],
+   0,
+   "Formal processes and recusals ensure accountability and reduce bias."
+  ],
+  [
+   "Valuation",
+   "Under SEBI's valuation framework, Category I and II AIFs value investments using:",
+   [
+    "IPEV guidelines or other valuation guidelines endorsed by an AIF industry association",
+    "Only historical cost",
+    "Any method chosen by the investee",
+    "Face value"
+   ],
+   0,
+   "SEBI specifies IPEV or industry-endorsed guidelines to standardise valuation."
+  ],
+  [
+   "Valuation",
+   "A DCF valuation of an investee uses free cash flow of ₹10 crore next year, growing 5% perpetually, and a discount rate of 15%. The enterprise value is:",
+   [
+    "₹66.7 crore",
+    "₹200 crore",
+    "₹100 crore",
+    "₹50 crore"
+   ],
+   2,
+   "Gordon growth: EV = 10 / (0.15 − 0.05) = ₹100 crore."
+  ],
+  [
+   "Valuation",
+   "A portfolio company's last funding round was at a valuation of ₹500 crore a year ago, but it has since missed targets and peers' multiples have halved. The fund should:",
+   [
+    "Recalibrate the valuation to reflect the deterioration rather than carry the last round price",
+    "Continue at ₹500 crore until exit",
+    "Double the value to reflect time",
+    "Mark it at zero automatically"
+   ],
+   0,
+   "Fair value must reflect current conditions; a stale round price is only a starting point."
+  ],
+  [
+   "Fund Monitoring, Reporting and Exit",
+   "Which exit route usually gives a PE fund the most control over timing and price?",
+   [
+    "Waiting for the investee to declare dividends",
+    "Strategic sale negotiated with a buyer",
+    "Open-market sale of unlisted shares",
+    "Liquidation of the company"
+   ],
+   1,
+   "Negotiated trade sales let the fund control process and price, unlike IPO windows that depend on markets."
+  ],
+  [
+   "Fund Monitoring, Reporting and Exit",
+   "A GP-led continuation fund allows a manager to:",
+   [
+    "Avoid any investor consent",
+    "Move selected assets from an expiring fund into a new vehicle, giving existing investors a choice to sell or roll over",
+    "Extend the fund indefinitely without disclosure",
+    "Convert the fund to open-ended"
+   ],
+   1,
+   "Continuation vehicles provide liquidity to investors who want out while allowing longer holding of promising assets."
+  ],
+  [
+   "Fund Monitoring, Reporting and Exit",
+   "AIFs must report activity to SEBI periodically. The primary purpose of such reporting is to:",
+   [
+    "Market funds to new investors",
+    "Enable regulatory oversight of investments, leverage, fundraising and compliance",
+    "Calculate investors' personal tax",
+    "Set management fees"
+   ],
+   1,
+   "Periodic reports help SEBI monitor AIF activity and systemic risks."
+  ],
+  [
+   "Taxation",
+   "For tax purposes, an AIF that is a Category I or II trust must provide each investor with:",
+   [
+    "Only a statement of total commitment",
+    "A statement of income allocated to them, broken down by nature",
+    "A GST invoice for returns",
+    "Nothing, as investors calculate their own income"
+   ],
+   1,
+   "Pass-through requires the fund to report the character and amount of income allocated to each investor."
+  ],
+  [
+   "Taxation",
+   "Carried interest received by fund managers in India is a tax question mainly because:",
+   [
+    "It is always exempt",
+    "It is taxed only outside India",
+    "Its characterisation (as capital gains, business income or fees) depends on facts and structuring",
+    "It is always salary"
+   ],
+   2,
+   "The treatment of carry is fact-dependent, so structuring and documentation matter."
+  ],
+  [
+   "Taxation",
+   "Management fees charged by an AIF manager to the fund are generally subject to:",
+   [
+    "Goods and Services Tax",
+    "Securities Transaction Tax",
+    "Stamp duty on each investor's PAN",
+    "No indirect tax"
+   ],
+   0,
+   "Management services are taxable services under GST."
+  ],
+  [
+   "Regulatory Framework",
+   "Category I and II AIFs may borrow only for temporary funding needs. Which of the following is a condition SEBI attaches to such borrowing?",
+   [
+    "It can be used to double the fund's investments",
+    "It is for meeting temporary shortfalls and is limited in amount, duration and frequency",
+    "It needs no disclosure to investors",
+    "It may be secured on investors' personal assets"
+   ],
+   1,
+   "SEBI permits only short-term operational borrowing with caps on size, tenure and frequency."
+  ],
+  [
+   "Regulatory Framework",
+   "A manager wants to launch a Category II scheme with a corpus of ₹15 crore. Under the regulations this is:",
+   [
+    "Permitted, as there is no minimum",
+    "Permitted for Category II only",
+    "Not permitted, as the minimum corpus is ₹20 crore",
+    "Permitted with RBI approval"
+   ],
+   2,
+   "Each scheme must have a minimum corpus of ₹20 crore (angel funds have separate rules)."
+  ],
+  [
+   "Regulatory Framework",
+   "Large value funds for accredited investors under the AIF Regulations enjoy relaxations such as:",
+   [
+    "Exemption from SEBI registration",
+    "Permission to raise money from retail investors",
+    "No KYC requirements",
+    "Higher investment concentration limits in a single investee company"
+   ],
+   3,
+   "LVFs serve sophisticated accredited investors and get relaxations like a higher single-investee limit."
+  ],
+  [
+   "Regulatory Framework",
+   "An AIF scheme must declare its first close within a period prescribed by SEBI after receiving SEBI's comments. The purpose of this timeline is to:",
+   [
+    "Guarantee returns",
+    "Fix the management fee",
+    "Restrict the number of distributors",
+    "Prevent schemes from remaining dormant indefinitely after approval"
+   ],
+   3,
+   "Timelines ensure that observations on PPMs are used promptly and schemes do not stay open indefinitely."
+  ],
+  [
+   "Regulatory Framework",
+   "Which of these is an obligation of the manager of a Category I or II AIF?",
+   [
+    "Guaranteeing a minimum IRR to investors",
+    "Acting as the fund's statutory auditor",
+    "Paying investors' income tax",
+    "Ensuring the fund invests in line with the PPM and regulations and maintaining records"
+   ],
+   3,
+   "The manager is responsible for compliant investment and record-keeping."
+  ]
+ ],
+ "xix-e": [
+  [
+   "Investments Landscape",
+   "Which feature of listed markets makes them the main playground for Category III strategies?",
+   [
+    "Absence of regulation",
+    "Liquidity and continuous price discovery that allow frequent trading and hedging",
+    "Guaranteed returns",
+    "Fixed prices set by SEBI"
+   ],
+   1,
+   "Category III funds trade actively, which requires liquid instruments with transparent prices."
+  ],
+  [
+   "Investments Landscape",
+   "An investor's 'risk capacity' differs from 'risk tolerance' in that capacity refers to:",
+   [
+    "The investor's emotional comfort with volatility",
+    "The financial ability to bear losses given income, wealth and obligations",
+    "The fund's leverage limit",
+    "The volatility of the benchmark"
+   ],
+   1,
+   "Capacity is objective (finances); tolerance is psychological willingness."
+  ],
+  [
+   "Types of Investments",
+   "A stock trading at ₹500 has a 1-month futures price of ₹505. A fund buys the stock and sells the futures. If held to expiry and prices converge, its gross gain per share is:",
+   [
+    "₹505",
+    "₹10",
+    "₹0",
+    "₹5"
+   ],
+   3,
+   "At expiry spot and futures converge, locking in the ₹5 basis captured at entry (before costs)."
+  ],
+  [
+   "Types of Investments",
+   "A fund buys a put option with strike ₹1,000 for a premium of ₹30. At expiry the underlying is at ₹940. The net payoff per unit is:",
+   [
+    "₹60 profit",
+    "₹30 profit",
+    "₹30 loss",
+    "₹90 profit"
+   ],
+   1,
+   "Intrinsic value = 1,000 − 940 = ₹60; net = 60 − 30 premium = ₹30 profit."
+  ],
+  [
+   "Types of Investments",
+   "Which instrument allows a Category III fund to take a short exposure to an index without borrowing stock?",
+   [
+    "Selling index futures",
+    "Buying index futures",
+    "Buying a call option",
+    "Buying the index ETF"
+   ],
+   0,
+   "A short futures position profits when the index falls and needs no stock borrowing."
+  ],
+  [
+   "Modern Portfolio Theory and Capital Market Theory",
+   "Two assets have standard deviations of 20% and 10% and zero correlation. A 50:50 portfolio has a standard deviation of approximately:",
+   [
+    "15.0%",
+    "10.0%",
+    "11.2%",
+    "22.4%"
+   ],
+   2,
+   "Variance = 0.25×0.04 + 0.25×0.01 = 0.0125; σ = √0.0125 ≈ 11.2%."
+  ],
+  [
+   "Modern Portfolio Theory and Capital Market Theory",
+   "The Capital Market Line (CML) plots:",
+   [
+    "Expected return against beta for individual securities",
+    "Bond yields against maturity",
+    "NAV against time",
+    "Expected return against total risk for efficient portfolios combining the risk-free asset and the market portfolio"
+   ],
+   3,
+   "The CML uses standard deviation and applies to efficient portfolios; the SML uses beta for any security."
+  ],
+  [
+   "Modern Portfolio Theory and Capital Market Theory",
+   "A security plotting above the Security Market Line is:",
+   [
+    "Overvalued",
+    "Fairly valued",
+    "Undervalued, as it offers a higher return than CAPM requires for its beta",
+    "Risk-free"
+   ],
+   2,
+   "Points above the SML have positive alpha relative to CAPM."
+  ],
+  [
+   "Modern Portfolio Theory and Capital Market Theory",
+   "A portfolio holds 60% in a stock with beta 1.5 and 40% in a stock with beta 0.5. The portfolio beta is:",
+   [
+    "1.1",
+    "1.0",
+    "0.9",
+    "2.0"
+   ],
+   0,
+   "Beta = 0.6×1.5 + 0.4×0.5 = 0.9 + 0.2 = 1.1."
+  ],
+  [
+   "AIFs in India and Its Suitability",
+   "Which characteristic of a Category III AIF is a key differentiator from a mutual fund?",
+   [
+    "It is offered to retail investors with small SIPs",
+    "It cannot invest in derivatives",
+    "It must publish daily NAV on exchanges",
+    "It may use leverage up to regulatory limits and is privately placed to investors meeting minimum ticket requirements"
+   ],
+   3,
+   "Category III AIFs are private, high-ticket vehicles with more flexible strategies than mutual funds."
+  ],
+  [
+   "AIFs in India and Its Suitability",
+   "Long-only listed-equity Category III AIFs compete with PMS. A key structural difference is that in a Category III AIF:",
+   [
+    "Investors hold each stock directly in their demat account",
+    "Investors hold units of a pooled fund rather than securities in their own names",
+    "There is no fund manager",
+    "There is no minimum investment"
+   ],
+   1,
+   "AIFs pool money and issue units; PMS holds securities in each client's own account."
+  ],
+  [
+   "AIFs in India and Its Suitability",
+   "Which investor profile is least suitable for a high-leverage Category III macro fund?",
+   [
+    "An investor with low risk tolerance who may need to redeem at short notice",
+    "A family office allocating a small portion of wealth",
+    "A large HNI with diversified holdings",
+    "An institutional investor seeking uncorrelated returns"
+   ],
+   0,
+   "High leverage and lock-ins make such funds unsuitable for risk-averse investors with liquidity needs."
+  ],
+  [
+   "AIF Ecosystem",
+   "A Category III fund's prime broker defaults. The risk the fund faces is best described as:",
+   [
+    "Counterparty risk",
+    "Inflation risk",
+    "Reinvestment risk",
+    "Duration risk"
+   ],
+   0,
+   "Exposure to a failing intermediary that holds collateral or provides financing is counterparty risk."
+  ],
+  [
+   "AIF Ecosystem",
+   "Which service provider computes and validates the NAV of an open-ended Category III fund?",
+   [
+    "Placement agent",
+    "Fund accountant / fund administrator",
+    "Investee company",
+    "Stock exchange"
+   ],
+   1,
+   "Fund administration includes independent NAV computation and investor record-keeping."
+  ],
+  [
+   "AIF Ecosystem",
+   "Why is an independent trustee important for a Category III AIF structured as a trust?",
+   [
+    "It executes trades faster",
+    "It markets units",
+    "It oversees the manager on behalf of investors, providing a check on conflicts",
+    "It sets the fund's leverage"
+   ],
+   2,
+   "Trustees supervise the manager's compliance with the trust deed and PPM."
+  ],
+  [
+   "AIF Structuring",
+   "In an open-ended Category III fund, 'equalisation' or series accounting is used to:",
+   [
+    "Equalise returns across all investors regardless of entry",
+    "Ensure each investor bears performance fees only on gains they actually earned",
+    "Equalise management fees with performance fees",
+    "Convert the fund to close-ended"
+   ],
+   1,
+   "Investors enter at different NAVs, so equalisation or series of units allocates performance fees fairly."
+  ],
+  [
+   "AIF Structuring",
+   "An open-ended Category III fund may impose a lock-in or exit load mainly to:",
+   [
+    "Increase the manager's management fee",
+    "Manage liquidity and protect remaining investors from costs of early redemptions",
+    "Avoid computing NAV",
+    "Bypass the leverage limit"
+   ],
+   1,
+   "Lock-ins and exit loads align redemptions with the liquidity of underlying positions."
+  ],
+  [
+   "AIF Structuring",
+   "A manager wants to run both a long-only and a long-short strategy for different investors under one AIF registration. This is typically done by:",
+   [
+    "Mixing both strategies in one unit class without disclosure",
+    "Registering as a mutual fund",
+    "Running one strategy through the distributor",
+    "Launching separate schemes under the same AIF, each with its own PPM disclosures"
+   ],
+   3,
+   "An AIF can launch multiple schemes, each with distinct strategy, terms and disclosures."
+  ],
+  [
+   "Fee Structure and Fund Performance",
+   "A Category III fund charges 2% management fee and 20% performance fee over a 10% hurdle (no catch-up). The gross return before fees is 25% on ₹100 NAV. Ignoring the management fee's effect on the hurdle, the performance fee per unit is:",
+   [
+    "₹5",
+    "₹3",
+    "₹2",
+    "₹4.6"
+   ],
+   1,
+   "Excess over hurdle = 25 − 10 = ₹15; 20% × 15 = ₹3 per unit."
+  ],
+  [
+   "Fee Structure and Fund Performance",
+   "A fund returned 18% with standard deviation 20% and beta 1.2; the risk-free rate is 6%. Its Treynor ratio is:",
+   [
+    "0.6",
+    "10%",
+    "15%",
+    "12%"
+   ],
+   1,
+   "Treynor = (18 − 6) / 1.2 = 10%."
+  ],
+  [
+   "Fee Structure and Fund Performance",
+   "A fund returned 14%, its benchmark 11%, and its tracking error was 4%. The information ratio is:",
+   [
+    "0.75",
+    "3.5",
+    "0.25",
+    "1.33"
+   ],
+   0,
+   "IR = (14 − 11) / 4 = 0.75."
+  ],
+  [
+   "Fee Structure and Fund Performance",
+   "Why is the Sortino ratio sometimes preferred to the Sharpe ratio for evaluating hedge strategies?",
+   [
+    "It penalises only downside volatility, not upside fluctuations",
+    "It ignores the risk-free rate",
+    "It uses beta instead of standard deviation",
+    "It measures only liquidity"
+   ],
+   0,
+   "Sortino divides excess return by downside deviation, which suits asymmetric return profiles."
+  ],
+  [
+   "Fee Structure and Fund Performance",
+   "For an open-ended Category III fund, which return measure best evaluates the manager's skill independent of investor cash flows?",
+   [
+    "Money-weighted IRR",
+    "Cash-on-cash multiple",
+    "Dividend yield",
+    "Time-weighted return"
+   ],
+   3,
+   "Time-weighted returns neutralise the effect of subscriptions and redemptions the manager does not control."
+  ],
+  [
+   "Indices and Benchmarking",
+   "A total return index (TRI) differs from a price return index because it:",
+   [
+    "Excludes all dividends",
+    "Is equally weighted",
+    "Assumes dividends are reinvested",
+    "Contains only bonds"
+   ],
+   2,
+   "TRI captures both price change and reinvested dividends, making it the fair benchmark for funds that receive dividends."
+  ],
+  [
+   "Indices and Benchmarking",
+   "The Nifty 50 index weights its constituents by:",
+   [
+    "Free-float market capitalisation",
+    "Share price alone",
+    "Equal weights",
+    "Revenue"
+   ],
+   0,
+   "NSE's headline indices use free-float market-cap weighting."
+  ],
+  [
+   "Indices and Benchmarking",
+   "A long-short fund running 30% net long exposure benchmarks itself against 100% Nifty 50 TRI. The main problem is that:",
+   [
+    "TRI cannot be used for AIFs",
+    "Nifty 50 is a bond index",
+    "The benchmark does not reflect the fund's lower market exposure and risk profile",
+    "Benchmarks are optional"
+   ],
+   2,
+   "A fair benchmark should match the strategy's exposure, e.g. a blend reflecting net beta or an absolute return target."
+  ],
+  [
+   "Legal Documentation and Negotiations",
+   "The PPM of a Category III fund should clearly disclose leverage because:",
+   [
+    "Leverage is not regulated",
+    "It is required only for Category I",
+    "It reduces investor risk",
+    "Leverage magnifies both gains and losses and is central to the fund's risk"
+   ],
+   3,
+   "Investors must understand how much leverage is used and its impact on risk."
+  ],
+  [
+   "Legal Documentation and Negotiations",
+   "A 'gate' provision in an open-ended hedge fund's documents allows the manager to:",
+   [
+    "Block all new subscriptions permanently",
+    "Charge investors a performance fee on losses",
+    "Limit total redemptions in a period to a set percentage of the fund",
+    "Avoid computing NAV"
+   ],
+   2,
+   "Gates prevent a run on the fund by spreading large redemptions over time."
+  ],
+  [
+   "Legal Documentation and Negotiations",
+   "In a Category III fund, a side pocket is used to:",
+   [
+    "Hold the manager's carried interest",
+    "Store investor KYC documents",
+    "Pay distributor commission",
+    "Segregate illiquid or hard-to-value assets from the main portfolio"
+   ],
+   3,
+   "Side pockets prevent illiquid assets from distorting NAV and redemptions in the main fund."
+  ],
+  [
+   "Investment Strategies",
+   "A pair trade long Bank A and short Bank B is designed primarily to profit from:",
+   [
+    "A rise in the overall market",
+    "A fall in interest rates only",
+    "Relative outperformance of Bank A over Bank B",
+    "Dividends from both banks"
+   ],
+   2,
+   "Market and sector exposure is hedged, so the fund gains if A beats B regardless of direction."
+  ],
+  [
+   "Investment Strategies",
+   "A global macro strategy primarily takes positions based on:",
+   [
+    "Detailed analysis of a single company's governance",
+    "Views on economies, interest rates, currencies and commodities",
+    "Seed-stage start-up funding",
+    "Real estate rental yields"
+   ],
+   1,
+   "Macro funds trade broad asset classes based on top-down economic views."
+  ],
+  [
+   "Investment Strategies",
+   "A fund sells covered calls on stocks it holds. The strategy aims to:",
+   [
+    "Earn option premium income while capping upside above the strike",
+    "Gain unlimited upside",
+    "Protect fully against a fall in the stock",
+    "Increase leverage beyond NAV"
+   ],
+   0,
+   "Covered calls generate income but give up gains above the strike; downside is only cushioned by the premium."
+  ],
+  [
+   "Investment Strategies",
+   "Momentum strategies rely on the empirical tendency that:",
+   [
+    "Recent winners always reverse immediately",
+    "Prices are random with no patterns",
+    "Only dividends determine returns",
+    "Recent winners tend to continue outperforming in the short to medium term"
+   ],
+   3,
+   "Momentum exploits short-to-medium-term persistence in relative returns."
+  ],
+  [
+   "Investment Strategies",
+   "A fund has NAV ₹100 crore, long positions of ₹130 crore and short positions of ₹70 crore. Its net exposure as a percentage of NAV is:",
+   [
+    "200% net long",
+    "30% net long",
+    "70% net short",
+    "60% net long"
+   ],
+   3,
+   "Net = 130 − 70 = ₹60 crore = 60% of NAV (gross is 200%)."
+  ],
+  [
+   "Governance of Funds and Due Diligence",
+   "Which control best mitigates 'fat-finger' and unauthorised trading risk in a Category III fund?",
+   [
+    "Pre-trade limits in the order system with independent risk monitoring",
+    "Allowing the PM to settle trades personally",
+    "Reviewing trades once a year",
+    "Relying solely on the broker"
+   ],
+   0,
+   "Automated limits and independent risk oversight prevent errors and rogue trading."
+  ],
+  [
+   "Governance of Funds and Due Diligence",
+   "During due diligence, an investor asks how the manager allocates trades among multiple funds. The investor is checking for:",
+   [
+    "Tax residency",
+    "Index composition",
+    "The manager's marketing budget",
+    "Fair trade allocation and conflicts of interest"
+   ],
+   3,
+   "Unfair allocation could favour higher-fee funds over others."
+  ],
+  [
+   "Governance of Funds and Due Diligence",
+   "A Category III fund's risk management policy is most likely to include:",
+   [
+    "A promise of minimum returns",
+    "Limits on leverage, concentration, liquidity and stress-loss scenarios",
+    "A ban on all derivatives",
+    "Only a list of distributors"
+   ],
+   1,
+   "Comprehensive risk policies cover exposure, concentration, liquidity and stress testing."
+  ],
+  [
+   "Valuation",
+   "For an exchange-traded derivative held by a Category III fund, the appropriate valuation is:",
+   [
+    "The premium originally paid",
+    "The notional value",
+    "The manager's forecast price",
+    "The exchange settlement or closing price on the valuation date"
+   ],
+   3,
+   "Liquid derivatives are marked to market using exchange prices."
+  ],
+  [
+   "Valuation",
+   "A listed stock held by the fund has not traded for several weeks. The most appropriate approach is to:",
+   [
+    "Use the last traded price indefinitely",
+    "Apply the fund's valuation policy for thinly traded securities, using fair value methods",
+    "Value it at zero",
+    "Value it at purchase cost forever"
+   ],
+   1,
+   "Stale prices may not reflect fair value; policies prescribe fair valuation for illiquid listed securities."
+  ],
+  [
+   "Valuation",
+   "Why should the valuation function be independent of the portfolio management team?",
+   [
+    "Because portfolio managers lack accounting skills",
+    "Because managers' fees and reported performance depend on valuations, creating a conflict",
+    "Because SEBI fixes all prices",
+    "Because NAV is not used for redemptions"
+   ],
+   1,
+   "Separation of valuation from investment decisions mitigates incentives to inflate NAV."
+  ],
+  [
+   "Fund Monitoring, Reporting and Exit",
+   "Value at Risk (VaR) of ₹2 crore at 95% confidence over one day means:",
+   [
+    "There is a 5% probability that the one-day loss will exceed ₹2 crore under normal conditions",
+    "The fund can never lose more than ₹2 crore",
+    "The fund will lose ₹2 crore on 95% of days",
+    "The maximum gain is ₹2 crore"
+   ],
+   0,
+   "VaR estimates a threshold loss at a given confidence; it does not cap the worst case."
+  ],
+  [
+   "Fund Monitoring, Reporting and Exit",
+   "When a Category III fund faces heavy redemption requests, a key monitoring concern is:",
+   [
+    "Liquidity of underlying positions relative to redemption obligations",
+    "The fund's logo design",
+    "The trustee's office location",
+    "The number of distributors"
+   ],
+   0,
+   "Funds must be able to meet redemptions without fire sales that harm remaining investors."
+  ],
+  [
+   "Fund Monitoring, Reporting and Exit",
+   "Stress testing a Category III portfolio involves:",
+   [
+    "Estimating losses under extreme but plausible market scenarios",
+    "Calculating historical average return",
+    "Measuring the fund's expense ratio",
+    "Checking KYC records"
+   ],
+   0,
+   "Stress tests reveal vulnerabilities that normal-condition measures like VaR may miss."
+  ],
+  [
+   "Taxation",
+   "A key reason Category III AIFs have different tax outcomes from Category I and II AIFs is that:",
+   [
+    "Category III cannot invest in Indian securities",
+    "Category III income is always exempt",
+    "Category III does not enjoy the statutory pass-through available to Category I and II",
+    "Category III is taxed under GST"
+   ],
+   2,
+   "Pass-through is statutorily restricted to Category I and II AIFs."
+  ],
+  [
+   "Taxation",
+   "For a Category III trust, whether gains are treated as business income or capital gains matters because:",
+   [
+    "The tax rate and treatment differ between the two heads of income",
+    "Neither head is taxable",
+    "Business income is always exempt",
+    "Capital gains are taxed as salary"
+   ],
+   0,
+   "High-frequency trading often leads to business income, which is taxed differently from capital gains."
+  ],
+  [
+   "Regulatory Framework",
+   "SEBI permits Category III AIFs to use leverage, but subject to:",
+   [
+    "No limits at all",
+    "A cap of 10 times NAV",
+    "A cap on gross exposure of 2 times NAV and disclosure to investors",
+    "Prior RBI approval for every trade"
+   ],
+   2,
+   "Category III leverage is capped at 2x NAV, with leverage disclosed to investors and SEBI."
+  ],
+  [
+   "Regulatory Framework",
+   "A Category III AIF with corpus ₹300 crore must have a sponsor/manager continuing interest of at least:",
+   [
+    "₹15 crore",
+    "₹5 crore",
+    "₹7.5 crore",
+    "₹10 crore"
+   ],
+   3,
+   "Lower of 5% × ₹300 crore (₹15 crore) and ₹10 crore = ₹10 crore."
+  ],
+  [
+   "Regulatory Framework",
+   "Category III AIFs may invest in derivatives:",
+   [
+    "Never",
+    "Only for hedging currency risk",
+    "For hedging and otherwise, within leverage and exposure limits set by SEBI",
+    "Only after investor-by-investor approval"
+   ],
+   2,
+   "Category III funds can use derivatives as part of strategy, subject to SEBI's leverage framework."
+  ],
+  [
+   "Regulatory Framework",
+   "Which body prescribes the investment, leverage and disclosure rules for Category III AIFs?",
+   [
+    "RBI",
+    "Ministry of Corporate Affairs",
+    "SEBI",
+    "The Institute of Chartered Accountants of India"
+   ],
+   2,
+   "SEBI regulates all AIF categories under the AIF Regulations, 2012."
+  ],
+  [
+   "Regulatory Framework",
+   "Distribution commission for a Category III AIF must be paid:",
+   [
+    "Entirely upfront",
+    "Up to one-third upfront",
+    "On an equal trail basis only, with no upfront component",
+    "As a share of performance fee"
+   ],
+   2,
+   "SEBI requires equal trail for Category III, curbing incentives for churning."
+  ]
+ ],
+ "xxi-a": [
+  [
+   "Investments",
+   "Investment differs from speculation mainly because investment:",
+   [
+    "Always involves borrowed money",
+    "Focuses on short-term price bets with high risk",
+    "Guarantees capital protection",
+    "Seeks returns from fundamental value over a reasonable horizon with assessed risk"
+   ],
+   3,
+   "Investing relies on the asset's underlying value and an appropriate horizon; speculation bets on short-term price moves."
+  ],
+  [
+   "Investments",
+   "₹10 lakh grows to ₹14.64 lakh in 4 years. The compound annual growth rate is approximately:",
+   [
+    "10%",
+    "11.6%",
+    "14.6%",
+    "9%"
+   ],
+   0,
+   "(14.64 / 10)^(1/4) − 1 = 1.1 − 1 = 10%, since 1.1^4 = 1.4641."
+  ],
+  [
+   "Investments",
+   "Which asset class is most suitable for preserving liquidity for an emergency fund?",
+   [
+    "Small-cap equities",
+    "Liquid or overnight debt instruments",
+    "Unlisted private equity",
+    "Real estate"
+   ],
+   1,
+   "Emergency money needs stable value and quick access, which short-term debt provides."
+  ],
+  [
+   "Introduction to Securities Markets",
+   "In the Indian equity cash market, the standard settlement cycle is:",
+   [
+    "T+3",
+    "T+5",
+    "T+1",
+    "T+7"
+   ],
+   2,
+   "Indian exchanges moved fully to T+1 settlement for equity cash trades."
+  ],
+  [
+   "Introduction to Securities Markets",
+   "Which entity holds investors' securities in electronic form in India?",
+   [
+    "Stock exchanges",
+    "Depositories such as NSDL and CDSL",
+    "SEBI",
+    "Registrar of Companies"
+   ],
+   1,
+   "Depositories maintain demat holdings through depository participants."
+  ],
+  [
+   "Introduction to Securities Markets",
+   "When a company issues new shares to the public through an IPO, the transaction takes place in the:",
+   [
+    "Primary market",
+    "Secondary market",
+    "Money market",
+    "Derivatives market"
+   ],
+   0,
+   "Fresh issuance from the issuer to investors is a primary market activity."
+  ],
+  [
+   "Investing in Stocks",
+   "A stock trades at ₹400 and its EPS is ₹20. Its P/E ratio is:",
+   [
+    "8,000",
+    "20",
+    "5",
+    "0.05"
+   ],
+   1,
+   "P/E = Price / EPS = 400 / 20 = 20."
+  ],
+  [
+   "Investing in Stocks",
+   "A company with consistently high return on equity and reinvesting most profits at high rates is typical of a:",
+   [
+    "Deep-value stock",
+    "Growth stock",
+    "Distressed stock",
+    "Fixed income security"
+   ],
+   1,
+   "Growth companies compound earnings by reinvesting at attractive returns."
+  ],
+  [
+   "Investing in Stocks",
+   "Which analysis studies price and volume charts to identify trading patterns?",
+   [
+    "Fundamental analysis",
+    "Credit analysis",
+    "Technical analysis",
+    "Actuarial analysis"
+   ],
+   2,
+   "Technical analysis infers future price moves from historical market data."
+  ],
+  [
+   "Investing in Stocks",
+   "A share paying a dividend of ₹12 is priced at ₹300. Its dividend yield is:",
+   [
+    "4%",
+    "25%",
+    "3.6%",
+    "12%"
+   ],
+   0,
+   "Dividend yield = 12 / 300 = 4%."
+  ],
+  [
+   "Investing in Fixed Income Securities",
+   "When market interest rates rise, prices of existing fixed-coupon bonds generally:",
+   [
+    "Rise",
+    "Stay unchanged",
+    "Fall",
+    "Become equal to face value"
+   ],
+   2,
+   "Higher prevailing yields make existing lower coupons less attractive, so prices drop."
+  ],
+  [
+   "Investing in Fixed Income Securities",
+   "A bond with face value ₹1,000 pays an 8% annual coupon and trades at ₹800. Its current yield is:",
+   [
+    "8%",
+    "6.4%",
+    "12.5%",
+    "10%"
+   ],
+   3,
+   "Current yield = annual coupon / price = 80 / 800 = 10%."
+  ],
+  [
+   "Investing in Fixed Income Securities",
+   "A bond has a modified duration of 5. If its yield rises by 0.5 percentage points, its price will change by approximately:",
+   [
+    "−2.5%",
+    "+2.5%",
+    "−5%",
+    "−0.5%"
+   ],
+   0,
+   "Price change ≈ −Modified duration × Δyield = −5 × 0.5% = −2.5%."
+  ],
+  [
+   "Investing in Fixed Income Securities",
+   "Credit risk in a corporate bond refers to the risk that:",
+   [
+    "Interest rates rise",
+    "The issuer fails to pay interest or principal on time",
+    "Inflation rises",
+    "The bond is called early"
+   ],
+   1,
+   "Credit risk is the risk of default or rating downgrade of the issuer."
+  ],
+  [
+   "Derivatives",
+   "A portfolio manager holding a large equity portfolio fears a short-term market fall. A suitable hedge is to:",
+   [
+    "Sell index futures",
+    "Buy index futures",
+    "Sell put options",
+    "Buy more stocks"
+   ],
+   0,
+   "A short index futures position gains when the market falls, offsetting portfolio losses."
+  ],
+  [
+   "Derivatives",
+   "A call option with strike ₹500 is bought for ₹20. At expiry the stock is at ₹540. The net profit per share is:",
+   [
+    "₹40",
+    "₹20",
+    "₹60",
+    "₹520"
+   ],
+   1,
+   "Payoff = 540 − 500 = ₹40; minus premium ₹20 = ₹20 profit."
+  ],
+  [
+   "Derivatives",
+   "The maximum loss for the buyer of an option is:",
+   [
+    "The premium paid",
+    "Unlimited",
+    "The strike price",
+    "The lot size times the spot price"
+   ],
+   0,
+   "An option buyer can let the option lapse, so the loss is capped at the premium."
+  ],
+  [
+   "Derivatives",
+   "Spot is ₹1,000, the annual financing rate is 8%, and no dividends are expected. The theoretical 3-month futures price (simple interest) is about:",
+   [
+    "₹1,020",
+    "₹1,080",
+    "₹1,000",
+    "₹1,008"
+   ],
+   0,
+   "Futures ≈ Spot × (1 + r × t) = 1,000 × (1 + 0.08 × 0.25) = ₹1,020."
+  ],
+  [
+   "Collective Investment Vehicles",
+   "A key difference between PMS and a mutual fund is that in PMS:",
+   [
+    "Investors buy units of a pooled fund",
+    "The minimum investment is ₹500",
+    "Securities are held in the client's own demat account, allowing a customised portfolio",
+    "There is no fund manager"
+   ],
+   2,
+   "PMS portfolios are individual accounts, unlike pooled mutual fund units."
+  ],
+  [
+   "Collective Investment Vehicles",
+   "Which collective investment vehicle is typically traded on a stock exchange throughout the day?",
+   [
+    "Open-ended equity mutual fund",
+    "Category II AIF",
+    "Closed-end PE fund",
+    "Exchange-traded fund"
+   ],
+   3,
+   "ETF units are listed and trade intraday at market prices."
+  ],
+  [
+   "Collective Investment Vehicles",
+   "Compared with PMS, a Category III AIF differs in that it:",
+   [
+    "Requires a lower minimum investment of ₹50 lakh",
+    "Is regulated by RBI",
+    "Pools investor money and issues units, rather than maintaining individual client portfolios",
+    "Holds stocks in each investor's name"
+   ],
+   2,
+   "AIFs are pooled vehicles; PMS keeps each client's assets separate."
+  ],
+  [
+   "Collective Investment Vehicles",
+   "An investor wants a diversified equity exposure with ₹2 lakh, daily liquidity and low cost. The most suitable option is:",
+   [
+    "A PMS account",
+    "An equity mutual fund or index fund",
+    "A Category II AIF",
+    "A Category III AIF"
+   ],
+   1,
+   "The amount is below PMS and AIF minimums, and mutual funds offer liquidity and low cost."
+  ],
+  [
+   "Role of Portfolio Managers",
+   "In a discretionary PMS, the portfolio manager:",
+   [
+    "Must seek client approval for every trade",
+    "Decides investments on the client's behalf within the agreed mandate",
+    "Only gives advice without executing",
+    "Guarantees a fixed return"
+   ],
+   1,
+   "Discretionary mandates give the manager authority to invest without trade-by-trade approval."
+  ],
+  [
+   "Role of Portfolio Managers",
+   "In a non-discretionary PMS, investment decisions are:",
+   [
+    "Executed by the portfolio manager only after client approval",
+    "Taken solely by the portfolio manager",
+    "Made by SEBI",
+    "Taken by the distributor"
+   ],
+   0,
+   "The client decides; the manager advises and executes on instruction."
+  ],
+  [
+   "Role of Portfolio Managers",
+   "A client wants recommendations but wishes to execute trades himself. The suitable PMS service is:",
+   [
+    "Discretionary portfolio management",
+    "Non-discretionary portfolio management",
+    "Advisory portfolio management",
+    "Co-investment portfolio management"
+   ],
+   2,
+   "Advisory PMS provides advice only; execution remains with the client."
+  ],
+  [
+   "Role of Portfolio Managers",
+   "The minimum investment for a client in PMS (other than accredited investors) is:",
+   [
+    "₹50 lakh",
+    "₹25 lakh",
+    "₹1 crore",
+    "₹10 lakh"
+   ],
+   0,
+   "SEBI's Portfolio Managers Regulations, 2020 set the minimum at ₹50 lakh in funds or securities."
+  ],
+  [
+   "Role of Portfolio Managers",
+   "A client offers to bring in ₹30 lakh in cash and ₹25 lakh worth of listed shares to open a PMS account. Is this permitted?",
+   [
+    "No, the entire ₹50 lakh must be in cash",
+    "No, securities cannot be transferred into PMS",
+    "Yes, but only in advisory PMS",
+    "Yes, because the minimum can be met through funds and/or securities totalling ₹50 lakh or more"
+   ],
+   3,
+   "The ₹50 lakh minimum may be contributed as cash, securities or both; ₹55 lakh meets it."
+  ],
+  [
+   "Operational Aspects of Portfolio Managers",
+   "Before entering into an agreement with a client, a portfolio manager must provide the client with:",
+   [
+    "The scheme information document of a mutual fund",
+    "A guaranteed-return certificate",
+    "The PPM of an AIF",
+    "The disclosure document"
+   ],
+   3,
+   "The disclosure document gives details of the manager, services, fees, risks and performance."
+  ],
+  [
+   "Operational Aspects of Portfolio Managers",
+   "Under SEBI rules, a portfolio manager is prohibited from charging:",
+   [
+    "Management fees",
+    "Performance fees",
+    "Upfront fees to clients, directly or indirectly",
+    "Custody charges disclosed in the agreement"
+   ],
+   2,
+   "Upfront fees were banned to reduce mis-selling; other fees must be disclosed in the agreement."
+  ],
+  [
+   "Operational Aspects of Portfolio Managers",
+   "Client securities in a PMS must be held:",
+   [
+    "In a pooled account of the portfolio manager",
+    "In the client's own demat account, segregated from other clients and the manager",
+    "In the distributor's account",
+    "In physical form with the manager"
+   ],
+   1,
+   "Segregation protects each client's assets and ownership."
+  ],
+  [
+   "Operational Aspects of Portfolio Managers",
+   "Every portfolio manager (other than those offering only advisory services) must:",
+   [
+    "Appoint a SEBI-registered custodian",
+    "Act as its own custodian",
+    "Use the distributor as custodian",
+    "Avoid any custody arrangement"
+   ],
+   0,
+   "SEBI mandates independent custodians for portfolio managers handling client assets."
+  ],
+  [
+   "Operational Aspects of Portfolio Managers",
+   "SEBI requires portfolio managers to offer clients an option to:",
+   [
+    "Withdraw funds without any notice in all cases",
+    "Receive guaranteed returns",
+    "Pool funds with other clients",
+    "Onboard directly without the services of a distributor"
+   ],
+   3,
+   "A direct onboarding route avoids distribution fees for clients who do not use a distributor."
+  ],
+  [
+   "Portfolio Management Process",
+   "The first step of the portfolio management process is:",
+   [
+    "Selecting stocks",
+    "Understanding the client's objectives and constraints and preparing an investment policy statement",
+    "Measuring performance",
+    "Rebalancing"
+   ],
+   1,
+   "Planning — defining return goals, risk tolerance and constraints — comes before execution."
+  ],
+  [
+   "Portfolio Management Process",
+   "Which of the following is a client constraint in an investment policy statement?",
+   [
+    "The manager's fee revenue",
+    "Index composition",
+    "Liquidity needs",
+    "Broker's research coverage"
+   ],
+   2,
+   "Constraints include liquidity, horizon, tax, legal and unique circumstances."
+  ],
+  [
+   "Portfolio Management Process",
+   "Strategic asset allocation refers to:",
+   [
+    "Short-term shifts to exploit market views",
+    "Setting long-term target weights for asset classes based on client objectives",
+    "Choosing individual stocks",
+    "Daily trading decisions"
+   ],
+   1,
+   "Strategic allocation is the long-run policy mix; tactical allocation makes temporary deviations."
+  ],
+  [
+   "Portfolio Management Process",
+   "A distributor learns that a PMS client aged 70 has become dependent on the portfolio for living expenses. The appropriate action is to:",
+   [
+    "Ignore it since the agreement is signed",
+    "Increase small-cap exposure for higher returns",
+    "Advise the client to take a loan",
+    "Prompt a review of the client's profile and suitability of the strategy with the portfolio manager"
+   ],
+   3,
+   "Changes in circumstances require reassessment of risk profile and strategy."
+  ],
+  [
+   "Performance Measurement and Evaluation of Portfolio Managers",
+   "SEBI requires portfolio managers to report performance using:",
+   [
+    "Time-weighted rate of return (TWRR)",
+    "Simple average of monthly returns",
+    "Money-weighted return chosen by each manager",
+    "Dividend yield"
+   ],
+   0,
+   "TWRR removes the effect of client cash flows, allowing comparison across managers."
+  ],
+  [
+   "Performance Measurement and Evaluation of Portfolio Managers",
+   "A portfolio returns +10% in the first half-year and −5% in the second. The time-weighted return for the year is:",
+   [
+    "5%",
+    "4.5%",
+    "2.5%",
+    "15%"
+   ],
+   1,
+   "TWRR = (1.10 × 0.95) − 1 = 1.045 − 1 = 4.5%."
+  ],
+  [
+   "Performance Measurement and Evaluation of Portfolio Managers",
+   "A PMS strategy earned 16% with standard deviation 18%; the risk-free rate is 7%. Its Sharpe ratio is:",
+   [
+    "0.89",
+    "0.39",
+    "1.29",
+    "0.50"
+   ],
+   3,
+   "Sharpe = (16 − 7) / 18 = 0.50."
+  ],
+  [
+   "Performance Measurement and Evaluation of Portfolio Managers",
+   "Under SEBI's benchmarking framework for PMS, each strategy's performance must be compared against:",
+   [
+    "Any index the manager prefers, without restriction",
+    "The bank fixed deposit rate",
+    "The best-performing PMS in the market",
+    "A benchmark from those specified by the portfolio managers' industry association for the strategy's asset class"
+   ],
+   3,
+   "Standardised benchmarks for equity, debt, hybrid and multi-asset strategies enable fair comparison."
+  ],
+  [
+   "Performance Measurement and Evaluation of Portfolio Managers",
+   "Two strategies earned the same return. Strategy A had higher volatility than B. On a risk-adjusted basis:",
+   [
+    "A performed better",
+    "Both performed equally",
+    "Risk-adjusted comparison is not possible",
+    "B performed better"
+   ],
+   3,
+   "Same return with lower risk gives a higher risk-adjusted return."
+  ],
+  [
+   "Taxation",
+   "In PMS, capital gains on the sale of securities are taxed in the hands of:",
+   [
+    "The portfolio manager",
+    "The custodian",
+    "The distributor",
+    "The client"
+   ],
+   3,
+   "Securities are owned by the client, so each transaction's tax falls on the client."
+  ],
+  [
+   "Taxation",
+   "A client sold listed shares held for more than 12 months, earning a long-term gain of ₹3 lakh in the year with no other equity gains. With an exemption of ₹1.25 lakh and a 12.5% rate, the tax before surcharge and cess is:",
+   [
+    "₹37,500",
+    "₹15,625",
+    "₹21,875",
+    "₹60,000"
+   ],
+   2,
+   "Taxable gain = 3,00,000 − 1,25,000 = 1,75,000; tax = 12.5% × 1,75,000 = ₹21,875."
+  ],
+  [
+   "Taxation",
+   "Dividends received in a PMS client's portfolio are taxed:",
+   [
+    "Only in the company's hands",
+    "Never",
+    "In the portfolio manager's hands",
+    "In the client's hands at applicable rates"
+   ],
+   3,
+   "Dividends are taxable income of the shareholder, i.e. the PMS client."
+  ],
+  [
+   "Regulatory, Governance and Ethical Aspects of Portfolio Managers",
+   "A distributor of PMS products is required to be registered with:",
+   [
+    "The Association of Portfolio Managers in India (APMI)",
+    "RBI",
+    "IRDAI",
+    "The stock exchange as a sub-broker"
+   ],
+   0,
+   "SEBI requires PMS distributors to register with APMI and be appropriately certified."
+  ],
+  [
+   "Regulatory, Governance and Ethical Aspects of Portfolio Managers",
+   "A PMS distributor tells a client that a strategy 'will surely give 20% returns'. This is:",
+   [
+    "Prohibited, as returns cannot be promised or guaranteed",
+    "Permitted if past returns were 20%",
+    "Permitted for discretionary PMS",
+    "Required disclosure"
+   ],
+   0,
+   "Assuring returns is a misrepresentation and violates conduct norms."
+  ],
+  [
+   "Regulatory, Governance and Ethical Aspects of Portfolio Managers",
+   "The minimum net worth requirement for a portfolio manager under the 2020 Regulations is:",
+   [
+    "₹50 lakh",
+    "₹2 crore",
+    "₹5 crore",
+    "₹25 crore"
+   ],
+   2,
+   "Portfolio managers must maintain a net worth of at least ₹5 crore."
+  ],
+  [
+   "Regulatory, Governance and Ethical Aspects of Portfolio Managers",
+   "Commission paid by a portfolio manager to a distributor should be:",
+   [
+    "Paid entirely upfront from client funds",
+    "Kept confidential from the client",
+    "Paid on a trail basis and disclosed to the client",
+    "Shared with the client as a rebate"
+   ],
+   2,
+   "Trail-based, disclosed commissions reduce churning incentives and improve transparency."
+  ],
+  [
+   "Regulatory, Governance and Ethical Aspects of Portfolio Managers",
+   "A PMS client with an unresolved complaint against the manager can escalate it through:",
+   [
+    "The RBI Ombudsman for banks",
+    "SEBI's SCORES platform and the online dispute resolution mechanism",
+    "The consumer helpline of the distributor only",
+    "The stock exchange IPO desk"
+   ],
+   1,
+   "Investors can lodge complaints on SCORES and pursue ODR if not resolved."
+  ],
+  [
+   "Regulatory, Governance and Ethical Aspects of Portfolio Managers",
+   "When recommending a PMS strategy, a distributor should ensure:",
+   [
+    "The client invests the maximum possible",
+    "The client is told only about past best returns",
+    "The strategy matches the client's risk profile, and its fees, risks and conflicts are explained",
+    "The client signs documents without reading"
+   ],
+   2,
+   "Suitability and transparent disclosure are core distributor obligations."
+  ]
+ ],
+ "xxi-b": [
+  [
+   "Investment Landscape",
+   "Which of the following is the most important reason to invest rather than hold idle cash over the long term?",
+   [
+    "Cash has high default risk",
+    "Cash is taxed at a higher rate than equity",
+    "Holding cash is prohibited for individuals",
+    "Inflation erodes the purchasing power of uninvested money"
+   ],
+   3,
+   "Investing aims to earn returns above inflation so real wealth is preserved or grows."
+  ],
+  [
+   "Investment Landscape",
+   "Gold held in physical form is generally considered a:",
+   [
+    "Financial asset with fixed coupons",
+    "Short-term debt instrument",
+    "Real asset often used as an inflation and crisis hedge",
+    "Equity-like claim on profits"
+   ],
+   2,
+   "Gold is a tangible asset with no cash flows, often held for diversification and hedging."
+  ],
+  [
+   "Introduction to Securities Markets",
+   "Which of the following is a function of a clearing corporation in the securities market?",
+   [
+    "Listing companies",
+    "Issuing new shares",
+    "Registering portfolio managers",
+    "Acting as central counterparty and guaranteeing settlement of trades"
+   ],
+   3,
+   "Clearing corporations novate trades and guarantee settlement, reducing counterparty risk."
+  ],
+  [
+   "Introduction to Securities Markets",
+   "A market order on the exchange:",
+   [
+    "Executes immediately at the best available price",
+    "Executes only at a specified limit price",
+    "Is valid only after market close",
+    "Is used only for bonds"
+   ],
+   0,
+   "Market orders prioritise execution over price."
+  ],
+  [
+   "Investing in Stocks",
+   "Using the dividend discount model, a stock paying ₹10 next year with dividends growing at 6% and a required return of 11% is worth:",
+   [
+    "₹200",
+    "₹90.9",
+    "₹166.7",
+    "₹100"
+   ],
+   0,
+   "Value = D1 / (r − g) = 10 / (0.11 − 0.06) = ₹200."
+  ],
+  [
+   "Investing in Stocks",
+   "A company with return on equity of 20% and retention ratio of 60% has a sustainable growth rate of:",
+   [
+    "8%",
+    "12%",
+    "20%",
+    "32%"
+   ],
+   1,
+   "g = ROE × retention = 20% × 0.6 = 12%."
+  ],
+  [
+   "Investing in Fixed Income Securities",
+   "A zero-coupon bond with face value ₹1,000 maturing in 2 years is priced to yield 10% p.a. (annual compounding). Its price is approximately:",
+   [
+    "₹800",
+    "₹909",
+    "₹1,000",
+    "₹826"
+   ],
+   3,
+   "Price = 1,000 / 1.1² = 1,000 / 1.21 ≈ ₹826."
+  ],
+  [
+   "Investing in Fixed Income Securities",
+   "For two bonds with the same maturity, the one with the lower coupon will have:",
+   [
+    "Lower duration",
+    "No interest rate risk",
+    "Identical duration",
+    "Higher duration and greater price sensitivity to yield changes"
+   ],
+   3,
+   "Lower coupons push more cash flow to maturity, increasing duration."
+  ],
+  [
+   "Derivatives",
+   "A portfolio worth ₹10 crore has a beta of 1.2. To fully hedge market risk using index futures, the notional value of futures to sell is:",
+   [
+    "₹10 crore",
+    "₹8.33 crore",
+    "₹1.2 crore",
+    "₹12 crore"
+   ],
+   3,
+   "Hedge notional = Portfolio value × beta = 10 × 1.2 = ₹12 crore."
+  ],
+  [
+   "Derivatives",
+   "A protective put strategy involves:",
+   [
+    "Selling a stock and selling a call",
+    "Holding a stock and buying a put option on it",
+    "Buying a call and selling the stock short",
+    "Holding cash and selling puts"
+   ],
+   1,
+   "The put sets a floor on losses while preserving upside, like insurance."
+  ],
+  [
+   "Mutual Fund",
+   "Mutual fund schemes are required to benchmark against:",
+   [
+    "Price return index only",
+    "Any index the AMC chooses in a given month",
+    "Fixed deposit rates",
+    "Total return variant of the index"
+   ],
+   3,
+   "SEBI requires TRI benchmarks so dividends are reflected, as they are in scheme NAVs."
+  ],
+  [
+   "Mutual Fund",
+   "The NAV of a mutual fund scheme is computed as:",
+   [
+    "Total assets / face value of units",
+    "Total income / units outstanding",
+    "(Market value of assets − liabilities) / units outstanding",
+    "Market value of equity / number of investors"
+   ],
+   2,
+   "NAV per unit reflects net assets attributable to each unit."
+  ],
+  [
+   "Role of Portfolio Managers",
+   "A portfolio manager is obliged to act in a fiduciary capacity towards clients. This means the manager must:",
+   [
+    "Place clients' interests ahead of its own and avoid or disclose conflicts",
+    "Guarantee returns to clients",
+    "Invest only in fixed deposits",
+    "Follow the distributor's instructions"
+   ],
+   0,
+   "Fiduciary duty requires loyalty, care and transparent handling of conflicts."
+  ],
+  [
+   "Role of Portfolio Managers",
+   "SEBI requires the principal officer of a portfolio manager to hold:",
+   [
+    "Only a bank account",
+    "The NISM-Series-XXI-B Portfolio Managers certification, along with prescribed qualifications and experience",
+    "A broker registration",
+    "An insurance agent licence"
+   ],
+   1,
+   "The principal officer must meet qualification, experience and certification requirements."
+  ],
+  [
+   "Role of Portfolio Managers",
+   "Which service is NOT a form of portfolio management service recognised under SEBI's 2020 Regulations?",
+   [
+    "Discretionary portfolio management",
+    "Non-discretionary portfolio management",
+    "Advisory portfolio management",
+    "Guaranteed-return deposit scheme"
+   ],
+   3,
+   "PMS covers discretionary, non-discretionary and advisory services; guaranteeing returns is prohibited."
+  ],
+  [
+   "Operational Aspects of Portfolio Managers",
+   "Accounts of each PMS client must be audited annually by:",
+   [
+    "The distributor",
+    "The client's employer",
+    "An independent chartered accountant, with a copy of the certificate given to the client",
+    "The stock exchange"
+   ],
+   2,
+   "Annual independent audit of client accounts provides assurance to clients."
+  ],
+  [
+   "Operational Aspects of Portfolio Managers",
+   "A portfolio manager charges a performance fee of 20% above a high-water mark. A client's portfolio value is ₹1.25 crore at the end of the year and the high-water mark is ₹1.30 crore. The performance fee is:",
+   [
+    "₹1 lakh",
+    "₹5 lakh",
+    "₹25 lakh",
+    "Nil"
+   ],
+   3,
+   "Performance fee is payable only on value above the high-water mark; ₹1.25 crore is below ₹1.30 crore."
+  ],
+  [
+   "Operational Aspects of Portfolio Managers",
+   "A portfolio manager charges a fixed management fee of 2% p.a. on an average AUM of ₹80 lakh for a client. The annual fixed fee is:",
+   [
+    "₹16 lakh",
+    "₹1.2 lakh",
+    "₹1.6 lakh",
+    "₹2 lakh"
+   ],
+   2,
+   "2% × ₹80 lakh = ₹1.6 lakh."
+  ],
+  [
+   "Portfolio Management Process",
+   "An investment policy statement (IPS) primarily serves to:",
+   [
+    "Document the client's objectives, constraints and the agreed investment approach",
+    "Report monthly NAV",
+    "Register the client with SEBI",
+    "Replace the KYC form"
+   ],
+   0,
+   "The IPS guides decisions and evaluation and reduces misunderstandings."
+  ],
+  [
+   "Portfolio Management Process",
+   "Tactical asset allocation involves:",
+   [
+    "Fixing weights forever",
+    "Choosing the benchmark",
+    "Short-term deviations from strategic weights to exploit perceived opportunities",
+    "Calculating tax"
+   ],
+   2,
+   "TAA tilts the portfolio temporarily based on market views."
+  ],
+  [
+   "Portfolio Management Process",
+   "A 35-year-old client with stable income and a 20-year goal can generally accept:",
+   [
+    "Only liquid funds",
+    "Only government bonds",
+    "Higher equity allocation, given the long horizon and risk capacity",
+    "No investments at all"
+   ],
+   2,
+   "Long horizons and stable income increase capacity to bear equity volatility."
+  ],
+  [
+   "Taxation",
+   "In PMS, the tax on gains from each sale in the portfolio is determined by:",
+   [
+    "The portfolio manager's tax rate",
+    "The client's own holding period and tax status, as if the client invested directly",
+    "A flat rate set by SEBI",
+    "The fund's NAV"
+   ],
+   1,
+   "PMS portfolios are owned by the client, so each transaction is taxed in the client's hands."
+  ],
+  [
+   "Taxation",
+   "Securities Transaction Tax (STT) is levied on:",
+   [
+    "Purchase and/or sale of specified securities on a recognised stock exchange",
+    "Bank deposits",
+    "Gold purchases",
+    "Rental income"
+   ],
+   0,
+   "STT is charged on transactions in equity and derivatives on exchanges."
+  ],
+  [
+   "Regulatory, Governance and Ethical Aspects of Portfolio Managers",
+   "Under the SEBI (Portfolio Managers) Regulations, 2020, a portfolio manager must maintain a minimum net worth of:",
+   [
+    "₹2 crore",
+    "₹50 lakh",
+    "₹5 crore",
+    "₹10 crore"
+   ],
+   2,
+   "The 2020 Regulations raised the net worth requirement to ₹5 crore."
+  ],
+  [
+   "Regulatory, Governance and Ethical Aspects of Portfolio Managers",
+   "A portfolio manager buys a stock for its own account just before placing large client orders in the same stock. This is:",
+   [
+    "Front-running, a prohibited practice",
+    "Permitted arbitrage",
+    "Portfolio rebalancing",
+    "Acceptable if disclosed later"
+   ],
+   0,
+   "Trading ahead of client orders exploits confidential information and breaches fiduciary duty."
+  ],
+  [
+   "Regulatory, Governance and Ethical Aspects of Portfolio Managers",
+   "Can a portfolio manager leverage a client's portfolio to take exposure in derivatives?",
+   [
+    "Yes, up to 5 times",
+    "Yes, with oral consent",
+    "No, leveraging the client's portfolio for derivatives is not permitted",
+    "Yes, if the market is rising"
+   ],
+   2,
+   "SEBI rules bar portfolio managers from leveraging client portfolios for derivative positions."
+  ],
+  [
+   "Introduction to Indices",
+   "A price-weighted index gives more weight to:",
+   [
+    "Companies with larger market capitalisation",
+    "Stocks with higher dividend yields",
+    "All stocks equally",
+    "Stocks with higher share prices"
+   ],
+   3,
+   "In a price-weighted index, higher-priced shares have greater influence on movements."
+  ],
+  [
+   "Introduction to Indices",
+   "An index fund aims to:",
+   [
+    "Replicate the returns of its benchmark index with minimal tracking error",
+    "Beat the index by a large margin",
+    "Hold only fixed deposits",
+    "Time the market"
+   ],
+   0,
+   "Passive index funds mirror index composition."
+  ],
+  [
+   "Concept of Informational Efficiency",
+   "If historical prices cannot be used to earn consistent excess returns, the market is at least:",
+   [
+    "Strong-form efficient",
+    "Semi-strong form efficient",
+    "Inefficient",
+    "Weak-form efficient"
+   ],
+   3,
+   "Weak-form efficiency implies past price data is fully reflected in current prices."
+  ],
+  [
+   "Concept of Informational Efficiency",
+   "A stock's price jumps immediately on the announcement of strong results and then remains stable. This is consistent with:",
+   [
+    "Weak-form inefficiency",
+    "Semi-strong form efficiency",
+    "Insider trading",
+    "Strong-form inefficiency"
+   ],
+   1,
+   "Rapid, complete adjustment to public news is evidence of semi-strong efficiency."
+  ],
+  [
+   "Behavioral Finance",
+   "An investor refuses to sell a stock that has fallen sharply, hoping to 'get back to break-even', while quickly selling winners. This is:",
+   [
+    "Herding",
+    "Home bias",
+    "The disposition effect",
+    "Overconfidence in forecasting"
+   ],
+   2,
+   "The disposition effect is the tendency to hold losers too long and sell winners too early."
+  ],
+  [
+   "Behavioral Finance",
+   "An investor fixes on the price at which he bought a share and judges all future prices against it. This bias is:",
+   [
+    "Recency bias",
+    "Anchoring",
+    "Mental accounting",
+    "Confirmation bias"
+   ],
+   1,
+   "Anchoring is over-reliance on an initial reference point."
+  ],
+  [
+   "Introduction to Modern Portfolio Theory",
+   "Combining two assets that are less than perfectly correlated results in:",
+   [
+    "A portfolio risk higher than both assets",
+    "A portfolio risk lower than the weighted average of individual risks",
+    "No change in risk",
+    "Zero risk always"
+   ],
+   1,
+   "Diversification benefit arises when correlation is below +1."
+  ],
+  [
+   "Introduction to Modern Portfolio Theory",
+   "The minimum variance portfolio is:",
+   [
+    "The portfolio with the highest return",
+    "A portfolio of only risk-free assets",
+    "The portfolio on the efficient frontier with the lowest possible risk",
+    "Any equally weighted portfolio"
+   ],
+   2,
+   "It lies at the leftmost point of the frontier."
+  ],
+  [
+   "Introduction to Capital Market Theory",
+   "The Security Market Line relates expected return to:",
+   [
+    "Total standard deviation",
+    "Beta",
+    "Dividend yield",
+    "Duration"
+   ],
+   1,
+   "SML is the graphical form of CAPM, using systematic risk (beta)."
+  ],
+  [
+   "Introduction to Capital Market Theory",
+   "Arbitrage Pricing Theory differs from CAPM in that it:",
+   [
+    "Uses only the market portfolio",
+    "Allows multiple systematic factors to explain expected returns",
+    "Ignores risk",
+    "Applies only to bonds"
+   ],
+   1,
+   "APT is a multi-factor model; CAPM uses a single market factor."
+  ],
+  [
+   "Risk",
+   "Which risk can be reduced through diversification across many stocks?",
+   [
+    "Unsystematic (company-specific) risk",
+    "Systematic risk",
+    "Interest rate risk on the whole market",
+    "Inflation risk for the economy"
+   ],
+   0,
+   "Firm-specific events wash out in a diversified portfolio."
+  ],
+  [
+   "Risk",
+   "Tracking error measures:",
+   [
+    "The absolute return of the portfolio",
+    "The standard deviation of the difference between portfolio and benchmark returns",
+    "The fee charged by the manager",
+    "The number of stocks in the portfolio"
+   ],
+   1,
+   "Tracking error captures how consistently a portfolio follows its benchmark."
+  ],
+  [
+   "Equity Portfolio Management Strategies",
+   "A manager screens for stocks with low P/E and P/B ratios relative to peers. This is a:",
+   [
+    "Momentum strategy",
+    "Growth strategy",
+    "Pure index strategy",
+    "Value investing strategy"
+   ],
+   3,
+   "Value investors buy stocks that appear cheap relative to fundamentals."
+  ],
+  [
+   "Equity Portfolio Management Strategies",
+   "A top-down equity approach begins with:",
+   [
+    "Individual company analysis without regard to the economy",
+    "Analysis of the economy and sectors before selecting stocks",
+    "Random stock selection",
+    "Only technical charts"
+   ],
+   1,
+   "Top-down moves from macro to sector to stock."
+  ],
+  [
+   "Equity Portfolio Management Strategies",
+   "A 'core-satellite' approach typically combines:",
+   [
+    "A low-cost passive core with actively managed satellite positions",
+    "Two identical index funds",
+    "Only small-cap active funds",
+    "Only fixed deposits"
+   ],
+   0,
+   "The core controls cost and tracking; satellites seek alpha."
+  ],
+  [
+   "Fixed Income Portfolio Management Strategies",
+   "A portfolio holding bonds concentrated at a single intermediate maturity is a:",
+   [
+    "Barbell portfolio",
+    "Bullet portfolio",
+    "Laddered portfolio",
+    "Equity portfolio"
+   ],
+   1,
+   "Bullet portfolios cluster maturities around one point."
+  ],
+  [
+   "Fixed Income Portfolio Management Strategies",
+   "Immunisation of a bond portfolio aims to:",
+   [
+    "Match the portfolio's duration to the liability horizon so interest rate changes do not affect the ability to meet the liability",
+    "Maximise credit risk",
+    "Eliminate all coupons",
+    "Hold only equities"
+   ],
+   0,
+   "Duration matching offsets price risk against reinvestment risk."
+  ],
+  [
+   "Fixed Income Portfolio Management Strategies",
+   "A laddered bond portfolio has:",
+   [
+    "Bonds maturing at regular intervals across a range of maturities",
+    "All bonds maturing on the same date",
+    "Only very short and very long maturities",
+    "Only floating-rate bonds"
+   ],
+   0,
+   "Laddering spreads reinvestment and provides regular liquidity."
+  ],
+  [
+   "Performance Measurement and Evaluation of Portfolio Managers",
+   "Rp = 15%, Rf = 6%, beta = 1.5, market return = 12%. Jensen's alpha is:",
+   [
+    "+3%",
+    "0%",
+    "+9%",
+    "−3%"
+   ],
+   1,
+   "CAPM return = 6 + 1.5 × (12 − 6) = 15%; alpha = 15 − 15 = 0%."
+  ],
+  [
+   "Performance Measurement and Evaluation of Portfolio Managers",
+   "Which measure is most appropriate to evaluate a well-diversified portfolio that is one part of an investor's larger portfolio?",
+   [
+    "Treynor ratio",
+    "Sharpe ratio",
+    "Current yield",
+    "P/E ratio"
+   ],
+   0,
+   "For diversified sub-portfolios, systematic risk (beta) is the relevant risk, which Treynor uses."
+  ],
+  [
+   "Performance Measurement and Evaluation of Portfolio Managers",
+   "Performance attribution analysis helps to:",
+   [
+    "Separate returns into allocation and selection effects relative to the benchmark",
+    "Calculate the client's tax",
+    "Determine the custodian's fee",
+    "Compute the settlement cycle"
+   ],
+   0,
+   "Attribution explains where excess return came from."
+  ],
+  [
+   "Performance Measurement and Evaluation of Portfolio Managers",
+   "A portfolio's value rose from ₹100 to ₹110 in Q1; the client then added ₹50 and the value ended Q2 at ₹176. The time-weighted return over the two quarters is:",
+   [
+    "17.3%",
+    "76%",
+    "21%",
+    "26%"
+   ],
+   2,
+   "Q1 = 110/100 − 1 = 10%; Q2 = 176/160 − 1 = 10%; TWRR = 1.1 × 1.1 − 1 = 21%."
+  ],
+  [
+   "Portfolio Rebalancing",
+   "A client's target is 60% equity / 40% debt. After a rally, the mix is 70/30. Calendar rebalancing would:",
+   [
+    "Buy more equity",
+    "Leave the portfolio unchanged forever",
+    "Move everything to cash",
+    "Sell equity and buy debt at the scheduled date to restore 60/40"
+   ],
+   3,
+   "Rebalancing returns the portfolio to its strategic weights."
+  ],
+  [
+   "Portfolio Rebalancing",
+   "A constant-proportion portfolio insurance (CPPI) strategy tends to:",
+   [
+    "Keep weights fixed at all times",
+    "Sell winners and buy losers",
+    "Buy risky assets as they rise and sell them as they fall",
+    "Hold only cash"
+   ],
+   2,
+   "CPPI increases exposure as the cushion above the floor grows and reduces it as the cushion shrinks."
+  ]
+ ]
+}

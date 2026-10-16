@@ -1,0 +1,3012 @@
+{
+ "i": [
+  [
+   "Introduction to Currency Markets",
+   "In the quotation USD/INR = 84.10, which currency is the base currency?",
+   [
+    "INR",
+    "Both USD and INR equally",
+    "USD",
+    "Neither, because it is a cross rate"
+   ],
+   2,
+   "The first currency in a pair is the base currency; the quote tells how many units of INR (quote currency) buy one USD."
+  ],
+  [
+   "Introduction to Currency Markets",
+   "An Indian importer reads EUR/INR = 91.20, i.e. rupees needed to buy one euro. From an Indian resident's viewpoint this is a:",
+   [
+    "Indirect quote",
+    "Direct quote",
+    "Cross rate",
+    "Forward outright quote"
+   ],
+   1,
+   "A direct quote expresses one unit of foreign currency in terms of the home currency, which is the norm in India."
+  ],
+  [
+   "Introduction to Currency Markets",
+   "In the interbank foreign exchange market, a standard 'spot' deal is settled on:",
+   [
+    "The trade date itself (T+0)",
+    "The fifth business day after trade (T+5)",
+    "The last business day of the month",
+    "The second business day after the trade date (T+2)"
+   ],
+   3,
+   "Spot FX conventionally has a value date two business days after the deal, giving time for cross-border payment processing."
+  ],
+  [
+   "Introduction to Currency Markets",
+   "A bank quotes USD/INR at 83.40 / 83.45. A customer who wants to BUY US dollars from the bank will be charged:",
+   [
+    "₹83.40 per USD",
+    "₹83.425 per USD",
+    "₹83.45 per USD",
+    "₹0.05 per USD"
+   ],
+   2,
+   "The bank sells USD at its ask (offer) rate, which is the higher side of the quote, i.e. 83.45."
+  ],
+  [
+   "Introduction to Currency Markets",
+   "If EUR/USD is 1.1000 and USD/INR is 84.00, the implied EUR/INR cross rate is:",
+   [
+    "76.36",
+    "85.10",
+    "92.40",
+    "82.90"
+   ],
+   2,
+   "EUR/INR = EUR/USD × USD/INR = 1.10 × 84.00 = 92.40."
+  ],
+  [
+   "Foreign Exchange Derivatives",
+   "Which feature is typical of an OTC currency forward but NOT of an exchange-traded currency future?",
+   [
+    "Contract terms are customised bilaterally between the two parties",
+    "Daily mark-to-market through a clearing corporation",
+    "Standardised lot size and expiry date",
+    "Novation by a clearing corporation"
+   ],
+   0,
+   "Forwards are privately negotiated and tailor-made, whereas futures are standardised, cleared and marked to market daily."
+  ],
+  [
+   "Foreign Exchange Derivatives",
+   "USD/INR spot is 84.00, the one-year INR interest rate is 7% and the one-year USD rate is 4%. Using covered interest parity, the one-year forward rate is closest to:",
+   [
+    "81.64",
+    "89.88",
+    "87.36",
+    "86.42"
+   ],
+   3,
+   "Forward = Spot × (1 + r_INR)/(1 + r_USD) = 84 × 1.07/1.04 ≈ 86.42."
+  ],
+  [
+   "Foreign Exchange Derivatives",
+   "Under interest rate parity, the currency with the HIGHER interest rate will generally trade in the forward market at a:",
+   [
+    "Forward premium",
+    "Forward discount",
+    "Rate always equal to spot",
+    "Premium equal to its full interest rate"
+   ],
+   1,
+   "The forward rate offsets the interest differential, so the higher-yielding currency is cheaper forward, i.e. at a discount."
+  ],
+  [
+   "Foreign Exchange Derivatives",
+   "In a typical cross-currency swap, the two parties usually:",
+   [
+    "Exchange only fixed for floating interest in the same currency",
+    "Swap equity index returns for interest payments",
+    "Exchange principal at the start and end, and periodic interest, in two different currencies",
+    "Never exchange principal and settle only once at maturity"
+   ],
+   2,
+   "A cross-currency swap involves two currencies, so principal is normally exchanged at inception and re-exchanged at maturity along with interest flows."
+  ],
+  [
+   "Foreign Exchange Derivatives",
+   "An exporter expecting USD receivables in three months sells USD/INR futures today to lock in the rate. In this trade the exporter is acting as a:",
+   [
+    "Speculator",
+    "Arbitrageur",
+    "Market maker",
+    "Hedger"
+   ],
+   3,
+   "The futures position offsets an existing business exposure, which is hedging rather than taking a fresh directional bet."
+  ],
+  [
+   "Exchange Traded Currency Futures",
+   "The standard contract size of a USD/INR futures contract on Indian exchanges is:",
+   [
+    "USD 500",
+    "USD 10,000",
+    "USD 1,00,000",
+    "USD 1,000"
+   ],
+   3,
+   "USD/INR futures are traded in lots of USD 1,000, keeping the contract accessible to small hedgers."
+  ],
+  [
+   "Exchange Traded Currency Futures",
+   "How are USD/INR futures contracts settled on Indian exchanges?",
+   [
+    "By physical delivery of US dollars",
+    "In cash, in Indian rupees",
+    "In cash, in US dollars",
+    "By delivery or cash at the buyer's choice"
+   ],
+   1,
+   "Exchange-traded currency futures in India are cash settled in INR; no foreign currency changes hands."
+  ],
+  [
+   "Exchange Traded Currency Futures",
+   "The final settlement price of an expiring USD/INR futures contract is based on:",
+   [
+    "The closing traded price of the futures on the last trading day",
+    "The USD/INR reference rate published (by FBIL) on the last trading day",
+    "The average traded price over the life of the contract",
+    "The rate quoted by the buyer's own bank"
+   ],
+   1,
+   "Final settlement uses the official reference rate on the last trading day, which removes scope for manipulating the closing futures price."
+  ],
+  [
+   "Exchange Traded Currency Futures",
+   "For monthly USD/INR futures, the last trading day is:",
+   [
+    "The last business day of the expiry month",
+    "The last Thursday of the expiry month",
+    "Two working days before the last business day of the expiry month",
+    "The 15th day of the expiry month"
+   ],
+   2,
+   "Expiry is set two working days before month-end so that final settlement aligns with the spot value date at month-end."
+  ],
+  [
+   "Exchange Traded Currency Futures",
+   "A trader buys 10 USD/INR futures contracts (lot USD 1,000) at 83.20. The day's settlement price is 83.45. His mark-to-market result for the day is:",
+   [
+    "Profit of ₹250",
+    "Profit of ₹2,500",
+    "Profit of ₹25,000",
+    "Loss of ₹2,500"
+   ],
+   1,
+   "MTM = (83.45 − 83.20) × 1,000 × 10 = 0.25 × 10,000 = ₹2,500 gain on a long position."
+  ],
+  [
+   "Exchange Traded Currency Futures",
+   "JPY/INR futures prices on Indian exchanges are quoted in rupees per:",
+   [
+    "1 Japanese yen",
+    "100 Japanese yen",
+    "1,000 Japanese yen",
+    "10,000 Japanese yen"
+   ],
+   1,
+   "Because one yen is worth well under a rupee, JPY/INR is quoted per 100 yen to give a practical price."
+  ],
+  [
+   "Exchange Traded Currency Futures",
+   "An importer must pay USD 50,000 in two months and fears the rupee will depreciate. The appropriate hedge using USD/INR futures (lot USD 1,000) is to:",
+   [
+    "Sell 50 contracts",
+    "Buy 5 contracts",
+    "Buy 50 contracts",
+    "Sell 500 contracts"
+   ],
+   2,
+   "A USD payable is hurt by a rising USD/INR, so the importer goes long futures: 50,000 ÷ 1,000 = 50 contracts."
+  ],
+  [
+   "Exchange Traded Currency Futures",
+   "An exporter sells USD/INR futures at 84.00 to hedge receivables. At expiry the futures settle at 85.00 and he sells his dollars in the spot market at 85.00. His effective rate per USD is approximately:",
+   [
+    "₹84.00",
+    "₹85.00",
+    "₹86.00",
+    "₹83.00"
+   ],
+   0,
+   "He loses ₹1.00 on the short futures but gains ₹1.00 extra in spot, so the net realisation is 85.00 − 1.00 = 84.00."
+  ],
+  [
+   "Exchange Traded Currency Futures",
+   "USD/INR spot is 83.50 and the near-month future is 83.80. The basis, defined as spot minus futures, is:",
+   [
+    "+0.30",
+    "−0.03",
+    "−0.30",
+    "+1.67"
+   ],
+   2,
+   "Basis = Spot − Futures = 83.50 − 83.80 = −0.30."
+  ],
+  [
+   "Exchange Traded Currency Futures",
+   "The minimum price movement (tick size) in USD/INR futures is:",
+   [
+    "₹0.01 (1 paisa)",
+    "₹0.0001",
+    "₹0.0025 (0.25 paise)",
+    "₹0.05 (5 paise)"
+   ],
+   2,
+   "USD/INR futures move in ticks of 0.25 paise, i.e. ₹2.50 per tick on a USD 1,000 lot."
+  ],
+  [
+   "Exchange Traded Currency Options",
+   "Exchange-traded USD/INR options in India are of which exercise style?",
+   [
+    "American",
+    "European",
+    "Bermudan",
+    "Asian"
+   ],
+   1,
+   "They can be exercised only on the expiry date, which is the definition of a European option."
+  ],
+  [
+   "Exchange Traded Currency Options",
+   "A trader buys one USD/INR call (lot USD 1,000) with strike 84.00 for a premium of ₹0.30. At expiry the settlement price is 84.75. His net profit is:",
+   [
+    "₹750",
+    "₹300",
+    "₹1,050",
+    "₹450"
+   ],
+   3,
+   "Payoff = (84.75 − 84.00) − 0.30 = 0.45 per USD; × 1,000 = ₹450."
+  ],
+  [
+   "Exchange Traded Currency Options",
+   "The buyer of a USD/INR put with strike 83.50 pays a premium of ₹0.20. His break-even settlement price at expiry is:",
+   [
+    "83.70",
+    "83.50",
+    "83.30",
+    "83.20"
+   ],
+   2,
+   "A long put breaks even at strike minus premium: 83.50 − 0.20 = 83.30."
+  ],
+  [
+   "Exchange Traded Currency Options",
+   "The maximum possible loss for the buyer of a currency call option is:",
+   [
+    "Unlimited",
+    "The strike price",
+    "Strike price minus premium",
+    "The premium paid"
+   ],
+   3,
+   "An option buyer can simply let the option lapse, so the worst case is losing the premium."
+  ],
+  [
+   "Exchange Traded Currency Options",
+   "USD/INR spot is 84.20. A USD/INR put option with a strike of 84.50 is:",
+   [
+    "In-the-money",
+    "Out-of-the-money",
+    "At-the-money",
+    "Worthless at any time before expiry"
+   ],
+   0,
+   "A put is in-the-money when the strike exceeds spot; here 84.50 > 84.20."
+  ],
+  [
+   "Exchange Traded Currency Options",
+   "A USD/INR call with strike 83.00 trades at a premium of ₹1.40 when spot is 84.00. Its time value is:",
+   [
+    "₹1.00",
+    "₹1.40",
+    "₹2.40",
+    "₹0.40"
+   ],
+   3,
+   "Intrinsic value = 84.00 − 83.00 = 1.00; time value = premium − intrinsic = 1.40 − 1.00 = 0.40."
+  ],
+  [
+   "Exchange Traded Currency Options",
+   "The 'delta' of a currency option measures the change in the option premium for a small change in:",
+   [
+    "Volatility",
+    "The underlying exchange rate",
+    "Time to expiry",
+    "Interest rates"
+   ],
+   1,
+   "Delta is sensitivity to the underlying price; vega, theta and rho cover volatility, time and interest rates."
+  ],
+  [
+   "Exchange Traded Currency Options",
+   "In exchange-traded currency options, which party is required to deposit margin with the clearing corporation?",
+   [
+    "The option writer (seller)",
+    "Only the option buyer",
+    "Neither party, since only premium is exchanged",
+    "The exchange itself"
+   ],
+   0,
+   "The buyer's risk is limited to the premium paid upfront, whereas the writer has an open obligation and must post margin."
+  ],
+  [
+   "Strategies Using Currency Derivatives",
+   "A trader expecting USD/INR to rise moderately buys an 84.00 call and sells an 85.00 call of the same expiry. This position is a:",
+   [
+    "Bear put spread",
+    "Long straddle",
+    "Short strangle",
+    "Bull call spread"
+   ],
+   3,
+   "Buying a lower-strike call and selling a higher-strike call creates a limited-risk, limited-reward bullish spread."
+  ],
+  [
+   "Strategies Using Currency Derivatives",
+   "Ahead of a major central bank announcement, a trader expects a sharp USD/INR move but is unsure of direction. Which strategy suits this view?",
+   [
+    "Long straddle",
+    "Short straddle",
+    "Bull call spread",
+    "Covered call"
+   ],
+   0,
+   "Buying a call and a put at the same strike profits from a large move in either direction."
+  ],
+  [
+   "Strategies Using Currency Derivatives",
+   "A trader buys a USD/INR 84.00 call at ₹0.50 and sells an 85.00 call at ₹0.15 (lot USD 1,000). The maximum profit on one lot is:",
+   [
+    "₹1,000",
+    "₹350",
+    "₹650",
+    "₹1,350"
+   ],
+   2,
+   "Max profit = (85.00 − 84.00) − net premium 0.35 = 0.65 per USD; × 1,000 = ₹650."
+  ],
+  [
+   "Strategies Using Currency Derivatives",
+   "Selling a near-month USD/INR future and simultaneously buying a far-month USD/INR future is called a:",
+   [
+    "Butterfly spread",
+    "Cross-currency arbitrage",
+    "Calendar spread",
+    "Strangle"
+   ],
+   2,
+   "A calendar (time) spread uses the same underlying but different expiries."
+  ],
+  [
+   "Strategies Using Currency Derivatives",
+   "An exporter wants protection against rupee appreciation but still wants to benefit if the rupee depreciates. The most suitable exchange-traded instrument is to:",
+   [
+    "Buy a USD/INR put option",
+    "Sell a USD/INR put option",
+    "Buy a USD/INR call option",
+    "Buy USD/INR futures"
+   ],
+   0,
+   "A long put sets a floor on the rupee value of dollar receipts while leaving the upside open, at the cost of the premium."
+  ],
+  [
+   "Strategies Using Currency Derivatives",
+   "USD/INR futures are trading well above their interest-parity fair value. An arbitrageur would typically:",
+   [
+    "Buy the futures and sell USD spot",
+    "Sell the futures and buy USD spot, funding it with INR borrowing",
+    "Buy both futures and spot",
+    "Sell both futures and spot"
+   ],
+   1,
+   "Selling the overpriced futures and carrying the cheaper spot position locks in the mispricing (cash-and-carry)."
+  ],
+  [
+   "Strategies Using Currency Derivatives",
+   "A trader buys an 84.00 USD/INR call at ₹0.40 and an 84.00 put at ₹0.35, same expiry. The break-even points at expiry are:",
+   [
+    "83.60 and 84.40",
+    "83.65 and 84.35",
+    "84.00 only",
+    "83.25 and 84.75"
+   ],
+   3,
+   "Total premium is 0.75, so break-evens are 84.00 ± 0.75 = 83.25 and 84.75."
+  ],
+  [
+   "Trading Mechanism",
+   "A limit order to buy USD/INR futures at 83.50 will be executed:",
+   [
+    "Only at 83.50 or higher",
+    "Immediately at the best available price",
+    "Only at the day's closing price",
+    "Only at 83.50 or lower"
+   ],
+   3,
+   "A buy limit order sets the maximum price the buyer is willing to pay."
+  ],
+  [
+   "Trading Mechanism",
+   "A stop-loss sell order with a trigger price of 83.20 becomes active when:",
+   [
+    "The market trades at or above 83.20",
+    "The trading session opens",
+    "The market trades at or below 83.20",
+    "The exchange approves it manually"
+   ],
+   2,
+   "A sell stop order lies dormant until the trigger price is touched, then enters the order book to cap losses on a long position."
+  ],
+  [
+   "Trading Mechanism",
+   "A Professional Clearing Member (PCM) in the currency derivatives segment is an entity that:",
+   [
+    "Trades only for its own proprietary account",
+    "Acts as the market surveillance regulator",
+    "Is required to quote two-way prices as a market maker",
+    "Clears and settles trades of trading members but does not itself trade on the exchange"
+   ],
+   3,
+   "PCMs, often banks or custodians, provide clearing and settlement services only."
+  ],
+  [
+   "Trading Mechanism",
+   "Before placing derivatives orders for a client, a trading member must ensure the client is identified on the trading system through:",
+   [
+    "The client's bank account number",
+    "A Unique Client Code (UCC)",
+    "The member's own proprietary code",
+    "An anonymous order ID"
+   ],
+   1,
+   "Exchanges require every client order to carry the client's registered UCC for audit trail and surveillance."
+  ],
+  [
+   "Clearing, Settlement & Risk Management",
+   "Novation in exchange-traded currency futures means that:",
+   [
+    "The clearing corporation becomes the buyer to every seller and the seller to every buyer",
+    "Trades are cancelled if prices move sharply",
+    "Buyer and seller must know each other's identity",
+    "Profits are paid only at expiry"
+   ],
+   0,
+   "By interposing itself, the clearing corporation guarantees settlement and removes bilateral counterparty risk."
+  ],
+  [
+   "Clearing, Settlement & Risk Management",
+   "Initial margin on currency futures is primarily designed to cover:",
+   [
+    "The potential one-day loss on a position at a high statistical confidence level",
+    "The entire contract value",
+    "Brokerage and taxes on the trade",
+    "Losses over the whole life of the contract"
+   ],
+   0,
+   "Initial margin is risk-based (VaR-type) and sized for the worst likely one-day move, with MTM settled daily."
+  ],
+  [
+   "Clearing, Settlement & Risk Management",
+   "Daily mark-to-market profits and losses on currency futures are settled:",
+   [
+    "Only at contract expiry",
+    "By delivery of foreign currency",
+    "Weekly after netting",
+    "In cash, based on the daily settlement price"
+   ],
+   3,
+   "Futures are marked to market every day and the gain or loss is paid in cash, preventing losses from accumulating."
+  ],
+  [
+   "Clearing, Settlement & Risk Management",
+   "The main purpose of the Settlement Guarantee Fund maintained by a clearing corporation is to:",
+   [
+    "Pay interest on client margins",
+    "Ensure settlement is completed even if a clearing member defaults",
+    "Fund the exchange's technology costs",
+    "Compensate traders for market losses"
+   ],
+   1,
+   "The SGF is a pool of resources used to honour obligations when a member fails, protecting non-defaulting parties."
+  ],
+  [
+   "Clearing, Settlement & Risk Management",
+   "Why do clearing corporations generally charge lower margin on a calendar spread than on two separate outright futures positions?",
+   [
+    "Because gains on one leg largely offset losses on the other, so net risk is lower",
+    "Because spreads cannot be closed before expiry",
+    "Because spreads are not marked to market",
+    "Because the exchange guarantees spread profits"
+   ],
+   0,
+   "Near and far contracts on the same pair are highly correlated, so the combined position carries far less price risk."
+  ],
+  [
+   "Regulatory Framework",
+   "Exchange-traded currency derivatives in India fall under the joint regulatory purview of:",
+   [
+    "RBI and SEBI",
+    "SEBI and IRDAI",
+    "RBI and PFRDA",
+    "FEDAI and the Ministry of Commerce"
+   ],
+   0,
+   "RBI governs foreign exchange and eligible participation, while SEBI regulates the exchanges and intermediaries."
+  ],
+  [
+   "Regulatory Framework",
+   "RBI's authority to regulate who may participate in currency derivatives flows mainly from the:",
+   [
+    "Foreign Exchange Management Act, 1999",
+    "Companies Act, 2013",
+    "Forward Contracts (Regulation) Act, 1952",
+    "Depositories Act, 1996"
+   ],
+   0,
+   "FEMA empowers RBI to regulate foreign exchange transactions, including derivatives on currency pairs involving INR."
+  ],
+  [
+   "Accounting and Taxation",
+   "Which levy applies to exchange-traded equity derivatives but NOT to exchange-traded currency derivatives?",
+   [
+    "Securities Transaction Tax (STT)",
+    "GST on brokerage",
+    "Income tax on trading profits",
+    "SEBI turnover fees"
+   ],
+   0,
+   "STT is levied on securities transactions such as equity F&O; currency derivatives are outside its scope."
+  ],
+  [
+   "Accounting and Taxation",
+   "For income-tax purposes, profits from trading currency futures on a recognised stock exchange are generally treated as:",
+   [
+    "Speculative business income",
+    "Non-speculative business income",
+    "Long-term capital gains",
+    "Income from other sources exempt from tax"
+   ],
+   1,
+   "Eligible transactions in derivatives on a recognised exchange are excluded from the definition of speculative transactions."
+  ],
+  [
+   "Codes of Conduct & Investor Protection",
+   "SEBI's online platform where investors can lodge complaints against market intermediaries is called:",
+   [
+    "SCORES",
+    "CIBIL",
+    "NPCI",
+    "FBIL"
+   ],
+   0,
+   "SCORES (SEBI Complaints Redress System) lets investors file and track complaints against listed companies and intermediaries."
+  ],
+  [
+   "Codes of Conduct & Investor Protection",
+   "Before a new client begins trading in currency derivatives, the trading member must provide the client with:",
+   [
+    "A guarantee of minimum returns",
+    "A Risk Disclosure Document explaining the risks of derivatives",
+    "The trading member's proprietary positions",
+    "A list of recommended trades"
+   ],
+   1,
+   "The RDD is a mandatory part of client onboarding so that clients understand leverage and loss risks."
+  ]
+ ],
+ "iv": [
+  [
+   "Interest Rates & Fixed Income Market",
+   "When market yields rise, the price of an existing fixed-coupon bond:",
+   [
+    "Rises",
+    "Remains unchanged",
+    "Rises only if the coupon is high",
+    "Falls"
+   ],
+   3,
+   "Bond prices and yields move inversely because future fixed cash flows are discounted at a higher rate."
+  ],
+  [
+   "Interest Rates & Fixed Income Market",
+   "A bond with face value ₹100 pays an 8% annual coupon and trades at ₹95. Its current yield is approximately:",
+   [
+    "8.00%",
+    "7.60%",
+    "8.42%",
+    "9.00%"
+   ],
+   2,
+   "Current yield = annual coupon ÷ price = 8 ÷ 95 ≈ 8.42%."
+  ],
+  [
+   "Interest Rates & Fixed Income Market",
+   "A bond pays a 7% annual coupon and the market yield for comparable bonds is also 7%. The bond will trade:",
+   [
+    "At par",
+    "At a premium",
+    "At a discount",
+    "At zero price"
+   ],
+   0,
+   "When coupon rate equals required yield, discounting the cash flows gives exactly the face value."
+  ],
+  [
+   "Interest Rates & Fixed Income Market",
+   "A bond has a Macaulay duration of 5 years and a yield of 8% (annual compounding). Its modified duration is approximately:",
+   [
+    "4.63",
+    "5.40",
+    "5.00",
+    "4.00"
+   ],
+   0,
+   "Modified duration = Macaulay duration ÷ (1 + y) = 5 ÷ 1.08 ≈ 4.63."
+  ],
+  [
+   "Interest Rates & Fixed Income Market",
+   "A bond has a modified duration of 6. If its yield rises by 50 basis points, its price will change by approximately:",
+   [
+    "+3%",
+    "−6%",
+    "−0.5%",
+    "−3%"
+   ],
+   3,
+   "ΔP/P ≈ −Modified duration × Δy = −6 × 0.50% = −3%."
+  ],
+  [
+   "Interest Rates & Fixed Income Market",
+   "Government of India Treasury Bills are:",
+   [
+    "Issued at par with half-yearly coupons",
+    "Issued at a premium and redeemed at a discount",
+    "Perpetual instruments with no maturity",
+    "Issued at a discount and redeemed at face value"
+   ],
+   3,
+   "T-bills are zero-coupon money market instruments; the return is the difference between issue price and face value."
+  ],
+  [
+   "Interest Rates & Fixed Income Market",
+   "Which of the following is NOT a standard tenor of Government of India Treasury Bills?",
+   [
+    "91 days",
+    "182 days",
+    "364 days",
+    "270 days"
+   ],
+   3,
+   "GoI T-bills are issued in 91-, 182- and 364-day tenors."
+  ],
+  [
+   "Interest Rates & Fixed Income Market",
+   "For an option-free bond with positive convexity, an equal rise and fall in yield results in:",
+   [
+    "Identical price gain and loss",
+    "A larger price loss when yields rise than gain when they fall",
+    "A larger price gain when yields fall than the price loss when yields rise",
+    "No price change in either case"
+   ],
+   2,
+   "Convexity makes the price-yield curve bowed, so price rises accelerate and price falls decelerate."
+  ],
+  [
+   "Interest Rates & Fixed Income Market",
+   "A bond with face value ₹100 pays an 8% coupon semi-annually. Using a 30/360 convention, 60 days have passed since the last coupon. Accrued interest per ₹100 is:",
+   [
+    "₹1.33",
+    "₹0.67",
+    "₹2.67",
+    "₹4.00"
+   ],
+   0,
+   "Accrued interest = 100 × 8% × 60/360 = ₹1.33."
+  ],
+  [
+   "Interest Rates & Fixed Income Market",
+   "In a repo transaction, the party that sells securities with an agreement to repurchase them:",
+   [
+    "Is effectively lending funds",
+    "Permanently transfers ownership with no obligation",
+    "Is effectively borrowing funds against those securities",
+    "Is taking a short position in interest rate futures"
+   ],
+   2,
+   "A repo is a collateralised borrowing: cash is raised now and repaid on repurchase at a higher price reflecting interest."
+  ],
+  [
+   "Interest Rate Derivatives",
+   "A Forward Rate Agreement (FRA) is settled by:",
+   [
+    "Exchanging the full notional principal at maturity",
+    "Paying the difference between the agreed rate and the reference rate on a notional amount, without exchanging principal",
+    "Delivering a government bond",
+    "Exchanging currencies at a fixed rate"
+   ],
+   1,
+   "FRAs are cash-settled on the interest differential applied to a notional principal."
+  ],
+  [
+   "Interest Rate Derivatives",
+   "In a plain vanilla interest rate swap, the two parties typically:",
+   [
+    "Exchange principal amounts in two currencies",
+    "Exchange equity returns for bond coupons",
+    "Buy and sell the same bond simultaneously",
+    "Exchange fixed-rate interest for floating-rate interest on the same notional in one currency"
+   ],
+   3,
+   "A vanilla IRS swaps fixed against floating payments; the notional is not exchanged."
+  ],
+  [
+   "Interest Rate Derivatives",
+   "In India's OTC market, the most actively traded overnight indexed swaps (OIS) are benchmarked to:",
+   [
+    "The overnight MIBOR",
+    "The 91-day T-bill yield",
+    "SOFR",
+    "The RBI policy repo rate"
+   ],
+   0,
+   "The floating leg of the dominant Indian OIS compounds the FBIL-published overnight MIBOR."
+  ],
+  [
+   "Interest Rate Derivatives",
+   "Exchange-traded bond (interest rate) futures in India use as their underlying:",
+   [
+    "Corporate bonds",
+    "Bank fixed deposits",
+    "Government of India securities",
+    "Commercial paper"
+   ],
+   2,
+   "Indian IRFs are written on GoI securities or T-bills, which are free of credit risk and widely held."
+  ],
+  [
+   "Interest Rate Derivatives",
+   "In a physically settled bond futures contract with a basket of deliverable bonds, the conversion factor is used to:",
+   [
+    "Adjust the invoice price for differences in coupon and maturity among deliverable bonds",
+    "Convert prices from INR into USD",
+    "Compute the exchange's transaction charges",
+    "Determine the daily price band"
+   ],
+   0,
+   "The conversion factor standardises different deliverable bonds to the notional coupon so the invoice price is fair."
+  ],
+  [
+   "Interest Rate Derivatives",
+   "The cheapest-to-deliver (CTD) bond in a bond futures contract is the deliverable bond that:",
+   [
+    "Has the longest maturity in the basket",
+    "Gives the short the highest implied repo rate, i.e. the lowest net cost of delivery",
+    "Has the highest coupon in the basket",
+    "Was most recently issued"
+   ],
+   1,
+   "The seller chooses which bond to deliver and will pick the one that is cheapest relative to the invoice amount."
+  ],
+  [
+   "Interest Rate Derivatives",
+   "Bond futures settle at 98.00, the delivered bond's conversion factor is 1.05 and its accrued interest is ₹1.20 per ₹100 face. The invoice price per ₹100 face is:",
+   [
+    "₹102.90",
+    "₹94.53",
+    "₹104.10",
+    "₹99.20"
+   ],
+   2,
+   "Invoice price = Futures × CF + AI = 98.00 × 1.05 + 1.20 = 102.90 + 1.20 = 104.10."
+  ],
+  [
+   "Interest Rate Derivatives",
+   "If a bond's coupon yield exceeds the repo (financing) rate, the theoretical futures price of that bond will be:",
+   [
+    "Above the spot price",
+    "Equal to the spot price",
+    "Below the spot price",
+    "Impossible to determine"
+   ],
+   2,
+   "With positive carry, holding the bond earns more than it costs to finance, so the futures price = spot − net carry."
+  ],
+  [
+   "Interest Rate Derivatives",
+   "A company with a floating-rate loan fears that interest rates will rise. Using an interest rate swap, it should:",
+   [
+    "Receive fixed and pay floating",
+    "Pay fixed and receive floating",
+    "Pay floating and receive floating",
+    "Enter a currency swap"
+   ],
+   1,
+   "Receiving floating offsets the loan's floating payments, leaving the company with a known fixed cost."
+  ],
+  [
+   "Interest Rate Derivatives",
+   "An FRA on ₹10 crore notional for a 90-day period has a contract rate of 7.00%; the reference rate fixes at 7.50%. Using Actual/365, the settlement amount before discounting is approximately:",
+   [
+    "₹5.00 lakh",
+    "₹0.41 lakh",
+    "₹12.33 lakh",
+    "₹1.23 lakh"
+   ],
+   3,
+   "Settlement = 10,00,00,000 × 0.50% × 90/365 ≈ ₹1,23,288, paid to the FRA buyer since the reference rate is higher."
+  ],
+  [
+   "Exchange Traded Interest Rate Options",
+   "A borrower with a floating-rate loan wants protection against rising rates while keeping the benefit of falling rates. She should buy an interest rate:",
+   [
+    "Cap",
+    "Floor",
+    "Collar sold to the bank",
+    "Receiver swaption"
+   ],
+   0,
+   "A cap pays when the reference rate exceeds the cap rate, limiting borrowing cost; if rates fall she still pays less."
+  ],
+  [
+   "Exchange Traded Interest Rate Options",
+   "An investor holding floating-rate assets who fears falling interest income would buy an interest rate:",
+   [
+    "Cap",
+    "Payer swap",
+    "Futures sale contract",
+    "Floor"
+   ],
+   3,
+   "A floor pays out when the reference rate drops below the floor rate, protecting minimum income."
+  ],
+  [
+   "Exchange Traded Interest Rate Options",
+   "An interest rate collar for a borrower is created by:",
+   [
+    "Buying a floor and selling a cap",
+    "Buying both a cap and a floor",
+    "Selling both a cap and a floor",
+    "Buying a cap and selling a floor"
+   ],
+   3,
+   "The sold floor's premium offsets the cap cost, but gives up gains if rates fall below the floor."
+  ],
+  [
+   "Exchange Traded Interest Rate Options",
+   "A call option on a bond price gains value when interest rates:",
+   [
+    "Rise",
+    "Fall",
+    "Stay unchanged",
+    "Become more volatile only on the coupon date"
+   ],
+   1,
+   "Falling rates raise bond prices, increasing the value of the right to buy the bond at a fixed strike."
+  ],
+  [
+   "Strategies Using Interest Rate Derivatives",
+   "A bank holding a large portfolio of government bonds fears yields will rise. To hedge, it should:",
+   [
+    "Buy interest rate futures",
+    "Buy more long-dated bonds",
+    "Buy a call option on bond futures",
+    "Sell interest rate futures"
+   ],
+   3,
+   "Rising yields cut bond prices; a short futures position gains as futures prices fall, offsetting the loss."
+  ],
+  [
+   "Strategies Using Interest Rate Derivatives",
+   "A portfolio has a PVBP of ₹42,000 per basis point and one interest rate futures contract has a PVBP of ₹140. The number of contracts needed for a hedge is:",
+   [
+    "3,000",
+    "30",
+    "300",
+    "140"
+   ],
+   2,
+   "Hedge ratio = portfolio PVBP ÷ contract PVBP = 42,000 ÷ 140 = 300 contracts."
+  ],
+  [
+   "Strategies Using Interest Rate Derivatives",
+   "A portfolio worth ₹10 crore has a modified duration of 6. Each futures contract has a value of ₹2 lakh and the futures' modified duration is 8. The duration-based hedge requires approximately:",
+   [
+    "375 contracts",
+    "500 contracts",
+    "667 contracts",
+    "300 contracts"
+   ],
+   0,
+   "N = (P × Dp) ÷ (F × Df) = (10 crore × 6) ÷ (2 lakh × 8) = 60 crore ÷ 16 lakh = 375."
+  ],
+  [
+   "Strategies Using Interest Rate Derivatives",
+   "A trader expects the yield curve to steepen, with long-term yields rising relative to short-term yields. A suitable futures trade is to:",
+   [
+    "Buy long-tenor futures and sell short-tenor futures",
+    "Buy futures across all tenors",
+    "Sell long-tenor bond futures and buy short-tenor bond futures",
+    "Sell futures across all tenors equally"
+   ],
+   2,
+   "Long-tenor futures fall more if long yields rise relatively, so the short long-end/long short-end trade profits."
+  ],
+  [
+   "Strategies Using Interest Rate Derivatives",
+   "Bond futures are trading above their theoretical fair value. An arbitrageur would:",
+   [
+    "Sell the bond short and buy the futures",
+    "Buy the futures and buy the bond",
+    "Do nothing, since bond futures cannot be arbitraged",
+    "Buy the bond, finance it in the repo market and sell the futures"
+   ],
+   3,
+   "This cash-and-carry trade locks in the gap between the rich futures price and the carry-adjusted spot price."
+  ],
+  [
+   "Strategies Using Interest Rate Derivatives",
+   "An insurance company expects a large cash inflow next month for investment in bonds and fears yields will fall before then. It can:",
+   [
+    "Sell interest rate futures now",
+    "Buy interest rate futures now",
+    "Buy an interest rate cap",
+    "Enter a pay-fixed swap"
+   ],
+   1,
+   "This anticipatory (long) hedge gains if yields fall, offsetting the higher price it will later pay for bonds."
+  ],
+  [
+   "Strategies Using Interest Rate Derivatives",
+   "A trader expects the RBI to cut policy rates more than the market anticipates. A speculative position consistent with this view is to:",
+   [
+    "Buy government bond futures",
+    "Sell government bond futures",
+    "Buy an interest rate cap",
+    "Pay fixed in an OIS"
+   ],
+   0,
+   "Lower rates push bond prices and bond futures up, so a long futures position profits."
+  ],
+  [
+   "Strategies Using Interest Rate Derivatives",
+   "A fund manager wants to raise the duration of a bond portfolio without buying more bonds. She can:",
+   [
+    "Sell interest rate futures",
+    "Buy interest rate futures",
+    "Sell her longest bonds",
+    "Buy Treasury Bills"
+   ],
+   1,
+   "A long futures position adds interest rate sensitivity, effectively increasing portfolio duration."
+  ],
+  [
+   "Trading Mechanism",
+   "Orders in exchange-traded interest rate futures are matched on the trading system on the basis of:",
+   [
+    "The size of the order only",
+    "The member's seniority",
+    "Random allocation",
+    "Price-time priority"
+   ],
+   3,
+   "The best-priced order executes first; among equal prices, the earliest order gets priority."
+  ],
+  [
+   "Trading Mechanism",
+   "An Immediate-or-Cancel (IOC) order is one that:",
+   [
+    "Executes immediately to the extent possible, with any unfilled part cancelled",
+    "Stays in the system until the end of the day",
+    "Becomes active only when a trigger price is hit",
+    "Must be filled entirely or not at all on the next day"
+   ],
+   0,
+   "IOC orders do not rest in the book; whatever cannot be matched instantly is removed."
+  ],
+  [
+   "Trading Mechanism",
+   "The main purpose of daily price bands or operating ranges on interest rate futures is to:",
+   [
+    "Guarantee profits to buyers",
+    "Prevent erroneous orders and curb extreme price moves",
+    "Fix the coupon on the underlying bond",
+    "Set the conversion factor"
+   ],
+   1,
+   "Orders outside the permitted range are rejected or need confirmation, protecting against fat-finger errors."
+  ],
+  [
+   "Trading Mechanism",
+   "An order that remains in the order book until executed, cancelled or the end of that trading day is a:",
+   [
+    "Immediate-or-Cancel order",
+    "Market-on-close order",
+    "Spread order",
+    "Day order"
+   ],
+   3,
+   "A day order is valid only for the trading session in which it is placed."
+  ],
+  [
+   "Clearing, Settlement & Risk Management",
+   "In exchange-traded interest rate derivatives, the clearing corporation substituting itself as counterparty to both sides of every trade is known as:",
+   [
+    "Netting off",
+    "Novation",
+    "Assignment",
+    "Tender notice"
+   ],
+   1,
+   "Through novation the clearing corporation guarantees performance, eliminating counterparty risk between members."
+  ],
+  [
+   "Clearing, Settlement & Risk Management",
+   "A trader buys 5 IRF contracts (face value ₹2 lakh each, price quoted per ₹100) at 98.50. The day's settlement price is 98.20. His MTM result is:",
+   [
+    "Profit of ₹3,000",
+    "Loss of ₹600",
+    "Loss of ₹3,000",
+    "Loss of ₹30,000"
+   ],
+   2,
+   "Loss per contract = 0.30% × 2,00,000 = ₹600; × 5 contracts = ₹3,000 loss for a long position."
+  ],
+  [
+   "Clearing, Settlement & Risk Management",
+   "Exchanges levy an extreme loss margin (or exposure margin) in addition to initial margin primarily to cover:",
+   [
+    "Brokerage charges",
+    "Losses from tail events beyond those captured by the initial margin model",
+    "Daily MTM profits",
+    "Stamp duty on contract notes"
+   ],
+   1,
+   "Initial margin covers a VaR-type move; the extra margin buffers rare, larger moves."
+  ],
+  [
+   "Clearing, Settlement & Risk Management",
+   "If a clearing member defaults, the clearing corporation's first line of resources to meet the obligation is:",
+   [
+    "The Investor Protection Fund",
+    "Contributions from non-defaulting members",
+    "The defaulting member's own margins and collateral",
+    "Government budgetary support"
+   ],
+   2,
+   "The default waterfall uses the defaulter's resources first, before mutualised funds."
+  ],
+  [
+   "Clearing, Settlement & Risk Management",
+   "For a cash-settled interest rate futures contract, on the expiry day open positions are:",
+   [
+    "Settled by delivery of the underlying GoI bond",
+    "Closed out by paying or receiving the difference between the final settlement price and the previous day's settlement price",
+    "Rolled automatically into the next contract",
+    "Cancelled without any settlement"
+   ],
+   1,
+   "Cash-settled futures end with a final MTM against the final settlement price; no bonds are delivered."
+  ],
+  [
+   "Clearing, Settlement & Risk Management",
+   "Under SEBI's margin framework, trading members must collect margins from clients:",
+   [
+    "Only at contract expiry",
+    "Upfront, before or at the time of taking the position",
+    "Only when the client makes a loss",
+    "Once a year"
+   ],
+   1,
+   "SEBI requires upfront collection of initial and exposure margins; short collection attracts penalties."
+  ],
+  [
+   "Regulatory Framework",
+   "Which regulator issues directions on the OTC interest rate derivative products that banks may offer to their clients?",
+   [
+    "Reserve Bank of India",
+    "SEBI",
+    "IRDAI",
+    "PFRDA"
+   ],
+   0,
+   "OTC interest rate derivatives involving regulated entities fall under RBI's directions."
+  ],
+  [
+   "Regulatory Framework",
+   "OTC interest rate derivative trades in India are required to be reported to the trade repository maintained by:",
+   [
+    "NSDL",
+    "Clearing Corporation of India Ltd (CCIL)",
+    "CDSL",
+    "SEBI's SCORES platform"
+   ],
+   1,
+   "CCIL operates the trade repository for OTC rate and forex derivatives, improving transparency for regulators."
+  ],
+  [
+   "Regulatory Framework",
+   "Under the Securities Contracts (Regulation) Act, 1956, a 'derivative' includes a contract which:",
+   [
+    "Guarantees a fixed return to the buyer",
+    "Is issued only by the Government of India",
+    "Derives its value from the prices or index of prices of underlying securities",
+    "Represents ownership in a company"
+   ],
+   2,
+   "The SCRA definition centres on value being derived from an underlying, enabling exchange trading of such contracts."
+  ],
+  [
+   "Accounting and Taxation",
+   "Profits from trading interest rate futures on a recognised stock exchange are generally taxed as:",
+   [
+    "Non-speculative business income",
+    "Speculative business income",
+    "Short-term capital gains at a concessional rate",
+    "Exempt income"
+   ],
+   0,
+   "Eligible derivative transactions on recognised exchanges are excluded from speculative transactions under the Income-tax law."
+  ],
+  [
+   "Accounting and Taxation",
+   "Under Ind AS 109, an interest rate futures position that is not designated in a hedge relationship is measured at:",
+   [
+    "Historical cost",
+    "Fair value through profit or loss",
+    "Amortised cost",
+    "Fair value through other comprehensive income only"
+   ],
+   1,
+   "Non-hedge derivatives are held for trading and their fair value changes go to the profit and loss statement."
+  ],
+  [
+   "Code of Conduct & Investor Protection",
+   "Before onboarding a client for interest rate derivatives, a trading member must first:",
+   [
+    "Complete the client's KYC and registration process",
+    "Guarantee the client a minimum return",
+    "Take a position on the client's behalf",
+    "Obtain RBI approval for each client"
+   ],
+   0,
+   "KYC is a mandatory pre-condition for opening any trading account."
+  ],
+  [
+   "Code of Conduct & Investor Protection",
+   "A trading member using one client's funds to meet another client's margin obligation is:",
+   [
+    "Prohibited, because client funds must be kept segregated",
+    "Permitted if both clients are related",
+    "Permitted for up to five days",
+    "Required during volatile markets"
+   ],
+   0,
+   "Client money must be used only for that client's obligations; misuse breaches SEBI rules."
+  ],
+  [
+   "Code of Conduct & Investor Protection",
+   "If an investor's complaint is not resolved satisfactorily by the intermediary, the investor can escalate it through:",
+   [
+    "The Registrar of Companies",
+    "A credit information company",
+    "SEBI's SCORES platform and the online dispute resolution mechanism",
+    "The RBI's currency chest"
+   ],
+   2,
+   "SCORES and the ODR framework are the designated escalation routes for securities market complaints."
+  ]
+ ],
+ "viii": [
+  [
+   "Basics of Derivatives",
+   "A derivative is best described as a financial contract whose value:",
+   [
+    "Is fixed at issue and never changes",
+    "Depends on the value of an underlying asset, index or rate",
+    "Depends only on the issuer's credit rating",
+    "Is always equal to the face value"
+   ],
+   1,
+   "Derivatives derive their value from an underlying such as shares, an index, currency or interest rates."
+  ],
+  [
+   "Basics of Derivatives",
+   "Compared with OTC derivatives, exchange-traded derivatives substantially reduce:",
+   [
+    "Market price risk",
+    "The need for any margin",
+    "Taxes payable on profits",
+    "Counterparty credit risk, because a clearing corporation guarantees settlement"
+   ],
+   3,
+   "The clearing corporation acts as central counterparty with margins and MTM, so participants do not depend on each other."
+  ],
+  [
+   "Basics of Derivatives",
+   "A participant who simultaneously buys in one market and sells in another to profit from a price mismatch is a/an:",
+   [
+    "Hedger",
+    "Speculator",
+    "Margin trader",
+    "Arbitrageur"
+   ],
+   3,
+   "Arbitrageurs exploit price discrepancies with little or no net market risk, helping align prices."
+  ],
+  [
+   "Basics of Derivatives",
+   "Which of the following is a key economic function of derivatives markets?",
+   [
+    "Transferring risk from those who want to avoid it to those willing to bear it",
+    "Raising long-term capital for companies",
+    "Guaranteeing returns to investors",
+    "Fixing the prices of underlying shares"
+   ],
+   0,
+   "Derivatives allow hedgers to shift price risk to speculators, besides aiding price discovery."
+  ],
+  [
+   "Understanding Index",
+   "The Nifty 50 index is constructed using which weighting method?",
+   [
+    "Price weighting",
+    "Equal weighting",
+    "Full market capitalisation including promoter holdings",
+    "Free-float market capitalisation weighting"
+   ],
+   3,
+   "Free-float weighting counts only shares readily available for trading, excluding promoter and locked-in holdings."
+  ],
+  [
+   "Understanding Index",
+   "A free-float index had a base value of 1,000 when the free-float market cap was ₹2,00,000 crore. If free-float market cap is now ₹2,50,000 crore (no corporate actions), the index value is:",
+   [
+    "1,250",
+    "1,025",
+    "800",
+    "2,500"
+   ],
+   0,
+   "Index = Base value × Current mcap ÷ Base mcap = 1,000 × 2,50,000 ÷ 2,00,000 = 1,250."
+  ],
+  [
+   "Understanding Index",
+   "Impact cost of a stock measures:",
+   [
+    "The brokerage charged by the broker",
+    "The tax payable on a trade",
+    "The change in the index when the stock is added",
+    "The extra cost of executing a trade of a given size relative to the ideal (mid) price, reflecting liquidity"
+   ],
+   3,
+   "Lower impact cost means higher liquidity, which is a key criterion for index inclusion."
+  ],
+  [
+   "Understanding Index",
+   "A well-diversified, liquid index is preferred as the underlying for derivatives mainly because:",
+   [
+    "Its value never falls",
+    "It carries no market risk",
+    "It pays a fixed dividend",
+    "It reflects market-wide (systematic) risk and is harder to manipulate"
+   ],
+   3,
+   "Diversification removes stock-specific noise and makes manipulation of the underlying difficult."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "A stock trades at ₹2,000. The risk-free rate is 8% p.a. (simple) and no dividend is expected. The fair price of a 3-month future is:",
+   [
+    "₹2,160",
+    "₹2,000",
+    "₹2,040",
+    "₹2,013.33"
+   ],
+   2,
+   "Fair value = S × (1 + r × t) = 2,000 × (1 + 0.08 × 3/12) = 2,040."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "A stock is at ₹1,500, the financing cost for 2 months is 6% p.a. (simple), and a dividend of ₹10 will be paid before expiry. The fair value of the 2-month future is:",
+   [
+    "₹1,515",
+    "₹1,505",
+    "₹1,490",
+    "₹1,525"
+   ],
+   1,
+   "Carry = 1,500 × 6% × 2/12 = 15; fair value = 1,500 + 15 − 10 = 1,505."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "A market in which futures prices are higher than the spot price is said to be in:",
+   [
+    "Contango",
+    "Backwardation",
+    "Convergence",
+    "Inversion"
+   ],
+   0,
+   "Contango is the normal cost-of-carry situation where futures trade at a premium to spot."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "As a futures contract approaches expiry, its basis (spot minus futures) tends to:",
+   [
+    "Converge towards zero",
+    "Widen steadily",
+    "Become exactly equal to the interest rate",
+    "Become permanently negative"
+   ],
+   0,
+   "At expiry the futures price must equal spot, so the cost-of-carry component shrinks to zero."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "A trader buys one stock futures lot of 500 shares at ₹1,200. The day's settlement price is ₹1,185. His mark-to-market result is:",
+   [
+    "Profit of ₹7,500",
+    "Loss of ₹750",
+    "Loss of ₹15,000",
+    "Loss of ₹7,500"
+   ],
+   3,
+   "MTM = (1,185 − 1,200) × 500 = −₹7,500."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "A portfolio of ₹1.5 crore has a beta of 1.2. An index future trades at 24,000 with an assumed lot size of 75. The number of contracts to sell for a full hedge is:",
+   [
+    "8",
+    "10",
+    "12",
+    "15"
+   ],
+   1,
+   "Contract value = 24,000 × 75 = ₹18 lakh; contracts = (1.5 crore × 1.2) ÷ 18 lakh = 10."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "An investor holds shares of a company and fears a short-term fall in price but does not want to sell the shares. Using futures, she should:",
+   [
+    "Buy futures on that stock",
+    "Buy call options on an unrelated stock",
+    "Sell futures on that stock",
+    "Do nothing, as futures cannot hedge shares"
+   ],
+   2,
+   "A short futures position gains when the price falls, offsetting the loss on the shares."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "On expiry, open positions in single-stock futures on Indian exchanges are settled by:",
+   [
+    "Cash settlement only",
+    "Automatic rollover to the next month",
+    "Physical delivery of the shares",
+    "Delivery of an index basket"
+   ],
+   2,
+   "Stock derivatives in India moved to compulsory physical settlement, while index derivatives remain cash settled."
+  ],
+  [
+   "Introduction to Options",
+   "Stock options and index options traded on Indian exchanges are of which style?",
+   [
+    "American",
+    "Bermudan",
+    "European",
+    "Asian"
+   ],
+   2,
+   "All equity options on Indian exchanges can be exercised only on the expiry day."
+  ],
+  [
+   "Introduction to Options",
+   "A trader buys a put (lot 1,000 shares) with strike ₹500 at a premium of ₹12. At expiry the stock settles at ₹470. His net profit is:",
+   [
+    "₹30,000",
+    "₹18,000",
+    "₹12,000",
+    "₹42,000"
+   ],
+   1,
+   "Payoff = (500 − 470) − 12 = ₹18 per share; × 1,000 = ₹18,000."
+  ],
+  [
+   "Introduction to Options",
+   "The maximum potential loss for the writer of a naked (uncovered) call option is:",
+   [
+    "The premium received",
+    "The strike price",
+    "Zero",
+    "Unlimited"
+   ],
+   3,
+   "If the underlying rises without limit, the call writer's obligation grows without limit."
+  ],
+  [
+   "Introduction to Options",
+   "A European call with strike ₹1,000 is priced at ₹60, the stock is at ₹1,000 and the present value of the strike is ₹980. By put-call parity, the put with the same strike and expiry should be worth:",
+   [
+    "₹60",
+    "₹20",
+    "₹80",
+    "₹40"
+   ],
+   3,
+   "C − P = S − PV(K) ⇒ P = 60 − 1,000 + 980 = ₹40."
+  ],
+  [
+   "Introduction to Options",
+   "Theta of a long option position is usually negative because:",
+   [
+    "The option loses time value as expiry approaches, other things being equal",
+    "Volatility always falls over time",
+    "Interest rates fall daily",
+    "The strike price is adjusted daily"
+   ],
+   0,
+   "Time decay erodes the extrinsic value of options, hurting buyers and benefiting writers."
+  ],
+  [
+   "Introduction to Options",
+   "The delta of a deep in-the-money call option on a stock is close to:",
+   [
+    "0",
+    "0.5",
+    "1",
+    "−1"
+   ],
+   2,
+   "A deep ITM call moves almost one-for-one with the stock because exercise is almost certain."
+  ],
+  [
+   "Introduction to Options",
+   "Gamma of an option measures:",
+   [
+    "The rate of change of delta with respect to the underlying price",
+    "The change in premium for a change in volatility",
+    "The change in premium for a change in interest rates",
+    "The change in premium per day"
+   ],
+   0,
+   "Gamma is the second derivative of the option price with respect to the underlying."
+  ],
+  [
+   "Introduction to Options",
+   "Other things being equal, an increase in the risk-free interest rate tends to:",
+   [
+    "Increase call values and decrease put values",
+    "Decrease call values and increase put values",
+    "Increase both call and put values",
+    "Have no effect on option values"
+   ],
+   0,
+   "A higher rate lowers the present value of the strike, which benefits calls (pay strike later) and hurts puts."
+  ],
+  [
+   "Introduction to Options",
+   "Implied volatility of an option is:",
+   [
+    "The historical standard deviation of past returns",
+    "The volatility that, when used in a pricing model, makes the model price equal the market premium",
+    "The volatility fixed by the exchange",
+    "The difference between the high and low price of the day"
+   ],
+   1,
+   "Implied volatility is backed out from market prices and reflects the market's expectation of future volatility."
+  ],
+  [
+   "Strategies using Equity Futures and Options",
+   "An investor who owns shares and sells call options on them to earn premium income is using a:",
+   [
+    "Protective put",
+    "Covered call",
+    "Long straddle",
+    "Bear put spread"
+   ],
+   1,
+   "The shares 'cover' the obligation under the sold call, so the strategy trades upside for premium."
+  ],
+  [
+   "Strategies using Equity Futures and Options",
+   "An investor owns a stock and buys a put option on it to limit downside. This is a:",
+   [
+    "Covered call",
+    "Short strangle",
+    "Calendar spread",
+    "Protective put"
+   ],
+   3,
+   "The put sets a floor price on the holding while keeping upside potential, like insurance."
+  ],
+  [
+   "Strategies using Equity Futures and Options",
+   "A trader buys a 24,000 index put at 180 and sells a 23,800 put at 100, same expiry. Maximum profit in index points is:",
+   [
+    "200",
+    "120",
+    "80",
+    "280"
+   ],
+   1,
+   "Net debit = 80; max profit = strike difference − net debit = 200 − 80 = 120 points."
+  ],
+  [
+   "Strategies using Equity Futures and Options",
+   "A trader who expects the market to stay range-bound with low volatility might sell a call and a put at the same strike. This strategy is a:",
+   [
+    "Long straddle",
+    "Long strangle",
+    "Short straddle",
+    "Bull call spread"
+   ],
+   2,
+   "A short straddle earns both premiums but suffers large losses if the market moves sharply."
+  ],
+  [
+   "Strategies using Equity Futures and Options",
+   "Buying an out-of-the-money call and an out-of-the-money put on the same underlying and expiry is called a:",
+   [
+    "Long straddle",
+    "Long strangle",
+    "Butterfly spread",
+    "Covered call"
+   ],
+   1,
+   "A strangle is cheaper than a straddle but needs a bigger move to profit."
+  ],
+  [
+   "Strategies using Equity Futures and Options",
+   "A long butterfly spread using calls is most profitable when, at expiry, the underlying is:",
+   [
+    "Far above the highest strike",
+    "Far below the lowest strike",
+    "Close to the middle strike",
+    "Moving sharply in either direction"
+   ],
+   2,
+   "Buying one low, selling two middle and buying one high strike produces peak profit at the middle strike."
+  ],
+  [
+   "Strategies using Equity Futures and Options",
+   "An investor buys a stock at ₹500 and sells a ₹520 call on it for ₹10. Ignoring costs, her maximum profit per share is:",
+   [
+    "₹30",
+    "₹20",
+    "₹10",
+    "Unlimited"
+   ],
+   0,
+   "Max profit = (520 − 500) + 10 = ₹30, reached when the stock is at or above ₹520 at expiry."
+  ],
+  [
+   "Strategies using Equity Futures and Options",
+   "Buying a call and selling a put with the same strike and expiry creates a payoff similar to:",
+   [
+    "A long futures position",
+    "A short futures position",
+    "A long straddle",
+    "A risk-free bond"
+   ],
+   0,
+   "This synthetic long gains and loses one-for-one with the underlying, like a long future."
+  ],
+  [
+   "Trading Mechanism",
+   "When open interest in a stock's derivatives crosses 95% of the market-wide position limit, the stock enters a ban period during which:",
+   [
+    "All trading in the stock's cash market stops",
+    "Only trades that reduce existing positions are allowed",
+    "Only new positions can be created",
+    "Options on the stock are cancelled"
+   ],
+   1,
+   "The ban prevents further build-up of positions until open interest falls back below the threshold."
+  ],
+  [
+   "Trading Mechanism",
+   "A stop-loss buy order is generally used by a trader who:",
+   [
+    "Holds a long position and wants to limit losses if the price falls",
+    "Wants guaranteed execution at the current price",
+    "Wants to buy only at the day's low",
+    "Holds a short position and wants to limit losses if the price rises"
+   ],
+   3,
+   "A buy stop is triggered when prices rise to the trigger level, closing out a short."
+  ],
+  [
+   "Trading Mechanism",
+   "In exchange-traded equity options, the strike prices available for trading are determined by:",
+   [
+    "The exchange, as per its contract specifications",
+    "Each buyer individually",
+    "The company whose stock is the underlying",
+    "The client's broker"
+   ],
+   0,
+   "Contracts are standardised; the exchange introduces strikes around the underlying price by a set scheme."
+  ],
+  [
+   "Trading Mechanism",
+   "A buys 10 futures contracts from B, both opening new positions. Later, C buys 4 contracts from A, who is closing part of his position. Open interest is now:",
+   [
+    "14 contracts",
+    "10 contracts",
+    "6 contracts",
+    "4 contracts"
+   ],
+   1,
+   "A's 4 contracts close while C opens 4, so outstanding positions stay at 10."
+  ],
+  [
+   "Clearing and Settlement System",
+   "Index options on Indian exchanges, when exercised at expiry, are settled by:",
+   [
+    "Delivery of all index constituent shares",
+    "Delivery of index futures",
+    "Delivery of an index fund unit",
+    "Cash payment of the difference between settlement price and strike"
+   ],
+   3,
+   "An index cannot be delivered, so index options are cash settled."
+  ],
+  [
+   "Clearing and Settlement System",
+   "The risk-based initial margin on an equity derivatives portfolio is computed by assessing:",
+   [
+    "A fixed percentage of brokerage",
+    "Only the option premium paid",
+    "The worst likely loss of the whole portfolio across a range of price and volatility scenarios",
+    "The client's annual income"
+   ],
+   2,
+   "A portfolio-based SPAN-type approach scans multiple scenarios and nets offsetting positions."
+  ],
+  [
+   "Clearing and Settlement System",
+   "Which margin is levied over and above the initial (SPAN) margin to guard against moves beyond normal risk estimates?",
+   [
+    "Premium margin",
+    "Brokerage margin",
+    "Exposure margin",
+    "Delivery margin"
+   ],
+   2,
+   "Exposure margin is an additional buffer on top of initial margin for extreme market moves."
+  ],
+  [
+   "Clearing and Settlement System",
+   "In equity options, margins are collected from:",
+   [
+    "Option sellers, since buyers pay the premium upfront",
+    "Option buyers only",
+    "Both parties, in equal amounts",
+    "Neither party"
+   ],
+   0,
+   "The buyer's maximum loss is the premium already paid, whereas the seller's obligation is open-ended."
+  ],
+  [
+   "Clearing and Settlement System",
+   "A clearing member in the equity derivatives segment is responsible for:",
+   [
+    "Setting the exchange's trading hours",
+    "Fixing strike prices",
+    "Approving new listings",
+    "Clearing and settling trades of the trading members it clears for"
+   ],
+   3,
+   "Clearing members carry settlement obligations to the clearing corporation for their own and their trading members' trades."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "Equity derivatives became legally tradable on Indian exchanges after the SCRA, 1956 was amended to include derivatives within the definition of:",
+   [
+    "Banking companies",
+    "Securities",
+    "Commodities",
+    "Deposits"
+   ],
+   1,
+   "The 1999 amendment brought derivatives under 'securities', allowing exchange trading under SEBI oversight."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "Which SEBI-appointed committee recommended the introduction of exchange-traded derivatives in India in the late 1990s?",
+   [
+    "Narasimham Committee",
+    "Malegam Committee",
+    "L.C. Gupta Committee",
+    "Kumar Mangalam Birla Committee"
+   ],
+   2,
+   "The L.C. Gupta Committee recommended a phased introduction of derivatives, beginning with index futures."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "SEBI prescribes client-level and market-wide position limits in equity derivatives primarily to:",
+   [
+    "Guarantee profits for retail clients",
+    "Increase brokerage income",
+    "Prevent excessive concentration and possible market manipulation",
+    "Fix the price of the underlying"
+   ],
+   2,
+   "Position limits keep any single entity from dominating open interest."
+  ],
+  [
+   "Accounting and Taxation",
+   "Securities Transaction Tax on the sale of an equity option that is squared off (not exercised) is computed on:",
+   [
+    "The option premium",
+    "The strike price × lot size",
+    "The intrinsic value",
+    "The notional value of the underlying"
+   ],
+   0,
+   "For options sold before expiry, STT is charged on the premium; on exercise it is charged on the settlement (intrinsic) value."
+  ],
+  [
+   "Accounting and Taxation",
+   "Initial margin paid by a client on equity futures is shown in the client's books as:",
+   [
+    "An expense in the profit and loss account",
+    "A current asset, as it is recoverable",
+    "A long-term liability",
+    "Share capital"
+   ],
+   1,
+   "Margin is a deposit with the broker/clearing system and is refundable, hence a current asset."
+  ],
+  [
+   "Sales Practices and Investor Protection",
+   "Before recommending a derivatives product to a retail client, a distributor should primarily assess the client's:",
+   [
+    "Social media following",
+    "Financial situation, risk appetite and understanding of the product",
+    "Preference for a particular brand",
+    "Family members' trading history"
+   ],
+   1,
+   "Suitability requires matching the product's risk to the client's profile and knowledge."
+  ],
+  [
+   "Sales Practices and Investor Protection",
+   "SEBI requires brokers to show equity F&O clients a risk disclosure that highlights:",
+   [
+    "That a large majority of individual traders in equity F&O incurred net losses",
+    "That F&O trading guarantees profits",
+    "That margins are not required",
+    "That options are risk-free for buyers"
+   ],
+   0,
+   "SEBI studies found most individual F&O traders lose money, so brokers must display this disclosure to clients."
+  ],
+  [
+   "Sales Practices and Investor Protection",
+   "An exchange's Investor Protection Fund is used mainly to:",
+   [
+    "Pay market losses of investors",
+    "Subsidise brokerage",
+    "Compensate investors' eligible claims when a trading member is declared a defaulter",
+    "Fund new IPOs"
+   ],
+   2,
+   "IPF compensates legitimate claims against defaulting members, not trading losses."
+  ]
+ ],
+ "xiii": [
+  [
+   "Basics of Derivatives",
+   "Which of the following is an example of an exchange-traded derivative?",
+   [
+    "Nifty 50 index options",
+    "A currency forward booked with a bank",
+    "A customised interest rate swap with a bank",
+    "A bilateral forward rate agreement"
+   ],
+   0,
+   "Index options are standardised and traded on an exchange; the others are OTC contracts."
+  ],
+  [
+   "Basics of Derivatives",
+   "A key risk that both parties to an OTC forward contract face is:",
+   [
+    "Default by the other party before settlement",
+    "Daily margin calls from a clearing corporation",
+    "Securities Transaction Tax",
+    "Delisting of the contract by the exchange"
+   ],
+   0,
+   "There is no clearing corporation guarantee in a forward, so each side bears counterparty risk."
+  ],
+  [
+   "Basics of Derivatives",
+   "Exchange-traded equity derivatives in India began with the launch of index futures in:",
+   [
+    "1995",
+    "2000",
+    "2005",
+    "2008"
+   ],
+   1,
+   "Index futures were introduced in June 2000, followed by index options, stock options and stock futures."
+  ],
+  [
+   "Introduction to the Underlying Markets",
+   "When computing free-float market capitalisation for an index, which holdings are typically excluded?",
+   [
+    "Shares held by retail investors",
+    "Shares held by mutual funds",
+    "Shares held by foreign portfolio investors",
+    "Shares held by promoters and promoter groups"
+   ],
+   3,
+   "Free float counts only shares readily available for trading, so promoter and locked-in holdings are left out."
+  ],
+  [
+   "Introduction to the Underlying Markets",
+   "In the currency pair GBP/INR, the quote (price) currency is:",
+   [
+    "GBP",
+    "USD",
+    "EUR",
+    "INR"
+   ],
+   3,
+   "The second currency in a pair is the quote currency, showing how many rupees one pound costs."
+  ],
+  [
+   "Introduction to the Underlying Markets",
+   "USD/INR spot is 84.00 and the 3-month forward premium is 45 paise. The 3-month outright forward rate is:",
+   [
+    "83.55",
+    "84.045",
+    "84.45",
+    "88.50"
+   ],
+   2,
+   "Outright forward = spot + premium = 84.00 + 0.45 = 84.45."
+  ],
+  [
+   "Introduction to the Underlying Markets",
+   "Dated Government of India securities are issued in the primary market through auctions conducted by:",
+   [
+    "SEBI",
+    "NSE",
+    "The Reserve Bank of India",
+    "The Ministry of Corporate Affairs"
+   ],
+   2,
+   "RBI manages public debt on behalf of the Government and conducts G-sec auctions."
+  ],
+  [
+   "Introduction to the Underlying Markets",
+   "A one-year zero-coupon bond with face value ₹100 is priced at ₹93.46. Its yield is approximately:",
+   [
+    "6.54%",
+    "7.46%",
+    "6.00%",
+    "7.00%"
+   ],
+   3,
+   "Yield = 100 ÷ 93.46 − 1 ≈ 7.00%."
+  ],
+  [
+   "Introduction to the Underlying Markets",
+   "The standard settlement cycle for most trades in the Indian equity cash market is:",
+   [
+    "T+1",
+    "T+2",
+    "T+3",
+    "T+5"
+   ],
+   0,
+   "India completed the move to a T+1 rolling settlement cycle in 2023."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "A key feature that distinguishes futures from forwards is that futures:",
+   [
+    "Are customised to each client",
+    "Are marked to market daily through a clearing corporation",
+    "Carry no margin requirement",
+    "Can only be settled by delivery"
+   ],
+   1,
+   "Daily MTM and central clearing are hallmarks of exchange-traded futures."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "A stock trades at ₹800 and the interest rate is 9% p.a. (simple), with no dividends. The fair value of a 4-month future is:",
+   [
+    "₹872",
+    "₹806",
+    "₹800",
+    "₹824"
+   ],
+   3,
+   "Fair value = 800 × (1 + 0.09 × 4/12) = 800 × 1.03 = ₹824."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "Backwardation refers to a situation where:",
+   [
+    "The futures price is above the spot price",
+    "Futures and spot prices are always equal",
+    "Open interest is zero",
+    "The futures price is below the spot price"
+   ],
+   3,
+   "Backwardation is the reverse of contango and can occur with high dividends or convenience yield."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "USD/INR spot is 84.00, INR interest is 6% p.a. and USD interest is 5% p.a. Using interest parity with simple interest, the 6-month futures fair value is closest to:",
+   [
+    "83.59",
+    "88.20",
+    "84.00",
+    "84.41"
+   ],
+   3,
+   "F = 84 × (1 + 0.06 × 0.5)/(1 + 0.05 × 0.5) = 84 × 1.03/1.025 ≈ 84.41."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "Open interest in a futures contract represents:",
+   [
+    "The number of contracts traded during the day",
+    "The total number of traders registered",
+    "The total number of contracts outstanding that have not been closed out",
+    "The price change during the day"
+   ],
+   2,
+   "Open interest counts open positions, while volume counts trades executed."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "Cash-settled index futures on Indian exchanges are finally settled at expiry using:",
+   [
+    "The opening value of the index on the expiry day",
+    "The average futures price over the contract life",
+    "The closing value of the underlying index on the expiry day",
+    "The previous month's closing index value"
+   ],
+   2,
+   "Final settlement price for index futures is the closing price of the underlying index on expiry."
+  ],
+  [
+   "Introduction to Forwards and Futures",
+   "The price of an interest rate future on a government bond will typically fall when:",
+   [
+    "Bond yields fall",
+    "Bond yields rise",
+    "The coupon is paid",
+    "Equity markets fall"
+   ],
+   1,
+   "Higher yields reduce bond prices, and futures on those bonds follow."
+  ],
+  [
+   "Strategies Using Futures",
+   "A portfolio worth ₹90 lakh has a beta of 0.8. Each index futures contract is worth ₹12 lakh. The number of contracts to sell for a full hedge is:",
+   [
+    "7.5",
+    "9",
+    "6",
+    "4.8"
+   ],
+   2,
+   "Contracts = (90 lakh × 0.8) ÷ 12 lakh = 72 ÷ 12 = 6."
+  ],
+  [
+   "Strategies Using Futures",
+   "To reduce a portfolio's beta from 1.2 to zero using index futures, the investor should:",
+   [
+    "Buy index futures equal to the portfolio value",
+    "Sell stock futures of unrelated companies",
+    "Sell index futures equal to the beta-adjusted portfolio value",
+    "Buy call options on the index"
+   ],
+   2,
+   "Selling futures worth beta × portfolio value offsets the portfolio's market exposure."
+  ],
+  [
+   "Strategies Using Futures",
+   "If stock futures trade well above their cost-of-carry fair value, an arbitrageur would:",
+   [
+    "Buy the stock in the cash market and sell the futures",
+    "Sell the stock and buy the futures",
+    "Buy both stock and futures",
+    "Sell both stock and futures"
+   ],
+   0,
+   "This cash-and-carry trade locks in the excess of the futures price over fair value."
+  ],
+  [
+   "Strategies Using Futures",
+   "A reverse cash-and-carry arbitrage is undertaken when futures are:",
+   [
+    "Overpriced, so the trader buys spot and sells futures",
+    "Underpriced relative to fair value, so the trader sells spot and buys futures",
+    "At fair value, so no trade is needed",
+    "Suspended from trading"
+   ],
+   1,
+   "When futures are cheap, selling the underlying and buying futures captures the mispricing."
+  ],
+  [
+   "Strategies Using Futures",
+   "An exporter expecting USD inflows in two months fears rupee appreciation. Using currency futures, he should:",
+   [
+    "Buy USD/INR futures",
+    "Sell USD/INR futures",
+    "Buy USD/INR call options",
+    "Do nothing, as futures cannot hedge receivables"
+   ],
+   1,
+   "A falling USD/INR hurts the exporter, so a short futures position offsets that loss."
+  ],
+  [
+   "Strategies Using Futures",
+   "A trader expects Bank A to outperform Bank B regardless of overall market direction. A suitable futures trade is to:",
+   [
+    "Sell Bank A futures and buy Bank B futures",
+    "Buy index futures only",
+    "Sell both Bank A and Bank B futures",
+    "Buy Bank A futures and sell Bank B futures"
+   ],
+   3,
+   "This pair trade profits from relative performance while the market exposure largely cancels out."
+  ],
+  [
+   "Introduction to Options",
+   "Exchange-traded equity options and USD/INR options in India are of which exercise style?",
+   [
+    "American",
+    "Bermudan",
+    "Asian",
+    "European"
+   ],
+   3,
+   "Both can be exercised only on the expiry date."
+  ],
+  [
+   "Introduction to Options",
+   "A trader buys a call (lot 250 shares) with strike ₹1,000 at a premium of ₹40. At expiry the stock settles at ₹1,070. His net profit is:",
+   [
+    "₹7,500",
+    "₹17,500",
+    "₹10,000",
+    "₹27,500"
+   ],
+   0,
+   "Payoff = (1,070 − 1,000) − 40 = ₹30 per share; × 250 = ₹7,500."
+  ],
+  [
+   "Introduction to Options",
+   "The holder of a put option has the:",
+   [
+    "Obligation to buy the underlying at the strike price",
+    "Right to buy the underlying at the strike price",
+    "Obligation to sell the underlying at the market price",
+    "Right, but not the obligation, to sell the underlying at the strike price"
+   ],
+   3,
+   "A put conveys the right to sell; only the writer carries an obligation."
+  ],
+  [
+   "Introduction to Options",
+   "At expiry, the time value of any option is:",
+   [
+    "Equal to the premium paid",
+    "Equal to the strike price",
+    "Zero",
+    "Equal to the intrinsic value"
+   ],
+   2,
+   "With no time left, an option is worth only its intrinsic value."
+  ],
+  [
+   "Introduction to Options",
+   "USD/INR spot is 84.20. What is the intrinsic value of a USD/INR put with a strike of 85.00?",
+   [
+    "₹0.00",
+    "₹0.80",
+    "₹84.20",
+    "₹1.80"
+   ],
+   1,
+   "Put intrinsic value = Strike − Spot = 85.00 − 84.20 = ₹0.80."
+  ],
+  [
+   "Introduction to Options",
+   "Vega of an option measures the sensitivity of its premium to changes in:",
+   [
+    "Time to expiry",
+    "Volatility of the underlying",
+    "The underlying price",
+    "Interest rates"
+   ],
+   1,
+   "Vega shows how much the premium changes for a one-point change in volatility."
+  ],
+  [
+   "Introduction to Options",
+   "The model most commonly associated with pricing European options is the:",
+   [
+    "Black-Scholes model",
+    "Gordon growth model",
+    "Capital Asset Pricing Model",
+    "Dividend discount model"
+   ],
+   0,
+   "The Black-Scholes(-Merton) model gives a closed-form price for European options."
+  ],
+  [
+   "Option Trading Strategies",
+   "Selling a higher-strike put and buying a lower-strike put on the same underlying and expiry creates a:",
+   [
+    "Bear put spread",
+    "Bull put spread",
+    "Long straddle",
+    "Protective put"
+   ],
+   1,
+   "This credit spread profits if the underlying stays above the higher strike, with limited risk."
+  ],
+  [
+   "Option Trading Strategies",
+   "A trader buys an ATM index call at 120 points and an ATM put at 100 points, same strike and expiry. His maximum possible loss is:",
+   [
+    "120 points",
+    "220 points",
+    "100 points",
+    "Unlimited"
+   ],
+   1,
+   "The worst case for a long straddle is both options expiring worthless, losing the total premium of 220."
+  ],
+  [
+   "Option Trading Strategies",
+   "An investor who owns shares, buys an OTM put and sells an OTM call on them has created a:",
+   [
+    "Long strangle",
+    "Collar",
+    "Butterfly",
+    "Covered put"
+   ],
+   1,
+   "A collar limits both downside and upside; the call premium offsets part of the put cost."
+  ],
+  [
+   "Option Trading Strategies",
+   "An importer buys a USD/INR call with strike 84.00 for a premium of ₹0.40. Ignoring time value of money, his maximum effective cost per USD is:",
+   [
+    "₹84.40",
+    "₹84.00",
+    "₹83.60",
+    "₹84.80"
+   ],
+   0,
+   "If USD/INR rises above 84, he exercises; his cost is capped at strike + premium = 84.40."
+  ],
+  [
+   "Option Trading Strategies",
+   "Which option strategy carries potentially unlimited loss?",
+   [
+    "Long strangle",
+    "Bull call spread",
+    "Short strangle",
+    "Protective put"
+   ],
+   2,
+   "A short strangle has a naked short call, so losses are open-ended if the price soars."
+  ],
+  [
+   "Option Trading Strategies",
+   "A trader sells a 100-strike call at ₹9 and buys a 110-strike call at ₹3, same expiry. His maximum loss per share is:",
+   [
+    "₹4",
+    "₹6",
+    "₹10",
+    "₹12"
+   ],
+   0,
+   "Net credit = 6; max loss = strike difference − credit = 10 − 6 = ₹4."
+  ],
+  [
+   "Trading, Clearing, Settlement & Risk Management",
+   "The process by which the clearing corporation interposes itself between buyer and seller of every trade is called:",
+   [
+    "Netting",
+    "Novation",
+    "Assignment",
+    "Rollover"
+   ],
+   1,
+   "Novation replaces the original contract with two contracts, each against the clearing corporation."
+  ],
+  [
+   "Trading, Clearing, Settlement & Risk Management",
+   "Mark-to-market margin in futures refers to:",
+   [
+    "A one-time fee paid at account opening",
+    "Daily settlement of notional profits and losses on open positions",
+    "Margin paid only at contract expiry",
+    "Interest charged on unpaid premium"
+   ],
+   1,
+   "Futures positions are revalued each day at the settlement price and gains/losses are settled."
+  ],
+  [
+   "Trading, Clearing, Settlement & Risk Management",
+   "The Core Settlement Guarantee Fund maintained by clearing corporations exists to:",
+   [
+    "Guarantee investors against trading losses",
+    "Pay dividends to exchange shareholders",
+    "Meet settlement obligations if a clearing member defaults",
+    "Fund advertising for new products"
+   ],
+   2,
+   "The Core SGF is a dedicated default fund that protects settlement integrity."
+  ],
+  [
+   "Trading, Clearing, Settlement & Risk Management",
+   "If a trading member does not collect the required upfront margin from a client, the usual consequence under exchange rules is:",
+   [
+    "A penalty for short-collection of margin",
+    "No consequence, as margins are optional",
+    "Automatic cancellation of the client's account",
+    "A reward for reducing client costs"
+   ],
+   0,
+   "Short or non-collection of client margins attracts penalties under SEBI and exchange norms."
+  ],
+  [
+   "Trading, Clearing, Settlement & Risk Management",
+   "If the initial margin on a futures position is 12% of contract value and the position is worth ₹20 lakh, the initial margin required is:",
+   [
+    "₹1.2 lakh",
+    "₹24 lakh",
+    "₹0.24 lakh",
+    "₹2.4 lakh"
+   ],
+   3,
+   "Margin = 12% × 20,00,000 = ₹2,40,000."
+  ],
+  [
+   "Trading, Clearing, Settlement & Risk Management",
+   "To close out an existing long futures position before expiry, a trader should:",
+   [
+    "Buy another contract of the same series",
+    "Sell the same contract (same underlying and expiry)",
+    "Sell a contract of a different underlying",
+    "Buy a put option on the same stock"
+   ],
+   1,
+   "An offsetting sale in the same series nets the position to zero."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "The statutory definition of 'derivative' under which exchange-traded equity derivatives are regulated in India is contained in the:",
+   [
+    "Indian Contract Act, 1872",
+    "Negotiable Instruments Act, 1881",
+    "Securities Contracts (Regulation) Act, 1956",
+    "Sale of Goods Act, 1930"
+   ],
+   2,
+   "The SCRA defines derivatives as securities, bringing them under exchange regulation."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "Before a stock exchange can launch a new equity derivatives contract, it must obtain approval from:",
+   [
+    "RBI",
+    "The Ministry of Finance directly",
+    "The Institute of Chartered Accountants of India",
+    "SEBI"
+   ],
+   3,
+   "SEBI regulates securities exchanges and approves new derivative products and their specifications."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "An entity wishing to act as a stock broker in the derivatives segment must:",
+   [
+    "Obtain registration from SEBI through membership of a recognised exchange",
+    "Only register with the Registrar of Companies",
+    "Obtain an RBI banking licence",
+    "Register with IRDAI"
+   ],
+   0,
+   "Stock brokers are registered under SEBI (Stock Brokers) Regulations as members of recognised exchanges."
+  ],
+  [
+   "Accounting and Taxation",
+   "For an individual, gains from trading equity F&O on a recognised exchange are generally treated as:",
+   [
+    "Speculative business income",
+    "Long-term capital gains",
+    "Non-speculative business income",
+    "Exempt agricultural income"
+   ],
+   2,
+   "Eligible derivative transactions on recognised exchanges are excluded from the definition of speculative transactions."
+  ],
+  [
+   "Accounting and Taxation",
+   "When an equity option is exercised at expiry, Securities Transaction Tax is charged on the:",
+   [
+    "Intrinsic (settlement) value of the option",
+    "Original premium paid",
+    "Total notional value of the underlying at strike",
+    "Brokerage paid"
+   ],
+   0,
+   "STT on exercised options is levied on the intrinsic value, not the full notional."
+  ],
+  [
+   "Accounting and Taxation",
+   "Under Ind AS 109, derivatives that are not designated as hedging instruments are:",
+   [
+    "Classified as held for trading and measured at fair value through profit or loss",
+    "Carried at historical cost until settled",
+    "Measured at amortised cost",
+    "Disclosed only in the notes"
+   ],
+   0,
+   "Fair value changes on non-hedge derivatives are recognised in profit or loss each period."
+  ],
+  [
+   "Sales Practices, Code of Conduct & Investor Protection",
+   "Recommending a complex, leveraged options strategy to a retiree whose objective is capital safety is an example of:",
+   [
+    "Good risk management",
+    "Portfolio diversification",
+    "Unsuitable advice (mis-selling)",
+    "Mandatory regulatory disclosure"
+   ],
+   2,
+   "Products must match the client's objectives and risk tolerance; leveraged strategies clash with capital safety."
+  ],
+  [
+   "Sales Practices, Code of Conduct & Investor Protection",
+   "An investor can verify whether a broker is a SEBI-registered intermediary by checking:",
+   [
+    "The broker's own advertisements",
+    "A social media group",
+    "The broker's office signboard",
+    "The list of registered intermediaries on SEBI's website"
+   ],
+   3,
+   "SEBI publishes registers of intermediaries so investors can confirm registration."
+  ],
+  [
+   "Sales Practices, Code of Conduct & Investor Protection",
+   "Under SEBI's norms on client funds, a stock broker must:",
+   [
+    "Periodically return unutilised client funds as per the running-account settlement rules",
+    "Keep all client funds indefinitely",
+    "Invest client funds in its own proprietary trades",
+    "Return funds only when the account is closed"
+   ],
+   0,
+   "Running-account settlement requires brokers to periodically settle and return unused client funds."
+  ]
+ ],
+ "xvi": [
+  [
+   "Introduction to Commodity Markets",
+   "Regulation of commodity derivatives in India was transferred from the Forward Markets Commission to SEBI in:",
+   [
+    "2008",
+    "2003",
+    "2015",
+    "2020"
+   ],
+   2,
+   "The FMC merged with SEBI in September 2015, making SEBI the regulator of commodity derivatives."
+  ],
+  [
+   "Introduction to Commodity Markets",
+   "Which of the following is an agricultural ('soft') commodity?",
+   [
+    "Crude oil",
+    "Copper",
+    "Gold",
+    "Cotton"
+   ],
+   3,
+   "Cotton is a farm product; crude oil is energy, copper is a base metal and gold is a precious metal."
+  ],
+  [
+   "Introduction to Commodity Markets",
+   "A feature that distinguishes physical commodities from financial underlyings like shares is that commodities:",
+   [
+    "Vary in quality and grade, and incur storage and warehousing costs",
+    "Cannot be priced",
+    "Always trade at a fixed price",
+    "Never require delivery logistics"
+   ],
+   0,
+   "Grade standards, storage and transport are central to commodity markets, unlike dematerialised shares."
+  ],
+  [
+   "Introduction to Commodity Markets",
+   "Which Indian exchange is the largest for non-agricultural commodity derivatives such as bullion, energy and base metals?",
+   [
+    "NCDEX",
+    "MCX",
+    "CCIL",
+    "NSDL"
+   ],
+   1,
+   "MCX dominates non-agri commodity derivatives, while NCDEX is mainly agricultural."
+  ],
+  [
+   "Introduction to Commodity Markets",
+   "Negotiable warehouse receipts in India, including electronic NWRs, are regulated by:",
+   [
+    "RBI",
+    "Warehousing Development and Regulatory Authority (WDRA)",
+    "FSSAI",
+    "Ministry of Corporate Affairs"
+   ],
+   1,
+   "WDRA registers warehouses and regulates negotiable warehouse receipts under the Warehousing Act, 2007."
+  ],
+  [
+   "Commodity Indices",
+   "A commodity index is mainly used to:",
+   [
+    "Fix government procurement prices",
+    "Track the overall price movement of a basket of commodities",
+    "Measure stock market liquidity",
+    "Calculate import duties"
+   ],
+   1,
+   "Indices summarise commodity price trends and can serve as benchmarks or underlyings."
+  ],
+  [
+   "Commodity Indices",
+   "A commodity index constructed from futures prices must deal with contract expiry by:",
+   [
+    "Periodically rolling from the expiring contract into a later one",
+    "Holding the expiring contract until delivery",
+    "Switching to spot prices at expiry",
+    "Stopping the index at each expiry"
+   ],
+   0,
+   "Futures-based indices roll positions forward, and roll yield can affect index returns."
+  ],
+  [
+   "Commodity Indices",
+   "A bullion sub-index would typically comprise:",
+   [
+    "Gold and silver",
+    "Crude oil and natural gas",
+    "Copper and zinc",
+    "Wheat and maize"
+   ],
+   0,
+   "Bullion refers to precious metals, primarily gold and silver."
+  ],
+  [
+   "Commodity Futures",
+   "Spot price of a commodity is ₹5,000 per quintal. Interest is 10% p.a. (simple) and storage cost for 3 months is ₹30 per quintal. The fair price of a 3-month futures contract is:",
+   [
+    "₹5,155",
+    "₹5,125",
+    "₹5,530",
+    "₹5,030"
+   ],
+   0,
+   "F = 5,000 × (1 + 0.10 × 3/12) + 30 = 5,125 + 30 = ₹5,155."
+  ],
+  [
+   "Commodity Futures",
+   "Commodity futures may trade below spot (backwardation) when users value holding the physical stock highly. This benefit of holding the physical commodity is called:",
+   [
+    "Storage cost",
+    "Basis risk",
+    "Convenience yield",
+    "Roll yield"
+   ],
+   2,
+   "A high convenience yield, often during shortages, can outweigh carry costs and push futures below spot."
+  ],
+  [
+   "Commodity Futures",
+   "The spot price of a commodity is ₹6,200 and the futures price is ₹6,350. The basis (spot minus futures) is:",
+   [
+    "+₹150",
+    "₹12,550",
+    "−₹150",
+    "₹0"
+   ],
+   2,
+   "Basis = Spot − Futures = 6,200 − 6,350 = −150."
+  ],
+  [
+   "Commodity Futures",
+   "In a compulsory-delivery commodity futures contract, positions left open at expiry:",
+   [
+    "Are always cash settled",
+    "Must be settled by delivery, with sellers delivering and buyers taking delivery",
+    "Are rolled into the next contract automatically",
+    "Lapse without any obligation"
+   ],
+   1,
+   "Compulsory delivery means all open positions at expiry result in physical settlement."
+  ],
+  [
+   "Commodity Futures",
+   "In commodity futures, the 'tender period' refers to:",
+   [
+    "The first day of trading in a contract",
+    "The time allowed to pay brokerage",
+    "The period during which trading is suspended",
+    "The period before expiry when sellers can give notice of intention to deliver"
+   ],
+   3,
+   "During the tender period, sellers may tender delivery and margins usually rise."
+  ],
+  [
+   "Commodity Futures",
+   "For many agricultural futures contracts, the final settlement price is based on:",
+   [
+    "The spot price polled at the basis centre on expiry",
+    "The futures opening price on the first trading day",
+    "The government's minimum support price",
+    "The highest futures price during the contract's life"
+   ],
+   0,
+   "Exchanges poll spot prices at the designated basis centre so that futures converge with the physical market."
+  ],
+  [
+   "Commodity Futures",
+   "A farmer expects to harvest wheat in three months and fears prices will fall. The appropriate futures hedge is to:",
+   [
+    "Sell wheat futures now",
+    "Buy wheat futures now",
+    "Buy wheat call options",
+    "Wait until harvest and then sell futures"
+   ],
+   0,
+   "A short hedge gains if prices fall, offsetting the lower price received for the crop."
+  ],
+  [
+   "Commodity Futures",
+   "A trader buys one gold futures contract of 1 kg (price quoted per 10 grams) at ₹72,000 and sells it at ₹72,800. His profit is:",
+   [
+    "₹8,000",
+    "₹800",
+    "₹8,00,000",
+    "₹80,000"
+   ],
+   3,
+   "1 kg = 100 units of 10 g; profit = (72,800 − 72,000) × 100 = ₹80,000."
+  ],
+  [
+   "Commodity Futures",
+   "If a seller delivers a grade of commodity different from the base grade but within the permitted range, the settlement amount is adjusted by:",
+   [
+    "Cancelling the contract",
+    "Charging double margin",
+    "Paying the government's procurement price",
+    "The premium or discount specified by the exchange for that grade"
+   ],
+   3,
+   "Contract specifications list quality differentials so delivery of permitted alternate grades is priced fairly."
+  ],
+  [
+   "Commodity Options",
+   "On Indian commodity exchanges, an exercised option on commodity futures devolves into:",
+   [
+    "Physical delivery of the commodity immediately",
+    "A cash payment equal to the strike price",
+    "A futures position in the underlying contract",
+    "A new option with a later expiry"
+   ],
+   2,
+   "Options on futures convert into the corresponding long or short futures position on exercise."
+  ],
+  [
+   "Commodity Options",
+   "Unlike options on commodity futures, 'options on goods' result on exercise in:",
+   [
+    "A position in commodity futures",
+    "Cash settlement on a commodity index",
+    "Delivery of the underlying physical commodity",
+    "Automatic rollover to the next month"
+   ],
+   2,
+   "Options on goods have the physical commodity as the underlying, so exercise leads to delivery."
+  ],
+  [
+   "Commodity Options",
+   "Commodity options traded on Indian exchanges are of which exercise style?",
+   [
+    "American",
+    "Bermudan",
+    "European",
+    "Asian"
+   ],
+   2,
+   "They can be exercised only on the expiry day."
+  ],
+  [
+   "Commodity Options",
+   "A trader buys a crude oil call option (contract of 100 barrels) with strike ₹6,000 at a premium of ₹150. At expiry the underlying settles at ₹6,400. His net profit is:",
+   [
+    "₹40,000",
+    "₹25,000",
+    "₹15,000",
+    "₹55,000"
+   ],
+   1,
+   "Payoff = (6,400 − 6,000) − 150 = ₹250 per barrel; × 100 = ₹25,000."
+  ],
+  [
+   "Commodity Options",
+   "The maximum profit for the writer (seller) of a put option is:",
+   [
+    "Unlimited",
+    "The strike price",
+    "The premium received",
+    "Strike price plus premium"
+   ],
+   2,
+   "If the option expires worthless, the writer keeps the premium; that is the best case."
+  ],
+  [
+   "Commodity Options",
+   "A trader sells a gold put with strike ₹70,000 for a premium of ₹900. His break-even price at expiry is:",
+   [
+    "₹70,900",
+    "₹70,000",
+    "₹69,100",
+    "₹69,900"
+   ],
+   2,
+   "A short put breaks even at strike − premium = 70,000 − 900 = ₹69,100."
+  ],
+  [
+   "Commodity Options",
+   "On Indian commodity exchanges, in-the-money options at expiry are generally:",
+   [
+    "Always allowed to lapse",
+    "Exercised automatically by the exchange",
+    "Converted into cash at the strike price",
+    "Rolled into the next series"
+   ],
+   1,
+   "ITM options are auto-exercised at expiry (subject to any close-to-money contrary-instruction facility)."
+  ],
+  [
+   "Strategies using Commodity Futures and Options",
+   "A jeweller holds gold inventory and fears prices will fall before it is sold. The appropriate hedge is to:",
+   [
+    "Sell gold futures",
+    "Buy gold futures",
+    "Buy gold call options",
+    "Buy more physical gold"
+   ],
+   0,
+   "A short hedge on the inventory offsets losses if gold prices decline."
+  ],
+  [
+   "Strategies using Commodity Futures and Options",
+   "A biscuit manufacturer must buy wheat in three months and fears prices will rise. The appropriate hedge is to:",
+   [
+    "Buy wheat futures",
+    "Sell wheat futures",
+    "Sell wheat call options",
+    "Sell wheat inventory"
+   ],
+   0,
+   "A long hedge gains if prices rise, offsetting the higher cost of buying wheat."
+  ],
+  [
+   "Strategies using Commodity Futures and Options",
+   "A farmer sells futures at ₹5,400 when spot is ₹5,300. At harvest, spot is ₹5,000 and futures ₹5,150; he sells his crop spot and closes the futures. His effective selling price is:",
+   [
+    "₹5,300",
+    "₹5,400",
+    "₹5,150",
+    "₹5,250"
+   ],
+   3,
+   "Futures gain = 5,400 − 5,150 = 250; effective price = 5,000 + 250 = ₹5,250 (the weaker basis cost ₹50)."
+  ],
+  [
+   "Strategies using Commodity Futures and Options",
+   "A position in soybean futures against offsetting positions in soy meal and soy oil futures is known as a:",
+   [
+    "Crush spread",
+    "Crack spread",
+    "Calendar spread",
+    "Spark spread"
+   ],
+   0,
+   "The crush spread reflects the processing margin from crushing soybeans into meal and oil."
+  ],
+  [
+   "Strategies using Commodity Futures and Options",
+   "A trader buys gold futures and sells silver futures, expecting the gold-silver price ratio to widen. This is an example of a/an:",
+   [
+    "Calendar spread",
+    "Cash-and-carry arbitrage",
+    "Outright long position",
+    "Inter-commodity spread"
+   ],
+   3,
+   "A spread between two related but different commodities is an inter-commodity spread."
+  ],
+  [
+   "Strategies using Commodity Futures and Options",
+   "The correlation between spot and futures price changes is 0.9, the standard deviation of spot changes is 2.0% and of futures changes is 2.4%. The minimum-variance hedge ratio is:",
+   [
+    "0.83",
+    "1.08",
+    "0.75",
+    "0.90"
+   ],
+   2,
+   "h = ρ × σs ÷ σf = 0.9 × 2.0 ÷ 2.4 = 0.75."
+  ],
+  [
+   "Strategies using Commodity Futures and Options",
+   "A farmer buys a put on a commodity with strike ₹5,000 at a premium of ₹120. Ignoring basis, the minimum effective price he locks in is about:",
+   [
+    "₹5,120",
+    "₹4,880",
+    "₹5,000",
+    "₹4,760"
+   ],
+   1,
+   "Floor price = strike − premium = 5,000 − 120 = ₹4,880, while he keeps upside if prices rise."
+  ],
+  [
+   "Trading Mechanism",
+   "Trading in non-agricultural commodity derivatives in India extends into the late evening mainly because:",
+   [
+    "Indian farmers trade only in the evening",
+    "These commodities track international markets that trade in other time zones",
+    "Warehouses operate only at night",
+    "Agricultural prices are polled in the evening"
+   ],
+   1,
+   "Bullion, energy and base metals are priced globally, so longer hours reduce gap risk."
+  ],
+  [
+   "Trading Mechanism",
+   "The main purpose of a daily price range (circuit filter) on commodity futures is to:",
+   [
+    "Guarantee profits for hedgers",
+    "Fix the final settlement price",
+    "Determine the lot size",
+    "Curb excessive volatility within a trading day"
+   ],
+   3,
+   "Price bands limit extreme intraday moves and give the market time to absorb information."
+  ],
+  [
+   "Trading Mechanism",
+   "A market order for commodity futures is executed:",
+   [
+    "Only at a price specified by the client",
+    "Only at the closing price",
+    "Only when a trigger price is hit",
+    "Immediately at the best available price in the order book"
+   ],
+   3,
+   "Market orders prioritise speed of execution over price."
+  ],
+  [
+   "Trading Mechanism",
+   "Before a client begins trading in commodity derivatives through a broker, the client must:",
+   [
+    "Deposit the full contract value of all intended trades",
+    "Obtain a warehouse licence",
+    "Complete KYC and execute the required account-opening documents",
+    "Register with WDRA"
+   ],
+   2,
+   "KYC and documentation, including the risk disclosure document, are mandatory before trading."
+  ],
+  [
+   "Clearing, Settlement and Risk Management",
+   "Physical delivery in exchange-traded commodity futures is effected through:",
+   [
+    "Any private godown chosen by the buyer",
+    "Exchange-accredited warehouses or vaults",
+    "The RBI's currency chests",
+    "Retail shops of the seller"
+   ],
+   1,
+   "Accredited warehouses and vaults ensure quality, quantity and standardised delivery."
+  ],
+  [
+   "Clearing, Settlement and Risk Management",
+   "Clearing corporations may impose special or additional margins on commodity contracts when:",
+   [
+    "Prices are stable",
+    "Price volatility or concentration risk rises abnormally",
+    "Open interest falls to zero",
+    "A contract is newly listed with no trading"
+   ],
+   1,
+   "Additional margins are a risk-management tool used during stress or concentrated positions."
+  ],
+  [
+   "Clearing, Settlement and Risk Management",
+   "If a seller fails to deliver in a compulsory-delivery contract, the clearing corporation typically:",
+   [
+    "Ignores the failure",
+    "Forces the buyer to pay a penalty",
+    "Extends the contract by one year",
+    "Levies a penalty on the defaulting seller and compensates the buyer"
+   ],
+   3,
+   "Delivery default attracts penalties, part of which compensates the affected buyer."
+  ],
+  [
+   "Clearing, Settlement and Risk Management",
+   "A trader is short 2 commodity futures contracts of 100 units each at ₹950. The day's settlement price is ₹962. His MTM result is:",
+   [
+    "Profit of ₹2,400",
+    "Loss of ₹2,400",
+    "Loss of ₹1,200",
+    "Loss of ₹24,000"
+   ],
+   1,
+   "Loss = (962 − 950) × 100 × 2 = ₹2,400, since prices rose against a short position."
+  ],
+  [
+   "Clearing, Settlement and Risk Management",
+   "Before a commodity is accepted into an exchange-accredited warehouse for delivery, it must typically:",
+   [
+    "Be approved by SEBI individually",
+    "Be insured by the buyer",
+    "Be priced by the government",
+    "Be tested and certified by an approved assayer for quality"
+   ],
+   3,
+   "Assaying ensures the commodity meets the exchange's grade specifications."
+  ],
+  [
+   "Clearing, Settlement and Risk Management",
+   "Trades executed on MCX are cleared and settled by:",
+   [
+    "NSE Clearing Ltd",
+    "Clearing Corporation of India Ltd",
+    "NSDL",
+    "MCX Clearing Corporation Ltd"
+   ],
+   3,
+   "MCXCCL is the clearing corporation that guarantees settlement of trades on MCX."
+  ],
+  [
+   "Clearing, Settlement and Risk Management",
+   "As a commodity futures contract enters its tender or delivery period, the clearing corporation usually:",
+   [
+    "Increases margins on open positions (delivery margin)",
+    "Removes all margins",
+    "Cancels all open positions",
+    "Converts positions into options"
+   ],
+   0,
+   "Higher delivery-period margins cover the risk of delivery default and lower liquidity."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "After the FMC merger, commodity derivatives in India are governed by the:",
+   [
+    "Securities Contracts (Regulation) Act, 1956",
+    "Forward Contracts (Regulation) Act, 1952",
+    "Essential Commodities Act, 1955 alone",
+    "Warehousing Act, 2007 alone"
+   ],
+   0,
+   "The FCRA was repealed and commodity derivatives were brought under the SCRA and SEBI."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "Commodity exchanges in India may offer derivatives only on goods that have been notified for this purpose by:",
+   [
+    "The Central Government",
+    "Each state government",
+    "The exchange's members",
+    "WDRA"
+   ],
+   0,
+   "Under the SCRA, the Central Government notifies the goods eligible for derivatives trading."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "Position limits in commodity derivatives are prescribed primarily to:",
+   [
+    "Increase trading volumes",
+    "Guarantee hedgers' profits",
+    "Prevent excessive concentration and possible market manipulation",
+    "Fix spot prices"
+   ],
+   2,
+   "Limits stop any single participant from building dominant positions."
+  ],
+  [
+   "Accounting and Taxation",
+   "Commodity Transaction Tax (CTT) is levied on:",
+   [
+    "All physical spot purchases of commodities",
+    "Only imports of agricultural commodities",
+    "Sale of non-agricultural commodity derivatives on recognised exchanges",
+    "Purchase of gold coins from banks"
+   ],
+   2,
+   "CTT applies to exchange-traded non-agri commodity derivatives; specified agricultural commodities are exempt."
+  ],
+  [
+   "Accounting and Taxation",
+   "Income from trading CTT-chargeable commodity derivatives on a recognised exchange is generally treated for tax as:",
+   [
+    "Non-speculative business income",
+    "Speculative business income",
+    "Exempt agricultural income",
+    "Long-term capital gains"
+   ],
+   0,
+   "The Income-tax law excludes CTT-chargeable commodity derivative transactions from speculative transactions."
+  ],
+  [
+   "Codes of Conduct and Investor Protection",
+   "A broker who places his own order ahead of a large client order to profit from the expected price impact is engaging in:",
+   [
+    "Arbitrage",
+    "Hedging",
+    "Portfolio rebalancing",
+    "Front running"
+   ],
+   3,
+   "Front running misuses client order information and is prohibited."
+  ],
+  [
+   "Codes of Conduct and Investor Protection",
+   "A trading member must issue contract notes to clients for trades executed:",
+   [
+    "Within 30 days",
+    "Within 24 hours of the trade",
+    "Only at the end of the year",
+    "Only on request"
+   ],
+   1,
+   "Timely contract notes let clients verify their trades; they must be issued within 24 hours."
+  ],
+  [
+   "Codes of Conduct and Investor Protection",
+   "A broker executing excessive trades in a client's account mainly to generate brokerage is guilty of:",
+   [
+    "Hedging",
+    "Churning",
+    "Netting",
+    "Rolling over"
+   ],
+   1,
+   "Churning puts the broker's commission ahead of the client's interest and is prohibited."
+  ]
+ ]
+}

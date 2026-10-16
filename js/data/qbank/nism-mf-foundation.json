@@ -1,0 +1,3614 @@
+{
+ "v-a": [
+  [
+   "Investment Landscape",
+   "Which of the following is a real (physical) asset rather than a financial asset?",
+   [
+    "Equity shares of a listed company",
+    "A bank fixed deposit",
+    "A residential flat held to earn rent",
+    "Units of a debt mutual fund"
+   ],
+   2,
+   "Real assets are tangible, physical assets; shares, deposits and fund units are financial claims on an issuer."
+  ],
+  [
+   "Investment Landscape",
+   "A fixed deposit offers 7% a year while inflation runs at 5% a year. What is the approximate real rate of return?",
+   [
+    "2%",
+    "12%",
+    "7%",
+    "1.4%"
+   ],
+   0,
+   "Real return is roughly nominal return minus inflation: 7% - 5% = 2% (precisely 1.07/1.05 - 1 = 1.9%)."
+  ],
+  [
+   "Investment Landscape",
+   "An investor quickly sells funds that have gained but keeps holding funds that have fallen, hoping they will recover. Which behavioural bias is this?",
+   [
+    "Herd mentality",
+    "Disposition effect",
+    "Home bias",
+    "Recency bias"
+   ],
+   1,
+   "The disposition effect is the tendency to realise gains early and hold on to losses too long, driven by loss aversion."
+  ],
+  [
+   "Investment Landscape",
+   "Fixing a long-term mix of equity, debt and gold based on an investor's goals and risk profile, and periodically restoring that mix, is called",
+   [
+    "Tactical asset allocation",
+    "Market timing",
+    "Sector rotation",
+    "Strategic asset allocation"
+   ],
+   3,
+   "Strategic asset allocation sets a long-term target mix and rebalances back to it; tactical allocation makes short-term deviations from it."
+  ],
+  [
+   "Investment Landscape",
+   "Using the Rule of 72, roughly how long will an investment take to double at 9% per year compounded annually?",
+   [
+    "6 years",
+    "9 years",
+    "8 years",
+    "12 years"
+   ],
+   2,
+   "Rule of 72: years to double ≈ 72 / rate = 72 / 9 = 8 years."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "Which type of scheme lets investors buy and redeem units directly with the fund on an ongoing basis at NAV-based prices?",
+   [
+    "Closed-ended scheme",
+    "Fixed maturity plan",
+    "Interval scheme",
+    "Open-ended scheme"
+   ],
+   3,
+   "Open-ended schemes offer continuous sale and repurchase; closed-ended schemes and FMPs do not, and interval schemes allow it only during specified windows."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "Under SEBI's scheme categorisation norms, 'large cap' companies are",
+   [
+    "The 1st to 50th companies by free-float market capitalisation",
+    "The 1st to 250th companies by full market capitalisation",
+    "Any company with market capitalisation above ₹20,000 crore",
+    "The 1st to 100th companies by full market capitalisation"
+   ],
+   3,
+   "SEBI defines large caps as the top 100 companies by full market capitalisation, mid caps as 101st-250th and small caps as 251st onwards."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "What is the lock-in period for investments in an Equity Linked Savings Scheme (ELSS)?",
+   [
+    "1 year",
+    "5 years",
+    "3 years",
+    "No lock-in"
+   ],
+   2,
+   "ELSS units carry a statutory lock-in of three years from the date of allotment."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "Which asset allocation rule applies to a Multi Cap Fund under SEBI categorisation?",
+   [
+    "At least 25% each in large cap, mid cap and small cap stocks",
+    "At least 65% in equity with no market-cap restriction",
+    "At least 35% each in large cap and mid cap stocks",
+    "A maximum of 30 stocks in the portfolio"
+   ],
+   0,
+   "A multi cap fund must hold at least 75% in equity with a minimum of 25% each in large, mid and small caps; the other options describe flexi cap, large & mid cap and focused funds."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "A liquid fund may invest in debt and money market securities with a residual maturity of up to",
+   [
+    "1 day",
+    "365 days",
+    "3 years",
+    "91 days"
+   ],
+   3,
+   "SEBI restricts liquid funds to securities maturing within 91 days; overnight funds are limited to 1-day securities."
+  ],
+  [
+   "Legal Structure of Mutual Funds",
+   "In India, a mutual fund is legally constituted as a",
+   [
+    "Company under the Companies Act",
+    "Limited liability partnership",
+    "Trust",
+    "Co-operative society"
+   ],
+   2,
+   "Mutual funds are set up as trusts under the Indian Trusts Act, 1882, with trustees holding the assets for unitholders."
+  ],
+  [
+   "Legal Structure of Mutual Funds",
+   "Which entity holds the securities bought by a mutual fund scheme in safe custody?",
+   [
+    "Registrar and Transfer Agent",
+    "Custodian",
+    "Asset Management Company",
+    "Sponsor"
+   ],
+   1,
+   "The custodian keeps the scheme's securities safe and handles their settlement; the RTA keeps unitholder records."
+  ],
+  [
+   "Legal Structure of Mutual Funds",
+   "What proportion of a mutual fund's trustees must be independent?",
+   [
+    "At least two-thirds",
+    "At least half",
+    "At least one-third",
+    "All of them"
+   ],
+   0,
+   "SEBI regulations require at least two-thirds of trustees (or trustee company directors) to be independent of the sponsor."
+  ],
+  [
+   "Legal Structure of Mutual Funds",
+   "Which statement about AMFI is correct?",
+   [
+    "It is the statutory regulator of mutual funds",
+    "It is the industry association of SEBI-registered AMCs and not a statutory regulator",
+    "It acts as custodian for all mutual fund schemes",
+    "It sponsors every mutual fund in India"
+   ],
+   1,
+   "AMFI is a self-regulatory industry body that, among other things, registers distributors with ARNs; SEBI is the regulator."
+  ],
+  [
+   "Legal and Regulatory Framework",
+   "Which body is the primary regulator of mutual funds in India?",
+   [
+    "RBI",
+    "IRDAI",
+    "AMFI",
+    "SEBI"
+   ],
+   3,
+   "Mutual funds are regulated by SEBI under the SEBI (Mutual Funds) Regulations, 1996."
+  ],
+  [
+   "Legal and Regulatory Framework",
+   "An investor whose complaint against an AMC is not resolved satisfactorily can lodge it on SEBI's online grievance platform called",
+   [
+    "NDS-OM",
+    "ASBA",
+    "SCORES",
+    "CKYC"
+   ],
+   2,
+   "SCORES is SEBI's centralised web-based complaint redress system for securities market investors."
+  ],
+  [
+   "Legal and Regulatory Framework",
+   "If a dispute with a mutual fund remains unresolved after the AMC and SCORES routes, the investor can seek conciliation or arbitration through",
+   [
+    "The RBI Integrated Ombudsman",
+    "IRDAI's Bima Bharosa portal",
+    "An AMFI appellate tribunal",
+    "The securities market Online Dispute Resolution (ODR) portal"
+   ],
+   3,
+   "SEBI's ODR framework lets investors take unresolved securities market disputes to online conciliation and arbitration."
+  ],
+  [
+   "Legal and Regulatory Framework",
+   "Under the AMFI Code of Conduct for intermediaries, which practice is NOT permitted for a distributor?",
+   [
+    "Passing back part of the commission to an investor as an inducement to invest",
+    "Disclosing the commission earned on schemes recommended",
+    "Keeping investor information confidential",
+    "Highlighting the risk factors of a scheme"
+   ],
+   0,
+   "Rebating commission to induce investment is prohibited; disclosure, confidentiality and explaining risks are expected conduct."
+  ],
+  [
+   "Scheme Related Information",
+   "Information common to all schemes of a mutual fund, such as details of the sponsor, AMC and trustees, is contained in the",
+   [
+    "Scheme Information Document (SID)",
+    "Key Information Memorandum (KIM)",
+    "Monthly factsheet",
+    "Statement of Additional Information (SAI)"
+   ],
+   3,
+   "The SAI carries statutory information about the fund house common to all its schemes, while the SID is scheme-specific."
+  ],
+  [
+   "Scheme Related Information",
+   "Which document is an abridged version of the SID and must accompany every application form?",
+   [
+    "Statement of Additional Information",
+    "Key Information Memorandum",
+    "Trust deed",
+    "Annual report"
+   ],
+   1,
+   "The KIM summarises the SID's key information and is issued with every application form."
+  ],
+  [
+   "Scheme Related Information",
+   "How often must AMCs evaluate the riskometer of each of their schemes?",
+   [
+    "Every day",
+    "Every month",
+    "Once a year",
+    "Only at the time of the NFO"
+   ],
+   1,
+   "SEBI requires the riskometer to be evaluated monthly based on the portfolio, and any change disclosed to investors."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "A mutual fund distributor's ARN (AMFI Registration Number) is allotted by",
+   [
+    "AMFI",
+    "SEBI",
+    "NISM",
+    "The RTA"
+   ],
+   0,
+   "After passing the NISM certification, a distributor registers with AMFI, which allots the ARN."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "What is the purpose of the EUIN quoted on an application form?",
+   [
+    "To identify the individual employee or relationship manager of the distribution firm who handled the sale",
+    "To identify the investor for KYC purposes",
+    "To identify the scheme and plan chosen",
+    "To identify the AMC's SEBI registration"
+   ],
+   0,
+   "The Employee Unique Identification Number tracks which individual within a distributor firm dealt with the investor, aiding accountability against mis-selling."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "Two plans of the same scheme hold an identical portfolio, yet the direct plan's NAV grows faster than the regular plan's. Why?",
+   [
+    "The direct plan invests in a different set of securities",
+    "The regular plan pays exit loads to the distributor",
+    "The direct plan's expense ratio does not include distributor commission",
+    "The direct plan alone is exempt from stamp duty"
+   ],
+   2,
+   "Direct plans carry a lower TER because no distribution commission is paid, so more of the return stays with investors."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "Which statement correctly distinguishes a SEBI-registered investment adviser (RIA) from a mutual fund distributor?",
+   [
+    "An RIA earns trail commission from AMCs",
+    "An RIA is paid a fee by the client and does not receive commission from product providers",
+    "A distributor may charge both advisory fees and commission to the same client",
+    "An RIA can sell only regular plans"
+   ],
+   1,
+   "SEBI separates advice from distribution: RIAs charge clients fees and cannot take commissions, while distributors are paid commission by AMCs."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "An investor wants to shift existing investments to a new distributor. Which statement is correct?",
+   [
+    "The investor can request the change directly; no NOC from the existing distributor is needed",
+    "The existing distributor must first issue a no-objection certificate",
+    "The units must be redeemed and reinvested through the new distributor",
+    "A change is allowed only after one year of holding"
+   ],
+   0,
+   "Investors may change their distributor by submitting a request to the AMC/RTA without needing the old distributor's NOC."
+  ],
+  [
+   "NAV, TER and Pricing of Units",
+   "A scheme has investments worth ₹250 crore, accrued income of ₹2 crore and liabilities of ₹2 crore, with 10 crore units outstanding. What is its NAV?",
+   [
+    "₹25.00",
+    "₹25.20",
+    "₹24.80",
+    "₹25.40"
+   ],
+   0,
+   "NAV = (250 + 2 - 2) / 10 = ₹25.00 per unit."
+  ],
+  [
+   "NAV, TER and Pricing of Units",
+   "A scheme's NAV is ₹40 and it charges an exit load of 1%. At what price will units be redeemed?",
+   [
+    "₹40.40",
+    "₹40.00",
+    "₹39.00",
+    "₹39.60"
+   ],
+   3,
+   "Redemption price = NAV x (1 - load) = 40 x 0.99 = ₹39.60."
+  ],
+  [
+   "NAV, TER and Pricing of Units",
+   "An investor buys units of an open-ended scheme on a day when the applicable NAV is ₹50. Ignoring stamp duty, what price does she pay per unit?",
+   [
+    "₹50.00",
+    "₹51.25",
+    "₹51.00",
+    "₹49.00"
+   ],
+   0,
+   "Entry loads were abolished by SEBI in 2009, so purchases happen at the applicable NAV."
+  ],
+  [
+   "NAV, TER and Pricing of Units",
+   "Where does the exit load collected on redemptions go?",
+   [
+    "It is income of the AMC",
+    "It is paid to the distributor",
+    "It is credited back to the scheme",
+    "It is paid to the trustees"
+   ],
+   2,
+   "SEBI requires exit load (net of GST) to be credited to the scheme, benefiting remaining investors."
+  ],
+  [
+   "NAV, TER and Pricing of Units",
+   "A scheme's NAV is ₹20 before it declares an IDCW of ₹1.50 per unit. Other things unchanged, what will the NAV be after the payout?",
+   [
+    "₹18.50",
+    "₹20.00",
+    "₹21.50",
+    "₹18.00"
+   ],
+   0,
+   "An IDCW is paid out of the scheme's assets, so NAV falls by the payout: 20 - 1.50 = ₹18.50."
+  ],
+  [
+   "Taxation",
+   "Stamp duty of 0.005% applies on purchase of mutual fund units. How much stamp duty applies to a ₹2,00,000 purchase?",
+   [
+    "₹100",
+    "₹10",
+    "₹20",
+    "₹1"
+   ],
+   1,
+   "0.005% of ₹2,00,000 = 2,00,000 x 0.00005 = ₹10."
+  ],
+  [
+   "Taxation",
+   "How is income distributed by a mutual fund under the IDCW option taxed now?",
+   [
+    "It is tax-free because the fund pays Dividend Distribution Tax",
+    "It is taxed only when the units are finally redeemed",
+    "It is taxable in the hands of the investor",
+    "It is taxed only in the hands of the AMC"
+   ],
+   2,
+   "Dividend Distribution Tax was abolished from 1 April 2020, so IDCW is added to the investor's income and taxed accordingly."
+  ],
+  [
+   "Taxation",
+   "An investor has a long-term capital loss on mutual fund units. Against which income can it be set off?",
+   [
+    "Any capital gains, short-term or long-term",
+    "Only long-term capital gains",
+    "Salary income",
+    "Only short-term capital gains"
+   ],
+   1,
+   "A long-term capital loss can be set off only against long-term capital gains; a short-term loss can be set off against both."
+  ],
+  [
+   "Investor Services",
+   "Except for ELSS, a new fund offer of an open-ended scheme can remain open for a maximum of",
+   [
+    "30 days",
+    "15 days",
+    "45 days",
+    "7 days"
+   ],
+   1,
+   "SEBI limits the NFO subscription period to 15 days for schemes other than ELSS."
+  ],
+  [
+   "Investor Services",
+   "Within what time must an AMC normally transfer redemption proceeds to the investor?",
+   [
+    "10 working days",
+    "7 working days",
+    "1 working day",
+    "3 working days"
+   ],
+   3,
+   "SEBI requires redemption proceeds to be paid within three working days of the redemption request, subject to limited exceptions."
+  ],
+  [
+   "Investor Services",
+   "An investor submits a ₹5 lakh purchase in an equity scheme at 2:30 pm on Monday, but the money reaches the scheme's account only at 11 am on Tuesday. Which day's NAV applies?",
+   [
+    "Monday's NAV",
+    "Wednesday's NAV",
+    "Tuesday's NAV",
+    "The previous Friday's NAV"
+   ],
+   2,
+   "For non-liquid schemes, the NAV of the day on which funds are available for use before the 3 pm cut-off applies, so Tuesday's NAV is used."
+  ],
+  [
+   "Investor Services",
+   "An investor puts ₹1,000 a month through an SIP for three months when the NAV is ₹10, ₹20 and ₹25. What is his average cost per unit?",
+   [
+    "₹18.33",
+    "₹16.67",
+    "₹15.79",
+    "₹17.50"
+   ],
+   2,
+   "Units bought = 100 + 50 + 40 = 190; average cost = 3,000 / 190 = ₹15.79, lower than the simple average NAV of ₹18.33 (rupee cost averaging)."
+  ],
+  [
+   "Investor Services",
+   "Which statement is correct for a mutual fund folio held in the name of a minor?",
+   [
+    "Another minor can be added as joint holder",
+    "The guardian is recorded as the first holder",
+    "The minor is the sole holder and a parent or legal guardian operates it until the minor attains majority",
+    "The minor can sign redemption requests from age 15"
+   ],
+   2,
+   "Investments in a minor's name cannot have joint holders; a guardian acts on the minor's behalf until majority."
+  ],
+  [
+   "Investor Services",
+   "The Consolidated Account Statement (CAS) combines an investor's mutual fund holdings across AMCs on the basis of",
+   [
+    "Folio number",
+    "Bank account number",
+    "Mobile number",
+    "PAN"
+   ],
+   3,
+   "CAS is generated by consolidating all folios linked to the same PAN across fund houses."
+  ],
+  [
+   "Risk, Return and Performance of Funds",
+   "A fund returned 14% with a standard deviation of 16% while the risk-free rate was 6%. What is its Sharpe ratio?",
+   [
+    "0.875",
+    "0.375",
+    "0.50",
+    "8.00"
+   ],
+   2,
+   "Sharpe ratio = (14 - 6) / 16 = 0.50."
+  ],
+  [
+   "Risk, Return and Performance of Funds",
+   "A fund has a beta of 1.3 against its benchmark. If the benchmark rises 10%, the fund is expected to rise by about",
+   [
+    "10%",
+    "13%",
+    "7.7%",
+    "3%"
+   ],
+   1,
+   "Expected move = beta x market move = 1.3 x 10% = 13%."
+  ],
+  [
+   "Risk, Return and Performance of Funds",
+   "If interest rates rise sharply, which category of fund is likely to suffer the biggest fall in NAV?",
+   [
+    "Overnight fund",
+    "Liquid fund",
+    "Ultra short duration fund",
+    "Long duration fund"
+   ],
+   3,
+   "Bond prices fall when rates rise, and the fall is greater for portfolios with higher duration."
+  ],
+  [
+   "Risk, Return and Performance of Funds",
+   "₹1,00,000 grew to ₹1,44,000 in 2 years. What is the compound annual growth rate (CAGR)?",
+   [
+    "20%",
+    "22%",
+    "44%",
+    "18%"
+   ],
+   0,
+   "CAGR = (1,44,000 / 1,00,000)^(1/2) - 1 = 1.2 - 1 = 20%."
+  ],
+  [
+   "Risk, Return and Performance of Funds",
+   "Which measure captures the total volatility of a fund's returns, including both market-related and fund-specific risk?",
+   [
+    "Beta",
+    "Standard deviation",
+    "Treynor ratio",
+    "Alpha"
+   ],
+   1,
+   "Standard deviation measures total variability of returns; beta captures only market (systematic) risk."
+  ],
+  [
+   "Mutual Fund Scheme Performance",
+   "Why are equity schemes benchmarked against a Total Return Index (TRI) rather than a price return index?",
+   [
+    "A fund's NAV includes dividends received, and TRI likewise assumes dividends are reinvested",
+    "TRI excludes dividends, matching how NAV is computed",
+    "TRI is always lower, making schemes look better",
+    "Price indices are not published in India"
+   ],
+   0,
+   "Comparing a NAV that includes dividends with a price-only index would overstate outperformance, so SEBI mandates TRI benchmarking."
+  ],
+  [
+   "Mutual Fund Scheme Performance",
+   "For an index fund, tracking error measures",
+   [
+    "The gap between the ETF's market price and its NAV",
+    "The variability of the difference between the fund's returns and the index's returns",
+    "The scheme's total expense ratio",
+    "The fund's beta against the index"
+   ],
+   1,
+   "Tracking error is the standard deviation of the return difference between the fund and its index; lower is better."
+  ],
+  [
+   "Mutual Fund Scheme Performance",
+   "Which is the most appropriate benchmark for a gilt fund?",
+   [
+    "Nifty 50 TRI",
+    "A government securities index",
+    "Domestic price of gold",
+    "Nifty Midcap 150 TRI"
+   ],
+   1,
+   "A gilt fund invests mainly in government securities, so it should be compared against a G-sec index."
+  ],
+  [
+   "Mutual Fund Scheme Selection",
+   "A retired investor with a large corpus needs a steady monthly cash flow with limited risk. Which approach suits him best?",
+   [
+    "An SIP into a small cap fund",
+    "A lump sum in a sectoral fund under the growth option",
+    "Investing the corpus in ELSS",
+    "A systematic withdrawal plan from a conservative debt-oriented scheme"
+   ],
+   3,
+   "An SWP from a low-risk debt-oriented scheme provides regular cash flow while matching a low risk appetite."
+  ],
+  [
+   "Mutual Fund Scheme Selection",
+   "An investor wants to park money for about two weeks with minimal risk and easy access. Which category is most suitable?",
+   [
+    "Overnight or liquid fund",
+    "Equity savings fund",
+    "Credit risk fund",
+    "Long duration gilt fund"
+   ],
+   0,
+   "Overnight and liquid funds hold very short-maturity instruments, so they carry low interest rate and credit risk for short horizons."
+  ]
+ ],
+ "v-b": [
+  [
+   "Investment Landscape",
+   "Which best describes the 'liquidity' of an investment?",
+   [
+    "The highest return it can earn",
+    "How quickly it can be converted into cash without significant loss of value",
+    "Whether the capital is guaranteed",
+    "How lightly it is taxed"
+   ],
+   1,
+   "Liquidity is about ease and speed of conversion to cash at a fair value."
+  ],
+  [
+   "Investment Landscape",
+   "₹1,00,000 is invested at 10% per year compounded annually. What will it grow to in 2 years?",
+   [
+    "₹1,20,000",
+    "₹1,10,000",
+    "₹1,22,000",
+    "₹1,21,000"
+   ],
+   3,
+   "1,00,000 x 1.10 x 1.10 = ₹1,21,000; ₹1,20,000 would be simple interest."
+  ],
+  [
+   "Investment Landscape",
+   "The risk that rising prices erode the purchasing power of investment returns is called",
+   [
+    "Credit risk",
+    "Inflation risk",
+    "Liquidity risk",
+    "Reinvestment risk"
+   ],
+   1,
+   "Inflation risk is the loss of real value when returns fail to keep pace with price rises."
+  ],
+  [
+   "Investment Landscape",
+   "Spreading money across many companies and sectors mainly reduces which risk?",
+   [
+    "Company-specific (unsystematic) risk",
+    "Overall market (systematic) risk",
+    "Inflation risk",
+    "All investment risk"
+   ],
+   0,
+   "Diversification averages out risks specific to individual companies, but market-wide risk remains."
+  ],
+  [
+   "Investment Landscape",
+   "A 25-year-old salaried investor saving for retirement 35 years away, with stable income, can generally afford",
+   [
+    "Keeping everything in a liquid fund",
+    "Keeping everything in fixed deposits",
+    "Investing entirely in gold",
+    "A higher allocation to equity"
+   ],
+   3,
+   "A long horizon and stable income increase risk capacity, so a larger equity allocation can be taken to target higher long-term growth."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "Which is a key benefit a mutual fund offers small investors?",
+   [
+    "Professional management and diversification even with small amounts",
+    "Guaranteed returns",
+    "Freedom from all market risk",
+    "A fixed dividend every year"
+   ],
+   0,
+   "Pooling lets small investors access a diversified, professionally managed portfolio; returns are not guaranteed."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "Investors in a mutual fund scheme are best described as",
+   [
+    "Lenders to the AMC",
+    "Shareholders of the AMC",
+    "Owners of the scheme's assets in proportion to the units they hold",
+    "Creditors of the sponsor"
+   ],
+   2,
+   "Unitholders beneficially own the scheme's assets pro rata to their units; the AMC only manages them."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "How can an investor exit a closed-ended scheme before it matures?",
+   [
+    "By redeeming with the AMC on any business day",
+    "By selling the units on the stock exchange where they are listed",
+    "By transferring the units to the trustee",
+    "No exit is ever possible"
+   ],
+   1,
+   "Closed-ended schemes must be listed so investors can sell units on the exchange before maturity."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "Under SEBI categorisation, mid cap companies are those ranked",
+   [
+    "51st to 150th by full market capitalisation",
+    "251st to 500th by full market capitalisation",
+    "101st to 250th by full market capitalisation",
+    "101st to 200th by free-float market capitalisation"
+   ],
+   2,
+   "Large caps are the top 100, mid caps 101st-250th and small caps 251st onwards by full market capitalisation."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "A flexi cap fund must invest at least 65% in equity and",
+   [
+    "Must hold at least 25% each in large, mid and small caps",
+    "Must invest only in the top 100 companies",
+    "Is free to invest across large, mid and small caps without minimum limits for each",
+    "Must hold no more than 30 stocks"
+   ],
+   2,
+   "Flexi cap funds have a 65% equity floor but no market-cap-wise minimums, unlike multi cap funds."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "An arbitrage fund mainly seeks returns by",
+   [
+    "Taking concentrated bets on small companies",
+    "Lending to lower-rated companies",
+    "Exploiting price differences between the cash and derivatives markets",
+    "Holding physical gold"
+   ],
+   2,
+   "Arbitrage funds buy in one market and simultaneously sell in another, earning the spread with low directional risk."
+  ],
+  [
+   "Legal Structure of Mutual Funds",
+   "The entity that establishes a mutual fund, similar to the promoter of a company, is the",
+   [
+    "Trustee",
+    "Custodian",
+    "Sponsor",
+    "Registrar and Transfer Agent"
+   ],
+   2,
+   "The sponsor sets up the mutual fund trust and the AMC and must meet SEBI's eligibility criteria."
+  ],
+  [
+   "Legal Structure of Mutual Funds",
+   "Which entity typically processes investor transactions and maintains unitholder records on behalf of the AMC?",
+   [
+    "Custodian",
+    "Trustee",
+    "Registrar and Transfer Agent",
+    "SEBI"
+   ],
+   2,
+   "RTAs handle investor servicing such as processing applications, redemptions and maintaining records."
+  ],
+  [
+   "Legal Structure of Mutual Funds",
+   "Which constituent manages a scheme's portfolio on a day-to-day basis?",
+   [
+    "Asset Management Company",
+    "Trustee",
+    "Custodian",
+    "Sponsor"
+   ],
+   0,
+   "The AMC, through its fund managers, makes investment decisions within the scheme's mandate."
+  ],
+  [
+   "Legal Structure of Mutual Funds",
+   "What is the primary role of a mutual fund's trustees?",
+   [
+    "To protect unitholders' interests and oversee the AMC's compliance",
+    "To pick stocks for each scheme",
+    "To sell units to investors",
+    "To value securities daily"
+   ],
+   0,
+   "Trustees supervise the AMC to ensure it acts in the interest of unitholders and within the regulations."
+  ],
+  [
+   "Legal Structure of Mutual Funds",
+   "What minimum net worth must an AMC maintain under SEBI regulations?",
+   [
+    "₹50 crore",
+    "₹10 crore",
+    "₹100 crore",
+    "₹25 crore"
+   ],
+   0,
+   "SEBI requires an AMC to have a net worth of at least ₹50 crore."
+  ],
+  [
+   "Mutual Fund Products for New Cadre Distributors",
+   "An index fund aims to",
+   [
+    "Beat the index through active stock picking",
+    "Guarantee the index return",
+    "Replicate the performance of its benchmark index",
+    "Invest only in debt securities"
+   ],
+   2,
+   "Index funds passively hold the index constituents in the same weights, aiming to match the index before costs."
+  ],
+  [
+   "Mutual Fund Products for New Cadre Distributors",
+   "Unlike an index fund, units of an ETF are",
+   [
+    "Transacted with the AMC only at end-of-day NAV",
+    "Bought and sold on a stock exchange during market hours",
+    "Available only during the NFO",
+    "Never listed on any exchange"
+   ],
+   1,
+   "ETFs are listed and trade continuously at market prices, so investors usually need a demat and broking account."
+  ],
+  [
+   "Mutual Fund Products for New Cadre Distributors",
+   "Why is a diversified equity fund usually considered less risky than a sectoral fund?",
+   [
+    "It spreads investments across sectors, so a downturn in one sector has limited impact",
+    "It guarantees capital protection",
+    "It invests mainly in government bonds",
+    "It never invests in mid or small caps"
+   ],
+   0,
+   "Sectoral funds concentrate in one sector and are hit hard if that sector suffers; diversification lowers this concentration risk."
+  ],
+  [
+   "Mutual Fund Products for New Cadre Distributors",
+   "A large cap fund must invest at least what share of its assets in large cap stocks?",
+   [
+    "65%",
+    "50%",
+    "95%",
+    "80%"
+   ],
+   3,
+   "SEBI categorisation requires large cap funds to invest a minimum of 80% in large cap stocks."
+  ],
+  [
+   "Mutual Fund Products for New Cadre Distributors",
+   "An investor wants equity exposure at low cost and without the risk of a fund manager's stock selection going wrong. Which product fits best?",
+   [
+    "A sectoral fund",
+    "A small cap fund",
+    "An index fund",
+    "A credit risk fund"
+   ],
+   2,
+   "Index funds are passive, typically low-cost and eliminate manager selection risk, though market risk remains."
+  ],
+  [
+   "Mutual Fund Products for New Cadre Distributors",
+   "An investor began an ELSS SIP in January 2024. When can the units bought through the July 2024 instalment be redeemed?",
+   [
+    "July 2027",
+    "January 2027",
+    "July 2025",
+    "At any time"
+   ],
+   0,
+   "Each ELSS instalment has its own three-year lock-in from its allotment date, so July 2024 units are free in July 2027."
+  ],
+  [
+   "Mutual Fund Products for New Cadre Distributors",
+   "A Gold ETF primarily",
+   [
+    "Invests in shares of gold mining companies only",
+    "Invests in physical gold and tracks the domestic price of gold",
+    "Guarantees a fixed return linked to gold",
+    "Lends money to jewellers"
+   ],
+   1,
+   "Gold ETFs hold physical gold (and permitted gold-related instruments) so their NAV moves with domestic gold prices."
+  ],
+  [
+   "Scheme Related Information",
+   "Where would an investor find a particular scheme's investment objective, asset allocation pattern and risk factors?",
+   [
+    "Statement of Additional Information",
+    "Consolidated Account Statement",
+    "AMC's annual report",
+    "Scheme Information Document"
+   ],
+   3,
+   "The SID is the scheme-specific offer document describing its objective, asset allocation, risks and costs."
+  ],
+  [
+   "Scheme Related Information",
+   "The highest risk level shown on SEBI's riskometer is",
+   [
+    "High",
+    "Extreme",
+    "Aggressive",
+    "Very High"
+   ],
+   3,
+   "The riskometer has six levels: Low, Low to Moderate, Moderate, Moderately High, High and Very High."
+  ],
+  [
+   "Scheme Related Information",
+   "A mutual fund's Statement of Additional Information (SAI) mainly contains",
+   [
+    "The daily NAV history of each scheme",
+    "An investor's transaction history",
+    "Statutory information about the fund house that is common to all its schemes",
+    "The portfolio of a single scheme"
+   ],
+   2,
+   "The SAI, read with the SID, gives details about the sponsor, AMC, trustees and other common information."
+  ],
+  [
+   "Scheme Related Information",
+   "Periodic portfolio disclosure by a scheme mainly helps an investor to",
+   [
+    "Know the guaranteed return of the scheme",
+    "See which securities the scheme holds and in what proportion",
+    "Find the distributor's commission",
+    "Check the investor's own tax liability"
+   ],
+   1,
+   "Portfolio disclosures show the holdings, letting investors judge whether the scheme is following its stated mandate."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "To sell mutual fund schemes and earn commission, an individual must",
+   [
+    "Pass the relevant NISM certification and obtain an ARN from AMFI",
+    "Register with RBI as a dealer",
+    "Only have a bank account and PAN",
+    "Register as a SEBI investment adviser"
+   ],
+   0,
+   "Distribution requires NISM certification followed by AMFI registration (ARN)."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "Trail commission paid to a distributor is",
+   [
+    "A one-time payment when the investor buys",
+    "Paid by the investor directly to the distributor",
+    "Paid periodically for as long as the investor stays invested",
+    "Deducted from the investor's redemption proceeds"
+   ],
+   2,
+   "Trail commission is paid by the AMC from the scheme's expenses on the assets that remain invested."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "Where can an investor see the commission paid by AMCs to his distributor for his investments?",
+   [
+    "In the scheme's riskometer",
+    "In the Consolidated Account Statement",
+    "On the stock exchange website",
+    "In the AMC's trust deed"
+   ],
+   1,
+   "SEBI requires the CAS to disclose the commission paid to distributors on the investor's holdings."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "A distributor recommends a small cap fund to a risk-averse retiree who needs capital safety, mainly because it pays more commission. This is",
+   [
+    "Prudent advice",
+    "Mis-selling",
+    "Rupee cost averaging",
+    "Asset allocation"
+   ],
+   1,
+   "Recommending a product unsuitable for the investor's needs and risk profile, for the distributor's benefit, is mis-selling."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "Investment cheques for mutual fund purchases should be drawn in favour of",
+   [
+    "The scheme",
+    "The distributor",
+    "The distributor's firm",
+    "An employee of the RTA"
+   ],
+   0,
+   "Payments must go to the scheme's account; distributors must not accept money in their own name."
+  ],
+  [
+   "Performance of Mutual Funds",
+   "A growth option NAV rose from ₹20 to ₹23 in one year. What was the return?",
+   [
+    "3%",
+    "13%",
+    "23%",
+    "15%"
+   ],
+   3,
+   "Return = (23 - 20) / 20 = 15%."
+  ],
+  [
+   "Performance of Mutual Funds",
+   "A unit bought at ₹10 is worth ₹12 a year later after the investor also received an IDCW of ₹1. What is the total return?",
+   [
+    "20%",
+    "30%",
+    "10%",
+    "25%"
+   ],
+   1,
+   "Total return = (12 + 1 - 10) / 10 = 30%."
+  ],
+  [
+   "Performance of Mutual Funds",
+   "A benchmark is used by mutual fund investors primarily to",
+   [
+    "Fix the scheme's NAV",
+    "Decide the exit load",
+    "Guarantee minimum returns",
+    "Judge a scheme's performance relative to the market segment it invests in"
+   ],
+   3,
+   "Comparing returns to an appropriate benchmark shows whether the fund manager added value."
+  ],
+  [
+   "Performance of Mutual Funds",
+   "Comparing the return of a liquid fund with that of a small cap fund is inappropriate because",
+   [
+    "They have different objectives, risk levels and investment horizons",
+    "Liquid funds do not publish NAVs",
+    "Small cap funds have no benchmark",
+    "Returns of mutual funds cannot be compared"
+   ],
+   0,
+   "Performance should be compared among schemes with similar objectives and risk, such as peers in the same category."
+  ],
+  [
+   "Performance of Mutual Funds",
+   "Two schemes earn the same 12% gross return on identical portfolios, but one has a TER of 1.5%. Approximately what return do its investors get?",
+   [
+    "10.5%",
+    "12%",
+    "13.5%",
+    "1.5%"
+   ],
+   0,
+   "Expenses are deducted from scheme assets, so net return ≈ 12% - 1.5% = 10.5%."
+  ],
+  [
+   "Taxation",
+   "For income tax purposes, an equity-oriented fund is one that invests",
+   [
+    "At least 25% in equity shares",
+    "Only in large cap shares",
+    "At least 50% in foreign equities",
+    "At least 65% in equity shares of domestic listed companies"
+   ],
+   3,
+   "Funds with at least 65% in domestic listed equity qualify as equity-oriented and get the equity capital gains treatment."
+  ],
+  [
+   "Taxation",
+   "Securities Transaction Tax (STT) is levied on",
+   [
+    "Purchase of debt fund units",
+    "Redemption of units of an equity-oriented scheme",
+    "Switches between two debt schemes",
+    "IDCW received from a liquid fund"
+   ],
+   1,
+   "STT applies to redemption (sale) of equity-oriented fund units and is borne by the seller."
+  ],
+  [
+   "Taxation",
+   "Units of an equity-oriented fund become long-term capital assets when held for more than",
+   [
+    "24 months",
+    "36 months",
+    "12 months",
+    "6 months"
+   ],
+   2,
+   "Listed equity and equity-oriented fund units held for more than 12 months are treated as long-term."
+  ],
+  [
+   "Investor Services",
+   "Which of the following is mandatory for KYC of a resident individual making a regular (non-micro) mutual fund investment?",
+   [
+    "Passport",
+    "PAN",
+    "Income tax return",
+    "Credit card"
+   ],
+   1,
+   "PAN is mandatory for mutual fund KYC, apart from limited exemptions such as micro investments."
+  ],
+  [
+   "Investor Services",
+   "A Systematic Transfer Plan (STP) is used to",
+   [
+    "Invest a fixed amount from a bank account every month",
+    "Withdraw a fixed amount to the bank every month",
+    "Move a fixed amount periodically from one scheme to another of the same fund house",
+    "Transfer units to another investor"
+   ],
+   2,
+   "An STP periodically switches money between schemes of the same AMC, often from a debt fund into an equity fund."
+  ],
+  [
+   "Investor Services",
+   "A Systematic Withdrawal Plan (SWP) allows an investor to",
+   [
+    "Invest a fixed amount every month",
+    "Redeem a fixed amount from a scheme at regular intervals",
+    "Switch the entire holding at once",
+    "Receive guaranteed income"
+   ],
+   1,
+   "SWP sets up regular redemptions, which is useful for generating a periodic cash flow."
+  ],
+  [
+   "Investor Services",
+   "What is the cut-off time for purchase applications in liquid and overnight funds?",
+   [
+    "3:00 pm",
+    "12:00 noon",
+    "2:30 pm",
+    "1:30 pm"
+   ],
+   3,
+   "Liquid and overnight funds have a 1:30 pm cut-off for subscriptions, compared with 3:00 pm for most other schemes."
+  ],
+  [
+   "Investor Services",
+   "A switch from one scheme to another is treated as",
+   [
+    "A transfer with no change in units",
+    "A fresh KYC event",
+    "An IDCW payout",
+    "A redemption from the first scheme and a purchase in the second"
+   ],
+   3,
+   "A switch involves selling units of one scheme and buying another, so loads and tax treatment of a redemption apply."
+  ],
+  [
+   "Investor Services",
+   "A folio number in a mutual fund is",
+   [
+    "The account number allotted to an investor by the fund house",
+    "The scheme's SEBI registration number",
+    "The distributor's ARN",
+    "The investor's demat account number"
+   ],
+   0,
+   "All of an investor's transactions with an AMC are recorded under a folio number."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "Mutual funds in India are governed by",
+   [
+    "Banking Regulation Act, 1949",
+    "SEBI (Portfolio Managers) Regulations, 2020",
+    "Insurance Act, 1938",
+    "SEBI (Mutual Funds) Regulations, 1996"
+   ],
+   3,
+   "The SEBI (Mutual Funds) Regulations, 1996 lay down the rules for setting up and operating mutual funds."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "An investor has a complaint about delayed redemption. What should normally be the first step?",
+   [
+    "File a suit in the Supreme Court",
+    "Raise the complaint with the AMC or its RTA",
+    "Complain to the stock exchange",
+    "Write to the RBI Governor"
+   ],
+   1,
+   "Complaints should first go to the AMC; if unresolved, the investor can escalate to SEBI's SCORES."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "AMFI's Code of Ethics (ACE) mainly sets",
+   [
+    "Income tax rates on mutual funds",
+    "The method of NAV computation",
+    "Listing rules for ETFs",
+    "Standards of ethical and professional conduct for AMCs"
+   ],
+   3,
+   "The ACE lays down ethical standards for the conduct of the mutual fund business by member AMCs."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "If an AMC proposes to change a fundamental attribute of a scheme, existing unitholders must be",
+   [
+    "Given an option to exit at NAV without any exit load",
+    "Required to stay invested for one more year",
+    "Charged a higher exit load",
+    "Paid compensation by SEBI"
+   ],
+   0,
+   "SEBI requires prior notice and a load-free exit window when fundamental attributes of a scheme change."
+  ]
+ ],
+ "v-c": [
+  [
+   "Investment Landscape",
+   "An investor refuses to buy a stock now at ₹350 because he 'remembers it at ₹200 last year'. Which bias is at work?",
+   [
+    "Herding",
+    "Anchoring",
+    "Overconfidence",
+    "Mental accounting"
+   ],
+   1,
+   "Anchoring is relying too heavily on an initial reference point (₹200) instead of current information."
+  ],
+  [
+   "Investment Landscape",
+   "A debt fund earns 9% while inflation is 6%. What is the precise real return?",
+   [
+    "3.00%",
+    "15.54%",
+    "2.83%",
+    "1.50%"
+   ],
+   2,
+   "Real return = 1.09 / 1.06 - 1 = 2.83%; 3% is only the approximation."
+  ],
+  [
+   "Investment Landscape",
+   "A retiree who is drawing regularly on her accumulated corpus is in which phase of the investment life cycle?",
+   [
+    "Accumulation phase",
+    "Distribution (spending) phase",
+    "Early earning phase",
+    "Wealth creation phase"
+   ],
+   1,
+   "In the distribution phase investors draw down savings, so stability and regular cash flows matter more."
+  ],
+  [
+   "Mutual Fund Products",
+   "A balanced advantage (dynamic asset allocation) fund",
+   [
+    "Changes its equity-debt mix dynamically, often based on valuation models",
+    "Keeps a fixed 50:50 equity-debt mix",
+    "Invests only in arbitrage positions",
+    "Invests only in government bonds"
+   ],
+   0,
+   "Dynamic asset allocation funds actively shift between equity and debt according to their model or market view."
+  ],
+  [
+   "Mutual Fund Products",
+   "What equity range must an aggressive hybrid fund maintain?",
+   [
+    "10% to 25%",
+    "65% to 80%",
+    "40% to 60%",
+    "At least 95%"
+   ],
+   1,
+   "SEBI categorisation sets 65-80% equity for aggressive hybrid funds; 10-25% is conservative hybrid and 40-60% is balanced hybrid."
+  ],
+  [
+   "Mutual Fund Products",
+   "A conservative hybrid fund invests what share of its assets in equity?",
+   [
+    "65% to 80%",
+    "35% to 65%",
+    "10% to 25%",
+    "Nil"
+   ],
+   2,
+   "Conservative hybrid funds hold 10-25% in equity and 75-90% in debt."
+  ],
+  [
+   "Mutual Fund Products",
+   "A gilt fund with 10-year constant duration must",
+   [
+    "Invest only in 10-year corporate bonds",
+    "Lock in investors for 10 years",
+    "Hold mainly government securities with a portfolio Macaulay duration of about 10 years",
+    "Hold securities maturing within 10 days"
+   ],
+   2,
+   "It invests at least 80% in G-secs while keeping the portfolio Macaulay duration at 10 years."
+  ],
+  [
+   "Mutual Fund Products",
+   "A multi asset allocation fund must invest in",
+   [
+    "At least three asset classes with a minimum of 10% in each",
+    "Exactly two asset classes in equal proportion",
+    "Only equity and gold",
+    "Only foreign assets"
+   ],
+   0,
+   "SEBI requires multi asset allocation funds to hold at least three asset classes with at least 10% in each."
+  ],
+  [
+   "Legal and Regulatory Framework",
+   "When can a mutual fund create a segregated portfolio (side pocket) in a debt scheme?",
+   [
+    "On a credit event, such as a downgrade of a security below investment grade",
+    "Whenever NAV falls by 5%",
+    "At the fund manager's discretion for any stock",
+    "When redemptions exceed subscriptions"
+   ],
+   0,
+   "Segregation separates distressed debt following a credit event so that existing investors share any recovery fairly."
+  ],
+  [
+   "Legal and Regulatory Framework",
+   "The purpose of swing pricing in open-ended debt schemes is to",
+   [
+    "Guarantee a minimum NAV",
+    "Reduce the scheme's expense ratio",
+    "Pay a bonus to long-term investors",
+    "Make redeeming investors bear the cost of their exit during stressed conditions, protecting those who stay"
+   ],
+   3,
+   "Swing pricing adjusts NAV for large outflows in stressed markets so remaining investors are not diluted."
+  ],
+  [
+   "Legal and Regulatory Framework",
+   "SEBI's 'skin in the game' rules require that",
+   [
+    "Sponsors guarantee minimum returns",
+    "Distributors invest their commission in the scheme",
+    "Part of the compensation of key AMC employees is paid in units of the schemes they manage",
+    "Trustees hold 10% of every scheme"
+   ],
+   2,
+   "Paying key personnel partly in scheme units aligns their interests with those of investors."
+  ],
+  [
+   "Legal and Regulatory Framework",
+   "Excluding index and sectoral schemes, a mutual fund scheme generally cannot invest more than what percentage of its NAV in the equity shares of any one company?",
+   [
+    "5%",
+    "25%",
+    "15%",
+    "10%"
+   ],
+   3,
+   "SEBI's investment restrictions cap a scheme's exposure to the equity of a single company at 10% of NAV, with exceptions for index and sectoral/thematic funds."
+  ],
+  [
+   "Offer Document and Disclosures",
+   "Which of these is a 'fundamental attribute' of a scheme?",
+   [
+    "The name of the fund manager",
+    "The AMC's office address",
+    "Its investment objective and asset allocation",
+    "The RTA appointed"
+   ],
+   2,
+   "Fundamental attributes include the scheme type, investment objective and terms of issue; changing them triggers an exit option."
+  ],
+  [
+   "Offer Document and Disclosures",
+   "When an AMC changes information in an SID between annual updates, it typically communicates this through",
+   [
+    "A new trust deed",
+    "A fresh NFO",
+    "An addendum to the SID",
+    "The Consolidated Account Statement only"
+   ],
+   2,
+   "Changes are issued as addenda, which are read together with the SID until it is next updated."
+  ],
+  [
+   "Offer Document and Disclosures",
+   "The Key Information Memorandum (KIM) is meant to",
+   [
+    "Replace the SID for legal purposes",
+    "Give investors a concise summary of a scheme's essential information along with the application form",
+    "Report the investor's holdings",
+    "Disclose the AMC's balance sheet"
+   ],
+   1,
+   "The KIM is a summary of key SID information, provided with every application form."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "Under current SEBI norms, how are mutual fund distributors compensated by AMCs?",
+   [
+    "Through upfront commission paid by the AMC from its own books",
+    "Through an entry load charged to investors",
+    "Through trail commission paid out of the scheme's TER, with no upfront commission",
+    "Through a share of the exit load"
+   ],
+   2,
+   "SEBI moved the industry to an all-trail model, paid from scheme expenses; upfront commissions and entry loads are not permitted."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "SEBI-regulated Execution Only Platforms (EOPs) facilitate investor transactions in",
+   [
+    "Regular plans only",
+    "Unlisted shares",
+    "Insurance policies",
+    "Direct plans of mutual fund schemes"
+   ],
+   3,
+   "The EOP framework covers platforms that facilitate transactions in direct plans without giving advice."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "During a bull run, a distributor shows a client only a fund's best 1-year return and hides its weaker long-term record. This breaches",
+   [
+    "The fund's exit load rules",
+    "The KYC requirement",
+    "The NFO period rule",
+    "The duty to present performance fairly and in a balanced manner"
+   ],
+   3,
+   "Selective presentation of performance is misleading and violates codes of conduct and SEBI advertisement norms."
+  ],
+  [
+   "Accounting and Valuation",
+   "A scheme has investments of ₹500 crore, cash of ₹10 crore and accrued income of ₹2 crore, with payables of ₹5 crore and accrued expenses of ₹2 crore. With 25 crore units outstanding, what is the NAV?",
+   [
+    "₹20.48",
+    "₹20.20",
+    "₹20.00",
+    "₹20.28"
+   ],
+   1,
+   "Net assets = 500 + 10 + 2 - 5 - 2 = ₹505 crore; NAV = 505 / 25 = ₹20.20."
+  ],
+  [
+   "Accounting and Valuation",
+   "Non-traded debt securities held by mutual funds are generally valued using",
+   [
+    "Prices provided by AMFI-appointed valuation agencies",
+    "Their face value",
+    "The fund manager's personal estimate",
+    "The original purchase price"
+   ],
+   0,
+   "To ensure fair and consistent valuation, debt securities are valued using prices from independent valuation agencies."
+  ],
+  [
+   "Accounting and Valuation",
+   "Out of what can a scheme pay IDCW?",
+   [
+    "Only distributable surplus from realised gains and income",
+    "Unrealised appreciation in the portfolio",
+    "Investors' capital contributions without limit",
+    "The AMC's own profits"
+   ],
+   0,
+   "IDCW can be paid only from realised, distributable surplus, not from unrealised gains."
+  ],
+  [
+   "Accounting and Valuation",
+   "An investor redeems 10,000 units when NAV is ₹15 and the exit load is 1%. What amount does he receive (ignoring taxes)?",
+   [
+    "₹1,50,000",
+    "₹1,51,500",
+    "₹1,35,000",
+    "₹1,48,500"
+   ],
+   3,
+   "Redemption price = 15 x 0.99 = ₹14.85; proceeds = 10,000 x 14.85 = ₹1,48,500."
+  ],
+  [
+   "Accounting and Valuation",
+   "A scheme with net assets of ₹730 crore has a TER of 1.2% per year, accrued daily on a 365-day basis. What is the daily expense charge?",
+   [
+    "₹8.76 crore",
+    "₹24 lakh",
+    "₹2.4 lakh",
+    "₹73 lakh"
+   ],
+   1,
+   "Annual expense = 730 x 1.2% = ₹8.76 crore; daily = 8.76 crore / 365 = ₹2.4 million = ₹24 lakh."
+  ],
+  [
+   "Taxation",
+   "Capital losses that cannot be set off in a year can be carried forward for up to",
+   [
+    "4 years",
+    "8 years, if the return for the loss year is filed on time",
+    "Indefinitely",
+    "1 year"
+   ],
+   1,
+   "Unabsorbed capital losses may be carried forward for eight subsequent years, provided the return for the year of loss is filed in time."
+  ],
+  [
+   "Taxation",
+   "An investor switches from the regular plan to the direct plan of the same scheme. For tax purposes, this is",
+   [
+    "Tax-neutral because it is the same scheme",
+    "Taxed as IDCW",
+    "Exempt as a reinvestment",
+    "A transfer (redemption) that may give rise to capital gains"
+   ],
+   3,
+   "Regular and direct plans have separate NAVs; switching means redeeming one and buying the other, which is a taxable transfer."
+  ],
+  [
+   "Taxation",
+   "In mutual funds, GST is levied on",
+   [
+    "The amount invested in units",
+    "Redemption proceeds",
+    "The NAV of the scheme",
+    "Services such as the AMC's investment management fee charged to the scheme"
+   ],
+   3,
+   "GST applies to services like management fees and distribution services, not to the purchase or redemption of units."
+  ],
+  [
+   "Investor Services",
+   "An investor invests in a liquid fund at 11 am on Wednesday and the funds are credited to the scheme before the cut-off that day. Which NAV applies?",
+   [
+    "Wednesday's NAV",
+    "Tuesday's NAV",
+    "Thursday's NAV",
+    "Monday's NAV"
+   ],
+   1,
+   "For liquid and overnight funds, valid applications with funds received before 1:30 pm get the NAV of the day immediately preceding the day of receipt."
+  ],
+  [
+   "Investor Services",
+   "On the death of a sole unitholder who had registered a nominee, the units are",
+   [
+    "Automatically redeemed and paid to the AMC",
+    "Frozen permanently",
+    "Transferred to the distributor",
+    "Transmitted to the nominee after the required documents are submitted"
+   ],
+   3,
+   "Transmission to the registered nominee takes place on submission of the death certificate and the nominee's KYC."
+  ],
+  [
+   "Investor Services",
+   "An NRI wants his mutual fund investment to be fully repatriable. From which account should he pay?",
+   [
+    "NRE account",
+    "NRO account",
+    "Resident savings account",
+    "Cash"
+   ],
+   0,
+   "Investments made from NRE (or FCNR) accounts are repatriable; NRO-funded investments carry repatriation restrictions."
+  ],
+  [
+   "Investor Services",
+   "When a minor unitholder attains majority,",
+   [
+    "The guardian continues to operate the folio",
+    "The folio must be updated to the new major's status with his own KYC and bank details before further transactions",
+    "The units are compulsorily redeemed",
+    "The units are transferred to the guardian"
+   ],
+   1,
+   "On attaining majority, a change of status is required; transactions are not allowed until it is completed."
+  ],
+  [
+   "Return, Risk and Performance",
+   "A fund earned 15% with a beta of 1.5 when the risk-free rate was 6%. What is its Treynor ratio?",
+   [
+    "10.0",
+    "6.0",
+    "0.6",
+    "9.0"
+   ],
+   1,
+   "Treynor = (15 - 6) / 1.5 = 6.0, i.e. 6% excess return per unit of beta."
+  ],
+  [
+   "Return, Risk and Performance",
+   "The Sortino ratio differs from the Sharpe ratio because it",
+   [
+    "Uses beta instead of standard deviation",
+    "Ignores the risk-free rate",
+    "Measures liquidity rather than return",
+    "Uses only downside deviation as the measure of risk"
+   ],
+   3,
+   "Sortino penalises only harmful (downside) volatility, unlike Sharpe which uses total standard deviation."
+  ],
+  [
+   "Return, Risk and Performance",
+   "A fund with beta 1.2 returned 16%. The market returned 13% and the risk-free rate was 6%. What is the fund's Jensen's alpha?",
+   [
+    "1.6%",
+    "3.0%",
+    "2.4%",
+    "10.0%"
+   ],
+   0,
+   "Expected return = 6 + 1.2 x (13 - 6) = 14.4%; alpha = 16 - 14.4 = 1.6%."
+  ],
+  [
+   "Return, Risk and Performance",
+   "A high R-squared of a fund against its benchmark indicates that",
+   [
+    "The fund has high alpha",
+    "The fund is very risky",
+    "Most of the fund's return movements are explained by the benchmark",
+    "The fund's expenses are high"
+   ],
+   2,
+   "R-squared shows how closely returns track the benchmark; a high value makes beta and alpha more meaningful."
+  ],
+  [
+   "Return, Risk and Performance",
+   "Which measure is most appropriate for the return on a SIP with many instalments on different dates?",
+   [
+    "XIRR",
+    "Simple absolute return",
+    "Point-to-point CAGR on the first instalment",
+    "Dividend yield"
+   ],
+   0,
+   "XIRR accounts for the timing and size of each cash flow, which suits SIP investments."
+  ],
+  [
+   "Debt Fund Analysis",
+   "A debt fund has a modified duration of 4 years. If yields rise by 0.50%, its NAV will change by roughly",
+   [
+    "-2%",
+    "+2%",
+    "-0.5%",
+    "-8%"
+   ],
+   0,
+   "Price change ≈ -MD x Δyield = -4 x 0.50% = -2%."
+  ],
+  [
+   "Debt Fund Analysis",
+   "A debt fund's portfolio YTM best indicates",
+   [
+    "The guaranteed return for investors",
+    "Last year's return",
+    "The fund's expense ratio",
+    "The approximate return if all holdings are held to maturity without defaults, before expenses"
+   ],
+   3,
+   "YTM is the yield on the current portfolio, assuming no defaults and reinvestment at the same rate; it is not a guarantee."
+  ],
+  [
+   "Debt Fund Analysis",
+   "A credit risk fund must invest at least 65% of its assets in",
+   [
+    "Corporate bonds rated AA and below (excluding AA+)",
+    "AAA-rated bonds only",
+    "Government securities",
+    "Money market instruments maturing in 91 days"
+   ],
+   0,
+   "SEBI categorisation requires credit risk funds to invest a minimum of 65% in instruments rated below the highest grades, i.e., AA and below."
+  ],
+  [
+   "Debt Fund Analysis",
+   "In the Potential Risk Class (PRC) matrix, a debt scheme classified as A-III has",
+   [
+    "Relatively low credit risk and relatively high interest rate risk",
+    "Relatively high credit risk and low interest rate risk",
+    "Relatively low credit risk and low interest rate risk",
+    "Relatively high credit risk and high interest rate risk"
+   ],
+   0,
+   "In the PRC matrix, A denotes relatively low credit risk and III denotes relatively high interest rate risk (higher Macaulay duration)."
+  ],
+  [
+   "Debt Fund Analysis",
+   "An investor expects interest rates to fall significantly over the next year. Which debt category is likely to benefit the most?",
+   [
+    "Overnight fund",
+    "Liquid fund",
+    "Money market fund",
+    "Long duration fund"
+   ],
+   3,
+   "Bond prices rise when yields fall, and longer-duration portfolios gain the most."
+  ],
+  [
+   "Equity Fund Analysis",
+   "A high portfolio turnover ratio in an equity fund generally implies",
+   [
+    "Lower trading activity",
+    "A purely passive strategy",
+    "Guaranteed higher returns",
+    "Higher transaction costs from frequent buying and selling"
+   ],
+   3,
+   "Turnover shows how often the portfolio is churned; frequent trading adds costs that can drag on returns."
+  ],
+  [
+   "Equity Fund Analysis",
+   "A share trades at ₹500 and its earnings per share are ₹25. What is its P/E ratio?",
+   [
+    "12.5",
+    "20",
+    "25",
+    "0.05"
+   ],
+   1,
+   "P/E = price / EPS = 500 / 25 = 20."
+  ],
+  [
+   "Equity Fund Analysis",
+   "A value-style equity fund manager typically looks for stocks that",
+   [
+    "Have the fastest earnings growth regardless of price",
+    "Have recently risen the most",
+    "Trade below their estimated intrinsic value, often with low P/E or P/B ratios",
+    "Pay no dividends"
+   ],
+   2,
+   "Value investing seeks undervalued stocks; growth investing focuses on companies with high expected earnings growth."
+  ],
+  [
+   "Equity Fund Analysis",
+   "An equity fund's top 10 holdings make up 60% of its portfolio. This mainly indicates",
+   [
+    "High diversification",
+    "High concentration risk",
+    "Low equity exposure",
+    "Low tracking error"
+   ],
+   1,
+   "When a few stocks dominate the portfolio, the fund's performance depends heavily on them."
+  ],
+  [
+   "Scheme Evaluation and Selection",
+   "An investor needs no regular income and wants his wealth to compound. Which option should he choose?",
+   [
+    "IDCW payout option",
+    "IDCW reinvestment with monthly frequency",
+    "Growth option",
+    "SWP option"
+   ],
+   2,
+   "Under the growth option, gains stay invested and compound in the NAV, with no periodic payouts."
+  ],
+  [
+   "Scheme Evaluation and Selection",
+   "When comparing two similar schemes from different AMCs, which factor is LEAST relevant?",
+   [
+    "Consistency of performance against the benchmark",
+    "Whether the NAV is high or low",
+    "Expense ratio",
+    "Fund manager's track record"
+   ],
+   1,
+   "A low NAV does not make a scheme cheaper; returns depend on percentage changes in NAV, not its absolute level."
+  ],
+  [
+   "Scheme Evaluation and Selection",
+   "Many active large cap funds have struggled to beat their benchmark consistently after costs. For a cost-conscious investor, this argues for considering",
+   [
+    "A credit risk fund",
+    "A sectoral fund",
+    "A low-cost large cap index fund",
+    "A closed-ended small cap fund"
+   ],
+   2,
+   "If active managers struggle to add alpha in a segment, a low-cost passive fund captures the market return efficiently."
+  ],
+  [
+   "Financial Planning",
+   "An education goal costs ₹5 lakh today. With 6% annual inflation, roughly how much will it cost in 10 years?",
+   [
+    "₹8.95 lakh",
+    "₹8.00 lakh",
+    "₹7.50 lakh",
+    "₹9.80 lakh"
+   ],
+   0,
+   "Future cost = 5 x (1.06)^10 = 5 x 1.7908 ≈ ₹8.95 lakh; ₹8 lakh would be simple inflation."
+  ],
+  [
+   "Financial Planning",
+   "An emergency fund is commonly recommended to cover",
+   [
+    "One week of expenses",
+    "Ten years of expenses",
+    "Around 3 to 6 months of household expenses",
+    "Only insurance premiums"
+   ],
+   2,
+   "A few months of expenses kept in liquid instruments covers job loss or emergencies without disturbing long-term investments."
+  ],
+  [
+   "Financial Planning",
+   "Which step comes FIRST in the financial planning process?",
+   [
+    "Establishing and defining the relationship with the client",
+    "Implementing the recommendations",
+    "Monitoring the plan",
+    "Rebalancing the portfolio"
+   ],
+   0,
+   "The process starts with defining the relationship, then gathering data, analysing, recommending, implementing and monitoring."
+  ]
+ ],
+ "v-d": [
+  [
+   "Investment Landscape",
+   "An investor's 'risk capacity', as distinct from 'risk appetite', refers to",
+   [
+    "The ability to bear losses given income, wealth, liabilities and time horizon",
+    "The willingness to take risk",
+    "The past returns of the portfolio",
+    "The volatility of the market"
+   ],
+   0,
+   "Risk capacity is objective financial ability to absorb losses; risk appetite is the psychological willingness to do so."
+  ],
+  [
+   "Investment Landscape",
+   "A ₹10 lakh portfolio was set at 60% equity and 40% debt. Equity has grown to ₹7.5 lakh and debt to ₹4 lakh. To restore 60:40, how much equity should be sold?",
+   [
+    "₹1,50,000",
+    "₹60,000",
+    "₹1,00,000",
+    "₹90,000"
+   ],
+   1,
+   "Total = ₹11.5 lakh; target equity = 60% x 11.5 = ₹6.9 lakh; sell 7.5 - 6.9 = ₹0.6 lakh = ₹60,000."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "What is the minimum investment an investor (other than an accredited investor) must make in a Specialized Investment Fund (SIF)?",
+   [
+    "₹1 lakh per strategy",
+    "₹50 lakh per strategy",
+    "₹10 lakh across all SIF strategies, at PAN level",
+    "₹1 crore across strategies"
+   ],
+   2,
+   "SEBI's SIF framework sets a ₹10 lakh minimum investment per investor, aggregated across strategies at PAN level."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "Under the SIF framework, unhedged short exposure through derivatives is capped at",
+   [
+    "10% of net assets",
+    "25% of net assets",
+    "50% of net assets",
+    "100% of net assets"
+   ],
+   1,
+   "SIF strategies may take short exposure via derivatives without hedging up to 25% of net assets, which distinguishes them from regular mutual funds."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "A small cap fund must invest at least 65% of its assets in",
+   [
+    "Companies ranked 251st onwards by full market capitalisation",
+    "The top 100 companies",
+    "Companies ranked 101st to 250th",
+    "Unlisted companies"
+   ],
+   0,
+   "SEBI defines small caps as companies ranked 251st and below, and small cap funds must hold at least 65% in them."
+  ],
+  [
+   "Concept and Role of a Mutual Fund",
+   "An overnight fund invests in",
+   [
+    "Securities maturing in up to 91 days",
+    "Equity shares held overnight",
+    "Government bonds with 10-year maturity",
+    "Debt and money market securities maturing in one business day"
+   ],
+   3,
+   "Overnight funds hold one-day instruments such as overnight repo/TREPS, giving very low interest rate and credit risk."
+  ],
+  [
+   "Legal Structure of Mutual Funds",
+   "At least what proportion of an AMC's board must consist of independent directors?",
+   [
+    "Two-thirds",
+    "Half (50%)",
+    "One-third",
+    "One-fourth"
+   ],
+   1,
+   "SEBI requires at least 50% of an AMC's directors to be independent, while trustees need a two-thirds independent majority."
+  ],
+  [
+   "Legal Structure of Mutual Funds",
+   "The AMC enters into the Investment Management Agreement with the",
+   [
+    "Custodian",
+    "Distributors",
+    "Registrar and Transfer Agent",
+    "Trustees"
+   ],
+   3,
+   "The trustees appoint the AMC to manage the fund's money through the Investment Management Agreement."
+  ],
+  [
+   "Legal and Regulatory Framework",
+   "Which statement about the branding of a Specialized Investment Fund is correct?",
+   [
+    "An SIF must use the same name as an existing equity scheme",
+    "An SIF must carry branding distinct from the AMC's regular mutual fund schemes",
+    "An SIF is branded as a portfolio management service",
+    "An SIF need not be identified separately"
+   ],
+   1,
+   "SEBI requires SIFs to have separate branding so investors can distinguish them from regular mutual fund products."
+  ],
+  [
+   "Legal and Regulatory Framework",
+   "To distribute SIF strategies, a mutual fund distributor must",
+   [
+    "Only hold a NISM-Series-V-B certificate",
+    "Clear the NISM-Series-V-D certification",
+    "Register as a stock broker",
+    "Obtain approval from RBI"
+   ],
+   1,
+   "SEBI and AMFI require the NISM-Series-V-D certification for distributors of Specialized Investment Funds."
+  ],
+  [
+   "Legal and Regulatory Framework",
+   "Which category of investor is exempt from the minimum investment threshold applicable to SIFs?",
+   [
+    "Senior citizens",
+    "First-time investors",
+    "NRIs",
+    "Accredited investors"
+   ],
+   3,
+   "The SIF framework exempts accredited investors from the ₹10 lakh minimum."
+  ],
+  [
+   "Scheme Related Information",
+   "The offer document for each SIF investment strategy, comparable to an SID, is called the",
+   [
+    "Key Information Memorandum",
+    "Private Placement Memorandum",
+    "Draft Red Herring Prospectus",
+    "Investment Strategy Information Document (ISID)"
+   ],
+   3,
+   "Each SIF strategy is launched through an ISID that describes the strategy, asset allocation, risks and other terms."
+  ],
+  [
+   "Scheme Related Information",
+   "Which of the following is an investment strategy permitted under the SIF framework?",
+   [
+    "Equity Long-Short Fund",
+    "Leveraged Real Estate Fund",
+    "Cryptocurrency Long-Short Fund",
+    "Unrated Credit Opportunities Fund"
+   ],
+   0,
+   "SEBI-permitted SIF strategies include equity long-short, equity ex-top 100 long-short, sector rotation long-short, debt long-short, sectoral debt long-short, active asset allocator long-short and hybrid long-short."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "A registered mutual fund distributor who wants to charge clients fees for investment advice must",
+   [
+    "Register as an investment adviser and keep advisory and distribution activities segregated",
+    "Simply add an advisory fee to the transaction",
+    "Get approval from the AMC",
+    "Pass the NISM-Series-V-B exam"
+   ],
+   0,
+   "SEBI's IA Regulations prohibit charging advisory fees without IA registration and require advice to be kept separate from distribution."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "An investor who invests through a mutual fund distributor is allotted units of the",
+   [
+    "Regular plan",
+    "Direct plan",
+    "Segregated portfolio",
+    "Closed-ended plan"
+   ],
+   0,
+   "Investments routed through a distributor go into the regular plan, which carries commission in its TER."
+  ],
+  [
+   "Fund Distribution and Channel Management",
+   "Why do AMCs carry out due diligence on certain distributors?",
+   [
+    "To set the distributor's income tax",
+    "To decide the scheme's NAV",
+    "To ensure distributors follow conduct and suitability standards and to prevent mis-selling",
+    "To register distributors with SEBI as RIAs"
+   ],
+   2,
+   "AMC due diligence checks distributors' business model, track record and controls in the interest of investors."
+  ],
+  [
+   "NAV, TER and Pricing of Units",
+   "A scheme has net assets of ₹1,200 crore and 48 crore units outstanding. What is its NAV?",
+   [
+    "₹24.00",
+    "₹26.00",
+    "₹57.60",
+    "₹25.00"
+   ],
+   3,
+   "NAV = 1,200 / 48 = ₹25.00."
+  ],
+  [
+   "NAV, TER and Pricing of Units",
+   "When a segregated portfolio is created, existing investors in the scheme",
+   [
+    "Are allotted units in the segregated portfolio equal to the units they hold in the main portfolio",
+    "Lose their claim on the segregated assets",
+    "Must pay additional money to stay invested",
+    "Receive the face value of the troubled security immediately"
+   ],
+   0,
+   "Existing unitholders get an equal number of units in the segregated portfolio so they share in any future recovery."
+  ],
+  [
+   "NAV, TER and Pricing of Units",
+   "An investor bought 5,000 units at NAV ₹20 and redeems all of them six months later at NAV ₹22, with a 1% exit load. What does she receive?",
+   [
+    "₹1,10,000",
+    "₹1,11,100",
+    "₹1,00,000",
+    "₹1,08,900"
+   ],
+   3,
+   "Redemption price = 22 x 0.99 = ₹21.78; proceeds = 5,000 x 21.78 = ₹1,08,900."
+  ],
+  [
+   "Taxation",
+   "Units of an equity-oriented mutual fund become long-term capital assets after a holding period of more than",
+   [
+    "24 months",
+    "12 months",
+    "36 months",
+    "3 months"
+   ],
+   1,
+   "Listed equity and equity-oriented fund units are long-term when held for more than 12 months."
+  ],
+  [
+   "Taxation",
+   "TDS on IDCW paid to resident investors (where applicable) is deducted by",
+   [
+    "The mutual fund/AMC before paying out the IDCW",
+    "The investor's bank",
+    "The distributor",
+    "The stock exchange"
+   ],
+   0,
+   "The fund deducts tax at source on IDCW above the threshold before crediting it to the investor."
+  ],
+  [
+   "Investor Services",
+   "An investor submits a purchase in a flexi cap fund at 4:15 pm on Thursday and the money is credited to the scheme at 10 am on Friday. Which NAV applies?",
+   [
+    "Thursday's NAV",
+    "Friday's NAV",
+    "Monday's NAV",
+    "Wednesday's NAV"
+   ],
+   1,
+   "For non-liquid schemes, the NAV of the day the funds are realised before the 3 pm cut-off applies, which is Friday."
+  ],
+  [
+   "Investor Services",
+   "KYC completed once through a KYC Registration Agency (KRA) is",
+   [
+    "Valid only for the AMC where it was done",
+    "Valid across SEBI-registered intermediaries, so it need not be repeated for each fund house",
+    "Valid for one year only",
+    "Required again for every SIP instalment"
+   ],
+   1,
+   "The KRA system lets an investor complete KYC once and use it with any SEBI-registered intermediary."
+  ],
+  [
+   "Risk, Return and Performance of Funds",
+   "Fund X returned 12% with a standard deviation of 10%; Fund Y returned 15% with a standard deviation of 18%. The risk-free rate is 6%. Which has the better Sharpe ratio?",
+   [
+    "Fund Y (0.50 versus 0.60)",
+    "Both are equal",
+    "Fund X (0.60 versus 0.50)",
+    "Cannot be compared without beta"
+   ],
+   2,
+   "Sharpe X = (12 - 6) / 10 = 0.60; Sharpe Y = (15 - 6) / 18 = 0.50, so X delivers more return per unit of risk."
+  ],
+  [
+   "Risk, Return and Performance of Funds",
+   "Credit risk in a debt fund refers to the risk that",
+   [
+    "Interest rates rise",
+    "The market index falls",
+    "An issuer fails to pay interest or principal on time",
+    "The fund manager resigns"
+   ],
+   2,
+   "Credit (default) risk arises from the issuer's inability or unwillingness to meet its payment obligations."
+  ],
+  [
+   "Risk, Return and Performance of Funds",
+   "An equity fund with a beta of 0.8 is typically considered",
+   [
+    "Aggressive, moving more than the market",
+    "Uncorrelated with the market",
+    "Risk-free",
+    "Defensive, tending to move less than the market"
+   ],
+   3,
+   "A beta below 1 means the fund is expected to rise or fall less than the market."
+  ],
+  [
+   "Mutual Fund Scheme Performance",
+   "Under two-tier benchmarking, the first-tier benchmark of an open-ended scheme",
+   [
+    "Is chosen freely by each fund manager every year",
+    "Reflects the category of the scheme and is common to schemes in that category",
+    "Must always be a debt index",
+    "Is the AMC's own NAV"
+   ],
+   1,
+   "Tier 1 benchmarks reflect the scheme category, enabling like-for-like comparison; tier 2 can reflect the fund manager's style."
+  ],
+  [
+   "Mutual Fund Scheme Performance",
+   "A fund outperforms its benchmark by 2% a year on average with a tracking error of 4%. What is its information ratio?",
+   [
+    "2.0",
+    "8.0",
+    "0.5",
+    "0.08"
+   ],
+   2,
+   "Information ratio = active return / tracking error = 2 / 4 = 0.5."
+  ],
+  [
+   "Mutual Fund Scheme Selection",
+   "An investor with a 1-year horizon and low risk appetite should generally prefer",
+   [
+    "A small cap fund",
+    "A sector rotation long-short SIF",
+    "A thematic equity fund",
+    "A money market or low duration debt fund"
+   ],
+   3,
+   "Short-horizon, low-risk money is better suited to short-maturity debt funds than to volatile equity strategies."
+  ],
+  [
+   "Mutual Fund Scheme Selection",
+   "A first-time investor with ₹2 lakh and low risk tolerance asks to invest in an SIF. What is the correct response?",
+   [
+    "SIFs are not suitable: the investor is below the ₹10 lakh minimum and the products suit higher risk appetites",
+    "Invest the ₹2 lakh in an equity long-short SIF",
+    "Invest in an SIF through a weekly SIP of ₹2 lakh",
+    "Split the money across two SIF strategies"
+   ],
+   0,
+   "Non-accredited investors need at least ₹10 lakh to enter SIFs, and their complex strategies suit more experienced, higher-risk investors."
+  ],
+  [
+   "Basics of Derivatives",
+   "A derivative is a contract whose value",
+   [
+    "Is fixed at issue and never changes",
+    "Is derived from the value of an underlying asset, index or rate",
+    "Depends only on the issuer's credit rating",
+    "Is set by the RBI"
+   ],
+   1,
+   "Derivatives such as futures and options derive their value from underlying assets like stocks, indices or interest rates."
+  ],
+  [
+   "Basics of Derivatives",
+   "Compared with OTC derivatives, exchange-traded derivatives",
+   [
+    "Are customised bilateral contracts",
+    "Carry higher counterparty risk",
+    "Are not regulated",
+    "Are standardised and cleared through a clearing corporation that manages counterparty risk"
+   ],
+   3,
+   "Exchange-traded contracts have standard terms, and the clearing corporation acts as counterparty to both sides, reducing default risk."
+  ],
+  [
+   "Understanding Index",
+   "The Nifty 50 index is constructed using which weighting method?",
+   [
+    "Price weighting",
+    "Equal weighting",
+    "Revenue weighting",
+    "Free-float market capitalisation weighting"
+   ],
+   3,
+   "Each constituent's weight is based on its free-float market capitalisation, i.e., shares available for public trading."
+  ],
+  [
+   "Understanding Index",
+   "Impact cost of a stock or index basket measures",
+   [
+    "The cost of executing a transaction relative to the ideal price, reflecting liquidity",
+    "The brokerage charged by the broker",
+    "The tax paid on the trade",
+    "The dividend yield of the index"
+   ],
+   0,
+   "Impact cost is the percentage markup over the ideal (mid) price incurred when executing a trade; lower impact cost means better liquidity."
+  ],
+  [
+   "Equity Futures and Forwards",
+   "A stock trades at ₹1,000 and the risk-free rate is 8% per year. Using simple cost of carry and ignoring dividends, what is the fair price of a 3-month future?",
+   [
+    "₹1,080",
+    "₹1,008",
+    "₹1,020",
+    "₹980"
+   ],
+   2,
+   "Fair price = 1,000 x (1 + 0.08 x 3/12) = ₹1,020."
+  ],
+  [
+   "Equity Futures and Forwards",
+   "Profits and losses on futures positions are settled every day through",
+   [
+    "A single settlement only on expiry",
+    "Payment of option premium",
+    "Daily mark-to-market settlement",
+    "Annual reconciliation"
+   ],
+   2,
+   "Futures are marked to market daily, with gains credited and losses debited to limit build-up of credit risk."
+  ],
+  [
+   "Equity Options",
+   "A call option with strike ₹500 trades at a premium of ₹30 when the stock is at ₹520. What is the option's time value?",
+   [
+    "₹10",
+    "₹20",
+    "₹30",
+    "₹50"
+   ],
+   0,
+   "Intrinsic value = 520 - 500 = ₹20; time value = premium - intrinsic = 30 - 20 = ₹10."
+  ],
+  [
+   "Equity Options",
+   "What is the maximum loss for the buyer of a put option?",
+   [
+    "The premium paid",
+    "Unlimited",
+    "The strike price",
+    "Twice the premium"
+   ],
+   0,
+   "An option buyer's loss is capped at the premium, because the option can simply be left unexercised."
+  ],
+  [
+   "Strategies Using Equity Futures and Options",
+   "A portfolio worth ₹2 crore has a beta of 1.2. Each index futures contract has a value of ₹16 lakh. How many contracts should be sold for a full hedge?",
+   [
+    "12.5",
+    "15",
+    "18",
+    "10"
+   ],
+   1,
+   "Contracts = (portfolio value x beta) / contract value = (2,00,00,000 x 1.2) / 16,00,000 = 15."
+  ],
+  [
+   "Strategies Using Equity Futures and Options",
+   "A trader expects a big move in a stock after results but is unsure of the direction. Which strategy fits?",
+   [
+    "Short straddle",
+    "Covered call",
+    "Long straddle (buy a call and a put at the same strike)",
+    "Buying futures"
+   ],
+   2,
+   "A long straddle profits from a large move in either direction, at the cost of both premiums."
+  ],
+  [
+   "Interest Rates and Fixed Income Market",
+   "An interest rate of 10% per year compounded semi-annually is equivalent to what effective annual rate?",
+   [
+    "10.00%",
+    "10.25%",
+    "20.00%",
+    "10.50%"
+   ],
+   1,
+   "Effective rate = (1 + 0.10/2)^2 - 1 = 1.1025 - 1 = 10.25%."
+  ],
+  [
+   "Interest Rates and Fixed Income Market",
+   "If market yields rise after a bond is bought, the bond's price will",
+   [
+    "Rise",
+    "Stay at face value",
+    "Fall",
+    "Rise only if it is a zero coupon bond"
+   ],
+   2,
+   "Bond prices and yields move inversely, because future cash flows are discounted at the higher rate."
+  ],
+  [
+   "Interest Rate Derivatives",
+   "In a plain vanilla interest rate swap,",
+   [
+    "Parties exchange the full principal at the start and end",
+    "Only one party makes payments",
+    "Parties exchange fixed and floating interest payments on a notional principal that is not exchanged",
+    "Bonds are physically delivered"
+   ],
+   2,
+   "Only interest flows (usually netted) are exchanged; the notional amount is used only to compute them."
+  ],
+  [
+   "Interest Rate Derivatives",
+   "A Forward Rate Agreement (FRA) is used to",
+   [
+    "Lock in an interest rate for a future period",
+    "Buy shares at a fixed price",
+    "Exchange currencies at spot",
+    "Insure against default by a borrower"
+   ],
+   0,
+   "An FRA fixes the rate applicable to a future borrowing or lending period, with only the difference settled."
+  ],
+  [
+   "Exchange Traded Interest Rate Futures",
+   "A fund holding a large portfolio of government bonds fears that interest rates will rise. How can it hedge using interest rate futures?",
+   [
+    "Buy interest rate futures",
+    "Buy more long-dated bonds",
+    "Sell call options on equities",
+    "Sell (short) interest rate futures"
+   ],
+   3,
+   "Rising rates cut bond prices; a short IRF position gains as futures prices fall, offsetting the portfolio loss."
+  ],
+  [
+   "Exchange Traded Interest Rate Futures",
+   "A ₹10 crore bond portfolio has a modified duration of 6. An interest rate futures contract has a value of ₹2 lakh and a modified duration of 7.5. How many contracts are needed for a duration hedge?",
+   [
+    "300",
+    "500",
+    "333",
+    "400"
+   ],
+   3,
+   "Contracts = (10,00,00,000 x 6) / (2,00,000 x 7.5) = 6,00,00,00,000 / 15,00,000 = 400."
+  ],
+  [
+   "Exchange Traded Interest Rate Options",
+   "A call option on a bond price (or bond future) gains value when",
+   [
+    "Interest rates fall",
+    "Interest rates rise",
+    "Interest rates remain unchanged",
+    "Credit spreads widen"
+   ],
+   0,
+   "Falling rates push bond prices up, so a call on the bond price becomes more valuable."
+  ],
+  [
+   "Exchange Traded Interest Rate Options",
+   "A European-style option can be exercised",
+   [
+    "On any day before expiry",
+    "Only on the trade date",
+    "Only on the expiry date",
+    "Only at the seller's choice"
+   ],
+   2,
+   "European options allow exercise only at expiry, unlike American options which can be exercised any time up to expiry."
+  ],
+  [
+   "Strategies Using Interest Rate Futures and Options",
+   "A speculator who expects interest rates to fall would most likely",
+   [
+    "Sell interest rate futures",
+    "Buy interest rate futures",
+    "Buy put options on bond prices",
+    "Shorten portfolio duration"
+   ],
+   1,
+   "Falling rates raise bond and IRF prices, so a long IRF position profits."
+  ],
+  [
+   "Strategies Using Interest Rate Futures and Options",
+   "Interest rate futures trade above their fair value based on cost of carry. Which arbitrage locks in a profit?",
+   [
+    "Sell the bond and buy the futures",
+    "Buy both the bond and the futures",
+    "Buy the deliverable bond in the cash market and sell the futures",
+    "Sell both the bond and the futures"
+   ],
+   2,
+   "When futures are overpriced, a cash-and-carry arbitrage (buy cash, sell futures) earns the excess over the carry cost."
+  ]
+ ],
+ "xii": [
+  [
+   "Securities Markets and Their Role",
+   "The main economic role of securities markets is to",
+   [
+    "Fix interest rates for bank deposits",
+    "Print currency",
+    "Guarantee returns to investors",
+    "Channel household savings into productive investment by companies and governments"
+   ],
+   3,
+   "Securities markets help issuers raise capital from savers and give investors liquidity, supporting capital formation."
+  ],
+  [
+   "Securities Markets and Their Role",
+   "Which regulator is primarily responsible for the government securities and money markets?",
+   [
+    "RBI",
+    "SEBI",
+    "IRDAI",
+    "PFRDA"
+   ],
+   0,
+   "The RBI regulates government securities, money markets and related instruments; SEBI regulates the broader securities market."
+  ],
+  [
+   "Securities Markets and Their Role",
+   "Which entity holds investors' securities in electronic (dematerialised) form?",
+   [
+    "Stock exchange",
+    "Merchant banker",
+    "Credit rating agency",
+    "Depository"
+   ],
+   3,
+   "Depositories (NSDL and CDSL) maintain securities in electronic form, accessed through depository participants."
+  ],
+  [
+   "Securities Markets and Their Role",
+   "By acting as counterparty to every trade through novation, a clearing corporation",
+   [
+    "Sets the prices of securities",
+    "Approves IPO prospectuses",
+    "Guarantees settlement and removes counterparty risk between trading members",
+    "Provides loans to investors"
+   ],
+   2,
+   "Novation makes the clearing corporation the buyer to every seller and seller to every buyer, guaranteeing settlement."
+  ],
+  [
+   "Securities Markets and Their Role",
+   "An investor opens a demat account through a",
+   [
+    "Depository participant",
+    "Registrar to an issue",
+    "Credit rating agency",
+    "Debenture trustee"
+   ],
+   0,
+   "Depository participants are agents of depositories through whom investors open and operate demat accounts."
+  ],
+  [
+   "Securities Markets and Their Role",
+   "A key benefit of dematerialisation of securities was that it",
+   [
+    "Removed all market risk",
+    "Eliminated risks such as forgery, theft and bad delivery of paper certificates",
+    "Made trading free of cost",
+    "Ended the need for stock exchanges"
+   ],
+   1,
+   "Electronic holding removed the problems of physical certificates and enabled faster settlement."
+  ],
+  [
+   "Securities Markets and Their Role",
+   "In securities markets, an 'issuer' is",
+   [
+    "A broker executing trades",
+    "An entity raising funds by issuing securities, such as a company or government",
+    "A depository holding securities",
+    "An investor buying shares"
+   ],
+   1,
+   "Issuers create securities to raise capital; investors buy them, and intermediaries facilitate the process."
+  ],
+  [
+   "Securities, Asset Allocation and Investing",
+   "Equity shareholders of a company have",
+   [
+    "A fixed claim to interest payments",
+    "A residual claim on profits and assets after all other claims are met",
+    "Priority over lenders in liquidation",
+    "A guaranteed return of capital"
+   ],
+   1,
+   "Equity holders are owners and are paid last, which is why equity carries higher risk and higher potential reward."
+  ],
+  [
+   "Securities, Asset Allocation and Investing",
+   "One advantage of debt financing over equity financing for an issuer is that",
+   [
+    "Interest need not be paid in losses",
+    "Debt never has to be repaid",
+    "Interest is tax-deductible and ownership is not diluted",
+    "It requires no credit rating ever"
+   ],
+   2,
+   "Debt keeps ownership intact and interest reduces taxable profit, though it creates fixed payment obligations."
+  ],
+  [
+   "Securities, Asset Allocation and Investing",
+   "A debenture that can be converted into equity shares at a later date is an example of a",
+   [
+    "Pure equity instrument",
+    "Money market instrument",
+    "Hybrid instrument",
+    "Derivative contract"
+   ],
+   2,
+   "Convertible debentures combine features of debt and equity, making them hybrid instruments."
+  ],
+  [
+   "Securities, Asset Allocation and Investing",
+   "Compared with equity shareholders, preference shareholders",
+   [
+    "Have priority in receiving dividends and capital repayment",
+    "Always have full voting rights",
+    "Receive interest that is tax-deductible for the company",
+    "Rank after equity shareholders in liquidation"
+   ],
+   0,
+   "Preference shares rank ahead of equity for dividends and repayment of capital on winding up."
+  ],
+  [
+   "Securities, Asset Allocation and Investing",
+   "A bond with face value ₹1,000 and an 8% annual coupon trades at ₹950. What is its current yield?",
+   [
+    "8.00%",
+    "7.60%",
+    "9.50%",
+    "8.42%"
+   ],
+   3,
+   "Current yield = annual coupon / price = 80 / 950 = 8.42%."
+  ],
+  [
+   "Securities, Asset Allocation and Investing",
+   "Rebalancing a portfolio means",
+   [
+    "Selling everything at year-end",
+    "Always buying the best performer",
+    "Switching entirely to cash",
+    "Restoring the asset mix to its target weights after market movements"
+   ],
+   3,
+   "Rebalancing sells assets that have grown beyond target and buys those below target, maintaining the intended risk level."
+  ],
+  [
+   "Securities, Asset Allocation and Investing",
+   "Combining assets whose returns are not perfectly correlated in a portfolio",
+   [
+    "Increases risk proportionately",
+    "Guarantees higher returns",
+    "Has no effect on risk",
+    "Reduces overall portfolio risk"
+   ],
+   3,
+   "Low correlation means assets do not all fall together, so diversification lowers portfolio volatility."
+  ],
+  [
+   "Securities, Asset Allocation and Investing",
+   "Investors often hold gold in a portfolio mainly as",
+   [
+    "A source of regular coupon income",
+    "A hedge against inflation and currency weakness",
+    "A guaranteed-return asset",
+    "A substitute for life insurance"
+   ],
+   1,
+   "Gold pays no income but tends to preserve value during inflation and currency depreciation."
+  ],
+  [
+   "Securities, Asset Allocation and Investing",
+   "A company pays a dividend of ₹12 per share and its share price is ₹400. What is the dividend yield?",
+   [
+    "12%",
+    "4%",
+    "33.3%",
+    "3%"
+   ],
+   3,
+   "Dividend yield = 12 / 400 = 3%."
+  ],
+  [
+   "Securities, Asset Allocation and Investing",
+   "Estimating a share's intrinsic value from the company's financial statements, earnings and industry prospects is called",
+   [
+    "Technical analysis",
+    "Arbitrage",
+    "Fundamental analysis",
+    "Index tracking"
+   ],
+   2,
+   "Fundamental analysis studies business and financial data, while technical analysis studies price and volume patterns."
+  ],
+  [
+   "Primary Markets",
+   "An Initial Public Offer (IPO) is",
+   [
+    "Any sale of shares on the stock exchange",
+    "The first offer of shares to the public by an unlisted company",
+    "An offer of shares only to existing shareholders",
+    "A buyback of shares by a listed company"
+   ],
+   1,
+   "In an IPO, a company offers shares to the public for the first time and then gets listed."
+  ],
+  [
+   "Primary Markets",
+   "A Follow-on Public Offer (FPO) is made by",
+   [
+    "A company that is already listed",
+    "A company making its first public issue",
+    "A mutual fund launching a scheme",
+    "The RBI selling treasury bills"
+   ],
+   0,
+   "An FPO is a further public issue by a company whose shares are already listed."
+  ],
+  [
+   "Primary Markets",
+   "In a book-built issue, the cap of the price band can be at most what percentage of the floor price?",
+   [
+    "120%",
+    "105%",
+    "110%",
+    "150%"
+   ],
+   0,
+   "SEBI requires the cap to be at least 105% and at most 120% of the floor price."
+  ],
+  [
+   "Primary Markets",
+   "In a public issue, a retail individual investor is one who applies for shares worth up to",
+   [
+    "₹50,000",
+    "₹5 lakh",
+    "₹10 lakh",
+    "₹2 lakh"
+   ],
+   3,
+   "Applications by individuals up to ₹2 lakh fall in the retail individual investor category."
+  ],
+  [
+   "Primary Markets",
+   "Under ASBA, the investor's application money is",
+   [
+    "Blocked in the bank account and debited only on allotment",
+    "Paid in cash to the broker",
+    "Transferred to the issuer immediately",
+    "Kept by the stock exchange for one month"
+   ],
+   0,
+   "Application Supported by Blocked Amount keeps funds in the investor's account, earning interest, until allotment."
+  ],
+  [
+   "Primary Markets",
+   "After a public issue closes, shares must be listed within",
+   [
+    "T+3 working days",
+    "T+6 working days",
+    "T+10 working days",
+    "30 days"
+   ],
+   0,
+   "SEBI has mandated listing within three working days of the issue closing date (T+3)."
+  ],
+  [
+   "Primary Markets",
+   "A rights issue is an offer of new shares",
+   [
+    "To the general public through book building",
+    "To existing shareholders in proportion to their holdings",
+    "Only to qualified institutional buyers",
+    "Only to employees"
+   ],
+   1,
+   "Rights issues give existing shareholders the first right to buy, and the rights can usually be renounced."
+  ],
+  [
+   "Primary Markets",
+   "Who manages the public issue process, including due diligence and preparation of the offer document?",
+   [
+    "Depository participant",
+    "Credit rating agency",
+    "Merchant banker (book running lead manager)",
+    "Clearing corporation"
+   ],
+   2,
+   "SEBI-registered merchant bankers act as lead managers responsible for managing the issue."
+  ],
+  [
+   "Primary Markets",
+   "A Qualified Institutions Placement (QIP) is a way for",
+   [
+    "An unlisted company to list on an exchange",
+    "Retail investors to buy government bonds",
+    "A listed company to raise capital by placing securities with qualified institutional buyers",
+    "A mutual fund to launch an NFO"
+   ],
+   2,
+   "QIPs let listed companies raise funds quickly from QIBs without a full public issue."
+  ],
+  [
+   "Secondary Markets",
+   "What is the standard settlement cycle for equity trades in the Indian cash market?",
+   [
+    "T+1",
+    "T+2",
+    "T+3",
+    "T+5"
+   ],
+   0,
+   "Indian exchanges moved fully to T+1 rolling settlement in January 2023."
+  ],
+  [
+   "Secondary Markets",
+   "An order to buy a share at ₹500 or lower is a",
+   [
+    "Market order",
+    "Limit order",
+    "Stop-loss order",
+    "Immediate-or-cancel market order"
+   ],
+   1,
+   "A limit order specifies the worst price the trader will accept; a market order executes at the best available price."
+  ],
+  [
+   "Secondary Markets",
+   "An investor holding a share bought at ₹300 wants to cap his loss if it falls to ₹270. Which order should he place?",
+   [
+    "A limit buy order at ₹270",
+    "A market buy order",
+    "A limit sell order at ₹330",
+    "A stop-loss sell order with a trigger at ₹270"
+   ],
+   3,
+   "A stop-loss order activates when the trigger price is hit, limiting further losses."
+  ],
+  [
+   "Secondary Markets",
+   "The normal trading session in the Indian equity cash market runs from",
+   [
+    "10:00 am to 4:00 pm",
+    "9:00 am to 5:00 pm",
+    "9:30 am to 3:00 pm",
+    "9:15 am to 3:30 pm"
+   ],
+   3,
+   "Normal market hours are 9:15 am to 3:30 pm, preceded by a pre-open session."
+  ],
+  [
+   "Secondary Markets",
+   "Market-wide circuit breakers are triggered by index movements of",
+   [
+    "5%, 10% and 15%",
+    "10%, 15% and 20%",
+    "2%, 5% and 10%",
+    "20%, 30% and 40%"
+   ],
+   1,
+   "A 10%, 15% or 20% move in Nifty 50 or Sensex triggers a market-wide trading halt."
+  ],
+  [
+   "Secondary Markets",
+   "Within what time must a broker issue a contract note to the client after a trade?",
+   [
+    "24 hours",
+    "7 days",
+    "48 hours",
+    "One month"
+   ],
+   0,
+   "Brokers must send a contract note within 24 hours of execution, giving trade details and charges."
+  ],
+  [
+   "Secondary Markets",
+   "'Pay-in' in the settlement process refers to",
+   [
+    "The clearing corporation paying members",
+    "The issuer paying dividends",
+    "Members delivering funds and securities to the clearing corporation",
+    "The broker paying brokerage to the exchange"
+   ],
+   2,
+   "In pay-in, members deliver their obligations to the clearing corporation; pay-out is the reverse."
+  ],
+  [
+   "Secondary Markets",
+   "Why do exchanges collect margins on trades?",
+   [
+    "To earn profits for the exchange",
+    "To pay dividends to investors",
+    "To fund IPOs",
+    "To cover potential losses and protect the system against default"
+   ],
+   3,
+   "Margins act as collateral so that adverse price moves do not lead to settlement default."
+  ],
+  [
+   "Secondary Markets",
+   "The Investor Protection Fund of a stock exchange is used to",
+   [
+    "Compensate investors for valid claims arising from a defaulting broker",
+    "Guarantee profits on investments",
+    "Pay for investors' brokerage",
+    "Buy shares during market falls"
+   ],
+   0,
+   "IPFs compensate eligible investor claims against defaulting members, within prescribed limits."
+  ],
+  [
+   "Secondary Markets",
+   "An investor buys 100 shares at ₹250 and sells them at ₹270. If total charges are ₹40, what is the net profit?",
+   [
+    "₹2,000",
+    "₹1,960",
+    "₹2,040",
+    "₹1,600"
+   ],
+   1,
+   "Gross profit = 100 x (270 - 250) = ₹2,000; net = 2,000 - 40 = ₹1,960."
+  ],
+  [
+   "Mutual Funds",
+   "A scheme has net assets of ₹50 crore and 4 crore units outstanding. What is its NAV?",
+   [
+    "₹12.50",
+    "₹8.00",
+    "₹10.00",
+    "₹13.50"
+   ],
+   0,
+   "NAV = 50 / 4 = ₹12.50."
+  ],
+  [
+   "Mutual Funds",
+   "A passively managed mutual fund",
+   [
+    "Picks stocks to beat the market",
+    "Guarantees returns",
+    "Mirrors an index instead of selecting securities on the manager's judgement",
+    "Invests only in unlisted firms"
+   ],
+   2,
+   "Passive funds such as index funds and ETFs replicate an index, usually at lower cost."
+  ],
+  [
+   "Mutual Funds",
+   "A Systematic Investment Plan (SIP) involves",
+   [
+    "Investing a fixed amount at regular intervals",
+    "Investing a lump sum only once",
+    "Withdrawing a fixed amount regularly",
+    "Investing only when markets fall"
+   ],
+   0,
+   "SIPs invest fixed amounts periodically, bringing discipline and rupee cost averaging."
+  ],
+  [
+   "Mutual Funds",
+   "Moving money from one scheme of a fund house to another scheme of the same fund house is called a",
+   [
+    "Transmission",
+    "Pledge",
+    "Switch",
+    "Bonus"
+   ],
+   2,
+   "A switch redeems units of one scheme and buys units of another scheme of the same AMC."
+  ],
+  [
+   "Mutual Funds",
+   "Units of a closed-ended mutual fund scheme are listed on a stock exchange to",
+   [
+    "Allow the AMC to issue new units daily",
+    "Avoid publishing NAV",
+    "Give investors a way to exit before maturity",
+    "Guarantee returns"
+   ],
+   2,
+   "Since closed-ended schemes do not redeem units on demand, listing provides liquidity."
+  ],
+  [
+   "Mutual Funds",
+   "A higher expense ratio in a mutual fund, other things being equal,",
+   [
+    "Raises the return earned by investors",
+    "Has no effect on returns",
+    "Lowers the return earned by investors",
+    "Reduces the risk of the scheme"
+   ],
+   2,
+   "Expenses are charged to scheme assets, so higher costs directly reduce investor returns."
+  ],
+  [
+   "Mutual Funds",
+   "What is the minimum investment for a non-accredited investor in a Specialized Investment Fund (SIF)?",
+   [
+    "₹50 lakh",
+    "₹10 lakh",
+    "₹1 crore",
+    "₹500"
+   ],
+   1,
+   "SEBI's SIF framework requires a minimum of ₹10 lakh across SIF strategies at PAN level, except for accredited investors."
+  ],
+  [
+   "Mutual Funds",
+   "Mutual funds must generally pay redemption proceeds to investors within",
+   [
+    "15 working days of the request",
+    "30 days of the request",
+    "3 working days of the request",
+    "The next financial year"
+   ],
+   2,
+   "SEBI's service standard requires redemption proceeds within three working days, with limited exceptions."
+  ],
+  [
+   "Derivative Markets",
+   "How do futures differ from forwards?",
+   [
+    "Futures are customised; forwards are standardised",
+    "Futures carry no margin; forwards do",
+    "Only forwards are marked to market",
+    "Futures are standardised and exchange-traded; forwards are customised OTC contracts"
+   ],
+   3,
+   "Futures have standard terms, trade on exchanges and are cleared, while forwards are bilateral and tailor-made."
+  ],
+  [
+   "Derivative Markets",
+   "A call option gives the buyer the",
+   [
+    "Obligation to buy the underlying",
+    "Right, but not the obligation, to buy the underlying at the strike price",
+    "Right to sell the underlying",
+    "Obligation to sell the underlying"
+   ],
+   1,
+   "A call buyer pays a premium for the right to buy; the seller bears the obligation if exercised."
+  ],
+  [
+   "Derivative Markets",
+   "A trader buys a put with a strike of ₹100 for a premium of ₹5. At expiry the stock is at ₹85. What is the net profit per share?",
+   [
+    "₹15",
+    "₹5",
+    "₹20",
+    "₹10"
+   ],
+   3,
+   "Payoff = 100 - 85 = ₹15; net profit = 15 - 5 = ₹10."
+  ],
+  [
+   "Derivative Markets",
+   "An investor who holds shares and buys put options on them is using a",
+   [
+    "Covered call",
+    "Protective put to limit downside",
+    "Naked call",
+    "Calendar spread"
+   ],
+   1,
+   "Buying puts on held shares sets a floor on losses, like insurance, for the cost of the premium."
+  ],
+  [
+   "Derivative Markets",
+   "At expiry, stock futures and stock options in India are",
+   [
+    "Physically settled by delivery of shares",
+    "Always cash settled",
+    "Rolled over automatically",
+    "Settled in gold"
+   ],
+   0,
+   "Since 2019, stock derivatives in India are physically settled, while index derivatives are cash settled."
+  ],
+  [
+   "Derivative Markets",
+   "Open interest in a derivatives contract refers to",
+   [
+    "The number of trades during the day",
+    "The total number of outstanding contracts not yet closed or settled",
+    "The interest earned on margins",
+    "The premium paid by buyers"
+   ],
+   1,
+   "Open interest counts positions still open; it rises when new positions are created and falls when they are closed."
+  ]
+ ],
+ "xxii": [
+  [
+   "Basics of Fixed Income Securities",
+   "The coupon of a bond is",
+   [
+    "Its market price",
+    "Its yield to maturity",
+    "Its credit rating",
+    "The interest rate paid on its face value"
+   ],
+   3,
+   "The coupon rate is applied to face value to determine periodic interest payments."
+  ],
+  [
+   "Basics of Fixed Income Securities",
+   "A zero coupon bond",
+   [
+    "Pays a high coupon every month",
+    "Is issued at a discount and repaid at face value, with no periodic interest",
+    "Has no maturity date",
+    "Is always issued at a premium"
+   ],
+   1,
+   "The investor's return comes from the difference between the discounted issue price and face value."
+  ],
+  [
+   "Basics of Fixed Income Securities",
+   "The coupon on a floating rate bond",
+   [
+    "Never changes",
+    "Is decided by the investor",
+    "Is paid only at maturity",
+    "Is reset periodically in line with a benchmark rate"
+   ],
+   3,
+   "Floating rate bonds link coupons to a benchmark plus a spread, reducing interest rate risk."
+  ],
+  [
+   "Basics of Fixed Income Securities",
+   "A callable bond gives the issuer the right to",
+   [
+    "Redeem the bond before maturity, typically when interest rates fall",
+    "Raise the coupon at will",
+    "Convert it into equity shares",
+    "Delay interest payments"
+   ],
+   0,
+   "Issuers call bonds when rates fall to refinance at lower cost, which creates reinvestment risk for investors."
+  ],
+  [
+   "Basics of Fixed Income Securities",
+   "A bond with face value ₹1,000 pays a 7.5% coupon semi-annually. How much interest is paid every six months?",
+   [
+    "₹75.00",
+    "₹18.75",
+    "₹37.50",
+    "₹7.50"
+   ],
+   2,
+   "Semi-annual coupon = 1,000 x 7.5% / 2 = ₹37.50."
+  ],
+  [
+   "Government Securities",
+   "Treasury bills are currently issued by the Government of India in which tenors?",
+   [
+    "30, 60 and 90 days",
+    "91, 182 and 364 days",
+    "1, 2 and 3 years",
+    "7, 14 and 28 days"
+   ],
+   1,
+   "T-bills are short-term discounted instruments issued in 91-day, 182-day and 364-day tenors."
+  ],
+  [
+   "Government Securities",
+   "A 91-day T-bill with face value ₹100 is bought at ₹98.25. What is its annualised yield on investment (365-day basis)?",
+   [
+    "7.02%",
+    "1.78%",
+    "7.14%",
+    "7.27%"
+   ],
+   2,
+   "Yield = (100 - 98.25) / 98.25 x 365 / 91 = 0.017812 x 4.0110 = 7.14%; 7.02% is the discount-basis figure."
+  ],
+  [
+   "Government Securities",
+   "State Development Loans (SDLs) are bonds issued by",
+   [
+    "The central government",
+    "State governments",
+    "Public sector banks",
+    "Municipal corporations"
+   ],
+   1,
+   "SDLs are dated securities issued by state governments, with auctions conducted by the RBI."
+  ],
+  [
+   "Government Securities",
+   "Who conducts auctions of central government securities?",
+   [
+    "RBI, on behalf of the Government of India",
+    "SEBI",
+    "The stock exchanges",
+    "Primary Dealers"
+   ],
+   0,
+   "As the government's debt manager, the RBI conducts G-sec and T-bill auctions."
+  ],
+  [
+   "Government Securities",
+   "Cash Management Bills (CMBs) are",
+   [
+    "Long-term bonds for infrastructure",
+    "Very short-term government instruments, under 91 days, used to meet temporary cash mismatches",
+    "Bills issued by commercial banks",
+    "Instruments issued by state governments"
+   ],
+   1,
+   "CMBs are T-bill-like instruments with maturities under 91 days, issued for the government's temporary cash flow needs."
+  ],
+  [
+   "Government Securities",
+   "STRIPS in the government securities market involve",
+   [
+    "Converting T-bills into equity",
+    "Separating a bond's coupon and principal flows into individual zero coupon securities",
+    "Combining several bonds into one fund",
+    "Removing the credit rating of a bond"
+   ],
+   1,
+   "Separate Trading of Registered Interest and Principal of Securities creates tradable zero coupon instruments."
+  ],
+  [
+   "Government Securities",
+   "The RBI Retail Direct scheme allows individual investors to",
+   [
+    "Open a Retail Direct Gilt account with the RBI and invest in government securities",
+    "Borrow directly from the RBI",
+    "Trade equities through the RBI",
+    "Buy corporate bonds from the RBI"
+   ],
+   0,
+   "Retail Direct gives individuals direct access to primary auctions and secondary trading of G-secs."
+  ],
+  [
+   "Corporate Bonds",
+   "The main role of a debenture trustee is to",
+   [
+    "Set the coupon rate",
+    "Protect the interests of debenture holders",
+    "Underwrite the issue",
+    "Rate the debentures"
+   ],
+   1,
+   "Debenture trustees monitor the issuer's compliance with the terms and act for bondholders, including on default."
+  ],
+  [
+   "Corporate Bonds",
+   "What is the lowest long-term rating that is still considered investment grade?",
+   [
+    "BBB-",
+    "A-",
+    "BB+",
+    "AA-"
+   ],
+   0,
+   "Ratings of BBB- and above are investment grade; BB+ and below are speculative."
+  ],
+  [
+   "Corporate Bonds",
+   "In the event of default, secured bondholders differ from unsecured bondholders because they",
+   [
+    "Have a charge on specific assets of the issuer",
+    "Receive a higher coupon always",
+    "Can convert the bonds into equity",
+    "Are repaid by the government"
+   ],
+   0,
+   "Secured bonds are backed by a charge on assets, improving recovery prospects compared with unsecured bonds."
+  ],
+  [
+   "Corporate Bonds",
+   "A 5-year AA-rated corporate bond yields 8.40% while a 5-year G-sec yields 7.10%. What is the credit spread?",
+   [
+    "13 basis points",
+    "130 basis points",
+    "1,540 basis points",
+    "71 basis points"
+   ],
+   1,
+   "Spread = 8.40% - 7.10% = 1.30% = 130 basis points."
+  ],
+  [
+   "Corporate Bonds",
+   "Public issues and listing of corporate bonds and debentures are governed by",
+   [
+    "SEBI (Mutual Funds) Regulations, 1996",
+    "SEBI (ICDR) Regulations for equity only",
+    "SEBI (Issue and Listing of Non-Convertible Securities) Regulations, 2021",
+    "Banking Regulation Act, 1949"
+   ],
+   2,
+   "The 2021 NCS Regulations consolidate SEBI rules on issue and listing of non-convertible debt securities."
+  ],
+  [
+   "Corporate Bonds",
+   "In securitisation, a lender",
+   [
+    "Converts its loans into equity shares",
+    "Pools loans and sells them to a special purpose vehicle that issues pass-through certificates",
+    "Writes off its loans",
+    "Sells its branches"
+   ],
+   1,
+   "Securitisation turns illiquid loans into tradable securities backed by the loan pool's cash flows."
+  ],
+  [
+   "Money Market Instruments",
+   "Commercial Paper can be issued with a maturity of",
+   [
+    "1 day to 7 days",
+    "1 year to 3 years",
+    "7 days to 1 year",
+    "Only exactly 91 days"
+   ],
+   2,
+   "RBI rules allow CP maturities between 7 days and 1 year."
+  ],
+  [
+   "Money Market Instruments",
+   "Certificates of Deposit (CDs) are money market instruments issued by",
+   [
+    "The central government",
+    "Mutual funds",
+    "Banks and eligible financial institutions",
+    "Stock exchanges"
+   ],
+   2,
+   "CDs are negotiable, short-term deposit instruments issued by banks and certain financial institutions."
+  ],
+  [
+   "Money Market Instruments",
+   "Borrowing or lending for a period of 2 to 14 days in the inter-bank market is called",
+   [
+    "Call money",
+    "Notice money",
+    "Term money",
+    "Repo"
+   ],
+   1,
+   "Call money is overnight, notice money is 2-14 days and term money is beyond 14 days up to one year."
+  ],
+  [
+   "Money Market Instruments",
+   "In a repo transaction, the party that sells securities with an agreement to buy them back is effectively",
+   [
+    "Lending funds",
+    "Buying equity",
+    "Borrowing funds against collateral",
+    "Issuing new bonds"
+   ],
+   2,
+   "A repo is collateralised borrowing: securities are sold now and repurchased later at a higher price reflecting interest."
+  ],
+  [
+   "Money Market Instruments",
+   "TREPS, a widely used money market segment in India, stands for",
+   [
+    "Treasury Exchange Pricing System",
+    "Tri-Party Repo Dealing and Settlement",
+    "Term Repo Electronic Payment Service",
+    "Trade Reporting and Exchange Platform System"
+   ],
+   1,
+   "TREPS is a tri-party repo platform operated by CCIL, used for short-term collateralised borrowing and lending."
+  ],
+  [
+   "Money Market Instruments",
+   "A bank borrows ₹10 crore overnight in the repo market at 6.5% per year (365-day basis). What is the interest for one day?",
+   [
+    "₹1,78,082",
+    "₹65,000",
+    "₹6,500",
+    "₹17,808"
+   ],
+   3,
+   "Interest = 10,00,00,000 x 6.5% / 365 = ₹17,808."
+  ],
+  [
+   "Bond Valuation",
+   "A 2-year bond with face value ₹100 pays an 8% annual coupon. If the required yield is 10%, what is its price?",
+   [
+    "₹100.00",
+    "₹98.00",
+    "₹96.53",
+    "₹103.55"
+   ],
+   2,
+   "Price = 8 / 1.10 + 108 / 1.10^2 = 7.27 + 89.26 = ₹96.53."
+  ],
+  [
+   "Bond Valuation",
+   "What is the price of a 3-year zero coupon bond with face value ₹1,000 if the yield is 8% per year (annual compounding)?",
+   [
+    "₹793.83",
+    "₹760.00",
+    "₹925.93",
+    "₹857.34"
+   ],
+   0,
+   "Price = 1,000 / (1.08)^3 = 1,000 / 1.2597 = ₹793.83."
+  ],
+  [
+   "Bond Valuation",
+   "If a bond's coupon rate is higher than its yield to maturity, the bond trades",
+   [
+    "At a discount to face value",
+    "At exactly face value",
+    "At zero",
+    "At a premium to face value"
+   ],
+   3,
+   "Investors pay more than par for coupons above the market yield, so the price is above face value."
+  ],
+  [
+   "Bond Valuation",
+   "The 'dirty price' of a bond equals",
+   [
+    "The clean price plus accrued interest",
+    "The clean price minus accrued interest",
+    "Face value plus coupon",
+    "The clean price minus the coupon"
+   ],
+   0,
+   "The buyer pays the clean price plus interest accrued since the last coupon date."
+  ],
+  [
+   "Bond Valuation",
+   "A bond with face value ₹100 pays a 7.2% coupon semi-annually. Using a 30/360 day count, what is the accrued interest 60 days after the last coupon date?",
+   [
+    "₹1.20",
+    "₹2.40",
+    "₹0.60",
+    "₹3.60"
+   ],
+   0,
+   "Accrued interest = 100 x 7.2% x 60 / 360 = ₹1.20."
+  ],
+  [
+   "Bond Valuation",
+   "As a bond approaches maturity, its price tends to",
+   [
+    "Fall to zero",
+    "Become unrelated to face value",
+    "Double",
+    "Move towards its face value"
+   ],
+   3,
+   "This 'pull to par' happens because at maturity the investor receives exactly the face value."
+  ],
+  [
+   "Yield Measures",
+   "A bond pays an annual coupon of ₹9 and trades at ₹90. What is its current yield?",
+   [
+    "10%",
+    "9%",
+    "8.1%",
+    "11%"
+   ],
+   0,
+   "Current yield = 9 / 90 = 10%."
+  ],
+  [
+   "Yield Measures",
+   "Yield to maturity (YTM) is",
+   [
+    "The coupon divided by face value",
+    "The coupon divided by price",
+    "The discount rate that equates the present value of a bond's cash flows with its price",
+    "The change in price over a year"
+   ],
+   2,
+   "YTM is the internal rate of return of the bond, assuming it is held to maturity and coupons are reinvested at the same rate."
+  ],
+  [
+   "Yield Measures",
+   "A 'normal' yield curve is one in which",
+   [
+    "Shorter maturities have higher yields",
+    "All maturities have the same yield",
+    "Longer maturities have higher yields than shorter maturities",
+    "Yields are negative"
+   ],
+   2,
+   "Investors usually demand more yield for lending longer, so the normal curve slopes upward."
+  ],
+  [
+   "Yield Measures",
+   "An inverted yield curve, where short-term yields exceed long-term yields, is often seen as",
+   [
+    "A sign of rapidly rising inflation expectations only",
+    "Proof that bonds are risk-free",
+    "A signal that markets expect rates and growth to slow",
+    "Unrelated to economic expectations"
+   ],
+   2,
+   "Inversion often reflects expectations of future rate cuts and an economic slowdown."
+  ],
+  [
+   "Yield Measures",
+   "One basis point is equal to",
+   [
+    "0.1%",
+    "1%",
+    "0.001%",
+    "0.01%"
+   ],
+   3,
+   "A basis point is one-hundredth of a percentage point, i.e., 0.01%."
+  ],
+  [
+   "Yield Measures",
+   "For a callable bond, the yield to call is calculated assuming the bond is",
+   [
+    "Held until final maturity",
+    "Redeemed on the call date at the call price",
+    "Converted into equity",
+    "Sold at face value immediately"
+   ],
+   1,
+   "Yield to call uses the call date and call price instead of the maturity date and face value."
+  ],
+  [
+   "Duration and Convexity",
+   "The Macaulay duration of a zero coupon bond is",
+   [
+    "Equal to its time to maturity",
+    "Zero",
+    "Half its time to maturity",
+    "Always one year"
+   ],
+   0,
+   "A zero coupon bond has a single cash flow at maturity, so its weighted-average time to cash flow equals its maturity."
+  ],
+  [
+   "Duration and Convexity",
+   "A bond has a Macaulay duration of 5 years and a yield of 8% (annual compounding). What is its modified duration?",
+   [
+    "5.40",
+    "4.63",
+    "5.00",
+    "4.20"
+   ],
+   1,
+   "Modified duration = Macaulay duration / (1 + y) = 5 / 1.08 = 4.63."
+  ],
+  [
+   "Duration and Convexity",
+   "A bond's modified duration is 6. If yields rise by 25 basis points, its price will change by approximately",
+   [
+    "+1.5%",
+    "-1.5%",
+    "-0.25%",
+    "-6%"
+   ],
+   1,
+   "Price change ≈ -MD x Δy = -6 x 0.25% = -1.5%."
+  ],
+  [
+   "Duration and Convexity",
+   "Because of positive convexity, for an equal change in yield a bond's price",
+   [
+    "Falls more when yields fall",
+    "Changes by exactly the duration estimate",
+    "Does not change",
+    "Rises more when yields fall than it falls when yields rise"
+   ],
+   3,
+   "Convexity makes the price-yield curve bow outward, so price gains exceed price losses for equal yield moves."
+  ],
+  [
+   "Duration and Convexity",
+   "Other things being equal, a bond with a higher coupon has",
+   [
+    "A higher duration",
+    "The same duration",
+    "A duration equal to maturity",
+    "A lower duration"
+   ],
+   3,
+   "Higher coupons return more cash earlier, reducing the weighted-average time to receive cash flows."
+  ],
+  [
+   "Trading and Settlement",
+   "NDS-OM is",
+   [
+    "A stock exchange for equities",
+    "A credit rating database",
+    "RBI's electronic, anonymous order-matching platform for secondary trading in government securities",
+    "A mutual fund transaction portal"
+   ],
+   2,
+   "The Negotiated Dealing System - Order Matching enables screen-based trading of G-secs."
+  ],
+  [
+   "Trading and Settlement",
+   "Which entity acts as the central counterparty for settlement of government securities trades?",
+   [
+    "NSDL",
+    "SEBI",
+    "AMFI",
+    "Clearing Corporation of India Ltd (CCIL)"
+   ],
+   3,
+   "CCIL guarantees settlement of G-sec, repo and forex trades by acting as central counterparty."
+  ],
+  [
+   "Trading and Settlement",
+   "Outright secondary market trades in government securities are normally settled on",
+   [
+    "T+1",
+    "T+0 only",
+    "T+3",
+    "T+5"
+   ],
+   0,
+   "The standard settlement cycle for secondary G-sec trades is T+1."
+  ],
+  [
+   "Trading and Settlement",
+   "OTC trades in corporate bonds must be",
+   [
+    "Settled privately without any reporting",
+    "Settled only through the RBI",
+    "Reported on the exchange reporting platforms and settled through clearing corporations",
+    "Converted into G-secs before settlement"
+   ],
+   2,
+   "SEBI requires OTC corporate bond trades to be reported and settled via exchange clearing corporations on a DvP basis."
+  ],
+  [
+   "Trading and Settlement",
+   "The record date for a bond's coupon payment determines",
+   [
+    "Which holder is entitled to receive the coupon",
+    "The coupon rate",
+    "The bond's credit rating",
+    "The bond's maturity"
+   ],
+   0,
+   "Coupons are paid to holders recorded in the register as of the record date."
+  ],
+  [
+   "Regulatory Framework",
+   "Which statement about regulation of the Indian debt market is correct?",
+   [
+    "SEBI regulates T-bill auctions",
+    "RBI regulates corporate bond public issues",
+    "AMFI regulates G-sec trading",
+    "RBI regulates government securities and money markets, while SEBI regulates listed corporate bonds"
+   ],
+   3,
+   "Debt market regulation is shared: RBI for G-secs and money markets, SEBI for issue and trading of listed corporate debt."
+  ],
+  [
+   "Regulatory Framework",
+   "Primary Dealers in the government securities market are",
+   [
+    "Stock brokers registered with SEBI",
+    "State government treasuries",
+    "Credit rating agencies",
+    "RBI-authorised entities that support auctions through underwriting and act as market makers"
+   ],
+   3,
+   "Primary Dealers commit to bidding and underwriting in auctions and provide two-way quotes, supporting liquidity."
+  ],
+  [
+   "Regulatory Framework",
+   "Under the Fully Accessible Route (FAR), foreign portfolio investors can",
+   [
+    "Invest only in corporate bonds up to a cap",
+    "Lend directly to state governments",
+    "Buy unlisted equity",
+    "Invest in specified government securities without investment limits"
+   ],
+   3,
+   "The RBI's FAR allows non-residents to invest in designated G-secs without the usual investment caps."
+  ],
+  [
+   "Regulatory Framework",
+   "The Statutory Liquidity Ratio (SLR) creates steady demand for government securities because",
+   [
+    "Banks must hold a prescribed share of their liabilities in liquid assets such as G-secs",
+    "Mutual funds must invest all assets in G-secs",
+    "Retail investors are required to hold G-secs",
+    "Companies must keep their cash in T-bills"
+   ],
+   0,
+   "SLR requires banks to maintain a portion of net demand and time liabilities in approved securities, mainly G-secs."
+  ]
+ ]
+}

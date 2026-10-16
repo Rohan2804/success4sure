@@ -1,0 +1,2410 @@
+{
+ "x-a": [
+  [
+   "Investment Advisory & Financial Planning Basics",
+   "In a structured financial planning engagement, which step must come before recommending any specific investment product?",
+   [
+    "Executing transactions through the client's broker",
+    "Reviewing the performance of the recommended portfolio",
+    "Understanding the client's goals, financial position and risk profile",
+    "Fixing the adviser's renewal fee for the next year"
+   ],
+   2,
+   "Recommendations can only be suitable once the adviser has gathered data on the client's goals, finances and risk profile; implementation and monitoring come later."
+  ],
+  [
+   "Investment Advisory & Financial Planning Basics",
+   "Riya, 28, has three goals: a house down payment in 3 years, retirement at 58, and her newborn's higher education in 18 years. Which goal should normally be funded with the least volatile assets?",
+   [
+    "The house down payment in 3 years",
+    "Retirement at 58",
+    "The child's higher education in 18 years",
+    "All three goals equally, regardless of horizon"
+   ],
+   0,
+   "The shortest-horizon goal has the least time to recover from a market fall, so it should be matched with stable, low-volatility assets."
+  ],
+  [
+   "Investment Advisory & Financial Planning Basics",
+   "A client in the early-career accumulation stage of the financial life cycle typically has:",
+   [
+    "A need to convert most assets into regular income immediately",
+    "A long investment horizon and a relatively high capacity to take investment risk",
+    "A short horizon and a focus on preserving capital",
+    "Mainly estate-transfer and succession concerns"
+   ],
+   1,
+   "Young earners have decades of future income ahead, which gives them a long horizon and greater ability to absorb short-term volatility."
+  ],
+  [
+   "Time Value of Money",
+   "A client invests ₹1,00,000 for 5 years at 8% per annum compounded annually. What will the investment be worth at maturity (approximately)?",
+   [
+    "₹1,40,000",
+    "₹1,58,687",
+    "₹1,48,024",
+    "₹1,46,933"
+   ],
+   3,
+   "FV = 1,00,000 × (1.08)^5 = 1,00,000 × 1.46933 ≈ ₹1,46,933. ₹1,40,000 would be simple interest."
+  ],
+  [
+   "Time Value of Money",
+   "A client needs ₹10,00,000 in 10 years. If money can earn 7% per annum compounded annually, how much must be invested today as a lump sum (approximately)?",
+   [
+    "₹3,00,000",
+    "₹5,88,235",
+    "₹5,08,349",
+    "₹4,63,193"
+   ],
+   2,
+   "PV = 10,00,000 ÷ (1.07)^10 = 10,00,000 ÷ 1.96715 ≈ ₹5,08,349."
+  ],
+  [
+   "Time Value of Money",
+   "A loan carries a nominal rate of 12% per annum compounded monthly. What is its effective annual rate (approximately)?",
+   [
+    "12.00%",
+    "12.36%",
+    "13.12%",
+    "12.68%"
+   ],
+   3,
+   "EAR = (1 + 0.12/12)^12 − 1 = (1.01)^12 − 1 ≈ 12.68%. 12.36% would be the result of half-yearly compounding."
+  ],
+  [
+   "Time Value of Money",
+   "An investor starts a SIP of ₹10,000 at the end of every month for 10 years in a fund assumed to earn 12% per annum compounded monthly. What is the approximate value at the end of 10 years?",
+   [
+    "₹12.0 lakh",
+    "₹21.0 lakh",
+    "₹27.4 lakh",
+    "₹23.0 lakh"
+   ],
+   3,
+   "FV of an ordinary annuity = 10,000 × [(1.01)^120 − 1] ÷ 0.01 ≈ 10,000 × 230.04 ≈ ₹23.0 lakh, against total contributions of ₹12 lakh."
+  ],
+  [
+   "Client Financial Position & Debt Management",
+   "A client owns a house worth ₹60 lakh, mutual funds of ₹15 lakh, bank balances of ₹5 lakh and a car worth ₹5 lakh. He owes ₹25 lakh on a home loan, ₹3 lakh on a car loan and ₹50,000 on a credit card. What is his net worth?",
+   [
+    "₹85 lakh",
+    "₹57 lakh",
+    "₹56.5 lakh",
+    "₹51.5 lakh"
+   ],
+   2,
+   "Total assets = 60 + 15 + 5 + 5 = ₹85 lakh; total liabilities = 25 + 3 + 0.5 = ₹28.5 lakh; net worth = 85 − 28.5 = ₹56.5 lakh."
+  ],
+  [
+   "Client Financial Position & Debt Management",
+   "A client's gross monthly income is ₹1,20,000 and she pays EMIs of ₹30,000 on a home loan and ₹6,000 on a car loan. What is her debt-service (EMI-to-income) ratio?",
+   [
+    "30%",
+    "25%",
+    "36%",
+    "5%"
+   ],
+   0,
+   "Debt-service ratio = total EMIs ÷ gross income = (30,000 + 6,000) ÷ 1,20,000 = 30%."
+  ],
+  [
+   "Client Financial Position & Debt Management",
+   "A client has a revolving credit-card balance charging about 36% a year and holds a fixed deposit earning 7%, over and above a separate emergency fund. What is the most sensible advice?",
+   [
+    "Keep paying the minimum due and retain the FD",
+    "Invest the FD in equity funds to try to out-earn the card interest",
+    "Take a personal loan to buy more FDs",
+    "Use the fixed deposit to clear the credit-card balance"
+   ],
+   3,
+   "Repaying a 36% debt is a guaranteed 'return' far higher than the 7% FD, and the emergency fund is already provided for separately."
+  ],
+  [
+   "Indian Financial Markets",
+   "Which of the following is a money market instrument?",
+   [
+    "A 10-year Government of India dated security",
+    "An equity share of a listed company",
+    "A 91-day Treasury bill",
+    "A 15-year infrastructure bond"
+   ],
+   2,
+   "Money market instruments have original maturities of up to one year; a 91-day T-bill qualifies, whereas the others are long-term capital market instruments."
+  ],
+  [
+   "Indian Financial Markets",
+   "Which regulator primarily governs the call money market in India?",
+   [
+    "Securities and Exchange Board of India",
+    "Reserve Bank of India",
+    "Insurance Regulatory and Development Authority of India",
+    "Pension Fund Regulatory and Development Authority"
+   ],
+   1,
+   "The call money market is an interbank money market and falls under the RBI's regulatory domain."
+  ],
+  [
+   "Securities Market Segments",
+   "When a company sells newly issued shares to the public for the first time through an IPO, the transaction takes place in the:",
+   [
+    "Primary market",
+    "Secondary market",
+    "Over-the-counter derivatives market",
+    "Money market"
+   ],
+   0,
+   "Fresh issuance of securities by the issuer to investors is a primary market activity; later trading between investors happens in the secondary market."
+  ],
+  [
+   "Securities Market Segments",
+   "What is the standard (rolling) settlement cycle for trades in the equity cash segment of Indian stock exchanges?",
+   [
+    "T+2",
+    "T+1",
+    "T+3",
+    "T+5"
+   ],
+   1,
+   "India completed its move to T+1 settlement for the equity cash segment in 2023; an optional same-day cycle exists only for a limited set of stocks."
+  ],
+  [
+   "Equity Investment",
+   "A share trades at ₹450 and the company's earnings per share for the latest year is ₹30. What is its price-to-earnings ratio?",
+   [
+    "6.7 times",
+    "13.5 times",
+    "30 times",
+    "15 times"
+   ],
+   3,
+   "P/E = market price ÷ EPS = 450 ÷ 30 = 15 times."
+  ],
+  [
+   "Equity Investment",
+   "A company pays an annual dividend of ₹12 per share and its share trades at ₹400. What is the dividend yield?",
+   [
+    "1.2%",
+    "4%",
+    "3%",
+    "12%"
+   ],
+   2,
+   "Dividend yield = dividend per share ÷ market price = 12 ÷ 400 = 3%."
+  ],
+  [
+   "Equity Investment",
+   "What is the usual effect of a 1:1 bonus issue on an existing shareholder?",
+   [
+    "The shareholder receives cash equal to the face value of the shares held",
+    "The company's net worth doubles",
+    "The shareholder's ownership percentage doubles",
+    "The number of shares doubles and the market price adjusts to roughly half, leaving total value broadly unchanged"
+   ],
+   3,
+   "A bonus issue capitalises reserves into share capital; shares outstanding double but nothing of value enters the company, so the price adjusts and each holder's percentage stake is unchanged."
+  ],
+  [
+   "Equity Investment",
+   "Under SEBI's market-capitalisation categorisation used by mutual funds, a 'large-cap' company is one that is:",
+   [
+    "Ranked 1st to 100th by full market capitalisation",
+    "Ranked 1st to 250th by full market capitalisation",
+    "Any company with a market capitalisation above ₹5,000 crore",
+    "Ranked 101st to 250th by full market capitalisation"
+   ],
+   0,
+   "SEBI defines large caps as the top 100 companies by full market cap, mid caps as 101st–250th and small caps as 251st onwards."
+  ],
+  [
+   "Debt Investment",
+   "If market interest rates rise, what happens to the price of an existing fixed-coupon bond?",
+   [
+    "It rises",
+    "It stays at face value until maturity",
+    "It rises only if the coupon is above the new market rate",
+    "It falls"
+   ],
+   3,
+   "Bond prices move inversely to yields: new bonds now offer higher coupons, so existing bonds must trade at lower prices to offer a competitive yield."
+  ],
+  [
+   "Debt Investment",
+   "A bond with face value ₹100 pays an annual coupon of 8% and currently trades at ₹95. What is its current yield?",
+   [
+    "8.00%",
+    "8.42%",
+    "7.60%",
+    "5.00%"
+   ],
+   1,
+   "Current yield = annual coupon ÷ market price = 8 ÷ 95 ≈ 8.42%."
+  ],
+  [
+   "Debt Investment",
+   "A bond has a Macaulay duration of 6 years and a YTM of 9% (annual compounding). If its yield rises by 50 basis points, what is the approximate change in its price?",
+   [
+    "A fall of about 3.00%",
+    "A fall of about 2.75%",
+    "A rise of about 2.75%",
+    "A fall of about 5.50%"
+   ],
+   1,
+   "Modified duration = 6 ÷ 1.09 ≈ 5.50; price change ≈ −5.50 × 0.5% ≈ −2.75%."
+  ],
+  [
+   "Debt Investment",
+   "Which risk is eliminated for an investor who buys a zero-coupon bond and holds it to maturity?",
+   [
+    "Reinvestment risk",
+    "Default risk",
+    "Inflation risk",
+    "Liquidity risk if the investor needs money early"
+   ],
+   0,
+   "A zero-coupon bond pays no interim coupons, so there are no cash flows to reinvest; the investor still bears credit and inflation risk."
+  ],
+  [
+   "Derivatives",
+   "An investor buys a call option with a strike price of ₹500 by paying a premium of ₹20. At expiry the underlying settles at ₹540. What is the net profit per share (ignoring costs)?",
+   [
+    "₹20",
+    "₹40",
+    "₹60",
+    "₹0"
+   ],
+   0,
+   "Payoff = 540 − 500 = ₹40; net profit = 40 − 20 premium = ₹20 per share."
+  ],
+  [
+   "Derivatives",
+   "Which statement correctly distinguishes the buyer of an option from the buyer of a futures contract?",
+   [
+    "Both have only a right and no obligation",
+    "The futures buyer pays a non-refundable premium",
+    "The option buyer has a right but no obligation, while the futures buyer is obliged to settle the contract",
+    "The option buyer must deposit margin and settle mark-to-market losses daily"
+   ],
+   2,
+   "An option buyer pays a premium for the right to exercise; a futures contract binds both parties, which is why futures positions carry margins and daily mark-to-market."
+  ],
+  [
+   "Derivatives",
+   "An investor with a diversified equity portfolio wants protection against a sharp market fall but wishes to keep the benefit of any rise. Which strategy fits best?",
+   [
+    "Selling index call options",
+    "Buying index put options",
+    "Buying index futures",
+    "Buying index call options"
+   ],
+   1,
+   "A long put gains when the index falls, offsetting portfolio losses, while the upside is retained less the premium paid; selling calls caps the upside and offers little downside protection."
+  ],
+  [
+   "Mutual Funds",
+   "A scheme holds investments worth ₹120 crore, has accrued expenses and other liabilities of ₹2 crore and has 8 crore units outstanding. What is its NAV per unit?",
+   [
+    "₹14.75",
+    "₹15.00",
+    "₹15.25",
+    "₹14.50"
+   ],
+   0,
+   "NAV = (assets − liabilities) ÷ units = (120 − 2) ÷ 8 = ₹14.75."
+  ],
+  [
+   "Mutual Funds",
+   "For income-tax purposes, a mutual fund scheme is treated as 'equity-oriented' when it invests at least what proportion of its corpus in equity shares of domestic listed companies?",
+   [
+    "65%",
+    "50%",
+    "80%",
+    "35%"
+   ],
+   0,
+   "The tax definition of an equity-oriented fund requires a minimum 65% investment in domestically listed equity shares."
+  ],
+  [
+   "Mutual Funds",
+   "A client wants to park surplus cash for about two months with very low risk and easy access. Which mutual fund category is most suitable?",
+   [
+    "Small-cap fund",
+    "Gilt fund with 10-year constant duration",
+    "Sectoral equity fund",
+    "Liquid fund"
+   ],
+   3,
+   "Liquid funds invest in money market instruments of up to 91 days' maturity, giving low volatility and quick redemption suitable for very short horizons."
+  ],
+  [
+   "Mutual Funds",
+   "Compared with the regular plan of the same mutual fund scheme, the direct plan:",
+   [
+    "Has a lower expense ratio because no distributor commission is built in",
+    "Has a different portfolio managed by another fund manager",
+    "Charges a higher exit load",
+    "Is available only to investors routed through a distributor"
+   ],
+   0,
+   "Direct and regular plans share the same portfolio; the direct plan excludes distribution commission, so its expense ratio is lower and its NAV grows faster."
+  ],
+  [
+   "Real Estate, Gold & Other Assets",
+   "SEBI's REIT regulations require a REIT to distribute what minimum share of its net distributable cash flows to unitholders?",
+   [
+    "50%",
+    "75%",
+    "90%",
+    "100%"
+   ],
+   2,
+   "REITs must distribute at least 90% of net distributable cash flows, which is why they are viewed as income-oriented investments."
+  ],
+  [
+   "Real Estate, Gold & Other Assets",
+   "A client wants exposure to gold purely as an investment. Compared with buying jewellery, the key advantage of a gold ETF is that it:",
+   [
+    "Avoids making charges and purity concerns, and is held in demat form",
+    "Guarantees a fixed annual interest over and above the gold price",
+    "Is completely free of gold-price risk",
+    "Is exempt from all taxes on sale"
+   ],
+   0,
+   "Gold ETF units are backed by high-purity physical gold held by a custodian, traded on exchanges and held in demat, avoiding jewellery's making charges and purity risk; they still carry gold-price risk."
+  ],
+  [
+   "PMS, AIF & Other Managed Portfolios",
+   "What is the minimum investment SEBI requires from a client of a portfolio management service (PMS)?",
+   [
+    "₹10 lakh",
+    "₹50 lakh",
+    "₹25 lakh",
+    "₹1 crore"
+   ],
+   1,
+   "SEBI's Portfolio Managers Regulations set the minimum investment per client at ₹50 lakh (in cash or securities)."
+  ],
+  [
+   "PMS, AIF & Other Managed Portfolios",
+   "Under SEBI's AIF Regulations, what is the general minimum investment by an investor (other than an accredited investor or eligible employees/directors) in an Alternative Investment Fund?",
+   [
+    "₹10 lakh",
+    "₹50 lakh",
+    "₹1 crore",
+    "₹5 crore"
+   ],
+   2,
+   "AIFs generally require a minimum commitment of ₹1 crore per investor, with lower thresholds only for specified employees/directors and relaxation for accredited investors."
+  ],
+  [
+   "PMS, AIF & Other Managed Portfolios",
+   "Which statement best describes a discretionary portfolio management service?",
+   [
+    "The client must approve every trade before execution",
+    "The portfolio manager takes buy and sell decisions for the client's account without seeking approval for each transaction",
+    "The manager only gives advice and the client executes trades",
+    "The portfolio is pooled with other clients and units are issued"
+   ],
+   1,
+   "In discretionary PMS the client delegates investment decisions to the manager within the agreed mandate; in non-discretionary PMS each decision needs client consent."
+  ],
+  [
+   "Asset Allocation & Portfolio Construction",
+   "Which statement best distinguishes tactical from strategic asset allocation?",
+   [
+    "Tactical allocation is the client's permanent long-term policy mix",
+    "Tactical allocation makes short-term deviations from the long-term policy mix to exploit market views",
+    "Strategic allocation changes every week based on market news",
+    "The two terms mean the same thing"
+   ],
+   1,
+   "Strategic allocation is the long-term mix based on goals and risk profile; tactical allocation temporarily tilts away from it based on market outlook."
+  ],
+  [
+   "Asset Allocation & Portfolio Construction",
+   "Diversification reduces portfolio risk the most when the returns of the assets combined have:",
+   [
+    "Perfect positive correlation (+1)",
+    "High positive correlation (around +0.8)",
+    "Identical standard deviations",
+    "Low or negative correlation with each other"
+   ],
+   3,
+   "When returns do not move together, losses in one asset tend to be offset by others; at +1 correlation there is no diversification benefit."
+  ],
+  [
+   "Asset Allocation & Portfolio Construction",
+   "A portfolio is 60% in equity expected to return 12%, 30% in debt expected to return 7% and 10% in gold expected to return 9%. What is the expected portfolio return?",
+   [
+    "9.3%",
+    "10.8%",
+    "10.2%",
+    "11.4%"
+   ],
+   2,
+   "Expected return = 0.6×12 + 0.3×7 + 0.1×9 = 7.2 + 2.1 + 0.9 = 10.2%."
+  ],
+  [
+   "Asset Allocation & Portfolio Construction",
+   "A client's agreed allocation is 60% equity and 40% debt. After a strong equity rally the portfolio stands at 72% equity and 28% debt. What does disciplined rebalancing require?",
+   [
+    "Buy more equity to ride the momentum",
+    "Do nothing, since the portfolio has made gains",
+    "Sell part of the equity and add to debt to restore 60:40",
+    "Move the entire portfolio into debt"
+   ],
+   2,
+   "Rebalancing brings the portfolio back to the policy mix, which here means trimming the overweight equity and adding to the underweight debt."
+  ],
+  [
+   "Portfolio Performance Evaluation",
+   "A fund returned 14% with a standard deviation of 16%. The risk-free rate is 6%. What is its Sharpe ratio?",
+   [
+    "0.88",
+    "0.38",
+    "0.50",
+    "1.33"
+   ],
+   2,
+   "Sharpe ratio = (14 − 6) ÷ 16 = 0.50."
+  ],
+  [
+   "Portfolio Performance Evaluation",
+   "A fund earned 13% with a beta of 1.4 when the risk-free rate was 6%. What is its Treynor ratio?",
+   [
+    "9.3",
+    "4.6",
+    "7.0",
+    "5.0"
+   ],
+   3,
+   "Treynor ratio = (13 − 6) ÷ 1.4 = 5.0 (percentage points of excess return per unit of beta)."
+  ],
+  [
+   "Portfolio Performance Evaluation",
+   "A fund with beta 1.2 earned 15% in a year when the market returned 12% and the risk-free rate was 6%. What is its Jensen's alpha?",
+   [
+    "3.0%",
+    "-1.8%",
+    "1.8%",
+    "9.0%"
+   ],
+   2,
+   "CAPM expected return = 6 + 1.2 × (12 − 6) = 13.2%; alpha = 15 − 13.2 = 1.8%."
+  ],
+  [
+   "Behavioural Finance",
+   "An investor quickly sells shares that have gained but keeps holding shares that have fallen, hoping they will recover. This pattern is known as:",
+   [
+    "Home bias",
+    "Disposition effect",
+    "Herd behaviour",
+    "Mental accounting of windfall gains"
+   ],
+   1,
+   "The disposition effect, rooted in loss aversion, is the tendency to realise gains too early and hold on to losers too long."
+  ],
+  [
+   "Behavioural Finance",
+   "After one year of very high equity returns, a client insists on raising his equity allocation sharply because he expects the same returns to continue. Which bias is he most likely showing?",
+   [
+    "Anchoring to purchase price",
+    "Loss aversion",
+    "Status quo bias",
+    "Recency bias"
+   ],
+   3,
+   "Recency bias is giving excessive weight to recent events and extrapolating them into the future."
+  ],
+  [
+   "Operational Aspects (KYC, Demat, Transactions)",
+   "What is the main purpose of a KYC Registration Agency (KRA) in the Indian securities market?",
+   [
+    "To hold KYC records centrally so that KYC done with one intermediary can be used by other intermediaries",
+    "To approve the investment advice given to clients",
+    "To settle trades between buyers and sellers",
+    "To act as a depository for dematerialised shares"
+   ],
+   0,
+   "KRAs centralise KYC records, so investors need not repeat full KYC with every SEBI-registered intermediary."
+  ],
+  [
+   "Operational Aspects (KYC, Demat, Transactions)",
+   "Which are the two depositories that hold dematerialised securities in India?",
+   [
+    "NSE and BSE",
+    "NSDL and CDSL",
+    "CAMS and KFintech",
+    "NSCCL and ICCL"
+   ],
+   1,
+   "NSDL and CDSL are the depositories; NSE/BSE are exchanges, CAMS/KFintech are registrars and NSCCL/ICCL are clearing corporations."
+  ],
+  [
+   "Regulatory Framework for Investment Advisers",
+   "Under the SEBI (Investment Advisers) Regulations, from whom may a registered investment adviser receive remuneration for advice given to a client?",
+   [
+    "Only from the client",
+    "From the asset management companies whose schemes are recommended",
+    "From both the client and product manufacturers, if disclosed",
+    "From the stock exchange through which trades are executed"
+   ],
+   0,
+   "SEBI's framework requires IAs to be paid only by clients, so that advice is not influenced by commissions from product providers."
+  ],
+  [
+   "Regulatory Framework for Investment Advisers",
+   "Before recommending an investment, a SEBI-registered investment adviser must ensure that the advice is:",
+   [
+    "Approved in advance by the client's bank",
+    "Suitable for the client, based on a documented risk profile",
+    "Limited to products listed on a stock exchange",
+    "Identical to the advice given to all other clients"
+   ],
+   1,
+   "The IA Regulations require risk profiling and a suitability assessment so that recommendations match each client's risk capacity, objectives and circumstances."
+  ],
+  [
+   "Regulatory Framework for Investment Advisers",
+   "Which of the following is exempt from registering as an investment adviser under the SEBI (IA) Regulations?",
+   [
+    "A person charging clients a fee to recommend specific stocks",
+    "An IRDAI-registered insurance agent advising solely on insurance products",
+    "A firm selling paid stock-tip subscriptions through a messaging app",
+    "An individual offering fee-based mutual fund portfolio advice to the public"
+   ],
+   1,
+   "The regulations exempt, among others, insurance agents and brokers giving advice only on insurance products; anyone charging for securities advice must register."
+  ],
+  [
+   "Ethics, Conflicts & Grievance Redressal",
+   "An investor is not satisfied with the response of a SEBI-registered investment adviser to his complaint. Where can he escalate it online?",
+   [
+    "IRDAI's Bima Bharosa portal",
+    "The RBI Integrated Ombudsman",
+    "The PFRDA grievance system",
+    "SEBI's SCORES platform"
+   ],
+   3,
+   "SCORES is SEBI's online grievance redressal system for complaints against SEBI-registered intermediaries; unresolved disputes can then go to online dispute resolution."
+  ],
+  [
+   "Ethics, Conflicts & Grievance Redressal",
+   "An investment adviser is about to recommend a scheme whose fund manager is her spouse. What is the appropriate course of action?",
+   [
+    "Disclose the relationship to the client before giving advice and recommend the scheme only if it is suitable",
+    "Recommend the scheme without mention, since the adviser earns no commission",
+    "Refuse to advise the client on any mutual funds",
+    "Ask the fund manager to approve the recommendation"
+   ],
+   0,
+   "Ethical and regulatory norms require material conflicts of interest to be disclosed, and the advice must still rest on suitability for the client."
+  ]
+ ],
+ "x-b": [
+  [
+   "Risk Management & Insurance Concepts",
+   "For a risk that has low probability but very high potential financial loss, such as premature death of the main earner, the most appropriate risk-management technique is usually:",
+   [
+    "Risk retention by paying losses from savings",
+    "Risk transfer through insurance",
+    "Ignoring the risk because it is unlikely",
+    "Risk reduction by cutting household expenses"
+   ],
+   1,
+   "Low-frequency, high-severity risks cannot be absorbed by most households, so they are best transferred to an insurer."
+  ],
+  [
+   "Risk Management & Insurance Concepts",
+   "While buying a life policy, Kunal did not disclose that he was being treated for diabetes. Which insurance principle has he breached?",
+   [
+    "Indemnity",
+    "Subrogation",
+    "Contribution",
+    "Utmost good faith"
+   ],
+   3,
+   "Insurance contracts require utmost good faith, under which the proposer must disclose all material facts; non-disclosure can lead to the claim being repudiated."
+  ],
+  [
+   "Risk Management & Insurance Concepts",
+   "Why does the principle of indemnity generally not apply to life insurance?",
+   [
+    "Because life insurance is not a contract",
+    "Because the value of a human life cannot be precisely measured, so a fixed sum assured is paid",
+    "Because life insurance claims are always paid in instalments",
+    "Because life insurance does not require insurable interest"
+   ],
+   1,
+   "Indemnity restores the insured to the pre-loss position, which works for measurable property losses; life insurance is a benefit policy paying a pre-agreed sum."
+  ],
+  [
+   "Risk Management & Insurance Concepts",
+   "Ravi wants to buy life insurance policies on several people. In which case does he lack insurable interest?",
+   [
+    "On the life of his neighbour",
+    "On his own life",
+    "On the life of his wife",
+    "On the life of a borrower, to the extent of the loan he has given"
+   ],
+   0,
+   "Insurable interest requires a financial loss on the insured person's death; a person has it in himself, his spouse and a debtor to the extent of the debt, but not in an unrelated neighbour."
+  ],
+  [
+   "Life Insurance Products",
+   "Which feature correctly describes a pure term life insurance plan?",
+   [
+    "It pays the sum assured plus bonuses on survival to maturity",
+    "It invests premiums in market-linked funds chosen by the policyholder",
+    "It provides cover for the whole of life and builds a high surrender value",
+    "It gives the largest cover per rupee of premium and pays only on death during the term"
+   ],
+   3,
+   "A term plan has no savings component, so premiums are low relative to the sum assured and the benefit is payable only on death within the policy term."
+  ],
+  [
+   "Life Insurance Products",
+   "What is the lock-in period applicable to a unit-linked insurance plan (ULIP)?",
+   [
+    "5 years",
+    "3 years",
+    "7 years",
+    "10 years"
+   ],
+   0,
+   "IRDAI rules impose a five-year lock-in on ULIPs, during which money cannot be withdrawn even if the policy is discontinued."
+  ],
+  [
+   "Life Insurance Products",
+   "A policyholder stops paying premiums on a traditional endowment policy after it has acquired a surrender value and does not surrender it. What generally happens?",
+   [
+    "The policy lapses with no benefit at all",
+    "The insurer refunds all premiums with interest",
+    "The policy continues as a paid-up policy with a reduced sum assured",
+    "The full original sum assured stays in force without further premiums"
+   ],
+   2,
+   "Once a traditional policy acquires surrender value, non-payment converts it into a paid-up policy whose sum assured is reduced in proportion to premiums paid."
+  ],
+  [
+   "Life Insurance Products",
+   "A businessman is worried that, after his death, his creditors may claim the proceeds of his life policy meant for his wife and children. What is the most suitable solution?",
+   [
+    "Name his business partner as nominee",
+    "Take a policy under Section 6 of the Married Women's Property Act in favour of his wife and children",
+    "Assign the policy to his main lender",
+    "Buy a ULIP instead of a term plan"
+   ],
+   1,
+   "A policy under the MWP Act creates a trust for the wife and children, so its proceeds are outside the reach of the insured's creditors and estate."
+  ],
+  [
+   "Life Insurance Products",
+   "Anil, 29, is the sole earner for his wife and young child and has a limited budget. He wants adequate protection for his family. What is the most suitable recommendation?",
+   [
+    "A small endowment policy with a sum assured equal to one year's income",
+    "A single-premium ULIP using all his savings",
+    "A term plan with a large sum assured, investing the premium saved separately",
+    "No life cover until his income increases"
+   ],
+   2,
+   "With dependants and limited money, a term plan provides the high cover needed at the lowest cost, leaving room to invest separately for goals."
+  ],
+  [
+   "Health & General Insurance",
+   "In a family floater health policy, the sum insured:",
+   [
+    "Is separately available in full to each covered member",
+    "Applies only to the eldest member",
+    "Is shared by all covered family members and can be used by any one or more of them",
+    "Is paid only on the death of a member"
+   ],
+   2,
+   "A floater pools one sum insured across the family; one member's large claim can exhaust it for others in that policy year."
+  ],
+  [
+   "Health & General Insurance",
+   "A health policy has a 20% co-payment clause. A policyholder makes an admissible hospitalisation claim of ₹2,00,000 within the sum insured. How much will the insurer pay?",
+   [
+    "₹2,00,000",
+    "₹40,000",
+    "₹1,60,000",
+    "₹1,80,000"
+   ],
+   2,
+   "With a 20% co-payment, the insured bears 20% (₹40,000) and the insurer pays 80% of ₹2,00,000 = ₹1,60,000."
+  ],
+  [
+   "Health & General Insurance",
+   "How does a super top-up health policy differ from a regular top-up policy?",
+   [
+    "A super top-up has no deductible at all",
+    "A regular top-up covers only critical illnesses",
+    "A super top-up applies its deductible to the total of claims in a policy year, not to each claim separately",
+    "A super top-up can be bought only by senior citizens"
+   ],
+   2,
+   "A regular top-up pays only when a single claim exceeds the deductible; a super top-up pays once aggregate claims in the year cross the deductible."
+  ],
+  [
+   "Health & General Insurance",
+   "Which motor insurance cover is compulsory for vehicles plying in public places in India?",
+   [
+    "Own-damage cover",
+    "Zero-depreciation add-on",
+    "Third-party liability insurance",
+    "Engine-protection add-on"
+   ],
+   2,
+   "The Motor Vehicles Act mandates third-party liability cover; own-damage cover and add-ons are optional."
+  ],
+  [
+   "Insurance Needs Analysis",
+   "Sanjay contributes ₹9 lakh a year to his family's needs and has 20 working years left. Using a 6% discount rate and assuming year-end contributions, what is his human life value (approximately)?",
+   [
+    "₹1.03 crore",
+    "₹1.80 crore",
+    "₹0.90 crore",
+    "₹1.25 crore"
+   ],
+   0,
+   "HLV = 9,00,000 × [1 − 1.06^−20] ÷ 0.06 = 9,00,000 × 11.47 ≈ ₹1.03 crore. ₹1.80 crore ignores discounting."
+  ],
+  [
+   "Insurance Needs Analysis",
+   "Using the need-based approach: a client's outstanding home loan is ₹40 lakh, children's education needs ₹30 lakh (present value), family living-expense corpus needs ₹1.2 crore, existing investments are ₹50 lakh and existing life cover is ₹25 lakh. What additional life cover is required?",
+   [
+    "₹1.15 crore",
+    "₹1.90 crore",
+    "₹1.40 crore",
+    "₹1.65 crore"
+   ],
+   0,
+   "Total need = 40 + 30 + 120 = ₹190 lakh; less resources of 50 + 25 = ₹75 lakh; additional cover = ₹115 lakh = ₹1.15 crore."
+  ],
+  [
+   "Insurance Needs Analysis",
+   "How does the human life value (HLV) approach essentially estimate life insurance need?",
+   [
+    "By capitalising the future income the insured would have contributed to the family",
+    "By adding up only the outstanding loans of the insured",
+    "By multiplying current premium by the policy term",
+    "By taking the market value of the insured's house"
+   ],
+   0,
+   "HLV treats a person as an income-generating asset and values the present value of future contributions to dependants."
+  ],
+  [
+   "Insurance Needs Analysis",
+   "Meera, 35, relies only on her employer's group health cover for herself and her family. What is the most appropriate advice?",
+   [
+    "No action is needed because group cover continues for life",
+    "Cancel the group cover and rely on savings",
+    "Buy an independent family health policy, since group cover may end with the job and fresh cover later may face waiting periods",
+    "Buy additional life insurance in place of health insurance"
+   ],
+   2,
+   "Group cover is linked to employment; an individual policy taken early builds continuity and gets past waiting periods while she is young and healthy."
+  ],
+  [
+   "Retirement Planning Concepts",
+   "In retirement planning, 'longevity risk' refers to the risk that:",
+   [
+    "Interest rates rise just before retirement",
+    "The retiree outlives the retirement corpus",
+    "The retiree dies before retirement",
+    "Equity markets fall in the first year of retirement"
+   ],
+   1,
+   "Longevity risk is the danger of living longer than planned, so that savings run out while the retiree still needs income."
+  ],
+  [
+   "Retirement Planning Concepts",
+   "A couple's current living expenses are ₹50,000 a month. With 6% annual inflation, what monthly amount will they need to maintain the same lifestyle in 25 years (approximately)?",
+   [
+    "₹2.15 lakh",
+    "₹1.25 lakh",
+    "₹1.60 lakh",
+    "₹3.05 lakh"
+   ],
+   0,
+   "Future expense = 50,000 × (1.06)^25 = 50,000 × 4.2919 ≈ ₹2,14,594, i.e. about ₹2.15 lakh a month."
+  ],
+  [
+   "Retirement Planning Concepts",
+   "Two retirees have the same average return over 20 years, but one suffers large losses in the first two years of withdrawals and runs out of money earlier. This illustrates:",
+   [
+    "Reinvestment risk",
+    "Currency risk",
+    "Liquidity premium",
+    "Sequence-of-returns risk"
+   ],
+   3,
+   "When withdrawals are being made, poor returns early in retirement deplete the corpus faster, even if the long-run average is unchanged."
+  ],
+  [
+   "Retirement Planning Concepts",
+   "The 'income replacement ratio' in retirement planning means:",
+   [
+    "The proportion of salary saved every month",
+    "The ratio of pension to provident fund balance",
+    "The percentage of pre-retirement income needed to maintain the desired lifestyle after retirement",
+    "The share of equity in a retirement portfolio"
+   ],
+   2,
+   "The replacement ratio expresses post-retirement income needs as a percentage of pre-retirement income and is a quick way to size retirement needs."
+  ],
+  [
+   "Retirement Products & Pension Schemes",
+   "What is the basic tenure of a Public Provident Fund (PPF) account and the maximum deposit allowed in a financial year?",
+   [
+    "15 years; ₹1.5 lakh",
+    "10 years; ₹2 lakh",
+    "15 years; ₹2.5 lakh",
+    "21 years; ₹1.5 lakh"
+   ],
+   0,
+   "A PPF account matures after 15 years (extendable in blocks of five years) and accepts up to ₹1.5 lakh per financial year."
+  ],
+  [
+   "Retirement Products & Pension Schemes",
+   "Under the Employees' Provident Fund scheme, the standard employee contribution is:",
+   [
+    "8.33% of gross salary",
+    "12% of basic wages plus dearness allowance",
+    "10% of gross salary including all allowances",
+    "A fixed ₹1,800 per month"
+   ],
+   1,
+   "Employees contribute 12% of basic wages plus DA; the employer's matching contribution is split between EPF and the Employees' Pension Scheme."
+  ],
+  [
+   "Retirement Products & Pension Schemes",
+   "Which statement about NPS Tier II accounts is correct?",
+   [
+    "It is the mandatory pension account with withdrawal restrictions",
+    "It can be opened without a Tier I account",
+    "Withdrawals from it must be used to buy an annuity",
+    "It is a voluntary savings account with flexible withdrawals that requires an active Tier I account"
+   ],
+   3,
+   "Tier I is the core pension account with exit rules; Tier II is an optional, withdrawable add-on available only to Tier I holders."
+  ],
+  [
+   "Retirement Products & Pension Schemes",
+   "Which person is eligible to join Atal Pension Yojana?",
+   [
+    "A 45-year-old self-employed person",
+    "A 25-year-old who pays income tax",
+    "A 60-year-old retired government employee",
+    "A 30-year-old savings account holder who is not an income-tax payer"
+   ],
+   3,
+   "APY is open to citizens aged 18–40 with a bank or post office savings account; since October 2022, income-tax payers cannot join."
+  ],
+  [
+   "Retirement Products & Pension Schemes",
+   "What is the maximum amount an individual can invest in the Senior Citizens' Savings Scheme and its basic tenure?",
+   [
+    "₹15 lakh; 5 years",
+    "₹30 lakh; 10 years",
+    "₹30 lakh; 5 years",
+    "₹50 lakh; 3 years"
+   ],
+   2,
+   "SCSS allows an aggregate investment of up to ₹30 lakh per individual for a five-year tenure, extendable by three years."
+  ],
+  [
+   "Retirement Corpus & Distribution Planning",
+   "A client will need ₹6 lakh a year in today's terms after retirement for 25 years, withdrawn at the beginning of each year. If the corpus earns a real (inflation-adjusted) return of 2%, what corpus is needed at retirement in today's terms (approximately)?",
+   [
+    "₹1.50 crore",
+    "₹1.19 crore",
+    "₹1.06 crore",
+    "₹0.98 crore"
+   ],
+   1,
+   "PV of annuity due = 6,00,000 × [(1 − 1.02^−25) ÷ 0.02] × 1.02 = 6,00,000 × 19.524 × 1.02 ≈ ₹1.19 crore; ₹1.50 crore ignores discounting."
+  ],
+  [
+   "Retirement Corpus & Distribution Planning",
+   "A client wants to accumulate ₹1 crore in 20 years by investing an equal amount at the end of each year in a portfolio expected to earn 10% a year. What annual investment is required (approximately)?",
+   [
+    "₹1.75 lakh",
+    "₹5.00 lakh",
+    "₹1.17 lakh",
+    "₹2.35 lakh"
+   ],
+   0,
+   "PMT = 1,00,00,000 × 0.10 ÷ [(1.10)^20 − 1] = 10,00,000 ÷ 5.7275 ≈ ₹1,74,596."
+  ],
+  [
+   "Retirement Corpus & Distribution Planning",
+   "A retiring couple wants guaranteed income for life for both of them and also wants the capital to pass to their children after both have died. Which annuity option fits best?",
+   [
+    "Single life annuity without return of purchase price",
+    "Annuity certain for 5 years",
+    "Joint life, last survivor annuity with return of purchase price",
+    "Single life annuity with return of purchase price on the husband's life only"
+   ],
+   2,
+   "A joint-life last-survivor annuity continues until the second death, and the return-of-purchase-price feature pays the capital to nominees afterwards."
+  ],
+  [
+   "Retirement Corpus & Distribution Planning",
+   "In the 'bucket strategy' for managing a retirement corpus, the near-term bucket is typically invested in:",
+   [
+    "Small-cap equity funds for maximum growth",
+    "Liquid and low-risk instruments to meet the next few years' expenses",
+    "Real estate that can be sold when needed",
+    "Long-dated zero-coupon bonds"
+   ],
+   1,
+   "The bucket approach keeps near-term spending money safe and liquid, while longer-term buckets hold growth assets that have time to recover from volatility."
+  ],
+  [
+   "Income Tax Fundamentals",
+   "How does residential status affect the scope of an individual's taxable income in India?",
+   [
+    "Both residents and non-residents are taxed only on salary income",
+    "A resident is generally taxed on global income, while a non-resident is taxed only on income received, accruing or arising in India",
+    "Non-residents are taxed on global income and residents only on Indian income",
+    "Residential status matters only for companies"
+   ],
+   1,
+   "Residential status determines scope: residents are taxed on worldwide income, whereas non-residents are taxed only on India-sourced or India-received income."
+  ],
+  [
+   "Income Tax Fundamentals",
+   "Under which head of income is interest earned on a savings bank account taxed?",
+   [
+    "Income from other sources",
+    "Capital gains",
+    "Profits and gains of business or profession",
+    "Income from house property"
+   ],
+   0,
+   "Interest on bank deposits is not covered by any specific head, so it is taxed as income from other sources."
+  ],
+  [
+   "Income Tax Fundamentals",
+   "For individual taxpayers, which tax regime currently applies by default unless the taxpayer opts out?",
+   [
+    "The old regime with all deductions",
+    "Whichever regime the employer chooses",
+    "A flat-rate regime for all incomes",
+    "The new (concessional-rate) tax regime"
+   ],
+   3,
+   "Since FY 2023-24 the new regime is the default for individuals; they must actively opt for the old regime to claim most deductions."
+  ],
+  [
+   "Income Tax Fundamentals",
+   "Rajesh gifts ₹10 lakh to his wife, who invests it in a fixed deposit. In whose hands is the interest on that deposit generally taxed?",
+   [
+    "His wife's, since the deposit is in her name",
+    "Rajesh's, under the clubbing provisions",
+    "Split equally between them",
+    "Nobody's, since gifts to a spouse are exempt"
+   ],
+   1,
+   "Income from assets transferred to a spouse without adequate consideration is clubbed with the income of the transferor."
+  ],
+  [
+   "Taxation of Investment Products",
+   "How are capital gains taxed on a pure debt mutual fund (investing almost entirely in bonds and money market instruments) bought after 1 April 2023?",
+   [
+    "At a concessional long-term rate after 36 months with indexation",
+    "Fully exempt if held for more than 3 years",
+    "At a flat 10% without indexation",
+    "At the investor's applicable slab rate, regardless of holding period"
+   ],
+   3,
+   "Since 1 April 2023, gains on such debt funds are deemed short-term and taxed at slab rates whatever the holding period."
+  ],
+  [
+   "Taxation of Investment Products",
+   "An investor sells listed equity shares held for 3 years and makes a long-term capital gain of ₹3,25,000 in the year (STT paid, no other gains). Under the rules applicable to transfers after 23 July 2024, what is the tax before surcharge and cess?",
+   [
+    "₹25,000",
+    "₹40,625",
+    "₹32,500",
+    "₹20,000"
+   ],
+   0,
+   "LTCG above ₹1.25 lakh on listed equity is taxed at 12.5%: (3,25,000 − 1,25,000) × 12.5% = ₹25,000."
+  ],
+  [
+   "Taxation of Investment Products",
+   "How are dividends received from Indian companies and mutual funds taxed for a resident individual?",
+   [
+    "Added to income and taxed at the investor's slab rate",
+    "Fully exempt in the investor's hands",
+    "Taxed only through distribution tax paid by the company",
+    "Taxed at a flat 12.5% as capital gains"
+   ],
+   0,
+   "Since FY 2020-21, dividend income is taxable in the shareholder's hands at applicable slab rates."
+  ],
+  [
+   "Taxation of Investment Products",
+   "For capital-gains purposes, listed equity shares become long-term assets when held for:",
+   [
+    "More than 24 months",
+    "More than 36 months",
+    "More than 6 months",
+    "More than 12 months"
+   ],
+   3,
+   "Listed securities (and equity-oriented fund units) qualify as long-term when held for more than 12 months."
+  ],
+  [
+   "Wealth Management & Estate Planning Concepts",
+   "What is the primary objective of estate planning?",
+   [
+    "Maximising short-term portfolio returns",
+    "Orderly transfer of a person's assets to intended beneficiaries with minimum disputes, delay and cost",
+    "Avoiding all taxes legally payable during one's lifetime",
+    "Increasing the person's borrowing capacity"
+   ],
+   1,
+   "Estate planning arranges how wealth passes on death or incapacity so that beneficiaries receive it smoothly as intended."
+  ],
+  [
+   "Wealth Management & Estate Planning Concepts",
+   "Mohan nominated his elder son for his bank deposit but his valid will leaves the deposit to his daughter. After his death, what is the position?",
+   [
+    "The son becomes the absolute owner because nomination overrides a will",
+    "The deposit is forfeited to the government",
+    "The bank pays the son as nominee, but he holds the money in trust for the daughter, who is entitled under the will",
+    "The bank must split the deposit equally among all children"
+   ],
+   2,
+   "A nominee gives the institution a valid discharge but is a custodian for those entitled under succession law or the will."
+  ],
+  [
+   "Wealth Management & Estate Planning Concepts",
+   "A general power of attorney given by an individual automatically ceases:",
+   [
+    "After exactly one year",
+    "On the death of the person who granted it",
+    "When the agent changes address",
+    "Only when a court cancels it"
+   ],
+   1,
+   "An agent's authority under a power of attorney ends on the principal's death; thereafter the estate is dealt with under the will or succession law."
+  ],
+  [
+   "Wills, Succession & Trusts",
+   "Which of the following is required for a will to be validly executed in India (other than a privileged will)?",
+   [
+    "Compulsory registration with the sub-registrar",
+    "Execution on stamp paper of a specified value",
+    "Signature of the testator, attested by at least two witnesses",
+    "Approval by all legal heirs"
+   ],
+   2,
+   "An unprivileged will must be signed by the testator and attested by two or more witnesses; registration and stamp paper are not mandatory."
+  ],
+  [
+   "Wills, Succession & Trusts",
+   "Under Muslim personal law, up to what portion of his estate can a Muslim generally bequeath by will without the consent of his heirs?",
+   [
+    "One-half",
+    "One-third",
+    "Two-thirds",
+    "The entire estate"
+   ],
+   1,
+   "A Muslim can bequeath up to one-third of the net estate by will; bequests beyond that need the heirs' consent."
+  ],
+  [
+   "Wills, Succession & Trusts",
+   "What is a probate?",
+   [
+    "A document by which a person gives up rights in property",
+    "A registration certificate for a trust",
+    "An affidavit filed by the nominee of a bank account",
+    "A copy of a will certified under the seal of a competent court, granting administration of the estate to the executor"
+   ],
+   3,
+   "Probate establishes the validity of a will and confirms the executor's authority to administer the estate."
+  ],
+  [
+   "Wills, Succession & Trusts",
+   "A Hindu man dies without a will, leaving his wife, his mother, his father, one son and one daughter. Under the Hindu Succession Act, how is his self-acquired property shared?",
+   [
+    "Each of the five takes one-fifth",
+    "The son takes half and the rest share the balance",
+    "Wife takes half; the son and daughter share the other half",
+    "Wife, mother, son and daughter take one-fourth each; the father takes nothing"
+   ],
+   3,
+   "Wife, mother, son and daughter are Class I heirs and share equally; the father is a Class II heir and inherits only if there is no Class I heir."
+  ],
+  [
+   "Wills, Succession & Trusts",
+   "In a private trust, the person who creates the trust and transfers property to it is called the:",
+   [
+    "Settlor",
+    "Trustee",
+    "Beneficiary",
+    "Executor"
+   ],
+   0,
+   "The settlor (author) creates the trust; the trustee holds and manages the property for the beneficiaries."
+  ],
+  [
+   "Comprehensive Financial Planning & Case Studies",
+   "Amit, 40, earns ₹24 lakh a year, his wife is a homemaker and they have two school-going children. He has a ₹50 lakh home loan, ₹20 lakh in mutual funds and a ₹50 lakh term cover. What is the most pressing gap in his plan?",
+   [
+    "He holds too little gold",
+    "He should prepay the home loan using all mutual funds",
+    "He should stop investing for retirement",
+    "His life cover is inadequate relative to his liabilities and family's future needs"
+   ],
+   3,
+   "As the sole earner with a large loan and dependants, a ₹50 lakh cover barely matches the loan; protection must be fixed before growth goals."
+  ],
+  [
+   "Comprehensive Financial Planning & Case Studies",
+   "When a client has limited surplus, which should normally be addressed first in a financial plan?",
+   [
+    "Buying a second home for investment",
+    "Building an emergency fund and adequate insurance cover",
+    "Investing in a sector fund for high returns",
+    "Planning for a foreign holiday"
+   ],
+   1,
+   "Protection and liquidity form the foundation of a plan; without them, an emergency can derail all other goals."
+  ],
+  [
+   "Comprehensive Financial Planning & Case Studies",
+   "A child's higher education costs ₹20 lakh today. If education inflation is 8% a year, what will it cost in 12 years (approximately)?",
+   [
+    "₹39.2 lakh",
+    "₹43.0 lakh",
+    "₹62.8 lakh",
+    "₹50.4 lakh"
+   ],
+   3,
+   "Future cost = 20 × (1.08)^12 = 20 × 2.5182 ≈ ₹50.4 lakh."
+  ],
+  [
+   "Comprehensive Financial Planning & Case Studies",
+   "Which event should most clearly trigger a review of a client's financial plan outside the regular review cycle?",
+   [
+    "The birth of a child",
+    "A one-day fall of 1% in the market index",
+    "A change in the colour of the fund factsheet",
+    "A routine monthly SIP debit"
+   ],
+   0,
+   "Major life events change goals, cash flows and protection needs, so the plan should be revisited when they occur."
+  ]
+ ],
+ "xv": [
+  [
+   "Introduction to Research Analyst Profession",
+   "How does a buy-side analyst differ from a sell-side analyst?",
+   [
+    "A buy-side analyst only recommends buying, never selling",
+    "A buy-side analyst researches for the internal use of an investing institution such as an AMC, while a sell-side analyst's research is distributed to clients of a broker",
+    "A sell-side analyst works only for insurance companies",
+    "There is no difference; the terms are interchangeable"
+   ],
+   1,
+   "Buy-side research supports the analyst's own institution's investment decisions; sell-side research is published for brokerage clients."
+  ],
+  [
+   "Introduction to Research Analyst Profession",
+   "Which activity is the core function of a research analyst?",
+   [
+    "Executing client orders on the stock exchange",
+    "Holding client securities in safe custody",
+    "Analysing securities and issuing research reports with recommendations or opinions",
+    "Underwriting public issues"
+   ],
+   2,
+   "Research analysts analyse issuers and securities and publish reports, recommendations or price targets; execution, custody and underwriting are other intermediaries' roles."
+  ],
+  [
+   "Introduction to Research Analyst Profession",
+   "An analyst at an integrated firm is asked by the investment banking team to upgrade a stock because the company is a prospective banking client. What should the analyst do?",
+   [
+    "Upgrade the stock to support the banking relationship",
+    "Maintain an independent view and not let the banking team influence the rating",
+    "Ask the company's management to choose the rating",
+    "Delay the report until the deal closes and then upgrade"
+   ],
+   1,
+   "Research must be independent and objective; firms are required to keep research insulated from investment banking pressure."
+  ],
+  [
+   "Introduction to Securities Market",
+   "What role does a clearing corporation play in exchange-traded markets?",
+   [
+    "It acts as the central counterparty, guaranteeing settlement of trades",
+    "It lists companies and approves IPO prices",
+    "It issues credit ratings for debt securities",
+    "It decides the dividends paid by listed companies"
+   ],
+   0,
+   "By becoming buyer to every seller and seller to every buyer, the clearing corporation removes counterparty risk from exchange trades."
+  ],
+  [
+   "Introduction to Securities Market",
+   "What is the main function of a depository in the Indian securities market?",
+   [
+    "Fixing the market price of shares",
+    "Holding securities in electronic (dematerialised) form and recording their transfer",
+    "Lending money to investors for margin trading",
+    "Approving corporate actions of listed companies"
+   ],
+   1,
+   "Depositories such as NSDL and CDSL maintain electronic holdings and effect transfers through depository participants."
+  ],
+  [
+   "Introduction to Securities Market",
+   "Indices such as the Nifty 50 are weighted by free-float market capitalisation. Free float generally excludes:",
+   [
+    "Shares held by retail investors",
+    "Shares held by foreign portfolio investors",
+    "Shares held by promoters and promoter groups",
+    "Shares held by mutual funds"
+   ],
+   2,
+   "Free float counts only shares readily available for trading, so promoter and similar locked-in holdings are excluded."
+  ],
+  [
+   "Terminology in Equity and Debt Markets",
+   "A company splits each share of face value ₹10 into shares of face value ₹2. An investor holding 100 shares will now hold:",
+   [
+    "100 shares, with the face value unchanged",
+    "200 shares, with the price halving",
+    "500 shares, with the market price adjusting to about one-fifth",
+    "500 shares, with the price unchanged"
+   ],
+   2,
+   "Splitting ₹10 into ₹2 creates five shares for each one held; the total value is unchanged, so the price falls to about one-fifth."
+  ],
+  [
+   "Terminology in Equity and Debt Markets",
+   "A company has equity share capital of ₹50 crore and reserves of ₹250 crore, with 10 crore shares outstanding. What is its book value per share?",
+   [
+    "₹30",
+    "₹25",
+    "₹5",
+    "₹35"
+   ],
+   0,
+   "Book value per share = (50 + 250) ÷ 10 = ₹30."
+  ],
+  [
+   "Terminology in Equity and Debt Markets",
+   "Yield to maturity (YTM) of a bond represents:",
+   [
+    "The return earned if the bond is held to maturity and all coupons are reinvested at the same yield",
+    "The coupon divided by face value",
+    "The annual coupon divided by current price only",
+    "The return earned if the bond is sold the next day"
+   ],
+   0,
+   "YTM is the discount rate that equates the bond's price to its future cash flows, implicitly assuming holding to maturity and reinvestment at the YTM."
+  ],
+  [
+   "Terminology in Equity and Debt Markets",
+   "A debt instrument rated 'D' by an Indian credit rating agency signifies that it:",
+   [
+    "Has the highest degree of safety",
+    "Is a deposit product of a bank",
+    "Is a short-term instrument of high safety",
+    "Is in default or expected to be in default"
+   ],
+   3,
+   "'D' is the lowest rating, indicating default; 'AAA' indicates the highest safety for long-term instruments."
+  ],
+  [
+   "Fundamentals of Research",
+   "Which statement correctly contrasts fundamental and technical analysis?",
+   [
+    "Technical analysis relies on balance sheets, while fundamental analysis uses only charts",
+    "Both rely only on management interviews",
+    "Fundamental analysis estimates intrinsic value from economic, industry and company factors, while technical analysis studies price and volume patterns",
+    "Fundamental analysis is used only for bonds"
+   ],
+   2,
+   "Fundamental analysts ask what a security is worth; technical analysts study market data to judge likely price movement."
+  ],
+  [
+   "Fundamentals of Research",
+   "In the top-down approach to equity research, the analyst begins with:",
+   [
+    "Selection of individual companies, then the industry",
+    "Technical charts of the chosen stock",
+    "The company's dividend history only",
+    "Analysis of the economy, then the industry, and finally the company"
+   ],
+   3,
+   "Top-down research moves from macro conditions to attractive sectors and then to companies within them; bottom-up starts with the company."
+  ],
+  [
+   "Fundamentals of Research",
+   "Which of the following is primary data for an analyst researching a consumer company?",
+   [
+    "The company's published annual report",
+    "Industry statistics released by a trade association",
+    "Information gathered from the analyst's own checks with distributors and retailers",
+    "A government survey of household consumption"
+   ],
+   2,
+   "Primary data is collected first-hand by the researcher; published reports and statistics are secondary data."
+  ],
+  [
+   "Fundamentals of Research",
+   "In technical analysis, a 'golden cross' occurs when:",
+   [
+    "The price falls below its 200-day moving average",
+    "Trading volume falls to a yearly low",
+    "A shorter-term moving average (e.g. 50-day) crosses above a longer-term moving average (e.g. 200-day)",
+    "A stock hits its upper circuit limit"
+   ],
+   2,
+   "A golden cross is generally read as a bullish signal; the reverse crossover is called a death cross."
+  ],
+  [
+   "Economic Analysis",
+   "In an economy, private consumption is ₹150 lakh crore, investment ₹50 lakh crore, government spending ₹40 lakh crore, exports ₹30 lakh crore and imports ₹35 lakh crore. What is GDP by the expenditure method?",
+   [
+    "₹305 lakh crore",
+    "₹235 lakh crore",
+    "₹270 lakh crore",
+    "₹240 lakh crore"
+   ],
+   1,
+   "GDP = C + I + G + (X − M) = 150 + 50 + 40 + (30 − 35) = ₹235 lakh crore."
+  ],
+  [
+   "Economic Analysis",
+   "If the RBI raises the policy repo rate, which effect is most likely in the short run?",
+   [
+    "Bank lending rates fall, boosting loan demand",
+    "Bond prices rise sharply across maturities",
+    "Borrowing costs rise, which tends to weigh on rate-sensitive sectors such as real estate and autos",
+    "Inflation immediately rises due to cheaper credit"
+   ],
+   2,
+   "A repo hike tightens liquidity and raises borrowing costs, hurting interest-sensitive demand and typically lowering bond prices."
+  ],
+  [
+   "Economic Analysis",
+   "Which inflation measure does the RBI's flexible inflation-targeting framework use?",
+   [
+    "Wholesale Price Index",
+    "GDP deflator",
+    "Index of Industrial Production",
+    "Consumer Price Index (Combined)"
+   ],
+   3,
+   "The framework targets CPI-Combined headline inflation, with a target of 4% and a tolerance band of ±2 percentage points."
+  ],
+  [
+   "Economic Analysis",
+   "The fiscal deficit of the government is best defined as:",
+   [
+    "Revenue expenditure minus revenue receipts",
+    "Imports minus exports",
+    "Total borrowings minus interest payments",
+    "Total expenditure minus total receipts excluding borrowings"
+   ],
+   3,
+   "Fiscal deficit measures the government's total borrowing requirement: expenditure in excess of non-debt receipts."
+  ],
+  [
+   "Economic Analysis",
+   "Nominal GDP grew 11% in a year and the GDP deflator rose 4%. What is the real GDP growth rate (exact)?",
+   [
+    "15.44%",
+    "6.73%",
+    "4.00%",
+    "2.75%"
+   ],
+   1,
+   "Real growth = (1.11 ÷ 1.04) − 1 ≈ 6.73%; simple subtraction gives about 7% only as an approximation."
+  ],
+  [
+   "Industry Analysis",
+   "Which of the following is NOT one of Porter's five competitive forces?",
+   [
+    "The central bank's monetary policy stance",
+    "Threat of new entrants",
+    "Bargaining power of buyers",
+    "Threat of substitute products"
+   ],
+   0,
+   "Porter's five forces are rivalry, threat of entrants, threat of substitutes and the bargaining power of buyers and suppliers; monetary policy is a macro factor."
+  ],
+  [
+   "Industry Analysis",
+   "An industry is showing slowing sales growth, stable cash flows, intense competition for market share and consolidation. It is most likely in which stage of its life cycle?",
+   [
+    "Maturity",
+    "Pioneering",
+    "Rapid growth",
+    "Start-up"
+   ],
+   0,
+   "Mature industries grow roughly in line with the economy, generate steady cash and often consolidate as players fight for share."
+  ],
+  [
+   "Industry Analysis",
+   "Which sector is generally considered defensive, with relatively stable demand across economic cycles?",
+   [
+    "Cement",
+    "Automobiles",
+    "Capital goods",
+    "Fast-moving consumer goods"
+   ],
+   3,
+   "Demand for daily essentials holds up in downturns, whereas cement, autos and capital goods are cyclical."
+  ],
+  [
+   "Industry Analysis",
+   "In an industry, three firms hold 85% market share and building a new plant takes about four years and large capital. What does this imply?",
+   [
+    "Perfect competition with no pricing power",
+    "High entry barriers and an oligopolistic structure that may give incumbents pricing power",
+    "Very low barriers to entry",
+    "That the industry must be in the pioneering stage"
+   ],
+   1,
+   "Concentrated share plus long, capital-heavy gestation deters entrants, supporting incumbents' pricing power."
+  ],
+  [
+   "Company Analysis – Business & Governance",
+   "Which is the best example of an economic moat?",
+   [
+    "A one-time gain from sale of land",
+    "A payments platform that becomes more valuable to each user as more users join",
+    "A temporary spike in commodity prices",
+    "A large cash balance raised through a recent IPO"
+   ],
+   1,
+   "Network effects create a durable competitive advantage that rivals find hard to replicate; one-offs are not moats."
+  ],
+  [
+   "Company Analysis – Business & Governance",
+   "Which combination is a corporate governance red flag for an analyst?",
+   [
+    "A board with a majority of independent directors",
+    "Consistent dividend payouts and timely disclosures",
+    "Long tenure of a reputed statutory auditor without qualifications",
+    "Rising pledging of promoter shares together with large related-party transactions"
+   ],
+   3,
+   "Heavy promoter pledging signals financial stress and large related-party dealings can divert value from minority shareholders."
+  ],
+  [
+   "Company Analysis – Business & Governance",
+   "In a SWOT analysis of a pharmaceutical company, a new government order capping the price of its main product is classified as a:",
+   [
+    "Strength",
+    "Weakness",
+    "Opportunity",
+    "Threat"
+   ],
+   3,
+   "Threats are external developments that can hurt the business; price controls are imposed from outside the company."
+  ],
+  [
+   "Company Analysis – Business & Governance",
+   "Under SEBI's Listing Obligations and Disclosure Requirements, related-party transactions of a listed company require prior approval of:",
+   [
+    "The statutory auditor",
+    "The audit committee",
+    "The stock exchange",
+    "The company's largest customer"
+   ],
+   1,
+   "LODR requires all related-party transactions to be approved in advance by the audit committee, with material ones also needing shareholder approval."
+  ],
+  [
+   "Company Analysis – Financial Analysis",
+   "A company has current assets of ₹300 crore and current liabilities of ₹200 crore. What is its current ratio?",
+   [
+    "0.67",
+    "1.0",
+    "2.5",
+    "1.5"
+   ],
+   3,
+   "Current ratio = current assets ÷ current liabilities = 300 ÷ 200 = 1.5."
+  ],
+  [
+   "Company Analysis – Financial Analysis",
+   "A company has total debt of ₹400 crore and shareholders' equity of ₹800 crore. What is its debt-to-equity ratio?",
+   [
+    "0.5",
+    "2.0",
+    "0.33",
+    "1.5"
+   ],
+   0,
+   "Debt-to-equity = 400 ÷ 800 = 0.5."
+  ],
+  [
+   "Company Analysis – Financial Analysis",
+   "A company has a net profit margin of 8%, asset turnover of 1.5 times and an equity multiplier (assets/equity) of 2. Using DuPont analysis, what is its ROE?",
+   [
+    "11.5%",
+    "24%",
+    "12%",
+    "16%"
+   ],
+   1,
+   "ROE = 8% × 1.5 × 2 = 24%."
+  ],
+  [
+   "Company Analysis – Financial Analysis",
+   "A company's EBIT is ₹120 crore and its interest expense is ₹30 crore. What is its interest coverage ratio?",
+   [
+    "3 times",
+    "4 times",
+    "0.25 times",
+    "5 times"
+   ],
+   1,
+   "Interest coverage = EBIT ÷ interest = 120 ÷ 30 = 4 times."
+  ],
+  [
+   "Company Analysis – Financial Analysis",
+   "A company reports steadily rising net profits, but its cash flow from operations has been negative for three years as receivables balloon. What should an analyst infer?",
+   [
+    "The company is in excellent financial health",
+    "Negative operating cash flow always signals heavy expansion capex",
+    "Cash flows are irrelevant when profits are rising",
+    "Earnings quality is questionable and revenue recognition or working capital needs scrutiny"
+   ],
+   3,
+   "Profits not converting into cash, especially with rising receivables, can indicate aggressive accounting or weak collections."
+  ],
+  [
+   "Company Analysis – Financial Analysis",
+   "A company has inventory of ₹72 crore and annual cost of goods sold of ₹438 crore. Using a 365-day year, what are its inventory days?",
+   [
+    "60 days",
+    "72 days",
+    "30 days",
+    "6 days"
+   ],
+   0,
+   "Inventory days = inventory ÷ COGS × 365 = 72 ÷ 438 × 365 = 60 days."
+  ],
+  [
+   "Corporate Valuation",
+   "A company has just paid a dividend of ₹10 per share. Dividends are expected to grow at 6% a year forever and the required return is 12%. What is the share's intrinsic value under the Gordon growth model?",
+   [
+    "₹166.67",
+    "₹83.33",
+    "₹176.67",
+    "₹88.33"
+   ],
+   2,
+   "D1 = 10 × 1.06 = 10.6; value = 10.6 ÷ (0.12 − 0.06) = ₹176.67. Using D0 instead of D1 would wrongly give ₹166.67."
+  ],
+  [
+   "Corporate Valuation",
+   "A firm has EBIT of ₹200 crore, a tax rate of 25%, depreciation of ₹40 crore, capital expenditure of ₹60 crore and an increase in working capital of ₹20 crore. What is its free cash flow to the firm?",
+   [
+    "₹110 crore",
+    "₹150 crore",
+    "₹130 crore",
+    "₹160 crore"
+   ],
+   0,
+   "FCFF = EBIT(1 − t) + D&A − capex − ΔWC = 150 + 40 − 60 − 20 = ₹110 crore."
+  ],
+  [
+   "Corporate Valuation",
+   "A company has market capitalisation of ₹1,000 crore, debt of ₹300 crore, cash of ₹100 crore and EBITDA of ₹150 crore. What is its EV/EBITDA multiple?",
+   [
+    "8.0 times",
+    "6.7 times",
+    "9.3 times",
+    "8.7 times"
+   ],
+   0,
+   "EV = 1,000 + 300 − 100 = ₹1,200 crore; EV/EBITDA = 1,200 ÷ 150 = 8.0 times."
+  ],
+  [
+   "Corporate Valuation",
+   "An analyst forecasts next year's EPS at ₹45 and believes the stock deserves a forward P/E of 20 times. What is the implied target price?",
+   [
+    "₹450",
+    "₹2.25",
+    "₹1,125",
+    "₹900"
+   ],
+   3,
+   "Target price = forward EPS × target P/E = 45 × 20 = ₹900."
+  ],
+  [
+   "Corporate Valuation",
+   "A firm is financed 60% by equity costing 14% and 40% by debt with a pre-tax cost of 10%. The tax rate is 25%. What is its WACC?",
+   [
+    "11.4%",
+    "12.4%",
+    "12.0%",
+    "10.8%"
+   ],
+   0,
+   "WACC = 0.6 × 14% + 0.4 × 10% × (1 − 0.25) = 8.4% + 3.0% = 11.4%."
+  ],
+  [
+   "Corporate Valuation",
+   "When computing terminal value in a DCF with the perpetual growth method, the terminal growth rate must be:",
+   [
+    "Lower than the discount rate and sustainable over the long run",
+    "Higher than the discount rate",
+    "Equal to the current year's revenue growth",
+    "Equal to the discount rate"
+   ],
+   0,
+   "TV = FCF(n+1) ÷ (WACC − g) is meaningful only if g is below WACC; a perpetual rate above long-run economic growth is not sustainable."
+  ],
+  [
+   "Fundamentals of Risk and Return",
+   "The risk-free rate is 7%, a stock's beta is 1.3 and the expected market return is 13%. What is the stock's required return under CAPM?",
+   [
+    "16.9%",
+    "13.0%",
+    "7.8%",
+    "14.8%"
+   ],
+   3,
+   "Required return = 7 + 1.3 × (13 − 7) = 7 + 7.8 = 14.8%."
+  ],
+  [
+   "Fundamentals of Risk and Return",
+   "Which type of risk can be largely eliminated by holding a well-diversified portfolio?",
+   [
+    "Systematic (market) risk",
+    "Interest-rate risk affecting all securities",
+    "Risk arising from a nationwide recession",
+    "Unsystematic (company-specific) risk"
+   ],
+   3,
+   "Company-specific shocks offset each other in a diversified portfolio; market-wide risk remains."
+  ],
+  [
+   "Fundamentals of Risk and Return",
+   "An investor buys a share at ₹200, receives a dividend of ₹6 during the year and sells it at ₹230. What is the holding-period return?",
+   [
+    "15%",
+    "18%",
+    "3%",
+    "13%"
+   ],
+   1,
+   "HPR = (230 − 200 + 6) ÷ 200 = 36 ÷ 200 = 18%."
+  ],
+  [
+   "Fundamentals of Risk and Return",
+   "A stock has a beta of 0.7. What does this indicate?",
+   [
+    "It will always return 70% of the market return",
+    "It has 70% probability of rising",
+    "Its returns have tended to move about 0.7% for every 1% move in the market",
+    "It has no systematic risk"
+   ],
+   2,
+   "Beta measures sensitivity to market movements; below 1 means the stock has historically been less volatile than the market."
+  ],
+  [
+   "Qualities of a Good Research Report",
+   "Which element is essential in a good equity research report?",
+   [
+    "Guaranteed returns over the target horizon",
+    "Key risks that could invalidate the investment thesis",
+    "The analyst's personal portfolio returns",
+    "Only positive information about the company"
+   ],
+   1,
+   "A balanced report states its assumptions and the risks that could make the recommendation wrong, so readers can judge it."
+  ],
+  [
+   "Qualities of a Good Research Report",
+   "A good research report's recommendation should ideally specify:",
+   [
+    "Only the current market price",
+    "Only the company's logo and history",
+    "The rating, the target price and the time horizon, with the valuation basis",
+    "A list of stocks the analyst dislikes"
+   ],
+   2,
+   "A clear rating with target price, horizon and valuation method makes the recommendation actionable and verifiable."
+  ],
+  [
+   "Qualities of a Good Research Report",
+   "An analyst hears an unverified market rumour that a company under coverage is about to be acquired. What is the appropriate response?",
+   [
+    "Include it as the main reason for a buy rating",
+    "Not present it in the report as fact, and verify it only through legitimate public sources",
+    "Trade on it personally before publishing",
+    "Ask a friend at the company for confidential details"
+   ],
+   1,
+   "Reports must rest on verified information; seeking or using unpublished price-sensitive information would breach insider trading rules."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "Under SEBI's Research Analyst Regulations, a research analyst and its associates are prohibited from trading in a security they recommend during which period around the publication of a research report?",
+   [
+    "5 days before and 30 days after publication",
+    "7 days before and 7 days after publication",
+    "30 days before and 5 days after publication",
+    "Only on the day of publication"
+   ],
+   2,
+   "The regulations bar dealing in the recommended security or its derivatives from 30 days before to 5 days after the report is published."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "A research analyst must disclose in the report if it or its associates hold actual or beneficial ownership of at least what percentage of the subject company's securities, measured at the end of the month before publication?",
+   [
+    "1%",
+    "5%",
+    "10%",
+    "0.1%"
+   ],
+   0,
+   "Holdings of 1% or more in the subject company must be disclosed as a potential conflict of interest."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "During a management meeting, an analyst learns of unannounced quarterly results that will move the share price. Under SEBI's insider trading regulations, the analyst:",
+   [
+    "May trade freely because he is not an employee of the company",
+    "May publish it immediately in a report to clients",
+    "Must not trade in the securities or pass the information on until it is generally available",
+    "May share it with his firm's trading desk"
+   ],
+   2,
+   "Unpublished price-sensitive information makes the analyst an insider; trading on it or communicating it is prohibited."
+  ],
+  [
+   "Legal and Regulatory Environment",
+   "For what minimum period must a research analyst maintain records such as research reports and the basis of recommendations under SEBI's regulations?",
+   [
+    "5 years",
+    "1 year",
+    "3 years",
+    "10 years"
+   ],
+   0,
+   "The RA Regulations require records to be maintained for at least five years."
+  ]
+ ],
+ "xvii": [
+  [
+   "Retirement Planning: An Overview",
+   "Which trend has most increased the importance of individual retirement planning in India?",
+   [
+    "Rising life expectancy combined with the shift towards nuclear families",
+    "Falling life expectancy",
+    "Universal defined-benefit pensions for all private employees",
+    "A steady decline in healthcare costs"
+   ],
+   0,
+   "People live longer and can rely less on joint-family support, so they must fund longer retirements themselves."
+  ],
+  [
+   "Retirement Planning: An Overview",
+   "The National Pension System is an example of which type of pension arrangement?",
+   [
+    "Defined benefit, where the pension is a fixed percentage of last salary",
+    "Defined contribution, where the pension depends on contributions and investment returns",
+    "A pay-as-you-go social security scheme",
+    "A pure insurance product with guaranteed maturity value"
+   ],
+   1,
+   "In NPS the contribution is defined and the eventual benefit depends on accumulated corpus and returns."
+  ],
+  [
+   "Retirement Planning: An Overview",
+   "For Central Government employees (other than armed forces), the National Pension System replaced the old defined-benefit pension for those joining service on or after:",
+   [
+    "1 April 2009",
+    "1 April 2015",
+    "1 January 2004",
+    "1 January 1998"
+   ],
+   2,
+   "NPS became mandatory for new Central Government recruits from 1 January 2004; it opened to all citizens in 2009."
+  ],
+  [
+   "Retirement Planning: An Overview",
+   "A client's current monthly expenses are ₹40,000. If inflation averages 6% a year, what will be the equivalent monthly expense in 20 years (approximately)?",
+   [
+    "₹88,000",
+    "₹1.28 lakh",
+    "₹1.04 lakh",
+    "₹1.53 lakh"
+   ],
+   1,
+   "Future expense = 40,000 × (1.06)^20 = 40,000 × 3.2071 ≈ ₹1,28,285."
+  ],
+  [
+   "Pension Systems & Regulatory Framework (PFRDA)",
+   "Under which law does the Pension Fund Regulatory and Development Authority (PFRDA) derive its statutory powers?",
+   [
+    "The PFRDA Act, 2013",
+    "The SEBI Act, 1992",
+    "The Insurance Act, 1938",
+    "The Employees' Provident Funds and Miscellaneous Provisions Act, 1952"
+   ],
+   0,
+   "PFRDA was given statutory status by the PFRDA Act, 2013, which governs NPS and its intermediaries."
+  ],
+  [
+   "Pension Systems & Regulatory Framework (PFRDA)",
+   "What is the main function of a Central Recordkeeping Agency (CRA) in NPS?",
+   [
+    "Investing subscriber contributions in equities and bonds",
+    "Selling annuities to retiring subscribers",
+    "Setting the tax rules for NPS",
+    "Maintaining subscriber records, issuing PRANs and providing account administration and grievance handling"
+   ],
+   3,
+   "The CRA is the record-keeping and administration backbone of NPS; investment is done by pension funds and annuities by insurers."
+  ],
+  [
+   "Pension Systems & Regulatory Framework (PFRDA)",
+   "In the NPS architecture, a Point of Presence (POP) is:",
+   [
+    "The pension fund that manages the money",
+    "The entity through which subscribers register and make contributions",
+    "The insurer that pays annuities",
+    "The trustee that holds legal title to all NPS assets"
+   ],
+   1,
+   "POPs, such as banks and other registered entities, are the customer-facing access points for NPS subscribers."
+  ],
+  [
+   "Pension Systems & Regulatory Framework (PFRDA)",
+   "The Unified Pension Scheme (UPS), introduced from 1 April 2025, is available as an option to:",
+   [
+    "All self-employed citizens",
+    "Private-sector employees covered by EPF",
+    "Atal Pension Yojana subscribers",
+    "Central Government employees covered under NPS"
+   ],
+   3,
+   "UPS is an option under NPS for Central Government employees, adding an assured payout element to the contributory structure."
+  ],
+  [
+   "National Pension System – Architecture",
+   "What is a PRAN in NPS?",
+   [
+    "A pension rate notified annually by the government",
+    "A unique, portable Permanent Retirement Account Number allotted to each subscriber",
+    "A product code for annuity plans",
+    "A tax deduction certificate"
+   ],
+   1,
+   "The PRAN stays with the subscriber across jobs and locations, making NPS portable."
+  ],
+  [
+   "National Pension System – Architecture",
+   "Under the all-citizen model, up to what age can an Indian citizen join NPS?",
+   [
+    "60 years",
+    "70 years",
+    "65 years",
+    "75 years"
+   ],
+   1,
+   "PFRDA allows citizens aged 18 to 70 to open an NPS account."
+  ],
+  [
+   "National Pension System – Architecture",
+   "Which condition must be met to open an NPS Tier II account?",
+   [
+    "The subscriber must be above 60",
+    "The subscriber must be a government employee",
+    "The subscriber must close the Tier I account first",
+    "The subscriber must hold an active Tier I account"
+   ],
+   3,
+   "Tier II is an optional add-on account available only to subscribers with an active Tier I account."
+  ],
+  [
+   "National Pension System – Architecture",
+   "In the corporate model of NPS, which statement is correct?",
+   [
+    "Only employers contribute; employees cannot",
+    "It is compulsory for every private company",
+    "The corpus belongs to the employer until retirement",
+    "Employers can enrol employees and contribute to their NPS accounts in addition to employee contributions"
+   ],
+   3,
+   "Under the corporate model, both employer and employee may contribute, and the accumulated corpus belongs to the employee's PRAN."
+  ],
+  [
+   "National Pension System – Architecture",
+   "What happens to an NPS Vatsalya account when the minor attains majority?",
+   [
+    "It can be converted into a regular NPS account in the subscriber's own name",
+    "It is closed and the money is forfeited",
+    "It automatically becomes an annuity",
+    "It is transferred to the guardian's PRAN"
+   ],
+   0,
+   "NPS Vatsalya lets guardians save for minors; at 18 the account transitions to a regular NPS account for the young adult."
+  ],
+  [
+   "NPS – Investment Options & Fund Management",
+   "In NPS, asset class 'G' invests primarily in:",
+   [
+    "Central and State Government securities",
+    "Equity shares",
+    "Corporate bonds",
+    "Alternative assets such as REITs and InvITs"
+   ],
+   0,
+   "NPS asset classes are E (equity), C (corporate debt), G (government securities) and A (alternative investments)."
+  ],
+  [
+   "NPS – Investment Options & Fund Management",
+   "Under the Auto Choice option in NPS, the allocation to equity:",
+   [
+    "Reduces progressively as the subscriber ages, according to the chosen life-cycle fund",
+    "Remains constant throughout",
+    "Increases as the subscriber nears retirement",
+    "Is decided monthly by the POP"
+   ],
+   0,
+   "Life-cycle funds automatically shift from equity to debt with age, de-risking the corpus as retirement nears."
+  ],
+  [
+   "NPS – Investment Options & Fund Management",
+   "Under the Active Choice option in NPS, who decides the allocation across asset classes?",
+   [
+    "The Central Recordkeeping Agency",
+    "The NPS Trust for each subscriber individually",
+    "The subscriber, within the limits prescribed by PFRDA",
+    "The employer in all cases"
+   ],
+   2,
+   "Active Choice lets the subscriber set the mix among E, C, G and A subject to regulatory caps."
+  ],
+  [
+   "NPS – Investment Options & Fund Management",
+   "Priya, 26, has a high risk appetite and wants maximum equity in NPS but prefers the portfolio to de-risk automatically with age. Which option suits her?",
+   [
+    "Auto Choice – Conservative Life Cycle Fund (LC25)",
+    "Active Choice with 100% in asset class G",
+    "Tier II account with 100% in asset class C",
+    "Auto Choice – Aggressive Life Cycle Fund (LC75)"
+   ],
+   3,
+   "LC75 offers the highest starting equity among life-cycle funds and tapers it automatically as she ages."
+  ],
+  [
+   "NPS – Exit, Withdrawal & Annuity",
+   "Which of the following is NOT a permitted ground for partial withdrawal from an NPS Tier I account?",
+   [
+    "Buying a car",
+    "Higher education of children",
+    "Purchase or construction of a first residential house",
+    "Treatment of specified critical illnesses"
+   ],
+   0,
+   "Partial withdrawals are allowed only for specified needs such as children's education or marriage, a first home and critical illness; a car purchase is not one."
+  ],
+  [
+   "NPS – Exit, Withdrawal & Annuity",
+   "From whom must an NPS subscriber purchase the mandatory annuity on exit?",
+   [
+    "The Point of Presence",
+    "Any bank offering fixed deposits",
+    "The Central Recordkeeping Agency",
+    "A life insurer empanelled by PFRDA as an Annuity Service Provider"
+   ],
+   3,
+   "Annuities are bought from IRDAI-registered life insurers empanelled by PFRDA as Annuity Service Providers."
+  ],
+  [
+   "NPS – Exit, Withdrawal & Annuity",
+   "On the death of an NPS subscriber before retirement, what happens to the accumulated pension wealth?",
+   [
+    "It is forfeited to the NPS Trust",
+    "It is payable to the nominee or legal heirs",
+    "It is retained until the subscriber would have turned 60",
+    "It must be fully used to buy an annuity for the pension fund manager"
+   ],
+   1,
+   "On death, the full accumulated corpus is payable to the nominee or legal heirs, who may also choose to buy an annuity."
+  ],
+  [
+   "NPS – Exit, Withdrawal & Annuity",
+   "A subscriber reaching 60 does not need the money immediately. Which option does NPS allow?",
+   [
+    "Continue in NPS and defer exit beyond 60, within the age limits allowed by PFRDA",
+    "Only immediate full withdrawal at 60",
+    "Transfer the corpus to a savings bank account without any annuity",
+    "Convert the PRAN into a PPF account"
+   ],
+   0,
+   "NPS lets subscribers defer exit and keep the corpus invested, and even continue contributing, beyond 60 within prescribed limits."
+  ],
+  [
+   "Other Retirement Products (EPF, PPF, SCSS, APY, MFs)",
+   "Of the employer's 12% contribution under the EPF scheme, how much is diverted to the Employees' Pension Scheme (EPS)?",
+   [
+    "The entire 12%",
+    "8.33%, computed on wages up to the statutory wage ceiling",
+    "3.67% of wages",
+    "Nothing; EPS is funded only by the government"
+   ],
+   1,
+   "8.33% of wages (subject to the wage ceiling) goes to EPS and the balance is credited to the employee's EPF account."
+  ],
+  [
+   "Other Retirement Products (EPF, PPF, SCSS, APY, MFs)",
+   "After the initial 15-year tenure, a PPF account can be extended in blocks of:",
+   [
+    "1 year",
+    "5 years",
+    "3 years",
+    "10 years"
+   ],
+   1,
+   "On maturity, PPF can be extended for any number of five-year blocks, with or without further contributions."
+  ],
+  [
+   "Other Retirement Products (EPF, PPF, SCSS, APY, MFs)",
+   "Who is ordinarily eligible to open a Senior Citizens' Savings Scheme account?",
+   [
+    "Any individual aged 50 or above",
+    "A HUF whose karta is a senior citizen",
+    "A resident individual aged 60 years or above",
+    "A non-resident Indian aged 60 or above"
+   ],
+   2,
+   "SCSS is for resident individuals aged 60 and above, with limited relaxation for certain early retirees; HUFs and NRIs cannot open it."
+  ],
+  [
+   "Other Retirement Products (EPF, PPF, SCSS, APY, MFs)",
+   "Atal Pension Yojana provides subscribers with:",
+   [
+    "A lump sum equal to 10 times annual contributions at 60",
+    "A pension linked to last-drawn salary",
+    "A government-backed minimum monthly pension of ₹1,000 to ₹5,000 from age 60, depending on contributions",
+    "A market-linked pension with no minimum guarantee"
+   ],
+   2,
+   "APY guarantees a fixed monthly pension in slabs from ₹1,000 to ₹5,000, based on entry age and contribution level."
+  ],
+  [
+   "Other Retirement Products (EPF, PPF, SCSS, APY, MFs)",
+   "Retirement-oriented 'solution-oriented' mutual fund schemes under SEBI's categorisation have a lock-in of:",
+   [
+    "3 years in all cases",
+    "Until age 60 in all cases",
+    "No lock-in",
+    "5 years or until retirement age, whichever is earlier"
+   ],
+   3,
+   "SEBI's scheme categorisation prescribes a lock-in of at least five years or until retirement age, whichever is earlier, for retirement funds."
+  ],
+  [
+   "Retirement Planning Process & Corpus Estimation",
+   "What is the logical first step in the retirement planning process?",
+   [
+    "Selecting an annuity provider",
+    "Assessing the client's current financial situation and retirement goals",
+    "Choosing a pension fund manager",
+    "Drawing up a withdrawal schedule"
+   ],
+   1,
+   "Corpus estimation, product selection and withdrawal planning all depend on first understanding the client's present position and objectives."
+  ],
+  [
+   "Retirement Planning Process & Corpus Estimation",
+   "A client will need ₹8 lakh in the first year of retirement, rising with 6% inflation each year, for 20 years. The corpus will earn 8% and withdrawals are made at the start of each year. What corpus is needed at retirement (approximately)?",
+   [
+    "₹1.60 crore",
+    "₹0.85 crore",
+    "₹1.35 crore",
+    "₹1.06 crore"
+   ],
+   2,
+   "Real rate = 1.08 ÷ 1.06 − 1 ≈ 1.887%; PV of annuity due = 8,00,000 × [(1 − 1.01887^−20) ÷ 0.01887] × 1.01887 ≈ ₹1.35 crore."
+  ],
+  [
+   "Retirement Planning Process & Corpus Estimation",
+   "A client's current annual household expenses are ₹6 lakh and he retires in 25 years. Assuming 6% inflation, what will his annual expenses be in the first year of retirement (approximately)?",
+   [
+    "₹15.00 lakh",
+    "₹19.16 lakh",
+    "₹32.14 lakh",
+    "₹25.75 lakh"
+   ],
+   3,
+   "Future expense = 6 × (1.06)^25 = 6 × 4.2919 ≈ ₹25.75 lakh."
+  ],
+  [
+   "Retirement Planning Process & Corpus Estimation",
+   "A client needs a retirement corpus of ₹3 crore in 25 years. If investments earn 11% a year, how much must be invested at the end of each year (approximately)?",
+   [
+    "₹2.62 lakh",
+    "₹12.00 lakh",
+    "₹3.30 lakh",
+    "₹1.85 lakh"
+   ],
+   0,
+   "PMT = 3,00,00,000 × 0.11 ÷ [(1.11)^25 − 1] = 33,00,000 ÷ 12.585 ≈ ₹2.62 lakh."
+  ],
+  [
+   "Retirement Planning Process & Corpus Estimation",
+   "A client needs ₹2.5 crore at retirement in 20 years. His existing retirement investments of ₹20 lakh are expected to grow at 9% a year. What is the shortfall still to be funded (approximately)?",
+   [
+    "₹2.30 crore",
+    "₹1.38 crore",
+    "₹1.12 crore",
+    "₹0.86 crore"
+   ],
+   1,
+   "Existing assets grow to 20 × (1.09)^20 = 20 × 5.6044 ≈ ₹112.1 lakh; shortfall = 250 − 112.1 ≈ ₹137.9 lakh ≈ ₹1.38 crore."
+  ],
+  [
+   "Retirement Planning Process & Corpus Estimation",
+   "A client earns ₹18 lakh a year before retirement and her planner assumes an income replacement ratio of 70%. What annual income (in today's terms) should the plan target in retirement?",
+   [
+    "₹5.4 lakh",
+    "₹18.0 lakh",
+    "₹25.7 lakh",
+    "₹12.6 lakh"
+   ],
+   3,
+   "Target income = 18 × 70% = ₹12.6 lakh a year in today's terms."
+  ],
+  [
+   "Retirement Planning Process & Corpus Estimation",
+   "Asha starts saving for retirement at 25 and Vikram at 35. Both save the same monthly amount until 60 in similar portfolios. Why is Asha likely to end up with a much larger corpus?",
+   [
+    "She pays lower taxes because she is younger",
+    "Younger investors always receive higher interest rates",
+    "Vikram's contributions are not invested",
+    "Her money compounds for ten more years, and the growth in later years comes on a much larger base"
+   ],
+   3,
+   "Compounding is time-dependent; the extra early years allow returns to earn returns, making the final corpus disproportionately larger."
+  ],
+  [
+   "Investment & Asset Allocation for Retirement",
+   "What is a 'glide path' in retirement investing?",
+   [
+    "A planned reduction in equity exposure as the investor approaches retirement",
+    "A rule to increase equity every year after retirement",
+    "A fixed 50:50 allocation held for life",
+    "A schedule of tax payments on withdrawals"
+   ],
+   0,
+   "A glide path de-risks the portfolio gradually so that a market fall near retirement does less damage."
+  ],
+  [
+   "Investment & Asset Allocation for Retirement",
+   "A retiree's fixed deposit earns 7% a year while inflation is 6%. What is his real rate of return (exact)?",
+   [
+    "1.00%",
+    "13.42%",
+    "0.94%",
+    "1.07%"
+   ],
+   2,
+   "Real return = (1.07 ÷ 1.06) − 1 ≈ 0.94%; the 1% figure is only an approximation."
+  ],
+  [
+   "Investment & Asset Allocation for Retirement",
+   "Mr. Rao, 62, has just retired, needs regular monthly income and has moderate risk tolerance with a long life expectancy. Which portfolio approach suits him best?",
+   [
+    "100% in small-cap equity funds for maximum growth",
+    "100% in a savings bank account",
+    "A stable income core (e.g. SCSS, annuity, short-term debt) plus a modest equity allocation for inflation protection",
+    "All money in a single real-estate property for rental income"
+   ],
+   2,
+   "A retiree needs dependable income for expenses, but a long retirement also requires some growth assets to keep pace with inflation."
+  ],
+  [
+   "Investment & Asset Allocation for Retirement",
+   "How does a systematic withdrawal plan (SWP) from a mutual fund provide retirement income?",
+   [
+    "By redeeming units periodically to pay a fixed amount, so only the gains portion of each withdrawal is taxable",
+    "By paying a guaranteed fixed interest like a bank deposit",
+    "By paying dividends declared at the fund's discretion",
+    "By lending the corpus to the AMC"
+   ],
+   0,
+   "Each SWP instalment redeems units; part of it is return of capital, so only the capital gain component is taxed."
+  ],
+  [
+   "Distribution Phase & Annuities",
+   "For the same purchase price and age, which annuity option typically gives the highest periodic payout?",
+   [
+    "Life annuity without return of purchase price",
+    "Life annuity with return of purchase price",
+    "Joint life last-survivor annuity with return of purchase price",
+    "Joint life annuity with return of purchase price and annual increase"
+   ],
+   0,
+   "Because nothing is returned to nominees and only one life is covered, the insurer can pay the highest annuity rate under this option."
+  ],
+  [
+   "Distribution Phase & Annuities",
+   "What distinguishes a deferred annuity from an immediate annuity?",
+   [
+    "A deferred annuity pays a lump sum instead of income",
+    "Payouts of a deferred annuity begin after a specified accumulation or deferment period",
+    "An immediate annuity starts only after age 80",
+    "A deferred annuity cannot be bought by individuals"
+   ],
+   1,
+   "An immediate annuity starts paying soon after purchase; a deferred annuity starts after a chosen deferment period."
+  ],
+  [
+   "Distribution Phase & Annuities",
+   "A retiree uses ₹50 lakh to buy an annuity at a rate of 7% a year, payable monthly. What is the approximate monthly annuity (before tax)?",
+   [
+    "₹35,000",
+    "₹3,50,000",
+    "₹29,167",
+    "₹24,500"
+   ],
+   2,
+   "Annual annuity = 50,00,000 × 7% = ₹3,50,000; monthly = 3,50,000 ÷ 12 ≈ ₹29,167."
+  ],
+  [
+   "Distribution Phase & Annuities",
+   "Under the '4% rule' of thumb for retirement withdrawals, how much would a retiree with a corpus of ₹1.5 crore withdraw in the first year?",
+   [
+    "₹4 lakh",
+    "₹6 lakh",
+    "₹1.5 lakh",
+    "₹60 lakh"
+   ],
+   1,
+   "4% of ₹1.5 crore = ₹6 lakh in the first year, with later withdrawals usually adjusted for inflation."
+  ],
+  [
+   "Taxation of Retirement Benefits",
+   "How is annuity income received from an NPS annuity plan taxed?",
+   [
+    "It is fully exempt",
+    "It is taxed as long-term capital gains",
+    "It is taxable as income in the annuitant's hands at applicable slab rates",
+    "It is taxed only once, at the time of annuity purchase"
+   ],
+   2,
+   "Annuity payments are taxable as income in the year of receipt; the exemption applies only to the permitted lump-sum withdrawal."
+  ],
+  [
+   "Taxation of Retirement Benefits",
+   "Interest on an employee's own contributions to a provident fund becomes taxable when those contributions exceed what amount in a year (for an employee whose employer also contributes)?",
+   [
+    "₹1.5 lakh",
+    "₹5 lakh",
+    "₹2.5 lakh",
+    "₹50,000"
+   ],
+   2,
+   "Interest on employee contributions above ₹2.5 lakh a year (₹5 lakh where there is no employer contribution) is taxable."
+  ],
+  [
+   "Taxation of Retirement Benefits",
+   "Under the old tax regime, PPF is often described as 'EEE'. What does this mean?",
+   [
+    "Contributions are deductible, interest earned is exempt and the maturity amount is exempt",
+    "Contributions are exempt, but interest and maturity are taxed",
+    "Only maturity proceeds are exempt",
+    "All three stages are taxed"
+   ],
+   0,
+   "EEE stands for exempt at contribution, accumulation and withdrawal; the contribution deduction is available only under the old regime."
+  ],
+  [
+   "Health, Insurance & Estate Aspects in Retirement",
+   "Which statement about a reverse mortgage loan for senior citizens is correct?",
+   [
+    "The bank takes ownership of the house immediately",
+    "The borrower must repay monthly EMIs",
+    "Payments received are taxed as salary",
+    "The homeowner keeps living in the house and receives payments, which are treated as loan and not as taxable income"
+   ],
+   3,
+   "Under a reverse mortgage the elderly owner retains title and occupancy; the loan is settled from the property after death or move-out."
+  ],
+  [
+   "Health, Insurance & Estate Aspects in Retirement",
+   "Ramesh, 55, has only employer group health cover and plans to retire at 60. What is the most suitable advice?",
+   [
+    "Wait until retirement and then buy cover",
+    "Rely on savings alone for medical costs",
+    "Buy only a term life policy instead",
+    "Buy an individual or family health policy now, so waiting periods are served before group cover ends"
+   ],
+   3,
+   "Group cover ends at retirement and buying later costs more and restarts waiting periods, so it is better to take independent cover early."
+  ],
+  [
+   "Health, Insurance & Estate Aspects in Retirement",
+   "A retired client wants his wife to receive his NPS corpus, bank deposits and mutual fund units smoothly after his death. Which step is most important?",
+   [
+    "Update nominations on all accounts and make a valid will",
+    "Close all accounts and keep cash at home",
+    "Transfer all assets to a friend",
+    "Rely on the bank to identify the heirs"
+   ],
+   0,
+   "Nominations ease transmission and a will settles ownership, reducing disputes and delays for the surviving spouse."
+  ],
+  [
+   "Ethics, Code of Conduct & Grievance Redressal",
+   "A retirement adviser can earn a higher commission by recommending a particular product. What does the code of conduct require?",
+   [
+    "Recommend the higher-commission product without disclosure",
+    "Avoid giving any recommendation",
+    "Disclose the conflict and recommend only what is suitable for the client",
+    "Let the product provider decide the recommendation"
+   ],
+   2,
+   "Advisers must put client interests first, disclose conflicts of interest and base recommendations on suitability."
+  ],
+  [
+   "Ethics, Code of Conduct & Grievance Redressal",
+   "An NPS subscriber has a grievance against a Point of Presence. Through which system can it be lodged?",
+   [
+    "SEBI SCORES",
+    "The Central Grievance Management System (CGMS) of NPS",
+    "IRDAI Bima Bharosa",
+    "RBI Integrated Ombudsman"
+   ],
+   1,
+   "NPS complaints against intermediaries are handled through the CGMS administered via the CRA, with escalation to PFRDA if unresolved."
+  ],
+  [
+   "Ethics, Code of Conduct & Grievance Redressal",
+   "An adviser receives a request from a stranger claiming to be a client's relative, asking for the client's NPS balance. What should the adviser do?",
+   [
+    "Share it, since relatives are entitled to it",
+    "Share only the PRAN number",
+    "Decline, as client information is confidential and can be shared only with the client's consent or as required by law",
+    "Post the details in a family group chat"
+   ],
+   2,
+   "Advisers have a duty of confidentiality and must protect client information from unauthorised disclosure."
+  ]
+ ]
+}

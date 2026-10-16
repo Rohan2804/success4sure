@@ -1,0 +1,3614 @@
+{
+ "ii-a": [
+  [
+   "Introduction to Securities",
+   "Which of the following best describes the role of the primary market?",
+   [
+    "It is the market in which derivatives on listed shares are settled",
+    "It is the market where only the RBI deals in government bonds",
+    "It is where investors trade already-listed securities among themselves",
+    "It is where issuers raise fresh capital by selling newly issued securities to investors"
+   ],
+   3,
+   "New securities are created and sold by issuers in the primary market; trading of existing securities happens in the secondary market."
+  ],
+  [
+   "Introduction to Securities",
+   "An investor who holds a company's debentures is best described as the company's:",
+   [
+    "Owner",
+    "Registrar",
+    "Creditor",
+    "Promoter"
+   ],
+   2,
+   "Debentures are debt instruments, so holders lend money to the company and are its creditors, not its owners."
+  ],
+  [
+   "Introduction to Securities",
+   "Which body is the principal regulator of the Indian securities market?",
+   [
+    "Ministry of Corporate Affairs",
+    "Reserve Bank of India",
+    "Insurance Regulatory and Development Authority of India",
+    "Securities and Exchange Board of India"
+   ],
+   3,
+   "SEBI was set up to protect investors and to develop and regulate the securities market."
+  ],
+  [
+   "Characteristics of Equity Shares",
+   "In the event of liquidation, equity shareholders are paid:",
+   [
+    "Only after all creditors and preference shareholders have been paid",
+    "Pari passu with debenture holders",
+    "Before preference shareholders but after creditors",
+    "Before secured creditors"
+   ],
+   0,
+   "Equity holders carry residual risk and receive whatever remains after all prior claims are settled."
+  ],
+  [
+   "Characteristics of Equity Shares",
+   "A shareholder holds 300 shares when a company announces a 1:2 bonus issue (one bonus share for every two held). How many shares will the shareholder hold after the bonus?",
+   [
+    "450",
+    "600",
+    "350",
+    "150"
+   ],
+   0,
+   "One bonus share for every two held gives 300 ÷ 2 = 150 bonus shares, so the total becomes 300 + 150 = 450."
+  ],
+  [
+   "Characteristics of Equity Shares",
+   "A company splits its shares from a face value of ₹10 to ₹2 each. An investor holding 100 shares will now hold:",
+   [
+    "200 shares of ₹5 each",
+    "500 shares of ₹2 each",
+    "20 shares of ₹10 each",
+    "100 shares of ₹2 each"
+   ],
+   1,
+   "A split divides each ₹10 share into five ₹2 shares, so 100 shares become 500 while the total face value stays the same."
+  ],
+  [
+   "Characteristics of Equity Shares",
+   "Which corporate action reduces the number of a company's outstanding shares by purchasing them back from shareholders?",
+   [
+    "Bonus issue",
+    "Rights issue",
+    "Stock split",
+    "Buyback"
+   ],
+   3,
+   "In a buyback the company buys its own shares and extinguishes them, so fewer shares remain outstanding."
+  ],
+  [
+   "Characteristics of Debt Securities",
+   "A bond with a face value of ₹1,000 carries a coupon of 8% per annum payable annually. What is the annual interest received?",
+   [
+    "₹8",
+    "₹80",
+    "₹108",
+    "₹800"
+   ],
+   1,
+   "Coupon is calculated on face value: 8% of ₹1,000 = ₹80 per year."
+  ],
+  [
+   "Characteristics of Debt Securities",
+   "A zero-coupon bond provides a return to the investor because it is:",
+   [
+    "Issued at face value and pays a floating coupon",
+    "Issued at a discount and redeemed at face value",
+    "Converted into equity at maturity",
+    "Redeemed at a value below its issue price"
+   ],
+   1,
+   "Zero-coupon bonds pay no periodic interest; the gap between the discounted issue price and the face value is the investor's return."
+  ],
+  [
+   "Characteristics of Debt Securities",
+   "When market interest rates rise, the price of an existing fixed-coupon bond generally:",
+   [
+    "Rises",
+    "Becomes equal to its face value",
+    "Falls",
+    "Stays unchanged"
+   ],
+   2,
+   "Bond prices move inversely to yields, since the fixed coupon becomes less attractive compared with new issues."
+  ],
+  [
+   "Characteristics of Other Securities",
+   "A warrant attached to a security gives the holder:",
+   [
+    "A fixed coupon payable every quarter",
+    "Voting rights immediately on issue",
+    "The right, but not the obligation, to acquire shares at a specified price within a set period",
+    "An obligation to buy shares at market price"
+   ],
+   2,
+   "A warrant is an option-like right to subscribe to shares at a pre-set price; the holder may choose not to exercise it."
+  ],
+  [
+   "Characteristics of Other Securities",
+   "A Global Depository Receipt (GDR) issued by an Indian company represents:",
+   [
+    "Units of an Indian mutual fund sold abroad",
+    "A rupee bond issued in India by a foreign company",
+    "Shares of a foreign company listed on Indian exchanges",
+    "Underlying shares of the Indian company held by a domestic custodian, with the receipts traded overseas"
+   ],
+   3,
+   "Depository receipts let foreign investors hold claims on Indian shares that are held in custody in India."
+  ],
+  [
+   "Characteristics of Other Securities",
+   "Which instrument lets a foreign company raise capital from Indian investors by listing receipts on Indian stock exchanges?",
+   [
+    "Global Depository Receipt",
+    "American Depository Receipt",
+    "Indian Depository Receipt",
+    "Foreign Currency Convertible Bond"
+   ],
+   2,
+   "An IDR represents shares of a foreign company and is issued and listed in India."
+  ],
+  [
+   "Basics of Mutual Funds",
+   "The Net Asset Value (NAV) of a mutual fund scheme per unit is computed as:",
+   [
+    "(Assets + liabilities) ÷ units outstanding",
+    "Total income ÷ number of unitholders",
+    "Total assets ÷ face value of units",
+    "(Market value of assets − liabilities) ÷ number of units outstanding"
+   ],
+   3,
+   "NAV per unit is the scheme's net assets divided by units outstanding."
+  ],
+  [
+   "Basics of Mutual Funds",
+   "In which type of scheme can investors buy and redeem units from the fund on any business day at NAV-linked prices?",
+   [
+    "Fixed maturity plan after listing",
+    "Interval scheme only during its NFO",
+    "Open-ended scheme",
+    "Close-ended scheme"
+   ],
+   2,
+   "Open-ended schemes offer continuous sale and repurchase of units."
+  ],
+  [
+   "SEBI – Role and Regulations",
+   "SEBI received statutory powers under which legislation?",
+   [
+    "SEBI Act, 1992",
+    "Securities Contracts (Regulation) Act, 1956",
+    "Depositories Act, 1996",
+    "Companies Act, 1956"
+   ],
+   0,
+   "SEBI was set up in 1988 as a non-statutory body and became a statutory regulator under the SEBI Act, 1992."
+  ],
+  [
+   "SEBI – Role and Regulations",
+   "An RTA wants to begin acting as a Registrar to an Issue. What must it obtain first?",
+   [
+    "A certificate of registration from SEBI",
+    "A banking licence from the RBI",
+    "Approval from the stock exchange where the issuer is listed",
+    "A licence from the Registrar of Companies"
+   ],
+   0,
+   "Registrars and share transfer agents are SEBI intermediaries and must be registered with SEBI before acting as such."
+  ],
+  [
+   "SEBI – Role and Regulations",
+   "An intermediary aggrieved by a SEBI order can file an appeal with:",
+   [
+    "Securities Appellate Tribunal",
+    "National Company Law Tribunal",
+    "Ministry of Finance",
+    "Reserve Bank of India"
+   ],
+   0,
+   "Appeals against SEBI orders lie before the Securities Appellate Tribunal (SAT)."
+  ],
+  [
+   "Public Offer of Securities",
+   "In a book-built issue, the price at which shares are finally allotted is called the:",
+   [
+    "Floor price",
+    "Cut-off price",
+    "Reserve price",
+    "Face value"
+   ],
+   1,
+   "Book building discovers the price from bids within the band; allotment is made at the discovered cut-off price."
+  ],
+  [
+   "Public Offer of Securities",
+   "An IPO has a price band of ₹190–₹200 and a lot size of 75 shares. What is the maximum number of lots a retail individual investor can bid for at the upper end without exceeding ₹2 lakh?",
+   [
+    "13 lots",
+    "10 lots",
+    "14 lots",
+    "26 lots"
+   ],
+   0,
+   "Each lot costs 75 × ₹200 = ₹15,000; 13 lots = ₹1,95,000, while 14 lots = ₹2,10,000 would exceed the ₹2 lakh retail limit."
+  ],
+  [
+   "Public Offer of Securities",
+   "What distinguishes an offer for sale (OFS) component in an IPO from a fresh issue?",
+   [
+    "An OFS can only be made to qualified institutional buyers",
+    "In an OFS the company issues new shares to the public",
+    "In an OFS existing shareholders sell their shares, so the proceeds go to them and not to the company",
+    "An OFS always increases the company's paid-up capital"
+   ],
+   2,
+   "An OFS transfers existing shares; the company's capital does not increase and the selling shareholders receive the money."
+  ],
+  [
+   "Public Offer of Securities",
+   "A green shoe option in a public issue is used mainly to:",
+   [
+    "Refund excess application money faster",
+    "Stabilise the post-listing price through an over-allotment mechanism",
+    "Convert debt into equity at listing",
+    "Allot shares at a discount to employees"
+   ],
+   1,
+   "The stabilising agent uses over-allotted shares to support the price if it falls below the issue price after listing."
+  ],
+  [
+   "Public Offer of Securities",
+   "A retail individual investor in a public issue is one who applies for securities worth:",
+   [
+    "Not more than ₹5 lakh",
+    "Not more than ₹10 lakh",
+    "Not more than ₹50,000",
+    "Not more than ₹2 lakh"
+   ],
+   3,
+   "Under SEBI ICDR, a retail individual investor bids for up to ₹2 lakh in an issue."
+  ],
+  [
+   "Modes of Allotment other than Public Offers",
+   "A shareholder holds 800 shares and the company announces a rights issue in the ratio 1:4. How many rights shares is the shareholder entitled to?",
+   [
+    "320",
+    "400",
+    "3,200",
+    "200"
+   ],
+   3,
+   "A 1:4 ratio means one new share for every four held: 800 ÷ 4 = 200."
+  ],
+  [
+   "Modes of Allotment other than Public Offers",
+   "Rights entitlements in a rights issue are credited to eligible shareholders:",
+   [
+    "In dematerialised form, and they can be renounced or traded on the exchange during the renunciation period",
+    "Only to promoters",
+    "To the RTA's own account until the issue closes",
+    "Only as physical letters of offer that cannot be transferred"
+   ],
+   0,
+   "Rights entitlements are credited in demat form and can be renounced on-market or off-market before the issue closes."
+  ],
+  [
+   "Modes of Allotment other than Public Offers",
+   "Allotment of shares by a listed company only to qualified institutional buyers, without a public offer document, is known as:",
+   [
+    "Qualified Institutions Placement",
+    "Employee stock option scheme",
+    "Bonus issue",
+    "Rights issue"
+   ],
+   0,
+   "A QIP lets listed companies raise capital quickly from QIBs only."
+  ],
+  [
+   "Modes of Allotment other than Public Offers",
+   "Allotment of shares to a select group of identified persons, such as a strategic investor, by a listed company is called:",
+   [
+    "Public issue",
+    "Preferential allotment",
+    "Offer for sale",
+    "Sweat equity"
+   ],
+   1,
+   "A preferential issue is made to specified persons on a private basis, subject to SEBI ICDR conditions."
+  ],
+  [
+   "Processes related to Public Offering of Shares",
+   "Under ASBA, the investor's application money is:",
+   [
+    "Paid by cheque to the registrar",
+    "Blocked in the investor's bank account and debited only on allotment",
+    "Deposited with the stock exchange",
+    "Transferred upfront to the issuer's account"
+   ],
+   1,
+   "ASBA keeps funds in the investor's account until the basis of allotment is finalised; only the allotted amount is debited."
+  ],
+  [
+   "Processes related to Public Offering of Shares",
+   "Within how many working days after an issue closes must the shares be listed under SEBI's current public issue timeline?",
+   [
+    "T+12 working days",
+    "T+3 working days",
+    "T+6 working days",
+    "T+1 working day"
+   ],
+   1,
+   "SEBI has made the T+3 listing timeline mandatory for public issues, where T is the issue closing date."
+  ],
+  [
+   "Processes related to Public Offering of Shares",
+   "Individual investors can use the UPI mechanism to apply in a public issue for amounts up to:",
+   [
+    "₹5 lakh",
+    "₹10 lakh",
+    "₹2 lakh",
+    "₹1 lakh"
+   ],
+   0,
+   "SEBI raised the UPI limit for individual bidders in public issues to ₹5 lakh."
+  ],
+  [
+   "Processes related to Public Offering of Shares",
+   "In an oversubscribed issue, which entity finalises the basis of allotment in consultation with the designated stock exchange?",
+   [
+    "The sponsor bank alone",
+    "The Registrar to the Issue, together with the issuer and lead manager",
+    "SEBI",
+    "The depository participant of each investor"
+   ],
+   1,
+   "The registrar processes the bids and finalises the basis of allotment with the designated stock exchange, issuer and lead managers."
+  ],
+  [
+   "Roles and Responsibilities in a Public Issue",
+   "Which intermediary is responsible for due diligence of the offer document and managing the overall issue process?",
+   [
+    "Depository participant",
+    "Lead manager (merchant banker)",
+    "Self-Certified Syndicate Bank",
+    "Registrar to the Issue"
+   ],
+   1,
+   "The book-running lead manager is a SEBI-registered merchant banker who handles due diligence and manages the issue."
+  ],
+  [
+   "Roles and Responsibilities in a Public Issue",
+   "In a UPI-based IPO application, the bank that acts as a conduit between the stock exchanges and the NPCI to block and unblock funds is the:",
+   [
+    "Escrow collection bank",
+    "Banker to the issue for refunds only",
+    "Clearing bank",
+    "Sponsor bank"
+   ],
+   3,
+   "The sponsor bank, appointed by the issuer, initiates UPI mandate requests and processes block and unblock instructions."
+  ],
+  [
+   "Roles and Responsibilities in a Public Issue",
+   "Which entity is a bank registered with SEBI to accept ASBA applications and block funds in investors' accounts?",
+   [
+    "Self-Certified Syndicate Bank",
+    "Credit rating agency",
+    "Debenture trustee",
+    "Clearing corporation"
+   ],
+   0,
+   "SCSBs are banks registered with SEBI to offer ASBA services."
+  ],
+  [
+   "Roles and Responsibilities in a Public Issue",
+   "After allotment is finalised, which activity is typically carried out by the Registrar to the Issue?",
+   [
+    "Rating the shares being issued",
+    "Fixing the price band",
+    "Underwriting any unsubscribed portion",
+    "Arranging credit of allotted shares to investors' demat accounts through the depositories"
+   ],
+   3,
+   "The registrar sends allotment details to the depositories for crediting shares and coordinates unblocking of funds."
+  ],
+  [
+   "Depository Services",
+   "In the depository system, who is the registered owner of the dematerialised securities in the company's records?",
+   [
+    "The depository participant",
+    "The RTA",
+    "The stock exchange",
+    "The depository"
+   ],
+   3,
+   "Under the Depositories Act, 1996, the depository is the registered owner, while the investor is the beneficial owner."
+  ],
+  [
+   "Depository Services",
+   "The two depositories operating in India are:",
+   [
+    "CAMS and KFintech",
+    "NSCCL and ICCL",
+    "NSE and BSE",
+    "NSDL and CDSL"
+   ],
+   3,
+   "National Securities Depository Ltd and Central Depository Services (India) Ltd are India's depositories."
+  ],
+  [
+   "Depository Services",
+   "An ISIN allotted to an Indian security is a code made up of:",
+   [
+    "8 characters beginning with 'ISN'",
+    "16 digits linked to the stock exchange code",
+    "12 alphanumeric characters beginning with 'IN'",
+    "10 digits beginning with the company's PAN"
+   ],
+   2,
+   "An ISIN is a 12-character code, and Indian securities begin with the country code 'IN'."
+  ],
+  [
+   "Processes related to Depositories",
+   "An investor submits a demat request form with share certificates to the DP. What does the DP do next?",
+   [
+    "Sends an electronic request to the depository and forwards the physical certificates to the issuer's RTA",
+    "Returns the certificates to the investor after scanning",
+    "Credits the shares immediately without waiting for verification",
+    "Sends the certificates to SEBI for cancellation"
+   ],
+   0,
+   "The DP raises an electronic request and sends the certificates to the RTA, which verifies them and confirms the demat request to the depository."
+  ],
+  [
+   "Processes related to Depositories",
+   "Converting dematerialised holdings back into physical certificates is called:",
+   [
+    "Rematerialisation",
+    "Transmission",
+    "Consolidation",
+    "Transposition"
+   ],
+   0,
+   "Remat is the reverse of demat; the RTA prints certificates after the depository confirms the request."
+  ],
+  [
+   "Processes related to Depositories",
+   "Before sending share certificates for dematerialisation, the investor should:",
+   [
+    "Get them attested by a notary",
+    "Submit them to the stock exchange",
+    "Deface them by marking 'Surrendered for Dematerialisation'",
+    "Endorse them in favour of the DP"
+   ],
+   2,
+   "Defacing the certificates prevents misuse while they are in transit to the RTA."
+  ],
+  [
+   "Processes related to Depositories",
+   "When a company credits bonus shares to shareholders holding in demat form, the RTA uses:",
+   [
+    "The list of brokers registered with the exchange",
+    "The list of applicants in the company's last IPO",
+    "The list of beneficial owners as on the record date provided by the depositories",
+    "Investors' latest income tax returns"
+   ],
+   2,
+   "Corporate action entitlements for demat holders are based on the beneficial-owner positions downloaded from the depositories as on the record date."
+  ],
+  [
+   "Investor Interface with the R&T Agent",
+   "A holder of physical shares wants to change the order of names of joint holders. This request is known as:",
+   [
+    "Sub-division",
+    "Transposition",
+    "Transfer",
+    "Transmission"
+   ],
+   1,
+   "Transposition changes the sequence of joint holders' names without changing ownership."
+  ],
+  [
+   "Investor Interface with the R&T Agent",
+   "On the death of a sole shareholder with a registered nominee, the shares are passed to the nominee through:",
+   [
+    "Transmission",
+    "Forfeiture",
+    "Transfer by sale",
+    "Transposition"
+   ],
+   0,
+   "Transmission is the transfer of securities by operation of law on death, insolvency or similar events."
+  ],
+  [
+   "Investor Interface with the R&T Agent",
+   "When an RTA processes a service request for physical securities, such as issuing duplicate certificates, current SEBI norms require it to issue:",
+   [
+    "A bonus share certificate",
+    "A refund of the share value",
+    "A Letter of Confirmation, which the investor uses to get the securities dematerialised",
+    "A fresh physical share certificate"
+   ],
+   2,
+   "SEBI requires RTAs to issue a Letter of Confirmation instead of physical certificates for such requests, so that the securities move into demat."
+  ],
+  [
+   "Investor Interface with the R&T Agent",
+   "Since April 2019, can a transfer of shares of a listed company be processed in physical form?",
+   [
+    "Yes, but only if the transfer is between relatives",
+    "No; transfers must be in dematerialised form, although transmission and transposition requests for physical shares are allowed",
+    "Yes, any transfer can be processed in physical form",
+    "No, and physical shares can no longer be dematerialised either"
+   ],
+   1,
+   "SEBI stopped physical transfers of listed securities, though holders can still dematerialise and use transmission or transposition."
+  ],
+  [
+   "Secondary Market Transactions",
+   "Under the standard rolling settlement cycle for equity in India, an investor who buys shares on a Tuesday (with no holidays) receives them on:",
+   [
+    "Thursday",
+    "Tuesday itself",
+    "Wednesday",
+    "Friday"
+   ],
+   2,
+   "Indian equity markets follow T+1 settlement, so a Tuesday trade settles on Wednesday."
+  ],
+  [
+   "Secondary Market Transactions",
+   "Which entity guarantees settlement of trades executed on a stock exchange?",
+   [
+    "The issuer company",
+    "The investor's bank",
+    "The clearing corporation",
+    "The RTA of the company"
+   ],
+   2,
+   "The clearing corporation acts as central counterparty and guarantees settlement of exchange trades."
+  ],
+  [
+   "Client Servicing",
+   "An investor whose complaint against a listed company's RTA is not resolved can lodge it online with SEBI through:",
+   [
+    "MCA21",
+    "e-filing portal of the Income Tax Department",
+    "NPCI portal",
+    "SCORES"
+   ],
+   3,
+   "SCORES is SEBI's online grievance redressal platform for securities market complaints."
+  ],
+  [
+   "Client Servicing",
+   "A good practice for an RTA receiving an investor's written request is to:",
+   [
+    "Act only if the request comes through the company's directors",
+    "Acknowledge it, log it in the inward register and act within the prescribed time",
+    "Forward it to SEBI for action",
+    "Act only after the investor sends three reminders"
+   ],
+   1,
+   "Recording and acknowledging requests and acting within timelines is central to RTA client servicing."
+  ]
+ ],
+ "ii-b": [
+  [
+   "Introduction to Securities",
+   "Which of the following is a money market instrument?",
+   [
+    "Treasury bill",
+    "Equity share",
+    "Ten-year government bond",
+    "Convertible debenture"
+   ],
+   0,
+   "T-bills are short-term government securities with maturities under one year, which makes them money market instruments."
+  ],
+  [
+   "Introduction to Securities",
+   "The secondary market primarily provides investors with:",
+   [
+    "Guaranteed returns",
+    "Tax-free income",
+    "Liquidity, by allowing them to sell existing securities to other investors",
+    "Fresh capital for issuers"
+   ],
+   2,
+   "Trading among investors in the secondary market lets holders exit their investments."
+  ],
+  [
+   "Characteristics of Equity Shares",
+   "Which of the following is a right typically enjoyed by equity shareholders?",
+   [
+    "Repayment of capital on a fixed maturity date",
+    "Priority over creditors on liquidation",
+    "A fixed rate of dividend every year",
+    "Voting on resolutions at general meetings"
+   ],
+   3,
+   "Equity shareholders own the company and vote; dividends are not fixed and they rank last on liquidation."
+  ],
+  [
+   "Characteristics of Equity Shares",
+   "Dividend on equity shares is paid:",
+   [
+    "Only on liquidation",
+    "As a fixed percentage of face value every year",
+    "At the discretion of the company out of its profits",
+    "Even when the company has no profits or reserves"
+   ],
+   2,
+   "Equity dividend is not a contractual obligation; the board recommends it based on profits."
+  ],
+  [
+   "Characteristics of Debt Securities",
+   "Credit risk in a debt security refers to the risk that:",
+   [
+    "Inflation may erode real returns",
+    "The security may not be easy to sell",
+    "The issuer may fail to pay interest or principal on time",
+    "Interest rates in the market may rise"
+   ],
+   2,
+   "Credit (default) risk is about the issuer's ability to meet payment obligations."
+  ],
+  [
+   "Characteristics of Debt Securities",
+   "A bond whose coupon is reset periodically with reference to a benchmark rate is called a:",
+   [
+    "Perpetual bond",
+    "Zero-coupon bond",
+    "Fixed rate bond",
+    "Floating rate bond"
+   ],
+   3,
+   "Floating rate bonds pay a coupon linked to a benchmark, so it changes at each reset."
+  ],
+  [
+   "Characteristics of Other Securities",
+   "A security with features of both debt and equity, such as a convertible debenture, is described as a:",
+   [
+    "Pure equity instrument",
+    "Derivative",
+    "Money market instrument",
+    "Hybrid instrument"
+   ],
+   3,
+   "Convertibles start as debt and may convert into equity, so they combine features of both."
+  ],
+  [
+   "Characteristics of Other Securities",
+   "Which of the following is a derivative instrument?",
+   [
+    "Commercial paper",
+    "Equity share",
+    "Index futures contract",
+    "Treasury bill"
+   ],
+   2,
+   "A futures contract derives its value from an underlying, such as an index."
+  ],
+  [
+   "SEBI – Role and Regulations",
+   "Mutual funds in India are regulated by SEBI under the:",
+   [
+    "Insurance Act, 1938",
+    "SEBI (Mutual Funds) Regulations, 1996",
+    "Banking Regulation Act, 1949",
+    "SEBI (Portfolio Managers) Regulations, 2020"
+   ],
+   1,
+   "SEBI regulates mutual funds through the SEBI (Mutual Funds) Regulations, 1996."
+  ],
+  [
+   "SEBI – Role and Regulations",
+   "Which of the following is NOT a function of SEBI?",
+   [
+    "Setting the repo rate",
+    "Registering and regulating market intermediaries",
+    "Prohibiting insider trading",
+    "Promoting investor education"
+   ],
+   0,
+   "The repo rate is set by the RBI's Monetary Policy Committee; the other three are SEBI functions."
+  ],
+  [
+   "SEBI – Role and Regulations",
+   "SEBI's online platform for investors to lodge complaints against mutual funds and RTAs is:",
+   [
+    "CERSAI",
+    "NACH",
+    "SCORES",
+    "MF Central"
+   ],
+   2,
+   "SCORES is SEBI's complaints redress system."
+  ],
+  [
+   "Basics of Registrars and Transfer Agents",
+   "In the mutual fund industry, an RTA is appointed by:",
+   [
+    "AMFI",
+    "The custodian",
+    "The Asset Management Company, on behalf of the mutual fund",
+    "The investor"
+   ],
+   2,
+   "The AMC appoints the RTA to maintain unitholder records and process transactions for the fund's schemes."
+  ],
+  [
+   "Basics of Registrars and Transfer Agents",
+   "Which of the following is a typical function of a mutual fund RTA?",
+   [
+    "Managing the scheme's investment portfolio",
+    "Holding the scheme's securities in safe custody",
+    "Setting the scheme's investment objective",
+    "Processing purchase, redemption and switch requests and maintaining unitholder records"
+   ],
+   3,
+   "RTAs handle investor servicing and records, while the fund manager invests and the custodian holds the assets."
+  ],
+  [
+   "Basics of Registrars and Transfer Agents",
+   "A folio number in a mutual fund is:",
+   [
+    "The scheme's code on the stock exchange",
+    "The investor's PAN",
+    "A unique account number given to an investor in the fund's records",
+    "The scheme's SEBI registration number"
+   ],
+   2,
+   "A folio identifies an investor's account with the fund house, and many schemes can be held under one folio."
+  ],
+  [
+   "Basics of Registrars and Transfer Agents",
+   "An investor visits an RTA service centre to submit a redemption request for an open-ended scheme. Which role is the RTA performing here?",
+   [
+    "Acting as the scheme's auditor",
+    "Acting as an official point of acceptance of transactions",
+    "Acting as the fund manager",
+    "Acting as the trustee"
+   ],
+   1,
+   "RTA offices serve as official points of acceptance where transactions are time-stamped for NAV applicability."
+  ],
+  [
+   "Registrar and Transfer Agents Regulations",
+   "Under the SEBI (Registrars to an Issue and Share Transfer Agents) Regulations, 1993, a Category I registrant may act as:",
+   [
+    "Only a share transfer agent",
+    "A merchant banker and registrar",
+    "Only a registrar to an issue",
+    "Both registrar to an issue and share transfer agent"
+   ],
+   3,
+   "Category I covers both activities, while Category II permits only one of the two."
+  ],
+  [
+   "Registrar and Transfer Agents Regulations",
+   "An RTA discovers that one of its employees has been sharing unitholders' contact data with an outside marketing firm. This most directly breaches the RTA's obligation to:",
+   [
+    "Underwrite NFOs",
+    "Maintain confidentiality of investor records under its code of conduct",
+    "Publish daily NAVs",
+    "Achieve minimum transaction volumes"
+   ],
+   1,
+   "The code of conduct for RTAs requires them to protect investor information and avoid misuse."
+  ],
+  [
+   "Registrar and Transfer Agents Regulations",
+   "Which of the following must an RTA do under SEBI regulations?",
+   [
+    "Approve the AMC's investment decisions",
+    "Maintain proper books and records and make them available for SEBI inspection",
+    "Invest its own funds in the schemes it services",
+    "Guarantee investors' returns"
+   ],
+   1,
+   "Registered RTAs must maintain records for the prescribed period and are subject to SEBI inspection."
+  ],
+  [
+   "Basics of Mutual Funds",
+   "A key benefit of investing through a mutual fund is:",
+   [
+    "Freedom from all market risk",
+    "Direct voting rights in every portfolio company",
+    "Diversification and professional management even with a small investment",
+    "Guaranteed returns on all schemes"
+   ],
+   2,
+   "Pooling lets small investors get a diversified, professionally managed portfolio; returns are not guaranteed."
+  ],
+  [
+   "Basics of Mutual Funds",
+   "A scheme has assets with a market value of ₹102 crore, liabilities of ₹2 crore and 5 crore units outstanding. What is its NAV per unit?",
+   [
+    "₹20.40",
+    "₹20",
+    "₹19.60",
+    "₹50"
+   ],
+   1,
+   "NAV = (102 − 2) ÷ 5 = ₹20 per unit."
+  ],
+  [
+   "Basics of Mutual Funds",
+   "Which of these is an example of a close-ended scheme feature?",
+   [
+    "Units can be bought and redeemed on any business day",
+    "There is no maturity date and units are issued continuously",
+    "Units are created daily through SIPs",
+    "Units can be bought only during the NFO and the scheme has a fixed maturity"
+   ],
+   3,
+   "Close-ended schemes sell units only in the NFO, have a fixed tenure and are listed to provide liquidity."
+  ],
+  [
+   "Mutual Fund Structure and Constituents",
+   "In India, a mutual fund is constituted as a:",
+   [
+    "Trust",
+    "Co-operative society",
+    "Private limited company",
+    "Partnership firm"
+   ],
+   0,
+   "Mutual funds are set up as trusts under the Indian Trusts Act, 1882, with the sponsor as settlor."
+  ],
+  [
+   "Mutual Fund Structure and Constituents",
+   "Under SEBI regulations, the sponsor of a mutual fund must hold at least what share of the AMC's net worth?",
+   [
+    "26%",
+    "10%",
+    "51%",
+    "40%"
+   ],
+   3,
+   "The sponsor must contribute at least 40% of the AMC's net worth."
+  ],
+  [
+   "Mutual Fund Structure and Constituents",
+   "Who holds the securities of a mutual fund scheme in safe custody?",
+   [
+    "The custodian",
+    "The RTA",
+    "The distributor",
+    "The AMC's fund manager"
+   ],
+   0,
+   "A SEBI-registered custodian holds the fund's securities and handles their settlement."
+  ],
+  [
+   "Mutual Fund Structure and Constituents",
+   "Which constituent is primarily responsible for protecting unitholders' interests and supervising the AMC?",
+   [
+    "The RTA",
+    "The trustees",
+    "The registrar of companies",
+    "The distributors"
+   ],
+   1,
+   "Trustees hold the property in trust for unitholders and oversee the AMC."
+  ],
+  [
+   "Mutual Fund Products",
+   "Which scheme type is eligible for an income tax deduction under the old tax regime and has a statutory lock-in of three years?",
+   [
+    "Liquid fund",
+    "Equity Linked Savings Scheme",
+    "Overnight fund",
+    "Arbitrage fund"
+   ],
+   1,
+   "ELSS is the tax-saving equity scheme category; it carries a three-year lock-in and qualifies for deduction only under the old tax regime."
+  ],
+  [
+   "Mutual Fund Products",
+   "An overnight fund invests in securities with a maturity of:",
+   [
+    "One day",
+    "Three to six months",
+    "Up to 91 days",
+    "More than seven years"
+   ],
+   0,
+   "SEBI's categorisation defines overnight funds as investing in overnight securities with one-day maturity."
+  ],
+  [
+   "Mutual Fund Products",
+   "An index fund aims to:",
+   [
+    "Guarantee capital protection",
+    "Invest only in debt",
+    "Replicate the performance of a specified index",
+    "Beat the index through active stock selection"
+   ],
+   2,
+   "Index funds are passive and hold the index constituents in the same proportions."
+  ],
+  [
+   "Mutual Fund Products",
+   "Exchange Traded Funds (ETFs) differ from regular open-ended funds because ETF units:",
+   [
+    "Are listed and can be traded on stock exchanges at market prices during trading hours",
+    "Cannot be held in demat form",
+    "Are priced only once a day at closing NAV for all investors",
+    "Can only be bought during the NFO"
+   ],
+   0,
+   "ETF units trade on the exchange throughout the day like shares."
+  ],
+  [
+   "Operational Concepts of Mutual Funds",
+   "For a purchase in a liquid fund, the cut-off time to get the same day's closing NAV (with funds realised in time) is:",
+   [
+    "10:00 a.m.",
+    "5:00 p.m.",
+    "1:30 p.m.",
+    "3:00 p.m."
+   ],
+   2,
+   "Liquid and overnight funds have a 1:30 p.m. cut-off for purchases, compared with 3:00 p.m. for most other schemes."
+  ],
+  [
+   "Operational Concepts of Mutual Funds",
+   "For purchases in mutual fund schemes, the applicable NAV is determined based on:",
+   [
+    "The time the funds are realised and available to the scheme, subject to the cut-off time",
+    "The date written on the application form",
+    "The date of the NFO",
+    "The date the investor's cheque is printed"
+   ],
+   0,
+   "SEBI ties NAV applicability for purchases to when the funds are realised in the scheme's account, irrespective of amount."
+  ],
+  [
+   "Operational Concepts of Mutual Funds",
+   "An investor invests ₹1,00,000 in a scheme. After stamp duty of 0.005%, the amount available for allotment is:",
+   [
+    "₹99,950",
+    "₹99,995",
+    "₹1,00,000",
+    "₹99,500"
+   ],
+   1,
+   "Stamp duty = 0.005% × 1,00,000 = ₹5, so ₹99,995 is invested."
+  ],
+  [
+   "Operational Concepts of Mutual Funds",
+   "An investor redeems units worth ₹50,000 at NAV, and the scheme charges a 1% exit load. What amount does the investor receive (ignoring taxes)?",
+   [
+    "₹49,500",
+    "₹49,000",
+    "₹45,000",
+    "₹50,500"
+   ],
+   0,
+   "Exit load = 1% × 50,000 = ₹500, so ₹49,500 is paid out."
+  ],
+  [
+   "Operational Concepts of Mutual Funds",
+   "In a Systematic Withdrawal Plan, the investor:",
+   [
+    "Moves money from one scheme to another at regular intervals",
+    "Redeems a fixed amount or units at regular intervals from a scheme",
+    "Reinvests all dividends automatically",
+    "Invests a fixed amount at regular intervals"
+   ],
+   1,
+   "An SWP is periodic redemption; an SIP is periodic investment and an STP is periodic switching."
+  ],
+  [
+   "Investors in Mutual Funds",
+   "For a mutual fund folio held in the name of a minor, payment for investments must come from:",
+   [
+    "The distributor's account",
+    "Any third party's bank account",
+    "Only the guardian's individual account",
+    "A bank account of the minor or a joint account of the minor with the guardian"
+   ],
+   3,
+   "SEBI requires investments in a minor's folio to be paid from the minor's own account or the minor's joint account with the guardian."
+  ],
+  [
+   "Investors in Mutual Funds",
+   "When a minor unitholder becomes a major, the RTA must:",
+   [
+    "Continue the folio in the guardian's name forever",
+    "Process a change of status from minor to major and update KYC and bank details in the new major's name",
+    "Transfer the units to the guardian",
+    "Close the folio and pay out the units to the guardian"
+   ],
+   1,
+   "On attaining majority, the folio's status must be changed and the investor's own KYC and bank details recorded."
+  ],
+  [
+   "Investors in Mutual Funds",
+   "Who among the following can invest in Indian mutual funds on a repatriable basis?",
+   [
+    "An Overseas Corporate Body",
+    "A Non-Resident Indian investing through an NRE account",
+    "Any foreign national resident abroad without restriction",
+    "A minor through a third party's account"
+   ],
+   1,
+   "NRIs can invest on a repatriable basis using NRE accounts, subject to the scheme's terms."
+  ],
+  [
+   "Banking Operations in Mutual Funds",
+   "Mutual funds generally do NOT accept which kind of payment for subscriptions?",
+   [
+    "Payments through a registered bank mandate for SIPs",
+    "Cheques from the investor's own account",
+    "NEFT from the first holder's bank account",
+    "Third-party payments, except in permitted cases"
+   ],
+   3,
+   "To curb money laundering, SEBI and AMFI norms bar third-party payments except for specified exceptions."
+  ],
+  [
+   "Banking Operations in Mutual Funds",
+   "SIP instalments are most commonly collected through:",
+   [
+    "Auto-debit mandates registered on NACH",
+    "Credit card cash advances",
+    "Demand drafts sent every month",
+    "Cash deposited at the AMC branch"
+   ],
+   0,
+   "NACH mandates let the scheme debit the investor's bank account automatically on SIP dates."
+  ],
+  [
+   "Banking Operations in Mutual Funds",
+   "An investor's SIP cheque bounces because of insufficient funds. The RTA should:",
+   [
+    "Treat it as a redemption",
+    "Reverse the allotment of units made against that instalment",
+    "Allot units and recover the money later from the distributor",
+    "Close the folio permanently"
+   ],
+   1,
+   "Units allotted against a dishonoured payment are reversed because the funds were never realised."
+  ],
+  [
+   "Financial Transactions",
+   "An investor invests ₹49,997.50 (after stamp duty) in a scheme at an NAV of ₹25. How many units are allotted?",
+   [
+    "1,999.900",
+    "1,999.500",
+    "2,000.000",
+    "1,250.000"
+   ],
+   0,
+   "Units = 49,997.50 ÷ 25 = 1,999.900."
+  ],
+  [
+   "Financial Transactions",
+   "A switch from Scheme A to Scheme B of the same fund house is treated as:",
+   [
+    "A change of bank mandate",
+    "A non-financial transaction",
+    "A transfer of units without any redemption",
+    "A redemption from Scheme A and a purchase in Scheme B"
+   ],
+   3,
+   "A switch-out is a redemption and a switch-in is a purchase, each at its applicable NAV and charges."
+  ],
+  [
+   "Financial Transactions",
+   "Under the current SEBI framework, redemption proceeds for most mutual fund schemes must be transferred to unitholders within:",
+   [
+    "15 calendar days",
+    "30 days",
+    "3 working days of the redemption request",
+    "10 working days"
+   ],
+   2,
+   "SEBI and AMFI reduced the redemption payout timeline to 3 working days, with exceptions only for specified scheme types."
+  ],
+  [
+   "Financial Transactions",
+   "For an IDCW (dividend) declared by a scheme, payment must be made to unitholders within:",
+   [
+    "30 days from the record date",
+    "15 working days from declaration",
+    "7 working days from the record date",
+    "One working day"
+   ],
+   2,
+   "SEBI requires IDCW payouts within 7 working days of the record date."
+  ],
+  [
+   "Financial Transactions",
+   "In a Systematic Transfer Plan, the investor:",
+   [
+    "Periodically switches a fixed amount from one scheme to another scheme of the same fund",
+    "Invests a lump sum only once",
+    "Transfers units to another investor's folio",
+    "Periodically redeems units to their bank account"
+   ],
+   0,
+   "An STP moves money at intervals between schemes of the same mutual fund, often from a debt fund to an equity fund."
+  ],
+  [
+   "Non-Financial Transactions",
+   "Which of the following is a non-financial transaction in a mutual fund folio?",
+   [
+    "Switch-out",
+    "Redemption",
+    "SIP instalment",
+    "Change of bank mandate"
+   ],
+   3,
+   "Changes to bank details, address or nominee alter records without moving money."
+  ],
+  [
+   "Non-Financial Transactions",
+   "When the sole unitholder of a folio dies and a nominee is registered, the units are passed to the nominee through:",
+   [
+    "Switch",
+    "Transmission",
+    "Pledge",
+    "Redemption"
+   ],
+   1,
+   "Transmission moves units to the nominee or legal heir on the unitholder's death after the RTA verifies the documents."
+  ],
+  [
+   "Non-Financial Transactions",
+   "Because a change of bank mandate is high-risk for fraud, RTAs typically:",
+   [
+    "Verify the request against supporting proof of the new bank account and the investor's signature",
+    "Process it on a phone call",
+    "Accept it from the distributor without the investor's signature",
+    "Ignore it until the next NFO"
+   ],
+   0,
+   "Strict verification of bank mandate changes protects investors from fraudulent diversion of redemption proceeds."
+  ],
+  [
+   "Non-Financial Transactions",
+   "A consolidated account statement (CAS) for mutual fund investors is sent:",
+   [
+    "Monthly if there is a transaction in that month, and otherwise half-yearly",
+    "Weekly, irrespective of transactions",
+    "Only once a year",
+    "Only when the investor asks for it"
+   ],
+   0,
+   "SEBI requires a monthly CAS for months with transactions and a half-yearly CAS otherwise."
+  ],
+  [
+   "Non-Financial Transactions",
+   "An investor wants to update a change of address in a folio. The RTA should first check whether:",
+   [
+    "SEBI has issued a no-objection certificate",
+    "The investor has redeemed all units",
+    "The distributor approves the change",
+    "The investor's KYC records are updated, since address changes for KYC-compliant investors flow through the KYC record"
+   ],
+   3,
+   "Address and contact details are tied to the KYC record, so changes are made in line with KYC norms."
+  ]
+ ],
+ "iii-a": [
+  [
+   "Introduction to the Financial System",
+   "Which of these is the main economic role of a financial system?",
+   [
+    "Collecting direct taxes for the government",
+    "Issuing currency notes",
+    "Fixing the prices of goods and services",
+    "Channelling savings from surplus units to deficit units that need funds for investment"
+   ],
+   3,
+   "Financial markets and intermediaries mobilise savings and allocate them to productive uses."
+  ],
+  [
+   "Introduction to the Financial System",
+   "Commercial paper, certificates of deposit and call money are all instruments of the:",
+   [
+    "Commodity derivatives market",
+    "Insurance market",
+    "Equity capital market",
+    "Money market"
+   ],
+   3,
+   "These are short-term instruments with maturities up to one year, which places them in the money market."
+  ],
+  [
+   "Regulatory Framework – General View",
+   "Which regulator oversees the pension sector, including the National Pension System?",
+   [
+    "RBI",
+    "IRDAI",
+    "PFRDA",
+    "SEBI"
+   ],
+   2,
+   "The Pension Fund Regulatory and Development Authority regulates NPS and pension funds."
+  ],
+  [
+   "Regulatory Framework – General View",
+   "The Companies Act, 2013 is administered by:",
+   [
+    "The Department of Revenue",
+    "The Reserve Bank of India",
+    "SEBI",
+    "The Ministry of Corporate Affairs"
+   ],
+   3,
+   "MCA administers company law; SEBI administers certain provisions on listed and public issues."
+  ],
+  [
+   "Introduction to Compliance",
+   "Which of the following best describes the compliance function in a SEBI-registered intermediary?",
+   [
+    "Marketing the firm's products to investors",
+    "Approving client credit limits for business reasons alone",
+    "Maximising trading revenue for the firm",
+    "Ensuring the firm's activities follow applicable laws, regulations and internal policies, and reporting deviations"
+   ],
+   3,
+   "Compliance makes sure the business runs within the regulatory framework and escalates breaches."
+  ],
+  [
+   "Introduction to Compliance",
+   "To be effective, a compliance officer should ideally:",
+   [
+    "Be appointed only when SEBI issues a show-cause notice",
+    "Report to the head of sales and earn incentives on sales targets",
+    "Handle all front-office trading",
+    "Be independent and have direct access to the board or senior management"
+   ],
+   3,
+   "Independence and access to the top management let the compliance officer escalate issues without conflicts."
+  ],
+  [
+   "SEBI Act, 1992",
+   "Under the SEBI Act, 1992, an appeal against an order of the Securities Appellate Tribunal lies with:",
+   [
+    "The Ministry of Finance",
+    "The Supreme Court",
+    "The SEBI Board",
+    "The High Court"
+   ],
+   1,
+   "Section 15Z of the SEBI Act provides for an appeal from SAT to the Supreme Court."
+  ],
+  [
+   "SEBI Act, 1992",
+   "Which section of the SEBI Act requires intermediaries such as stock brokers to obtain a certificate of registration?",
+   [
+    "Section 15A",
+    "Section 26",
+    "Section 12",
+    "Section 11B"
+   ],
+   2,
+   "Section 12 bars intermediaries from dealing in securities without SEBI registration."
+  ],
+  [
+   "SEBI Act, 1992",
+   "SEBI issues directions to an entity in the interest of investors without first imposing a monetary penalty. Which power is it most likely exercising?",
+   [
+    "Power to levy stamp duty",
+    "Power to hear appeals under Section 15T",
+    "Power to issue directions under Section 11B",
+    "Power to set monetary policy"
+   ],
+   2,
+   "Section 11B empowers SEBI to issue directions to protect investors or the orderly development of the market."
+  ],
+  [
+   "SCRA, 1956 and SCRR, 1957",
+   "Under the SCRR, 1957, a listed company must maintain minimum public shareholding of at least:",
+   [
+    "25%",
+    "51%",
+    "15%",
+    "10%"
+   ],
+   0,
+   "Rule 19A of SCRR requires listed companies to maintain at least 25% public shareholding."
+  ],
+  [
+   "SCRA, 1956 and SCRR, 1957",
+   "Under the SCRA, a 'spot delivery contract' is one where delivery and payment take place:",
+   [
+    "Only at the expiry of a derivatives series",
+    "At any time agreed by the parties",
+    "On the same day as the contract or the next day",
+    "Within 30 days"
+   ],
+   2,
+   "SCRA defines spot delivery contracts as settling the same day or the next day."
+  ],
+  [
+   "SEBI (Intermediaries) Regulations, 2008",
+   "Under the SEBI (Intermediaries) Regulations, 2008, the 'fit and proper person' criteria consider, among other things, whether the applicant:",
+   [
+    "Is listed on a stock exchange",
+    "Has integrity, honesty, reputation and no relevant disqualification",
+    "Has an office in every state",
+    "Has the highest market share"
+   ],
+   1,
+   "The criteria focus on integrity, reputation and absence of disqualifications such as convictions or winding-up orders."
+  ],
+  [
+   "SEBI (Intermediaries) Regulations, 2008",
+   "Once granted, a certificate of registration under the Intermediaries Regulations is generally:",
+   [
+    "Valid for one year only",
+    "Permanent unless suspended or cancelled by SEBI",
+    "Transferable to any other entity",
+    "Renewable every month"
+   ],
+   1,
+   "Registration is permanent, subject to payment of fees and continued compliance, unless SEBI suspends or cancels it."
+  ],
+  [
+   "SEBI (Prohibition of Insider Trading) Regulations",
+   "A designated person of a listed company sells shares and buys them back two months later. Under the insider trading regulations this is:",
+   [
+    "A prohibited contra trade, since the opposite trade was within six months",
+    "Permitted, because the gap exceeds 30 days",
+    "Permitted, if the shares are held in demat",
+    "Prohibited only if the trade value exceeds ₹1 crore"
+   ],
+   0,
+   "Designated persons may not execute an opposite transaction within six months of a previous trade."
+  ],
+  [
+   "SEBI (Prohibition of Insider Trading) Regulations",
+   "A designated person's trades in the company's securities total ₹12 lakh in a calendar quarter. Under continual disclosure norms, the person must disclose this to the company within:",
+   [
+    "No disclosure is needed",
+    "30 days",
+    "7 working days",
+    "2 trading days"
+   ],
+   3,
+   "Trades crossing ₹10 lakh in a calendar quarter must be disclosed within 2 trading days."
+  ],
+  [
+   "SEBI (PFUTP) Regulations, 2003",
+   "An entity repeatedly trades among its own group accounts to create misleading volumes in a stock. This is an example of:",
+   [
+    "Insider trading only if UPSI is involved",
+    "Legitimate arbitrage",
+    "A manipulative and unfair trade practice prohibited under PFUTP",
+    "Permitted market making"
+   ],
+   2,
+   "Circular or synchronised trading that creates a false appearance of trading is prohibited under PFUTP."
+  ],
+  [
+   "SEBI (PFUTP) Regulations, 2003",
+   "A broker's dealer trades ahead of a large client order he knows is about to be placed. This practice is called:",
+   [
+    "Basket trading",
+    "Hedging",
+    "Market making",
+    "Front running"
+   ],
+   3,
+   "Trading ahead of a known client order to profit from its price impact is front running, which PFUTP prohibits."
+  ],
+  [
+   "Prevention of Money Laundering Act, 2002",
+   "Under the PMLA framework, a reporting entity must furnish a Suspicious Transaction Report to FIU-IND within:",
+   [
+    "7 working days of being satisfied that the transaction is suspicious",
+    "30 days of the transaction",
+    "The end of the financial year",
+    "24 hours of account opening"
+   ],
+   0,
+   "STRs must be filed within 7 working days of the principal officer concluding that a transaction is suspicious."
+  ],
+  [
+   "Prevention of Money Laundering Act, 2002",
+   "Under PMLA, transaction records must be maintained for at least:",
+   [
+    "Five years",
+    "Three years",
+    "Two years",
+    "One year"
+   ],
+   0,
+   "The Act requires records to be preserved for five years."
+  ],
+  [
+   "Prevention of Money Laundering Act, 2002",
+   "The official designated by an intermediary to report suspicious and cash transactions to FIU-IND is called the:",
+   [
+    "Investor Relations Officer",
+    "Principal Officer",
+    "Nodal Banker",
+    "Compliance Auditor"
+   ],
+   1,
+   "PMLA rules require a Principal Officer, along with a Designated Director, to ensure reporting obligations are met."
+  ],
+  [
+   "SEBI (KYC Registration Agency) Regulations, 2011",
+   "The main purpose of KYC Registration Agencies is to:",
+   [
+    "Maintain KYC records centrally so that an investor's KYC done through one intermediary can be used by others",
+    "Rate the creditworthiness of investors",
+    "Approve IPO allotments",
+    "Collect stamp duty on securities transactions"
+   ],
+   0,
+   "KRAs avoid duplicate KYC by storing records that other SEBI intermediaries can access."
+  ],
+  [
+   "SEBI (KYC Registration Agency) Regulations, 2011",
+   "After completing KYC of a new client, an intermediary is required to:",
+   [
+    "Wait for the client's first trade before uploading",
+    "Upload the KYC details to a KRA system within the prescribed time",
+    "Send the original documents to SEBI",
+    "Publish the client's details in a newspaper"
+   ],
+   1,
+   "Intermediaries must upload KYC information to the KRA, which then validates and keeps it."
+  ],
+  [
+   "SEBI (Foreign Portfolio Investors) Regulations, 2019",
+   "Under the FPI Regulations, 2019, FPIs are classified into:",
+   [
+    "Category I, II and III",
+    "Category I and Category II",
+    "Retail and wholesale",
+    "Domestic and foreign"
+   ],
+   1,
+   "The 2019 regulations replaced the earlier three categories with two."
+  ],
+  [
+   "SEBI (Foreign Portfolio Investors) Regulations, 2019",
+   "An FPI, together with its investor group, may hold equity shares in a listed Indian company of:",
+   [
+    "Less than 10% of the total paid-up equity capital on a fully diluted basis",
+    "Any amount without limit",
+    "Up to 49%",
+    "Up to 26%"
+   ],
+   0,
+   "The individual FPI-group limit is below 10%; crossing it requires reclassification as FDI."
+  ],
+  [
+   "SEBI (Stock Brokers) Regulations",
+   "A stock broker must issue a contract note to the client within:",
+   [
+    "One month of the trade",
+    "24 hours of execution of the trade",
+    "The end of the settlement week",
+    "7 days of the trade"
+   ],
+   1,
+   "Contract notes, physical or electronic, must reach the client within 24 hours of the trade."
+  ],
+  [
+   "SEBI (Stock Brokers) Regulations",
+   "A broker uses one client's credit balance to meet another client's margin shortfall. This is:",
+   [
+    "A violation of the rule that client funds must be segregated and used only for that client",
+    "Permitted if both clients are relatives",
+    "Permitted during market volatility",
+    "A routine treasury practice"
+   ],
+   0,
+   "Client money belongs to that client and cannot be used for others' obligations or the broker's own purposes."
+  ],
+  [
+   "SEBI (Stock Brokers) Regulations",
+   "Before placing orders for a client, a stock broker must ensure the client has:",
+   [
+    "A Unique Client Code mapped to the client's PAN",
+    "A credit rating",
+    "A SEBI registration number",
+    "A current account with the exchange"
+   ],
+   0,
+   "Exchanges require each client to have a UCC linked to PAN for order identification."
+  ],
+  [
+   "SEBI (Merchant Bankers) Regulations etc.",
+   "A merchant banker should not lead-manage an issue if:",
+   [
+    "The issue size exceeds ₹100 crore",
+    "It is an associate of the issuer company",
+    "The issue is a rights issue",
+    "The issuer is a first-time issuer"
+   ],
+   1,
+   "Merchant banker regulations bar a merchant banker from leading an issue of an associate, to avoid conflicts of interest."
+  ],
+  [
+   "SEBI (Merchant Bankers) Regulations etc.",
+   "Which intermediary undertakes to subscribe to securities in an issue if the public does not fully subscribe to them?",
+   [
+    "Banker to an issue",
+    "Registrar to an issue",
+    "Debenture trustee",
+    "Underwriter"
+   ],
+   3,
+   "An underwriter commits to take up the unsubscribed portion up to its underwriting obligation."
+  ],
+  [
+   "SEBI (ICDR) Regulations, 2018",
+   "In a book-built IPO under Regulation 6(1) of ICDR, the minimum allocation to retail individual investors is:",
+   [
+    "50% of the net offer",
+    "15% of the net offer",
+    "35% of the net offer",
+    "10% of the net offer"
+   ],
+   2,
+   "Under Regulation 6(1), RIIs get at least 35%, NIIs at least 15% and QIBs up to 50%."
+  ],
+  [
+   "SEBI (ICDR) Regulations, 2018",
+   "If the floor price of a book-built issue is ₹100, the highest possible cap of the price band is:",
+   [
+    "₹120",
+    "₹200",
+    "₹150",
+    "₹110"
+   ],
+   0,
+   "The cap of the price band cannot exceed 120% of the floor price."
+  ],
+  [
+   "SEBI (ICDR) Regulations, 2018",
+   "In an IPO, promoters must contribute at least what share of the post-issue capital as minimum promoter contribution?",
+   [
+    "5%",
+    "75%",
+    "51%",
+    "20%"
+   ],
+   3,
+   "ICDR requires minimum promoter contribution of 20% of post-issue capital, subject to lock-in."
+  ],
+  [
+   "Depositories Act, 1996",
+   "Under the Depositories Act, 1996, securities held in a depository are:",
+   [
+    "Identified by individual certificate numbers",
+    "Required to be held in physical form also",
+    "Fungible, with no distinctive numbers identifying individual securities",
+    "Owned by the depository participant"
+   ],
+   2,
+   "Securities in a depository are fungible and carry no distinctive numbers."
+  ],
+  [
+   "Depositories Act, 1996",
+   "Under the Depositories Act, who has the rights and liabilities of a shareholder, such as dividends and voting, for securities held in demat form?",
+   [
+    "The depository",
+    "The depository participant",
+    "The beneficial owner",
+    "The registrar"
+   ],
+   2,
+   "The depository is the registered owner only for transfer purposes; the beneficial owner enjoys all rights."
+  ],
+  [
+   "SEBI (Depositories and Participants) Regulations, 2018",
+   "An entity wishing to become a depository participant applies to SEBI for registration:",
+   [
+    "Directly to the RBI",
+    "Through any stock broker",
+    "Through the Ministry of Finance",
+    "Through a depository, which forwards the application with its recommendation"
+   ],
+   3,
+   "DP applications go through the depository, which forwards them to SEBI."
+  ],
+  [
+   "SEBI (Depositories and Participants) Regulations, 2018",
+   "A depository participant must reconcile its records with the depository regularly mainly to:",
+   [
+    "Approve corporate actions",
+    "Fix the market price of securities",
+    "Calculate its income tax",
+    "Ensure client holdings in its books match the depository's records"
+   ],
+   3,
+   "Regular reconciliation keeps the DP's client holdings consistent with the depository's records."
+  ],
+  [
+   "SEBI (RTA) Regulations, 1993",
+   "An entity registered as a Category II RTA can:",
+   [
+    "Act either as a registrar to an issue or as a share transfer agent, but not both",
+    "Act as a merchant banker",
+    "Act as both registrar and share transfer agent",
+    "Act as a depository"
+   ],
+   0,
+   "Category I covers both roles, while Category II covers only one."
+  ],
+  [
+   "SEBI (RTA) Regulations, 1993",
+   "Which of the following is a function of a share transfer agent?",
+   [
+    "Holding the company's cash reserves",
+    "Fixing the issue price",
+    "Underwriting public issues",
+    "Maintaining the register of members and processing transmission and other investor service requests"
+   ],
+   3,
+   "STAs keep records of security holders and service investors on behalf of the company."
+  ],
+  [
+   "SEBI (Research Analysts) Regulations, 2014",
+   "A research analyst publishes a buy report on a stock. The analyst is prohibited from trading in that stock:",
+   [
+    "At no time; there is no restriction",
+    "From 30 days before to 5 days after the report is published",
+    "For one year after publication",
+    "Only on the day of publication"
+   ],
+   1,
+   "RA regulations bar dealings in the subject security 30 days before and 5 days after publication."
+  ],
+  [
+   "SEBI (Research Analysts) Regulations, 2014",
+   "An analyst holding shares of a company covered in a research report must:",
+   [
+    "Sell the shares before writing",
+    "Disclose the financial interest in the report",
+    "Not mention it, to avoid influencing readers",
+    "Obtain RBI approval"
+   ],
+   1,
+   "Conflicts of interest, including holdings in the subject company, must be disclosed in research reports."
+  ],
+  [
+   "SEBI (Investment Advisers) Regulations, 2013",
+   "An individual investment adviser wants to also earn distribution commissions from the same clients. Under the regulations:",
+   [
+    "This is not permitted; advisory and distribution must be segregated at the client level",
+    "It is permitted only for mutual funds",
+    "It is permitted for clients above ₹1 crore",
+    "It is permitted if disclosed in the agreement"
+   ],
+   0,
+   "SEBI requires client-level segregation so that the same client cannot receive both advice and distribution services."
+  ],
+  [
+   "SEBI (Investment Advisers) Regulations, 2013",
+   "Before recommending a product, an investment adviser must:",
+   [
+    "Carry out risk profiling and ensure the advice suits the client",
+    "Guarantee the client a minimum return",
+    "Obtain the issuer's consent",
+    "Hold the product itself"
+   ],
+   0,
+   "Risk profiling and suitability are core obligations of investment advisers."
+  ],
+  [
+   "SEBI (Debenture Trustees) Regulations, 1993",
+   "Which of the following entities is eligible to be registered as a debenture trustee?",
+   [
+    "An individual retail investor",
+    "A partnership of the issuer's promoters",
+    "A scheduled commercial bank",
+    "The issuer company itself"
+   ],
+   2,
+   "Debenture trustees must be scheduled banks, public financial institutions, insurance companies or eligible body corporates."
+  ],
+  [
+   "SEBI (Debenture Trustees) Regulations, 1993",
+   "A key responsibility of a debenture trustee is to:",
+   [
+    "Guarantee repayment from its own funds",
+    "Monitor the issuer's compliance with the terms of issue and protect debenture holders' interests, including the security created",
+    "Fix the coupon rate for the issuer",
+    "Market the debentures to retail investors"
+   ],
+   1,
+   "The debenture trustee acts for debenture holders and checks the issuer's obligations, including asset cover."
+  ],
+  [
+   "SEBI (Credit Rating Agencies) Regulations, 1999",
+   "A credit rating agency is prohibited from rating securities issued by:",
+   [
+    "Its promoter",
+    "A listed company",
+    "A government-owned company",
+    "A bank"
+   ],
+   0,
+   "To avoid conflicts, a CRA cannot rate securities issued by its promoter."
+  ],
+  [
+   "SEBI (Credit Rating Agencies) Regulations, 1999",
+   "A credit rating assigned to a debt instrument is best described as:",
+   [
+    "An audit certificate",
+    "An opinion on the relative likelihood of timely payment of obligations",
+    "A guarantee of repayment",
+    "A recommendation to buy or sell"
+   ],
+   1,
+   "Ratings are opinions on credit risk, not guarantees or investment advice."
+  ],
+  [
+   "SEBI (Custodian) Regulations, 1996",
+   "Which of these is a core custodial service?",
+   [
+    "Issuing credit ratings",
+    "Underwriting public issues",
+    "Safekeeping of securities and collecting corporate action benefits for clients",
+    "Granting loans to FPIs"
+   ],
+   2,
+   "Custodians hold client assets and service them, including corporate actions and settlement."
+  ],
+  [
+   "SEBI (Custodian) Regulations, 1996",
+   "Under custodian regulations, client securities must be:",
+   [
+    "Held only in physical form",
+    "Pooled with the custodian's proprietary holdings",
+    "Segregated from the custodian's own assets",
+    "Transferred to the RBI"
+   ],
+   2,
+   "Segregation protects client assets in the event of the custodian's insolvency."
+  ],
+  [
+   "Proxy Advisors",
+   "In India, proxy advisors are required to register with SEBI under the:",
+   [
+    "SEBI (Merchant Bankers) Regulations, 1992",
+    "SEBI (Custodian) Regulations, 1996",
+    "SEBI (Research Analysts) Regulations, 2014",
+    "SEBI (Investment Advisers) Regulations, 2013"
+   ],
+   2,
+   "Proxy advisory services fall within the research analyst framework."
+  ],
+  [
+   "Proxy Advisors",
+   "Proxy advisors primarily provide:",
+   [
+    "Custody of voting shares",
+    "Recommendations to institutional investors on how to vote on shareholder resolutions",
+    "Underwriting for proxy issues",
+    "Credit ratings for companies"
+   ],
+   1,
+   "Proxy advisers analyse resolutions and recommend voting decisions to institutional investors."
+  ]
+ ],
+ "iii-c": [
+  [
+   "Introduction to the Financial System",
+   "Which of the following is an example of a financial intermediary?",
+   [
+    "A household buying gold jewellery",
+    "A government department collecting taxes",
+    "A mutual fund pooling money from investors",
+    "A company issuing its own shares directly"
+   ],
+   2,
+   "Mutual funds pool savings and invest them, linking savers with users of capital."
+  ],
+  [
+   "Introduction to the Financial System",
+   "In the capital market, long-term funds are raised through instruments such as:",
+   [
+    "Equity shares and long-term bonds",
+    "Call money and treasury bills",
+    "Certificates of deposit",
+    "Commercial paper"
+   ],
+   0,
+   "The capital market deals in long-term instruments; the other options are money market instruments."
+  ],
+  [
+   "Regulatory Framework – General View",
+   "Which body regulates banks and non-banking financial companies in India?",
+   [
+    "IRDAI",
+    "PFRDA",
+    "Reserve Bank of India",
+    "SEBI"
+   ],
+   2,
+   "The RBI is the banking regulator and also supervises NBFCs."
+  ],
+  [
+   "Regulatory Framework – General View",
+   "Mutual funds, AIFs, REITs and InvITs are regulated by:",
+   [
+    "Ministry of Corporate Affairs",
+    "IRDAI",
+    "RBI",
+    "SEBI"
+   ],
+   3,
+   "All four are pooled investment vehicles under SEBI's regulatory jurisdiction."
+  ],
+  [
+   "Introduction to Compliance",
+   "Which of the following is the best example of compliance risk for an AMC?",
+   [
+    "A rise in interest rates",
+    "Being penalised for failing to follow SEBI's scheme investment restrictions",
+    "A competitor launching a similar scheme",
+    "A fall in the stock market"
+   ],
+   1,
+   "Compliance risk is the risk of sanctions or loss from not complying with laws and regulations."
+  ],
+  [
+   "Introduction to Compliance",
+   "The compliance officer of a SEBI-registered fund intermediary should:",
+   [
+    "Act only when an investor complains",
+    "Monitor compliance with regulations and report non-compliance to SEBI and the board as required",
+    "Approve investment decisions to maximise returns",
+    "Be paid a share of trading profits"
+   ],
+   1,
+   "The compliance officer monitors adherence and reports deviations; the role must remain free of conflicts."
+  ],
+  [
+   "SEBI Act, 1992",
+   "A person aggrieved by an order of a SEBI adjudicating officer may appeal to SAT within:",
+   [
+    "7 days",
+    "90 days",
+    "45 days from receipt of the order",
+    "One year"
+   ],
+   2,
+   "Appeals to SAT must be filed within 45 days, extendable if sufficient cause is shown."
+  ],
+  [
+   "SEBI Act, 1992",
+   "Which of the following is a function of SEBI under Section 11 of the SEBI Act?",
+   [
+    "Issuing currency",
+    "Setting income tax rates",
+    "Regulating insurance companies",
+    "Regulating the business of stock exchanges and mutual funds"
+   ],
+   3,
+   "Section 11 lists SEBI's functions, including registering and regulating mutual funds and exchanges."
+  ],
+  [
+   "SCRA, 1956 and SCRR, 1957",
+   "Under the SCRA, 1956, a company's shares can be traded on a stock exchange only if:",
+   [
+    "The company is a government company",
+    "They are listed on that stock exchange or permitted to trade there",
+    "SEBI approves each trade",
+    "The company is profitable"
+   ],
+   1,
+   "Securities must be listed or permitted to trade on a recognised stock exchange."
+  ],
+  [
+   "SCRA, 1956 and SCRR, 1957",
+   "Which Act gives legal recognition to derivatives as securities in India?",
+   [
+    "Depositories Act, 1996",
+    "Indian Contract Act, 1872",
+    "FEMA, 1999",
+    "Securities Contracts (Regulation) Act, 1956"
+   ],
+   3,
+   "The SCRA includes derivatives in the definition of securities and makes them legal when traded on recognised exchanges."
+  ],
+  [
+   "SEBI (Intermediaries) Regulations, 2008",
+   "Under the Intermediaries Regulations, if a registered intermediary materially changes its control, it must:",
+   [
+    "Obtain SEBI's prior approval",
+    "Only inform its clients",
+    "Do nothing, since registration is permanent",
+    "Inform SEBI within five years"
+   ],
+   0,
+   "A change in control requires prior SEBI approval to ensure the new controllers are fit and proper."
+  ],
+  [
+   "SEBI (Intermediaries) Regulations, 2008",
+   "Which of the following would most likely make an applicant NOT 'fit and proper' under the Intermediaries Regulations?",
+   [
+    "Being a newly incorporated company",
+    "Having a small client base",
+    "Being located outside Mumbai",
+    "A recent conviction for an offence involving fraud"
+   ],
+   3,
+   "A conviction involving moral turpitude or fraud is a disqualification under the fit and proper criteria."
+  ],
+  [
+   "SEBI (Prohibition of Insider Trading) Regulations",
+   "Unpublished Price Sensitive Information (UPSI) includes information about:",
+   [
+    "Details already in the annual report",
+    "Financial results that have not yet been made public",
+    "Historical share prices",
+    "The company's registered office address"
+   ],
+   1,
+   "UPSI is non-public information likely to materially affect the price, such as results, dividends or mergers."
+  ],
+  [
+   "SEBI (Prohibition of Insider Trading) Regulations",
+   "The trading window for designated persons of a listed company is typically closed from the end of a quarter until:",
+   [
+    "Seven days after the quarter ends",
+    "The next AGM",
+    "48 hours after the financial results are declared",
+    "The end of the financial year"
+   ],
+   2,
+   "Trading window closure runs from the end of the quarter until 48 hours after results are made public."
+  ],
+  [
+   "SEBI (Prohibition of Insider Trading) Regulations",
+   "A fund manager learns about an unannounced merger from a friend at the target company and buys its shares. This is:",
+   [
+    "Front running",
+    "Allowed, if the trade is under ₹10 lakh",
+    "Insider trading, since he traded while in possession of UPSI",
+    "Allowed, because he is not an employee of the target"
+   ],
+   2,
+   "Anyone who has UPSI, including from a connected person, is an insider and cannot trade on it."
+  ],
+  [
+   "SEBI (PFUTP) Regulations, 2003",
+   "Which of the following is prohibited as a fraudulent practice under PFUTP?",
+   [
+    "Mis-selling units of a mutual fund scheme by making false statements about returns",
+    "Disclosing past performance in the prescribed format",
+    "Charging the disclosed exit load",
+    "Recommending a scheme suited to the investor's risk profile"
+   ],
+   0,
+   "PFUTP specifically covers mis-selling of securities and services, including MF units."
+  ],
+  [
+   "SEBI (PFUTP) Regulations, 2003",
+   "Spreading false rumours about a company to influence its share price falls under:",
+   [
+    "Permitted investment research",
+    "Manipulative and deceptive practices prohibited by PFUTP",
+    "Insider trading",
+    "Normal market commentary"
+   ],
+   1,
+   "Disseminating false information to influence prices is a PFUTP violation."
+  ],
+  [
+   "Prevention of Money Laundering Act, 2002",
+   "Under PMLA, a Cash Transaction Report must be filed with FIU-IND by:",
+   [
+    "The end of the financial year",
+    "Within 24 hours of each transaction",
+    "The 15th day of the following month",
+    "Within 7 working days of the transaction"
+   ],
+   2,
+   "CTRs for the month are due by the 15th of the next month."
+  ],
+  [
+   "Prevention of Money Laundering Act, 2002",
+   "An AMC notices an investor making repeated large purchases followed by quick redemptions to different bank accounts, with no clear rationale. The AMC should:",
+   [
+    "Treat it as potentially suspicious and have the Principal Officer evaluate it for an STR",
+    "Inform the investor that a report is being filed",
+    "Ignore it, since redemptions are allowed",
+    "Close the folio without recording reasons"
+   ],
+   0,
+   "Unusual patterns must be assessed for STR filing, and the investor must not be tipped off."
+  ],
+  [
+   "SEBI (KYC Registration Agency) Regulations, 2011",
+   "Which body maintains the Central KYC Records Registry in India?",
+   [
+    "AMFI",
+    "NSDL",
+    "SEBI",
+    "CERSAI"
+   ],
+   3,
+   "The Central Registry of Securitisation Asset Reconstruction and Security Interest of India (CERSAI) runs CKYCR."
+  ],
+  [
+   "SEBI (KYC Registration Agency) Regulations, 2011",
+   "A KYC Registration Agency must be registered with:",
+   [
+    "RBI",
+    "SEBI",
+    "CERSAI",
+    "FIU-IND"
+   ],
+   1,
+   "KRAs are registered and regulated by SEBI under the KRA Regulations, 2011."
+  ],
+  [
+   "SEBI (Foreign Portfolio Investors) Regulations, 2019",
+   "Which of the following would typically fall under Category I FPI?",
+   [
+    "A family office",
+    "An unregulated corporate body",
+    "A foreign central bank or sovereign wealth fund",
+    "An individual foreign investor"
+   ],
+   2,
+   "Category I includes government-related investors and appropriately regulated entities; individuals and family offices are Category II."
+  ],
+  [
+   "SEBI (Foreign Portfolio Investors) Regulations, 2019",
+   "FPI registration is granted by a DDP and remains valid:",
+   [
+    "Until the next Union Budget",
+    "For one year only",
+    "For the duration of one investment only",
+    "Permanently, unless suspended or cancelled, subject to payment of fees every block of three years"
+   ],
+   3,
+   "Under the 2019 regulations, FPI registration is permanent, subject to periodic fees."
+  ],
+  [
+   "Foreign Exchange Management Act",
+   "FEMA, 1999 replaced FERA, 1973. A key difference is that contraventions under FEMA are:",
+   [
+    "Civil in nature, attracting monetary penalties",
+    "Dealt with by SEBI",
+    "Not punishable at all",
+    "Treated only as criminal offences"
+   ],
+   0,
+   "FEMA makes most contraventions civil offences, unlike the criminal approach of FERA."
+  ],
+  [
+   "Foreign Exchange Management Act",
+   "Under FEMA, an Indian resident buying shares of a foreign company is a:",
+   [
+    "Capital account transaction",
+    "Current account transaction",
+    "Transaction outside FEMA's scope",
+    "Money market transaction"
+   ],
+   0,
+   "Transactions that change foreign assets or liabilities of residents are capital account transactions."
+  ],
+  [
+   "Depositories Act, 1996",
+   "Under the Depositories Act, 1996, an investor who holds securities in demat form is the:",
+   [
+    "Registered owner",
+    "Issuer",
+    "Custodian",
+    "Beneficial owner"
+   ],
+   3,
+   "The depository is the registered owner, and the investor is the beneficial owner with all rights."
+  ],
+  [
+   "Depositories Act, 1996",
+   "Which of the following is a feature of securities held in a depository?",
+   [
+    "They cannot be pledged",
+    "They are fungible and have no distinctive numbers",
+    "Each has a unique certificate number",
+    "They can be transferred only by physical transfer deed"
+   ],
+   1,
+   "Fungibility is a key feature under Section 9 of the Act."
+  ],
+  [
+   "SEBI (Mutual Funds) Regulations",
+   "Under the SEBI (Mutual Funds) Regulations, the minimum net worth required of an AMC is:",
+   [
+    "₹5 crore",
+    "₹100 crore",
+    "₹50 crore",
+    "₹10 crore"
+   ],
+   2,
+   "SEBI requires an AMC to have a net worth of at least ₹50 crore."
+  ],
+  [
+   "SEBI (Mutual Funds) Regulations",
+   "At least what proportion of the board of trustees (or trustee company) must be independent?",
+   [
+    "Two-thirds",
+    "One-third",
+    "One-half",
+    "All members"
+   ],
+   0,
+   "SEBI requires at least two-thirds of trustees to be independent of the sponsor."
+  ],
+  [
+   "SEBI (Mutual Funds) Regulations",
+   "At least what proportion of an AMC's board of directors must be independent?",
+   [
+    "50%",
+    "25%",
+    "33%",
+    "75%"
+   ],
+   0,
+   "At least half of the AMC's directors must be independent of the sponsor and trustees."
+  ],
+  [
+   "SEBI (Mutual Funds) Regulations",
+   "A mutual fund scheme (other than ETFs and certain exempt categories) must have a minimum of how many investors, with no single investor holding more than 25% of the corpus?",
+   [
+    "50",
+    "100",
+    "10",
+    "20"
+   ],
+   3,
+   "The 20-investor and 25% single-investor rule keeps schemes broad-based."
+  ],
+  [
+   "SEBI (Mutual Funds) Regulations",
+   "A new fund offer of a scheme, other than ELSS, can remain open for at most:",
+   [
+    "7 days",
+    "45 days",
+    "30 days",
+    "15 days"
+   ],
+   3,
+   "SEBI limits NFO subscription periods to 15 days, except for ELSS."
+  ],
+  [
+   "SEBI (Mutual Funds) Regulations",
+   "SEBI's riskometer for mutual fund schemes classifies risk into how many levels?",
+   [
+    "Five",
+    "Four",
+    "Six",
+    "Three"
+   ],
+   2,
+   "The levels are Low, Low to Moderate, Moderate, Moderately High, High and Very High."
+  ],
+  [
+   "SEBI (Mutual Funds) Regulations",
+   "Which of these documents contains scheme-specific information such as investment objective, asset allocation and loads?",
+   [
+    "Statement of Additional Information",
+    "Scheme Information Document",
+    "Annual report of the sponsor",
+    "Trust deed"
+   ],
+   1,
+   "The SID contains scheme-specific details, while the SAI covers fund-level statutory information."
+  ],
+  [
+   "SEBI (Mutual Funds) Regulations",
+   "An AMC wants to change a scheme's fundamental attributes, such as its type or investment objective. It must:",
+   [
+    "Give unitholders an option to exit at the prevailing NAV without exit load, after trustee approval",
+    "Obtain only the distributor's approval",
+    "Wind up the scheme",
+    "Make the change immediately without notice"
+   ],
+   0,
+   "Changes to fundamental attributes require trustee approval, notice to unitholders and a load-free exit window."
+  ],
+  [
+   "SEBI (Mutual Funds) Regulations",
+   "Which entity in a mutual fund structure is the settlor of the trust?",
+   [
+    "The sponsor",
+    "The RTA",
+    "The AMC",
+    "The custodian"
+   ],
+   0,
+   "The sponsor establishes the mutual fund trust and appoints the trustees."
+  ],
+  [
+   "SEBI (Mutual Funds) Regulations",
+   "Side pocketing in a debt scheme is used when:",
+   [
+    "A credit event occurs in a security, so the affected security is segregated from the rest of the portfolio",
+    "The NAV rises sharply",
+    "The scheme receives large inflows",
+    "The scheme changes its fund manager"
+   ],
+   0,
+   "Segregated portfolios ring-fence downgraded or defaulted securities so that the main portfolio is not affected."
+  ],
+  [
+   "SEBI (Mutual Funds) Regulations",
+   "Can an AMC carry on business activities other than managing mutual fund schemes?",
+   [
+    "Yes, it may undertake any business including banking",
+    "Only if the trustees personally guarantee the activity",
+    "Yes, certain permitted activities such as portfolio management or advisory services, with no material conflict and appropriate segregation",
+    "No, an AMC may never undertake any other activity"
+   ],
+   2,
+   "SEBI permits AMCs to undertake specified activities like PMS and advisory services subject to conflict-of-interest safeguards."
+  ],
+  [
+   "SEBI (AIF) Regulations",
+   "Under the SEBI (AIF) Regulations, the minimum investment by an investor in an AIF (other than employees, directors and certain specified investors) is:",
+   [
+    "₹1 crore",
+    "₹5 crore",
+    "₹50 lakh",
+    "₹10 lakh"
+   ],
+   0,
+   "The standard minimum investment per investor is ₹1 crore, with a lower threshold for employees and directors of the manager."
+  ],
+  [
+   "SEBI (AIF) Regulations",
+   "Which AIF category may use leverage and employ complex trading strategies, including derivatives?",
+   [
+    "Category II",
+    "Category III",
+    "Category I",
+    "None of the categories"
+   ],
+   1,
+   "Category III AIFs, such as hedge funds, may use leverage within limits; Category I and II cannot borrow except for temporary needs."
+  ],
+  [
+   "SEBI (AIF) Regulations",
+   "Venture capital funds, SME funds and social impact funds are classified as:",
+   [
+    "Mutual fund schemes",
+    "Category I AIFs",
+    "Category II AIFs",
+    "Category III AIFs"
+   ],
+   1,
+   "Category I covers funds investing in sectors the government considers socially or economically desirable."
+  ],
+  [
+   "SEBI (AIF) Regulations",
+   "A Category II AIF has investable funds of ₹200 crore. What is the maximum it can generally invest in a single investee company?",
+   [
+    "₹20 crore",
+    "₹50 crore",
+    "₹200 crore",
+    "₹100 crore"
+   ],
+   1,
+   "Category I and II AIFs may invest up to 25% of investable funds in one investee company: 25% × ₹200 crore = ₹50 crore."
+  ],
+  [
+   "SEBI (AIF) Regulations",
+   "The maximum number of investors in an AIF scheme (other than angel funds) is:",
+   [
+    "200",
+    "1,000",
+    "No limit",
+    "49"
+   ],
+   1,
+   "The AIF Regulations cap investors in a scheme at 1,000, except for angel funds."
+  ],
+  [
+   "SEBI (InvIT) Regulations",
+   "An InvIT must invest at least what share of the value of its assets in completed and revenue-generating infrastructure projects?",
+   [
+    "25%",
+    "100%",
+    "80%",
+    "50%"
+   ],
+   2,
+   "InvIT regulations require at least 80% in completed, revenue-generating infrastructure assets."
+  ],
+  [
+   "SEBI (InvIT) Regulations",
+   "The entity responsible for managing an InvIT's assets and investments and taking operational decisions is the:",
+   [
+    "Investment manager",
+    "Trustee",
+    "Depository",
+    "Sponsor's auditor"
+   ],
+   0,
+   "The investment manager makes investment decisions, while the trustee oversees the InvIT on behalf of unitholders."
+  ],
+  [
+   "SEBI (InvIT) Regulations",
+   "An InvIT must distribute to unitholders at least what share of its net distributable cash flows?",
+   [
+    "50%",
+    "90%",
+    "75%",
+    "100%"
+   ],
+   1,
+   "InvITs must distribute at least 90% of net distributable cash flows."
+  ],
+  [
+   "SEBI (REIT) Regulations",
+   "A REIT must invest at least 80% of the value of its assets in:",
+   [
+    "Government securities",
+    "Listed equity of real estate companies",
+    "Completed and rent- or income-generating properties",
+    "Under-construction projects"
+   ],
+   2,
+   "The 80% rule keeps REITs focused on income-producing real estate."
+  ],
+  [
+   "SEBI (REIT) Regulations",
+   "Which of the following can a REIT NOT invest in?",
+   [
+    "Government securities and money market instruments, within limits",
+    "Holding companies or SPVs owning eligible real estate",
+    "Completed and rent-generating commercial property",
+    "Vacant land"
+   ],
+   3,
+   "REIT regulations prohibit investment in vacant land, agricultural land or mortgages, other than mortgage-backed securities."
+  ],
+  [
+   "SEBI (REIT) Regulations",
+   "A REIT's trustee must be:",
+   [
+    "The REIT's property valuer",
+    "The sponsor itself",
+    "Any individual investor",
+    "Registered with SEBI as a debenture trustee and not an associate of the sponsor or manager"
+   ],
+   3,
+   "The trustee's independence safeguards unitholders' interests."
+  ],
+  [
+   "SEBI (REIT) Regulations",
+   "A full valuation of a REIT's assets by the valuer must be carried out at least:",
+   [
+    "Only at the initial offer",
+    "Once every five years",
+    "Daily",
+    "Once every financial year"
+   ],
+   3,
+   "REIT regulations require a full valuation at least annually, with half-yearly updates."
+  ]
+ ],
+ "vi": [
+  [
+   "Introduction to the Indian Capital Market",
+   "Which segment of the capital market is used when a company sells its shares to the public for the first time?",
+   [
+    "Secondary market",
+    "Primary market",
+    "Money market",
+    "Derivatives market"
+   ],
+   1,
+   "An IPO is a primary market transaction in which the issuer raises fresh funds."
+  ],
+  [
+   "Introduction to the Indian Capital Market",
+   "Which of these is a market infrastructure institution in the Indian securities market?",
+   [
+    "A research analyst",
+    "A depository",
+    "A mutual fund distributor",
+    "An investment adviser"
+   ],
+   1,
+   "Stock exchanges, clearing corporations and depositories are market infrastructure institutions."
+  ],
+  [
+   "Introduction to the Indian Capital Market",
+   "Which of the following is NOT a capital market instrument?",
+   [
+    "Convertible debenture",
+    "Long-term corporate bond",
+    "Equity share",
+    "91-day Treasury bill"
+   ],
+   3,
+   "A 91-day T-bill is a short-term money market instrument."
+  ],
+  [
+   "Introduction to Depository",
+   "Which of the following is a key advantage of holding securities in a depository?",
+   [
+    "Exemption from capital gains tax",
+    "No risk of loss, theft or mutilation of physical certificates",
+    "Higher face value of shares",
+    "Guaranteed dividends"
+   ],
+   1,
+   "Electronic holdings remove the risks and paperwork of physical certificates."
+  ],
+  [
+   "Introduction to Depository",
+   "The depository system in India is governed primarily by:",
+   [
+    "The Depositories Act, 1996 and SEBI (Depositories and Participants) Regulations, 2018",
+    "FEMA, 1999",
+    "The Banking Regulation Act, 1949",
+    "The Indian Trusts Act, 1882"
+   ],
+   0,
+   "The Depositories Act provides the legal basis and SEBI regulations govern depositories and DPs."
+  ],
+  [
+   "Introduction to Depository",
+   "A depository is best compared to a bank because it:",
+   [
+    "Pays interest on securities held",
+    "Lends money to investors against deposits",
+    "Holds securities in electronic accounts and transfers them through book entries",
+    "Issues currency"
+   ],
+   2,
+   "Like a bank holding funds, a depository holds securities and moves them by book entry."
+  ],
+  [
+   "Introduction to Depository",
+   "Which of the following can be held in a demat account?",
+   [
+    "Only physical share certificates",
+    "Only government securities",
+    "Only equity shares",
+    "Equity shares, bonds, mutual fund units and government securities"
+   ],
+   3,
+   "Depositories admit a wide range of securities, including debt, MF units and G-Secs."
+  ],
+  [
+   "Depository and its Business Partners",
+   "A depository participant acts as:",
+   [
+    "An investment adviser",
+    "A stock exchange",
+    "An agent of the depository providing depository services to investors",
+    "The issuer's share registrar"
+   ],
+   2,
+   "DPs are the depository's interface with investors and are registered with SEBI."
+  ],
+  [
+   "Depository and its Business Partners",
+   "Which business partner of the depository electronically confirms demat and remat requests on behalf of the issuer?",
+   [
+    "The issuer's Registrar and Transfer Agent",
+    "The stock exchange",
+    "The clearing bank",
+    "The investor's broker"
+   ],
+   0,
+   "The RTA verifies certificates and confirms demat or remat requests to the depository."
+  ],
+  [
+   "Depository and its Business Partners",
+   "Which entity provides the depository with net settlement obligations so that securities can be moved for exchange trades?",
+   [
+    "The RTA",
+    "The DP",
+    "The issuer",
+    "The clearing corporation"
+   ],
+   3,
+   "The clearing corporation sends pay-in and pay-out details to the depository."
+  ],
+  [
+   "Depository and its Business Partners",
+   "For a company's securities to be admitted to a depository, the issuer must:",
+   [
+    "Convert all its shares into debentures",
+    "Sign an agreement with the depository and have connectivity through its RTA",
+    "List on at least three exchanges",
+    "Obtain a banking licence"
+   ],
+   1,
+   "Issuers join the depository through a tripartite arrangement involving the RTA."
+  ],
+  [
+   "Depository and its Business Partners",
+   "Which of these entities is eligible to be registered as a depository participant?",
+   [
+    "A SEBI-registered stock broker meeting the eligibility norms",
+    "Any individual investor",
+    "A foreign retail investor",
+    "A sole proprietor with no financial track record"
+   ],
+   0,
+   "Banks, financial institutions, custodians and stock brokers meeting criteria can become DPs."
+  ],
+  [
+   "DP Functions – Account Opening",
+   "Which document is mandatory for opening a demat account by an individual resident investor?",
+   [
+    "PAN card",
+    "Passport",
+    "Voter ID",
+    "Ration card"
+   ],
+   0,
+   "PAN is the mandatory identifier; other proofs of address and identity can vary."
+  ],
+  [
+   "DP Functions – Account Opening",
+   "What is the maximum number of holders permitted in a single demat account?",
+   [
+    "Five",
+    "Three",
+    "Two",
+    "Four"
+   ],
+   1,
+   "A demat account can have a first holder and up to two joint holders."
+  ],
+  [
+   "DP Functions – Account Opening",
+   "A demat account in the name of a minor:",
+   [
+    "Can have the minor as a joint holder with parents",
+    "Cannot be opened under any circumstance",
+    "Is operated by the guardian, and the minor must be the sole holder",
+    "Is operated by the minor directly"
+   ],
+   2,
+   "Minors can only be sole holders, with a guardian operating the account."
+  ],
+  [
+   "DP Functions – Account Opening",
+   "Under SEBI's framework, a client who wants the broker to debit securities for settlement and margin pledges can execute a limited-purpose document called:",
+   [
+    "Letter of Confirmation",
+    "Demat Debit and Pledge Instruction (DDPI)",
+    "General Power of Attorney with unlimited rights",
+    "Delivery Instruction Slip booklet"
+   ],
+   1,
+   "DDPI replaced the broad PoA for limited purposes such as settlement deliveries and margin pledges."
+  ],
+  [
+   "DP Functions – Account Opening",
+   "In-person verification (IPV) of a client opening a demat account:",
+   [
+    "Is no longer required for any client",
+    "Can be done through video-based verification as permitted by SEBI",
+    "Is done by the RTA of the company",
+    "Must be done only at SEBI's office"
+   ],
+   1,
+   "SEBI allows video-based IPV (VIPV) as part of KYC."
+  ],
+  [
+   "DP Functions – Account Operations",
+   "A client wants to stop all debits from their demat account for some time. The DP can:",
+   [
+    "Reject the request because freezing is not allowed",
+    "Close the account and reopen it later",
+    "Transfer holdings to the DP's own account",
+    "Freeze the account for debits as per the client's request"
+   ],
+   3,
+   "Clients can request freezing of debits, credits or both for a period."
+  ],
+  [
+   "DP Functions – Account Operations",
+   "An investor wants to add a second holder to an existing sole-holder demat account. The correct approach is to:",
+   [
+    "Send a request to SEBI",
+    "Open a new joint account and transfer the holdings to it",
+    "Submit a request to add the name to the existing account",
+    "Ask the RTA to change the holder's name"
+   ],
+   1,
+   "Holders cannot be added or removed in an existing account; a new account is opened and holdings are moved."
+  ],
+  [
+   "DP Functions – Account Operations",
+   "A Delivery Instruction Slip (DIS) is used for:",
+   [
+    "Applying for an IPO",
+    "Instructing the DP to debit securities from the account for transfer",
+    "Changing the client's address",
+    "Requesting dematerialisation"
+   ],
+   1,
+   "The DIS authorises the DP to debit securities for market or off-market transfers."
+  ],
+  [
+   "DP Functions – Account Operations",
+   "A client with holdings wants to close a demat account. The DP will:",
+   [
+    "Close the account after the client transfers the holdings to another account or rematerialises them",
+    "Close it immediately and sell all holdings",
+    "Transfer the holdings to the DP's pool account",
+    "Refuse closure while holdings exist under any circumstances"
+   ],
+   0,
+   "Closure requires holdings to be transferred to another demat account or rematerialised."
+  ],
+  [
+   "DP Functions – Account Operations",
+   "Transferring shares between an account at NSDL and an account at CDSL is called:",
+   [
+    "Inter-depository transfer",
+    "Rematerialisation",
+    "Inter-settlement transfer",
+    "Transmission"
+   ],
+   0,
+   "Transfers across the two depositories are inter-depository transfers."
+  ],
+  [
+   "DP Functions – Transmission and Nomination",
+   "A sole holder of a demat account has died and a nominee is registered. To claim the securities, the nominee should submit:",
+   [
+    "A rematerialisation request",
+    "Only a verbal request at the DP office",
+    "A DIS signed by the deceased",
+    "A transmission request form with a copy of the death certificate and KYC documents"
+   ],
+   3,
+   "Transmission to a nominee requires the prescribed form, death certificate and the nominee's KYC."
+  ],
+  [
+   "DP Functions – Transmission and Nomination",
+   "In a joint demat account, one of the joint holders dies. The securities will be:",
+   [
+    "Sold by the DP",
+    "Transferred to the nominee, ignoring the surviving holders",
+    "Transmitted to the surviving joint holders",
+    "Frozen permanently"
+   ],
+   2,
+   "In joint accounts, surviving holders receive the securities on transmission."
+  ],
+  [
+   "DP Functions – Transmission and Nomination",
+   "Which of the following cannot make a nomination for a demat account?",
+   [
+    "A body corporate",
+    "Joint individual holders",
+    "An individual NRI holder",
+    "A sole individual holder"
+   ],
+   0,
+   "Nomination is available only to individual holders, not to companies or other non-individuals."
+  ],
+  [
+   "DP Functions – Transmission and Nomination",
+   "A minor is appointed as nominee in a demat account. On the holder's death, the securities are transmitted to:",
+   [
+    "The DP",
+    "The RTA",
+    "The minor, through the guardian named in the nomination",
+    "The deceased's employer"
+   ],
+   2,
+   "A minor can be a nominee; the guardian acts on the minor's behalf."
+  ],
+  [
+   "DP Functions – Dematerialisation",
+   "An investor submits a demat request, but the RTA rejects it because the signature does not match its records. The likely next step is to:",
+   [
+    "Credit the shares anyway",
+    "Transfer the shares to the DP",
+    "Cancel the shares permanently",
+    "Return the certificates to the investor so that the signature can be updated and the request resubmitted"
+   ],
+   3,
+   "Rejected requests are returned with reasons so the investor can correct the discrepancy."
+  ],
+  [
+   "DP Functions – Dematerialisation",
+   "When locked-in shares are dematerialised, they:",
+   [
+    "Are converted into debentures",
+    "Cannot be dematerialised",
+    "Remain locked-in in the demat account until the lock-in period ends",
+    "Become freely transferable at once"
+   ],
+   2,
+   "The depository records the lock-in status and allows transfers only after lock-in expires."
+  ],
+  [
+   "DP Functions – Dematerialisation",
+   "In the demat process, who confirms the electronic request so that the depository credits the investor's account?",
+   [
+    "The investor's broker",
+    "SEBI",
+    "The stock exchange",
+    "The issuer's RTA"
+   ],
+   3,
+   "After verifying the certificates, the RTA confirms the request and the depository credits the account."
+  ],
+  [
+   "DP Functions – Dematerialisation",
+   "A remat request results in:",
+   [
+    "New shares being allotted by the company",
+    "Shares being sold on the exchange",
+    "Physical certificates being issued by the RTA and the demat balance being debited",
+    "Securities moving to another depository"
+   ],
+   2,
+   "Rematerialisation converts electronic holdings back into physical form."
+  ],
+  [
+   "DP Functions – Trading and Settlement",
+   "An investor sells shares on a Thursday under the T+1 cycle (no holidays). By when must the securities reach the clearing corporation for pay-in?",
+   [
+    "The following Monday",
+    "Friday, the settlement day",
+    "Thursday evening",
+    "The following Tuesday"
+   ],
+   1,
+   "Pay-in and pay-out of securities happen on T+1, i.e. Friday."
+  ],
+  [
+   "DP Functions – Trading and Settlement",
+   "Under the current SEBI framework, after settlement of a buy trade, the securities are generally credited by the clearing corporation:",
+   [
+    "Directly to the client's demat account",
+    "To the exchange's account",
+    "To the broker's pool account for an indefinite period",
+    "To the RTA's account"
+   ],
+   0,
+   "SEBI mandated direct payout of securities to client demat accounts to protect client assets."
+  ],
+  [
+   "DP Functions – Trading and Settlement",
+   "Which transfer is NOT routed through a stock exchange settlement?",
+   [
+    "Auction delivery",
+    "Pay-out for a purchase on the exchange",
+    "Pay-in for a sale on the exchange",
+    "Off-market transfer, such as a gift of shares to a family member"
+   ],
+   3,
+   "Off-market transfers move securities directly between demat accounts without exchange settlement."
+  ],
+  [
+   "DP Functions – Trading and Settlement",
+   "For an off-market transfer, depositories require the transferor to specify:",
+   [
+    "The market price of the securities",
+    "The issuer's PAN",
+    "The broker's SEBI registration",
+    "The reason or purpose of the transfer"
+   ],
+   3,
+   "Reason codes are required for off-market transfers for monitoring and tax purposes."
+  ],
+  [
+   "Special Services – Pledge & Hypothecation",
+   "In a pledge of dematerialised securities, the pledge request is initiated by:",
+   [
+    "The pledgor (the owner of the securities)",
+    "The depository",
+    "The pledgee",
+    "The RTA"
+   ],
+   0,
+   "The pledgor initiates the request through their DP, and the pledgee accepts it through theirs."
+  ],
+  [
+   "Special Services – Pledge & Hypothecation",
+   "Under the margin pledge mechanism, a client who wants to give shares as margin to the broker:",
+   [
+    "Sends physical certificates to the broker",
+    "Sells the shares and gives cash",
+    "Transfers the shares to the broker's own account",
+    "Pledges the shares in favour of the broker from their own demat account"
+   ],
+   3,
+   "Since 2020 margin collateral is provided through pledges, so securities stay in the client's account."
+  ],
+  [
+   "Special Services – Pledge & Hypothecation",
+   "If the borrower defaults, the pledgee transfers the pledged securities to itself through:",
+   [
+    "Rematerialisation",
+    "Invocation of the pledge",
+    "Closure of the pledge",
+    "Transmission"
+   ],
+   1,
+   "Invocation transfers the pledged securities to the pledgee on default."
+  ],
+  [
+   "Special Services – Public Offering / Corporate Actions",
+   "Shares allotted in an IPO are credited to investors' demat accounts by:",
+   [
+    "The broker, by transferring from its pool",
+    "The stock exchange, after listing",
+    "SEBI",
+    "The RTA, which executes a corporate action through the depositories"
+   ],
+   3,
+   "The RTA uploads allotment details and the depositories credit investors' accounts."
+  ],
+  [
+   "Special Services – Public Offering / Corporate Actions",
+   "For a cash dividend, entitlement is decided based on holdings as on the:",
+   [
+    "Date of payment",
+    "Record date",
+    "Date of the AGM notice",
+    "Date of IPO allotment"
+   ],
+   1,
+   "The record date determines which beneficial owners receive the corporate benefit."
+  ],
+  [
+   "Special Services – Public Offering / Corporate Actions",
+   "A company announces a 1:1 bonus. An investor holds 250 shares on the record date. How many bonus shares will be credited?",
+   [
+    "500",
+    "250",
+    "125",
+    "0"
+   ],
+   1,
+   "A 1:1 bonus gives one new share for each share held, so 250 shares are credited."
+  ],
+  [
+   "Special Services – Debt Instruments & Government Securities",
+   "Commercial paper and certificates of deposit in India are issued:",
+   [
+    "Only in dematerialised form",
+    "Either form at the issuer's choice",
+    "Only as bearer certificates",
+    "Only in physical form"
+   ],
+   0,
+   "RBI rules require CPs and CDs to be issued and held in demat form."
+  ],
+  [
+   "Special Services – Debt Instruments & Government Securities",
+   "Retail investors holding government securities through a depository account are recorded in the RBI's books through:",
+   [
+    "The depository's Constituent SGL (gilt) account with the RBI",
+    "The clearing bank's current account",
+    "The stock exchange's escrow account",
+    "The investor's own SGL account automatically"
+   ],
+   0,
+   "Depositories hold G-Secs for investors through CSGL accounts maintained with the RBI."
+  ],
+  [
+   "Special Services – Debt Instruments & Government Securities",
+   "Which of these instruments typically pays no periodic interest and is issued at a discount to its face value?",
+   [
+    "Treasury bill",
+    "Fixed-rate corporate debenture",
+    "Perpetual bond",
+    "Floating rate bond"
+   ],
+   0,
+   "T-bills are discount instruments and are redeemed at face value."
+  ],
+  [
+   "Foreign Portfolio Investors (FPI)",
+   "A foreign pension fund wants to invest in Indian listed shares as an FPI. It obtains registration from:",
+   [
+    "The RBI directly",
+    "The stock exchange",
+    "A Designated Depository Participant",
+    "The Indian embassy"
+   ],
+   2,
+   "DDPs grant FPI registration on behalf of SEBI."
+  ],
+  [
+   "Foreign Portfolio Investors (FPI)",
+   "FPIs generally settle their trades in Indian securities through:",
+   [
+    "Custodians, who confirm trades and handle settlement",
+    "The Ministry of Finance",
+    "RTAs",
+    "Retail brokers' pool accounts"
+   ],
+   0,
+   "FPIs appoint custodians who confirm trades and settle them with the clearing corporation."
+  ],
+  [
+   "Foreign Portfolio Investors (FPI)",
+   "An FPI investor group buys shares of a listed company and its holding reaches 11% of paid-up equity. What happens under the FPI framework?",
+   [
+    "Nothing; there is no limit",
+    "The FPI's registration is cancelled automatically",
+    "The investment beyond the limit must be divested or reclassified as FDI within the prescribed time",
+    "The shares are cancelled by the company"
+   ],
+   2,
+   "FPI holdings must stay below 10%; a breach must be cured by divestment or reclassified as FDI."
+  ],
+  [
+   "Investor Services",
+   "A DP must send a demat account holder a transaction statement:",
+   [
+    "Daily",
+    "Only once a year",
+    "Only on request",
+    "Monthly if there are transactions, and otherwise at least quarterly"
+   ],
+   3,
+   "Depository norms require statements at these minimum frequencies, and they can be sent electronically."
+  ],
+  [
+   "Investor Services",
+   "A consolidated account statement covering demat holdings and mutual fund units held in physical (non-demat) form is sent by:",
+   [
+    "SEBI",
+    "The stock exchanges",
+    "The depositories",
+    "The investor's employer"
+   ],
+   2,
+   "Depositories send the CAS, combining demat holdings and MF folios linked by PAN."
+  ],
+  [
+   "Investor Services",
+   "A demat holder's complaint against a DP is not resolved by the DP. The investor can next escalate it to:",
+   [
+    "The investor's bank",
+    "The company's statutory auditor",
+    "The depository, and then SEBI through SCORES",
+    "The Ministry of Corporate Affairs"
+   ],
+   2,
+   "Unresolved complaints can be escalated to the depository and SEBI's SCORES platform."
+  ],
+  [
+   "Investor Services",
+   "Investors can protect their demat accounts against unauthorised debits by:",
+   [
+    "Signing a broad PoA with no limits",
+    "Sharing their OTPs with their broker",
+    "Not signing blank DIS and keeping the DIS booklet safe",
+    "Keeping the account dormant without any contact details"
+   ],
+   2,
+   "Blank signed DIS slips can be misused, so investors are advised to keep them safe."
+  ]
+ ],
+ "vii": [
+  [
+   "Introduction to the Securities Market",
+   "Which authority regulates financial services in International Financial Services Centres such as GIFT City?",
+   [
+    "Ministry of Commerce",
+    "RBI only",
+    "SEBI only",
+    "International Financial Services Centres Authority (IFSCA)"
+   ],
+   3,
+   "IFSCA is the unified regulator for financial products and services in IFSCs."
+  ],
+  [
+   "Introduction to the Securities Market",
+   "The call money market deals in funds borrowed and lent for:",
+   [
+    "One day (overnight)",
+    "One year",
+    "Five years",
+    "Ninety days only"
+   ],
+   0,
+   "Call money is overnight borrowing and lending, mostly between banks."
+  ],
+  [
+   "Introduction to the Securities Market",
+   "Which of the following is a derivative product traded on Indian exchanges?",
+   [
+    "Equity shares",
+    "Stock options",
+    "Exchange traded fund units",
+    "Treasury bills"
+   ],
+   1,
+   "Options derive their value from an underlying stock or index."
+  ],
+  [
+   "Introduction to the Securities Market",
+   "Which of these is the main function of the secondary market?",
+   [
+    "Setting interest rates for banks",
+    "Raising fresh capital for issuers",
+    "Providing liquidity and price discovery for existing securities",
+    "Collecting taxes on securities"
+   ],
+   2,
+   "Secondary markets let investors trade existing securities and discover prices."
+  ],
+  [
+   "Introduction to the Securities Market",
+   "Which statement about Treasury bills is correct?",
+   [
+    "They pay a semi-annual coupon",
+    "They are short-term government securities issued at a discount",
+    "They are issued by private companies",
+    "They have maturities of more than ten years"
+   ],
+   1,
+   "T-bills are issued by the Government of India at a discount and redeemed at face value."
+  ],
+  [
+   "Introduction to the Securities Market",
+   "Government securities are issued by the RBI on behalf of the government through:",
+   [
+    "Auctions",
+    "Rights issues",
+    "Book building on stock exchanges",
+    "Private placement to retail investors only"
+   ],
+   0,
+   "The RBI conducts auctions to issue dated G-Secs and T-bills."
+  ],
+  [
+   "Market Participants in the Securities Market",
+   "Which of these is classified as a Qualified Institutional Buyer?",
+   [
+    "A small partnership firm",
+    "A SEBI-registered mutual fund",
+    "A non-institutional HNI individual",
+    "A retail individual investor"
+   ],
+   1,
+   "QIBs include mutual funds, FPIs (other than certain categories), banks and insurers."
+  ],
+  [
+   "Market Participants in the Securities Market",
+   "Which entity acts as the central counterparty to trades executed on a stock exchange?",
+   [
+    "The issuer",
+    "The clearing corporation",
+    "The stock broker",
+    "The depository"
+   ],
+   1,
+   "The clearing corporation becomes buyer to every seller and seller to every buyer."
+  ],
+  [
+   "Market Participants in the Securities Market",
+   "Which intermediary is an agent of a stock broker, approved by the exchange, who deals with clients on the broker's behalf?",
+   [
+    "Depository",
+    "Custodian",
+    "Authorised person",
+    "Sub-registrar"
+   ],
+   2,
+   "Authorised persons are appointed by brokers with exchange approval to provide access to trading platforms."
+  ],
+  [
+   "Market Participants in the Securities Market",
+   "Which regulator administers the Companies Act and oversees company registration?",
+   [
+    "Ministry of Corporate Affairs",
+    "IRDAI",
+    "RBI",
+    "SEBI"
+   ],
+   0,
+   "MCA, through Registrars of Companies, administers company law."
+  ],
+  [
+   "Market Participants in the Securities Market",
+   "A custodian in the securities market mainly serves:",
+   [
+    "Issuers for printing certificates",
+    "Exchanges for surveillance",
+    "Institutional investors such as FPIs and mutual funds, holding and servicing their securities",
+    "Retail investors for intraday trading"
+   ],
+   2,
+   "Custodians provide safekeeping, settlement and corporate action services to institutions."
+  ],
+  [
+   "Market Participants in the Securities Market",
+   "Which category of investor is a Hindu Undivided Family bidding for ₹5 lakh in an IPO?",
+   [
+    "Retail individual investor",
+    "Anchor investor",
+    "Qualified institutional buyer",
+    "Non-institutional investor"
+   ],
+   3,
+   "Bids above ₹2 lakh by non-QIB investors fall under the non-institutional category."
+  ],
+  [
+   "Introduction to Securities Broking Operations",
+   "Which is the correct order of the trade life cycle?",
+   [
+    "Order placement → order matching → trade confirmation → clearing → settlement",
+    "Order matching → settlement → order placement → clearing",
+    "Clearing → order placement → settlement → confirmation",
+    "Settlement → clearing → order placement → matching"
+   ],
+   0,
+   "Orders are placed and matched, confirmed, then cleared to determine obligations and finally settled."
+  ],
+  [
+   "Introduction to Securities Broking Operations",
+   "Which function in a broking firm is mainly responsible for client acquisition and order entry?",
+   [
+    "Back office",
+    "Front office",
+    "Internal audit",
+    "Middle office"
+   ],
+   1,
+   "The front office deals with clients, takes orders and executes trades."
+  ],
+  [
+   "Introduction to Securities Broking Operations",
+   "Real-time monitoring of client exposures and limits in a broking firm is typically handled by the:",
+   [
+    "Middle office (risk management)",
+    "Statutory auditor",
+    "Back office accounts",
+    "Front office sales team"
+   ],
+   0,
+   "The middle office monitors risk and exposures against limits."
+  ],
+  [
+   "Introduction to Securities Broking Operations",
+   "Preparing contract notes, maintaining client ledgers and reconciling funds and securities are functions of the:",
+   [
+    "Front office",
+    "Back office",
+    "Dealing desk",
+    "Marketing team"
+   ],
+   1,
+   "The back office handles post-trade processing, accounting and reconciliation."
+  ],
+  [
+   "Introduction to Securities Broking Operations",
+   "A client places an order to buy shares at ₹500 or lower. This is a:",
+   [
+    "Limit order",
+    "Market order",
+    "Stop-loss market order",
+    "Immediate-or-cancel order at any price"
+   ],
+   0,
+   "A limit order sets the maximum buy price or minimum sell price."
+  ],
+  [
+   "Introduction to Securities Broking Operations",
+   "An order that must execute immediately, with any unexecuted portion cancelled, is a(n):",
+   [
+    "Immediate or Cancel (IOC) order",
+    "Good till day order",
+    "Good till cancelled order",
+    "Stop-loss order"
+   ],
+   0,
+   "IOC orders execute whatever is possible at once and cancel the rest."
+  ],
+  [
+   "Introduction to Securities Broking Operations",
+   "Which of the following must a stock broker obtain from each client before trading?",
+   [
+    "A no-objection certificate from SEBI",
+    "The client's credit rating",
+    "Completed KYC, including PAN and the account opening documents",
+    "A bank guarantee from the client"
+   ],
+   2,
+   "KYC and documentation are mandatory before a client starts trading."
+  ],
+  [
+   "Introduction to Securities Broking Operations",
+   "A sell order is triggered when the price falls to ₹450 and then placed as a limit order at ₹448. This is a:",
+   [
+    "Market order",
+    "Spread order",
+    "IOC order",
+    "Stop-loss limit order"
+   ],
+   3,
+   "The trigger price activates the order and the limit price caps the execution price."
+  ],
+  [
+   "Risk Management",
+   "VaR margin in the cash segment is designed to cover:",
+   [
+    "All possible losses under any scenario",
+    "The broker's operating expenses",
+    "The likely loss on a position over a given time horizon at a specified confidence level",
+    "Taxes payable on the trade"
+   ],
+   2,
+   "Value at Risk estimates potential loss over a time horizon at a set confidence level."
+  ],
+  [
+   "Risk Management",
+   "Extreme Loss Margin (ELM) is collected to cover:",
+   [
+    "Stamp duty",
+    "Losses beyond what VaR margin covers, in extreme market conditions",
+    "Settlement delays caused by holidays",
+    "Brokerage charges"
+   ],
+   1,
+   "ELM covers tail risk that VaR does not capture."
+  ],
+  [
+   "Risk Management",
+   "A client buys 100 shares at ₹500. The closing price that day is ₹480. What is the mark-to-market loss?",
+   [
+    "₹200",
+    "₹2,000",
+    "₹4,800",
+    "₹20,000"
+   ],
+   1,
+   "MTM loss = (500 − 480) × 100 = ₹2,000."
+  ],
+  [
+   "Risk Management",
+   "A client buys shares worth ₹2,00,000. If the applicable VaR margin is 10% and ELM is 5%, what total upfront margin must the broker collect?",
+   [
+    "₹30,000",
+    "₹10,000",
+    "₹3,00,000",
+    "₹20,000"
+   ],
+   0,
+   "Upfront margin = (10% + 5%) × ₹2,00,000 = ₹30,000."
+  ],
+  [
+   "Risk Management",
+   "If a broker collects less margin from a client than required at the peak margin snapshots, the consequence is that:",
+   [
+    "No action is taken for retail clients",
+    "The trade is automatically cancelled",
+    "A penalty is levied for short collection of margin",
+    "The exchange refunds the trade value"
+   ],
+   2,
+   "Clearing corporations penalise short or non-collection of upfront margins."
+  ],
+  [
+   "Risk Management",
+   "The Core Settlement Guarantee Fund is maintained by:",
+   [
+    "The clearing corporation, to guarantee settlement of trades if a member defaults",
+    "The issuer, to pay dividends",
+    "SEBI, to fund its own expenses",
+    "Each investor individually"
+   ],
+   0,
+   "The Core SGF absorbs losses from member defaults and supports the settlement guarantee."
+  ],
+  [
+   "Risk Management",
+   "Position limits and concentration limits in a broking firm mainly help to:",
+   [
+    "Speed up order matching",
+    "Avoid paying taxes",
+    "Increase brokerage income",
+    "Prevent excessive exposure to a single client, security or segment"
+   ],
+   3,
+   "Limits contain concentration risk and potential losses."
+  ],
+  [
+   "Risk Management",
+   "A client's mark-to-market loss is not paid and the shortfall persists. A broker's risk team would most appropriately:",
+   [
+    "Ignore it until the client returns",
+    "Use another client's funds to cover the shortfall",
+    "Report the client to the income tax department",
+    "Square off positions as per the risk policy disclosed to the client"
+   ],
+   3,
+   "Brokers may liquidate positions under their risk policy; using other clients' money is prohibited."
+  ],
+  [
+   "Clearing Process",
+   "Which bank function is linked to clearing corporations for the settlement of funds?",
+   [
+    "Rural banks lending to farmers",
+    "Central bank currency issuance",
+    "Clearing banks, through which members' funds pay-in and pay-out are made",
+    "Investment banks underwriting IPOs"
+   ],
+   2,
+   "Clearing members keep settlement accounts with designated clearing banks."
+  ],
+  [
+   "Clearing Process",
+   "Determining which member must pay or receive how much money and securities after trading is part of:",
+   [
+    "Underwriting",
+    "Clearing",
+    "Order matching",
+    "Listing"
+   ],
+   1,
+   "Clearing computes the obligations of each member, which are then met during settlement."
+  ],
+  [
+   "Clearing Process",
+   "Institutional trades that a custodian must confirm before they are settled carry a:",
+   [
+    "Custodial Participant (CP) code",
+    "ISIN",
+    "UCC of the exchange",
+    "SEBI registration number"
+   ],
+   0,
+   "CP codes identify institutional trades settled through custodians."
+  ],
+  [
+   "Clearing Process",
+   "In the clearing process, the clearing corporation interacts with depositories to:",
+   [
+    "Approve IPOs",
+    "Collect income tax",
+    "Fix the price of securities",
+    "Move securities for pay-in and pay-out"
+   ],
+   3,
+   "Depositories move securities from sellers and to buyers according to the clearing corporation's instructions."
+  ],
+  [
+   "Clearing Process",
+   "The optional T+0 settlement cycle introduced by SEBI as a beta version:",
+   [
+    "Applies only to government securities",
+    "Allows same-day settlement for a limited set of stocks, alongside the T+1 cycle",
+    "Applies only to derivatives",
+    "Replaced T+1 for all stocks"
+   ],
+   1,
+   "The beta T+0 cycle runs optionally for select scrips while T+1 continues."
+  ],
+  [
+   "Clearing Process",
+   "Netting of obligations in clearing means:",
+   [
+    "Adding all trades together without offsetting",
+    "Cancelling all trades",
+    "Offsetting a member's buy and sell positions in a security to arrive at a single net obligation",
+    "Settling each trade separately in gross"
+   ],
+   2,
+   "Netting reduces the number and value of transfers required in settlement."
+  ],
+  [
+   "Settlement Process",
+   "Under T+1 settlement, a trade executed on a Friday (Monday being a working day) is settled on:",
+   [
+    "Saturday",
+    "Monday",
+    "Tuesday",
+    "Friday itself"
+   ],
+   1,
+   "Settlement occurs on the next working day, which is Monday."
+  ],
+  [
+   "Settlement Process",
+   "A trade is executed on Thursday and Friday is a trading holiday. Under T+1, settlement takes place on:",
+   [
+    "Friday",
+    "Tuesday",
+    "Saturday",
+    "Monday"
+   ],
+   3,
+   "T+1 counts working days, so the next settlement day after Thursday is Monday."
+  ],
+  [
+   "Settlement Process",
+   "If a selling member fails to deliver securities on the settlement day, the clearing corporation generally:",
+   [
+    "Conducts an auction to buy the shortfall securities, and closes out if the auction fails",
+    "Cancels the buyer's trade without compensation",
+    "Delivers shares from its own investment portfolio permanently",
+    "Asks SEBI to issue new shares"
+   ],
+   0,
+   "Shortages are met through an auction, and any unfilled shortfall is closed out at the prescribed price."
+  ],
+  [
+   "Settlement Process",
+   "Funds pay-in by clearing members takes place through:",
+   [
+    "Cash deposits at the exchange",
+    "Their settlement accounts with clearing banks",
+    "The RTA's bank account",
+    "The depository's account"
+   ],
+   1,
+   "Clearing banks debit and credit members' settlement accounts on the instructions of the clearing corporation."
+  ],
+  [
+   "Settlement Process",
+   "When a stock goes ex-bonus, open derivative positions on that stock are:",
+   [
+    "Converted into cash at the previous closing price",
+    "Left unchanged in every respect",
+    "Cancelled without compensation",
+    "Adjusted, for example in strike price and lot size, so that their value is maintained"
+   ],
+   3,
+   "Corporate action adjustments keep derivative contract values neutral to the event."
+  ],
+  [
+   "Settlement Process",
+   "The pay-out of securities to a buying client under current norms is made:",
+   [
+    "Into the issuer's account",
+    "Into the broker's own account for 30 days",
+    "Through physical delivery",
+    "Directly into the client's demat account by the clearing corporation"
+   ],
+   3,
+   "SEBI's direct payout framework credits securities straight to clients."
+  ],
+  [
+   "Settlement Process",
+   "Determination of settlement obligations is based on:",
+   [
+    "The company's dividend history",
+    "The broker's annual turnover",
+    "Investors' tax returns",
+    "Trades executed during the day and the netting rules of the clearing corporation"
+   ],
+   3,
+   "Obligations are computed from executed trades, netted by member and security."
+  ],
+  [
+   "Investor Grievances and Arbitration",
+   "SEBI's online platform for investors to file complaints against listed companies and intermediaries is:",
+   [
+    "NSDL e-voting",
+    "MCA21",
+    "SMART ODR only for companies",
+    "SCORES"
+   ],
+   3,
+   "SCORES allows online lodging and tracking of complaints."
+  ],
+  [
+   "Investor Grievances and Arbitration",
+   "If a dispute between an investor and a broker is not resolved through SCORES or direct engagement, the investor can use:",
+   [
+    "The Securities Appellate Tribunal directly as a first step",
+    "The consumer helpline of the telecom regulator",
+    "The Online Dispute Resolution (ODR) mechanism for conciliation and arbitration",
+    "The RBI Ombudsman"
+   ],
+   2,
+   "SEBI's ODR framework lets investors escalate disputes to online conciliation and arbitration."
+  ],
+  [
+   "Investor Grievances and Arbitration",
+   "The Investor Protection Fund of a stock exchange is mainly used to:",
+   [
+    "Fund IPO marketing",
+    "Cover investors' market losses on investments",
+    "Pay brokers' operating losses",
+    "Compensate investors' eligible claims against brokers declared defaulters"
+   ],
+   3,
+   "IPF pays legitimate claims of investors when a broker defaults; it does not cover market losses."
+  ],
+  [
+   "Investor Grievances and Arbitration",
+   "Under SCORES, a registered intermediary must generally resolve a complaint within:",
+   [
+    "21 calendar days of receipt",
+    "90 days",
+    "3 working days",
+    "One year"
+   ],
+   0,
+   "SEBI's revised SCORES framework requires entities to resolve complaints within 21 calendar days."
+  ],
+  [
+   "Investor Grievances and Arbitration",
+   "Which of the following is NOT a valid ground for a complaint against a stock broker?",
+   [
+    "A fall in the market price of shares the investor chose to buy",
+    "Unauthorised trades in the account",
+    "Non-receipt of funds after a sale",
+    "Non-issuance of contract notes"
+   ],
+   0,
+   "Market losses on the investor's own decisions are investment risk, not a service deficiency."
+  ],
+  [
+   "Other Services Provided by Brokers",
+   "Under the Margin Trading Facility, a stock broker:",
+   [
+    "Buys shares for clients using other clients' funds",
+    "Guarantees profit on funded positions",
+    "Funds part of a client's purchase of eligible securities, which are pledged as collateral",
+    "Gives clients unsecured personal loans"
+   ],
+   2,
+   "MTF lets brokers finance purchases of eligible stocks, with the purchased shares pledged to the broker."
+  ],
+  [
+   "Other Services Provided by Brokers",
+   "The minimum investment required from a client for Portfolio Management Services is:",
+   [
+    "₹5 lakh",
+    "₹10,000",
+    "₹50 lakh",
+    "₹1 crore"
+   ],
+   2,
+   "SEBI's PMS regulations set a minimum ticket size of ₹50 lakh."
+  ],
+  [
+   "Other Services Provided by Brokers",
+   "Stock brokers can facilitate transactions in mutual fund units for clients through:",
+   [
+    "Physical counters at SEBI",
+    "The exchange mutual fund platforms, such as NSE's and BSE's MF platforms",
+    "The RBI's Retail Direct portal only",
+    "The depository's e-voting system"
+   ],
+   1,
+   "Exchanges provide mutual fund transaction platforms that brokers use."
+  ],
+  [
+   "Other Services Provided by Brokers",
+   "Internet Based Trading by a stock broker requires the broker to:",
+   [
+    "Register separately as a bank",
+    "Allow trading without login credentials",
+    "Obtain permission from the stock exchange and maintain adequate security and system controls",
+    "Stop offering offline trading"
+   ],
+   2,
+   "IBT needs exchange approval and must meet prescribed security and system standards."
+  ]
+ ]
+}
