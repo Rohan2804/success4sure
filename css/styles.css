@@ -523,3 +523,38 @@ tr:last-child td { border-bottom: 0; }
 @media (max-width: 1240px) { .nav-links .nav-cat { display: none; } }
 @media (max-width: 640px) { .link-pill { white-space: normal; } .study-table td:first-child { width: 40%; } }
 .q-text, .quiz-q, .review-item > p { white-space: pre-line; }
+
+/* ============ Static content pages ============ */
+.skip { position: absolute; left: -9999px; top: 8px; z-index: 100; background: var(--surface); padding: 8px 12px; border-radius: 8px; }
+.skip:focus { left: 8px; }
+.crumbs { font-size: .85rem; color: var(--muted); margin-bottom: 14px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.crumbs a { color: var(--muted); }
+.crumbs a:hover { color: var(--brand); }
+.crumbs .sep { color: var(--border-strong); }
+.lead-left { font-size: 1.08rem; color: var(--muted); max-width: 70ch; }
+.meta-row { margin: 10px 0 0; }
+.prose > * { max-width: 900px; }
+.prose.narrow > * { max-width: 760px; }
+.prose section { margin-bottom: 40px; }
+.prose h2 { font-size: 1.45rem; margin: 0 0 12px; }
+.prose h3 { margin: 24px 0 10px; }
+.prose p, .prose li { line-height: 1.7; }
+.prose ul { padding-left: 20px; }
+.prose table a { font-weight: 600; }
+.chapter-counts { list-style: none; padding: 0 !important; border: 1px solid var(--border); border-radius: var(--radius); }
+.chapter-counts li { display: flex; justify-content: space-between; gap: 16px; padding: 10px 16px; border-bottom: 1px solid var(--border); }
+.chapter-counts li:last-child { border-bottom: 0; }
+.sample { border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 20px; margin-bottom: 12px; }
+.sample-q { font-weight: 600; color: var(--heading); white-space: pre-line; margin: 6px 0 8px; }
+.sample-opts { margin: 0 0 8px; padding-left: 22px; }
+.sample details summary, .faq-item summary { cursor: pointer; color: var(--brand); font-weight: 600; }
+.sample details p { margin: 8px 0 0; }
+.faq-item { border-bottom: 1px solid var(--border); padding: 14px 0; }
+.faq-item summary { color: var(--heading); }
+.faq-item p { margin: 8px 0 0; color: var(--text); }
+.related { list-style: none; padding: 0 !important; }
+.related li { padding: 6px 0; }
+.reviewers { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 14px; }
+.reviewer { display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: 12px; padding: 10px 14px; max-width: 420px; }
+.reviewer p { margin: 6px 0 0; }
+body.static .nav-links a { white-space: nowrap; }

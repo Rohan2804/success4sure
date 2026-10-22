@@ -1,0 +1,22 @@
+{
+  "_help": "Fill in every empty field before submitting the sitemap. Then run: python3 tools/build_site.py",
+  "name": "Success4Sure",
+  "url": "https://success4sure.in",
+  "foundingYear": 2026,
+
+  "business": {
+    "legalName": "",
+    "gstin": "",
+    "address": "",
+    "email": "",
+    "phone": ""
+  },
+
+  "grievanceOfficer": {
+    "name": "",
+    "email": ""
+  },
+
+  "_reviewersHelp": "Add real, named subject experts only. Each reviewer appears on the exam pages listed in 'exams' (use exam ids from content/catalog.json, or ['*'] for all). Example: {\"name\": \"A. Sharma\", \"credentials\": \"NISM X-A & X-B certified; SEBI-registered Investment Adviser\", \"bio\": \"12 years in wealth management.\", \"profileUrl\": \"https://www.linkedin.com/in/...\", \"exams\": [\"x-a\", \"x-b\"]}",
+  "reviewers": []
+}

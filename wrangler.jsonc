@@ -1,0 +1,10 @@
+// Cloudflare Workers config: publishes this folder as a static site.
+// Used by `npx wrangler deploy` (and by Cloudflare's GitHub auto-deploy).
+{
+  "name": "success4sure",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "single-page-application"
+  }
+}

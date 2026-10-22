@@ -1,0 +1,13 @@
+# Files Cloudflare must NOT publish on the website
+.git
+.github
+.claude
+.gitignore
+.assetsignore
+wrangler.jsonc
+node_modules
+tools
+js/data/qbank/*.json
+*.py
+*.md
+content

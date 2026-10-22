@@ -1,0 +1,194 @@
+{
+  "i": {
+    "about": "NISM Series I tests how exchange-traded currency futures and options work in India — USD-INR and cross-currency contracts, pricing through interest rate parity, hedging for importers and exporters, trading and clearing mechanics, and the RBI and SEBI rules that govern the segment.",
+    "who": "Dealers, sales staff and other associated persons of brokers who trade in the currency derivatives segment, and treasury professionals who want a structured grounding in currency hedging."
+  },
+  "ii-a": {
+    "about": "NISM Series II-A covers the work of Registrars to an Issue and Share Transfer Agents (RTAs) for companies — public issue processing, basis of allotment, transfers, transmission, corporate actions, depository interface and investor servicing.",
+    "who": "Staff of SEBI-registered RTAs who handle corporate shareholder records, and company secretarial teams who work closely with RTAs."
+  },
+  "ii-b": {
+    "about": "NISM Series II-B focuses on RTAs that service mutual funds — investor KYC, purchase and redemption processing, NAV application, SIP/STP/SWP handling, folio maintenance, statements and non-financial service requests.",
+    "who": "Operations staff at RTAs and AMCs who process mutual fund transactions and investor service requests."
+  },
+  "iii-a": {
+    "about": "NISM Series III-A covers the compliance framework for non-fund intermediaries — the SEBI Act, SCRA, intermediaries regulations, insider trading and PFUTP rules, PMLA obligations, KYC and the regulations for brokers, depository participants, merchant bankers, research analysts and investment advisers.",
+    "who": "Compliance officers and compliance team members of stock brokers, depository participants, RTAs, merchant bankers and other non-fund intermediaries."
+  },
+  "iii-c": {
+    "about": "NISM Series III-C covers compliance for fund-based intermediaries — the SEBI (Mutual Funds) Regulations, AIF, REIT and InvIT regulations, insider trading, PMLA and governance duties of trustees and AMCs.",
+    "who": "Compliance officers and compliance staff at AMCs, AIF managers, REIT/InvIT managers and other fund intermediaries."
+  },
+  "iv": {
+    "about": "NISM Series IV tests interest rate derivatives — bond pricing and yields, duration, interest rate futures and options on exchanges, OTC products such as swaps and FRAs, hedging strategies, and the clearing and regulatory framework.",
+    "who": "Associated persons of brokers dealing in interest rate derivatives, and treasury, ALM and fixed-income professionals."
+  },
+  "v-a": {
+    "about": "NISM Series V-A is the core mutual fund distributor exam. It covers how mutual funds are structured and regulated, scheme types, NAV, loads and TER, taxation, investor services, risk and return, scheme performance and choosing the right scheme for an investor.",
+    "who": "Anyone who wants to distribute mutual funds and obtain an ARN from AMFI, including independent advisers, bank relationship managers and employees of distribution firms."
+  },
+  "v-b": {
+    "about": "NISM Series V-B is a foundation-level mutual fund exam covering the basics of mutual funds, simple products, investor services and the regulatory environment — with a shorter paper than V-A.",
+    "who": "New-cadre mutual fund distributors who sell a limited set of simple schemes, and beginners who want an entry-level mutual fund certification."
+  },
+  "v-c": {
+    "about": "NISM Series V-C was an advanced mutual fund distributor certification covering scheme evaluation, debt and equity fund analysis and financial planning.",
+    "who": "Experienced mutual fund distributors. Check NISM's website for the current status of this exam before preparing."
+  },
+  "v-d": {
+    "about": "NISM Series V-D covers Specialized Investment Funds (SIFs) — the SEBI product category between mutual funds and PMS — together with the mutual fund, equity derivatives and interest rate derivatives concepts needed to explain SIF strategies to investors.",
+    "who": "Mutual fund distributors who want to distribute SIF strategies, and AMC sales teams supporting SIF products."
+  },
+  "vi": {
+    "about": "NISM Series VI covers depository operations — the depository system, NSDL and CDSL, account opening, dematerialisation, transfers, pledge, transmission and nomination, corporate actions and investor services at a depository participant.",
+    "who": "Employees of depository participants (banks, brokers and custodians) who handle demat account operations and client service."
+  },
+  "vii": {
+    "about": "NISM Series VII tests back-office operations in the securities market — trading, clearing and settlement, margins and risk management, the roles of exchanges and clearing corporations, and investor grievance redress.",
+    "who": "Operations, settlement and risk-management staff of stock brokers and clearing members."
+  },
+  "viii": {
+    "about": "NISM Series VIII is the equity derivatives certification — index and stock futures, options pricing and Greeks, payoffs, hedging and trading strategies, trading and clearing mechanics, margins, accounting, taxation and investor protection.",
+    "who": "Dealers, sales staff and other associated persons of brokers in the equity derivatives (F&O) segment, and traders who want a rigorous understanding of futures and options."
+  },
+  "ix": {
+    "about": "NISM Series IX covers merchant banking — the capital market, issue management under SEBI ICDR, book building, underwriting, due diligence, takeovers, buybacks and delisting.",
+    "who": "Professionals working with SEBI-registered merchant bankers on IPOs, FPOs, rights issues and takeover transactions."
+  },
+  "x-a": {
+    "about": "NISM Series X-A is Level 1 of the investment adviser certification — financial planning basics, time value of money, equity, debt, mutual funds and other products, asset allocation, behavioural finance and the SEBI investment adviser regulations.",
+    "who": "Individuals and principal officers seeking SEBI registration as investment advisers, who must clear X-A along with X-B."
+  },
+  "x-b": {
+    "about": "NISM Series X-B is Level 2 of the investment adviser certification — insurance and risk planning, retirement planning, taxation, estate planning and comprehensive financial plans built through case studies.",
+    "who": "Investment adviser candidates who have cleared Level 1 (X-A) and need X-B to complete the SEBI-required certification."
+  },
+  "xii": {
+    "about": "NISM Series XII is a foundation exam on the Indian securities markets — primary and secondary markets, types of securities, mutual funds, derivatives and the investor's role.",
+    "who": "Students, fresh graduates and new joiners in financial services who want a recognised entry-level securities market certification."
+  },
+  "xiii": {
+    "about": "NISM Series XIII is a combined derivatives certification covering equity, currency and interest rate derivatives — forwards, futures, options, strategies, trading and clearing, and the regulatory framework across segments.",
+    "who": "Associated persons who deal across several derivatives segments and want one certification covering equity, currency and interest rate derivatives."
+  },
+  "xv": {
+    "about": "NISM Series XV covers equity research — the securities market, economic, industry and company analysis, financial statements, valuation methods, risk and return, writing research reports and the SEBI research analyst regulations.",
+    "who": "Research analysts and those seeking SEBI registration as a research analyst, plus anyone preparing equity research reports for an intermediary."
+  },
+  "xvi": {
+    "about": "NISM Series XVI covers commodity derivatives — commodity markets and indices, futures and options on commodities, pricing, hedging strategies for producers and users, trading, clearing and the regulatory framework.",
+    "who": "Associated persons of brokers in the commodity derivatives segment, and hedgers in agriculture, metals and energy businesses."
+  },
+  "xvii": {
+    "about": "NISM Series XVII covers retirement planning — the pension landscape, NPS architecture and investment choices, exits and annuities, other retirement products, corpus estimation and taxation of retirement benefits.",
+    "who": "Retirement advisers registered with PFRDA, NPS points-of-presence staff and financial planners who advise on retirement."
+  },
+  "xix-a": {
+    "about": "NISM Series XIX-A covers Category I and II Alternative Investment Funds — the AIF landscape, structuring, regulation, fees, due diligence, valuation, taxation and good practices for distributors.",
+    "who": "Distributors and relationship managers who sell Category I and II AIFs such as venture capital, private equity and private credit funds."
+  },
+  "xix-b": {
+    "about": "NISM Series XIX-B covers Category III Alternative Investment Funds — hedge-fund-style strategies, long-short and derivatives use, leverage, fees and performance measurement, valuation, taxation and suitability.",
+    "who": "Distributors and wealth managers who sell Category III AIFs to high-net-worth clients."
+  },
+  "xix-c": {
+    "about": "NISM Series XIX-C is the AIF manager certification — portfolio theory, AIF structuring and ecosystem, fees and benchmarking, investment process and governance, due diligence, valuation, monitoring and exits, taxation and regulation.",
+    "who": "Key investment team members of AIF managers, for whom SEBI requires NISM certification."
+  },
+  "xix-d": {
+    "about": "NISM Series XIX-D is the manager certification specific to Category I and II AIFs — fund structuring, fees and waterfalls, investment process, valuation, monitoring and exits, taxation and SEBI AIF regulations.",
+    "who": "Investment team members of Category I and II AIF managers, such as venture capital and private equity funds."
+  },
+  "xix-e": {
+    "about": "NISM Series XIX-E is the manager certification for Category III AIFs — portfolio and capital market theory, Category III strategies, leverage and risk, fees, valuation, governance, taxation and regulation.",
+    "who": "Investment team members of Category III AIF managers running long-only, long-short and derivatives-based strategies."
+  },
+  "xxi-a": {
+    "about": "NISM Series XXI-A covers Portfolio Management Services for distributors — investment basics across equity, debt and derivatives, the role and operations of portfolio managers, the portfolio process, performance measurement, taxation and SEBI PMS regulations.",
+    "who": "Distributors and relationship managers who distribute PMS products, for whom this certification is required."
+  },
+  "xxi-b": {
+    "about": "NISM Series XXI-B is the portfolio manager certification — securities markets, equity and fixed income analysis, derivatives, portfolio theory, behavioural finance, portfolio strategies, performance evaluation and rebalancing, and the PMS regulatory framework.",
+    "who": "Principal officers and investment professionals of SEBI-registered portfolio managers."
+  },
+  "xxii": {
+    "about": "NISM Series XXII covered fixed income securities — bonds, government securities, money markets, valuation, yield and duration, trading and regulation.",
+    "who": "Fixed-income professionals. Check NISM's website for the current status of this exam before preparing."
+  },
+  "xxiii": {
+    "about": "NISM Series XXIII covers social impact assessment — the social sector, the Social Stock Exchange and its instruments, logic models and theory of change, impact assessment frameworks and reporting, disclosure norms and key regulations.",
+    "who": "Individuals who want to act as social impact assessors for organisations raising funds on the Social Stock Exchange, a role that requires this certification."
+  },
+  "xxiv": {
+    "about": "NISM Series XXIV covers anti-money laundering and countering the financing of terrorism in the securities market — PMLA, record-keeping rules, scheduled offences, SEBI AML/CFT guidelines, KYC norms and case studies.",
+    "who": "Compliance, KYC and principal-officer teams at intermediaries who handle AML/CFT obligations and suspicious transaction reporting."
+  },
+  "xxv-a": {
+    "about": "NISM Series XXV-A is for people in sales and non-core roles at research analysts — the research profession, research fundamentals, risk and return, research reporting, ethics and regulation, and client interaction skills.",
+    "who": "Sales, client-servicing and other non-core staff associated with SEBI-registered research analysts."
+  },
+  "xxv-b": {
+    "about": "NISM Series XXV-B is for people in sales and non-core roles at investment advisers — personal financial planning, markets and asset classes, financial products, sales skills, professionalism, ethics and compliance.",
+    "who": "Sales, client-servicing and other non-core staff associated with SEBI-registered investment advisers."
+  },
+  "ibps-po": {
+    "about": "The IBPS PO preliminary exam is the first stage of recruitment for Probationary Officers in participating public sector banks. It tests English Language, Quantitative Aptitude and Reasoning Ability in sectional, timed papers.",
+    "who": "Graduates applying for officer (PO/MT) posts in public sector banks through IBPS."
+  },
+  "ibps-clerk": {
+    "about": "The IBPS Clerk preliminary exam is the first stage of recruitment for clerical cadre posts in participating public sector banks, testing English Language, Numerical Ability and Reasoning Ability.",
+    "who": "Graduates applying for clerk / customer service associate posts in public sector banks through IBPS."
+  },
+  "sbi-po": {
+    "about": "The SBI PO preliminary exam is the first stage of State Bank of India's Probationary Officer recruitment, testing English Language, Quantitative Aptitude and Reasoning Ability under strict sectional timing.",
+    "who": "Graduates applying for Probationary Officer posts at State Bank of India."
+  },
+  "sbi-clerk": {
+    "about": "The SBI Clerk (Junior Associate) preliminary exam is the first stage of State Bank of India's clerical recruitment, testing English Language, Numerical Ability and Reasoning Ability.",
+    "who": "Graduates applying for Junior Associate (customer support and sales) posts at State Bank of India."
+  },
+  "rbi-b": {
+    "about": "RBI Grade B Phase I is the first stage of the Reserve Bank of India's officer recruitment, testing General Awareness with a focus on economy and banking, English Language, Quantitative Aptitude and Reasoning.",
+    "who": "Graduates and postgraduates applying for Grade B officer posts at the Reserve Bank of India."
+  },
+  "ssc-cgl": {
+    "about": "SSC CGL Tier 1 is the first stage of the Staff Selection Commission's Combined Graduate Level exam for Group B and C posts in central government ministries and departments, testing reasoning, general awareness, quantitative aptitude and English.",
+    "who": "Graduates applying for central government posts such as assistant, inspector and auditor through SSC CGL."
+  },
+  "ssc-chsl": {
+    "about": "SSC CHSL Tier 1 is the first stage of the Combined Higher Secondary Level exam for posts such as LDC, JSA and DEO in central government offices, testing general intelligence, general awareness, quantitative aptitude and English.",
+    "who": "Candidates who have passed Class 12 and are applying for central government clerical and data-entry posts."
+  },
+  "ssc-mts": {
+    "about": "The SSC MTS exam recruits Multi-Tasking (Non-Technical) Staff and Havaldars for central government offices, testing numerical ability, reasoning, general awareness and English at a foundational level.",
+    "who": "Candidates who have passed Class 10 and are applying for MTS and Havaldar posts through SSC."
+  },
+  "cat": {
+    "about": "CAT is the Common Admission Test conducted by the IIMs for admission to their MBA/PGP programmes and used by many other B-schools. It tests Verbal Ability & Reading Comprehension, Data Interpretation & Logical Reasoning, and Quantitative Ability.",
+    "who": "Graduates applying to IIMs and other top Indian business schools that accept CAT scores."
+  },
+  "cmat": {
+    "about": "CMAT is the Common Management Admission Test conducted by NTA for admission to AICTE-approved management programmes, covering quantitative techniques, logical reasoning, language comprehension, general awareness and innovation & entrepreneurship.",
+    "who": "Graduates applying to AICTE-approved MBA and PGDM programmes that accept CMAT scores."
+  },
+  "mat": {
+    "about": "MAT is the Management Aptitude Test conducted by AIMA and accepted by many B-schools, testing language comprehension, intelligence and critical reasoning, mathematical skills and data analysis & sufficiency.",
+    "who": "Graduates applying to MBA and PGDM programmes that accept MAT scores."
+  },
+  "ic-38": {
+    "about": "IC-38 is the IRDAI pre-recruitment exam for insurance agents, conducted using the Insurance Institute of India syllabus. It covers insurance principles, life, health and general insurance products, documentation and underwriting, claims, regulation and customer service.",
+    "who": "People who want to become licensed insurance agents or point-of-sale persons for life, health or general insurers."
+  },
+  "ncfm-cmd": {
+    "about": "The NCFM Capital Market (Dealers) Module from NSE Academy covers securities market basics, market participants, trading membership, the trading system and order types, clearing and settlement, risk management, the legal framework and basic valuation.",
+    "who": "Dealers and staff of trading members, and students who want a practical certification in how the equity cash market works."
+  },
+  "jaiib": {
+    "about": "JAIIB is the Indian Institute of Banking & Finance's associate examination for bank employees. Its papers cover the Indian economy and financial system, principles and practices of banking, accounting and financial management for bankers, and retail banking and wealth management.",
+    "who": "Bank employees who are IIBF members and want the JAIIB qualification for career progression and increments."
+  },
+  "caiib": {
+    "about": "CAIIB is IIBF's advanced banking qualification. Its compulsory papers cover advanced bank management, bank financial management, advanced business and financial management, and banking regulations and business laws.",
+    "who": "Bank employees who have cleared JAIIB and want the advanced CAIIB qualification for career growth."
+  }
+}
