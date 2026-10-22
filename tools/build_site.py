@@ -452,6 +452,13 @@ def disclaimer_page():
 <p>Our content is for exam preparation only and is not investment, tax, legal or career advice.</p>'''
     return simple('/disclaimer/', 'Disclaimer', f"Disclaimer | {SITE['name']}", f"{SITE['name']} is an independent practice platform, not affiliated with NISM, SEBI or any exam body.", inner)
 
+def not_found_page():
+    groups = ''.join(f'<li><a href="{group_url(g)}">{e(g["label"])} mock tests</a></li>' for g in GROUPS)
+    body = f'''    <section class="page-hero"><div class="wrap"><h1>Page not found</h1><p class="lead-left">The page you were looking for doesn't exist or has moved.</p>
+      <div class="row" style="margin-top:20px"><a class="btn btn-primary" href="/">Go to the homepage</a><a class="btn" href="/exams/">Browse all exams</a></div></div></section>
+    <div class="wrap page prose"><h2>Popular sections</h2><ul>{groups}<li><a href="/study-material/">Free study material</a></li></ul></div>'''
+    return page('/404', f"Page not found | {SITE['name']}", 'This page could not be found.', body, noindex=True)
+
 # ---------- home (SPA shell gets SEO head + crawlable fallback) ----------
 def home_seo():
     title = f"{SITE['name']} – NISM, Banking, SSC & CAT Mock Tests"
@@ -493,6 +500,8 @@ def main():
     for path, fn in [('/about/', about_page), ('/how-we-create-questions/', method_page), ('/contact/', contact_page),
                      ('/privacy-policy/', privacy_page), ('/terms/', terms_page), ('/refund-policy/', refund_page), ('/disclaimer/', disclaimer_page)]:
         wr(path.strip('/') + '/index.html', fn()); pages.append((path, True))
+
+    wr('404.html', not_found_page())
 
     # app data
     app_exams = [{k: v for k, v in x.items() if k not in ('page', 'noindex')} | {'slug': x['slug']} for x in EXAMS]
