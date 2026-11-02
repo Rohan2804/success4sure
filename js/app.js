@@ -364,7 +364,7 @@
       </section>
 
       <section class="wrap promo-banner reveal" aria-label="Sponsored">
-        <a href="https://www.indiabullssecurities.com/" target="_blank" rel="sponsored noopener noreferrer">
+        <a href="https://indiabullssecurities.onelink.me/Kaqz/success4sure" target="_blank" rel="sponsored noopener">
           <img src="/assets/banners/indiabulls-securities.jpg" width="2000" height="267" loading="lazy" decoding="async"
             alt="Indiabulls Securities: ₹0 account opening charges, ₹11 per executed order across all segments, 20 years of trust. Open your free account now.">
         </a>
