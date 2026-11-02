@@ -558,3 +558,11 @@ tr:last-child td { border-bottom: 0; }
 .reviewer { display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: 12px; padding: 10px 14px; max-width: 420px; }
 .reviewer p { margin: 6px 0 0; }
 body.static .nav-links a { white-space: nowrap; }
+
+/* Sponsored banner (home page) */
+.promo-banner { margin-top: 48px; }
+.promo-banner a { display: block; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); transition: box-shadow .2s, transform .2s; }
+.promo-banner a:hover { box-shadow: var(--shadow-lg); transform: translateY(-1px); }
+.promo-banner img { display: block; width: 100%; height: auto; }
+.sponsored-label { display: block; margin-top: 6px; font-size: .72rem; color: var(--muted); text-align: right; letter-spacing: .02em; }
+.promo-banner + .stats-strip { margin-top: 32px; }

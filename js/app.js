@@ -363,6 +363,14 @@
         </div>
       </section>
 
+      <section class="wrap promo-banner reveal" aria-label="Sponsored">
+        <a href="https://www.indiabullssecurities.com/" target="_blank" rel="sponsored noopener noreferrer">
+          <img src="/assets/banners/indiabulls-securities.jpg" width="2000" height="267" loading="lazy" decoding="async"
+            alt="Indiabulls Securities: ₹0 account opening charges, ₹11 per executed order across all segments, 20 years of trust. Open your free account now.">
+        </a>
+        <span class="sponsored-label">Sponsored</span>
+      </section>
+
       <section class="stats-strip wrap reveal">
         <div class="stats">
           <div class="stat"><span class="stat-ico">${icon('grid', 22)}</span><div><b data-count="${N}">0</b><span>Exams covered</span></div></div>
