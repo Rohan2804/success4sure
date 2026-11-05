@@ -1,0 +1,1876 @@
+{
+  "area": "critical-thinking",
+  "lessons": [
+    {
+      "id": "breaking-down-problems",
+      "title": "Breaking Down Big Problems",
+      "track": "core",
+      "minutes": 7,
+      "summary": "Turn a vague, overwhelming problem into a clear question and smaller parts you can actually work on. You will learn to define the problem, split it with an issue tree, find the root cause and choose where to start.",
+      "sections": [
+        {
+          "heading": "Define the problem before solving it",
+          "body": "Most big problems feel big because they are vague. “My preparation is not going well” or “Sales are bad this quarter” cannot be solved as stated, because there is nothing specific to act on. The first step is to rewrite the problem as a clear, measurable question.\n\nA useful problem statement says what is happening, by how much, since when and what a good outcome looks like. Compare “Sales are bad” with “New savings accounts at our Pune branch fell from 120 a month to 80 between July and September; we want to get back to 110 by December.” The second version tells you what to measure and how you will know you have succeeded.\n\nAlso separate the problem from your favourite solution. “We need more ads” is a solution dressed up as a problem. Ask “What exactly is going wrong, and how do we know?” before anyone proposes a fix.",
+          "do": [
+            "Write the problem as one sentence with a number and a date",
+            "Agree on what success looks like before starting"
+          ],
+          "dont": [
+            "Start with a solution disguised as a problem",
+            "Accept words like “bad”, “slow” or “low” without a measure"
+          ]
+        },
+        {
+          "heading": "Split it into smaller pieces with an issue tree",
+          "body": "Once the problem is clear, break it into parts. An issue tree is simply the main question at the top with branches below it, each branch a smaller question. For the Pune branch, fewer new accounts could come from fewer people walking in, fewer walk-ins being converted, or more applications getting stuck in processing.\n\nTry to make branches that do not overlap and that together cover all the possibilities. Consultants call this MECE: mutually exclusive, collectively exhaustive. You do not need perfection; the aim is to avoid counting the same cause twice and to avoid missing a whole area.\n\nThe same method works for personal problems. Rohit keeps missing the cut-off in bank PO prelims. His tree splits his score into English, Quantitative Aptitude and Reasoning, and each section into accuracy and number of questions attempted. After reviewing three mock tests this way, he sees that his real gap is attempting too few Quant questions, not English.",
+          "do": [
+            "Split with a simple formula where you can, such as walk-ins × conversion",
+            "Check that your branches do not overlap"
+          ],
+          "dont": [
+            "Brainstorm 20 random causes with no structure"
+          ]
+        },
+        {
+          "heading": "Dig for the root cause",
+          "body": "A branch tells you where the problem is; it does not always tell you why. To get from symptom to cause, keep asking “Why?” until you reach something you can act on. This is often called the “5 Whys”, though the number is a guide, not a rule.\n\nExample: applications are stuck in processing. Why? Many are sent back for missing documents. Why? Customers do not know that their address proof must be recent. Why? The checklist handed out at the counter is an old version. Now the fix is obvious and cheap: print the updated checklist.\n\nCheck each “why” against evidence. If you cannot show that applications are actually being sent back, you are guessing, and a guess can send the whole team in the wrong direction. Data from the branch system, five customer calls or a week of simple counting can confirm or rule out an idea quickly.",
+          "do": [
+            "Back each “why” with a fact, not an assumption"
+          ],
+          "dont": [
+            "Stop at the first convenient answer",
+            "Blame a person when the process is the real cause"
+          ]
+        },
+        {
+          "heading": "Prioritise and take the first step",
+          "body": "You will usually find several causes, and you cannot fix them all at once. Rate each possible fix on impact (how much of the problem it solves) and effort (time, money, approvals). Do the high-impact, low-effort fixes now; plan the high-impact, high-effort ones; and park the low-impact ones for later.\n\nThen write down one next action that someone can start this week, with an owner and a date. “Improve the process” is not an action. “Meena replaces the counter checklist by Friday and tracks returned applications for two weeks” is.\n\nFinally, check whether the fix worked by going back to the number in your problem statement. If new accounts have not recovered after a month, return to your tree; the root cause may sit in another branch.",
+          "do": [
+            "Give every action an owner and a date",
+            "Measure the original number again after the fix"
+          ],
+          "dont": [
+            "Try to fix everything at the same time"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Rewrite a vague problem as one specific, measurable question.",
+        "Break the problem into non-overlapping parts with an issue tree.",
+        "Ask “why” repeatedly, and check each answer against evidence.",
+        "Rank fixes by impact and effort, then start with one owned action.",
+        "Measure again to confirm the fix actually worked."
+      ],
+      "quiz": [
+        [
+          "Which is the most useful problem statement?",
+          [
+            "“Our team's performance has been poor for months and everyone in management agrees something must change.”",
+            "“Weekly complaints at the Nagpur centre rose from 40 to 90 since August; target: under 50 by November.”",
+            "“We need to hire more call centre staff immediately to handle all the complaints.”",
+            "“Customers seem quite unhappy lately, and senior management is worried about the brand.”"
+          ],
+          1,
+          "It states what changed, by how much, since when and what success looks like."
+        ],
+        [
+          "A colleague says the problem is “We need a new mobile app.” What is wrong with this?",
+          [
+            "Mobile apps are far too expensive for most small and mid-sized companies",
+            "It is too short to be a problem statement",
+            "It is a solution, not a description of what is going wrong",
+            "Nothing; it is clear and specific"
+          ],
+          2,
+          "Jumping to a solution skips the step of understanding what is actually going wrong."
+        ],
+        [
+          "Which split of “Why did our coaching centre's enrolments fall?” is closest to MECE?",
+          [
+            "Fewer enquiries, or fewer enquiries turning into admissions",
+            "Fewer enquiries, weak marketing, high fees and strong competition from rivals",
+            "Teachers are poor, or students are lazy",
+            "Weather, festivals and exam dates"
+          ],
+          0,
+          "The two branches do not overlap and together cover every way enrolments can fall."
+        ],
+        [
+          "While asking “why”, you reach the answer “The staff are careless.” What should you do next?",
+          [
+            "Stop; you have found the root cause",
+            "Issue a written warning to the staff so that it does not happen again",
+            "Ask for a bigger team",
+            "Ask why the process allows the mistake, and check records"
+          ],
+          3,
+          "Blaming people often hides a process cause; keep asking and check against evidence."
+        ],
+        [
+          "Fix A has big impact and takes one day. Fix B has big impact but needs three months and budget. Fix C has small impact and takes two weeks. What order makes sense?",
+          [
+            "C first, because it is medium effort",
+            "B first, because it is the biggest project",
+            "Do A now, plan B, park C",
+            "Start all three together to save time"
+          ],
+          2,
+          "Quick high-impact wins come first; big fixes are planned; low-impact ones wait."
+        ],
+        [
+          "Which of these is a proper next action?",
+          [
+            "Priya calls ten customers who abandoned the form, by Thursday",
+            "Improve the customer experience across all our channels during this year",
+            "Everyone should focus more on quality going forward",
+            "Look into the problem whenever there is some time"
+          ],
+          0,
+          "It has an owner, a specific task and a deadline."
+        ],
+        [
+          "You believe applications are being rejected for missing documents. How should you confirm it?",
+          [
+            "Ask the team whether they agree with you",
+            "Count the reasons for returned applications over two weeks",
+            "Assume it is true, since it seems likely",
+            "Wait for the detailed quarterly report to arrive from head office"
+          ],
+          1,
+          "A quick count of real cases tests the idea with evidence."
+        ],
+        [
+          "Ananya keeps missing the SSC CGL Tier 1 cut-off. Which first step is most useful?",
+          [
+            "Buy two more books for every section",
+            "Study for more hours every day",
+            "Change her coaching institute to a bigger, more famous one",
+            "Split her mock scores by section, accuracy and attempts"
+          ],
+          3,
+          "Breaking the score down shows exactly where marks are being lost."
+        ],
+        [
+          "A month after your fix, the original number has not improved. What does this suggest?",
+          [
+            "The problem has no solution",
+            "The root cause may lie in another branch of your tree",
+            "The number must have been measured wrongly by someone in the team",
+            "Keep the fix and stop tracking"
+          ],
+          1,
+          "Rechecking the number tells you whether you solved the right cause."
+        ],
+        [
+          "Why include a target such as “back to 110 accounts a month by December” in a problem statement?",
+          [
+            "It impresses senior managers",
+            "It makes the problem sound bigger and more urgent to everyone",
+            "It tells you when the problem is solved",
+            "Company policy usually requires it"
+          ],
+          2,
+          "A target defines success, so you know when to stop and whether the fix worked."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "The vague assignment",
+          "situation": "Three months into your first job at an insurance company, your manager says, “Renewals are a mess. Look into it and tell me on Monday.” You are not sure where to start, and it is Wednesday.",
+          "options": [
+            {
+              "text": "Ask one quick question about what “a mess” means to her, then pull renewal numbers, define the gap and split it by product and channel before Monday.",
+              "rating": "best",
+              "feedback": "You confirm the real problem, measure it and break it down, so Monday's update points to where the gap actually is."
+            },
+            {
+              "text": "List every possible reason renewals could be low and present the full list on Monday.",
+              "rating": "good",
+              "feedback": "It shows effort, but an unstructured list without numbers does not tell your manager where to focus."
+            },
+            {
+              "text": "Suggest buying a new CRM system, since the current one is old.",
+              "rating": "poor",
+              "feedback": "This is a solution before the problem is understood; the CRM may have nothing to do with renewals."
+            },
+            {
+              "text": "Wait until Monday and ask your manager what exactly she meant.",
+              "rating": "poor",
+              "feedback": "You lose four working days; a short clarifying question now lets you use the time well."
+            }
+          ]
+        },
+        {
+          "title": "Stuck below the cut-off",
+          "situation": "You are preparing for IBPS PO while working full time. Your mock scores are stuck about 10 marks below the cut-offs you are targeting, and you are thinking of quitting your job to study full time.",
+          "options": [
+            {
+              "text": "Increase study time by an hour a day for a month and see if scores improve.",
+              "rating": "good",
+              "feedback": "More practice may help, but without knowing where marks are lost you may spend the extra hour on the wrong section."
+            },
+            {
+              "text": "Analyse your last five mocks by section, accuracy and attempts to find where the 10 marks go, then fix that for a month before deciding about the job.",
+              "rating": "best",
+              "feedback": "Breaking the score down finds the real gap, and you make the big, hard-to-reverse decision with better information."
+            },
+            {
+              "text": "Quit the job; more time will surely solve it.",
+              "rating": "poor",
+              "feedback": "More hours do not fix a problem you have not identified, and quitting is hard to undo."
+            },
+            {
+              "text": "Switch to a different exam because this one is too hard.",
+              "rating": "poor",
+              "feedback": "Without knowing the cause, the same gap may follow you to the next exam."
+            }
+          ]
+        },
+        {
+          "title": "The slow cash counter",
+          "situation": "Customers at your bank branch complain about long waits at the cash counter. A colleague says, “The cashier is just slow. We should ask for him to be replaced.”",
+          "options": [
+            {
+              "text": "Agree and escalate a complaint about the cashier.",
+              "rating": "poor",
+              "feedback": "It blames a person before checking the process and could be unfair as well as wrong."
+            },
+            {
+              "text": "Suggest adding a second cashier during peak hours.",
+              "rating": "good",
+              "feedback": "This may help, but it is a fix before the cause is known, and it uses scarce staff."
+            },
+            {
+              "text": "Suggest first checking when queues peak, which transactions take longest and whether the cashier also handles other tasks.",
+              "rating": "best",
+              "feedback": "Evidence on the real cause, such as extra duties or one slow transaction type, leads to a fix that lasts."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "target",
+          "title": "Big problems, small pieces",
+          "text": "A big problem feels impossible mainly because it is vague. In two minutes, learn to define it, split it, find the real cause and pick a first step."
+        },
+        {
+          "kind": "compare",
+          "icon": "flag",
+          "title": "Define the problem first",
+          "text": "Say what, how much, since when and what good looks like.",
+          "bad": "Sales are bad this quarter.",
+          "good": "New accounts fell from 120 to 80 a month since July. Target: 110 by December."
+        },
+        {
+          "kind": "tip",
+          "icon": "grid",
+          "title": "Split it with an issue tree",
+          "text": "Put the main question on top. Break it into smaller questions that don't overlap and together cover everything.",
+          "example": "Fewer new accounts?\n→ Fewer walk-ins\n→ Fewer walk-ins converted\n→ More applications stuck"
+        },
+        {
+          "kind": "compare",
+          "icon": "bulb",
+          "title": "Spot the solution in disguise",
+          "text": "A fix is not a problem. First ask what is going wrong and how you know.",
+          "bad": "We need more ads.",
+          "good": "Walk-ins are steady, but fewer of them open accounts. Why?"
+        },
+        {
+          "kind": "compare",
+          "icon": "search",
+          "title": "Ask “why” until you can act",
+          "text": "Keep asking why, and back each answer with evidence.",
+          "bad": "Applications are stuck. Push the team harder.",
+          "good": "Stuck → sent back → old address-proof rule on the counter checklist. Print the new one."
+        },
+        {
+          "kind": "checklist",
+          "icon": "chart",
+          "title": "Pick where to start",
+          "text": "Rate each fix on impact and effort.",
+          "items": [
+            "High impact, low effort: do it now",
+            "High impact, high effort: plan it",
+            "Low impact: park it for later"
+          ],
+          "tip": "Then recheck your original number after a month."
+        },
+        {
+          "kind": "compare",
+          "icon": "briefcase",
+          "title": "Turn plans into owned actions",
+          "text": "Vague plans don't move. Name who does what, by when.",
+          "bad": "Improve the process.",
+          "good": "Meena replaces the counter checklist by Friday and tracks returns for two weeks."
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Use these five steps on your next big problem:"
+        }
+      ]
+    },
+    {
+      "id": "asking-better-questions",
+      "title": "Asking Better Questions",
+      "track": "core",
+      "minutes": 6,
+      "summary": "Ask clear, specific questions that get useful answers from managers, clients and teammates. You will learn when to use open and closed questions, how to clarify a task before starting and how to ask for help well.",
+      "sections": [
+        {
+          "heading": "Why the question shapes the answer",
+          "body": "The quality of an answer depends heavily on the question. Ask your senior “Is my report okay?” and you will probably hear “Yes, fine.” Ask “Which section of my report would you change first?” and you get something you can actually use.\n\nMany of us grew up in classrooms where questions were for exams, not for learning, and asking felt like admitting you did not know. At work, the opposite is usually true. People who ask sharp questions early save hours of rework, and managers tend to notice them for the right reasons.\n\nA good question is specific, has a purpose and is easy to answer. Before you ask, take five seconds to decide what you actually want to know and why.",
+          "do": [
+            "Decide what you want to learn before you ask"
+          ],
+          "dont": [
+            "Ask “Any feedback?” and expect a useful reply"
+          ]
+        },
+        {
+          "heading": "Open and closed questions, used on purpose",
+          "body": "Closed questions get short answers such as yes, no, a number or a date: “Is the client meeting at 3 pm?” They are ideal for confirming facts. Open questions usually start with what, how or why, and invite explanation: “What worries you most about this loan?”\n\nUse open questions to explore and closed ones to confirm. A bank relationship manager meeting a new customer might begin with “What are you saving for over the next few years?” and later check, “So the goal is about ₹8 lakh for your daughter's education by 2032. Is that right?”\n\nWatch out for leading questions, which suggest the answer you want: “You'd agree this plan is good, right?” People often agree just to be polite, and you lose real information. A neutral version is “What do you think of this plan?”",
+          "do": [
+            "Explore with open questions, confirm with closed ones",
+            "Summarise and check: “So what I'm hearing is… is that right?”"
+          ],
+          "dont": [
+            "Ask leading questions when you need honest input",
+            "Stack three questions in one breath"
+          ]
+        },
+        {
+          "heading": "Clarify a task before you start",
+          "body": "When you are handed a task, a few quick questions prevent most rework: What is the goal? Who is it for? What does a finished version look like? When is it due? What matters most if time runs short?\n\nSuppose your team lead says, “Make a presentation on our competitor's new product.” Before starting, you might ask: “Is this for our team or for the regional head? Roughly how many slides? Should I focus on pricing or features? Is Thursday morning okay?” Two minutes of questions can save an evening of redoing slides.\n\nIf your manager is busy, send the questions in one short message rather than five separate pings, and suggest a default: “Unless you say otherwise, I'll keep it to 8 slides focused on pricing.” A busy person can then reply with a single “Yes.”",
+          "do": [
+            "Ask about audience, format, deadline and priority",
+            "Offer a default so a busy person can just say yes"
+          ],
+          "dont": [
+            "Guess silently and discover the mismatch on the deadline"
+          ]
+        },
+        {
+          "heading": "Ask for help the smart way",
+          "body": "Asking for help is a skill. A weak request is “Excel isn't working, can you help?” A strong one explains what you are trying to do, what you have already tried and exactly where you are stuck: “I'm matching customer IDs between two sheets with VLOOKUP. It returns #N/A for about 40 rows even though the IDs look the same. I've checked the column format. Could you look for five minutes?”\n\nThe second version respects the other person's time, and writing it often helps you spot the answer yourself. (In this example, the usual culprits are extra spaces or numbers stored as text.)\n\nFinally, use follow-up questions. The first answer is rarely the full picture. “Can you give me an example?”, “What would change your mind?” and “What else should I know?” often bring out the most valuable information in a conversation.",
+          "do": [
+            "Share what you tried and where you are stuck",
+            "Follow up with “Can you give me an example?”"
+          ],
+          "dont": [
+            "Hide confusion for days to avoid looking inexperienced"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Decide what you want to know before you ask.",
+        "Use open questions to explore and closed questions to confirm.",
+        "Avoid leading questions when you need honest input.",
+        "Clarify goal, audience, format, deadline and priority before starting a task.",
+        "When asking for help, share what you tried and where you are stuck."
+      ],
+      "quiz": [
+        [
+          "You want useful feedback on your draft report. Which question works best?",
+          [
+            "“Is the report okay?”",
+            "“Any feedback on this?”",
+            "“Which section would you change first, and why?”",
+            "“You liked the report overall, didn't you? I worked hard on it.”"
+          ],
+          2,
+          "A specific question invites a specific, usable answer."
+        ],
+        [
+          "Which of these is a closed question?",
+          [
+            "“Is the client call at 4 pm today?”",
+            "“What does the client expect from this call?”",
+            "“How should we open the call?”",
+            "“Why did the client ask for a call?”"
+          ],
+          0,
+          "It can be answered with yes or no, which makes it good for confirming a fact."
+        ],
+        [
+          "Which of these is a leading question?",
+          [
+            "“What did you think of the training?”",
+            "“How could the training be improved?”",
+            "“Which part of the training was most useful?”",
+            "“The training was really useful, wasn't it?”"
+          ],
+          3,
+          "It signals the expected answer, so people may simply agree."
+        ],
+        [
+          "Your lead says, “Prepare a summary of last month's sales.” Which question is most worth asking first?",
+          [
+            "“Should I use Calibri or Arial font?”",
+            "“Who is it for, and when do you need it?”",
+            "“Why do we need a summary at all?”",
+            "“Can someone else do this instead?”"
+          ],
+          1,
+          "Audience and deadline shape the whole task; font can wait."
+        ],
+        [
+          "Your manager is in back-to-back meetings, and you have four questions about a task. What is best?",
+          [
+            "Send all four in one numbered message, with a suggested default",
+            "Send four separate messages as each question comes to mind",
+            "Wait until tomorrow's meeting before asking anything at all",
+            "Start without asking and fix any problems later"
+          ],
+          0,
+          "One message with a default is quick to answer and lets you keep working."
+        ],
+        [
+          "Which request for help will most likely get a quick, useful answer?",
+          [
+            "“Excel is not working properly again, can you please come and help me urgently?”",
+            "“I am completely stuck on this file, please call me whenever you are free today.”",
+            "“My VLOOKUP gives #N/A on 40 rows; I've checked formats. Can you take a look?”",
+            "“Do you know Excel well?”"
+          ],
+          2,
+          "It says what you are doing, what you tried and where you are stuck."
+        ],
+        [
+          "A customer says, “I want a safe investment.” What is the best follow-up?",
+          [
+            "“So you want a fixed deposit, right?”",
+            "“Okay, I'll suggest our best product.”",
+            "“Safe options give low returns, you know.”",
+            "“What does ‘safe’ mean for you here?”"
+          ],
+          3,
+          "An open question uncovers what the customer actually means before you suggest anything."
+        ],
+        [
+          "Why summarise and check, as in “So the goal is ₹8 lakh by 2032, right?”",
+          [
+            "It fills silence in the conversation",
+            "It confirms you understood correctly",
+            "It shows that you are senior",
+            "It makes the meeting last longer"
+          ],
+          1,
+          "Playing back what you heard catches misunderstandings early."
+        ],
+        [
+          "In a meeting, everyone uses a term you don't understand. What should you do?",
+          [
+            "Ask briefly, or note it and ask a colleague right after",
+            "Nod along and never mention it",
+            "Avoid the topic in all future meetings",
+            "Pretend to understand and hope nobody asks you"
+          ],
+          0,
+          "A quick question now prevents bigger mistakes later."
+        ],
+        [
+          "Which follow-up is most likely to bring out new information?",
+          [
+            "“Is that everything you wanted to say?”",
+            "“Are you completely sure about that?”",
+            "“So we're all agreed then, right?”",
+            "“Can you give me an example?”"
+          ],
+          3,
+          "Asking for an example draws out specifics the first answer left out."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "The unclear deck",
+          "situation": "Your team lead at a fintech start-up messages: “Need a deck on our competitor's new UPI feature by Thursday.” She is travelling and replies slowly. You have several questions about audience, length and focus.",
+          "options": [
+            {
+              "text": "Send one message: “Quick check: is this for our team or for leadership? I'll plan 8 slides on features and pricing unless you'd prefer otherwise.”",
+              "rating": "best",
+              "feedback": "One concise message with a default gets you answers fast and lets you start right away."
+            },
+            {
+              "text": "Make the deck based on your best guess and ask for feedback on Wednesday.",
+              "rating": "good",
+              "feedback": "You keep moving, but if your guess about the audience is wrong you may redo most of it the night before."
+            },
+            {
+              "text": "Send five separate messages over the day as questions come to mind.",
+              "rating": "poor",
+              "feedback": "Scattered pings are hard for a travelling manager to answer and may be missed."
+            },
+            {
+              "text": "Wait for her to return before starting.",
+              "rating": "poor",
+              "feedback": "You lose days you could have used; a short message would have unblocked you."
+            }
+          ]
+        },
+        {
+          "title": "The client who agrees to everything",
+          "situation": "You are a relationship manager meeting a new customer, Mr. Iyer. He agrees with everything you suggest, but his body language looks uneasy, and you suspect he is not saying what he really thinks.",
+          "options": [
+            {
+              "text": "Hand him the brochure and ask him to call if he has questions.",
+              "rating": "good",
+              "feedback": "It gives him space, but he may never raise his concern, and you lose the chance to understand it."
+            },
+            {
+              "text": "Ask, “So you're happy with this plan, right?” and move on to the paperwork.",
+              "rating": "poor",
+              "feedback": "A leading question invites polite agreement and hides the doubt you noticed."
+            },
+            {
+              "text": "Ask an open question, such as “What part of this would you want to think over before deciding?”, then pause and listen.",
+              "rating": "best",
+              "feedback": "An open, non-judgemental question gives him permission to share the real concern."
+            }
+          ]
+        },
+        {
+          "title": "Stuck for two days",
+          "situation": "You joined a company two weeks ago. You have been stuck for two days on a reconciliation sheet that does not match by ₹14,200. You don't want your senior, Kavya, to think you are slow.",
+          "options": [
+            {
+              "text": "Keep trying alone; asking will make you look weak.",
+              "rating": "poor",
+              "feedback": "Silent struggle wastes time and delays the work; seniors usually prefer an early, specific question."
+            },
+            {
+              "text": "Ask a fellow fresher first, then go to Kavya if you are still stuck.",
+              "rating": "good",
+              "feedback": "Reasonable, but a fresher may not know the process, and more time slips by."
+            },
+            {
+              "text": "Message Kavya: “I'm reconciling the October sheet; it's off by ₹14,200. I've checked duplicates and dates. Could you spare 10 minutes to see where I'm going wrong?”",
+              "rating": "best",
+              "feedback": "It shows effort, gives exact details and asks for a small, defined amount of time."
+            },
+            {
+              "text": "Adjust one figure so the totals match and submit.",
+              "rating": "poor",
+              "feedback": "Forcing numbers to match hides a real error and damages trust when it is found."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "sparkle",
+          "title": "Better questions, better answers",
+          "text": "The answer you get depends on the question you ask. Learn to explore, confirm, clarify tasks and ask for help, in about two minutes."
+        },
+        {
+          "kind": "compare",
+          "icon": "search",
+          "title": "Ask for something specific",
+          "text": "Vague questions get polite, useless answers.",
+          "bad": "Is my report okay?",
+          "good": "Which section would you change first, and why?"
+        },
+        {
+          "kind": "tip",
+          "icon": "info",
+          "title": "Open to explore, closed to confirm",
+          "text": "Start with what, how or why to understand. Then confirm the key fact with a yes-or-no question.",
+          "example": "“What are you saving for?”\n“So, ₹8 lakh for education by 2032. Right?”"
+        },
+        {
+          "kind": "compare",
+          "icon": "user",
+          "title": "Drop the leading question",
+          "text": "People agree just to be polite. Ask neutrally to hear what they really think.",
+          "bad": "You'd agree this plan is good, right?",
+          "good": "What do you think of this plan?"
+        },
+        {
+          "kind": "checklist",
+          "icon": "target",
+          "title": "Clarify before you start",
+          "text": "Before any new task, ask:",
+          "items": [
+            "What is the goal?",
+            "Who is it for?",
+            "What does finished look like?",
+            "When is it due?",
+            "What matters most if time runs short?"
+          ],
+          "tip": "Busy manager? Send all questions in one message, with a default."
+        },
+        {
+          "kind": "compare",
+          "icon": "bulb",
+          "title": "Ask for help the smart way",
+          "text": "Say what you're doing, what you tried and where you're stuck.",
+          "bad": "Excel isn't working, can you help?",
+          "good": "VLOOKUP gives #N/A on 40 rows. I've checked formats. Could you look for five minutes?"
+        },
+        {
+          "kind": "tip",
+          "icon": "refresh",
+          "title": "Follow up for the full picture",
+          "text": "The first answer is rarely complete. Try one of these:",
+          "example": "“Can you give me an example?”\n“What would change your mind?”\n“What else should I know?”"
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Five habits for your next conversation:"
+        }
+      ]
+    },
+    {
+      "id": "spotting-misinformation",
+      "title": "Spotting Fake News, Bad Data and Misleading Charts",
+      "track": "core",
+      "minutes": 7,
+      "summary": "Check forwards, statistics and charts before you believe or share them. You will learn quick verification habits and how to spot cherry-picked numbers and misleading graphs.",
+      "sections": [
+        {
+          "heading": "Pause before you forward",
+          "body": "Misinformation spreads because it is designed to make you feel something, such as fear, anger, hope or excitement, and act before you think. A forward claiming “Your bank account will be frozen on Monday unless you update KYC through this link” or “This kitchen spice cures diabetes in 7 days” works on emotion, not evidence.\n\nBuild the habit of a ten-second pause. Ask: Who is the original source? Is it named and checkable? Does the message push me to act or share immediately? Is it asking for money, an OTP or a click on an unknown link? A yes to either of the last two is a strong warning sign.\n\nWhatsApp marks messages that have been forwarded many times. That label tells you the message has travelled far from its original sender, not that it is true. Forwarding something “just in case” still spreads it.",
+          "do": [
+            "Pause and look for the original, named source",
+            "Treat urgency, unknown links and OTP requests as red flags"
+          ],
+          "dont": [
+            "Forward a message “just in case it's true”"
+          ]
+        },
+        {
+          "heading": "Verify with official and independent sources",
+          "body": "For anything about exams, jobs or money, go straight to the official source. A viral PDF saying an exam has been postponed, or a job offer asking for a ₹5,000 “registration fee”, should be checked on the organisation's own website or by calling a number you looked up yourself, not the number in the message.\n\nFor news, see whether several established, independent outlets are reporting the same thing. If only one unknown website or a single screenshot carries the claim, wait. Screenshots of “news” are easy to fake, and real headlines are sometimes paired with old photos from a different event.\n\nFor images, a reverse image search, available in common search engines, often shows whether a photo is old or from another place. Check dates carefully: many forwards recycle a true story from years ago as if it happened today.",
+          "do": [
+            "Check exam and job news on the official website",
+            "Look up contact numbers yourself"
+          ],
+          "dont": [
+            "Trust a screenshot as proof",
+            "Pay a “fee” to secure a job offer"
+          ]
+        },
+        {
+          "heading": "Question the numbers",
+          "body": "Numbers feel objective, but they can mislead. Cherry-picking means choosing only the data that supports a point. A stock “up 60% since March” may simply be measured from its lowest point of the year; over three years it might be flat. Always ask: compared with what, and over what period?\n\nPercentages without base numbers are another trap. “Complaints doubled” sounds alarming, but if they went from 3 to 6 at a branch serving 10,000 customers, it is a small change. Ask for the actual counts.\n\nAlso check who was measured. “9 out of 10 users recommend this app” means little if only 10 people were asked, or only happy paying customers. And remember that two things rising together does not mean one causes the other: ice-cream sales and drowning cases both rise in summer because of the hot weather, not because of each other.",
+          "do": [
+            "Ask “compared with what, and since when?”",
+            "Ask for the counts behind every percentage"
+          ],
+          "dont": [
+            "Assume that things moving together cause each other"
+          ]
+        },
+        {
+          "heading": "Read charts carefully",
+          "body": "Charts can be accurate and still mislead. The most common trick is a vertical axis that does not start at zero. If one bar shows 96% customer satisfaction and another 98%, starting the axis at 95 makes the second bar look three times taller, though the real gap is just two points.\n\nOther warning signs include uneven time gaps on the horizontal axis (2015, 2020, 2022, 2023 spaced equally), two lines drawn on different scales so they appear to move together, missing labels or units, and 3D pie charts where the slice nearest you looks bigger than it is.\n\nWhenever you see a dramatic chart, read the axis labels and numbers first, then the picture. Ask what the chart would look like if it were drawn fairly. If you build charts at work, start bar charts at zero and label everything; your credibility depends on it.",
+          "do": [
+            "Read the axes and numbers before the shape",
+            "Start bar charts at zero when you make them"
+          ],
+          "dont": [
+            "Judge a trend by how steep the line looks"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Pause before forwarding and find the original, named source.",
+        "Treat urgency, fees, unknown links and OTP requests as red flags.",
+        "Verify exam, job and money news on official websites.",
+        "Ask “compared with what?” and for the counts behind every percentage.",
+        "Read a chart's axes and labels before trusting its shape."
+      ],
+      "quiz": [
+        [
+          "A forward says your bank account will be blocked today unless you update KYC via a link. What should you do first?",
+          [
+            "Click the link quickly to avoid the block",
+            "Contact the bank through its official app or a number you look up",
+            "Forward it to your family group so everyone stays safe in time",
+            "Reply to the sender asking whether it is genuine"
+          ],
+          1,
+          "Official channels you find yourself are the safe way to check; the link may be a phishing trap."
+        ],
+        [
+          "A viral PDF claims a bank exam has been postponed. What is the most reliable check?",
+          [
+            "Count how many groups have shared it",
+            "See if it has an official-looking logo",
+            "Ask your coaching batchmates what they have heard about it",
+            "Check the conducting body's official website"
+          ],
+          3,
+          "Only the official website confirms changes; logos and share counts are easy to fake or inflate."
+        ],
+        [
+          "A bar chart's axis starts at 95. The bars show 96 and 98. What is the real difference?",
+          [
+            "Two percentage points",
+            "The second is three times higher",
+            "The second is double the first",
+            "It cannot be known from the chart"
+          ],
+          0,
+          "The bars look three times apart only because the axis is cut; the values differ by two points."
+        ],
+        [
+          "A headline says “Branch complaints up 100%!” Which question matters most?",
+          [
+            "Which month was this measured in?",
+            "Who designed the chart that went with the headline?",
+            "What are the actual counts before and after?",
+            "Is 100% a big number?"
+          ],
+          2,
+          "A 100% rise could be from 3 to 6; the counts show whether it matters."
+        ],
+        [
+          "A stock is described as “up 60% since March.” What is the most useful follow-up?",
+          [
+            "Which brokerage app shows this chart, and is it free?",
+            "How has it moved over longer periods, and was March a low?",
+            "Should I buy before it rises any further this week?",
+            "Did a famous investor recommend it on TV?"
+          ],
+          1,
+          "A start date can be cherry-picked; longer periods show the fuller picture."
+        ],
+        [
+          "Ice-cream sales and drowning cases both rise each summer. What explains this best?",
+          [
+            "Hot weather drives both",
+            "Ice-cream causes drowning",
+            "Drowning causes ice-cream sales",
+            "It is pure coincidence every year"
+          ],
+          0,
+          "A third factor can make two things move together without either causing the other."
+        ],
+        [
+          "An ad says “9 out of 10 users recommend our app.” What should you ask?",
+          [
+            "Does the app have a dark mode option?",
+            "Is the app available free on Android?",
+            "Which celebrity appears in the campaign?",
+            "How many users were surveyed, and which ones?"
+          ],
+          3,
+          "A tiny or hand-picked sample makes the figure meaningless."
+        ],
+        [
+          "A job offer on WhatsApp asks for a ₹5,000 refundable registration fee. What is the best response?",
+          [
+            "Pay quickly before the limited seats are filled",
+            "Negotiate to pay half now and the rest after joining",
+            "Verify with the company directly before paying",
+            "Share it in groups to see if others got it too"
+          ],
+          2,
+          "Fee requests are a common sign of job scams; check with the company through its official channels."
+        ],
+        [
+          "A dramatic news photo is shared with today's date. How can you check whether it is old?",
+          [
+            "Use a reverse image search",
+            "Zoom in on the photo",
+            "Check how many likes it has",
+            "Ask the person who forwarded it"
+          ],
+          0,
+          "Reverse image search often shows where and when a photo first appeared."
+        ],
+        [
+          "A line chart shows the years 2015, 2020, 2022 and 2023 spaced equally. What is the problem?",
+          [
+            "Too many years are shown",
+            "The line should have been drawn as a bar chart instead",
+            "Uneven time gaps distort the trend",
+            "Charts should not show years"
+          ],
+          2,
+          "Equal spacing for unequal gaps makes changes look faster or slower than they were."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "The family group forward",
+          "situation": "Your uncle forwards a message to the family WhatsApp group: a spice mix that “reverses diabetes in 7 days, which doctors don't want you to know”. Your grandmother, who is diabetic, replies that she will try it and stop her tablets.",
+          "options": [
+            {
+              "text": "Post in the group that the claim has no reliable evidence and share a link from a reputable health source.",
+              "rating": "good",
+              "feedback": "Correcting the record helps, but the urgent risk is your grandmother stopping her medicine, which needs a direct, personal conversation."
+            },
+            {
+              "text": "Call your grandmother and gently ask her not to stop any medicine without speaking to her doctor; offer to go with her to ask.",
+              "rating": "best",
+              "feedback": "It addresses the real danger kindly and puts a qualified doctor, not a forward, at the centre of the decision."
+            },
+            {
+              "text": "Ignore it; arguing in family groups only causes trouble.",
+              "rating": "poor",
+              "feedback": "Staying silent could let a health risk go ahead unchallenged."
+            },
+            {
+              "text": "Reply angrily calling your uncle foolish for spreading lies.",
+              "rating": "poor",
+              "feedback": "Public shaming makes people defensive and less likely to listen to the facts."
+            }
+          ]
+        },
+        {
+          "title": "The impressive slide",
+          "situation": "A colleague's slide for the monthly review shows your branch's loan disbursals: ₹4.1 crore last month and ₹4.4 crore this month. The y-axis starts at ₹4 crore, so this month's bar looks four times taller. Your manager loves it and plans to send it to the regional office.",
+          "options": [
+            {
+              "text": "Say nothing; it makes the branch look good.",
+              "rating": "poor",
+              "feedback": "If the regional office notices the cut axis, the branch's credibility suffers more than the slide helped."
+            },
+            {
+              "text": "Add data labels showing ₹4.1 crore and ₹4.4 crore but keep the axis as it is.",
+              "rating": "good",
+              "feedback": "Labels help careful readers, but the picture still exaggerates the change for anyone who glances."
+            },
+            {
+              "text": "Suggest privately redrawing it from zero and adding the growth figure, about 7%, which is a solid number that won't be questioned.",
+              "rating": "best",
+              "feedback": "A fair chart with a clear figure presents real growth honestly and protects everyone's credibility."
+            }
+          ]
+        },
+        {
+          "title": "The postponement PDF",
+          "situation": "Two days before your SBI Clerk prelims, a batchmate shares a PDF on Telegram saying the exam has been postponed by a month. It has an official-looking logo, and several groups are celebrating.",
+          "options": [
+            {
+              "text": "Wait to see whether reputable news sites report it, and keep studying meanwhile.",
+              "rating": "good",
+              "feedback": "Sensible, but news sites can lag or copy each other; the official notice page is the final word."
+            },
+            {
+              "text": "Stop studying and plan a short trip, since everyone is sharing it.",
+              "rating": "poor",
+              "feedback": "Popularity is not proof; if the PDF is fake, you lose your final revision days."
+            },
+            {
+              "text": "Forward it to your other groups so friends don't waste effort.",
+              "rating": "poor",
+              "feedback": "Spreading an unverified notice could harm many candidates' preparation."
+            },
+            {
+              "text": "Check the official recruitment page yourself and keep preparing as planned unless it confirms the change.",
+              "rating": "best",
+              "feedback": "The official source settles the question, and you lose nothing by continuing to prepare."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "search",
+          "title": "Don't get fooled by forwards",
+          "text": "Fake forwards, cherry-picked numbers and tricky charts all work on emotion. Learn quick checks to use before you believe, or share, anything."
+        },
+        {
+          "kind": "checklist",
+          "icon": "shield",
+          "title": "The ten-second pause",
+          "text": "Before you forward, ask:",
+          "items": [
+            "Who is the original, named source?",
+            "Is it pushing me to act or share right now?",
+            "Does it want money, an OTP or a click?"
+          ],
+          "tip": "“Forwarded many times” means it travelled far, not that it's true."
+        },
+        {
+          "kind": "compare",
+          "icon": "flag",
+          "title": "Go to the official source",
+          "text": "Exam, job or money news? Check the organisation's own website, or a number you looked up yourself.",
+          "bad": "The PDF has the official logo, so the exam must be postponed.",
+          "good": "Nothing on the official site yet. I'll keep preparing."
+        },
+        {
+          "kind": "compare",
+          "icon": "chart",
+          "title": "Ask: compared with what?",
+          "text": "A start date can be picked to impress.",
+          "bad": "Stock up 60% since March!",
+          "good": "March was its yearly low. Over three years it might be flat."
+        },
+        {
+          "kind": "compare",
+          "icon": "info",
+          "title": "Ask for the real counts",
+          "text": "Percentages without base numbers can scare or impress for no reason.",
+          "bad": "Complaints doubled!",
+          "good": "Complaints went from 3 to 6, out of 10,000 customers."
+        },
+        {
+          "kind": "tip",
+          "icon": "grid",
+          "title": "Check where the axis starts",
+          "text": "A cut axis turns a small gap into a huge one. Read the axes and labels before the shape.",
+          "example": "96% vs 98% on an axis starting at 95: one bar looks three times taller. Real gap: 2 points."
+        },
+        {
+          "kind": "tip",
+          "icon": "bulb",
+          "title": "Together isn't the same as because",
+          "text": "Two things rising together doesn't prove one causes the other.",
+          "example": "Ice-cream sales and drowning both rise in summer. The real cause? Hot weather."
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Five checks before you believe or share:"
+        }
+      ]
+    },
+    {
+      "id": "deciding-with-incomplete-information",
+      "title": "Making Decisions with Incomplete Information",
+      "track": "core",
+      "minutes": 7,
+      "summary": "Make sound decisions when you cannot know everything, by sorting what you know, matching effort to the stakes and setting a deadline to decide. You will also learn to judge decisions by their reasoning, not only their outcome.",
+      "sections": [
+        {
+          "heading": "You will never have all the facts",
+          "body": "Whether to accept a job offer or wait for a better one, which optional subject to pick, whether to sign up for a course this month: most real decisions are made without complete information. Waiting for certainty usually means waiting forever, and not deciding is itself a decision with its own costs.\n\nStart by sorting what you have into three lists: what you know, what you don't know but could find out quickly, and what nobody can know yet. Sneha, choosing between two job offers, knows the salaries and locations. She can learn about team culture by speaking to two current employees this week. She cannot know whether either company will grow fast in five years.\n\nGather the information that is cheap and quick to get. Accept that the third list will stay uncertain, and decide anyway.",
+          "do": [
+            "Sort facts into known, findable and unknowable",
+            "Get the cheap, quick information first"
+          ],
+          "dont": [
+            "Treat not deciding as a safe, neutral option"
+          ]
+        },
+        {
+          "heading": "Match your effort to the stakes",
+          "body": "Not every decision deserves the same care. Ask two questions: How big is the impact? How easily can I undo it? Choosing a laptop bag or a weekend course is low-stakes and easy to reverse, so decide quickly. Signing a two-year bond with a penalty clause, taking a large education loan or resigning from a secure job is hard to reverse, so slow down, get more input and sleep on it.\n\nMany choices that feel huge are more reversible than they seem. You can switch coaching batches, move teams after a year or try freelancing on weekends before quitting. When a choice can be undone at low cost, it is often better to act, learn and adjust than to keep researching.\n\nSet a decision deadline that fits the stakes: ten minutes for small choices, about a week for big ones. A deadline stops endless overthinking and makes you collect the information that matters most.",
+          "do": [
+            "Decide small, reversible things fast",
+            "Set a deadline for every big decision"
+          ],
+          "dont": [
+            "Spend a week on a ₹500 choice",
+            "Rush a hard-to-reverse commitment"
+          ]
+        },
+        {
+          "heading": "Think in scenarios, not certainties",
+          "body": "When the future is unclear, imagine a few possible outcomes instead of one. For each option, ask: What is the best case, the likely case and the worst case? Could I live with the worst case?\n\nOne useful exercise is to imagine that a year has passed and the decision has gone badly. What is the most likely reason? If Sneha imagines that joining the start-up went wrong, the likely story is that the company ran out of money. That points to a sensible question to ask before joining: how long is the company's current funding expected to last?\n\nAlso decide in advance what new information would change your mind. “If my mock interview feedback is poor, I'll delay my application by one cycle” turns a vague worry into a clear plan.",
+          "do": [
+            "List best, likely and worst cases for each option",
+            "Name the evidence that would change your mind"
+          ],
+          "dont": [
+            "Plan only for the outcome you hope for"
+          ]
+        },
+        {
+          "heading": "Judge the decision, not just the result",
+          "body": "A good decision can have a bad outcome because of luck, and a poor decision can turn out well. If you never back up your project files and your laptop happens to survive, it was still a risky choice. Judging only by outcomes teaches the wrong lessons.\n\nSo write down important decisions briefly: what you decided, what you knew, what you expected and why. A few lines in a notes app is enough. Months later, compare what happened with what you expected. You may notice patterns, such as being too optimistic about timelines or too influenced by what friends chose.\n\nFinally, once you have decided, commit and act. Keep an eye on the signals you said would change your mind, but do not reopen the decision every day. Constant second-guessing drains energy and makes you less effective at whatever you chose.",
+          "do": [
+            "Note what you knew and expected at the time",
+            "Commit once decided, and watch for your warning signs"
+          ],
+          "dont": [
+            "Judge a choice only by how it turned out",
+            "Reopen a settled decision every day"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Sort facts into what you know, can find out and cannot know.",
+        "Get cheap information quickly, then decide by a set deadline.",
+        "Move fast on reversible choices; slow down on hard-to-reverse ones.",
+        "Imagine best, likely and worst cases, and why the choice might fail.",
+        "Judge decisions by the reasoning and information you had, not by luck."
+      ],
+      "quiz": [
+        [
+          "Sneha has two job offers and must reply in three days. What should she do first?",
+          [
+            "Wait until she knows which company will grow faster",
+            "Pick the higher salary without further thought",
+            "Ask both companies for a month to decide",
+            "Speak to current employees about the teams"
+          ],
+          3,
+          "It is quick, cheap information that can genuinely change the decision."
+        ],
+        [
+          "Which decision deserves the most time and care?",
+          [
+            "Choosing a mock test series to try for a month",
+            "Signing a two-year bond with a large penalty",
+            "Picking a new laptop bag",
+            "Choosing lunch for a team outing"
+          ],
+          1,
+          "It has high stakes and is hard to reverse."
+        ],
+        [
+          "What is the main purpose of a decision deadline?",
+          [
+            "To impress your manager",
+            "To make every choice feel more urgent and exciting than it is",
+            "To stop endless research and overthinking",
+            "To avoid gathering any information"
+          ],
+          2,
+          "A deadline forces you to collect what matters and then act."
+        ],
+        [
+          "Which of these cannot be known today?",
+          [
+            "Whether a company will grow fast in five years",
+            "The salary in the offer letter",
+            "The office location",
+            "The notice period in your current job"
+          ],
+          0,
+          "Future growth is genuinely uncertain; the others can be checked now."
+        ],
+        [
+          "You imagine a year ahead in which your decision has failed. Why is this useful?",
+          [
+            "It prepares you emotionally for disappointment",
+            "It proves the decision is wrong",
+            "It reveals risks you can check or plan for now",
+            "It removes the need for any research"
+          ],
+          2,
+          "Picturing failure surfaces specific risks while you can still act on them."
+        ],
+        [
+          "You skipped backing up your files, and your laptop was fine. What is the best conclusion?",
+          [
+            "Backups are unnecessary",
+            "It was a good decision because nothing went wrong",
+            "Laptops rarely fail these days",
+            "The outcome was lucky; the choice was still risky"
+          ],
+          3,
+          "Good outcomes from risky choices are luck, not proof of good judgement."
+        ],
+        [
+          "A choice can be undone easily at low cost. What approach usually works best?",
+          [
+            "Research it for several more weeks",
+            "Act, learn from the result and adjust",
+            "Ask everyone you know for their opinion first",
+            "Avoid deciding until someone forces you"
+          ],
+          1,
+          "When undoing is cheap, learning by doing beats long research."
+        ],
+        [
+          "Why decide in advance what would change your mind?",
+          [
+            "It turns vague worry into a clear trigger",
+            "It lets you avoid committing",
+            "It shows your colleagues and manager that you are flexible",
+            "It guarantees the right outcome"
+          ],
+          0,
+          "A named signal tells you exactly when to revisit the decision."
+        ],
+        [
+          "What is most useful to record in a short decision note?",
+          [
+            "Only the final outcome",
+            "Who agreed with you",
+            "How confident you felt that morning",
+            "What you knew, expected and why"
+          ],
+          3,
+          "Comparing expectations with results later shows how your reasoning can improve."
+        ],
+        [
+          "After a careful decision to join a new team, you hear one colleague complain about it. What should you do?",
+          [
+            "Request a transfer back immediately",
+            "Note it, and act only if your warning signs appear",
+            "Ignore all future information about the team",
+            "Reopen the decision with your manager every week"
+          ],
+          1,
+          "Stay committed while watching for the signals you defined in advance."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "Offer in hand, result pending",
+          "situation": "A private bank has offered you a job, and you must reply by Friday. Your SSC CGL final result is due in about six weeks, and you think you have a fair chance of selection.",
+          "options": [
+            {
+              "text": "Ask HR to extend the deadline by six weeks.",
+              "rating": "good",
+              "feedback": "Worth asking, but a long extension is unlikely, and you still need a plan if they say no."
+            },
+            {
+              "text": "Check the offer for any bond or penalty, accept if leaving later would cost little, and decide again when the result comes.",
+              "rating": "best",
+              "feedback": "You secure a real option now, check how reversible it is, and keep the other path open."
+            },
+            {
+              "text": "Decline the offer, since the government job is sure to come.",
+              "rating": "poor",
+              "feedback": "The result is uncertain; giving up a solid option on a hope leaves you exposed."
+            },
+            {
+              "text": "Don't reply and see what happens.",
+              "rating": "poor",
+              "feedback": "Silence is still a decision, and it may close the offer and harm your reputation."
+            }
+          ]
+        },
+        {
+          "title": "The brochure deadline",
+          "situation": "You are handling logistics for your college's placement week. The printer says the 500 brochures will be a day late unless you approve a different paper stock today, costing ₹1,500 more. The faculty coordinator is unreachable for six hours.",
+          "options": [
+            {
+              "text": "Wait six hours for the coordinator, even if it causes the delay.",
+              "rating": "poor",
+              "feedback": "Waiting lets the hard-to-fix problem, a late brochure, happen to avoid a small, reversible cost decision."
+            },
+            {
+              "text": "Check that the budget can absorb ₹1,500, approve the change, and message the coordinator explaining why.",
+              "rating": "best",
+              "feedback": "You checked the key fact, made a proportionate call and kept the coordinator informed."
+            },
+            {
+              "text": "Approve the change straight away without checking the budget, since the deadline matters most.",
+              "rating": "good",
+              "feedback": "The decision is probably right, but a quick budget check would have made it sound rather than lucky."
+            }
+          ]
+        },
+        {
+          "title": "Blaming the outcome",
+          "situation": "Last quarter your teammate Arjun recommended a new lead-generation vendor after checking references and running a small two-week trial. The trial looked fine, but the full rollout underperformed. Your manager says, “Arjun's decisions can't be trusted.”",
+          "options": [
+            {
+              "text": "Point out that the trial results were positive, so Arjun was not at fault.",
+              "rating": "good",
+              "feedback": "Fair to Arjun, but it stops at defending him instead of learning what the trial missed."
+            },
+            {
+              "text": "Agree, and suggest Arjun not be involved in future vendor choices.",
+              "rating": "poor",
+              "feedback": "This judges the decision only by its outcome and discourages careful, evidence-based choices."
+            },
+            {
+              "text": "Suggest reviewing what was known at the time and what the trial missed, so the next vendor trial checks those gaps.",
+              "rating": "best",
+              "feedback": "It separates decision quality from luck and improves the process for next time."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "clock",
+          "title": "Decide without all the facts",
+          "text": "You'll rarely have every fact, and not deciding is also a choice. Learn a quick way to decide with confidence anyway."
+        },
+        {
+          "kind": "checklist",
+          "icon": "grid",
+          "title": "Sort what you have",
+          "text": "Put each fact in one of three lists:",
+          "items": [
+            "Know: salary, location",
+            "Can find out fast: team culture, from two current employees",
+            "Can't know yet: the company's growth in five years"
+          ],
+          "tip": "Get the cheap, quick facts first. Then decide."
+        },
+        {
+          "kind": "compare",
+          "icon": "target",
+          "title": "Match effort to the stakes",
+          "text": "Ask: how big is it, and how easy is it to undo?",
+          "bad": "A week choosing a ₹500 course, then ten minutes signing a two-year bond.",
+          "good": "Decide small, reversible things fast. Slow down for bonds, loans and resignations."
+        },
+        {
+          "kind": "tip",
+          "icon": "clock",
+          "title": "Set a decision deadline",
+          "text": "About ten minutes for small choices, about a week for big ones. A deadline stops endless overthinking.",
+          "example": "“I'll decide on the offer by Thursday, 6 pm.”"
+        },
+        {
+          "kind": "compare",
+          "icon": "search",
+          "title": "Imagine it went wrong",
+          "text": "Picture a year ahead in which the decision failed. Why? Check that risk now.",
+          "bad": "The start-up offer is exciting. I'm sure it'll work out.",
+          "good": "If it failed, it's probably funding. Let me ask how long their money will last."
+        },
+        {
+          "kind": "compare",
+          "icon": "refresh",
+          "title": "Name what would change your mind",
+          "text": "Turn vague worry into a clear trigger.",
+          "bad": "I'm not sure I'm ready… let me keep thinking.",
+          "good": "If my mock interview feedback is poor, I'll delay my application by one cycle."
+        },
+        {
+          "kind": "compare",
+          "icon": "star",
+          "title": "Judge the decision, not the luck",
+          "text": "Good choices can end badly; risky ones can end well.",
+          "bad": "I never back up my files and nothing happened, so it's fine.",
+          "good": "My laptop survived. That was luck, not a good decision."
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Use these steps for your next tough call:"
+        }
+      ]
+    },
+    {
+      "id": "case-and-puzzle-questions",
+      "title": "Solving Case and Puzzle Questions in Interviews",
+      "track": "fresher",
+      "minutes": 7,
+      "summary": "Approach guesstimates, business cases and puzzles in interviews with a clear structure and calm, out-loud reasoning. You will learn to clarify the question, break it down, calculate simply and sanity-check your answer.",
+      "sections": [
+        {
+          "heading": "What interviewers are really testing",
+          "body": "Case and puzzle questions appear in campus placements for consulting, analytics, banking and product roles, and sometimes in management trainee interviews. “How many cups of tea are sold in a college canteen each day?” has no exact answer, and the interviewer knows it. They want to see how you think: whether you structure the problem, make sensible assumptions, calculate carefully and stay calm.\n\nSo think out loud. A silent minute followed by “around 1,000” tells the interviewer nothing. Walking through your steps lets them follow you, nudge you if you drift and give credit for a sound method even if your final number differs from theirs.\n\nStart every question by restating it and asking one or two clarifying questions: “Do you mean a single canteen on a typical working day? Should I include staff?” This shows care and narrows the problem.",
+          "do": [
+            "Restate the question and clarify its scope",
+            "Think out loud at every step"
+          ],
+          "dont": [
+            "Jump straight to a number",
+            "Go silent for long stretches"
+          ]
+        },
+        {
+          "heading": "Structuring a guesstimate",
+          "body": "Break the estimate into a chain of simple factors you can reasonably guess. For the canteen question: the college has 2,000 students. On a typical day about 60% are on campus, which is 1,200. Perhaps 40% of them buy tea, which is 480 students, and they average 1.5 cups each, giving 720 cups. Add 150 staff drinking about 2 cups each, which is 300 cups. The total is roughly 1,020 cups, so you might say “about 1,000 a day”.\n\nState each assumption clearly and use round numbers so the arithmetic stays easy under pressure. If the interviewer says, “Assume 3,000 students instead,” you can update one step rather than starting over.\n\nFinish with a sanity check. Does 1,000 cups a day seem possible for one canteen counter? If tea is served for about eight hours, that is around two cups a minute: busy, but believable.",
+          "do": [
+            "Use round numbers and state every assumption",
+            "Sanity-check the final figure against real life"
+          ],
+          "dont": [
+            "Insist your assumption is the only right one"
+          ]
+        },
+        {
+          "heading": "Cracking business case questions",
+          "body": "In a business case, you are given a situation such as “A café chain's profits have fallen. Why?” Use a simple framework as your starting tree. Profit is revenue minus costs, and revenue is price multiplied by the number of units sold. Ask for data on each branch before guessing causes.\n\nSuppose the interviewer tells you a café's monthly profit fell from ₹50,000 to ₹30,000 while revenue stayed at ₹2,00,000. Then costs must have risen from ₹1,50,000 to ₹1,70,000, an increase of ₹20,000. Next you ask which cost rose: rent, staff, ingredients or electricity? If rent went up by ₹20,000, you have explained the whole gap, and you can discuss options such as renegotiating, relocating or raising prices on popular items.\n\nEnd with a short summary and a recommendation: “The fall is entirely due to a ₹20,000 rent increase. I'd first try to renegotiate the lease, and meanwhile test a small price increase on coffee.”",
+          "do": [
+            "Start from profit = revenue − costs",
+            "Close with a clear recommendation"
+          ],
+          "dont": [
+            "List causes before checking the numbers"
+          ]
+        },
+        {
+          "heading": "Logic puzzles and staying calm",
+          "body": "Pure puzzles test structured reasoning. A classic: you have 8 identical-looking coins, one slightly heavier, and a balance scale. What is the fewest number of weighings that always finds the heavy coin? Instead of weighing 4 against 4, split the coins into groups of 3, 3 and 2. Weigh 3 against 3. If they balance, the heavy coin is one of the 2; weigh them against each other. If not, take the heavier 3 and weigh 1 against 1; if those balance, it is the third coin. Either way, two weighings are enough.\n\nThe lesson is to think about how each step splits the possibilities, not just the obvious first move. If you are stuck, say so and try a smaller version: “Let me think about it with 3 coins first.”\n\nPractise with a friend, giving yourself 5–10 minutes per question. Speaking your reasoning aloud during practice is what makes it feel natural in the real interview.",
+          "do": [
+            "Try a smaller version when stuck",
+            "Practise aloud with a timer"
+          ],
+          "dont": [
+            "Panic or give up when your first idea fails"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Clarify the question before you start solving.",
+        "Think out loud so the interviewer can follow your method.",
+        "Break guesstimates into simple factors with round numbers.",
+        "Use profit = revenue − costs to structure business cases.",
+        "Sanity-check your answer and end with a clear recommendation."
+      ],
+      "quiz": [
+        [
+          "An interviewer asks how many ATMs there are in your city. What should you do first?",
+          [
+            "Clarify the scope, such as whether to include all banks",
+            "Say you don't know because you have never counted",
+            "Give a number immediately to look confident",
+            "Ask the interviewer for the exact answer"
+          ],
+          0,
+          "Clarifying scope shows care and keeps your estimate focused."
+        ],
+        [
+          "A city has 10 lakh people and an average household size of 4. How many households is that?",
+          [
+            "40,000",
+            "4 lakh",
+            "2.5 lakh",
+            "25,000"
+          ],
+          2,
+          "10 lakh ÷ 4 = 2.5 lakh households."
+        ],
+        [
+          "If 20% of 2.5 lakh households own one car each, how many cars is that?",
+          [
+            "5,000",
+            "50,000",
+            "5 lakh",
+            "20,000"
+          ],
+          1,
+          "20% of 2,50,000 is 50,000."
+        ],
+        [
+          "Why use round numbers in a guesstimate?",
+          [
+            "Interviewers expect exact census data",
+            "Round numbers are always more accurate than precise ones",
+            "They hide weak assumptions",
+            "They keep the maths quick and easy to check"
+          ],
+          3,
+          "Simple numbers reduce arithmetic errors under pressure; the method is what is being judged."
+        ],
+        [
+          "A shop's monthly revenue is ₹1,00,000 and its costs are ₹80,000. Next month costs rise by ₹15,000 while revenue stays the same. What is the new profit?",
+          [
+            "₹15,000",
+            "₹20,000",
+            "₹5,000",
+            "₹35,000"
+          ],
+          2,
+          "New costs are ₹95,000, so profit is ₹1,00,000 − ₹95,000 = ₹5,000."
+        ],
+        [
+          "A café's revenue is unchanged, but its profit has fallen. Where should you look first?",
+          [
+            "At which costs have gone up",
+            "At the number of customers",
+            "At the menu prices",
+            "At the café's social media pages and online reviews"
+          ],
+          0,
+          "If revenue is flat, a profit fall must come from higher costs."
+        ],
+        [
+          "You have 8 coins, one heavier, and a balance scale. What is the minimum number of weighings that always finds it?",
+          [
+            "Four",
+            "Three",
+            "One",
+            "Two"
+          ],
+          3,
+          "Split 3–3–2: one weighing narrows it to at most 3 coins, and a second finds the heavy one."
+        ],
+        [
+          "You estimate 1,000 cups of tea a day from one counter open for 8 hours. What does a sanity check show?",
+          [
+            "About 20 cups a minute, which is impossible",
+            "About 2 cups a minute, which is plausible",
+            "About 1 cup an hour, which is far too low",
+            "Sanity checks are not needed in interviews"
+          ],
+          1,
+          "8 hours is 480 minutes, and 1,000 ÷ 480 is roughly 2 cups a minute."
+        ],
+        [
+          "You are stuck on a puzzle in an interview. What is the best thing to say?",
+          [
+            "“Sorry, I'm really not good at these kinds of puzzles.”",
+            "“Could we please skip this one and move to the next?”",
+            "“Let me try a smaller version of the problem first.”",
+            "“Is there a trick to this one?”"
+          ],
+          2,
+          "Simplifying the problem is a recognised strategy and keeps you reasoning aloud."
+        ],
+        [
+          "Your guesstimate differs from the interviewer's own figure. What matters most?",
+          [
+            "Whether your method and assumptions were sound",
+            "Whether your number was within 1% of theirs",
+            "How quickly you said the number",
+            "Whether you used a calculator"
+          ],
+          0,
+          "Interviewers mostly judge the structure and reasoning, not an exact match."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "Silent panic",
+          "situation": "In a campus interview for an analytics role, the interviewer asks, “Estimate the number of two-wheelers sold in India in a year.” Your mind goes blank, and ten seconds pass.",
+          "options": [
+            {
+              "text": "Ask for a minute to think silently, then present a structured estimate.",
+              "rating": "good",
+              "feedback": "A short pause is acceptable, but the interviewer cannot see or guide your reasoning while you are silent."
+            },
+            {
+              "text": "Say, “Let me structure this,” clarify whether to count only new vehicles, then break it down by households, share buying each year and replacements, thinking aloud.",
+              "rating": "best",
+              "feedback": "You regain control with a structure and let the interviewer follow and steer your reasoning."
+            },
+            {
+              "text": "Quote a figure you vaguely remember from a news article.",
+              "rating": "poor",
+              "feedback": "A half-remembered number shows no method, and the follow-up questions will expose it."
+            },
+            {
+              "text": "Say you don't know industry data and ask for a different question.",
+              "rating": "poor",
+              "feedback": "Guesstimates are not about knowing data; refusing misses the point of the exercise."
+            }
+          ]
+        },
+        {
+          "title": "The pharmacy case",
+          "situation": "In a management trainee interview you are told: “A pharmacy chain's profits fell 20% this year. What would you look at?” You know a few frameworks, but the interviewer seems impatient.",
+          "options": [
+            {
+              "text": "List five likely causes, such as online competition, rent and staff costs, and discuss each.",
+              "rating": "good",
+              "feedback": "Relevant ideas, but without a structure you may miss the real cause or overlap causes."
+            },
+            {
+              "text": "Split profit into revenue (price × volume) and costs, ask which side changed, then dig into that side.",
+              "rating": "best",
+              "feedback": "A clear structure plus a data question finds the cause fastest, which suits an impatient interviewer."
+            },
+            {
+              "text": "Recommend opening more stores to increase revenue.",
+              "rating": "poor",
+              "feedback": "It jumps to a costly solution before understanding why profits fell."
+            }
+          ]
+        },
+        {
+          "title": "Assumption challenged",
+          "situation": "Halfway through your estimate of daily metro riders in your city, the interviewer says, “I think your share of office-goers using the metro is too high.”",
+          "options": [
+            {
+              "text": "Thank them, reason through a lower figure aloud, update that one step and carry on.",
+              "rating": "best",
+              "feedback": "It shows you can take feedback calmly and adapt without losing your structure."
+            },
+            {
+              "text": "Briefly explain why you chose your figure, then ask whether they would like you to change it.",
+              "rating": "good",
+              "feedback": "Explaining is fine, but interviewers often challenge to see how you adapt; adjusting is usually stronger."
+            },
+            {
+              "text": "Insist your number is right because you take the metro every day.",
+              "rating": "poor",
+              "feedback": "Personal experience is a narrow sample, and arguing looks inflexible."
+            },
+            {
+              "text": "Start the whole estimate again with different logic.",
+              "rating": "poor",
+              "feedback": "Only one assumption was questioned; restarting wastes time and suggests panic."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "target",
+          "title": "Crack case and puzzle questions",
+          "text": "Interviewers don't want the “right” number. They want to see how you think. Learn a calm, structured way to answer."
+        },
+        {
+          "kind": "compare",
+          "icon": "user",
+          "title": "Clarify, then think out loud",
+          "text": "Restate the question, check its scope and talk through each step.",
+          "bad": "(One minute of silence) …Around 1,000.",
+          "good": "One canteen on a working day, including staff? Let me break it down…"
+        },
+        {
+          "kind": "tip",
+          "icon": "grid",
+          "title": "Build a guesstimate chain",
+          "text": "Use simple factors and round numbers.",
+          "example": "2,000 students × 60% on campus = 1,200\n× 40% buy tea = 480\n× 1.5 cups = 720\n+ 150 staff × 2 = 300\n≈ 1,000 cups a day"
+        },
+        {
+          "kind": "tip",
+          "icon": "check",
+          "title": "Sanity-check the answer",
+          "text": "Ask whether the number makes sense in real life.",
+          "example": "1,000 cups over 8 hours ≈ 2 cups a minute. Busy, but believable."
+        },
+        {
+          "kind": "compare",
+          "icon": "chart",
+          "title": "Start cases from profit",
+          "text": "Profit = revenue − costs. Check the numbers before guessing causes.",
+          "bad": "Maybe it's competition, or bad staff, or the location…",
+          "good": "Revenue stayed at ₹2,00,000, so costs rose by ₹20,000. Which cost?"
+        },
+        {
+          "kind": "compare",
+          "icon": "bulb",
+          "title": "Puzzles: see how each step splits",
+          "text": "8 coins, one heavier, and a balance. Stuck? Try a smaller version first.",
+          "bad": "Weigh 4 vs 4, then 2 vs 2, then 1 vs 1: three weighings.",
+          "good": "Split 3–3–2. Weigh 3 vs 3; one more weighing finds it."
+        },
+        {
+          "kind": "checklist",
+          "icon": "check",
+          "title": "Your case answer checklist",
+          "text": "Tap through after each practice question.",
+          "items": [
+            "Restated and clarified the question",
+            "Shared a clear structure",
+            "Stated every assumption",
+            "Sanity-checked the number",
+            "Ended with a recommendation"
+          ],
+          "tip": "Practise aloud, 5–10 minutes per question."
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Bring these habits to your next interview:"
+        }
+      ]
+    },
+    {
+      "id": "questioning-financial-claims",
+      "title": "Questioning Financial Claims and Market \"Tips\"",
+      "track": "professional",
+      "minutes": 7,
+      "summary": "Evaluate return claims, track records and market tips with healthy scepticism, and help clients do the same. You will learn to spot red flags, survivorship bias and misuse of past performance, and to check whether an adviser is registered.",
+      "sections": [
+        {
+          "heading": "If it sounds too good, test it",
+          "body": "Clients regularly bring you messages like “Guaranteed 3% a month in this trading scheme” or “This stock will double by Diwali.” Your first job is to slow the conversation down and test the claim with them, not to argue.\n\nPut the number in context. 3% a month compounds to over 40% a year, far above what diversified equity has delivered over long periods, and the claim says nothing about risk. The rule of 72 is a quick check: divide 72 by the yearly return to estimate how many years it takes money to double. At 12% a year that is about six years; a promise to double money in one year implies roughly 100% a year.\n\nWatch for the classic red flags: guaranteed high returns on market-linked products, pressure to invest quickly, payment to personal accounts, returns paid out of new investors' money and reluctance to share documents. Higher potential return always comes with higher risk; anyone who denies that is selling something.",
+          "do": [
+            "Convert monthly claims into yearly figures",
+            "Use the rule of 72 as a quick sense check"
+          ],
+          "dont": [
+            "Dismiss the client's interest rudely",
+            "Accept “guaranteed” on a market-linked product"
+          ]
+        },
+        {
+          "heading": "Survivorship bias and selective track records",
+          "body": "Track records can be quietly improved by what is left out. Survivorship bias happens when you only see the winners because the losers have disappeared. If a fund house launched 20 schemes a decade ago and later merged or closed 8 weak ones, the average return of the 12 survivors will look better than what investors actually experienced across all 20.\n\nThe same bias powers tip-sellers on Telegram and social media. Someone who sends opposite calls to different groups will be right for some of them by pure chance, and will then advertise only the winning screenshots. A wall of profit screenshots tells you nothing about the losing trades that were never shown.\n\nWhen you review any performance claim, ask: What is the full record, including closed products or deleted calls? Who verified it? Over what period, and was that period chosen to look good?",
+          "do": [
+            "Ask for the complete record, not highlights",
+            "Check how the performance period was chosen"
+          ],
+          "dont": [
+            "Treat profit screenshots as evidence"
+          ]
+        },
+        {
+          "heading": "Past performance is not a promise",
+          "body": "Last year's top-performing fund is often not next year's. Strong recent returns may come from a sector rally, a concentrated bet that happened to pay off or simple market timing. Use past performance to understand a fund's behaviour, such as its consistency across market cycles, its falls in bad years and how it compares with its benchmark and category, not to forecast returns.\n\nWith clients, make this concrete. Instead of “This fund gave 35% last year,” say: “It did well last year, mainly because mid-caps rallied. Over five years it has been close to its category average, and in a bad year it can fall sharply. Does that fit your goal and your comfort with risk?” This keeps suitability, not recent returns, at the centre.\n\nNever say or imply that any return is assured. Be open about what you earn, whether commission or fee, so the client can weigh your recommendation fairly.",
+          "do": [
+            "Compare returns over several periods and against the benchmark",
+            "Disclose your commission or fee"
+          ],
+          "dont": [
+            "Sell on one year's top return",
+            "Imply that past returns will repeat"
+          ]
+        },
+        {
+          "heading": "Verify who is giving the advice",
+          "body": "Before trusting any adviser, tip provider or platform, check whether it is registered with the relevant regulator. In India, SEBI-registered investment advisers, research analysts and other intermediaries can be looked up on SEBI's website, and mutual fund distributors hold an ARN that can be checked on AMFI's website. Unregistered “advisory” groups selling paid tips are a common source of losses.\n\nEncourage clients to check the exact name and registration number, not just a logo or a certificate image in a chat, because these are easy to copy. Payments should go to the registered entity's official account, never to a personal UPI ID belonging to a “mentor”.\n\nIf a client has already been drawn into a doubtful scheme, stay non-judgemental. Help them stop further payments, gather their records and use the official complaint channels of the regulator and the platform involved. Clients remember the adviser who helped them out of a mess.",
+          "do": [
+            "Verify registration on the regulator's official website",
+            "Help clients use official complaint channels"
+          ],
+          "dont": [
+            "Trust a certificate image shared in a chat",
+            "Shame a client who has been misled"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Convert return claims into yearly figures and sense-check them.",
+        "Treat “guaranteed” high returns on market products as a red flag.",
+        "Ask for the full track record to avoid survivorship bias.",
+        "Use past performance to understand risk, never to promise returns.",
+        "Verify registration on the regulator's website before trusting any adviser."
+      ],
+      "quiz": [
+        [
+          "A scheme promises 3% a month, guaranteed. Roughly what yearly return is that, compounded?",
+          [
+            "About 12%",
+            "About 30%",
+            "Over 40%",
+            "About 3%"
+          ],
+          2,
+          "1.03 multiplied by itself 12 times is about 1.43, so over 40% a year: a major red flag."
+        ],
+        [
+          "Using the rule of 72, roughly how long does money take to double at 8% a year?",
+          [
+            "About 6 years",
+            "About 9 years",
+            "About 12 years",
+            "About 4 years"
+          ],
+          1,
+          "72 ÷ 8 = 9 years."
+        ],
+        [
+          "A fund house advertises strong average returns, counting only the schemes still running. Which bias may affect this?",
+          [
+            "Confirmation bias",
+            "Recency bias",
+            "Anchoring bias",
+            "Survivorship bias"
+          ],
+          3,
+          "Closed or merged weak schemes drop out, making the survivors' average look better."
+        ],
+        [
+          "A Telegram channel posts dozens of winning-trade screenshots. What is the key question?",
+          [
+            "What about the losing calls that weren't shown?",
+            "How many members does the channel have?",
+            "Is the admin's profile photo genuine?",
+            "How quickly are the calls posted?"
+          ],
+          0,
+          "Selective screenshots hide losses; only a full record shows real performance."
+        ],
+        [
+          "A client wants to move everything into last year's top-returning fund. What is the best response?",
+          [
+            "Agree right away, since it clearly has the best fund manager this year",
+            "Review its longer-term record, risk and fit with the client's goal",
+            "Refuse to discuss it, because past returns mean nothing at all",
+            "Suggest splitting the money equally among the top three funds"
+          ],
+          1,
+          "Suitability and longer-term behaviour matter more than one year's return."
+        ],
+        [
+          "How can a client check that an investment adviser is genuinely registered?",
+          [
+            "Look for a SEBI logo on their website",
+            "Ask how many followers they have",
+            "Read their testimonials",
+            "Search their name and number on SEBI's website"
+          ],
+          3,
+          "Logos, followers and testimonials are easy to fake; the regulator's records are not."
+        ],
+        [
+          "Which statement to a client is most appropriate?",
+          [
+            "“This fund will definitely give you at least 15% every single year, so relax.”",
+            "“Don't worry at all, equity funds never lose money over any three-year period.”",
+            "“It has done well recently, but returns aren't assured; let's see if it fits your goal.”",
+            "“Everyone is buying it, so it must be good.”"
+          ],
+          2,
+          "It avoids promising returns and puts suitability first."
+        ],
+        [
+          "A “mentor” asks a client to pay for a tips subscription to a personal UPI ID. What is this?",
+          [
+            "A strong warning sign",
+            "Normal for small advisers",
+            "Fine if the tips are good",
+            "Required by the regulator"
+          ],
+          0,
+          "Registered entities collect fees through official channels, not personal accounts."
+        ],
+        [
+          "Why should you disclose your commission when recommending a product?",
+          [
+            "It helps you negotiate a higher fee",
+            "So the client can judge any conflict of interest",
+            "It makes the product look cheaper than competing products",
+            "Only if the client asks twice"
+          ],
+          1,
+          "Transparency lets the client weigh your advice fairly and builds trust."
+        ],
+        [
+          "A tip-seller sends “buy” to half his groups and “sell” to the other half, then advertises to whichever half won. What does this show?",
+          [
+            "He has genuine and consistent stock-picking skill",
+            "Markets are fully predictable",
+            "Half the groups made a mistake",
+            "A track record can be faked by selection"
+          ],
+          3,
+          "Showing only the lucky half creates an illusion of skill."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "The cousin's trading group",
+          "situation": "Your client Mr. Kulkarni, 52, wants to move ₹10 lakh from his debt fund into a WhatsApp “trading group” his cousin joined. It claims 4% monthly returns and posts daily profit screenshots.",
+          "options": [
+            {
+              "text": "Tell him firmly it's a scam and advise him not to invest a rupee.",
+              "rating": "good",
+              "feedback": "Your concern is right, but a flat verdict can feel dismissive; walking through the evidence with him is more persuasive."
+            },
+            {
+              "text": "Say it is his choice and process the redemption without comment.",
+              "rating": "poor",
+              "feedback": "You know the red flags; staying silent fails your duty to the client."
+            },
+            {
+              "text": "Listen, then work through it with him: what 4% a month means yearly, whether the group is SEBI-registered, where money is paid and how losses are shown. Suggest he verify before moving anything.",
+              "rating": "best",
+              "feedback": "4% a month compounds to about 60% a year. Helping him test the claim himself protects him and preserves trust."
+            },
+            {
+              "text": "Suggest he try it with a smaller ₹2 lakh first.",
+              "rating": "poor",
+              "feedback": "Testing a likely fraud with a smaller amount still risks real money and lends it credibility."
+            }
+          ]
+        },
+        {
+          "title": "Selling with last year's number",
+          "situation": "Your branch is promoting a sectoral fund that returned 38% last year, and your sales target is behind. A conservative client, Mrs. Rao, 64, asks about something “a bit better than FDs”.",
+          "options": [
+            {
+              "text": "Lead with “38% last year” since it will help you reach your target.",
+              "rating": "poor",
+              "feedback": "Selling on a single year's return to a conservative client risks mis-selling and puts your target before her interest."
+            },
+            {
+              "text": "Show her the fund but mention that past returns are not guaranteed.",
+              "rating": "good",
+              "feedback": "The disclaimer helps, but a sectoral fund may simply not suit her; suitability should come first."
+            },
+            {
+              "text": "Understand her goals and comfort with risk first, explain that sectoral funds can swing sharply, recommend only what suits her and disclose your commission.",
+              "rating": "best",
+              "feedback": "Suitability, honest risk explanation and fee disclosure are what good conduct requires."
+            }
+          ]
+        },
+        {
+          "title": "The certificate screenshot",
+          "situation": "A new client says he follows a “SEBI-registered research analyst” on Instagram and shows you a screenshot of a certificate. He wants to act on the analyst's latest stock calls right away.",
+          "options": [
+            {
+              "text": "Accept the screenshot as proof and help him proceed.",
+              "rating": "poor",
+              "feedback": "Certificate images are easy to copy; a screenshot proves nothing."
+            },
+            {
+              "text": "Suggest you search the name and registration number on SEBI's website together, explaining that images can be copied.",
+              "rating": "best",
+              "feedback": "It is quick, respectful and teaches him a habit that protects him in future."
+            },
+            {
+              "text": "Tell him you can't comment on other advisers and only discuss your own products.",
+              "rating": "good",
+              "feedback": "Avoiding criticism of others is fair, but you miss an easy chance to help him verify."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "shield",
+          "title": "Question every financial claim",
+          "text": "Clients bring you “guaranteed” returns and hot tips. Learn quick checks to test claims, and help clients test them too."
+        },
+        {
+          "kind": "compare",
+          "icon": "chart",
+          "title": "Turn monthly into yearly",
+          "text": "Convert the claim, then compare it with reality.",
+          "bad": "Only 3% a month, sounds modest.",
+          "good": "3% a month compounds to over 40% a year, “guaranteed”. That needs serious questions."
+        },
+        {
+          "kind": "tip",
+          "icon": "clock",
+          "title": "Use the rule of 72",
+          "text": "Divide 72 by the yearly return to estimate the years needed to double money.",
+          "example": "12% a year → about 6 years.\n“Double in one year” → roughly 100% a year."
+        },
+        {
+          "kind": "checklist",
+          "icon": "flag",
+          "title": "Spot the red flags",
+          "text": "Any of these? Slow down.",
+          "items": [
+            "“Guaranteed” high returns on market products",
+            "Pressure to invest fast",
+            "Payment to a personal account or UPI ID",
+            "No documents or registration"
+          ]
+        },
+        {
+          "kind": "compare",
+          "icon": "search",
+          "title": "Ask for the full record",
+          "text": "Survivors and winning screenshots hide the losses.",
+          "bad": "Look at 50 profit screenshots. He's always right!",
+          "good": "What about the calls not shown, and the schemes that were closed?"
+        },
+        {
+          "kind": "compare",
+          "icon": "user",
+          "title": "Talk about fit, not last year",
+          "text": "Past returns explain behaviour; they don't promise the future.",
+          "bad": "This fund gave 35% last year.",
+          "good": "It did well as mid-caps rallied, but it can fall sharply. Does that suit your goal?"
+        },
+        {
+          "kind": "compare",
+          "icon": "check",
+          "title": "Verify, don't trust a logo",
+          "text": "Check advisers on SEBI's website and distributors' ARNs on AMFI's.",
+          "bad": "He shared his SEBI certificate on chat.",
+          "good": "I searched his registration number on SEBI's website."
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Use these checks the next time a client brings a tip:"
+        }
+      ]
+    }
+  ]
+}

@@ -29,7 +29,16 @@ ok = True
 
 def s(x): return isinstance(x, str) and x.strip()
 
-for path in [a for a in sys.argv[1:] if not a.startswith('--')]:
+import os
+OUTLINE = {}
+for _p in [a for a in sys.argv[1:] if not a.startswith('--')]:
+    _c = os.path.join(os.path.dirname(_p), 'courses.json')
+    if os.path.exists(_c):
+        for _course in json.load(open(_c, encoding='utf-8')).get('courses', []):
+            if _course.get('lessons'): OUTLINE[_course['slug']] = _course['lessons']
+        break
+
+for path in [a for a in sys.argv[1:] if not a.startswith('--') and os.path.basename(a) != 'courses.json']:
     errs = []
     try:
         d = json.load(open(path, encoding='utf-8'))
@@ -37,6 +46,13 @@ for path in [a for a in sys.argv[1:] if not a.startswith('--')]:
         print(f'{path}: INVALID JSON — {ex}'); ok = False; continue
     lessons = d.get('lessons', [])
     if not s(d.get('area')): errs.append('missing "area"')
+    outline = OUTLINE.get(d.get('area'))
+    if outline:
+        got = [(l.get('id'), l.get('title'), l.get('track')) for l in lessons]
+        want = [(o['id'], o['title'], o['track']) for o in outline]
+        if got != want:
+            for gi, (g, w) in enumerate(zip(got + [None] * 6, want)):
+                if g != w: errs.append(f'lesson {gi + 1} must be id/title/track {w} (from courses.json), got {g}')
     if len(lessons) != 6: errs.append(f'expected 6 lessons, found {len(lessons)}')
     tracks = collections.Counter(l.get('track') for l in lessons)
     if tracks.get('core') != 4 or tracks.get('fresher') != 1 or tracks.get('professional') != 1:

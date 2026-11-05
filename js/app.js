@@ -404,10 +404,10 @@
         <div class="section-head reveal">
           <span class="badge" style="align-self:flex-start">New</span>
           <h2 style="margin-top:10px">Soft skills for your career</h2>
-          <p>Lessons, quizzes and real workplace scenarios for communication, interviews, personality and workplace skills — for freshers and finance professionals.</p>
+          <p>${window.SKILL_AREAS.length} courses — from communication and interviews to working with AI, money skills and leadership — in bite-size lessons for freshers and finance professionals.</p>
         </div>
-        <div class="grid">${window.SKILL_AREAS.map((x, i) => skillCard(x, i)).join('')}</div>
-        <div class="center reveal" style="margin-top:24px"><a class="btn btn-lg" href="#/skills">Explore soft skills ${arrow()}</a></div>
+        <div class="grid">${(window.SKILL_AREAS.filter((x) => x.featured).length ? window.SKILL_AREAS.filter((x) => x.featured) : window.SKILL_AREAS).slice(0, 4).map((x, i) => skillCard(x, i)).join('')}</div>
+        <div class="center reveal" style="margin-top:24px"><a class="btn btn-lg" href="#/skills">See all ${window.SKILL_AREAS.length} soft-skills courses ${arrow()}</a></div>
       </section>` : ''}
 
       <section class="section section-alt">
@@ -1352,7 +1352,21 @@
   const lessonFree = (i) => i === 0;
   const canOpenLesson = (area, i) => lessonFree(i) || skillAccess(area);
   const areaDone = (area) => area.lessons.filter((l) => lessonProgress(area, l.id).read).length;
-  const scenarioCount = (area) => area.lessons.reduce((s, l) => s + l.scenarios.length, 0);
+  const scenarioCount = (area) => area.lessons.reduce((s, l) => s + (l.scenarios ? l.scenarios.length : l.nScen || 0), 0);
+  // Lesson bodies live in one file per course (js/data/softskills/<slug>.js), fetched the first time a lesson is opened.
+  const SKILL_DATA_V = ((document.querySelector('script[src*="softskills.js"]') || {}).src || '').split('v=')[1] || '';
+  function withFullCourse(a) {
+    app.innerHTML = '<div class="wrap page"><p class="muted">Loading lesson…</p></div>';
+    const tag = document.createElement('script');
+    tag.src = `/js/data/softskills/${a.slug}.js?v=${SKILL_DATA_V}`;
+    tag.onload = () => {
+      const full = (window.SKILL_FULL || {})[a.slug];
+      if (!full) { app.innerHTML = '<div class="wrap page"><p class="muted">Sorry, this lesson could not be loaded.</p></div>'; return; }
+      a.lessons = full; a.full = true; route();
+    };
+    tag.onerror = () => { app.innerHTML = `<div class="wrap page"><div class="card center"><p>Couldn't load this lesson. Check your connection and try again.</p><button class="btn btn-primary" onclick="location.reload()">Retry</button></div></div>`; };
+    document.head.appendChild(tag);
+  }
   const skillUrl = (a, ...rest) => '#/skills/' + [a.slug, ...rest].join('/');
 
   function skillCard(a, i = 0) {
@@ -1373,10 +1387,13 @@
       <section class="page-hero"><div class="wrap">
         <span class="badge">New</span>
         <h1 style="margin-top:10px">Soft skills for your career</h1>
-        <p>Short lessons, quizzes and real workplace scenarios to improve how you communicate, interview, present yourself and work with others — with tracks for freshers and finance professionals.</p>
+        <p>${SKILLS.length} courses of short lessons, quizzes and real workplace scenarios to improve how you communicate, interview, present yourself and work with others — with tracks for freshers and finance professionals.</p>
       </div></section>
       <div class="wrap page" style="padding-top:0">
-        ${SKILLS.length ? `<div class="grid">${SKILLS.map(skillCard).join('')}</div>` : '<div class="card muted">Lessons are being prepared.</div>'}
+        ${SKILLS.length ? (window.SKILL_GROUPS || [{ id: null, label: '' }]).map((g) => {
+          const list = SKILLS.filter((a) => !g.id || a.group === g.id);
+          return list.length ? `<section class="skill-group"><div class="row" style="align-items:baseline;gap:10px;margin-bottom:14px"><h2 style="font-size:1.4rem;margin:0">${esc(g.label)}</h2><span class="small muted">${esc(g.blurb || '')}</span></div><div class="grid">${list.map(skillCard).join('')}</div></section>` : '';
+        }).join('') : '<div class="card muted">Lessons are being prepared.</div>'}
         <section style="margin-top:56px">
           <h2 style="font-size:1.5rem">How it works</h2>
           <div class="steps">
@@ -1415,6 +1432,7 @@
         <p style="margin-top:14px">${esc(a.blurb)}</p>
       </div></section>
       <div class="wrap page" style="padding-top:0">
+        ${a.note ? `<div class="notice" style="margin-bottom:16px">${icon('info', 16)}<span>${esc(a.note)}</span></div>` : ''}
         <div class="detail">
           <div class="stack">
             <div class="card">
@@ -1522,6 +1540,7 @@
           <div class="lc-progress">${cards.map((_, j) => `<span data-j="${j}"><i></i></span>`).join('')}</div>
           <div class="lc-meta"><a href="${skillUrl(a)}" class="lc-close" aria-label="Close lesson">${icon('x', 18)}</a><span class="small muted">${esc(l.title)}</span><span class="spacer"></span><a class="small lc-article" href="${skillUrl(a, l.id)}?view=article">Full article</a></div>
         </div>
+        ${a.note ? `<div class="lc-tip" style="margin-bottom:12px">${icon('info', 16)}<span>${esc(a.note)}</span></div>` : ''}
         <div class="lc-stage" id="lc-stage" aria-live="polite"></div>
         <div class="lc-nav">
           <button class="btn" id="lc-prev">${icon('back', 16)} Back</button>
@@ -1578,6 +1597,7 @@
   function viewLesson(slug, lessonId, view) {
     const f = findLesson(slug, lessonId);
     if (!f) return viewNotFound();
+    if (!f.a.full) return withFullCourse(f.a);
     const { a, i, l } = f;
     const open = canOpenLesson(a, i);
     if (open && l.cards && l.cards.length && view !== 'article') return viewLessonCards(a, i, l);
@@ -1622,6 +1642,7 @@
   function viewSkillQuiz(slug, lessonId) {
     const f = findLesson(slug, lessonId);
     if (!f) return viewNotFound();
+    if (!f.a.full) return withFullCourse(f.a);
     if (!gateLesson(f)) return;
     const { a, l } = f;
     const qs = l.quiz;
@@ -1674,6 +1695,7 @@
   function viewScenario(slug, lessonId, idx) {
     const f = findLesson(slug, lessonId);
     if (!f) return viewNotFound();
+    if (!f.a.full) return withFullCourse(f.a);
     if (!gateLesson(f)) return;
     const { a, l } = f;
     const sc = l.scenarios[idx];

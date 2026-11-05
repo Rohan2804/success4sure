@@ -461,16 +461,9 @@ def not_found_page():
     return page('/404', f"Page not found | {SITE['name']}", 'This page could not be found.', body, noindex=True)
 
 # ---------- soft skills ----------
-SKILL_META = [
-    {'slug': 'communication', 'name': 'Communication Skills', 'icon': 'mail', 'color': '#2457f5',
-     'blurb': 'Speak clearly, listen well, write emails that get replies and explain things simply.'},
-    {'slug': 'interview-career', 'name': 'Interview & Career Skills', 'icon': 'user', 'color': '#7a5af8',
-     'blurb': 'Answer interview questions with confidence, shine in group discussions and present yourself well.'},
-    {'slug': 'personality', 'name': 'Personality Development', 'icon': 'sparkle', 'color': '#0ea5e9',
-     'blurb': 'Build real confidence, body language, professional presence and resilience.'},
-    {'slug': 'workplace', 'name': 'Workplace Effectiveness', 'icon': 'briefcase', 'color': '#00a87e',
-     'blurb': 'Manage time, work in teams, handle conflict and feedback, and present your ideas.'},
-]
+SKILL_CATALOG = rd('content/softskills/courses.json')
+SKILL_GROUPS = SKILL_CATALOG['groups']
+SKILL_META = [{k: v for k, v in c.items() if k != 'lessons'} for c in SKILL_CATALOG['courses']]
 TRACK_LABEL = {'core': 'Everyone', 'fresher': 'Freshers', 'professional': 'Finance professionals'}
 
 def load_skills():
@@ -499,15 +492,17 @@ def skill_section_html(s):
 
 def skills_hub_page():
     crumbs = [('Home', '/'), ('Soft skills', '/soft-skills/')]
-    title = f"Soft Skills Courses – Communication, Interview & Personality | {SITE['name']}"
-    desc = "Practical soft-skills lessons with quizzes and workplace scenarios: communication, interview skills, personality development and workplace effectiveness, for freshers and finance professionals."
-    cards = ''.join(f'''<div class="card"><h2 style="font-size:1.25rem"><a href="{skill_url(a)}">{e(a['name'])}</a></h2><p class="muted">{e(a['blurb'])}</p>
-      <ul>{''.join(f'<li><a href="{skill_url(a, l)}">{e(l["title"])}</a> <span class="small muted">· {TRACK_LABEL[l["track"]]}{" · free" if i == 0 else ""}</span></li>' for i, l in enumerate(a['lessons']))}</ul></div>''' for a in SKILLS)
+    title = f"{len(SKILLS)} Soft Skills Courses – Communication, AI, Money & More | {SITE['name']}"
+    desc = f"{len(SKILLS)} practical soft-skills courses with bite-size lessons, quizzes and workplace scenarios — communication, interviews, working with AI, money skills, negotiation, leadership and more."[:158]
+    course_card = lambda a: f'''<div class="card"><h3 style="font-size:1.15rem"><a href="{skill_url(a)}">{e(a['name'])}</a></h3><p class="muted">{e(a['blurb'])}</p>
+      <ul>{''.join(f'<li><a href="{skill_url(a, l)}">{e(l["title"])}</a> <span class="small muted">· {TRACK_LABEL[l["track"]]}{" · free" if i == 0 else ""}</span></li>' for i, l in enumerate(a['lessons']))}</ul></div>'''
+    cards = ''.join(f'<section><h2>{e(g["label"])}</h2><p class="muted">{e(g["blurb"])}</p><div class="stack">' + ''.join(course_card(a) for a in SKILLS if a.get('group') == g['id']) + '</div></section>'
+                    for g in SKILL_GROUPS if any(a.get('group') == g['id'] for a in SKILLS))
     body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}<h1>Soft skills for your career</h1>
-      <p class="lead-left">Short, practical lessons with a quiz and real workplace scenarios after each one — for freshers starting their first job and finance professionals working with clients. The first lesson in every course is free.</p>
+      <p class="lead-left">{len(SKILLS)} practical courses. Short lessons with a quiz and real workplace scenarios after each one — for freshers starting their first job and finance professionals working with clients. The first lesson in every course is free.</p>
       <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team</p>
       <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/skills">Start learning</a></div></div></section>
-    <div class="wrap page prose"><div class="stack">{cards}</div>
+    <div class="wrap page prose">{cards}
       <section style="margin-top:40px"><h2>How the courses work</h2><p>Each course has six lessons: four core lessons for everyone, one for freshers and one for finance professionals such as mutual fund distributors, advisers and relationship managers. Every lesson takes 5–8 minutes to read and ends with a 10-question quiz and three scenarios where you choose what you would say and see why it works. Plans are per course: 10, 15, 20 or 30 days of full access, from ₹{PLANS[0]['price']}.</p></section>
     </div>'''
     ld = [breadcrumb_ld(crumbs), {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'url': BASE + skill_url(a), 'name': a['name']} for i, a in enumerate(SKILLS)]}]
@@ -528,6 +523,7 @@ def skill_area_page(a):
       <p class="meta-row small muted">Last updated {DATE_HUMAN} · <a href="/how-we-create-questions/">Our editorial process</a></p>
       <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/skills/{a['slug']}">See plans &amp; start</a><a class="btn btn-lg" href="{skill_url(a, a['lessons'][0])}">Read lesson 1 free</a></div></div></section>
     <div class="wrap page prose">
+      {('<div class="notice">' + e(a['note']) + '</div>') if a.get('note') else ''}
       <section><h2>Lessons in this course</h2><div class="table-wrap"><table><tr><th>Lesson</th><th>For</th><th>Read</th><th>Access</th></tr>{rows}</table></div></section>
       <section><h2>FAQs</h2>{''.join(f'<details class="faq-item"><summary>{e(q)}</summary><p>{e(x)}</p></details>' for q, x in faqs)}</section>
     </div>'''
@@ -558,7 +554,7 @@ def skill_lesson_page(a, i, l):
       <div class="hero-series">{e(a['name'])} · Lesson {i + 1} of {len(a['lessons'])} · {l['minutes']} min read · {TRACK_LABEL[l['track']]}{' · Free' if free else ''}</div>
       <h1 style="margin-top:6px">{e(l['title'])}</h1><p class="lead-left">{e(l['summary'])}</p>
       <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team</p></div></section>
-    <div class="wrap page prose lesson">{content}{sample}{cta}
+    <div class="wrap page prose lesson">{('<div class="notice" style="margin-bottom:24px">' + e(a['note']) + '</div>') if a.get('note') else ''}{content}{sample}{cta}
       <section class="lesson-sec" style="margin-top:32px"><h2>More in {e(a['name'])}</h2><ul class="related">{others}</ul></section></div>'''
     art = {'@type': 'Article', 'headline': l['title'], 'description': l['summary'], 'inLanguage': 'en-IN', 'url': BASE + skill_url(a, l),
            'author': {'@id': BASE + '/#org'}, 'publisher': {'@id': BASE + '/#org'}, 'dateModified': TODAY.isoformat(),
@@ -616,8 +612,17 @@ def main():
             wr(skill_url(a).strip('/') + '/index.html', skill_area_page(a)); pages.append((skill_url(a), True))
             for i, l in enumerate(a['lessons']):
                 wr(skill_url(a, l).strip('/') + '/index.html', skill_lesson_page(a, i, l)); pages.append((skill_url(a, l), True))
+    # Small catalogue for every page; full lesson content is split per course and loaded on demand.
+    stub = lambda l: {'id': l['id'], 'title': l['title'], 'track': l['track'], 'minutes': l['minutes'], 'summary': l['summary'],
+                      'nQuiz': len(l['quiz']), 'nScen': len(l['scenarios'])}
+    catalog = [{**{k: v for k, v in a.items() if k != 'lessons'}, 'lessons': [stub(l) for l in a['lessons']]} for a in SKILLS]
     wr('js/data/softskills.js', '// Generated by tools/build_site.py from content/softskills/*.json — edit the JSON, then rebuild.\n'
-       + f'window.SKILL_AREAS = {json.dumps(SKILLS, ensure_ascii=False)};\n')
+       + f'window.SKILL_GROUPS = {json.dumps(SKILL_GROUPS, ensure_ascii=False)};\n'
+       + f'window.SKILL_AREAS = {json.dumps(catalog, ensure_ascii=False)};\n')
+    for old in glob.glob(os.path.join(ROOT, 'js', 'data', 'softskills', '*.js')): os.remove(old)
+    for a in SKILLS:
+        wr(f"js/data/softskills/{a['slug']}.js", '// Generated by tools/build_site.py — full lessons for one course, loaded on demand.\n'
+           + f"(window.SKILL_FULL = window.SKILL_FULL || {{}})[{json.dumps(a['slug'])}] = {json.dumps(a['lessons'], ensure_ascii=False)};\n")
 
     # app data
     app_exams = [{k: v for k, v in x.items() if k not in ('page', 'noindex')} | {'slug': x['slug']} for x in EXAMS]

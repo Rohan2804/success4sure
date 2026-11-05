@@ -1,0 +1,1859 @@
+{
+ "area": "customer-sales",
+ "lessons": [
+  {
+   "id": "building-rapport",
+   "title": "Building Rapport Quickly",
+   "track": "core",
+   "minutes": 7,
+   "summary": "Open customer conversations in a way that makes people comfortable talking to you. You will learn to prepare, greet well, listen visibly and find genuine common ground without sounding scripted.",
+   "sections": [
+    {
+     "heading": "What rapport really is",
+     "body": "Rapport is the feeling a customer has that you are paying attention to them and that talking to you is safe and worth their time. It is not flattery, and it is not small talk for its own sake. A customer who feels rushed, judged or treated like a target will give short answers and leave, even if your product is a good fit.\n\nThe good news is that rapport comes mostly from small, learnable behaviours: being prepared, using the person's name, asking about their situation, and listening more than you talk. None of these need a big personality. Quiet, thoughtful people often build rapport better than loud ones because they listen properly.\n\nThink of the first two or three minutes of any conversation as setting the tone. If those minutes feel human, the rest of the conversation becomes much easier.",
+     "do": [
+      "Treat the first few minutes as setting the tone",
+      "Focus on the customer, not on your pitch"
+     ],
+     "dont": [
+      "Confuse rapport with flattery or forced jokes"
+     ]
+    },
+    {
+     "heading": "Prepare for two minutes, open with care",
+     "body": "Before a call or meeting, spend two minutes on what you already know: the customer's name and how to pronounce it, why they contacted you, and any earlier interaction in your CRM or notes. Walking in with that context tells the customer you value their time.\n\nOpen with a greeting that uses their name and states the purpose. Compare \"Hello sir, I am calling from XYZ, do you have two minutes for an amazing offer?\" with \"Good afternoon, Ms. Iyer. This is Karan from the Andheri branch. You'd asked about education loans for your daughter on our website, so I wanted to understand what you're looking for. Is now a good time?\"\n\nThe second opening is honest, specific and gives the customer control over timing. If they say it is not a good time, offer a specific slot instead of pushing on.",
+     "do": [
+      "Check the name, its pronunciation and past notes before calling",
+      "State who you are and why you are calling in the first sentence"
+     ],
+     "dont": [
+      "Open with \"amazing offer\" or other hype",
+      "Continue talking when the customer says it is a bad time"
+     ]
+    },
+    {
+     "heading": "Listen in a way people can see",
+     "body": "Customers judge whether you are listening by what you do next. Simple signals help: summarising what they said (\"So the main worry is the EMI fitting into your salary\"), asking a follow-up question that builds on their answer, and not interrupting while they are still explaining.\n\nIn face-to-face meetings, put your phone face down, keep comfortable eye contact and take brief notes. On calls, avoid typing loudly or going silent for long stretches; a short \"I see\" or \"That makes sense\" shows you are still there.\n\nA useful exercise: after your next customer conversation, write down three things the customer told you about themselves. If you cannot, you were probably talking or thinking about your pitch too much.",
+     "do": [
+      "Summarise what the customer said in your own words",
+      "Ask follow-up questions that build on their answers"
+     ],
+     "dont": [
+      "Interrupt to jump to your product",
+      "Check your phone while the customer is talking"
+     ]
+    },
+    {
+     "heading": "Find genuine common ground and match their pace",
+     "body": "Common ground should come from what the customer actually shares, not from a script. If a customer mentions their son is preparing for the CA exams, a sincere \"That's a demanding exam; how is he finding it?\" works far better than a planned compliment about their office.\n\nAdjust to the customer's style. Some people want to chat for a few minutes; others want to get straight to the point. If a busy business owner says \"Let's get to it,\" respect that. Matching their language also helps: if they are more comfortable in Hindi, Marathi or Tamil and you can speak it, offer to switch.\n\nRespect personal boundaries. Do not ask about salary, marriage plans or religion to make conversation, and avoid jokes about regions, communities or gender. Warmth should never cost the customer their comfort.",
+     "do": [
+      "Build on details the customer chooses to share",
+      "Offer to switch to the customer's preferred language if you can"
+     ],
+     "dont": [
+      "Use scripted compliments or overly personal questions",
+      "Make jokes about communities, regions or gender"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Rapport means the customer feels heard, respected and unhurried.",
+    "Spend two minutes preparing: name, purpose and past notes.",
+    "Open by stating who you are, why you are calling and asking if it is a good time.",
+    "Show listening by summarising and asking follow-up questions.",
+    "Find common ground in what the customer shares and match their pace."
+   ],
+   "quiz": [
+    [
+     "Which call opening is most likely to build rapport?",
+     [
+      "\"Hello sir, do you have two minutes for an amazing offer?\"",
+      "\"Good morning, Mr. Rao. This is Neha from the Pune branch about the home loan query you sent. Is now a good time?\"",
+      "\"Good morning sir, I'm calling about a limited-period home loan scheme that closes this week, so you must not miss it.\"",
+      "\"Hi, I am calling from the bank. Are you interested in a loan?\""
+     ],
+     1,
+     "It uses the name, states the purpose honestly and gives the customer control over timing."
+    ],
+    [
+     "A customer answers your call and says, \"I'm driving, can't talk now.\" What should you do?",
+     [
+      "Say it will take only one minute and continue",
+      "Ask them to pull over so you can explain",
+      "Hang up and try again in ten minutes without asking",
+      "Thank them and ask when would be a better time to call back"
+     ],
+     3,
+     "Respecting the customer's timing is part of rapport, and agreeing a slot makes the next call welcome."
+    ],
+    [
+     "Which behaviour best shows a customer you are listening?",
+     [
+      "Nodding along while quietly preparing your next point in your head",
+      "Repeating your product's key features",
+      "Summarising their concern and asking a related follow-up question",
+      "Saying \"Yes, yes\" quickly while they speak"
+     ],
+     2,
+     "A summary and a related question prove you understood what they said."
+    ],
+    [
+     "A customer mentions her son just cleared the SBI PO prelims. What is the best response?",
+     [
+      "\"Congratulations to him! Which stage is he preparing for next?\"",
+      "Ignore it and return to the product discussion",
+      "\"Bank jobs are not what they used to be, but tell him all the best.\"",
+      "Use it to ask about the family's total income"
+     ],
+     0,
+     "A sincere, brief response to what she shared builds connection without being intrusive."
+    ],
+    [
+     "A busy shop owner says, \"Please come to the point quickly.\" What should you do?",
+     [
+      "Continue with your usual small talk so he warms up to you",
+      "Get to the purpose quickly and keep questions focused",
+      "End the meeting because he is not interested",
+      "Tell him rapport takes time and he should be patient"
+     ],
+     1,
+     "Matching the customer's preferred pace is itself a form of rapport."
+    ],
+    [
+     "Which question is inappropriate as small talk with a new customer?",
+     [
+      "\"How has your week been?\"",
+      "\"Did you find the branch easily?\"",
+      "\"How long have you been running the business?\"",
+      "\"How much does your husband earn?\""
+     ],
+     3,
+     "Personal financial or family questions asked as small talk can make customers uncomfortable."
+    ],
+    [
+     "What is the most useful thing to do in the two minutes before a customer call?",
+     [
+      "Review their name, reason for contact and past notes",
+      "Rehearse your full product pitch word for word",
+      "Check social media for their personal photos",
+      "Prepare a list of jokes to break the ice"
+     ],
+     0,
+     "Relevant context shows respect for the customer's time without invading privacy."
+    ],
+    [
+     "A customer seems more comfortable speaking Marathi, which you also speak. What is best?",
+     [
+      "Continue in English because it sounds more professional",
+      "Switch without asking, mid-sentence",
+      "Offer to continue in Marathi if they prefer",
+      "Ask a colleague to take over the meeting"
+     ],
+     2,
+     "Offering their preferred language makes the conversation easier and shows respect."
+    ],
+    [
+     "After a meeting you cannot recall anything the customer said about themselves. What does this most likely suggest?",
+     [
+      "The customer was not interested in buying",
+      "You were focusing on your pitch more than on listening",
+      "The meeting was too short to matter",
+      "You should have prepared more jokes"
+     ],
+     1,
+     "Remembering what the customer shared is a simple check on whether you listened."
+    ],
+    [
+     "Which statement about rapport is accurate?",
+     [
+      "Only extroverts can build rapport with customers",
+      "Rapport means agreeing with everything the customer says",
+      "Rapport is built mainly by complimenting the customer frequently and warmly",
+      "Rapport comes mainly from preparation, respect and attentive listening"
+     ],
+     3,
+     "These are learnable behaviours that anyone can practise, whatever their personality."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The distracted walk-in",
+     "situation": "You work at a bank branch in Jaipur. A customer, Mr. Choudhary, walks in to ask about a fixed deposit while repeatedly checking his phone. He looks impatient and says he has only ten minutes before another meeting.",
+     "options": [
+      {
+       "text": "\"Thanks for coming in, Mr. Choudhary. Since you have ten minutes, may I ask two quick questions about the amount and duration you have in mind, and then share the options?\"",
+       "rating": "best",
+       "feedback": "You acknowledge his time limit, keep control of the conversation and focus on what he needs."
+      },
+      {
+       "text": "Start with small talk about the weather and traffic to help him relax first.",
+       "rating": "poor",
+       "feedback": "Small talk wastes the little time he has and signals that you did not notice his hurry."
+      },
+      {
+       "text": "Hand him a printed rate sheet and ask him to call if he has questions.",
+       "rating": "good",
+       "feedback": "It respects his time, but you miss the chance to understand his needs and build a relationship."
+      }
+     ]
+    },
+    {
+     "title": "The over-friendly opener",
+     "situation": "Your team lead suggests that you start every sales call to small business owners by complimenting their business and asking about their family. On your first call, a printing-press owner in Ludhiana sounds irritated when you ask about his children.",
+     "options": [
+      {
+       "text": "Apologise briefly, then move to the purpose: \"Sorry, I'll get to the point. You enquired about a current account; may I ask what you mainly need it for?\"",
+       "rating": "best",
+       "feedback": "You recover quickly, respect his boundary and steer the conversation to his actual need."
+      },
+      {
+       "text": "Continue with the script because your team lead recommended it.",
+       "rating": "poor",
+       "feedback": "A script that irritates the customer damages rapport; adapt to the person in front of you."
+      },
+      {
+       "text": "Ask him about his business instead of his family, then move to the account.",
+       "rating": "good",
+       "feedback": "Business questions are more comfortable, but after visible irritation it is better to move straight to his purpose."
+      }
+     ]
+    },
+    {
+     "title": "Video call with a quiet customer",
+     "situation": "You are on a video call with Ms. D'Souza, a first-time investor in Goa, about a recurring deposit. She gives one-word answers and seems unsure. You have a product presentation ready to share on screen.",
+     "options": [
+      {
+       "text": "Start sharing the presentation to fill the silence.",
+       "rating": "poor",
+       "feedback": "Slides talk at her rather than with her and do not address her hesitation."
+      },
+      {
+       "text": "Ask an open, easy question: \"What made you start thinking about saving regularly?\" and give her time to answer.",
+       "rating": "best",
+       "feedback": "An open question about her motive invites her to talk, and patience gives a quiet person space."
+      },
+      {
+       "text": "Tell her not to worry and that the product is very simple.",
+       "rating": "good",
+       "feedback": "Reassurance is kind, but it does not learn why she is hesitant or what she wants."
+      },
+      {
+       "text": "Ask whether she would prefer to reschedule when she is less busy.",
+       "rating": "poor",
+       "feedback": "Quietness is not the same as being busy; this may end a conversation she wanted to have."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "user",
+     "title": "The first two minutes matter",
+     "text": "Customers decide quickly whether talking to you feels safe and worth their time. Learn small habits that build rapport, even if you are not naturally chatty."
+    },
+    {
+     "kind": "checklist",
+     "icon": "clock",
+     "title": "Two-minute prep before you call",
+     "text": "Tap each one before you dial.",
+     "items": [
+      "Customer's name and how to say it",
+      "Why they contacted you",
+      "Notes from any earlier conversation"
+     ]
+    },
+    {
+     "kind": "compare",
+     "icon": "phone",
+     "title": "Open with name and purpose",
+     "text": "Say who you are, why you are calling, then ask if it's a good time.",
+     "bad": "Hello sir, do you have two minutes for an amazing offer?",
+     "good": "Good afternoon, Ms. Iyer. Karan from Andheri branch, about your education loan query. Is now a good time?"
+    },
+    {
+     "kind": "compare",
+     "icon": "search",
+     "title": "Show you are listening",
+     "text": "Summarise, then build on their answer instead of jumping to your product.",
+     "bad": "Okay okay. So, our loan has many features…",
+     "good": "So the main worry is the EMI fitting your salary. What monthly amount feels comfortable?"
+    },
+    {
+     "kind": "tip",
+     "icon": "star",
+     "title": "Common ground comes from them",
+     "text": "Respond sincerely to what the customer shares instead of using scripted compliments.",
+     "example": "\"Your son is preparing for CA? That's a demanding exam. How is he finding it?\""
+    },
+    {
+     "kind": "compare",
+     "icon": "clock",
+     "title": "Match their pace",
+     "text": "Some customers like a chat; others want to get to the point. Follow their lead.",
+     "bad": "Busy owner says \"Get to it\" — you keep chatting about traffic.",
+     "good": "\"Sure. You asked about a current account — what will you mainly use it for?\""
+    },
+    {
+     "kind": "tip",
+     "icon": "shield",
+     "title": "Warmth with boundaries",
+     "text": "Skip questions about salary, marriage or religion as small talk, and avoid jokes about communities or gender. Offer their preferred language if you speak it."
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Five habits for your next customer conversation:"
+    }
+   ]
+  },
+  {
+   "id": "ask-before-you-pitch",
+   "title": "Needs-Based Conversations: Ask Before You Pitch",
+   "track": "core",
+   "minutes": 8,
+   "summary": "Use discovery questions to understand what a customer actually needs before recommending anything. You will learn to ask open questions, dig one level deeper, confirm needs in a summary and link your recommendation to what you heard.",
+   "sections": [
+    {
+     "heading": "Why pitching first backfires",
+     "body": "Many new salespeople start talking about the product within the first minute. It feels efficient, but it usually is not. Without knowing the customer's situation, you end up listing features that may not matter to them, and the customer starts to feel like a target rather than a person being helped.\n\nA needs-based conversation flips the order: understand first, recommend second. A customer who has explained their situation is more likely to trust a recommendation that clearly fits it. It also protects you from selling something that does not suit them, which leads to complaints, cancellations and lost trust later.\n\nA practical rule: in the first half of a discovery conversation, the customer should be doing most of the talking. If you are talking more, you are probably pitching too early.",
+     "do": [
+      "Let the customer talk for most of the first half",
+      "Recommend only after you understand the situation"
+     ],
+     "dont": [
+      "List features before you know what matters to the customer"
+     ]
+    },
+    {
+     "heading": "Open questions that get people talking",
+     "body": "Closed questions get yes or no answers: \"Do you want a credit card?\" Open questions invite the customer to explain: \"What do you mostly spend on each month?\" or \"What made you start looking at this now?\"\n\nA simple sequence works in most situations. First ask about the situation (\"Tell me a bit about your current savings\"), then the goal (\"What would you like this money to do for you?\"), then the timeline (\"When might you need it?\") and finally any constraints (\"Is there anything you definitely want to avoid?\").\n\nAsk one question at a time and wait. Silence after a question can feel awkward, but it gives the customer room to think. Avoid firing three questions in one breath; the customer will answer only the last one.",
+     "do": [
+      "Ask about situation, goal, timeline and constraints",
+      "Ask one question, then pause"
+     ],
+     "dont": [
+      "Stack several questions in one sentence",
+      "Rely mainly on yes-or-no questions"
+     ]
+    },
+    {
+     "heading": "Go one level deeper",
+     "body": "The first answer a customer gives is often general. \"I want to save tax\" or \"I need a better phone plan\" tells you the topic, not the real need. A gentle follow-up uncovers more: \"What has been the problem with your current plan?\" might reveal that the real issue is poor network coverage at home, not price.\n\nUseful follow-ups include \"Could you tell me more about that?\", \"What would be the ideal outcome for you?\" and \"How are you managing this today?\" Keep your tone curious, not interrogating; you are trying to help, not to catch them out.\n\nFor example, a young professional in Bengaluru asks about a personal loan. Digging deeper shows she wants to fund a certification course costing ₹1.5 lakh. That opens a more suitable conversation, perhaps about an education loan or an employer sponsorship, rather than the first product mentioned.",
+     "do": [
+      "Follow a general answer with \"Tell me more about that\"",
+      "Ask how they are managing the problem today"
+     ],
+     "dont": [
+      "Accept the first answer as the full need",
+      "Let follow-ups sound like an interrogation"
+     ]
+    },
+    {
+     "heading": "Summarise, then connect your recommendation",
+     "body": "Before recommending anything, summarise what you heard and check it: \"So you want to build a fund for your sister's wedding in about three years, you can set aside around ₹15,000 a month, and you don't want to lock money away for longer than that. Did I get that right?\" The customer either confirms or corrects you, and both outcomes are useful.\n\nThen link your recommendation directly to their words: \"Because you need the money in three years, I'd suggest looking at X rather than Y.\" This shows the customer that the suggestion came from their situation, not from your sales target.\n\nIf nothing you offer fits, say so. \"Honestly, our product isn't the right fit for a three-month goal\" builds more long-term trust than a forced sale.",
+     "do": [
+      "Summarise the need and ask \"Did I get that right?\"",
+      "Link each recommendation to something the customer said"
+     ],
+     "dont": [
+      "Recommend a product that does not match the summary",
+      "Skip the summary because you think you already know"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Understand the customer's need before recommending anything.",
+    "Use open questions about situation, goal, timeline and constraints.",
+    "Ask one question at a time and give the customer space to answer.",
+    "Dig one level deeper than the first general answer.",
+    "Summarise the need, confirm it, then link your recommendation to it."
+   ],
+   "quiz": [
+    [
+     "Which is an open question?",
+     [
+      "\"Do you want a credit card?\"",
+      "\"Is your salary credited here?\"",
+      "\"What do you mostly spend on each month?\"",
+      "\"Shall I send you the form?\""
+     ],
+     2,
+     "Open questions invite the customer to explain rather than answer yes or no."
+    ],
+    [
+     "A customer says, \"I want to save tax.\" What is the best next step?",
+     [
+      "Ask what their current investments and goals are before suggesting anything",
+      "Immediately recommend the product with the highest tax benefit",
+      "Explain every tax-saving option you know in detail so they can choose themselves",
+      "Tell them to consult a CA and end the conversation"
+     ],
+     0,
+     "\"Save tax\" is a topic; understanding their situation first leads to a suitable suggestion."
+    ],
+    [
+     "You ask, \"What's your budget, when do you need it and do you have any loans?\" The customer only says, \"About two months.\" Why?",
+     [
+      "The customer is hiding information",
+      "Stacked questions usually get only one answered",
+      "Budget questions always make customers uncomfortable",
+      "Customers never discuss loans with salespeople"
+     ],
+     1,
+     "Asking one question at a time gets complete, useful answers."
+    ],
+    [
+     "In the first half of a discovery conversation, who should be talking more?",
+     [
+      "You, to show product knowledge",
+      "Both equally, by turns",
+      "Your manager, if present",
+      "The customer"
+     ],
+     3,
+     "Discovery means learning about the customer, which requires them to do most of the talking."
+    ],
+    [
+     "A customer says, \"My current mobile plan is bad.\" Which follow-up is best?",
+     [
+      "\"What has been the main problem with it?\"",
+      "\"Our plan is the cheapest in the market.\"",
+      "\"Everyone says that about their plan.\"",
+      "\"Shall I port your number today?\""
+     ],
+     0,
+     "A curious follow-up reveals the real issue, which may not be what you assume."
+    ],
+    [
+     "What is the main purpose of summarising a customer's needs before recommending?",
+     [
+      "To make the meeting longer",
+      "To confirm your understanding and let the customer correct you",
+      "To repeat your sales pitch again in different words so that it sticks",
+      "To show the customer how much you remember"
+     ],
+     1,
+     "A confirmed summary ensures the recommendation is based on accurate understanding."
+    ],
+    [
+     "Which recommendation is best linked to the customer's needs?",
+     [
+      "\"This is our bestseller, everyone takes it.\"",
+      "\"This product has the highest customer rating on our mobile banking app this year.\"",
+      "\"Since you need the money in three years, this option matches that timeline.\"",
+      "\"My manager told me to recommend this today.\""
+     ],
+     2,
+     "Connecting the suggestion to the customer's own words shows it fits their situation."
+    ],
+    [
+     "After discovery, you realise none of your products suit the customer's short-term goal. What should you do?",
+     [
+      "Recommend the closest product and hope it works out",
+      "Tell them about a product anyway so the meeting isn't completely wasted",
+      "Avoid saying anything and end the call quickly",
+      "Explain honestly that your products are not a good fit for this goal"
+     ],
+     3,
+     "Honesty builds trust and avoids complaints from unsuitable sales."
+    ],
+    [
+     "A customer pauses for a few seconds after your question. What should you do?",
+     [
+      "Wait and let them think",
+      "Rephrase the question immediately",
+      "Answer the question for them",
+      "Move on to your product presentation"
+     ],
+     0,
+     "A short silence often leads to a more thoughtful, honest answer."
+    ],
+    [
+     "Which question best uncovers a customer's constraints?",
+     [
+      "\"Shall we fill the form now?\"",
+      "\"Is there anything you definitely want to avoid?\"",
+      "\"Do you like our branch?\"",
+      "\"Have you heard of our brand?\""
+     ],
+     1,
+     "Asking what they want to avoid reveals limits such as lock-in periods or risk."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The customer who asks for a product by name",
+     "situation": "A 26-year-old software engineer walks into your branch in Hyderabad and says, \"I want a personal loan of ₹2 lakh.\" Your branch has a personal loan target this month, and processing would be quick.",
+     "options": [
+      {
+       "text": "Start the application right away since he knows what he wants.",
+       "rating": "good",
+       "feedback": "Respecting his request is reasonable, but a couple of questions could reveal a cheaper or better-suited option."
+      },
+      {
+       "text": "\"Sure, I can help. May I ask what the loan is for and when you need the money? It helps me check you're getting the best-suited option.\"",
+       "rating": "best",
+       "feedback": "A short, respectful discovery step either confirms his choice or uncovers a better fit, such as an education loan."
+      },
+      {
+       "text": "Tell him personal loans are expensive and he should not take one.",
+       "rating": "poor",
+       "feedback": "Judging his decision before understanding his situation is presumptuous and unhelpful."
+      }
+     ]
+    },
+    {
+     "title": "Short on time, long on questions",
+     "situation": "You are calling a retired teacher, Mr. Pillai, in Kochi about a savings product. He answered your first two questions but now says, \"Why are you asking so many questions? Just tell me what you are selling.\"",
+     "options": [
+      {
+       "text": "Explain your purpose and keep it brief: \"Fair question. I'm asking so I don't suggest something unsuitable. Just one more: when might you need this money?\"",
+       "rating": "best",
+       "feedback": "You explain the benefit to him, respect his patience and still collect the most important information."
+      },
+      {
+       "text": "Apologise and start describing all your products.",
+       "rating": "poor",
+       "feedback": "A full product list without context is overwhelming and may lead to an unsuitable choice."
+      },
+      {
+       "text": "Describe one product briefly, then ask whether it sounds relevant.",
+       "rating": "good",
+       "feedback": "It respects his request, but you risk pitching something that does not fit his timeline."
+      }
+     ]
+    },
+    {
+     "title": "The summary that goes wrong",
+     "situation": "After a discovery chat, you summarise: \"So you want to grow your savings over the long term.\" The customer, Ms. Kaur from Amritsar, frowns and says, \"No, I actually need part of it for my daughter's college fees next year.\"",
+     "options": [
+      {
+       "text": "\"Thanks for correcting me. So part of this money is needed next year for fees. How much would that be, roughly?\"",
+       "rating": "best",
+       "feedback": "You welcome the correction and dig deeper, which leads to a recommendation that fits."
+      },
+      {
+       "text": "Proceed with the long-term product anyway since most of the money is still long term.",
+       "rating": "poor",
+       "feedback": "Ignoring a stated short-term need risks an unsuitable recommendation."
+      },
+      {
+       "text": "Apologise and suggest she keep all the money in a savings account for now.",
+       "rating": "good",
+       "feedback": "It is cautious, but you have not understood how much she needs and when, so the advice may be too limited."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "search",
+     "title": "Ask first, recommend second",
+     "text": "Pitching in the first minute makes customers feel like targets. Learn to ask questions that uncover what people really need, so your suggestion actually fits."
+    },
+    {
+     "kind": "compare",
+     "icon": "bolt",
+     "title": "Swap closed questions for open ones",
+     "text": "Yes-or-no questions end conversations. Open questions start them.",
+     "bad": "Do you want a credit card?",
+     "good": "What do you mostly spend on each month?"
+    },
+    {
+     "kind": "checklist",
+     "icon": "check",
+     "title": "The four discovery questions",
+     "text": "Tap through the order that works in most chats.",
+     "items": [
+      "Situation: \"Tell me about your current savings.\"",
+      "Goal: \"What should this money do for you?\"",
+      "Timeline: \"When might you need it?\"",
+      "Constraints: \"Anything you want to avoid?\""
+     ],
+     "tip": "Ask one at a time, then pause."
+    },
+    {
+     "kind": "compare",
+     "icon": "target",
+     "title": "Go one level deeper",
+     "text": "The first answer is usually the topic, not the real need.",
+     "bad": "\"I want a personal loan.\" — \"Great, let's apply!\"",
+     "good": "\"What's it for?\" — \"A ₹1.5 lakh certification course.\" Now an education loan may fit better."
+    },
+    {
+     "kind": "tip",
+     "icon": "refresh",
+     "title": "Summarise and check",
+     "text": "Before recommending, play back what you heard and ask, \"Did I get that right?\" A correction is useful too.",
+     "example": "\"So — sister's wedding in three years, around ₹15,000 a month, no long lock-in. Right?\""
+    },
+    {
+     "kind": "compare",
+     "icon": "bulb",
+     "title": "Link the suggestion to their words",
+     "text": "Show the recommendation came from their situation, not your target.",
+     "bad": "This is our bestseller, everyone takes it.",
+     "good": "Since you need the money in three years, I'd suggest X rather than Y."
+    },
+    {
+     "kind": "tip",
+     "icon": "shield",
+     "title": "No fit? Say so",
+     "text": "If nothing you offer suits their goal, be honest. It builds more trust than a forced sale.",
+     "example": "\"Honestly, our product isn't right for a three-month goal.\""
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Use these in your next discovery conversation:"
+    }
+   ]
+  },
+  {
+   "id": "follow-ups-that-arent-pushy",
+   "title": "Follow-Ups That Aren't Pushy",
+   "track": "core",
+   "minutes": 7,
+   "summary": "Follow up with customers in a way that is helpful rather than annoying. You will learn to agree the next step before a conversation ends, add value in each message, choose the right channel and timing, and close the loop gracefully.",
+   "sections": [
+    {
+     "heading": "Agree the next step before you leave",
+     "body": "The easiest follow-up is one the customer has already agreed to. Before ending any meeting or call, ask: \"What would be a good next step for you?\" or \"Would it help if I sent the comparison by Thursday and called you on Friday evening?\" Once the customer agrees, your follow-up is expected rather than intrusive.\n\nNote the agreed time, channel and topic in your CRM or diary immediately. Customers notice when you call exactly when you said you would, and they notice when you forget.\n\nIf the customer says \"I'll get back to you,\" it is fine to ask gently, \"Of course. If I haven't heard by next Wednesday, may I check in?\" Most people say yes, and you now have permission to follow up.",
+     "do": [
+      "Agree a specific next step and time before ending",
+      "Ask permission to check in if the customer will \"get back to you\""
+     ],
+     "dont": [
+      "End a meeting with a vague \"I'll be in touch\"",
+      "Forget to record what you promised"
+     ]
+    },
+    {
+     "heading": "Every follow-up should add something",
+     "body": "\"Just checking in\" messages put the burden on the customer to restart the conversation. A better follow-up gives them something useful: the document they asked for, an answer to a question they raised, or a short reminder of what you discussed.\n\nCompare \"Hi sir, any update?\" with \"Hi Mr. Bhat, as promised, here's the side-by-side comparison of the two term plans we discussed, including the premium for a 30-year cover. Happy to go through it on a call on Friday if useful.\" The second message respects his time and moves the decision forward.\n\nKeep messages short and specific. Mention what was agreed, attach or link the item, and suggest one clear next step. Avoid creating false urgency such as \"Offer ends today!\" unless it is genuinely true.",
+     "do": [
+      "Include the document, answer or summary you promised",
+      "Suggest one clear next step"
+     ],
+     "dont": [
+      "Send \"Any update?\" with nothing else",
+      "Invent deadlines to pressure a decision"
+     ]
+    },
+    {
+     "heading": "Choose the right channel and timing",
+     "body": "Use the channel the customer prefers. Some people like WhatsApp, others prefer email for anything involving documents, and many older customers prefer a phone call. If you are unsure, ask during the first conversation: \"What's the best way to send you updates?\"\n\nRespect working hours and personal time. Calls at 8:30 in the evening or messages on a festival day rarely land well. Space follow-ups sensibly: if there is no reply, a second message after three or four working days and a third after about a week is reasonable for most situations.\n\nWhen using WhatsApp for business, follow your employer's policy on approved numbers and what can be shared there. Never send sensitive personal data such as account numbers or ID scans casually over chat.",
+     "do": [
+      "Ask which channel the customer prefers",
+      "Space follow-ups over several working days"
+     ],
+     "dont": [
+      "Message late at night or on festival days",
+      "Share sensitive personal data casually on chat"
+     ]
+    },
+    {
+     "heading": "Know when to close the loop",
+     "body": "Not every customer will buy, and that is normal. After two or three thoughtful follow-ups with no response, send a polite closing message: \"Hi Ms. Sen, I haven't heard back, so I'll assume the timing isn't right. I won't keep messaging, but please reach out whenever you'd like to revisit this.\"\n\nThis message often gets a reply, because it is respectful and removes pressure. Even when it does not, the customer remembers you as professional, and may come back later or refer someone.\n\nIf a customer says no clearly, accept it, thank them and stop. Continuing to follow up after a clear no damages trust and your organisation's reputation.",
+     "do": [
+      "Send a polite closing message after two or three unanswered follow-ups",
+      "Thank the customer and stop after a clear no"
+     ],
+     "dont": [
+      "Keep messaging indefinitely without a response",
+      "Make the customer feel guilty for not replying"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Agree the next step and time before the conversation ends.",
+    "Make every follow-up useful: a document, an answer or a summary.",
+    "Use the customer's preferred channel and respect their time.",
+    "Space follow-ups over several working days, not hours.",
+    "After two or three unanswered follow-ups, close the loop politely."
+   ],
+   "quiz": [
+    [
+     "What is the best way to end a first meeting with a customer who is interested but undecided?",
+     [
+      "\"I'll be in touch soon.\"",
+      "\"Please decide by tonight, because I need to close my numbers this week.\"",
+      "\"Shall I send the comparison by Thursday and call you Friday evening?\"",
+      "\"Call me whenever you are ready.\""
+     ],
+     2,
+     "Agreeing a specific next step makes your follow-up expected rather than intrusive."
+    ],
+    [
+     "Which follow-up message adds the most value?",
+     [
+      "\"Hi sir, here's the fee comparison I promised. Shall we talk Friday?\"",
+      "\"Hi sir, any update?\"",
+      "\"Hi sir, just checking in again to see if you've had time to think about it.\"",
+      "\"Hi sir, please reply.\""
+     ],
+     0,
+     "It delivers what was promised and proposes a clear next step."
+    ],
+    [
+     "A customer says, \"I'll get back to you.\" What is the most effective response?",
+     [
+      "\"Please make sure you do.\"",
+      "\"Of course. If I haven't heard by Wednesday, may I check in?\"",
+      "\"Why not decide now?\"",
+      "Say nothing and simply wait for them to call you back when ready"
+     ],
+     1,
+     "Asking permission sets a time for a welcome follow-up."
+    ],
+    [
+     "A customer has not replied to your email sent this morning. When is a sensible time for a second follow-up?",
+     [
+      "The same afternoon",
+      "Every two hours until they reply",
+      "Never; one message is enough",
+      "After three or four working days"
+     ],
+     3,
+     "Reasonable spacing gives the customer time without letting the conversation go cold."
+    ],
+    [
+     "You are unsure how a new customer prefers to receive updates. What should you do?",
+     [
+      "Ask them during the first conversation",
+      "Send updates on every channel to be safe",
+      "Use WhatsApp because everyone uses it",
+      "Use email because it is more formal"
+     ],
+     0,
+     "Asking avoids assumptions and ensures your updates are seen."
+    ],
+    [
+     "Which statement in a follow-up is a form of false urgency?",
+     [
+      "\"Happy to discuss on Friday if useful.\"",
+      "\"Here are the documents you requested.\"",
+      "\"Offer ends today!\" when the offer is ongoing",
+      "\"The KYC form needs your signature on page 2.\""
+     ],
+     2,
+     "Inventing deadlines pressures customers and damages trust when they find out."
+    ],
+    [
+     "After three thoughtful follow-ups, a customer still hasn't replied. What is best?",
+     [
+      "Ask your manager to call them as well",
+      "Send a polite closing message saying you won't keep messaging",
+      "Continue messaging weekly until they respond",
+      "Call them from a colleague's number so they are more likely to pick up"
+     ],
+     1,
+     "A respectful close removes pressure and leaves the door open."
+    ],
+    [
+     "A customer clearly says no to your product. What should you do?",
+     [
+      "Follow up next week in case they change their mind",
+      "Ask them to explain every reason in detail",
+      "Send them a discount offer immediately",
+      "Thank them, accept the decision and stop following up"
+     ],
+     3,
+     "Respecting a clear no protects trust and your organisation's reputation."
+    ],
+    [
+     "A customer asks you to send her account details on WhatsApp. What should you do?",
+     [
+      "Follow your employer's policy and use approved, secure channels for sensitive data",
+      "Send them immediately on your personal WhatsApp",
+      "Post them in the branch WhatsApp group so colleagues can help her quickly and keep track of it",
+      "Read them aloud on a voice note"
+     ],
+     0,
+     "Sensitive personal data must be shared only through approved, secure channels."
+    ],
+    [
+     "Why should you record the agreed follow-up in your CRM or diary immediately?",
+     [
+      "So your manager can track how busy you are",
+      "So you call exactly when promised and don't forget",
+      "Because the customer will check your diary",
+      "So you can follow up more times"
+     ],
+     1,
+     "Keeping promises on timing builds trust; forgetting damages it."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The silent prospect",
+     "situation": "You met Mr. Agarwal, a small trader in Indore, about a business current account. He seemed interested and asked for the charges sheet. You emailed it the same day. Five working days later there has been no reply.",
+     "options": [
+      {
+       "text": "Send a short WhatsApp message: \"Any update, sir?\"",
+       "rating": "poor",
+       "feedback": "It adds nothing and puts the burden on him to restart the conversation."
+      },
+      {
+       "text": "Call him and say: \"I sent the charges sheet last week. Did any line raise questions? I can walk you through it in five minutes.\"",
+       "rating": "best",
+       "feedback": "You refer to what was shared, offer specific help and keep it short."
+      },
+      {
+       "text": "Wait another two weeks so you don't seem pushy.",
+       "rating": "poor",
+       "feedback": "Waiting too long lets the conversation go cold; one polite follow-up is expected."
+      },
+      {
+       "text": "Email again with the charges sheet attached and ask if he has questions.",
+       "rating": "good",
+       "feedback": "Polite and useful, but repeating the same email channel he hasn't responded to may get the same result."
+      }
+     ]
+    },
+    {
+     "title": "Manager wants daily calls",
+     "situation": "It is the last week of the quarter. Your manager asks you to call every interested prospect daily until they sign. One prospect, Ms. Fernandes, had told you she would decide after her salary is credited next week.",
+     "options": [
+      {
+       "text": "Call her daily as instructed to meet the target.",
+       "rating": "poor",
+       "feedback": "Daily calls after she gave a clear timeline will feel like pressure and may lose the customer."
+      },
+      {
+       "text": "Explain to your manager that she has a clear decision date and you have agreed to call her then, and share your plan for other prospects.",
+       "rating": "best",
+       "feedback": "You respect the customer's timeline and show your manager a professional plan."
+      },
+      {
+       "text": "Send her a polite reminder message midweek without telling your manager.",
+       "rating": "good",
+       "feedback": "It is gentle, but it ignores her stated timeline and avoids an honest conversation with your manager."
+      }
+     ]
+    },
+    {
+     "title": "Closing the loop",
+     "situation": "You have sent three useful follow-ups over three weeks to Dr. Menon about an insurance review. Each had a clear next step. She has not replied to any of them.",
+     "options": [
+      {
+       "text": "\"Hi Dr. Menon, I haven't heard back, so I'll assume the timing isn't right. I won't keep messaging, but I'm happy to help whenever you'd like.\"",
+       "rating": "best",
+       "feedback": "It is respectful, ends the pressure and leaves the relationship open."
+      },
+      {
+       "text": "Remove her from your list without sending anything further.",
+       "rating": "good",
+       "feedback": "It stops the pressure, but a short closing message leaves a better impression and an open door."
+      },
+      {
+       "text": "\"Doctor, I have been following up for three weeks. Please at least reply.\"",
+       "rating": "poor",
+       "feedback": "Making the customer feel guilty damages the relationship and your reputation."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "refresh",
+     "title": "Follow up without being pushy",
+     "text": "Most decisions need more than one conversation. Learn to follow up in a way customers find helpful — and to stop gracefully when it's time."
+    },
+    {
+     "kind": "compare",
+     "icon": "target",
+     "title": "Agree the next step first",
+     "text": "Before you hang up, fix the next step. Then your follow-up is expected.",
+     "bad": "Okay sir, I'll be in touch.",
+     "good": "Shall I send the comparison by Thursday and call you Friday evening?"
+    },
+    {
+     "kind": "tip",
+     "icon": "bulb",
+     "title": "\"I'll get back to you\"?",
+     "text": "Ask for permission to check in. Most people say yes.",
+     "example": "\"Of course. If I haven't heard by next Wednesday, may I check in?\""
+    },
+    {
+     "kind": "compare",
+     "icon": "mail",
+     "title": "Every message adds something",
+     "text": "Bring the document, answer or summary you promised, plus one next step.",
+     "bad": "Hi sir, any update?",
+     "good": "Hi Mr. Bhat, here's the term plan comparison we discussed. Happy to go through it on Friday."
+    },
+    {
+     "kind": "checklist",
+     "icon": "clock",
+     "title": "Right channel, right time",
+     "text": "Tap through before you send.",
+     "items": [
+      "Their preferred channel — ask if unsure",
+      "Within working hours, not on festival days",
+      "Spaced three or four working days apart",
+      "No sensitive data on casual chat"
+     ]
+    },
+    {
+     "kind": "compare",
+     "icon": "check",
+     "title": "Close the loop politely",
+     "text": "After two or three unanswered follow-ups, end the pressure and leave the door open.",
+     "bad": "Ma'am, I've followed up for three weeks. Please at least reply.",
+     "good": "I'll assume the timing isn't right. I won't keep messaging, but reach out anytime."
+    },
+    {
+     "kind": "tip",
+     "icon": "shield",
+     "title": "A clear no means stop",
+     "text": "Thank the customer and stop following up. Respecting a no protects trust — and they may return later or refer someone."
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Follow-up habits customers will appreciate:"
+    }
+   ]
+  },
+  {
+   "id": "getting-referrals-from-customers",
+   "title": "Getting Referrals from Happy Customers",
+   "track": "core",
+   "minutes": 7,
+   "summary": "Ask satisfied customers for referrals at the right moment and in a way that feels natural. You will learn to earn the referral first, make a specific ask, respect privacy and consent, and thank both the customer and the person referred.",
+   "sections": [
+    {
+     "heading": "Earn the referral first",
+     "body": "People refer you when they trust you and when recommending you makes them look good to their friends. That trust comes from the basics: solving their problem, keeping promises on time and being honest about what you cannot do. No referral technique can replace a good experience.\n\nA useful check before asking: has this customer told you, in words or actions, that they are happy? Examples include a thank-you message, a smooth renewal, or a comment like \"That was much easier than I expected.\" If the customer is still waiting for a resolved issue, fix that first.\n\nReferrals also come from how you handle problems. A customer whose complaint you resolved quickly and politely can become a strong supporter, because they have seen how you behave when things go wrong.",
+     "do": [
+      "Make sure the customer's issue is fully resolved before asking",
+      "Look for signs of satisfaction such as thanks or praise"
+     ],
+     "dont": [
+      "Ask for referrals while a complaint is still open"
+     ]
+    },
+    {
+     "heading": "Pick the right moment",
+     "body": "The best time to ask is just after the customer has experienced value: when a loan is disbursed on time, when a claim is settled, or when they thank you for your help. At that moment, the benefit is fresh in their mind.\n\nAvoid asking at the very start of a relationship, in the middle of paperwork, or when the customer is clearly busy. A rushed ask at the wrong time feels like another task being added to their day.\n\nYou can also plan for it. During an annual review, for instance, you might say near the end: \"I'm glad the plan is working for you. Many of my clients come through recommendations; I'd really value yours if anyone you know needs similar help.\"",
+     "do": [
+      "Ask right after the customer has received value",
+      "Include a natural moment for it in review meetings"
+     ],
+     "dont": [
+      "Ask during paperwork or at the start of the relationship",
+      "Ask when the customer is clearly busy or stressed"
+     ]
+    },
+    {
+     "heading": "Make a specific, easy ask",
+     "body": "\"Please refer me to your friends\" is too vague; most people cannot think of anyone on the spot. A specific ask helps them picture the right person: \"Do you know anyone who has just started working and wants to set up their first savings plan?\" or \"Are any of your colleagues also planning to buy a house this year?\"\n\nMake it easy for them to act. Offer a short message they can forward, such as \"Karthik at ABC Bank helped me with my home loan. He explained everything clearly. Here's his number if you need help.\" Let the customer edit it in their own words.\n\nIt is better for the customer to introduce you than to hand over a friend's number. A WhatsApp group with all three of you, or the customer sharing your contact, means the friend expects to hear from you.",
+     "do": [
+      "Describe the kind of person you can help",
+      "Offer a short message the customer can forward or edit"
+     ],
+     "dont": [
+      "Ask vaguely for \"anyone you know\"",
+      "Pressure the customer to give names on the spot"
+     ]
+    },
+    {
+     "heading": "Respect privacy and say thank you",
+     "body": "Never ask a customer to share a friend's phone number or details without that friend's permission, and never add people to broadcast lists without consent. Apart from being disrespectful, misusing personal data can breach your organisation's policies and data protection rules.\n\nWhen you contact a referred person, mention who introduced you and keep the first conversation about their needs, not a pitch. If they are not interested, accept it gracefully; how you treat them reflects on the customer who referred you.\n\nThank the referring customer whether or not the referral leads to business: \"Thank you for introducing me to Ananya. We had a good chat.\" Do not share details of the friend's finances or decisions with them. If your organisation has a formal referral reward programme, follow its rules and disclose it honestly; never offer informal personal gifts or cash for referrals.",
+     "do": [
+      "Contact referred people only with their permission",
+      "Thank the customer even if no business results"
+     ],
+     "dont": [
+      "Share a referred person's details with the referrer",
+      "Offer informal cash or gifts for referrals"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Referrals follow good experiences; earn them first.",
+    "Ask right after the customer has received clear value.",
+    "Describe the kind of person you can help and offer a forwardable message.",
+    "Let customers introduce you instead of handing over friends' numbers.",
+    "Respect privacy and thank the customer whatever the outcome."
+   ],
+   "quiz": [
+    [
+     "When is the best time to ask a customer for a referral?",
+     [
+      "In the first meeting, before they have used your service",
+      "While they are filling in the account opening form at your desk with you",
+      "Right after their loan is disbursed on time and they thank you",
+      "When they call to complain about a delay"
+     ],
+     2,
+     "Customers are most willing to refer when the value they received is fresh."
+    ],
+    [
+     "Which referral ask is most effective?",
+     [
+      "\"Please refer me to all your friends.\"",
+      "\"Do you know anyone who has just started working and wants a first savings plan?\"",
+      "\"Give me five names before I leave.\"",
+      "\"Anybody you know needs anything?\""
+     ],
+     1,
+     "A specific description helps the customer think of the right person."
+    ],
+    [
+     "A customer's complaint about a wrong charge is still unresolved. Should you ask for a referral?",
+     [
+      "No; resolve the complaint fully first",
+      "Yes, it may distract them from the complaint",
+      "Yes, if you offer to waive the charge in return",
+      "Yes, because they are already talking to you"
+     ],
+     0,
+     "Asking while a problem is open feels insensitive; good service must come first."
+    ],
+    [
+     "What is the best way to connect with a customer's friend?",
+     [
+      "Ask the customer for the friend's number and call the friend directly yourself",
+      "Find the friend on social media and send a message",
+      "Add the friend to your broadcast list",
+      "Have the customer introduce you, for example in a shared WhatsApp chat"
+     ],
+     3,
+     "An introduction means the friend has agreed to hear from you."
+    ],
+    [
+     "A referred person tells you they are not interested. What should you do?",
+     [
+      "Ask the customer who referred them to convince them",
+      "Thank them politely and not pursue it further",
+      "Follow up weekly in case they change their mind",
+      "Send them a detailed brochure anyway"
+     ],
+     1,
+     "Graceful acceptance protects both your reputation and the referrer's."
+    ],
+    [
+     "The customer who referred a friend asks you how much the friend invested. What should you say?",
+     [
+      "Share the amount, since they made the introduction",
+      "Share it only if the amount is small",
+      "Hint at the amount without stating it, since they made the introduction",
+      "Explain politely that you keep every client's details confidential"
+     ],
+     3,
+     "Client information stays confidential, even from the person who referred them."
+    ],
+    [
+     "Which is the most appropriate way to thank a referring customer?",
+     [
+      "A short message thanking them for the introduction, whatever the outcome",
+      "Cash handed over informally",
+      "A thank-you only if the referral buys something",
+      "No thanks is needed, since referrals are simply part of receiving good service"
+     ],
+     0,
+     "Thanking them regardless of outcome shows you value the trust, not just the sale."
+    ],
+    [
+     "Why might a customer whose complaint you handled well become a strong referrer?",
+     [
+      "They feel they owe you a favour",
+      "They have seen how you behave when things go wrong",
+      "They want to avoid future complaints",
+      "They are likely to forget the complaint"
+     ],
+     1,
+     "Handling problems well shows reliability, which builds trust worth recommending."
+    ],
+    [
+     "Why offer a short message the customer can forward?",
+     [
+      "It makes referring easy and the customer can edit it in their own words",
+      "It lets you control exactly what friends hear",
+      "It removes the need to get the friend's permission before contacting them",
+      "It counts as an advertisement"
+     ],
+     0,
+     "Lowering the effort makes referrals more likely while keeping the customer's voice."
+    ],
+    [
+     "Your organisation has an official referral reward scheme. What should you do?",
+     [
+      "Keep it secret so the referral feels genuine",
+      "Add your own extra cash reward to increase referrals",
+      "Promise rewards bigger than the scheme allows",
+      "Follow the scheme's rules and mention it honestly"
+     ],
+     3,
+     "Formal schemes should be followed and disclosed; informal extras are inappropriate."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The happy home-loan customer",
+     "situation": "Your customer, Mr. and Mrs. Joshi in Nagpur, just received their home loan disbursement on schedule. Mrs. Joshi sends you a WhatsApp message: \"Thank you so much, everything was so smooth!\"",
+     "options": [
+      {
+       "text": "\"Thank you! It was a pleasure. If any friends or colleagues are planning to buy a home, I'd be glad to help them too. Happy to share a short note you can forward.\"",
+       "rating": "best",
+       "feedback": "You respond warmly, ask at the right moment, describe the right person and make it easy to act."
+      },
+      {
+       "text": "\"Thank you! Please send me the numbers of five friends who may need loans.\"",
+       "rating": "poor",
+       "feedback": "Asking for numbers without their friends' consent is pushy and raises privacy concerns."
+      },
+      {
+       "text": "\"Thank you, ma'am! Glad it went well.\"",
+       "rating": "good",
+       "feedback": "It is gracious, but you miss a natural moment to ask for a referral."
+      }
+     ]
+    },
+    {
+     "title": "A number on a slip of paper",
+     "situation": "After a good meeting, a customer, Mr. Qureshi, writes down his cousin's phone number and says, \"Call him, he needs insurance.\" You are not sure whether the cousin knows about this.",
+     "options": [
+      {
+       "text": "Call the cousin immediately and start explaining your insurance plans.",
+       "rating": "poor",
+       "feedback": "An unexpected sales call to someone who has not agreed to it feels intrusive."
+      },
+      {
+       "text": "Thank Mr. Qureshi and ask, \"Could you let him know I'll call, or add us both on a WhatsApp chat?\"",
+       "rating": "best",
+       "feedback": "The cousin then expects your call, which respects his consent and makes the conversation easier."
+      },
+      {
+       "text": "Call the cousin and mention Mr. Qureshi's name in the first sentence.",
+       "rating": "good",
+       "feedback": "Naming the referrer helps, but the cousin still has not agreed to be contacted."
+      }
+     ]
+    },
+    {
+     "title": "The referral that didn't buy",
+     "situation": "Ms. Kapoor introduced you to her colleague, Rhea. After one conversation, Rhea decided to go with another provider. A week later, Ms. Kapoor asks, \"So, did Rhea sign up?\"",
+     "options": [
+      {
+       "text": "\"She didn't, and she said our charges were too high.\"",
+       "rating": "poor",
+       "feedback": "Sharing Rhea's reasons breaks her confidence and may cause awkwardness between colleagues."
+      },
+      {
+       "text": "\"I'd rather Rhea share that herself, but thank you so much for the introduction — I really appreciate it.\"",
+       "rating": "best",
+       "feedback": "You protect Rhea's privacy and still thank Ms. Kapoor warmly."
+      },
+      {
+       "text": "Change the subject without answering.",
+       "rating": "poor",
+       "feedback": "Avoiding the question can seem evasive; a polite explanation of confidentiality is better."
+      },
+      {
+       "text": "\"We had a good conversation. Thank you for connecting us.\"",
+       "rating": "good",
+       "feedback": "It is discreet and thankful, though explaining that client matters are confidential sets clearer expectations."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "star",
+     "title": "Referrals start with trust",
+     "text": "Happy customers are your best introduction to new ones. Learn when and how to ask, so referring you feels natural — not like a favour."
+    },
+    {
+     "kind": "checklist",
+     "icon": "check",
+     "title": "Ready to ask? Check first",
+     "text": "Tap each one before you ask.",
+     "items": [
+      "Their issue is fully resolved",
+      "They've shown they're happy — a thank-you or praise",
+      "They just experienced value, like an on-time disbursement"
+     ]
+    },
+    {
+     "kind": "compare",
+     "icon": "target",
+     "title": "Be specific about who you help",
+     "text": "Vague asks get blank looks. Describe the person so they come to mind.",
+     "bad": "Please refer me to your friends.",
+     "good": "Do any colleagues plan to buy a house this year?"
+    },
+    {
+     "kind": "tip",
+     "icon": "mail",
+     "title": "Give them words to forward",
+     "text": "Offer a short note they can edit and share.",
+     "example": "\"Karthik at ABC Bank helped with my home loan and explained everything clearly. Here's his number.\""
+    },
+    {
+     "kind": "compare",
+     "icon": "user",
+     "title": "Introductions beat phone numbers",
+     "text": "Let the customer introduce you, so their friend expects your call.",
+     "bad": "Just give me his number, I'll call.",
+     "good": "Could you let him know I'll call, or add us both on WhatsApp?"
+    },
+    {
+     "kind": "compare",
+     "icon": "shield",
+     "title": "Keep referred clients confidential",
+     "text": "Never share a referred person's decisions or finances with the referrer.",
+     "bad": "She didn't sign — said our charges were too high.",
+     "good": "I'd rather she share that herself. Thank you so much for the introduction."
+    },
+    {
+     "kind": "tip",
+     "icon": "bulb",
+     "title": "Thank them, whatever happens",
+     "text": "Thank the customer even if no business results. Follow official reward schemes honestly — never offer informal cash or gifts."
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Referral habits to start using:"
+    }
+   ]
+  },
+  {
+   "id": "handling-customer-queries",
+   "title": "Handling Customer Queries and Complaints in Your First Job",
+   "track": "fresher",
+   "minutes": 8,
+   "summary": "Handle customer questions and complaints calmly in a bank branch, call centre or retail job. You will learn a simple step-by-step approach, phrases that calm people down, how to give honest timelines and when and how to escalate.",
+   "sections": [
+    {
+     "heading": "A simple approach for every query",
+     "body": "In your first customer-facing job, whether at a bank branch counter, a call centre or a retail store, you will face a steady stream of questions and some unhappy customers. A simple, repeatable approach keeps you calm and makes sure nothing is missed.\n\nUse four steps. Listen fully without interrupting. Acknowledge the customer's feeling and the problem. Clarify the facts by asking for details such as account number, order ID or date of transaction, through approved and secure means. Then act or explain clearly what will happen next and by when.\n\nWrite down key details as the customer talks. Asking someone to repeat their story three times is one of the fastest ways to make an annoyed customer angry.",
+     "do": [
+      "Listen, acknowledge, clarify, then act",
+      "Note key details the first time you hear them"
+     ],
+     "dont": [
+      "Interrupt to jump to a solution",
+      "Make the customer repeat their story several times"
+     ]
+    },
+    {
+     "heading": "Calm language that lowers the temperature",
+     "body": "An angry customer is usually upset with the situation, not with you personally. Your tone can either calm things down or make them worse. Speak slowly, keep your voice steady and use the customer's name.\n\nSome phrases help: \"I understand this is frustrating, especially when you needed the money today,\" \"Let me check exactly what happened,\" and \"Here's what I can do right now.\" Avoid phrases that sound dismissive or blaming, such as \"That's not my department,\" \"You must have entered it wrong\" or \"Calm down, sir.\"\n\nApologise for the inconvenience even if the problem was not your fault: \"I'm sorry this has caused you trouble.\" This is not admitting blame; it is acknowledging the customer's experience. If someone becomes abusive or threatening, stay polite, follow your workplace's safety process and involve your supervisor.",
+     "do": [
+      "Use the customer's name and a steady tone",
+      "Acknowledge the impact on the customer"
+     ],
+     "dont": [
+      "Say \"Calm down\" or \"That's not my department\"",
+      "Blame the customer or another team in front of them"
+     ]
+    },
+    {
+     "heading": "Give honest answers and realistic timelines",
+     "body": "Freshers often feel pressure to have every answer immediately. It is fine to say, \"I'm not certain, so let me confirm with my senior and call you back by 4 pm today.\" A confident wrong answer causes more trouble than an honest \"let me check\".\n\nNever promise what you cannot control. \"Your refund will definitely come tomorrow\" is risky if the process normally takes five to seven working days. Instead say, \"The refund has been raised. It usually takes five to seven working days to reach your account; your reference number is in the SMS.\"\n\nAlways give a complaint or ticket reference number when one exists, and tell the customer how to track it. Then do what you said: if you promised a callback at 4 pm, call at 4 pm, even if it is only to give an update.",
+     "do": [
+      "Say \"let me confirm\" when you are unsure",
+      "Give the reference number and normal timeline"
+     ],
+     "dont": [
+      "Promise outcomes or dates you do not control",
+      "Miss a callback you promised"
+     ]
+    },
+    {
+     "heading": "When and how to escalate",
+     "body": "Escalation is not a failure; it is part of the job. Escalate when the issue is beyond your authority (a fee waiver above your limit, for example), when it involves possible fraud or a security concern, when the customer asks to speak to a senior, or when the problem has already gone unresolved for longer than it should.\n\nWhen you escalate, brief your senior properly so the customer does not have to start again: \"Sir, Mrs. Reddy's ATM withdrawal of ₹10,000 failed on the 3rd but the amount was debited. Complaint was raised on the 4th, reference ending 482. She is upset because it's still pending.\"\n\nTell the customer what you are doing: \"I'm bringing in my branch manager, who can approve this. I've already explained the details to her.\" Learn your organisation's grievance redressal process so you can explain the next level if a customer is still not satisfied.",
+     "do": [
+      "Escalate early for fraud, authority limits or repeated delays",
+      "Brief your senior so the customer doesn't repeat everything"
+     ],
+     "dont": [
+      "Hide a problem to avoid escalating",
+      "Pass the customer on without explaining why"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Listen, acknowledge, clarify, then act or explain next steps.",
+    "Use calm, non-blaming language and acknowledge the customer's experience.",
+    "Say \"let me confirm\" instead of guessing, and call back when promised.",
+    "Give reference numbers and realistic timelines; never over-promise.",
+    "Escalate early when needed and brief your senior fully."
+   ],
+   "quiz": [
+    [
+     "A customer at your counter starts explaining a failed transaction. What should you do first?",
+     [
+      "Ask for their account number before they finish",
+      "Listen fully and note the key details",
+      "Tell them the system is slow today",
+      "Direct them to the complaints email"
+     ],
+     1,
+     "Listening first shows respect and gives you the facts you need."
+    ],
+    [
+     "Which phrase is most likely to calm an upset customer?",
+     [
+      "\"Calm down, sir, shouting at me is not going to help either of us solve this.\"",
+      "\"That's not my department.\"",
+      "\"You must have entered the wrong PIN.\"",
+      "\"I understand this is frustrating. Let me check exactly what happened.\""
+     ],
+     3,
+     "Acknowledging the feeling and committing to action lowers tension."
+    ],
+    [
+     "A customer asks a question about a loan rule you are not sure about. What is best?",
+     [
+      "Give your best guess confidently",
+      "Say it's not possible, to be safe",
+      "Say you'll confirm with your senior and call back by a specific time",
+      "Ask the customer to search online"
+     ],
+     2,
+     "An honest \"let me confirm\" with a callback time avoids wrong information."
+    ],
+    [
+     "Refunds normally take five to seven working days. What should you tell the customer?",
+     [
+      "\"It has been raised; it usually takes five to seven working days. Here's your reference number.\"",
+      "\"Don't worry, it will definitely reach your account by tomorrow, I'll make sure of it personally.\"",
+      "\"I have no idea how long it takes.\"",
+      "\"Refunds sometimes never come.\""
+     ],
+     0,
+     "Accurate timelines and a reference number set honest expectations."
+    ],
+    [
+     "Why apologise for an inconvenience that was not your fault?",
+     [
+      "It legally admits the bank made a mistake",
+      "It acknowledges the customer's experience without assigning blame",
+      "It ends the conversation faster",
+      "Customers expect apologies for everything"
+     ],
+     1,
+     "Acknowledging their trouble helps calm the customer; it is not an admission of fault."
+    ],
+    [
+     "A customer reports a transaction they did not make. What should you do?",
+     [
+      "Tell them to wait a few days and check again",
+      "Ask if a family member might have used the card without telling them",
+      "Explain that such cases are rare",
+      "Follow the fraud process immediately and escalate as required"
+     ],
+     3,
+     "Possible fraud needs urgent, correct handling, not delay."
+    ],
+    [
+     "When escalating to your senior, what should you do?",
+     [
+      "Brief them with the facts so the customer doesn't repeat everything",
+      "Ask the customer to explain everything again to the senior",
+      "Escalate without telling the customer",
+      "Only escalate if the customer threatens to complain"
+     ],
+     0,
+     "A good handover saves the customer's time and shows professionalism."
+    ],
+    [
+     "You promised a callback at 4 pm but don't yet have a resolution. What should you do?",
+     [
+      "Skip the call until you have an answer",
+      "Ask a colleague to call and say you are on leave",
+      "Call at 4 pm with an update and a new expected time",
+      "Send an SMS late at night"
+     ],
+     2,
+     "Keeping your promise, even with only an update, maintains trust."
+    ],
+    [
+     "In a retail store, a customer becomes abusive and threatening. What is the right step?",
+     [
+      "Raise your voice firmly so they understand you won't be pushed around by anyone",
+      "Stay polite, follow the workplace safety process and involve your supervisor",
+      "Ignore them and serve the next customer",
+      "Agree to whatever they demand to end it quickly"
+     ],
+     1,
+     "Your safety matters; follow the process and get support rather than escalating the conflict."
+    ],
+    [
+     "A customer says, \"This is the third time I'm calling about this!\" What is the best first response?",
+     [
+      "\"Please don't be rude, I'm only trying to help.\"",
+      "\"I see no previous complaint in the system.\"",
+      "\"You'll need to raise a fresh complaint, sir, since the old one seems to have been closed automatically.\"",
+      "\"I'm sorry you've had to call again. Let me look at the history and take ownership of this.\""
+     ],
+     3,
+     "Acknowledging the repeated effort and taking ownership rebuilds trust."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The ATM debit",
+     "situation": "You are at the help desk of a bank branch in Lucknow. Mr. Verma, an elderly customer, says ₹5,000 was debited from his account but the ATM gave him no cash two days ago. He is worried and raising his voice.",
+     "options": [
+      {
+       "text": "\"I'm sorry, Mr. Verma, I know that's worrying. Let me check your account and the complaint status right now, and I'll tell you exactly what happens next.\"",
+       "rating": "best",
+       "feedback": "You acknowledge his worry, take ownership and promise a clear next step."
+      },
+      {
+       "text": "\"Sir, please lower your voice. This happens often and the money comes back.\"",
+       "rating": "poor",
+       "feedback": "It dismisses his concern and gives a vague assurance without checking."
+      },
+      {
+       "text": "Hand him the complaint form and explain how to fill it.",
+       "rating": "good",
+       "feedback": "The process may be correct, but without acknowledging his worry or checking status, he may feel brushed off."
+      }
+     ]
+    },
+    {
+     "title": "The call-centre question you can't answer",
+     "situation": "You are three weeks into a job at a telecom call centre in Gurugram. A customer asks why a ₹199 charge appeared on her bill. You don't recognise the charge code, and the call queue is long.",
+     "options": [
+      {
+       "text": "Tell her it's a standard service charge so you can move to the next call.",
+       "rating": "poor",
+       "feedback": "Guessing may give false information and lead to a repeat complaint."
+      },
+      {
+       "text": "Put her on hold briefly, ask your team lead, and come back with an accurate answer.",
+       "rating": "best",
+       "feedback": "A short hold with permission and an accurate answer resolves the query in one call."
+      },
+      {
+       "text": "Raise a ticket and tell her someone will call back within 48 hours.",
+       "rating": "good",
+       "feedback": "It is honest, but if a quick check could answer it now, she shouldn't have to wait two days."
+      }
+     ]
+    },
+    {
+     "title": "The demanding store customer",
+     "situation": "You work at an electronics store in Chennai. A customer wants a full cash refund for a phone bought three weeks ago because he no longer likes it. Store policy allows exchanges for defects only, and refunds need manager approval.",
+     "options": [
+      {
+       "text": "\"Sorry, no refunds. That's the policy.\"",
+       "rating": "poor",
+       "feedback": "It may be accurate, but it's abrupt and offers no explanation or alternative."
+      },
+      {
+       "text": "Promise a refund to keep him happy, then ask your manager.",
+       "rating": "poor",
+       "feedback": "Promising something outside your authority creates a bigger problem if it is refused."
+      },
+      {
+       "text": "Explain the policy politely and offer to check whether the phone has any defect that would qualify for an exchange.",
+       "rating": "good",
+       "feedback": "Polite and helpful, but he asked for a refund, which needs the manager's decision; you should involve them."
+      },
+      {
+       "text": "Explain the policy calmly, say refunds need manager approval, and bring in the manager with a brief summary of his request.",
+       "rating": "best",
+       "feedback": "You are honest about the policy, respect your authority limit and escalate with a proper handover."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "phone",
+     "title": "Your first difficult customer",
+     "text": "At a branch counter, call centre or store, upset customers are part of the job. A simple approach keeps you calm and makes sure nothing is missed."
+    },
+    {
+     "kind": "checklist",
+     "icon": "check",
+     "title": "Four steps for every query",
+     "text": "Tap through them in order.",
+     "items": [
+      "Listen fully — no interrupting",
+      "Acknowledge the feeling and the problem",
+      "Clarify details like order ID or date",
+      "Act, or explain what happens next and by when"
+     ],
+     "tip": "Note details the first time so they never repeat their story."
+    },
+    {
+     "kind": "compare",
+     "icon": "sparkle",
+     "title": "Words that lower the temperature",
+     "text": "The customer is upset with the situation, not you. Steady tone, their name, no blame.",
+     "bad": "Calm down, sir. That's not my department.",
+     "good": "I understand this is frustrating. Let me check exactly what happened."
+    },
+    {
+     "kind": "compare",
+     "icon": "bulb",
+     "title": "Not sure? Say so",
+     "text": "A confident wrong answer causes more trouble than an honest check.",
+     "bad": "It's probably a standard charge.",
+     "good": "I'm not certain — let me confirm with my senior and call you by 4 pm."
+    },
+    {
+     "kind": "compare",
+     "icon": "clock",
+     "title": "Never over-promise timelines",
+     "text": "Share the normal timeline and the reference number.",
+     "bad": "Your refund will definitely come tomorrow.",
+     "good": "It's raised. It usually takes five to seven working days. Your reference is in the SMS."
+    },
+    {
+     "kind": "checklist",
+     "icon": "flag",
+     "title": "When to escalate",
+     "text": "Escalation is part of the job, not a failure.",
+     "items": [
+      "It's beyond your authority",
+      "It could be fraud or a security issue",
+      "The customer asks for a senior",
+      "It's been unresolved too long"
+     ]
+    },
+    {
+     "kind": "tip",
+     "icon": "briefcase",
+     "title": "Hand over properly",
+     "text": "Brief your senior with the facts so the customer doesn't start again.",
+     "example": "\"Mrs. Reddy's ₹10,000 ATM withdrawal failed on the 3rd but was debited. Complaint ref ends 482.\""
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Your toolkit for queries and complaints:"
+    }
+   ]
+  },
+  {
+   "id": "ethical-selling-and-suitability",
+   "title": "Ethical Selling: Suitability, Disclosure and Saying No",
+   "track": "professional",
+   "minutes": 9,
+   "summary": "Run a suitability-first sales process as a distributor, adviser or relationship manager. You will learn to assess a client's situation and risk, disclose risks, costs and your earnings clearly, document the basis of your recommendation and decline sales that do not fit.",
+   "sections": [
+    {
+     "heading": "Suitability comes before the product",
+     "body": "Ethical selling starts with one question: does this product fit this client? Regulators such as SEBI, and industry bodies such as AMFI, expect intermediaries to put the client's interest first, avoid mis-selling and recommend only what is suitable. Your organisation's policies will set out the exact process; this lesson covers the conversation behind it.\n\nA suitability assessment looks at the client's goals, time horizon, income stability, existing investments and loans, need for liquidity, and willingness and ability to take risk. A 62-year-old retiree who needs monthly income has a very different profile from a 28-year-old with a stable salary investing for twenty years, even if both say \"I want good returns.\"\n\nA risk-profiling questionnaire is a tool, not a tick-box. Go through it with the client, explain the questions in plain language and check that their answers match what they told you earlier. If a client says they are comfortable with high risk but also says they will need the money for a house down payment next year, explore the contradiction before recommending anything.\n\nAlso be clear about your role. A mutual fund distributor, a registered investment adviser and a bank relationship manager have different responsibilities and permissions. Stay within what your registration and employer allow.",
+     "do": [
+      "Assess goals, horizon, liquidity needs and risk capacity first",
+      "Discuss contradictions in the risk profile with the client"
+     ],
+     "dont": [
+      "Treat the risk questionnaire as a formality",
+      "Step outside what your registration and role permit"
+     ]
+    },
+    {
+     "heading": "Disclose risks, costs and how you are paid",
+     "body": "Clients can only make an informed decision if they understand what they are buying. Explain the main risks in plain words: market-linked products can fall in value, there may be lock-in periods, and some products have surrender or exit charges. Never promise or imply guaranteed returns on market-linked products, and do not present past performance as a prediction.\n\nCompare \"This fund has given 18% returns, so you can expect similar\" with \"This fund has done well over the last five years, but returns are not guaranteed and it can fall, sometimes sharply, over shorter periods. That's why I'm suggesting it only for your 10-year goal.\"\n\nBe open about costs and your own earnings. Explain charges such as expense ratios, exit loads or premium allocation charges as applicable, and disclose the commission or fee you receive in line with the applicable rules and your firm's policy. A client who later discovers an undisclosed cost will rarely trust you again.",
+     "do": [
+      "Explain risks, lock-ins and exit charges in plain language",
+      "Disclose your commission or fee clearly"
+     ],
+     "dont": [
+      "Promise or imply guaranteed returns on market-linked products",
+      "Use past returns as a forecast"
+     ]
+    },
+    {
+     "heading": "Document the basis of your recommendation",
+     "body": "Good documentation protects both the client and you. Record the client's goals, risk profile, key facts they shared, the options you discussed, what you recommended and why, and the disclosures you made. Use your organisation's approved forms and systems.\n\nA short note is enough if it is specific: \"Client, 35, salaried, goal: child's higher education in 12 years. Moderate risk profile. Discussed equity and hybrid options; recommended SIP in a diversified equity fund given long horizon. Explained market risk, no guaranteed returns, exit load and distributor commission. Client agreed.\"\n\nRevisit suitability at review meetings and when the client's life changes, such as a job loss, marriage or approaching retirement. A product that was suitable five years ago may not be today. Avoid recommending switches mainly to earn fresh commission; every change should have a documented client benefit.",
+     "do": [
+      "Record goals, risk profile, options discussed and reasons",
+      "Review suitability when the client's situation changes"
+     ],
+     "dont": [
+      "Rely on memory instead of written records",
+      "Recommend switches mainly to earn new commission"
+     ]
+    },
+    {
+     "heading": "How to say no to an unsuitable sale",
+     "body": "Sometimes a client asks for something that does not fit them, or your sales target tempts you to push a product that is not right. Saying no is part of the job. It protects the client and your own credibility, and it is consistent with what regulators expect.\n\nExplain your reasoning in terms of their goals: \"I understand the returns look attractive, but you've told me this is your emergency fund and you may need it at short notice. This product has a three-year lock-in, so I can't recommend it for this money. Let's look at options that keep it accessible.\" Offer a suitable alternative wherever one exists.\n\nIf a client still insists on an unsuitable product, follow your firm's policy. That may mean declining the transaction or recording clearly that it was the client's own decision against your advice. If a manager pressures you to sell unsuitably, raise it through your compliance or ethics channel. A missed sale is recoverable; a mis-sale can harm the client and lead to complaints and regulatory action.",
+     "do": [
+      "Explain a no in terms of the client's own goals",
+      "Offer a suitable alternative where possible"
+     ],
+     "dont": [
+      "Push products to meet a target",
+      "Process an insisted-upon unsuitable sale without following firm policy"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Assess goals, horizon, liquidity and risk before recommending any product.",
+    "Never promise returns; explain risks, lock-ins and costs in plain words.",
+    "Disclose how you are paid, in line with applicable rules.",
+    "Document what you recommended, why, and what you disclosed.",
+    "Decline unsuitable sales and explain the no in terms of the client's goals."
+   ],
+   "quiz": [
+    [
+     "A client says, \"I want high returns,\" but also needs the money for a flat down payment in 10 months. What should you do?",
+     [
+      "Recommend a high-growth equity fund, since higher returns are what the client asked for",
+      "Explore the contradiction and prioritise the short-term need",
+      "Split the money equally across all risk levels",
+      "Let the client choose from your full product list"
+     ],
+     1,
+     "The short horizon limits how much risk is suitable, whatever the stated preference."
+    ],
+    [
+     "Which statement about a market-linked fund is acceptable?",
+     [
+      "\"It gave 18%, so you can expect about the same.\"",
+      "\"Your capital is completely safe in this fund.\"",
+      "\"It has done well, but returns aren't guaranteed and it can fall in the short term.\"",
+      "\"I personally guarantee you won't lose money.\""
+     ],
+     2,
+     "It is accurate about past performance and clear about risk without promising returns."
+    ],
+    [
+     "A client asks how you earn from a product you are recommending. What should you do?",
+     [
+      "Explain your commission or fee clearly, as applicable rules and firm policy require",
+      "Say it is free for them, so it doesn't matter",
+      "Change the subject to the product's returns",
+      "Tell them it is confidential company information"
+     ],
+     0,
+     "Transparent disclosure of earnings is expected and builds trust."
+    ],
+    [
+     "What is the main purpose of documenting the basis of a recommendation?",
+     [
+      "To meet your monthly paperwork target",
+      "To prove the client signed something",
+      "To show your manager how many products you discussed",
+      "To record the client's profile, options discussed, reasons and disclosures"
+     ],
+     3,
+     "Clear records show the advice was suitable and protect both client and adviser."
+    ],
+    [
+     "A 70-year-old client wants to put her entire emergency fund into a product with a five-year lock-in after a friend recommended it. What is best?",
+     [
+      "Process it, since it is her decision",
+      "Recommend she invest a smaller amount, perhaps half, in the same lock-in product instead",
+      "Explain why a lock-in doesn't suit an emergency fund and discuss accessible options",
+      "Refuse and end the meeting"
+     ],
+     2,
+     "Explaining the mismatch with her needs and offering alternatives is the suitable, respectful response."
+    ],
+    [
+     "Your manager asks you to move several clients into a new product mainly because it pays higher commission. What should you do?",
+     [
+      "Recommend switches only where clients clearly benefit, and raise concerns through proper channels",
+      "Switch all your clients to the new product, since meeting the branch target is a core part of your job",
+      "Switch only the clients who are least likely to notice",
+      "Tell clients it is a mandatory change"
+     ],
+     0,
+     "Switching mainly for commission is mis-selling; suitability and client benefit come first."
+    ],
+    [
+     "When should you revisit a client's suitability assessment?",
+     [
+      "Only when they want to invest more",
+      "Never; the first assessment is enough",
+      "Only if the client complains",
+      "At reviews and when their life circumstances change"
+     ],
+     3,
+     "Changes such as job loss or retirement can make earlier recommendations unsuitable."
+    ],
+    [
+     "A client keeps insisting on a product you believe is unsuitable for him. What is the correct approach?",
+     [
+      "Process it quietly to keep the client happy, since it is ultimately his money and his decision",
+      "Follow firm policy: decline, or record it as his decision against your advice",
+      "Tell him the product is unavailable",
+      "Ask a colleague to process it instead"
+     ],
+     1,
+     "Firm policy and clear documentation protect the client and you."
+    ],
+    [
+     "Which best describes the purpose of a risk-profiling questionnaire?",
+     [
+      "A formality to complete before the sale",
+      "A way to formally justify the product you have already decided to recommend",
+      "A tool to discuss and understand the client's risk capacity and willingness",
+      "A document only compliance needs to see"
+     ],
+     2,
+     "Used properly, it supports a genuine conversation about risk."
+    ],
+    [
+     "You are a mutual fund distributor. A client asks for detailed tax planning advice beyond your role. What should you do?",
+     [
+      "Give your best tax advice anyway, so that the client doesn't move to someone else instead",
+      "Explain the limits of your role and suggest they consult a qualified professional",
+      "Tell them tax planning doesn't matter",
+      "Copy advice from a website and share it"
+     ],
+     1,
+     "Staying within your registration and role protects the client from unqualified advice."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The year-end target",
+     "situation": "It's the last week of March. You are a relationship manager at a bank in Mumbai, ₹8 lakh short of your insurance target. A long-standing client, Mr. Shetty, 58, has ₹10 lakh maturing from an FD and says he needs it for his daughter's wedding in eight months.",
+     "options": [
+      {
+       "text": "Suggest a market-linked insurance plan, highlighting its tax benefit, without mentioning the lock-in.",
+       "rating": "poor",
+       "feedback": "Hiding the lock-in and ignoring his eight-month need is mis-selling."
+      },
+      {
+       "text": "Tell him about the insurance plan but advise him that it may not fit his timeline, and let him decide.",
+       "rating": "good",
+       "feedback": "Honest, but you are still offering a product you know doesn't suit his need; a clear recommendation is better."
+      },
+      {
+       "text": "Recommend options that keep the money safe and accessible for the wedding, and note the suitability reasons in your records.",
+       "rating": "best",
+       "feedback": "You put his goal first, avoid target pressure and document the basis of your advice."
+      }
+     ]
+    },
+    {
+     "title": "\"Just tell me it's guaranteed\"",
+     "situation": "A first-time investor, Ms. Nair, 30, is considering an SIP in an equity mutual fund for a goal 12 years away. She says, \"My uncle lost money in shares. Just tell me I'll get at least 12% and I'll sign today.\"",
+     "options": [
+      {
+       "text": "\"Historically, equity funds have given around 12% over long periods, so you should be fine.\"",
+       "rating": "poor",
+       "feedback": "This implies a likely return and uses past performance as a promise."
+      },
+      {
+       "text": "\"I can't promise any return; equity funds can fall, sometimes sharply. But over 12 years you have time to ride out ups and downs. Let's look at how much risk you're comfortable with.\"",
+       "rating": "best",
+       "feedback": "You are honest about risk, explain why the horizon matters and return to her risk comfort."
+      },
+      {
+       "text": "\"I can't guarantee returns. Maybe consider a fixed deposit instead.\"",
+       "rating": "good",
+       "feedback": "It is honest, but it drops the discovery conversation; an FD may not suit a 12-year goal either."
+      }
+     ]
+    },
+    {
+     "title": "The client who insists",
+     "situation": "Mr. Bose, 66, a retired engineer in Kolkata, wants to invest 80% of his retirement savings in a small-cap fund after reading online posts. Your risk assessment shows a conservative profile and that he relies on these savings for monthly expenses.",
+     "options": [
+      {
+       "text": "Process the investment because he is an educated adult and it is his money.",
+       "rating": "poor",
+       "feedback": "His autonomy matters, but you must first explain the mismatch and follow your firm's suitability policy."
+      },
+      {
+       "text": "Explain clearly why this level of risk doesn't fit his income needs, offer a suitable alternative, and if he still insists, follow firm policy on declining or documenting it against your advice.",
+       "rating": "best",
+       "feedback": "You give honest advice, offer an alternative and handle insistence through the proper process."
+      },
+      {
+       "text": "Suggest he invest a smaller portion, say 20%, in the small-cap fund.",
+       "rating": "good",
+       "feedback": "A reasonable compromise, but you should first explain the risk clearly and document the advice and his decision."
+      },
+      {
+       "text": "Refuse to discuss it and ask him to find another distributor.",
+       "rating": "poor",
+       "feedback": "Refusing without explaining leaves him without guidance and may push him to act alone."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "shield",
+     "title": "Suitability first, always",
+     "text": "Ethical selling starts with one question: does this product fit this client? Learn to assess suitability, disclose honestly, document your advice and say no when you must."
+    },
+    {
+     "kind": "checklist",
+     "icon": "search",
+     "title": "Before you recommend anything",
+     "text": "Tap through the client's full picture.",
+     "items": [
+      "Goals and time horizon",
+      "Income stability, loans and existing investments",
+      "Need for liquidity",
+      "Willingness and ability to take risk"
+     ],
+     "tip": "Contradictions in answers? Explore them first."
+    },
+    {
+     "kind": "compare",
+     "icon": "chart",
+     "title": "Never promise returns",
+     "text": "Past performance is not a forecast. Explain risk in plain words.",
+     "bad": "This fund gave 18%, so you can expect similar.",
+     "good": "It's done well, but returns aren't guaranteed and it can fall. That's why it's only for your 10-year goal."
+    },
+    {
+     "kind": "tip",
+     "icon": "info",
+     "title": "Disclose costs and your earnings",
+     "text": "Explain lock-ins, exit loads or other charges, and disclose your commission or fee as the rules and your firm require. Hidden costs destroy trust."
+    },
+    {
+     "kind": "tip",
+     "icon": "book",
+     "title": "Write down the why",
+     "text": "Record the profile, options, recommendation, reasons and disclosures.",
+     "example": "\"35, salaried, education goal in 12 yrs, moderate risk. Recommended equity SIP. Explained market risk, exit load, commission.\""
+    },
+    {
+     "kind": "compare",
+     "icon": "flag",
+     "title": "Say no using their goals",
+     "text": "Explain the mismatch and offer a suitable alternative.",
+     "bad": "Sure, the returns look great — let's do it.",
+     "good": "This is your emergency fund and the product has a three-year lock-in, so I can't recommend it here."
+    },
+    {
+     "kind": "compare",
+     "icon": "briefcase",
+     "title": "Targets don't override suitability",
+     "text": "Switch clients only with a documented client benefit. Raise pressure through compliance channels.",
+     "bad": "Move everyone to the new plan — it pays more.",
+     "good": "I'll recommend it only where it clearly helps the client."
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Principles of ethical, suitable selling:"
+    }
+   ]
+  }
+ ]
+}

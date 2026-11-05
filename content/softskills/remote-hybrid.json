@@ -1,0 +1,1914 @@
+{
+ "area": "remote-hybrid",
+ "lessons": [
+  {
+   "id": "async-communication",
+   "title": "Async Communication That Moves Work Forward",
+   "track": "core",
+   "minutes": 7,
+   "summary": "Write messages and updates that a colleague can act on hours later without a follow-up call. You will learn to give full context, set clear timelines and know when to switch to a live conversation.",
+   "sections": [
+    {
+     "heading": "Write messages that stand on their own",
+     "body": "Asynchronous, or async, communication means the other person reads your message later, often in a different meeting, city or time zone. They cannot interrupt you to ask \"which file?\" or \"by when?\". Every missing detail costs a round of messages, and in a remote team that can mean a lost day.\n\nA useful test: could someone act on your message without asking you anything? Include what the issue is, why it matters, what you need and by when. Compare \"Hi, are you free? Need to discuss the report\" with \"Hi Kavya, the Pune branch report shows 42 pending KYC files but the dashboard shows 38. Could you confirm which is right by 3 pm today? I need it for the 4 pm review.\"\n\nAvoid sending just \"Hi\" and waiting for a reply before stating your point. The reader sees a notification, stops what they are doing and then has to wait for you. Put the greeting and the request in the same message.",
+     "do": [
+      "Include the what, why, ask and deadline in one message",
+      "Link or attach the exact file you are talking about"
+     ],
+     "dont": [
+      "Send a bare \"Hi\" or \"Ping me\" and wait",
+      "Assume the reader remembers yesterday's call"
+     ]
+    },
+    {
+     "heading": "Put the bottom line first",
+     "body": "Busy colleagues skim. Start with the conclusion, decision or request, then add detail below. This habit is sometimes called \"bottom line up front\". If your message is a status update, the first line should say whether things are on track.\n\nSimple labels make updates scannable. For example: \"Status: on track for Friday. Done: vendor list verified. Next: send draft to legal on Wednesday. Blocked: waiting for the signed NDA from Arjun.\" A manager can read that in ten seconds and knows exactly where help is needed.\n\nKeep one topic per thread. If a new issue comes up in the middle of a discussion, start a new thread with a clear first line. Mixed threads become impossible to search a month later, when someone asks why a decision was taken.",
+     "do": [
+      "Open with the status or the decision needed",
+      "Use labels like Done, Next and Blocked"
+     ],
+     "dont": [
+      "Hide the key point in the fourth paragraph",
+      "Mix unrelated topics in one thread"
+     ]
+    },
+    {
+     "heading": "Make timelines and urgency explicit",
+     "body": "\"ASAP\" and \"at the earliest\" mean different things to different people. Replace them with a real time: \"by 5 pm Thursday\". If your team works across locations, such as Mumbai, Bengaluru and a client in Dubai, add the time zone: \"by 5 pm IST\".\n\nAlso say what kind of response you expect. \"FYI, no reply needed\" lets people read and move on. \"Need a yes or no by noon\" tells them to act. When you receive a request you cannot handle immediately, acknowledge it with a timeline: \"Seen. I'll send the numbers by tomorrow 11 am.\" A quick acknowledgement prevents anxious follow-ups.\n\nIf something is truly urgent, async may not be the right channel at all. A message marked \"urgent\" that sits unread for two hours helps no one.",
+     "do": [
+      "Give a specific day and time, with time zone if needed",
+      "Acknowledge requests with when you will reply"
+     ],
+     "dont": [
+      "Rely on \"ASAP\" or \"at the earliest\"",
+      "Mark everything urgent"
+     ]
+    },
+    {
+     "heading": "Know when to switch to a call, then write it down",
+     "body": "Async is not always the best choice. If a thread has gone back and forth three or four times without progress, a ten-minute call usually settles it faster. Sensitive topics, such as feedback on someone's work or a disagreement, are also better handled live, where tone is clearer.\n\nAfter the call, return to the thread and post the outcome: \"Spoke with Rahul. Decision: we'll use the March data and flag the gap in a footnote. Rahul to update the deck by Tuesday.\" This keeps people who were not on the call informed and creates a record.\n\nFinally, store decisions and how-to information somewhere permanent, such as a shared document or team wiki, not only in chat. New joiners and future you will thank you.",
+     "do": [
+      "Move to a call after three or four unclear exchanges",
+      "Post the decision back in the thread after a call"
+     ],
+     "dont": [
+      "Debate sensitive feedback over long chat threads",
+      "Leave decisions only in people's memory"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Write messages that someone can act on without asking you anything.",
+    "Lead with the bottom line, then add detail.",
+    "Replace \"ASAP\" with a specific day, time and time zone.",
+    "Acknowledge requests with when you will reply.",
+    "Switch to a call when a thread stalls, then write the outcome down."
+   ],
+   "quiz": [
+    [
+     "Which message is most likely to get a useful reply without follow-up questions?",
+     [
+      "\"Hi\"",
+      "\"Hi Meera, the Nashik invoice shows ₹48,000 but the PO says ₹44,000. Which is correct? Need it by 2 pm for payment.\"",
+      "\"Hi Meera, call me when free.\"",
+      "Hi Meera, there's some problem with one of the invoices from last week, please check whenever you get time and let me know."
+     ],
+     1,
+     "It gives the issue, the exact numbers, the question and a deadline, so Meera can act at once."
+    ],
+    [
+     "Your team works between Mumbai and a client in London. How should you state a deadline?",
+     [
+      "\"By end of day\"",
+      "At the earliest, since the client is waiting",
+      "\"By 5 pm IST Thursday\"",
+      "\"Soon, ideally\""
+     ],
+     2,
+     "A specific time with a time zone removes guesswork across locations."
+    ],
+    [
+     "What is the best first line of a weekly status update?",
+     [
+      "\"Status: on track for the 20 Nov launch; one blocker below.\"",
+      "\"Hope everyone had a good week.\"",
+      "\"As discussed in many earlier meetings, this project began in July with a small team.\"",
+      "\"Please read this carefully till the end.\""
+     ],
+     0,
+     "Leading with the status lets a busy reader understand the situation in one line."
+    ],
+    [
+     "A colleague asks you for data, but you can only send it tomorrow. What should you do now?",
+     [
+      "Say nothing until the data is ready, so you don't promise anything you can't deliver",
+      "Reply \"ok\"",
+      "Ask them to remind you tomorrow",
+      "Reply: \"Seen. I'll send it by 11 am tomorrow.\""
+     ],
+     3,
+     "A short acknowledgement with a timeline stops them from wondering whether you saw it."
+    ],
+    [
+     "A chat thread on report format has gone back and forth five times with no agreement. What is best?",
+     [
+      "Keep replying with more detailed arguments until someone finally agrees",
+      "Have a short call, then post the decision in the thread",
+      "Escalate to your manager at once",
+      "Make the decision yourself silently"
+     ],
+     1,
+     "A quick call resolves the deadlock, and posting the outcome keeps everyone informed."
+    ],
+    [
+     "You are sharing information that needs no action. How should you signal this?",
+     [
+      "Mark it \"URGENT\" so people read it",
+      "Send it as a voice note",
+      "Start with \"FYI, no reply needed\"",
+      "Tag every team member individually so nobody misses it"
+     ],
+     2,
+     "Stating that no reply is needed saves everyone time."
+    ],
+    [
+     "During a thread about a client deck, a new issue about leave approvals comes up. What should you do?",
+     [
+      "Start a separate thread for the leave issue",
+      "Discuss both in the same thread so all the context stays in one place",
+      "Ignore the leave issue",
+      "Reply to both in one long paragraph"
+     ],
+     0,
+     "One topic per thread keeps discussions searchable and easy to follow."
+    ],
+    [
+     "Where should an important team decision ultimately be recorded?",
+     [
+      "Only in the meeting chat, which everyone who attended already has access to",
+      "In a shared document or wiki the team can find later",
+      "In your personal notebook",
+      "Nowhere; people will remember"
+     ],
+     1,
+     "A permanent shared record helps absent colleagues and new joiners understand past decisions."
+    ],
+    [
+     "Which topic is usually better discussed live than over async chat?",
+     [
+      "Sharing the meeting link",
+      "Confirming tomorrow's holiday",
+      "Sending the final version of the file after everyone has approved it",
+      "Giving critical feedback on a colleague's work"
+     ],
+     3,
+     "Sensitive conversations benefit from tone and real-time clarification."
+    ],
+    [
+     "Why is sending only \"Hi\" and waiting for a reply a poor habit?",
+     [
+      "It is considered too formal for workplace chat in most Indian companies",
+      "It interrupts the reader without giving them anything to act on",
+      "Chat apps do not deliver short messages",
+      "It is against company policy everywhere"
+     ],
+     1,
+     "The reader is pulled away from their work and must wait to learn what you need."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The vague request",
+     "situation": "Your manager, Sunita, is in back-to-back meetings all afternoon. You need her approval to send a revised quotation of ₹3.4 lakh to a client before 6 pm, because the client's purchase committee meets tomorrow morning.",
+     "options": [
+      {
+       "text": "Message: \"Hi Sunita, need your approval on something, please call when free.\"",
+       "rating": "poor",
+       "feedback": "Sunita cannot act on this between meetings, and a call may not happen before 6 pm."
+      },
+      {
+       "text": "Message: \"Approval needed by 5:30 pm: revised quote of ₹3.4 lakh for Mehta Industries (old quote ₹3.6 lakh, discount within my limit + 2%). Draft attached. Reply 'yes' to send.\"",
+       "rating": "best",
+       "feedback": "It is complete, time-bound and can be approved with one word from a meeting."
+      },
+      {
+       "text": "Email the draft quotation with the subject \"Quote\" and wait.",
+       "rating": "poor",
+       "feedback": "The subject and lack of a deadline make it easy to miss before 6 pm."
+      },
+      {
+       "text": "Message the full details and also ask her assistant to flag it to her between meetings.",
+       "rating": "good",
+       "feedback": "This adds a useful safety net, but involving another person is only needed if a clear, complete message alone is unlikely to be seen."
+      }
+     ]
+    },
+    {
+     "title": "Endless thread",
+     "situation": "You and two colleagues in Hyderabad and Kolkata have exchanged 12 messages about whether a dashboard should show monthly or quarterly data. Everyone is getting a little irritated, and the tone is becoming curt.",
+     "options": [
+      {
+       "text": "Send one more long message explaining your view in detail.",
+       "rating": "poor",
+       "feedback": "More text is unlikely to break the deadlock and may worsen the tone."
+      },
+      {
+       "text": "Suggest a 10-minute call, then post the agreed decision and owner in the thread.",
+       "rating": "best",
+       "feedback": "A short live discussion resolves disagreement faster, and the written outcome keeps a record."
+      },
+      {
+       "text": "Ask your manager to decide by forwarding the whole thread.",
+       "rating": "good",
+       "feedback": "It may get a decision, but escalating before trying a quick conversation can look like avoiding your peers."
+      }
+     ]
+    },
+    {
+     "title": "The quiet acknowledgement",
+     "situation": "On Monday a colleague from the audit team asks you for three months of branch expense data. You are busy with month-end closing and can only prepare it by Wednesday.",
+     "options": [
+      {
+       "text": "Reply: \"Seen. I'm on month-end closing; I can send the three months' data by Wednesday 4 pm. Does that work?\"",
+       "rating": "best",
+       "feedback": "It acknowledges the request, explains briefly and gives a clear time the colleague can plan around."
+      },
+      {
+       "text": "Ignore it until Wednesday, then send the data.",
+       "rating": "poor",
+       "feedback": "The colleague may chase you repeatedly or assume you have forgotten."
+      },
+      {
+       "text": "Reply \"Will do\".",
+       "rating": "good",
+       "feedback": "It confirms you saw it, but without a timeline the colleague cannot plan their own work."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "clock",
+     "title": "Messages that work while you're away",
+     "text": "In remote teams, people read your message hours later. If it needs a follow-up question, you lose a day. Here's how to write ones that move work forward."
+    },
+    {
+     "kind": "compare",
+     "icon": "bolt",
+     "title": "Never send a bare \"Hi\"",
+     "text": "Put the greeting and the request in one message.",
+     "bad": "Hi, are you free?",
+     "good": "Hi Kavya, the Pune report shows 42 pending KYC files but the dashboard says 38. Which is right? Need it by 3 pm."
+    },
+    {
+     "kind": "tip",
+     "icon": "target",
+     "title": "Bottom line first",
+     "text": "Open with the status or decision. Use labels so it can be read in ten seconds.",
+     "example": "Status: on track for Friday\nDone: vendor list verified\nBlocked: waiting for NDA from Arjun"
+    },
+    {
+     "kind": "compare",
+     "icon": "clock",
+     "title": "Swap \"ASAP\" for a real time",
+     "text": "Add the time zone if your team is spread out.",
+     "bad": "Please send at the earliest.",
+     "good": "Please send by 5 pm IST Thursday."
+    },
+    {
+     "kind": "compare",
+     "icon": "check",
+     "title": "Acknowledge with a timeline",
+     "text": "Can't do it now? Say when you will. It stops anxious follow-ups.",
+     "bad": "(no reply for two days)",
+     "good": "Seen. I'll send the numbers by tomorrow 11 am."
+    },
+    {
+     "kind": "checklist",
+     "icon": "phone",
+     "title": "Time to switch to a call?",
+     "text": "Move to a short call if any of these is true:",
+     "items": [
+      "Three or four replies without progress",
+      "The topic is sensitive feedback",
+      "It's truly urgent"
+     ],
+     "tip": "After the call, post the decision and owner back in the thread."
+    },
+    {
+     "kind": "tip",
+     "icon": "book",
+     "title": "Write decisions somewhere permanent",
+     "text": "Chat scrolls away. Keep decisions and how-tos in a shared document or team wiki so new joiners can find them."
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Use these in your next message:"
+    }
+   ]
+  },
+  {
+   "id": "chat-etiquette",
+   "title": "Teams, Slack and WhatsApp Etiquette for Work",
+   "track": "core",
+   "minutes": 7,
+   "summary": "Choose the right chat channel for each kind of message and write chats that respect colleagues' time and boundaries. You will learn practical habits for threads, mentions, voice notes and work WhatsApp groups.",
+   "sections": [
+    {
+     "heading": "Pick the right channel for the message",
+     "body": "Most workplaces now use several channels at once: email, a team chat tool such as Microsoft Teams or Slack, and often WhatsApp. Each suits different messages. Team chat works well for quick questions and day-to-day coordination. Email is better for formal communication, external parties and anything that needs a clear record, such as approvals.\n\nWhatsApp is common in Indian workplaces, especially with field teams and some clients. Before using it for work, check your organisation's policy. Many firms, particularly in financial services, require client conversations and documents to stay on approved, recorded channels. Never send customer data such as account details or ID copies on a personal chat app unless your employer has explicitly approved that channel.\n\nA simple rule: the more formal, sensitive or long-lasting the content, the more it belongs in an official, searchable channel.",
+     "do": [
+      "Use email or approved systems for approvals and client records",
+      "Check your company's policy on WhatsApp for work"
+     ],
+     "dont": [
+      "Share client documents on personal chat apps",
+      "Give formal approvals only through an emoji reaction"
+     ]
+    },
+    {
+     "heading": "One complete message, in the right place",
+     "body": "Chat makes it easy to send thoughts in fragments: \"Hi\", \"one thing\", \"the report\", \"can you check\". Each fragment can trigger a notification. Instead, write one complete message with everything the reader needs.\n\nReply inside threads rather than in the main channel, so a discussion about the Jaipur event does not bury an announcement about payroll. Use @mentions when you need a specific person to act, and use channel-wide alerts like @channel or @everyone only for genuinely important, time-sensitive information. Notifying fifty people about a misplaced charger trains them to ignore alerts.\n\nKeep work groups for work. Daily good-morning images, forwarded videos and festival greetings in a project group make real updates hard to find. If your team enjoys that, suggest a separate social group.",
+     "do": [
+      "Send one complete message instead of many fragments",
+      "Reply in threads to keep channels tidy"
+     ],
+     "dont": [
+      "Use @everyone for routine questions",
+      "Forward unrelated videos to work groups"
+     ]
+    },
+    {
+     "heading": "Tone: chat strips away your voice",
+     "body": "In person, a smile softens \"ok\". In chat, \"ok.\" with a full stop can read as annoyed, especially to someone senior or new. A few extra words help: \"Okay, thanks, I'll update it by noon\" sounds cooperative without being over the top.\n\nEmojis can add warmth but use them according to the team's style. A thumbs-up reaction is a fine way to acknowledge a message in many teams; a string of laughing faces in a reply to your manager's serious update is not. When in doubt, follow how your manager and senior colleagues write.\n\nVoice notes are popular on WhatsApp, but at work they are hard to skim, search or listen to in a meeting. Prefer text for instructions and anything with numbers. If you must send a voice note, keep it short and add a one-line text summary.",
+     "do": [
+      "Add a few words of warmth to short replies",
+      "Mirror the team's level of formality"
+     ],
+     "dont": [
+      "Send long voice notes with numbers or instructions",
+      "Reply in all capitals when you are frustrated"
+     ]
+    },
+    {
+     "heading": "Respect time and boundaries",
+     "body": "Chat makes everyone feel reachable at all hours. Unless something is urgent, avoid messaging colleagues late at night or on holidays. If you work odd hours, use the scheduled-send option where available, or begin with \"No need to reply until tomorrow\".\n\nSet your status when you are in a meeting, on leave or focusing, and switch on do-not-disturb outside work hours if your role allows it. Do not expect instant replies to non-urgent messages, and do not follow up within ten minutes with \"??\".\n\nRemember that chat is not private. Screenshots travel. Do not criticise colleagues, share gossip or post anything in a work group that you would not be comfortable seeing in front of HR.",
+     "do": [
+      "Schedule messages for working hours when you can",
+      "Keep your status up to date"
+     ],
+     "dont": [
+      "Follow up with \"??\" after a few minutes",
+      "Write anything you would not want screenshotted"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Match the channel to the message: chat for quick work, email or approved systems for formal records.",
+    "Never share client data on unapproved personal apps.",
+    "Send one complete message and reply in threads.",
+    "Use @everyone rarely and keep work groups for work.",
+    "Add warmth to short replies, prefer text to voice notes and respect off-hours."
+   ],
+   "quiz": [
+    [
+     "A client wants to send you a copy of their PAN and address proof on your personal WhatsApp. What should you do first?",
+     [
+      "Accept it, since it is faster",
+      "Ask them to send it to your personal email instead, which feels more official",
+      "Check and use your firm's approved channel for documents",
+      "Ask them to post it in the team group"
+     ],
+     2,
+     "Client documents should only move through channels your organisation has approved."
+    ],
+    [
+     "You need to tell 40 people in a channel that tomorrow's office is closed due to heavy rain. Which is appropriate?",
+     [
+      "A channel-wide @mention with the key details",
+      "A voice note to each person",
+      "A thread reply under an old message",
+      "No message; people will find out from the news and local WhatsApp groups"
+     ],
+     0,
+     "A time-sensitive notice affecting everyone is exactly when a channel-wide alert makes sense."
+    ],
+    [
+     "Which chat reply to your manager's request is clearest and warmest?",
+     [
+      "\"ok.\"",
+      "\"k\"",
+      "\"Sure sir, will do the needful at the earliest possible.\"",
+      "\"Okay, thanks, I'll update it by noon.\""
+     ],
+     3,
+     "A few extra words confirm the task and timeline in a friendly tone."
+    ],
+    [
+     "You have a question about the Jaipur event in a busy channel. Where should you post it?",
+     [
+      "As a new main message every time",
+      "In the existing thread about the Jaipur event",
+      "In your manager's personal WhatsApp",
+      "As a fresh main-channel message with an @everyone alert"
+     ],
+     1,
+     "Replying in the relevant thread keeps related messages together and the channel readable."
+    ],
+    [
+     "You need to share a revised budget with five figures. What is the best format?",
+     [
+      "A two-minute voice note explaining each figure",
+      "A forwarded image of handwritten notes",
+      "A text message or attached file",
+      "A video call with no follow-up"
+     ],
+     2,
+     "Numbers are easier to check, search and reference in text or a file."
+    ],
+    [
+     "You are working late and want to ask a colleague a non-urgent question. What is best?",
+     [
+      "Schedule it for the morning, or say no reply is needed until tomorrow",
+      "Send it now and phone them if there's no reply within the next half an hour",
+      "Message them five times so it is not missed",
+      "Ask in the team's family group"
+     ],
+     0,
+     "Respecting off-hours keeps trust and avoids pressure to reply late."
+    ],
+    [
+     "Your project group gets daily good-morning images and forwards. What is a sensible suggestion?",
+     [
+      "Leave the group without telling anyone",
+      "Report everyone to HR",
+      "Reply to each forward individually, politely asking the sender to stop posting",
+      "Propose a separate social group and keep this one for work"
+     ],
+     3,
+     "A separate group keeps the friendly culture while making work updates easy to find."
+    ],
+    [
+     "Which message is the best way to ask a colleague for help on chat?",
+     [
+      "\"Hi\" … \"one thing\" … \"the file\" … \"can you check\"",
+      "\"Hi Ankit, could you check slide 4 of the attached deck for the Q2 figures before 3 pm?\"",
+      "\"Ankit???\"",
+      "\"Call me.\""
+     ],
+     1,
+     "One complete message gives all the details in a single notification."
+    ],
+    [
+     "You are annoyed by a colleague's mistake. What should you avoid posting in the team chat?",
+     [
+      "A neutral note correcting the figure, tagging the right owner",
+      "A request for a quick call",
+      "A sarcastic comment about their carelessness",
+      "A thank-you for their quick fix"
+     ],
+     2,
+     "Chat messages can be screenshotted and forwarded; criticism belongs in a private, respectful conversation."
+    ],
+    [
+     "Your manager approves a ₹2 lakh vendor payment with a thumbs-up emoji in chat. What is wise?",
+     [
+      "Treat the emoji as final approval, since chat history is saved anyway",
+      "Ask for approval again in a voice note",
+      "Delete the chat to keep it confidential",
+      "Record the approval on the official channel your process requires"
+     ],
+     3,
+     "Formal approvals should be captured where your organisation's process expects a record."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The late-night ping",
+     "situation": "It's 10:45 pm. You just remembered that a teammate, Divya, needs to update a slide before tomorrow's 11 am client meeting. It's a small change she can easily make in the morning.",
+     "options": [
+      {
+       "text": "Message her now: \"Divya, change slide 6 urgently.\"",
+       "rating": "poor",
+       "feedback": "It creates late-night pressure for a task that is not urgent tonight."
+      },
+      {
+       "text": "Schedule a message for 9 am with the exact change and the 11 am deadline.",
+       "rating": "best",
+       "feedback": "She gets complete information in working hours, with enough time before the meeting."
+      },
+      {
+       "text": "Message now but add \"No need to see this tonight; just before tomorrow's 11 am meeting.\"",
+       "rating": "good",
+       "feedback": "The note reduces pressure, but the notification may still disturb her; scheduling is kinder when possible."
+      },
+      {
+       "text": "Do nothing and fix it yourself in the meeting.",
+       "rating": "poor",
+       "feedback": "Changing a colleague's work live without telling her can cause confusion in front of the client."
+      }
+     ]
+    },
+    {
+     "title": "Client on WhatsApp",
+     "situation": "A long-standing client of your branch sends you a WhatsApp message on your personal number with photos of his cheque and bank statement, asking you to \"process quickly\". Your bank's policy says client documents must be submitted through the official app or at the branch.",
+     "options": [
+      {
+       "text": "Process it from the WhatsApp photos to keep him happy.",
+       "rating": "poor",
+       "feedback": "This breaks policy and puts the client's sensitive data at risk."
+      },
+      {
+       "text": "Politely reply that for his security you can only accept documents through the official app or branch, and offer to guide him through the upload.",
+       "rating": "best",
+       "feedback": "It protects the client, follows policy and still helps him complete the task quickly."
+      },
+      {
+       "text": "Ignore the message.",
+       "rating": "poor",
+       "feedback": "The client is left confused and may feel neglected."
+      },
+      {
+       "text": "Reply that you can't accept them here and send him the branch address.",
+       "rating": "good",
+       "feedback": "Correct on policy, but offering to guide him through the faster official option is more helpful."
+      }
+     ]
+    },
+    {
+     "title": "The @everyone question",
+     "situation": "You can't find the template for the monthly expense report. Your team channel has 60 members across three cities, including senior leaders.",
+     "options": [
+      {
+       "text": "Post \"@everyone where is the expense template??\"",
+       "rating": "poor",
+       "feedback": "It disturbs 60 people, including leaders, for a routine question."
+      },
+      {
+       "text": "Search the channel and shared drive first, then ask your buddy or the admin in a direct message if you still can't find it.",
+       "rating": "best",
+       "feedback": "You try to help yourself, then ask the most relevant person without alerting everyone."
+      },
+      {
+       "text": "Post the question in the channel without any @mention.",
+       "rating": "good",
+       "feedback": "Less disruptive, but a quick search or a direct question to the right person would be faster."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "phone",
+     "title": "Chat smarter at work",
+     "text": "Teams, Slack, WhatsApp — work now happens in chat. A few habits make you easy to work with and keep you out of trouble."
+    },
+    {
+     "kind": "tip",
+     "icon": "shield",
+     "title": "Right channel, right message",
+     "text": "Quick questions: team chat. Approvals and client matters: email or approved systems. Never share client documents on a personal app unless your firm allows it."
+    },
+    {
+     "kind": "compare",
+     "icon": "bolt",
+     "title": "One message, not five",
+     "text": "Each fragment is a separate notification. Send it whole.",
+     "bad": "Hi … one thing … the deck … can you check",
+     "good": "Hi Ankit, could you check slide 4 of the attached deck for the Q2 figures before 3 pm?"
+    },
+    {
+     "kind": "compare",
+     "icon": "sparkle",
+     "title": "Add warmth to short replies",
+     "text": "Chat strips away your tone. A few extra words help.",
+     "bad": "ok.",
+     "good": "Okay, thanks, I'll update it by noon."
+    },
+    {
+     "kind": "checklist",
+     "icon": "grid",
+     "title": "Keep channels clean",
+     "text": "Tap each one you already do.",
+     "items": [
+      "Reply inside threads",
+      "@mention only the person who must act",
+      "Save @everyone for urgent, team-wide news",
+      "Keep forwards out of work groups"
+     ]
+    },
+    {
+     "kind": "compare",
+     "icon": "clock",
+     "title": "Respect off-hours",
+     "text": "Not urgent? Schedule it or say so.",
+     "bad": "(10:45 pm) Divya, change slide 6 urgently.",
+     "good": "(scheduled for 9 am) Divya, please update slide 6 before the 11 am meeting."
+    },
+    {
+     "kind": "tip",
+     "icon": "info",
+     "title": "Chat is never fully private",
+     "text": "Screenshots travel. Prefer text to long voice notes for numbers and instructions, and never post what you'd be uneasy seeing in front of HR."
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Your chat habits, in short:"
+    }
+   ]
+  },
+  {
+   "id": "being-visible-remotely",
+   "title": "Being Visible When You Work Remotely",
+   "track": "core",
+   "minutes": 7,
+   "summary": "Make your work and contribution visible to your manager and team without bragging or working longer hours. You will learn to write short weekly updates, contribute in online meetings and build relationships deliberately.",
+   "sections": [
+    {
+     "heading": "Why good remote work can go unnoticed",
+     "body": "In an office, people see you solve problems, help a colleague or stay back to finish a client file. Remotely, most of that is invisible. Managers may unintentionally give more attention and opportunities to people they see often, a pattern sometimes called proximity bias. It is not always unfair intent; it is simply easier to remember what you see.\n\nThe answer is not to stay online until midnight or reply within seconds to every message. Being \"always green\" on chat shows availability, not value. What builds your reputation is a clear picture of the outcomes you deliver and the problems you solve.\n\nVisibility is a communication task. If you treat it as part of your job rather than self-promotion, it becomes easier and more natural.",
+     "do": [
+      "Think of visibility as sharing outcomes, not hours",
+      "Assume others cannot see your work unless you show it"
+     ],
+     "dont": [
+      "Stay online late just to appear busy",
+      "Assume good work will speak for itself"
+     ]
+    },
+    {
+     "heading": "Send a short weekly update",
+     "body": "A five-line note to your manager every Friday is one of the simplest visibility habits. It saves them from chasing you and gives them material for reviews. A useful structure: what you completed, the result or impact, what's next, any blockers and where you need help.\n\nExample: \"Done: reconciled 1,240 pending entries for the Nagpur branch. Impact: month-end close finished a day early. Next: start the vendor ageing report on Monday. Blocker: need access to the new GST portal. Help: could you approve the access request?\"\n\nMention numbers where you can, and give credit to colleagues who helped: \"With Farhan's help on the data pull\". Sharing credit makes you look like a team player, not a show-off. Keep the update short; a long essay will not be read.",
+     "do": [
+      "Include results and numbers, not just activities",
+      "Credit colleagues by name"
+     ],
+     "dont": [
+      "Write a page-long list of every task",
+      "Only report problems, never progress"
+     ]
+    },
+    {
+     "heading": "Be present in online meetings",
+     "body": "In video meetings, people who never speak become invisible quickly. You don't need to talk the most; aim to make one useful contribution early, such as a question (\"Are these figures before or after GST?\"), a relevant data point or a summary of what you've heard. Speaking in the first ten minutes makes it easier to join in later.\n\nKeep your camera on when it's practical and the team norm, especially in smaller meetings and with new colleagues. If bandwidth or privacy is a problem, say so briefly and contribute through your voice and the chat box.\n\nAfter meetings, volunteer for small follow-ups: \"I'll send the action points\" or \"I'll check the numbers and update the group by Wednesday.\" Then do it on time. Reliable follow-through is one of the strongest signals you can send remotely.",
+     "do": [
+      "Make one useful point early in the meeting",
+      "Volunteer for and complete small follow-ups"
+     ],
+     "dont": [
+      "Stay silent on mute through every meeting",
+      "Promise follow-ups you then forget"
+     ]
+    },
+    {
+     "heading": "Build relationships on purpose",
+     "body": "Remote work removes chance conversations at the tea counter, so relationships need a little planning. Have a regular one-to-one with your manager and come with an agenda: progress, priorities and one question about your growth.\n\nReach out to colleagues beyond your immediate team. A fifteen-minute video chat to understand how the operations team works, or a quick thank-you message after someone helps you, builds goodwill that matters during reviews and project staffing.\n\nIn hybrid setups, plan your office days for collaboration: workshops, planning sessions, lunch with the team. Doing solo work on office days and meeting days at home wastes the chance to connect in person.",
+     "do": [
+      "Bring an agenda to one-to-ones with your manager",
+      "Use office days for collaboration and relationships"
+     ],
+     "dont": [
+      "Talk to people only when you need something",
+      "Spend office days on headphones doing solo work"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Remote work is invisible by default; share outcomes, not hours.",
+    "Send a five-line weekly update with results, next steps and blockers.",
+    "Make one useful contribution early in online meetings.",
+    "Volunteer for small follow-ups and finish them on time.",
+    "Plan one-to-ones, cross-team chats and office days to build relationships."
+   ],
+   "quiz": [
+    [
+     "Which habit most reliably builds a positive reputation when working remotely?",
+     [
+      "Showing as online on chat until late night",
+      "Replying to every message within seconds, even during focus work",
+      "Sharing clear updates on outcomes you delivered",
+      "Attending as many meetings as possible"
+     ],
+     2,
+     "Outcomes communicated clearly show value; online status shows only availability."
+    ],
+    [
+     "Which line belongs in a good weekly update?",
+     [
+      "\"Worked very hard all week.\"",
+      "\"Reconciled 1,240 entries; month-end closed a day early.\"",
+      "\"Attended many calls.\"",
+      "\"Busy as usual with many calls, follow-ups and reports this week.\""
+     ],
+     1,
+     "It names a specific task and its impact, which is what a manager can use."
+    ],
+    [
+     "A colleague helped you pull data for a report your manager praised. What should your update say?",
+     [
+      "Mention that the report was done with Farhan's help on the data",
+      "Leave Farhan out to keep the update short",
+      "Say you did the whole thing, since you were the one who presented it",
+      "Let Farhan mention it himself"
+     ],
+     0,
+     "Giving credit by name builds trust and shows you are a team player."
+    ],
+    [
+     "You find it hard to speak in large video meetings. What is a practical first step?",
+     [
+      "Stay on mute and send notes privately later",
+      "Turn off your camera so no one notices",
+      "Speak only when asked directly",
+      "Prepare one question or data point and share it in the first ten minutes"
+     ],
+     3,
+     "An early, prepared contribution is manageable and makes later participation easier."
+    ],
+    [
+     "Your internet is weak and video keeps freezing. What is best?",
+     [
+      "Leave the meeting quietly",
+      "Say briefly that you'll be on audio, and contribute by voice and chat",
+      "Keep the frozen video running and stay silent, since dropping off would look unprofessional",
+      "Join only the next meeting"
+     ],
+     1,
+     "Explaining briefly and still contributing keeps you present despite the constraint."
+    ],
+    [
+     "At the end of a meeting, nobody has offered to send action points. What could you do?",
+     [
+      "Wait for the manager to assign it",
+      "Leave immediately",
+      "Offer to send the action points and send them the same day",
+      "Ask in chat who will do it, then log off before anyone replies"
+     ],
+     2,
+     "Volunteering for and completing small tasks builds a reputation for reliability."
+    ],
+    [
+     "In a hybrid job, how should you ideally use your office days?",
+     [
+      "For collaboration, planning and time with colleagues",
+      "For solo work with headphones on, since the office internet is faster",
+      "For catching up on emails",
+      "For finishing personal errands nearby"
+     ],
+     0,
+     "Office days are most valuable for in-person connection that is harder to do remotely."
+    ],
+    [
+     "What should you bring to a one-to-one with your manager?",
+     [
+      "Nothing; the manager will lead",
+      "A list of complaints about colleagues",
+      "Your full task log for the month",
+      "A short agenda: progress, priorities and one growth question"
+     ],
+     3,
+     "A short agenda makes the meeting useful and shows ownership."
+    ],
+    [
+     "Why is \"good work will speak for itself\" risky when working remotely?",
+     [
+      "Managers do not care about good work",
+      "Others often cannot see the work unless you share it",
+      "Remote work is always valued less than office work by most employers",
+      "It is against company rules"
+     ],
+     1,
+     "Remote work is less visible by default, so it needs to be communicated."
+    ],
+    [
+     "Which is the best example of building relationships remotely?",
+     [
+      "Messaging people only when you need something, to avoid wasting their time",
+      "Forwarding articles to the whole team daily",
+      "A short call with the operations team to understand their work",
+      "Adding everyone on personal social media"
+     ],
+     2,
+     "Genuine, purposeful conversations across teams build goodwill and understanding."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The invisible achiever",
+     "situation": "You've been working from home in Indore for six months. You automated a daily Excel report that used to take the team two hours, but your manager in Gurugram has never mentioned it. Appraisals are next month.",
+     "options": [
+      {
+       "text": "Wait for your manager to notice in the appraisal.",
+       "rating": "poor",
+       "feedback": "If your manager hasn't seen the impact, it may not be counted."
+      },
+      {
+       "text": "In your weekly update, note the automation, the two hours saved daily and who now uses it; offer to demo it to other teams.",
+       "rating": "best",
+       "feedback": "It states the outcome in measurable terms and creates more visibility through a helpful demo."
+      },
+      {
+       "text": "Send a long email to senior leadership describing all your achievements.",
+       "rating": "poor",
+       "feedback": "Skipping your manager and over-promoting yourself can backfire."
+      },
+      {
+       "text": "Mention it in your next one-to-one when there is time.",
+       "rating": "good",
+       "feedback": "It's a reasonable step, but a written update with numbers gives your manager something to refer to later."
+      }
+     ]
+    },
+    {
+     "title": "Silent in meetings",
+     "situation": "In the Monday team call of 15 people, you usually stay on mute. Your manager recently said in feedback, \"I don't hear much from you.\" You're actually well prepared but find it hard to jump in.",
+     "options": [
+      {
+       "text": "Prepare one question or update before each call and share it in the first ten minutes.",
+       "rating": "best",
+       "feedback": "A small, planned contribution is realistic and builds the habit of speaking up."
+      },
+      {
+       "text": "Start speaking on every topic to show you're engaged.",
+       "rating": "poor",
+       "feedback": "Talking for the sake of it can come across as unfocused."
+      },
+      {
+       "text": "Post your points in the meeting chat instead of speaking.",
+       "rating": "good",
+       "feedback": "It's a start and is better than silence, but speaking at least once builds stronger presence."
+      }
+     ]
+    },
+    {
+     "title": "Hybrid office day",
+     "situation": "Your team goes to the Andheri office on Tuesdays and Thursdays. You have a report to finish and are tempted to spend Tuesday at your desk with headphones on, avoiding conversations.",
+     "options": [
+      {
+       "text": "Block focused time in the morning, then join the team lunch and the afternoon planning session.",
+       "rating": "best",
+       "feedback": "You protect work time while using the office day for the connection it is meant for."
+      },
+      {
+       "text": "Work from home on Tuesday instead to focus fully.",
+       "rating": "poor",
+       "feedback": "Skipping agreed office days without discussion can affect trust and visibility."
+      },
+      {
+       "text": "Stay on headphones all day; relationships can wait.",
+       "rating": "poor",
+       "feedback": "You miss the main benefit of being in the office."
+      },
+      {
+       "text": "Ask your manager if you can swap Tuesday for Wednesday this week.",
+       "rating": "good",
+       "feedback": "Transparent, but if the team is in on Tuesday, a mixed day usually serves you better."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "star",
+     "title": "Be seen without showing off",
+     "text": "Remotely, your best work can go unnoticed. Visibility isn't bragging — it's clearly sharing what you delivered. Here's how."
+    },
+    {
+     "kind": "compare",
+     "icon": "clock",
+     "title": "Share outcomes, not hours",
+     "text": "Being online at midnight shows availability, not value.",
+     "bad": "Worked very hard all week, was online till late.",
+     "good": "Reconciled 1,240 entries; month-end closed a day early."
+    },
+    {
+     "kind": "tip",
+     "icon": "chart",
+     "title": "Send a Friday five-liner",
+     "text": "Done, impact, next, blockers, help needed. Credit colleagues by name.",
+     "example": "Done: Nagpur reconciliation\nImpact: close a day early\nNext: vendor ageing report\nBlocker: GST portal access"
+    },
+    {
+     "kind": "compare",
+     "icon": "user",
+     "title": "Speak up early in meetings",
+     "text": "One useful point in the first ten minutes makes joining in easier.",
+     "bad": "Muted and silent for the whole call.",
+     "good": "Quick question on slide 3 — are these figures before or after GST?"
+    },
+    {
+     "kind": "compare",
+     "icon": "check",
+     "title": "Volunteer, then deliver",
+     "text": "Reliable follow-through is a strong remote signal.",
+     "bad": "Leaves the call as soon as it ends.",
+     "good": "I'll send the action points today — done by 5 pm."
+    },
+    {
+     "kind": "checklist",
+     "icon": "briefcase",
+     "title": "Build relationships on purpose",
+     "text": "Pick one to do this week.",
+     "items": [
+      "Bring an agenda to your manager one-to-one",
+      "Have a 15-minute chat with another team",
+      "Send a specific thank-you",
+      "Plan your office day around people"
+     ]
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Visibility habits to start this week:"
+    }
+   ]
+  },
+  {
+   "id": "self-discipline-at-home",
+   "title": "Self-Discipline When Working from Home",
+   "track": "core",
+   "minutes": 8,
+   "summary": "Set up a workable routine, space and backup plan for working from an Indian home, with family, shared rooms and power cuts in the picture. You will learn to protect focus time and end the workday on time.",
+   "sections": [
+    {
+     "heading": "Create a work spot, even in a small home",
+     "body": "Few people have a separate study. Many work from a corner of the bedroom, the dining table or a shared room with parents, siblings or flatmates. You don't need a perfect office, but you do need a spot your brain links with work: the same chair, a table at a sensible height, light falling on your face rather than behind you, and your work things kept together.\n\nTalk to the people you live with. Share your main meeting times, for example \"10 to 11 am and 3 to 4 pm are calls\", and agree on a simple signal, such as headphones on or a note on the door, which means \"please don't interrupt unless it's important\". Most families cooperate once they know what to expect.\n\nA basic headset with a microphone does more for call quality than an expensive camera, especially when there's pressure-cooker whistles, traffic or a TV in the next room.",
+     "do": [
+      "Use the same spot every day for work",
+      "Share your meeting hours with family or flatmates"
+     ],
+     "dont": [
+      "Work from the bed",
+      "Expect people to guess when you're on a call"
+     ]
+    },
+    {
+     "heading": "Give your day a shape",
+     "body": "Without a commute, days can blur. A short start ritual helps: get dressed as you would for a casual office day, make your tea or coffee and spend five minutes listing your top three tasks for the day. Starting at roughly the same time each morning makes discipline easier because it becomes habit, not willpower.\n\nBlock time on your calendar for focused work, ideally when you're freshest, and keep your phone out of reach during those blocks. Batch email and chat checks, for example at the top of each hour, unless your role needs instant responses.\n\nEnd with a shutdown ritual: note where you stopped, write tomorrow's top three tasks and close the laptop. This clear end point stops work from leaking into your evening and helps you switch off.",
+     "do": [
+      "List your top three tasks every morning",
+      "Block focus time in your calendar"
+     ],
+     "dont": [
+      "Start work in your sleepwear straight from bed",
+      "Check chat every few minutes during focus work"
+     ]
+    },
+    {
+     "heading": "Plan for power and internet problems",
+     "body": "Power cuts and patchy broadband are real risks in many Indian towns and cities, and \"my internet went off\" wears thin if it happens before every important call. Keep a backup plan. An inverter or UPS that powers your Wi-Fi router can keep you online during short outages. Keep a phone data pack you can hotspot from, and charge your laptop and phone fully before key meetings.\n\nKnow your fallback places: the office, a nearby co-working space or a relative's home with stable power. Save the dial-in number for important meetings so you can join by phone if the internet fails.\n\nIf a disruption does happen, inform your team early and briefly: \"Power cut in my area since 2 pm, joining the 3 pm review by phone. Will share the file once back.\" Early, calm updates protect your credibility.",
+     "do": [
+      "Keep a hotspot and charged devices ready for key calls",
+      "Tell your team early when a disruption hits"
+     ],
+     "dont": [
+      "Wait until the meeting starts to test your connection",
+      "Disappear without a message during an outage"
+     ]
+    },
+    {
+     "heading": "Handle distractions and household expectations",
+     "body": "When you're home, family may assume you're available for errands, guests or chores. Be warm but clear: \"I'm working till 6, but I can go to the market during my 1:30 lunch break.\" Planning household tasks into breaks avoids friction without neglecting the family.\n\nYour own distractions matter too. The phone is the biggest one. Put it in another room during focus blocks or switch on a focus mode that silences social apps. If you catch yourself scrolling, simply notice it and return to your top three list; guilt does not help.\n\nIf you are a parent or caregiver, talk to your manager about the times you're reliably available. Many teams can adjust meeting times when they know your constraints in advance.",
+     "do": [
+      "Offer specific times you can help at home",
+      "Keep your phone out of reach during focus time"
+     ],
+     "dont": [
+      "Say yes to every errand during work hours",
+      "Hide caregiving constraints until they cause problems"
+     ]
+    },
+    {
+     "heading": "Protect your health and your evenings",
+     "body": "Working from home often means sitting longer and moving less. Stand up and move for a few minutes every hour, keep water nearby and set your screen at eye level, even if that means stacking a few books under the laptop.\n\nThe opposite problem is overwork: answering messages at dinner and on Sundays because the laptop is always right there. Agree on reasonable response expectations with your manager, use do-not-disturb outside work hours where your role allows, and keep at least one part of the home free of work. Sustainable discipline is about steady, focused hours, not endless ones.",
+     "do": [
+      "Move for a few minutes every hour",
+      "Agree on after-hours expectations with your manager"
+     ],
+     "dont": [
+      "Eat every meal at your laptop",
+      "Answer non-urgent messages late into the night"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Use a consistent work spot and share your meeting hours at home.",
+    "Start with a top-three list and end with a shutdown ritual.",
+    "Keep a power and internet backup, and inform your team early about outages.",
+    "Plan household tasks into breaks and keep your phone away during focus time.",
+    "Move regularly and protect your evenings from routine work."
+   ],
+   "quiz": [
+    [
+     "You live with your parents in a 2BHK and often get interrupted during calls. What is the most effective first step?",
+     [
+      "Move to a café every day",
+      "Share your meeting times and agree on a do-not-disturb signal",
+      "Turn your camera off permanently so interruptions are not visible to anyone",
+      "Take calls only after everyone sleeps"
+     ],
+     1,
+     "Clear information and a simple signal help family members support you."
+    ],
+    [
+     "Which upgrade usually improves call quality most in a noisy home?",
+     [
+      "A headset with a microphone",
+      "A 4K webcam with automatic lighting correction",
+      "A bigger monitor",
+      "A new keyboard"
+     ],
+     0,
+     "A headset reduces background noise like traffic or pressure-cooker whistles."
+    ],
+    [
+     "What is the purpose of a shutdown ritual at the end of the workday?",
+     [
+      "To show your manager that you were online until late in the evening",
+      "To clear all unread emails",
+      "To mark a clear end point and plan tomorrow",
+      "To log out of chat for the night"
+     ],
+     2,
+     "Noting where you stopped and planning tomorrow helps you switch off."
+    ],
+    [
+     "You have a client review at 3 pm and power cuts are common in your area. What should you prepare?",
+     [
+      "Nothing; outages are understandable",
+      "A plan to reschedule the review if the power goes off before 3 pm",
+      "An email apologising in advance",
+      "Charged devices, a phone hotspot and the dial-in number"
+     ],
+     3,
+     "Simple backups let you join even if power or broadband fails."
+    ],
+    [
+     "The power goes off at 2 pm and you have a 3 pm team meeting. What should you do?",
+     [
+      "Message the team early that you'll join by phone and share files later",
+      "Skip the meeting and explain tomorrow",
+      "Wait until 3 pm and see if power returns",
+      "Ask a colleague to cover for you without explaining"
+     ],
+     0,
+     "A brief early update keeps the team informed and protects your credibility."
+    ],
+    [
+     "Your mother asks you to go to the bank at 11 am, during a focus block. What is a balanced reply?",
+     [
+      "\"I can't help, I'm working.\"",
+      "Go immediately and make up the lost hours by working late at night",
+      "Ignore the request",
+      "\"I'm working till 1, but I can go during my 1:30 lunch break.\""
+     ],
+     3,
+     "Offering a specific time respects both the family need and your work."
+    ],
+    [
+     "What helps most with phone distraction during focus work?",
+     [
+      "Checking it every 15 minutes as a reward",
+      "Keeping it face down on the desk so you can still see urgent calls",
+      "Putting it in another room or using a focus mode",
+      "Uninstalling all apps permanently"
+     ],
+     2,
+     "Physical distance or silencing apps removes the temptation without extreme steps."
+    ],
+    [
+     "You care for a young child and are unavailable from 4 to 5 pm most days. What should you do?",
+     [
+      "Tell your manager in advance so meetings can be planned around it",
+      "Join 4 pm calls on mute and hope no one notices",
+      "Say nothing and decline meetings without reason",
+      "Quit remote work"
+     ],
+     0,
+     "Sharing constraints early lets the team adjust instead of being surprised."
+    ],
+    [
+     "Which morning routine best supports self-discipline at home?",
+     [
+      "Open the laptop in bed and start replying to messages straight away",
+      "Start at a different time each day depending on mood",
+      "Get ready, make tea and list your top three tasks",
+      "Scroll news until the first meeting"
+     ],
+     2,
+     "A short, consistent start ritual turns discipline into habit."
+    ],
+    [
+     "You find yourself answering non-urgent work messages at dinner every day. What is a sensible change?",
+     [
+      "Reply even faster to clear them sooner",
+      "Agree on after-hours expectations and use do-not-disturb",
+      "Eat dinner at the laptop",
+      "Turn off notifications during work hours instead of in the evening"
+     ],
+     1,
+     "Clear expectations and quiet hours protect your evenings without hurting your work."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The 11 am interruption",
+     "situation": "You work from home in Lucknow with your parents. Every day around 11 am, relatives drop in or you're asked to help with something, often in the middle of a client call or deep work.",
+     "options": [
+      {
+       "text": "Snap at family members when they interrupt.",
+       "rating": "poor",
+       "feedback": "It creates tension at home and doesn't prevent the next interruption."
+      },
+      {
+       "text": "Share your daily call and focus timings with your parents, use headphones as a do-not-disturb signal and offer specific times you can help.",
+       "rating": "best",
+       "feedback": "Clear information and a simple signal, plus a fair offer, usually solve the problem."
+      },
+      {
+       "text": "Start working at a co-working space every day.",
+       "rating": "good",
+       "feedback": "It solves the interruptions but costs money and travel; a conversation at home may be enough first."
+      },
+      {
+       "text": "Turn your camera off and keep working through the interruptions.",
+       "rating": "poor",
+       "feedback": "The interruptions continue, and your focus and call quality suffer."
+      }
+     ]
+    },
+    {
+     "title": "Outage before the review",
+     "situation": "At 10:40 am the power goes off in your Patna neighbourhood. Your inverter only covers the fans and lights, not the router. You have a project review with your manager and two senior colleagues at 11 am.",
+     "options": [
+      {
+       "text": "Switch to your phone hotspot, message the group that you may be on audio, and join on time.",
+       "rating": "best",
+       "feedback": "You use a backup, set expectations early and still attend."
+      },
+      {
+       "text": "Message at 11:05 saying your power is out.",
+       "rating": "poor",
+       "feedback": "Late notice inconveniences others and looks unprepared."
+      },
+      {
+       "text": "Message the group now that you'll join by the dial-in number and send your file once power returns.",
+       "rating": "good",
+       "feedback": "Early and clear, but you could likely stay fully on the call with a hotspot."
+      },
+      {
+       "text": "Ask to reschedule the review.",
+       "rating": "poor",
+       "feedback": "Rescheduling a multi-person meeting should be a last resort when backups exist."
+      }
+     ]
+    },
+    {
+     "title": "Work creeping into evenings",
+     "situation": "Three months into working from home in Chennai, you notice you often reply to messages until 11 pm. Your manager has never asked you to, but you worry that not replying looks lazy.",
+     "options": [
+      {
+       "text": "Keep replying at night to stay safe.",
+       "rating": "poor",
+       "feedback": "This leads to burnout and sets an expectation you may not be able to sustain."
+      },
+      {
+       "text": "Ask your manager which kinds of messages need after-hours replies, then set do-not-disturb outside work hours for the rest.",
+       "rating": "best",
+       "feedback": "You clarify expectations directly and protect your time with confidence."
+      },
+      {
+       "text": "Turn off all notifications after 6 pm without telling anyone.",
+       "rating": "good",
+       "feedback": "It protects your time, but without clarifying expectations you might miss something your role genuinely needs."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "clock",
+     "title": "Discipline at home, made simple",
+     "text": "Family, shared rooms, power cuts — working from an Indian home has its own challenges. A few routines keep you focused and switched off on time."
+    },
+    {
+     "kind": "checklist",
+     "icon": "grid",
+     "title": "Set up your work spot",
+     "text": "Tap the ones you have.",
+     "items": [
+      "Same spot every day — not the bed",
+      "Light on your face, not behind you",
+      "A headset with a mic",
+      "Meeting hours shared with family"
+     ],
+     "tip": "Agree on a signal, like headphones on, for \"please don't interrupt\"."
+    },
+    {
+     "kind": "tip",
+     "icon": "target",
+     "title": "Start and end on purpose",
+     "text": "Morning: get ready and list your top three tasks. Evening: note where you stopped, plan tomorrow, close the laptop."
+    },
+    {
+     "kind": "compare",
+     "icon": "bolt",
+     "title": "Have a power-cut plan",
+     "text": "Hotspot ready, devices charged, dial-in saved. Then tell your team early.",
+     "bad": "(at 3:05 pm) Sorry, my internet went off.",
+     "good": "(at 2:15 pm) Power cut since 2 pm, joining the 3 pm review by phone. Will share the file once back."
+    },
+    {
+     "kind": "compare",
+     "icon": "user",
+     "title": "Say yes, with a time",
+     "text": "Be warm but clear when home tasks clash with work.",
+     "bad": "I can't help, I'm working.",
+     "good": "I'm working till 6, but I can go to the market during my 1:30 lunch break."
+    },
+    {
+     "kind": "tip",
+     "icon": "phone",
+     "title": "Move your phone away",
+     "text": "During focus blocks, put it in another room or switch on focus mode. Caught scrolling? Just return to your top three — no guilt needed."
+    },
+    {
+     "kind": "compare",
+     "icon": "shield",
+     "title": "Protect your evenings",
+     "text": "Agree on after-hours expectations with your manager, then use do-not-disturb.",
+     "bad": "Replying to routine messages at 11 pm every night.",
+     "good": "Laptop closed after the shutdown ritual; urgent issues only, as agreed."
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Your work-from-home routine:"
+    }
+   ]
+  },
+  {
+   "id": "starting-a-job-remotely",
+   "title": "Starting Your First Job Remotely",
+   "track": "fresher",
+   "minutes": 8,
+   "summary": "Prepare for a remote or hybrid first job and settle in confidently during the first month. You will learn how to get set up, ask good questions, connect with teammates you haven't met and ask for early feedback.",
+   "sections": [
+    {
+     "heading": "Before day one: get set up",
+     "body": "Many freshers now join through online onboarding, sometimes after campus placements or a selection process that was also online. Read your joining email carefully and note the date, time, reporting manager, HR contact and any documents you need to submit. Keep scanned copies of your certificates, ID and address proof ready in a clearly named folder.\n\nIf a company laptop is couriered to you, check it as soon as it arrives. Log in, connect to your home Wi-Fi, and test the camera, microphone and any VPN or login steps described in the onboarding email. If something doesn't work, inform the IT helpdesk before your first day, not ten minutes into your first meeting.\n\nSet up a quiet spot with a headset and good light, and keep a notebook or notes app ready. Day one will bring a lot of new names, tools and acronyms.",
+     "do": [
+      "Test the laptop, login and video tools before day one",
+      "Keep documents scanned and clearly named"
+     ],
+     "dont": [
+      "Open the courier box for the first time on joining day",
+      "Ignore onboarding emails until your start date"
+     ]
+    },
+    {
+     "heading": "Learn how your team works",
+     "body": "Every team has unwritten rules: which questions go on chat and which on email, how quickly people expect replies, whether cameras are usually on, and when the team is online. In an office, you pick these up by watching. Remotely, you need to ask.\n\nIn your first week, ask your manager or buddy questions like: \"How does the team prefer to share updates?\", \"Which channel should I use for quick questions?\" and \"Who should I go to for system access issues?\" Write down the answers.\n\nKeep a running document of terms, tools and people: \"MIS = management information report, sent every Monday by Neha\". Reading old threads and shared documents also teaches you how the team writes and decides. This early effort saves you from many small mistakes later.",
+     "do": [
+      "Ask how the team communicates and when",
+      "Keep a personal glossary of terms, tools and people"
+     ],
+     "dont": [
+      "Guess the norms and hope for the best",
+      "Ask the same basic question repeatedly without notes"
+     ]
+    },
+    {
+     "heading": "Ask for help the smart way",
+     "body": "Freshers often worry that asking questions makes them look weak. Remotely, the bigger risk is staying stuck in silence for hours. A useful rule: try on your own for a reasonable time, perhaps 20 to 30 minutes for a routine issue, then ask.\n\nWhen you ask, show what you've tried. Compare \"The report isn't working, please help\" with \"I'm trying to refresh the branch sales report, but the pivot shows blank for October. I've checked the source sheet and the date filter. Could you take a look when you have 10 minutes?\" The second question is faster to answer and shows effort.\n\nCollect non-urgent questions and ask them together in your daily or weekly check-in, rather than sending a new message for each. For anything blocking your work, ask promptly.",
+     "do": [
+      "Try for a reasonable time, then ask",
+      "Share what you've already tried"
+     ],
+     "dont": [
+      "Stay stuck for a whole day in silence",
+      "Send \"please help\" with no details"
+     ]
+    },
+    {
+     "heading": "Connect with people you haven't met",
+     "body": "On your first day, post a short introduction in the team channel: your name, role, where you're based and one light personal detail. For example: \"Hi all, I'm Pooja, joining as an analyst in the credit team. I'm based in Bhopal and just finished my MBA. Looking forward to working with you!\"\n\nIn the first two weeks, ask each teammate for a 15-minute video chat to understand their work and how you can help. Keep your camera on in these calls; faces build trust faster than voices alone. Thank people specifically when they help you.\n\nIf your role is hybrid, use early office days to meet people in person. Lunch with your team often teaches you more about how things work than any manual.",
+     "do": [
+      "Post a short introduction on day one",
+      "Request 15-minute chats with each teammate"
+     ],
+     "dont": [
+      "Wait for others to reach out to you first",
+      "Keep your camera off in every early meeting"
+     ]
+    },
+    {
+     "heading": "Show progress and ask for feedback early",
+     "body": "Remote managers can't see you learning. Share brief updates on what you've completed, even small tasks: \"Finished the data-entry training module and cleaned last month's lead list.\" This builds trust and shows momentum.\n\nAround your 30-day mark, ask your manager for feedback: \"What's one thing I'm doing well, and one thing I should improve in the next month?\" Listen without defending yourself, note it down and act on it. Then mention the improvement in a later update.\n\nRemember that everyone takes time to settle. It is normal to feel unsure in the first few weeks. Steady progress, honest questions and reliable follow-through matter more than knowing everything on day one.",
+     "do": [
+      "Share small wins in short updates",
+      "Ask for specific feedback at about 30 days"
+     ],
+     "dont": [
+      "Wait for the formal review to learn how you're doing",
+      "Pretend to understand when you don't"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Test your laptop, logins and tools before your first day.",
+    "Ask how the team communicates and keep a glossary of terms and people.",
+    "Try for a reasonable time, then ask, showing what you've tried.",
+    "Introduce yourself and request short chats with each teammate.",
+    "Share small wins and ask for specific feedback around 30 days."
+   ],
+   "quiz": [
+    [
+     "Your company laptop arrives three days before your joining date. What should you do?",
+     [
+      "Leave it sealed until day one so IT can set it up with you",
+      "Log in and test the camera, mic and VPN now",
+      "Install your favourite games first",
+      "Give it to IT to check"
+     ],
+     1,
+     "Testing early gives time to fix problems before your first meeting."
+    ],
+    [
+     "Which is the best way to learn your team's communication norms?",
+     [
+      "Ask your manager or buddy which channels to use and when",
+      "Copy what you did in college groups",
+      "Wait until someone corrects you",
+      "Use email for everything, since it is always the safest and most formal option"
+     ],
+     0,
+     "Norms differ by team; asking directly is the fastest way to learn them."
+    ],
+    [
+     "You have been stuck on a routine Excel issue for 25 minutes. What is a sensible next step?",
+     [
+      "Keep trying silently until evening so you don't disturb anyone senior",
+      "Message your manager \"please help\"",
+      "Give up and move on without telling anyone",
+      "Ask a teammate, explaining what you've tried"
+     ],
+     3,
+     "After a reasonable try, a specific question with context gets you unstuck quickly."
+    ],
+    [
+     "Which question to a senior colleague is best?",
+     [
+      "\"The report isn't working.\"",
+      "\"Can you call me?\"",
+      "\"The October pivot shows blank; I've checked the source sheet and date filter. Could you take a look?\"",
+      "\"Help needed urgently!!\""
+     ],
+     2,
+     "It describes the problem and what you tried, so the senior can help quickly."
+    ],
+    [
+     "What should a first-day team introduction include?",
+     [
+      "Your full educational history, including marks and all certifications",
+      "Name, role, location and one light personal detail",
+      "A request for everyone's phone numbers",
+      "Nothing; managers introduce you"
+     ],
+     1,
+     "A short, friendly introduction helps people place you and start conversations."
+    ],
+    [
+     "You have five small, non-urgent questions about processes. How should you ask them?",
+     [
+      "Send five separate messages throughout the day",
+      "Never ask; figure it out over months",
+      "Post all five in the department channel so whoever is free can answer each one",
+      "Collect them for your next check-in with your buddy or manager"
+     ],
+     3,
+     "Batching non-urgent questions respects others' time while getting answers."
+    ],
+    [
+     "In your first two weeks, how can you build relationships with teammates you haven't met?",
+     [
+      "Request short video chats to understand their work",
+      "Wait for the annual offsite",
+      "Add them on personal social media",
+      "Only talk to them in large team meetings, to avoid taking up their time"
+     ],
+     0,
+     "Short one-to-one chats build familiarity and trust quickly."
+    ],
+    [
+     "At 30 days, which feedback request is most useful?",
+     [
+      "\"Am I doing okay?\"",
+      "\"Please rate me out of ten.\"",
+      "\"What's one thing I'm doing well and one to improve next month?\"",
+      "\"Can I get a raise?\""
+     ],
+     2,
+     "A specific question invites specific, actionable feedback."
+    ],
+    [
+     "Your manager gives feedback that your updates are too long. What is the best response?",
+     [
+      "Explain politely why long updates are necessary for your type of work",
+      "Thank them, note it and shorten your next update",
+      "Stop sending updates altogether",
+      "Ask a teammate whether the manager is right"
+     ],
+     1,
+     "Accepting feedback and acting on it visibly builds trust."
+    ],
+    [
+     "You feel unsure and slow in your second week. What is a healthy way to see this?",
+     [
+      "It means you chose the wrong job",
+      "You should hide it from your manager",
+      "Everyone else in your batch probably knew everything from the first day",
+      "It's normal; steady progress and honest questions matter more"
+     ],
+     3,
+     "Settling in takes time for everyone; consistent effort counts more than instant mastery."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "Day-one VPN failure",
+     "situation": "It's your first day at a Bengaluru fintech, working from your home in Nagpur. Your onboarding call starts at 10 am, but at 9:40 the VPN shows an error and you can't open the meeting link.",
+     "options": [
+      {
+       "text": "Message your HR contact and manager right away explaining the error, join by phone if a dial-in is available, and raise an IT ticket.",
+       "rating": "best",
+       "feedback": "You inform the right people early, still attend, and start fixing the issue."
+      },
+      {
+       "text": "Keep restarting the laptop and join whenever it works.",
+       "rating": "poor",
+       "feedback": "Others may think you are absent; silent troubleshooting wastes the first impression."
+      },
+      {
+       "text": "Message HR at 9:55 asking to reschedule.",
+       "rating": "good",
+       "feedback": "Informing HR is right, but you could also try to join another way instead of asking to move the session."
+      },
+      {
+       "text": "Skip the session and watch the recording later.",
+       "rating": "poor",
+       "feedback": "Missing onboarding without notice signals a lack of commitment."
+      }
+     ]
+    },
+    {
+     "title": "Stuck and scared to ask",
+     "situation": "You've been asked to reconcile a customer list. After an hour, the totals still don't match. Your team lead, Rohit, seems busy, and you don't want to look incapable in your first week.",
+     "options": [
+      {
+       "text": "Keep trying all day; asking may look weak.",
+       "rating": "poor",
+       "feedback": "Staying stuck delays the work, and Rohit may wonder why it's taking so long."
+      },
+      {
+       "text": "Message Rohit: \"The totals differ by 14 rows. I've checked duplicates and date filters. Could you spare 10 minutes today?\"",
+       "rating": "best",
+       "feedback": "A specific, respectful question shows effort and gets you unstuck quickly."
+      },
+      {
+       "text": "Ask a fellow fresher in your batch for help first.",
+       "rating": "good",
+       "feedback": "Peers can help, but if they're also new, you may lose more time than a short question to Rohit."
+      }
+     ]
+    },
+    {
+     "title": "Never met the team",
+     "situation": "Three weeks into a fully remote role, you've only spoken to your manager. Your teammates in Pune, Kochi and Delhi exchange jokes in the team channel, but you feel like an outsider.",
+     "options": [
+      {
+       "text": "Wait until someone reaches out to you.",
+       "rating": "poor",
+       "feedback": "Others may assume you prefer to be left alone; waiting rarely changes things."
+      },
+      {
+       "text": "Ask each teammate for a 15-minute video chat to learn about their work, and join in the channel conversations naturally.",
+       "rating": "best",
+       "feedback": "Taking the first step builds real connections and helps you learn the work."
+      },
+      {
+       "text": "Post a longer introduction in the channel saying you'd love to connect.",
+       "rating": "good",
+       "feedback": "Friendly and visible, but direct one-to-one invitations are more likely to lead to real conversations."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "briefcase",
+     "title": "Your first job, from home",
+     "text": "Joining a team you've never met can feel strange. These habits help you settle in quickly and make a strong start."
+    },
+    {
+     "kind": "checklist",
+     "icon": "check",
+     "title": "Before day one",
+     "text": "Tap each one when done.",
+     "items": [
+      "Laptop logged in and Wi-Fi connected",
+      "Camera, mic and VPN tested",
+      "Documents scanned and clearly named",
+      "Quiet spot and headset ready"
+     ],
+     "tip": "Problem? Tell IT before day one, not in the first meeting."
+    },
+    {
+     "kind": "tip",
+     "icon": "book",
+     "title": "Keep a team glossary",
+     "text": "Ask how your team shares updates and asks quick questions. Note terms, tools and people as you learn them.",
+     "example": "MIS = management information report, sent every Monday by Neha"
+    },
+    {
+     "kind": "compare",
+     "icon": "search",
+     "title": "Ask with what you've tried",
+     "text": "Try for 20–30 minutes, then ask — with details.",
+     "bad": "The report isn't working, please help.",
+     "good": "The October pivot shows blank. I've checked the source sheet and date filter. Could you take a look when you have 10 minutes?"
+    },
+    {
+     "kind": "compare",
+     "icon": "user",
+     "title": "Introduce yourself on day one",
+     "text": "Name, role, place and one light detail.",
+     "bad": "(Silent until someone messages you.)",
+     "good": "Hi all, I'm Pooja, joining the credit team as an analyst. Based in Bhopal, just finished my MBA. Looking forward to working with you!"
+    },
+    {
+     "kind": "tip",
+     "icon": "phone",
+     "title": "Book 15-minute chats",
+     "text": "In your first two weeks, ask each teammate for a short video chat about their work. Camera on — faces build trust faster."
+    },
+    {
+     "kind": "compare",
+     "icon": "chart",
+     "title": "Ask for feedback at 30 days",
+     "text": "A specific question gets a useful answer.",
+     "bad": "Am I doing okay?",
+     "good": "What's one thing I'm doing well, and one thing to improve next month?"
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Your first-month plan:"
+    }
+   ]
+  },
+  {
+   "id": "serving-clients-remotely",
+   "title": "Serving Clients over Video and Phone",
+   "track": "professional",
+   "minutes": 9,
+   "summary": "Run client conversations over video and phone that are secure, compliant and easy for the client to follow. You will learn to confirm identity and consent, share screens safely, explain products suitably and send clear follow-up summaries.",
+   "sections": [
+    {
+     "heading": "Prepare as if the client were across the desk",
+     "body": "Remote meetings with clients deserve the same preparation as a branch visit, and often more, because technical problems feel unprofessional. Send a short agenda with the meeting link in advance: \"Review of your portfolio and discussion on your daughter's education goal, 30 minutes.\" Ask whether the client prefers a video call or a phone call; many senior clients are more comfortable on the phone.\n\nBefore the call, test your audio and internet, keep the client's documents and the latest statements ready, and make sure you're in a quiet, private place. A client discussing family finances should never hear a colleague's conversation or a television in the background, and nobody else should overhear the client's details.\n\nJoin a couple of minutes early. If the client struggles with the technology, stay patient and offer to switch to a phone call rather than spending fifteen minutes troubleshooting.",
+     "do": [
+      "Share a short agenda and ask the client's preferred mode",
+      "Take calls from a private, quiet place"
+     ],
+     "dont": [
+      "Join late and search for documents during the call",
+      "Discuss client details where others can overhear"
+     ]
+    },
+    {
+     "heading": "Confirm identity, consent and records",
+     "body": "Over phone or video you can't always be sure who is on the other end. Follow your firm's procedure for verifying a client, such as calling only on the registered number or confirming details the firm has on record. Never ask a client to tell you their OTP, PIN or password; legitimate processes don't need you to know them, and saying so out loud helps protect clients from fraud.\n\nIf calls are recorded, inform the client at the start and follow your firm's consent process. Where a family member joins the call, confirm with the client that they're comfortable discussing their finances in that person's presence.\n\nRecord-keeping is part of good service. Note what was discussed, what was recommended and why, and what the client decided, in your firm's approved system. Regulators expect financial intermediaries to be able to show that advice and transactions were suitable and properly authorised.",
+     "do": [
+      "Verify the client using your firm's approved procedure",
+      "Inform clients when a call is being recorded"
+     ],
+     "dont": [
+      "Ask clients to read out OTPs or passwords",
+      "Keep client conversation notes only on your personal phone"
+     ]
+    },
+    {
+     "heading": "Share screens safely",
+     "body": "Screen sharing helps explain a portfolio or a form, but it can expose information by accident. Before sharing, close unrelated tabs and documents, especially other clients' files, and turn on do-not-disturb so chat pop-ups don't appear. Share a single window rather than your whole screen whenever possible.\n\nMask sensitive data such as full account numbers or PAN where you can, and never leave your email inbox visible. Stop sharing as soon as you're done.\n\nIf you need to see the client's screen, for example to help them through an online form, ask them to share only that window and to keep passwords private while typing. Avoid asking clients to install remote-control software; your firm's approved processes should cover any guided support.",
+     "do": [
+      "Share one window, not your whole screen",
+      "Close other clients' files and silence notifications first"
+     ],
+     "dont": [
+      "Leave your inbox or chat visible while sharing",
+      "Ask clients to give you remote control of their device"
+     ]
+    },
+    {
+     "heading": "Explain products clearly and suitably",
+     "body": "Remote conversations make it harder to read a client's reactions, so check understanding often. Pause after each key point and ask, \"Does that make sense?\" or better, \"Could you tell me in your words how this fund's risk compares with an FD?\" If the client repeats it accurately, you can move on.\n\nSuitability comes first: discuss goals, time horizon and risk tolerance before any product. Explain risks plainly, disclose any fees or commission you receive, and never promise or imply guaranteed returns on market-linked products. Phrases like \"this is completely safe\" or \"you will surely get 15%\" are both misleading and unacceptable. A better answer is: \"Past returns don't guarantee future returns. Let's look at the risk and your goal.\"\n\nDon't rush a client into a decision on a call. Offer time to think and to discuss with family, and send the relevant documents so they can read them at their own pace.",
+     "do": [
+      "Ask the client to explain key points back in their own words",
+      "Disclose fees and commission clearly"
+     ],
+     "dont": [
+      "Promise or imply guaranteed returns",
+      "Push for a decision before the call ends"
+     ]
+    },
+    {
+     "heading": "Close the loop with a written summary",
+     "body": "Soon after the call, ideally the same day, send a short summary through your firm's approved channel. Include what was discussed, any decisions, the next steps with owners and dates, and documents still pending. For example: \"Thank you for your time today. Summary: we reviewed your portfolio and discussed the education goal for 2032. Next steps: you'll share the updated nominee form by Friday; I'll send the scheme documents for the two options we discussed. Please note that market-linked investments carry risk.\"\n\nA written summary prevents misunderstandings, gives the client something to share with family and creates a record for both sides. It also shows professionalism, which builds long-term trust.",
+     "do": [
+      "Send a summary the same day with next steps and dates",
+      "Use your firm's approved channel for client communication"
+     ],
+     "dont": [
+      "Rely only on memory of what was agreed",
+      "Leave out risks or pending documents from the summary"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Prepare with an agenda, ready documents and a private, quiet place.",
+    "Verify identity through approved processes and never ask for OTPs or passwords.",
+    "Share one window, silence notifications and hide other clients' data.",
+    "Check understanding, put suitability first, disclose fees and never promise returns.",
+    "Send a same-day written summary with decisions, next steps and risks."
+   ],
+   "quiz": [
+    [
+     "A senior client struggles to join a video call for ten minutes. What should you do?",
+     [
+      "Keep troubleshooting until the video works, since video is more personal",
+      "Offer to continue on a phone call",
+      "Reschedule for next week",
+      "Ask their grandson to fix it later"
+     ],
+     1,
+     "Switching to the phone respects the client's time and comfort."
+    ],
+    [
+     "During a verification call, which request must you never make?",
+     [
+      "Ask the client to confirm their registered email address on file",
+      "Call back on the registered number",
+      "Ask them to read out the OTP they just received",
+      "Confirm the purpose of the call"
+     ],
+     2,
+     "OTPs, PINs and passwords should stay private; legitimate processes don't need you to know them."
+    ],
+    [
+     "Your firm records client calls. What should you do at the start?",
+     [
+      "Inform the client and follow the firm's consent process",
+      "Say nothing; recording is routine",
+      "Mention it only if the client asks",
+      "Stop recording quietly so that the client feels more comfortable talking"
+     ],
+     0,
+     "Clients should know when calls are recorded, as per your firm's process."
+    ],
+    [
+     "Before sharing your screen with a client, what is most important?",
+     [
+      "Increasing the screen brightness",
+      "Changing your wallpaper",
+      "Opening every document you might need so you don't have to search later",
+      "Closing other clients' files and silencing notifications"
+     ],
+     3,
+     "This prevents accidental exposure of confidential information."
+    ],
+    [
+     "A client asks, \"This fund will give 15% for sure, right?\" What is the best reply?",
+     [
+      "\"Yes, it has done that for years.\"",
+      "\"Past returns don't guarantee future returns; let's look at the risk and your goal.\"",
+      "\"Probably, if markets stay good.\"",
+      "\"Don't worry, it's completely safe.\""
+     ],
+     1,
+     "Market-linked products can't promise returns; redirecting to risk and goals is honest and suitable."
+    ],
+    [
+     "How can you best check whether a client has understood a product's risk on a call?",
+     [
+      "Ask, \"Any questions?\" and move on",
+      "Speak more slowly",
+      "Ask them to explain the risk in their own words",
+      "Send a long product brochure and ask them to read it before the next call"
+     ],
+     2,
+     "Hearing it back in the client's words confirms real understanding."
+    ],
+    [
+     "A client's son joins the video call unexpectedly. What should you do?",
+     [
+      "Check with the client that they're comfortable discussing finances with him present",
+      "Continue as normal",
+      "End the call immediately",
+      "Ask the son to verify his identity with an OTP"
+     ],
+     0,
+     "The client decides who may hear their financial details."
+    ],
+    [
+     "Which item is essential in a post-call summary to a client?",
+     [
+      "A list of your other clients' successes",
+      "Next steps with owners and dates",
+      "A request for a referral",
+      "Your personal mobile number for all future documents and questions"
+     ],
+     1,
+     "Clear next steps avoid confusion and create a shared record."
+    ],
+    [
+     "A client wants to invest immediately on the call after a quick explanation. What is best?",
+     [
+      "Process it at once before they change their mind",
+      "Tell them the offer ends today",
+      "Refuse to discuss it on a call",
+      "Confirm suitability, explain risks and fees, and offer time to think"
+     ],
+     3,
+     "Suitability and informed consent matter more than speed."
+    ],
+    [
+     "Where should notes of advice given on a client call be stored?",
+     [
+      "In your firm's approved record-keeping system",
+      "In a personal WhatsApp chat with yourself, so it's always at hand",
+      "On a sticky note on your laptop",
+      "Nowhere; the call recording is enough"
+     ],
+     0,
+     "Approved systems keep records secure and available for review."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The OTP request",
+     "situation": "You're helping Mrs. Kulkarni, a 68-year-old client in Pune, update her bank mandate over the phone. Midway, she says, \"An OTP has come, shall I read it to you?\" Your firm's process requires the client to enter it herself on the official link.",
+     "options": [
+      {
+       "text": "Take the OTP to finish quickly, since she trusts you.",
+       "rating": "poor",
+       "feedback": "It breaks process and teaches her a habit that fraudsters could exploit."
+      },
+      {
+       "text": "Say: \"Please don't share OTPs with anyone, including me. Let me guide you to enter it on the link yourself.\"",
+       "rating": "best",
+       "feedback": "It protects her, follows the process and reinforces a safe habit."
+      },
+      {
+       "text": "Ask her to WhatsApp you a screenshot of the OTP instead.",
+       "rating": "poor",
+       "feedback": "This is still sharing the OTP and adds an unapproved channel."
+      },
+      {
+       "text": "Tell her not to share it and ask her to complete the step later with her son's help.",
+       "rating": "good",
+       "feedback": "Safe, but guiding her yourself now is more helpful and avoids delay."
+      }
+     ]
+    },
+    {
+     "title": "The visible tab",
+     "situation": "Ten minutes into a screen-share with a client, Mr. Saxena, you notice the browser tab next to his portfolio shows another client's name and account summary.",
+     "options": [
+      {
+       "text": "Switch to sharing only the portfolio window, close the other tab, and continue; later, follow your firm's process for reporting the possible exposure.",
+       "rating": "best",
+       "feedback": "It limits the exposure immediately and follows the proper process."
+      },
+      {
+       "text": "Continue as if nothing happened.",
+       "rating": "poor",
+       "feedback": "Another client's data stays exposed, and the issue goes unaddressed."
+      },
+      {
+       "text": "Stop sharing, close the tab and resume sharing your whole screen.",
+       "rating": "good",
+       "feedback": "It removes the immediate risk, but sharing the full screen again invites the same problem, and the possible exposure may still need reporting."
+      }
+     ]
+    },
+    {
+     "title": "The vague goodbye",
+     "situation": "You've just finished a 40-minute video call with a couple in Ahmedabad discussing a retirement plan. They need to send updated nominee details and want to think about two fund options you discussed.",
+     "options": [
+      {
+       "text": "End with \"I'll be in touch\" and call them next month.",
+       "rating": "poor",
+       "feedback": "Without a summary, next steps and pending items may be forgotten or misunderstood."
+      },
+      {
+       "text": "Send a same-day summary on the approved channel listing what was discussed, the two options with their documents, the nominee form due date and a note on market risk.",
+       "rating": "best",
+       "feedback": "It gives a clear record, next steps and the risk reminder the couple can review together."
+      },
+      {
+       "text": "Send a WhatsApp message on your personal number thanking them and asking them to decide soon.",
+       "rating": "poor",
+       "feedback": "It uses an unapproved channel and adds pressure without useful information."
+      },
+      {
+       "text": "Call them the next day to recap verbally.",
+       "rating": "good",
+       "feedback": "Following up is good, but a written summary lasts longer and can be shared and reviewed."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "phone",
+     "title": "Great client service, from anywhere",
+     "text": "More clients now meet you over video or phone. Done well, it's as personal as the branch — and safer. Here's how."
+    },
+    {
+     "kind": "checklist",
+     "icon": "check",
+     "title": "Before every client call",
+     "text": "Tap each one when ready.",
+     "items": [
+      "Agenda and link sent in advance",
+      "Asked: video or phone?",
+      "Documents and statements open",
+      "Private, quiet place — no one can overhear"
+     ]
+    },
+    {
+     "kind": "compare",
+     "icon": "shield",
+     "title": "Never take an OTP",
+     "text": "Verify identity through your firm's process. OTPs, PINs and passwords stay with the client.",
+     "bad": "Read the OTP to me and I'll finish it.",
+     "good": "Please don't share OTPs with anyone, including me. Let me guide you to enter it yourself."
+    },
+    {
+     "kind": "tip",
+     "icon": "info",
+     "title": "Recording? Say so first",
+     "text": "If calls are recorded, tell the client at the start. If a family member joins, check the client is comfortable discussing finances with them present."
+    },
+    {
+     "kind": "checklist",
+     "icon": "grid",
+     "title": "Share your screen safely",
+     "text": "Before you click Share:",
+     "items": [
+      "Close other clients' files",
+      "Turn on do-not-disturb",
+      "Share one window, not the whole screen",
+      "Hide your inbox"
+     ]
+    },
+    {
+     "kind": "compare",
+     "icon": "target",
+     "title": "Suitability, not promises",
+     "text": "Discuss goals and risk first. Disclose fees and commission.",
+     "bad": "Don't worry, you will surely get 15%.",
+     "good": "Past returns don't guarantee future returns. Let's look at the risk and your goal."
+    },
+    {
+     "kind": "compare",
+     "icon": "mail",
+     "title": "Close the loop in writing",
+     "text": "Same day, on your firm's approved channel: decisions, next steps, pending documents, risk note.",
+     "bad": "I'll be in touch.",
+     "good": "Summary: reviewed portfolio. You'll share the nominee form by Friday; I'll send the scheme documents. Market-linked investments carry risk."
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Your remote client-service checklist:"
+    }
+   ]
+  }
+ ]
+}

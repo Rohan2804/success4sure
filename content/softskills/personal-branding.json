@@ -1,0 +1,1924 @@
+{
+  "area": "personal-branding",
+  "lessons": [
+    {
+      "id": "linkedin-profile-that-gets-found",
+      "title": "A LinkedIn Profile That Gets Found",
+      "track": "core",
+      "minutes": 8,
+      "summary": "Write a LinkedIn headline, About section and skills list that use the words recruiters and peers actually search for. You will turn a generic profile into a specific, honest one that people can find and trust.",
+      "sections": [
+        {
+          "heading": "How people actually find you",
+          "body": "Recruiters, hiring managers and future clients rarely scroll through profiles at random. They type words into a search box: a job title such as \"credit analyst\", a skill such as \"financial modelling\", a city such as \"Pune\". If those words are not on your profile, you simply do not appear, however talented you are.\n\nSo the first job of your profile is to be specific. Ask yourself: what would someone type if they were looking for a person like me? Write those exact words down. A fresher aiming for banking operations might list \"KYC\", \"customer service\", \"branch operations\" and \"MS Excel\". A mutual fund distributor might list \"mutual fund distribution\", \"SIP\" and \"financial planning support\" in their city.\n\nThere is no secret algorithm trick that replaces this. Profiles stuffed with fifty keywords, fake titles or hidden text look odd to the humans who eventually read them. Use the right words naturally, in the places people look first.",
+          "do": [
+            "List the job titles, skills and city people would search for",
+            "Use those words naturally in your headline, About and experience"
+          ],
+          "dont": [
+            "Stuff your profile with repeated keywords",
+            "Chase \"algorithm hacks\" shared in viral posts"
+          ]
+        },
+        {
+          "heading": "A headline that says what you do",
+          "body": "Your headline appears next to your name everywhere: in search results, comments and connection requests. Many people waste it on \"Seeking new opportunities\" or \"Hardworking | Passionate | Dedicated\". Nobody searches for \"passionate\".\n\nA strong headline follows a simple pattern: role or target role, then your focus area, then one credential or proof point. Before: \"MBA | Looking for job\". After: \"Aspiring Credit Analyst | SME lending and financial statement analysis | MBA Finance, Pune\". Before: \"Relationship Manager at a bank\". After: \"Relationship Manager | Retail banking and wealth products | Serving clients in Nagpur\".\n\nIf you are between jobs, it is fine to say what you are aiming for, as long as you use the word \"aspiring\" or \"seeking\" honestly rather than claiming a title you do not hold.",
+          "do": [
+            "Use role + focus + one proof point",
+            "Keep the most important words at the start"
+          ],
+          "dont": [
+            "Fill the headline with adjectives like \"passionate\" or \"dynamic\"",
+            "Claim a job title you have not held"
+          ]
+        },
+        {
+          "heading": "An About section people finish reading",
+          "body": "The About section is where a visitor decides whether to message you. Write it in the first person, in three short paragraphs. First: what you do and for whom. Second: evidence, such as a project, a result or a skill you have used for real. Third: what you are looking for and how to reach you.\n\nExample: \"I help small businesses in Indore understand their loan options. Over two years at a cooperative bank, I processed more than 300 MSME loan files and cut document rework by setting up a simple checklist. I'm now looking for credit analyst roles in Indore or remotely. Message me here or at the email in my contact info.\"\n\nAvoid long life stories, quotes from famous people and lists of qualities. Two or three concrete facts are more convincing than ten adjectives.",
+          "do": [
+            "Write in the first person, in short paragraphs",
+            "Include one concrete example or result"
+          ],
+          "dont": [
+            "Open with a motivational quote",
+            "List qualities without evidence"
+          ]
+        },
+        {
+          "heading": "Skills, experience and a photo that builds trust",
+          "body": "Add skills you can demonstrate in an interview or a client meeting. If you list \"Python\", be ready to explain a script you wrote. Pin the three or four skills most relevant to the work you want so they show first.\n\nUnder each role, write two to four lines about outcomes rather than duties, the same way you would on a strong resume. Keep titles, employers and dates consistent with your resume; mismatches make recruiters wonder which version is true.\n\nYour photo should be recent, clearly show your face and have a plain background. Formal or smart-casual clothes suit most finance and corporate roles. A neat, simple banner image, such as your city skyline or a plain colour, is better than a cluttered one. These details are not about looking glamorous; they signal that a real, reachable person is behind the profile.",
+          "do": [
+            "Pin the skills that match your target role",
+            "Use a recent, well-lit photo where your face is clearly visible"
+          ],
+          "dont": [
+            "List skills you could not discuss in an interview",
+            "Use a group photo, a wedding photo or a heavily filtered selfie"
+          ]
+        },
+        {
+          "heading": "Keep it honest and current",
+          "body": "A profile is a public claim about yourself, and people do check. Former colleagues can see your titles; recruiters verify degrees and certifications. Write \"NISM Series V-A: preparing\" rather than \"certified\" until you have passed, and never inflate team sizes or results.\n\nSet a reminder every three months to update your profile: add a new project, a course you finished or a result you achieved. A profile last touched three years ago suggests you are not active, even if you are.\n\nFinally, check your contact details and your custom profile URL. A clean link such as one ending in your name looks better on a resume or visiting card than a string of random numbers.",
+          "do": [
+            "Mark certifications as \"in progress\" until you have them",
+            "Review your profile every three months"
+          ],
+          "dont": [
+            "Inflate titles, numbers or team sizes"
+          ]
+        }
+      ],
+      "takeaways": [
+        "People find you by searching for titles, skills and cities, so use those exact words.",
+        "Write your headline as role + focus + one proof point.",
+        "Keep your About section to three short first-person paragraphs with real evidence.",
+        "List only skills you can demonstrate, and use a clear, recent photo.",
+        "Keep everything honest, consistent with your resume and updated every few months."
+      ],
+      "quiz": [
+        [
+          "A recruiter in Pune is looking for a credit analyst. Which headline is most likely to show up in her search?",
+          [
+            "\"Hardworking | Passionate | Dedicated | Team player\"",
+            "\"Aspiring Credit Analyst | SME lending | MBA Finance, Pune\"",
+            "\"Seeking new opportunities\"",
+            "\"MBA graduate who loves challenges\""
+          ],
+          1,
+          "It contains the title, focus area and city the recruiter is likely to type."
+        ],
+        [
+          "What is the best way to choose keywords for your profile?",
+          [
+            "List what someone hiring you would type into search",
+            "Copy the keywords from a viral \"algorithm hack\" post that promises more profile views",
+            "Repeat your main skill as many times as possible",
+            "Use rare words so your profile looks unique"
+          ],
+          0,
+          "Search works on the words people actually type, so start from the searcher's point of view."
+        ],
+        [
+          "Which is the strongest opening line for an About section?",
+          [
+            "\"Success is a journey, not a destination.\"",
+            "\"I am a dynamic, result-oriented and passionate professional.\"",
+            "\"I help small businesses in Indore understand their loan options.\"",
+            "\"Born and brought up in a small town, I always dreamt big.\""
+          ],
+          2,
+          "It immediately says what you do and for whom, which is what a visitor wants to know."
+        ],
+        [
+          "You have studied for NISM Series V-A but have not taken the exam yet. How should it appear on your profile?",
+          [
+            "\"NISM Series V-A certified\"",
+            "Leave it out completely until you pass, even in your About section",
+            "\"NISM certified (pending)\"",
+            "\"NISM Series V-A: preparing\""
+          ],
+          3,
+          "Stating the real status is honest and still shows your direction; \"certified\" would be a false claim."
+        ],
+        [
+          "Which skill should you avoid pinning to the top of your profile?",
+          [
+            "Financial statement analysis, which you used throughout your six-month internship",
+            "A tool you once tried in a workshop and can't discuss",
+            "MS Excel, which you use daily for MIS reports",
+            "Customer service, from two years at a bank branch"
+          ],
+          1,
+          "Pinned skills invite questions in interviews; list only what you can demonstrate."
+        ],
+        [
+          "What should your About section's last paragraph usually do?",
+          [
+            "Repeat your headline word for word so the message is reinforced",
+            "List your hobbies in detail",
+            "Say what you want next and how to reach you",
+            "End with a famous quote about success"
+          ],
+          2,
+          "A clear next step makes it easy for a recruiter or client to contact you."
+        ],
+        [
+          "Which profile photo is most suitable for a finance or corporate role?",
+          [
+            "A recent, well-lit photo of your face against a plain background",
+            "A group photo from a friend's wedding, cropped to your face",
+            "A stylish photo with heavy filters and sunglasses",
+            "Your company logo instead of a photo"
+          ],
+          0,
+          "A clear, recent face photo signals that a real, reachable professional is behind the profile."
+        ],
+        [
+          "Your resume says you joined your current bank in June 2024, but LinkedIn says January 2024. What should you do?",
+          [
+            "Leave it; nobody compares the two",
+            "Remove all dates from LinkedIn",
+            "Change the resume to match LinkedIn, even if LinkedIn is wrong",
+            "Correct whichever is wrong so both show the same, true date"
+          ],
+          3,
+          "Recruiters do compare, and mismatches raise doubts about which version is true."
+        ],
+        [
+          "A viral post claims you will get 10x profile views by adding 40 hashtags to your headline. What is the most sensible response?",
+          [
+            "Try it, since more profile views always lead to more interview calls and offers",
+            "Add the hashtags but only for a month",
+            "Keep a clear headline written for humans",
+            "Replace your headline with hashtags only"
+          ],
+          2,
+          "Real people read your headline; clarity and relevance matter more than tricks."
+        ],
+        [
+          "How often is it sensible to review and update your profile?",
+          [
+            "Only when you are actively job hunting and need recruiters to notice you",
+            "Every few months, or after a new result",
+            "Once, when you create it",
+            "Every single day"
+          ],
+          1,
+          "Regular small updates keep the profile accurate and show you are active, without becoming a chore."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "The headline rewrite",
+          "situation": "You are Sneha, a B.Com graduate in Nagpur who has cleared a banking exam prelims and is also applying to private banks. Your headline says \"Student | Looking for job | Open to all opportunities\". A senior tells you recruiters are not finding you.",
+          "options": [
+            {
+              "text": "Change it to \"B.Com graduate | Aspiring banking operations professional | KYC, customer service, MS Excel | Nagpur\".",
+              "rating": "best",
+              "feedback": "It uses role, focus, skills and city that recruiters search for, and \"aspiring\" keeps it honest."
+            },
+            {
+              "text": "Change it to \"Banking Operations Executive | Nagpur\".",
+              "rating": "poor",
+              "feedback": "You do not hold that title yet; a recruiter who checks will see the mismatch and lose trust."
+            },
+            {
+              "text": "Change it to \"B.Com graduate | Interested in banking\".",
+              "rating": "good",
+              "feedback": "Better than before, but it misses the skills and city that would make you appear in searches."
+            },
+            {
+              "text": "Leave it and send more connection requests instead.",
+              "rating": "poor",
+              "feedback": "More connections will not help if the people who visit cannot tell what you do."
+            }
+          ]
+        },
+        {
+          "title": "Too many skills",
+          "situation": "Arjun has listed 48 skills on his profile, including \"Python\", \"Blockchain\" and \"Leadership\", mostly picked from suggestions. He is applying for MIS analyst roles at NBFCs in Mumbai and has an interview next week.",
+          "options": [
+            {
+              "text": "Keep all 48 skills; more skills mean more searches.",
+              "rating": "poor",
+              "feedback": "Unrelated skills dilute the profile, and an interviewer may ask about any of them."
+            },
+            {
+              "text": "Trim to skills he can demonstrate, and pin Excel, SQL and MIS reporting at the top.",
+              "rating": "best",
+              "feedback": "Relevant, provable skills shown first match what MIS recruiters search for and survive interview questions."
+            },
+            {
+              "text": "Delete the skills section entirely to avoid awkward questions.",
+              "rating": "poor",
+              "feedback": "Removing skills removes the very words recruiters search for."
+            },
+            {
+              "text": "Keep them all but add \"beginner\" in brackets next to Blockchain and Python.",
+              "rating": "good",
+              "feedback": "Honest, but the list is still cluttered and the most relevant skills are not pushed to the top."
+            }
+          ]
+        },
+        {
+          "title": "The inflated number",
+          "situation": "Your friend Kabir, a bank RM in Lucknow, wants his About section to say he \"managed a ₹50 crore book\". The branch's total book is ₹50 crore; his own client book is about ₹8 crore. He says everyone exaggerates on LinkedIn.",
+          "options": [
+            {
+              "text": "Tell him to write \"₹50 crore\" since it is the branch figure and technically true.",
+              "rating": "poor",
+              "feedback": "It implies something false; a future employer or ex-colleague can easily expose it."
+            },
+            {
+              "text": "Suggest \"I manage a ₹8 crore client book in a branch of ₹50 crore\" with one real result.",
+              "rating": "best",
+              "feedback": "It is accurate, still impressive and shows context; a real result adds more credibility than a bigger number."
+            },
+            {
+              "text": "Suggest he leaves all numbers out to be safe.",
+              "rating": "good",
+              "feedback": "Safe, but he loses a genuine, strong proof point he could state honestly."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "search",
+          "title": "Be findable, not just present",
+          "text": "Recruiters and clients search LinkedIn by job title, skill and city. If those words aren't on your profile, you don't show up. Let's fix that in five steps — no hacks needed."
+        },
+        {
+          "kind": "compare",
+          "icon": "flag",
+          "title": "A headline people search for",
+          "text": "Role + focus + one proof point. Nobody searches for \"passionate\".",
+          "bad": "MBA | Looking for job | Hardworking",
+          "good": "Aspiring Credit Analyst | SME lending | MBA Finance, Pune"
+        },
+        {
+          "kind": "tip",
+          "icon": "target",
+          "title": "Think like the searcher",
+          "text": "Write down what someone hiring you would type into search. Then use those exact words in your headline, About and experience.",
+          "example": "KYC · customer service · branch operations · MS Excel · Nagpur"
+        },
+        {
+          "kind": "compare",
+          "icon": "book",
+          "title": "An About section worth finishing",
+          "text": "Three short paragraphs: what you do, one proof, what you want next.",
+          "bad": "Success is a journey, not a destination. I am a dynamic, result-oriented professional…",
+          "good": "I help small businesses in Indore understand loan options. I processed 300+ MSME files…"
+        },
+        {
+          "kind": "checklist",
+          "icon": "user",
+          "title": "Skills and photo check",
+          "text": "Tap each one when it's done.",
+          "items": [
+            "Only skills you could discuss in an interview",
+            "Top 3–4 relevant skills pinned",
+            "Recent photo, face clearly visible, plain background",
+            "Titles and dates match your resume"
+          ]
+        },
+        {
+          "kind": "compare",
+          "icon": "shield",
+          "title": "Honest beats impressive",
+          "text": "People check. State your real status and numbers.",
+          "bad": "NISM Series V-A certified (exam not taken yet)",
+          "good": "NISM Series V-A: preparing"
+        },
+        {
+          "kind": "tip",
+          "icon": "refresh",
+          "title": "Update every three months",
+          "text": "Add a new project, course or result. A profile untouched for years looks inactive — even if you aren't."
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Your profile now works while you sleep:"
+        }
+      ]
+    },
+    {
+      "id": "posting-without-the-cringe",
+      "title": "Posting on LinkedIn Without the Cringe",
+      "track": "core",
+      "minutes": 8,
+      "summary": "Write short, useful LinkedIn posts and comments that sound like you, not like a template. You will learn simple post formats, a four-line structure and the common habits that make posts feel fake.",
+      "sections": [
+        {
+          "heading": "Why post at all",
+          "body": "Many people avoid posting because they fear sounding boastful, or because their feed is full of posts that make them wince. That is understandable. But a few thoughtful posts do something a profile cannot: they show how you think. A recruiter or client who has read your clear explanation of a topic already trusts you a little before you meet.\n\nThe goal is not to become an influencer or go viral. The goal is to be useful to a small group of people who care about your field. Ten relevant readers who remember you are worth more than a thousand strangers who scrolled past.\n\nStart small. One post every week or two, plus a few thoughtful comments, is enough to be visible. You do not need to post daily to build a reputation.",
+          "do": [
+            "Aim to be useful to a small, relevant audience",
+            "Start with one post every week or two"
+          ],
+          "dont": [
+            "Measure success only by likes",
+            "Post daily just to stay \"active\" if you have nothing to say"
+          ]
+        },
+        {
+          "heading": "Three formats that are easy to write",
+          "body": "Most good professional posts fit one of three simple formats. The first is \"one thing I learned\": a lesson from your work or study, with a concrete example. \"This week I reconciled 400 entries in Excel. Using XLOOKUP instead of filtering manually cut the time from two hours to twenty minutes. Here's the formula I used.\"\n\nThe second is the plain-language explainer: take a concept from your field and explain it simply. \"What is a CIBIL score, and why did my friend's loan get rejected even with a good salary?\" The third is the honest recap: what you took away from an event, a book or a course, with one idea you will actually apply.\n\nEach format puts the reader first. You are sharing something they can use, not asking them to admire you.",
+          "do": [
+            "Share a specific lesson with a real example",
+            "Explain one concept in plain language"
+          ],
+          "dont": [
+            "Post only announcements about yourself",
+            "Share content without crediting the original source"
+          ]
+        },
+        {
+          "heading": "A simple four-line structure",
+          "body": "A post that is easy to read on a phone usually has four parts. A first line that tells the reader what they will get. Two or three short lines with the main point. One concrete example, number or story. And a closing line, which can be a genuine question or a takeaway.\n\nBefore: \"Excited and humbled to share some thoughts on my journey of learning and growth in the dynamic world of finance... #blessed #grateful #motivation #success #mondaymotivation\". After: \"Three things my first month in a bank branch taught me about customer complaints: 1) Most complaints are about waiting, not money. 2) Saying what happens next calms people faster than apologising. 3) Writing it down shows you'll follow up. What would you add?\"\n\nUse line breaks generously, two or three relevant hashtags at most, and skip the emoji parade.",
+          "do": [
+            "Make the first line say what the reader gets",
+            "Use short lines and one concrete example"
+          ],
+          "dont": [
+            "Open with \"Excited and humbled to share\"",
+            "Add a long string of hashtags"
+          ]
+        },
+        {
+          "heading": "The habits that feel cringe",
+          "body": "Some patterns make readers roll their eyes. The humblebrag: \"I didn't think much of it, but my manager said my presentation was the best she's seen.\" Invented stories: the taxi driver or the chaiwala who taught you a grand business lesson that never happened. Engagement bait: \"Comment YES if you agree\" or \"Agree?\" at the end of an obvious statement.\n\nOthers include tagging twenty senior people who were not involved, so they get notified; reposting someone else's post as your own; and turning every personal event into a leadership lesson. Readers notice, and it costs you trust.\n\nA simple test: would you be comfortable saying this out loud to a colleague you respect, in the same words? If not, rewrite it.",
+          "do": [
+            "Read your post aloud before publishing",
+            "Tag only people who were genuinely involved"
+          ],
+          "dont": [
+            "Make up stories to illustrate a point",
+            "End with \"Agree?\" or \"Comment YES\""
+          ]
+        },
+        {
+          "heading": "Comments, confidentiality and criticism",
+          "body": "Commenting is the easiest way to start. A useful comment adds an example, a question or a different angle: \"We saw the same in our branch; moving KYC checks to the morning cut queues.\" \"Great post!\" adds nothing.\n\nBefore posting about work, check your employer's social media policy. Never share client names, internal numbers, screenshots of systems or anything said in confidence. If you work in financial services, avoid recommending specific products or promising outcomes in public posts.\n\nIf someone disagrees politely, thank them and respond to the point. If someone is rude, you do not owe them a debate; a short, calm reply or no reply is fine.",
+          "do": [
+            "Leave comments that add an example or a question",
+            "Check your employer's social media policy before posting about work"
+          ],
+          "dont": [
+            "Share client names, internal data or system screenshots",
+            "Argue with rude commenters"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Post to be useful to a small, relevant audience, not to go viral.",
+        "Use simple formats: one lesson learned, a plain-language explainer or an honest recap.",
+        "Structure posts as a clear first line, the point, one example and a closing line.",
+        "Avoid humblebrags, invented stories, engagement bait and mass tagging.",
+        "Thoughtful comments count, and confidential work information never belongs in a post."
+      ],
+      "quiz": [
+        [
+          "Which opening line is most likely to make a reader keep going?",
+          [
+            "\"Excited and humbled to share my thoughts on this journey!\"",
+            "\"Monday motivation for all my connections out there\"",
+            "\"Three things my first month in a bank branch taught me about complaints:\"",
+            "\"Not sure if anyone will read this, but here goes.\""
+          ],
+          2,
+          "It tells the reader exactly what they will get from the post."
+        ],
+        [
+          "You attended a fintech meetup in Bengaluru. Which post is most useful?",
+          [
+            "A selfie with the speaker and \"Great event!!\"",
+            "A list of every speaker tagged by name",
+            "\"Blessed to be surrounded by such amazing minds #networking\"",
+            "One idea from a talk, why it matters and how you'll use it"
+          ],
+          3,
+          "An honest recap with one usable idea gives readers value, not just an announcement."
+        ],
+        [
+          "How many hashtags are usually sensible on a professional post?",
+          [
+            "Two or three relevant ones",
+            "As many as the platform allows",
+            "At least fifteen to reach more people",
+            "None ever, as hashtags are banned"
+          ],
+          0,
+          "A few relevant hashtags help discovery; a long string looks spammy."
+        ],
+        [
+          "Which ending is engagement bait rather than a genuine question?",
+          [
+            "\"What would you add from your own branch experience?\"",
+            "\"Hard work matters. Agree?\"",
+            "\"Has anyone tried this with Google Sheets instead?\"",
+            "\"Which of these three surprised you the most?\""
+          ],
+          1,
+          "Asking people to agree with an obvious statement invites clicks, not thought."
+        ],
+        [
+          "You want to post about how your team reduced loan processing time. What must you check first?",
+          [
+            "That the post has at least ten hashtags",
+            "That you have tagged your CEO, your regional head and every branch manager you know",
+            "That it is longer than 500 words",
+            "That no client or confidential data is shared"
+          ],
+          3,
+          "Employer policies and client confidentiality come before any post about work."
+        ],
+        [
+          "Which comment adds the most value to a post about reducing branch queues?",
+          [
+            "\"We moved KYC checks to the morning and queues dropped noticeably.\"",
+            "\"Great post!\"",
+            "\"Very insightful, thanks for sharing\"",
+            "\"Congrats! 👏👏👏\""
+          ],
+          0,
+          "A specific example adds information that others can learn from."
+        ],
+        [
+          "What is a quick test for whether a post will feel cringe?",
+          [
+            "Does it contain at least one emoji to make it feel friendly?",
+            "Is it longer and more detailed than the last post you shared?",
+            "Would you say it aloud to a colleague you respect?",
+            "Does it mention a famous business leader?"
+          ],
+          2,
+          "If it would sound odd spoken to a respected colleague, it will read oddly too."
+        ],
+        [
+          "A stranger leaves a rude, sarcastic comment on your post. What is the best response?",
+          [
+            "A long reply proving them wrong point by point",
+            "A calm reply to any real point, or none",
+            "Tag your friends so they can respond on your behalf and defend you",
+            "Delete your post and stop posting altogether"
+          ],
+          1,
+          "You do not owe a rude commenter a debate; calm or silent keeps your credibility."
+        ],
+        [
+          "Which of these is an invented-story pattern to avoid?",
+          [
+            "A dramatic chat with a taxi driver that never really happened",
+            "A real lesson from fixing an Excel error at work",
+            "A summary of a book chapter you actually read",
+            "A plain explanation of how SIPs work"
+          ],
+          0,
+          "Made-up stories damage trust when readers sense they are fake."
+        ],
+        [
+          "How often do you need to post to build a visible professional reputation?",
+          [
+            "At least three posts every day",
+            "Only once a year, on your work anniversary",
+            "Daily, even on days when you genuinely have nothing new to say",
+            "A good post every week or two, plus comments"
+          ],
+          3,
+          "Consistency with useful content matters more than volume."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "The promotion post",
+          "situation": "You have just been promoted to Assistant Manager at a private bank branch in Jaipur. You want to post about it, but you dislike posts that sound like self-praise.",
+          "options": [
+            {
+              "text": "\"Promoted to Assistant Manager! Grateful to my team at the Jaipur branch. One thing that helped most: writing a daily 3-line summary for my manager. Happy to share the format.\"",
+              "rating": "best",
+              "feedback": "It shares the news, credits others and gives readers something useful."
+            },
+            {
+              "text": "\"Humbled and honoured. Didn't expect it, but leadership saw something in me 🙏 #blessed #promotion #leadership #success #hardwork\"",
+              "rating": "poor",
+              "feedback": "It reads as a humblebrag and the hashtag string adds clutter rather than meaning."
+            },
+            {
+              "text": "Post only \"Started a new position as Assistant Manager\" using the default update.",
+              "rating": "good",
+              "feedback": "Fine and modest, but it misses the chance to share something useful."
+            },
+            {
+              "text": "Skip posting entirely because any post about yourself is boastful.",
+              "rating": "poor",
+              "feedback": "Sharing real milestones is normal; the problem is tone, not the topic."
+            }
+          ]
+        },
+        {
+          "title": "The tagging temptation",
+          "situation": "You wrote a post summarising a webinar on credit risk. A friend suggests tagging 25 senior bankers, most of whom were not involved, \"so it reaches the right people\".",
+          "options": [
+            {
+              "text": "Tag all 25 to maximise reach.",
+              "rating": "poor",
+              "feedback": "Tagging uninvolved people feels spammy and can annoy exactly the people you want to impress."
+            },
+            {
+              "text": "Tag only the speaker and the organiser, and credit them for the ideas.",
+              "rating": "best",
+              "feedback": "Tagging the people involved is courteous and appropriate; the post reaches others on merit."
+            },
+            {
+              "text": "Tag nobody at all.",
+              "rating": "good",
+              "feedback": "Safe, but crediting the speaker is both fair and useful to readers."
+            }
+          ]
+        },
+        {
+          "title": "The confidential win",
+          "situation": "Your team at an NBFC in Chennai cut loan approval time from five days to two. You want to post about it with a screenshot of the internal dashboard showing customer names blurred.",
+          "options": [
+            {
+              "text": "Post the blurred screenshot; blurring makes it safe.",
+              "rating": "poor",
+              "feedback": "Internal system screenshots may reveal confidential data even when partly blurred, and may breach policy."
+            },
+            {
+              "text": "Write about the lesson in general terms, without screenshots, after checking the social media policy.",
+              "rating": "best",
+              "feedback": "You share the useful insight while protecting client data and your employer's information."
+            },
+            {
+              "text": "Ask your manager whether you can post the screenshot.",
+              "rating": "good",
+              "feedback": "Checking is sensible, but the lesson rarely needs the screenshot; the general version avoids the risk entirely."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "sparkle",
+          "title": "Post useful, not viral",
+          "text": "You don't need to go viral — just be useful to people in your field. A few honest posts show how you think. Here's how to post without the cringe."
+        },
+        {
+          "kind": "tip",
+          "icon": "bulb",
+          "title": "Three formats that always work",
+          "text": "1) One thing I learned, with a real example. 2) A plain-language explainer. 3) An honest recap of an event or course.",
+          "example": "\"XLOOKUP cut my reconciliation from two hours to twenty minutes. Here's the formula.\""
+        },
+        {
+          "kind": "compare",
+          "icon": "bolt",
+          "title": "Make the first line count",
+          "text": "Tell readers what they'll get. Then the point, one example and a closing question.",
+          "bad": "Excited and humbled to share some thoughts on my journey… #blessed #motivation #success",
+          "good": "Three things my first month in a bank branch taught me about customer complaints:"
+        },
+        {
+          "kind": "compare",
+          "icon": "flag",
+          "title": "Drop the engagement bait",
+          "text": "Ask a real question people can answer from experience.",
+          "bad": "Hard work matters. Agree? Comment YES!",
+          "good": "What would you add from your own branch experience?"
+        },
+        {
+          "kind": "compare",
+          "icon": "star",
+          "title": "Share news without the humblebrag",
+          "text": "Credit others and give readers something useful.",
+          "bad": "Humbled… didn't expect it, but leadership saw something in me 🙏",
+          "good": "Promoted to Assistant Manager! What helped most: a daily 3-line summary for my manager. Happy to share the format."
+        },
+        {
+          "kind": "tip",
+          "icon": "grid",
+          "title": "Comments count as posting",
+          "text": "Add an example or a question, not \"Great post!\". It's the easiest way to start being seen.",
+          "example": "\"We moved KYC checks to mornings and queues dropped.\""
+        },
+        {
+          "kind": "checklist",
+          "icon": "shield",
+          "title": "Before you hit Post",
+          "text": "Tap each one as you check it.",
+          "items": [
+            "No client names, internal numbers or screenshots",
+            "Only people actually involved are tagged",
+            "Two or three hashtags, max",
+            "You'd say it aloud to a respected colleague"
+          ]
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Your next post, minus the cringe:"
+        }
+      ]
+    },
+    {
+      "id": "networking-at-events-and-online",
+      "title": "Networking at Events and Online",
+      "track": "core",
+      "minutes": 8,
+      "summary": "Start conversations at events, send connection requests people accept, and follow up so that a single meeting becomes a lasting professional relationship. You will practise openers, graceful exits and follow-up messages.",
+      "sections": [
+        {
+          "heading": "Networking is relationships, not collecting cards",
+          "body": "Many people picture networking as handing out visiting cards and asking strangers for jobs. No wonder they dread it. A better way to think about it: networking is simply getting to know people in your field and staying in touch, so that you can help each other over the years.\n\nThe most useful mindset is to be curious and to give first. Ask people about their work because you are genuinely interested. Share an article, a contact or a tip that might help them. When you later need advice or an introduction, you are asking someone who already knows and likes you.\n\nYou do not need hundreds of contacts. Ten to twenty people you are in real touch with, across different companies and levels, can open more doors than a thousand silent connections.",
+          "do": [
+            "Go in curious about other people's work",
+            "Look for small ways to help first"
+          ],
+          "dont": [
+            "Open a conversation by asking for a job",
+            "Judge an event by the number of cards you collected"
+          ]
+        },
+        {
+          "heading": "Before and during an event",
+          "body": "Preparation makes events far less awkward. Look at the agenda and the speaker list. Set a small, realistic goal, such as three good conversations. Prepare a one-line introduction: \"I'm Ritika, I work in retail credit at an NBFC in Pune, and I'm interested in how small lenders use data.\"\n\nOpeners do not need to be clever. Context works best: \"What brought you to this session?\" \"What did you think of the panel on UPI fraud?\" \"Is this your first time at this conference?\" Then listen, and ask a follow-up question about their answer.\n\nGroups standing in a circle with a gap are usually open; groups facing inward and talking intensely are not. If you join a group, listen for a minute before speaking. Standing near the tea counter is an easy, natural place to start conversations.",
+          "do": [
+            "Set a goal of two or three real conversations",
+            "Prepare a one-line introduction"
+          ],
+          "dont": [
+            "Interrupt a closed, intense conversation",
+            "Spend the whole event with colleagues you already know"
+          ]
+        },
+        {
+          "heading": "Exiting a conversation gracefully",
+          "body": "Many people stay stuck in one conversation because they do not know how to leave politely. A clear, warm exit is respectful to both of you. Summarise, thank, and give a reason: \"It was great hearing about your work on MSME lending. I'm going to catch the next session, but can I connect with you on LinkedIn?\"\n\nOther natural exits include introducing the person to someone else (\"Have you met Faisal? He works on the same problem at another bank\"), or simply saying you want to meet a few more people today. Nobody is offended by an honest, friendly exit.\n\nRight after each conversation, write a two-line note on your phone: the person's name, what you discussed and anything you promised to send. You will not remember it by evening.",
+          "do": [
+            "Exit with a thank-you and a clear next step",
+            "Note names and promises immediately after"
+          ],
+          "dont": [
+            "Disappear mid-sentence or keep checking your phone",
+            "Promise to send something and forget"
+          ]
+        },
+        {
+          "heading": "Connection requests and follow-ups that work",
+          "body": "Whether you met someone in person or found them online, send a short personal note with your connection request. Mention where you met or why you are reaching out. Before: no note, or \"I'd like to add you to my professional network.\" After: \"Hi Meera, enjoyed your point on co-lending at today's session in Mumbai. I'd love to stay in touch. – Karan\".\n\nFor people you have not met, explain the link and keep any request small: \"Hi Arvind, I read your post on credit underwriting for gig workers. I'm a final-year MBA student researching the same area. Would you be open to answering two short questions by message?\"\n\nFollow up within two days of an event, and send anything you promised. A follow-up that adds value, such as the article you mentioned, is remembered far longer than \"Nice to meet you.\"",
+          "do": [
+            "Add a personal note to every connection request",
+            "Follow up within two days and send what you promised"
+          ],
+          "dont": [
+            "Send a sales pitch right after someone accepts",
+            "Ask a stranger for a job in your first message"
+          ]
+        },
+        {
+          "heading": "Staying in touch without being pushy",
+          "body": "Relationships fade if the only time you appear is when you need something. Light, genuine contact every few months keeps them alive: congratulate someone on a new role, comment thoughtfully on their post, or send an article with one line on why it reminded you of them.\n\nA simple spreadsheet or notes app can help. List the people you want to stay in touch with, when you last spoke and one thing you know about their work. Once a month, pick three names and reach out with something relevant.\n\nOnline communities count too. Alumni groups, professional association events and focused WhatsApp or Telegram groups for your field are good places to be helpful. Answer questions, share resources and be generous with credit.",
+          "do": [
+            "Reach out every few months with something relevant",
+            "Keep a simple list of who you want to stay in touch with"
+          ],
+          "dont": [
+            "Only contact people when you need a favour",
+            "Forward spam or promotions into professional groups"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Networking means building real relationships by being curious and helping first.",
+        "Prepare a one-line introduction and aim for a few good conversations, not many cards.",
+        "Leave conversations warmly with a thank-you and a next step.",
+        "Send personal connection notes and follow up within two days.",
+        "Stay in light, genuine touch every few months, not only when you need something."
+      ],
+      "quiz": [
+        [
+          "Which opener works best with a stranger at a banking conference tea break?",
+          [
+            "\"What did you think of the panel on UPI fraud?\"",
+            "\"Do you have any openings in your team?\"",
+            "\"Can I give you my resume?\"",
+            "\"What is your designation and salary band?\""
+          ],
+          0,
+          "A shared-context question starts a natural conversation without pressure."
+        ],
+        [
+          "What is a realistic networking goal for a one-day event?",
+          [
+            "Collect at least fifty visiting cards so your contact list grows quickly",
+            "Meet every speaker and take a selfie",
+            "Two or three good conversations, followed up",
+            "Hand your resume to every senior person"
+          ],
+          2,
+          "A few real conversations with follow-up create relationships; volume rarely does."
+        ],
+        [
+          "You have talked to someone for fifteen minutes and want to meet others. What is the best exit?",
+          [
+            "Say you need the washroom and never come back",
+            "\"Great hearing about your MSME work. I'll catch the next session — can we connect on LinkedIn?\"",
+            "Start checking your phone until they leave",
+            "Keep talking until the event ends to be polite"
+          ],
+          1,
+          "A warm summary, a reason and a next step make the exit respectful."
+        ],
+        [
+          "Which connection request note is strongest?",
+          [
+            "No note at all",
+            "\"I'd like to add you to my professional network.\"",
+            "\"Hi, please check my profile and refer me for jobs at your company.\"",
+            "\"Hi Meera, enjoyed your point on co-lending at today's session. Would love to stay in touch. – Karan\""
+          ],
+          3,
+          "It is personal, reminds her where you met and asks for nothing heavy."
+        ],
+        [
+          "When should you follow up after meeting someone at an event?",
+          [
+            "Within about two days",
+            "After a month or so, so that you don't come across as too eager",
+            "Only if they message you first",
+            "Only when you next need a favour"
+          ],
+          0,
+          "A prompt follow-up while the conversation is fresh is remembered and appreciated."
+        ],
+        [
+          "You want advice from a senior credit manager you have never met. What is the best first message?",
+          [
+            "Ask directly for a job in their team",
+            "Explain the link and ask two short questions",
+            "Send your resume with no explanation and let it speak for itself",
+            "Ask for a one-hour call tomorrow"
+          ],
+          1,
+          "A clear reason and a small, specific request is easy to say yes to."
+        ],
+        [
+          "What should you do right after a good conversation at an event?",
+          [
+            "Immediately send them a sales brochure about your company's products",
+            "Post a selfie with them and tag them",
+            "Nothing; you will remember it",
+            "Note their name, topic and any promise"
+          ],
+          3,
+          "Details fade quickly; a quick note makes a personal follow-up possible."
+        ],
+        [
+          "Which is the best way to keep a professional relationship alive?",
+          [
+            "Forward good-morning and motivational messages to them every single day",
+            "Message only when you need a referral",
+            "Share an article that made you think of them",
+            "Add them to a promotional broadcast list"
+          ],
+          2,
+          "Light, relevant contact shows genuine interest without being pushy."
+        ],
+        [
+          "You see three people talking in a circle with a gap, and two people facing each other in an intense discussion. Which is easier to join?",
+          [
+            "The intense pair",
+            "The open circle of three",
+            "Neither; wait for someone to approach you",
+            "Both at once by standing between them"
+          ],
+          1,
+          "Open body language signals the group is happy to include others."
+        ],
+        [
+          "Someone accepts your connection request. What should you avoid doing next?",
+          [
+            "Sending them a sales pitch right away",
+            "Thanking them briefly",
+            "Following their posts and commenting thoughtfully",
+            "Sending the article you mentioned when you met"
+          ],
+          0,
+          "An instant pitch makes the connection feel transactional and erodes trust."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "Alone at the conference",
+          "situation": "You are at a fintech conference in Hyderabad. You know no one, the session has ended and everyone is clustering around the tea counter. You feel awkward and are tempted to sit with your phone until the next talk.",
+          "options": [
+            {
+              "text": "Stand near the tea counter and ask someone nearby, \"What did you make of that last session?\"",
+              "rating": "best",
+              "feedback": "Shared context is the easiest opener, and the tea counter is a natural place to talk."
+            },
+            {
+              "text": "Walk up to the keynote speaker and hand over your resume.",
+              "rating": "poor",
+              "feedback": "It skips the relationship and puts the speaker in an awkward position."
+            },
+            {
+              "text": "Sit with your phone and connect with attendees on LinkedIn later.",
+              "rating": "poor",
+              "feedback": "Without a conversation, your requests have no context and are easy to ignore."
+            },
+            {
+              "text": "Wait near a group and join when someone smiles or makes eye contact.",
+              "rating": "good",
+              "feedback": "Reasonable, but waiting can take the whole break; a simple context question gets you started sooner."
+            }
+          ]
+        },
+        {
+          "title": "The forgotten promise",
+          "situation": "At an alumni meet in Delhi, you told a senior from your college you would send her a report on rural credit. It is now ten days later and you have not sent it. You feel embarrassed.",
+          "options": [
+            {
+              "text": "Do nothing; she has probably forgotten.",
+              "rating": "poor",
+              "feedback": "She may well remember, and an unkept promise quietly weakens trust."
+            },
+            {
+              "text": "Send the report now with a short apology: \"Sorry this is late — here's the rural credit report I mentioned.\"",
+              "rating": "best",
+              "feedback": "A brief, honest note with the promised item repairs the delay and keeps the relationship moving."
+            },
+            {
+              "text": "Send it with a long explanation of everything that kept you busy.",
+              "rating": "good",
+              "feedback": "Sending it matters most, but a long explanation shifts focus to you instead of what is useful to her."
+            }
+          ]
+        },
+        {
+          "title": "Reaching out cold",
+          "situation": "You are an MBA student in Ahmedabad researching how banks assess gig workers for loans. You find a senior manager at a private bank who has posted thoughtfully on this topic. You have never met her.",
+          "options": [
+            {
+              "text": "Connect with no note and wait to see if she accepts.",
+              "rating": "poor",
+              "feedback": "A request with no context is easy to ignore."
+            },
+            {
+              "text": "Send a note referencing her post, explaining your research and asking if she would answer two short questions by message.",
+              "rating": "best",
+              "feedback": "It shows you read her work and makes a small, specific request she can easily accept."
+            },
+            {
+              "text": "Send a note referencing her post and ask for a 45-minute video call this week.",
+              "rating": "good",
+              "feedback": "Personal and clear, but a long call is a big ask for a first contact; start smaller."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "user",
+          "title": "Networking without the dread",
+          "text": "Networking isn't collecting cards or asking strangers for jobs. It's getting to know people in your field and staying in touch. Here's how to start, exit and follow up."
+        },
+        {
+          "kind": "tip",
+          "icon": "target",
+          "title": "Prepare one line about you",
+          "text": "Aim for two or three real conversations, not fifty cards. Know how you'll introduce yourself.",
+          "example": "\"I'm Ritika, I work in retail credit at an NBFC in Pune, and I'm interested in how small lenders use data.\""
+        },
+        {
+          "kind": "compare",
+          "icon": "bolt",
+          "title": "Open with context, not a request",
+          "text": "Ask about something you both just experienced. Then listen and follow up.",
+          "bad": "Do you have any openings in your team?",
+          "good": "What did you think of the panel on UPI fraud?"
+        },
+        {
+          "kind": "compare",
+          "icon": "refresh",
+          "title": "Exit warmly",
+          "text": "Summarise, thank, give a reason and a next step.",
+          "bad": "\"I'll be right back\" — and you never return.",
+          "good": "Great hearing about your MSME work. I'll catch the next session — can we connect on LinkedIn?"
+        },
+        {
+          "kind": "compare",
+          "icon": "mail",
+          "title": "Always add a personal note",
+          "text": "Say where you met or why you're reaching out.",
+          "bad": "I'd like to add you to my professional network.",
+          "good": "Hi Meera, enjoyed your point on co-lending at today's session. Would love to stay in touch. – Karan"
+        },
+        {
+          "kind": "checklist",
+          "icon": "clock",
+          "title": "Within two days of an event",
+          "text": "Tap each one when it's done.",
+          "items": [
+            "Notes made: name, topic, promises",
+            "Personal connection requests sent",
+            "Promised article or contact shared",
+            "Nobody got a sales pitch"
+          ]
+        },
+        {
+          "kind": "tip",
+          "icon": "star",
+          "title": "Stay in touch lightly",
+          "text": "Every few months, congratulate, comment or share something relevant. Once a month, pick three names from your list and reach out."
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Networking, the human way:"
+        }
+      ]
+    },
+    {
+      "id": "asking-for-referrals",
+      "title": "Asking for Referrals and Introductions",
+      "track": "core",
+      "minutes": 7,
+      "summary": "Ask for job referrals and introductions in a way that is specific, easy to say yes to and easy to decline. You will write a forwardable request and learn how to follow up and say thank you.",
+      "sections": [
+        {
+          "heading": "Referrals and introductions are borrowed trust",
+          "body": "A referral is when someone inside a company recommends you for a specific role. An introduction is when someone connects you with a person they know, such as a hiring manager, a potential client or a mentor. In both cases, they are lending you their reputation. If you turn out to be unprepared or unprofessional, it reflects on them.\n\nThat is why the best requests make the other person's job easy and safe. They know exactly what you want, why you are a reasonable fit, and what to forward. They can also say no without awkwardness.\n\nRemember that a referral usually gets your application looked at; it rarely guarantees an interview, and never guarantees an offer. Treat it as a door opened, not a job secured.",
+          "do": [
+            "Treat every referral as someone's reputation on the line",
+            "Prepare as seriously as you would for an interview"
+          ],
+          "dont": [
+            "Assume a referral guarantees a job",
+            "Ask without understanding what you are asking for"
+          ]
+        },
+        {
+          "heading": "Who to ask, and how well you need to know them",
+          "body": "The strongest referrals come from people who have seen your work: a former manager, a project teammate, a professor who guided your dissertation. They can speak about you with specifics.\n\nYou can also ask people you know less well, such as alumni from your college or someone you met at an event, but adjust the request. Instead of asking them to vouch for you, ask for information first: \"Could you tell me what the team looks for?\" If the conversation goes well, they may offer to refer you, or you can ask, \"Would you be comfortable referring me, or is there someone better to speak to?\"\n\nAvoid mass-messaging every employee of a company. It is easy to spot, and people rarely refer strangers who sent the same note to fifty others.",
+          "do": [
+            "Start with people who have seen your work",
+            "With weaker ties, ask for information before asking for a referral"
+          ],
+          "dont": [
+            "Copy-paste the same request to dozens of employees",
+            "Ask someone to vouch for skills they have never seen"
+          ]
+        },
+        {
+          "heading": "Make the request specific and forwardable",
+          "body": "A good referral request includes four things: the exact role and job ID or link, two or three lines on why you fit, your resume as a sensibly named PDF, and a short paragraph they can forward as it is.\n\nBefore: \"Hi bhaiya, any openings in your company? Please refer me. Resume attached.\" After: \"Hi Rahul, I hope the new role is going well. I'm applying for the Credit Analyst position at your bank in Bengaluru (Job ID 48213). I have two years in MSME loan processing and have built cash-flow models for 150+ files. Would you be comfortable referring me? I've attached my resume and a short note below you can forward. Completely fine if it isn't possible.\"\n\nThat last line matters. Giving an easy way to say no makes people more comfortable, and protects the relationship either way.",
+          "do": [
+            "Include the role, job ID, why you fit and a forwardable note",
+            "Give an easy way to decline"
+          ],
+          "dont": [
+            "Ask for \"any openings\" without a specific role",
+            "Pressure someone who hesitates"
+          ]
+        },
+        {
+          "heading": "Asking for an introduction",
+          "body": "Introductions work best as a \"double opt-in\": your contact checks with the other person first before connecting you. You can make this easy by writing a short note about yourself and your request that they can forward.\n\nExample: \"Hi Priya, could you introduce me to Anil from the treasury team? I'm a CA preparing to move into treasury operations and would value 15 minutes of his perspective on the skills that matter most. Here's a two-line note you can forward. No problem at all if it's not a good time for him.\"\n\nOnce introduced, move your contact to BCC with a thank-you, respond quickly, propose a few time options and keep the call to the time you asked for.",
+          "do": [
+            "Write a short forwardable note for the introducer",
+            "Respond quickly and keep to the time you requested"
+          ],
+          "dont": [
+            "Ask for an introduction and then go silent",
+            "Turn a 15-minute advice call into a job demand"
+          ]
+        },
+        {
+          "heading": "Follow up, report back and return the favour",
+          "body": "If you have not heard back in about a week, one polite follow-up is fine: \"Just checking whether you had a chance to see my note about the Credit Analyst role. No worries if not.\" If there is still no reply, let it go gracefully.\n\nWhatever happens, close the loop. Tell the person whether you got an interview and how it went, and thank them even if it did not work out. People who refer you like to know the outcome, and it makes them more willing to help again.\n\nFinally, be the person who helps others. When a junior asks you for a referral, apply the same standards: be honest about what you can do, ask for a clear request, and refer only people you can genuinely speak for.",
+          "do": [
+            "Follow up once, politely, after about a week",
+            "Tell your referrer the outcome and thank them"
+          ],
+          "dont": [
+            "Send repeated reminders",
+            "Disappear once you get the job"
+          ]
+        }
+      ],
+      "takeaways": [
+        "A referral lends you someone's reputation, so make it easy and safe for them.",
+        "Ask people who know your work first; with weaker ties, ask for information before a referral.",
+        "Give the exact role, job ID, why you fit, your resume and a forwardable note.",
+        "Always offer an easy way to say no.",
+        "Follow up once, report the outcome and thank them whatever happens."
+      ],
+      "quiz": [
+        [
+          "Which referral request is most likely to be acted on?",
+          [
+            "\"Any openings in your company? Please refer.\"",
+            "A long message describing your entire life story",
+            "Your resume with no message",
+            "Role, job ID, two lines on fit, resume and a forwardable note"
+          ],
+          3,
+          "Specific, ready-to-forward information makes it easy for the referrer to help."
+        ],
+        [
+          "You barely know an alumnus who works at a bank you are targeting. What should you ask first?",
+          [
+            "For a referral to any open role, immediately, since he works there",
+            "What the team looks for, before any referral",
+            "To forward your resume to his manager today",
+            "To tell you the interview questions in advance"
+          ],
+          1,
+          "With weak ties, starting with information builds enough trust for a possible referral later."
+        ],
+        [
+          "Why should you include a line like \"Completely fine if it isn't possible\"?",
+          [
+            "It lets them decline without awkwardness",
+            "It shows you are not really serious about the job",
+            "It is required by most HR policies",
+            "It makes the message longer and more formal, which seniors usually prefer"
+          ],
+          0,
+          "An easy way to say no makes people more comfortable, and they often say yes more readily."
+        ],
+        [
+          "What does a referral usually do for your application?",
+          [
+            "Guarantees you an offer letter",
+            "Lets you skip all interview rounds",
+            "Gets it looked at; no interview guarantee",
+            "Makes your salary automatically negotiable upward by a fixed percentage"
+          ],
+          2,
+          "A referral opens a door; you still need to prove yourself in the process."
+        ],
+        [
+          "Which person is likely to give you the strongest referral?",
+          [
+            "A friend's cousin who has never met you but works in the same bank",
+            "A random employee you found on LinkedIn",
+            "A recruiter from a different company",
+            "A former manager who knows your work"
+          ],
+          3,
+          "Someone who has seen your work can speak about you with specific, credible examples."
+        ],
+        [
+          "What is a \"double opt-in\" introduction?",
+          [
+            "The introducer checks with the other person before connecting you",
+            "You introduce yourself twice to make sure they remember",
+            "You ask two people for the same introduction",
+            "The introducer copies your manager on the email"
+          ],
+          0,
+          "Checking first respects the other person's time and makes the introduction welcome."
+        ],
+        [
+          "You asked for a referral eight days ago and have heard nothing. What is best?",
+          [
+            "Send a reminder every day until they respond",
+            "One polite follow-up, then let it go",
+            "Ask a mutual friend to remind them and gently pressure them on your behalf",
+            "Apply again under a different email address"
+          ],
+          1,
+          "One courteous nudge is normal; repeated chasing strains the relationship."
+        ],
+        [
+          "You get the interview but not the job. What should you tell the person who referred you?",
+          [
+            "Nothing, since it did not work out",
+            "Ask them to complain to HR on your behalf",
+            "Thank them and briefly share how it went",
+            "That the interviewers were unfair"
+          ],
+          2,
+          "Closing the loop with gratitude keeps the relationship strong for the future."
+        ],
+        [
+          "A junior from your college asks you to refer him, but you have never seen his work. What is most appropriate?",
+          [
+            "Refer him immediately to be helpful",
+            "Ignore his message",
+            "Tell him referrals are against the rules everywhere",
+            "Talk to him first, and refer only if you can genuinely speak for him"
+          ],
+          3,
+          "Your referral carries your reputation, so it should reflect what you actually know."
+        ],
+        [
+          "After an introduction email, what should you do with the person who introduced you?",
+          [
+            "Keep them in CC on every message for weeks so they can see your progress",
+            "Remove them silently without a thank-you",
+            "Thank them and move them to BCC",
+            "Ask them to schedule the meeting for you"
+          ],
+          2,
+          "Moving the introducer to BCC thanks them and spares their inbox."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "The college senior",
+          "situation": "Your college senior, Vikram, works at a large private bank in Mumbai. You have not spoken in a year. You see an opening for a Relationship Manager role there and want a referral.",
+          "options": [
+            {
+              "text": "\"Hi Vikram bhai, any openings in your bank? Please refer me.\"",
+              "rating": "poor",
+              "feedback": "It is vague, puts all the work on him and gives him nothing to forward."
+            },
+            {
+              "text": "A short catch-up line, the RM role with job ID, two lines on your fit, your resume and a forwardable note, plus \"no problem if it's not possible\".",
+              "rating": "best",
+              "feedback": "It reconnects politely, is specific and easy to act on, and gives him a comfortable way out."
+            },
+            {
+              "text": "Ask him for a quick call about what the team looks for, then raise the referral if it goes well.",
+              "rating": "good",
+              "feedback": "Thoughtful, especially after a long gap, but if you clearly fit the role, a specific request with an easy out respects his time more."
+            },
+            {
+              "text": "Apply directly and mention Vikram's name in your cover letter without telling him.",
+              "rating": "poor",
+              "feedback": "Using someone's name without permission can embarrass them and damage trust."
+            }
+          ]
+        },
+        {
+          "title": "The hesitant referrer",
+          "situation": "You asked a former colleague, Shalini, for a referral to her company's analytics team. She replies, \"I'm not sure I'm the right person; I've only seen your work on one project.\"",
+          "options": [
+            {
+              "text": "\"Totally understand. Could you instead tell me who in the team I could speak to about the role?\"",
+              "rating": "best",
+              "feedback": "It respects her hesitation and turns it into useful help she is comfortable giving."
+            },
+            {
+              "text": "Insist that one project is enough and remind her you helped her once.",
+              "rating": "poor",
+              "feedback": "Pressure and favour-counting make her less willing and strain the relationship."
+            },
+            {
+              "text": "Thank her and drop the request entirely.",
+              "rating": "good",
+              "feedback": "Gracious, but you miss a low-pressure alternative she might happily offer."
+            }
+          ]
+        },
+        {
+          "title": "Introduced to a mentor",
+          "situation": "Your manager introduces you by email to Anil, a treasury head at another bank, for a 15-minute advice call. Anil replies the same day suggesting next week.",
+          "options": [
+            {
+              "text": "Reply a few days later asking Anil to choose any time.",
+              "rating": "poor",
+              "feedback": "Slow responses and leaving all scheduling to him waste the goodwill of the introduction."
+            },
+            {
+              "text": "Reply-all the same day, thank your manager, move her to BCC and propose three time slots of 15 minutes.",
+              "rating": "best",
+              "feedback": "Prompt, courteous and easy for Anil, while sparing your manager's inbox."
+            },
+            {
+              "text": "Reply the same day with your availability and keep your manager in CC.",
+              "rating": "good",
+              "feedback": "Prompt and helpful, but your manager does not need every scheduling message."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "briefcase",
+          "title": "Borrowing someone's trust",
+          "text": "A referral or introduction lends you someone's reputation. The best requests make it easy and safe for them to help — and easy to say no. Here's how to ask well."
+        },
+        {
+          "kind": "compare",
+          "icon": "target",
+          "title": "Be specific about the role",
+          "text": "Exact role, job ID, why you fit, resume attached.",
+          "bad": "Hi bhaiya, any openings in your company? Please refer me.",
+          "good": "I'm applying for Credit Analyst (Job ID 48213). I've built cash-flow models for 150+ MSME files. Would you be comfortable referring me?"
+        },
+        {
+          "kind": "tip",
+          "icon": "user",
+          "title": "Ask the right people first",
+          "text": "Former managers and teammates who've seen your work give the strongest referrals. With alumni or new contacts, ask for information first.",
+          "example": "\"Could you tell me what the team looks for?\""
+        },
+        {
+          "kind": "compare",
+          "icon": "shield",
+          "title": "Always give an easy out",
+          "text": "People say yes more comfortably when no is easy too.",
+          "bad": "Please do this urgently, I'm counting on you.",
+          "good": "Completely fine if it isn't possible."
+        },
+        {
+          "kind": "compare",
+          "icon": "mail",
+          "title": "After an introduction",
+          "text": "Respond fast, thank the introducer, spare their inbox.",
+          "bad": "Reply three days later: \"Anil, let me know whenever you're free.\"",
+          "good": "Thanks, Priya (to BCC)! Anil, would Tue 4 pm, Wed 11 am or Thu 5 pm work for 15 minutes?"
+        },
+        {
+          "kind": "checklist",
+          "icon": "check",
+          "title": "Close the loop",
+          "text": "Tap each one as you do it.",
+          "items": [
+            "One polite follow-up after about a week",
+            "Tell them whether you got an interview",
+            "Thank them, whatever the outcome",
+            "Help the next person who asks you"
+          ]
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Ask in a way people are glad to say yes to:"
+        }
+      ]
+    },
+    {
+      "id": "personal-brand-with-no-experience",
+      "title": "Building a Personal Brand with No Experience",
+      "track": "fresher",
+      "minutes": 8,
+      "summary": "Build a credible professional reputation as a student or fresher by choosing a focus, creating small pieces of proof and learning in public. You will plan a simple 30-day routine you can actually keep.",
+      "sections": [
+        {
+          "heading": "A personal brand is what people can rely on you for",
+          "body": "\"Personal brand\" can sound like something only celebrities and influencers have. For a fresher, it simply means this: when someone thinks of you, what do they associate you with? \"The one who is really good with Excel.\" \"The one who explains banking concepts clearly.\" \"The one who always delivers on time.\"\n\nYou already have the raw material. Exam preparation for banking, SSC or MBA entrances builds discipline, speed with numbers and current-affairs awareness. College projects, internships, part-time work, family business help and even organising a fest all show skills employers value.\n\nThe task is not to invent an impressive image. It is to make your real strengths visible and easy to verify.",
+          "do": [
+            "Describe your brand as what people can rely on you for",
+            "Count exam prep, projects and part-time work as real experience"
+          ],
+          "dont": [
+            "Pretend to be more experienced than you are",
+            "Copy someone else's style or story"
+          ]
+        },
+        {
+          "heading": "Pick a focus: two or three topics",
+          "body": "Trying to be known for everything makes you known for nothing. Choose two or three topics that connect to the jobs you want and that you genuinely enjoy learning about. For example: \"retail banking and digital payments\", or \"Excel, data analysis and MIS reporting\", or \"personal finance basics for young earners\".\n\nUse these topics consistently: in your LinkedIn headline, in what you post and comment on, in the projects you choose and in how you introduce yourself at events. Over a few months, people start linking you to them.\n\nIt is fine to change your focus later as you learn more. A focus is a starting direction, not a lifelong label.",
+          "do": [
+            "Choose two or three topics linked to your target jobs",
+            "Use them consistently across profile, posts and projects"
+          ],
+          "dont": [
+            "Post about every trending topic",
+            "Pick a topic only because it sounds impressive"
+          ]
+        },
+        {
+          "heading": "Create proof of work",
+          "body": "With no job title to point to, small pieces of proof matter enormously. A proof of work is anything someone can see that shows what you can do. Examples: a one-page analysis comparing the savings account features of three banks; an Excel dashboard tracking your mock-test scores with charts; a short write-up explaining how UPI settles a payment; a summary of RBI's monetary policy announcement in plain language.\n\nKeep each one small enough to finish in a weekend. Put it in a shared folder or post it on LinkedIn with a short explanation of what you did and what you learned. Mention it in your resume and interviews: \"I built a dashboard to analyse my mock-test errors, which helped me raise my quant score.\"\n\nThree finished small projects beat one ambitious project that never gets done.",
+          "do": [
+            "Make small projects you can finish in a weekend",
+            "Share what you did and what you learned"
+          ],
+          "dont": [
+            "Wait for a big, perfect project",
+            "Present group work as entirely your own"
+          ]
+        },
+        {
+          "heading": "Learn in public",
+          "body": "You do not need to be an expert to share. \"Learning in public\" means posting what you are learning, honestly, as a learner. \"I'm preparing for a banking interview and just understood the difference between CRR and SLR. Here's how I'd explain it to a friend.\" This is useful to others at the same stage and shows recruiters that you are curious and clear.\n\nBe accurate. Double-check facts, especially numbers and rules, and say \"as I understand it\" if you are unsure. If someone corrects you, thank them and update the post; that also builds credibility.\n\nAvoid giving confident advice outside your knowledge, such as stock tips or claims about how to \"guarantee\" selection in an exam.",
+          "do": [
+            "Share what you are learning, framed as a learner",
+            "Check facts and welcome corrections"
+          ],
+          "dont": [
+            "Give confident advice on things you have not studied",
+            "Promise others guaranteed results"
+          ]
+        },
+        {
+          "heading": "A simple 30-day starter plan",
+          "body": "Week 1: update your LinkedIn headline and About section around your two or three topics. Week 2: follow 20 people and organisations in those areas, and leave three thoughtful comments. Week 3: finish one small proof-of-work project. Week 4: post about it, explaining what you did and what you learned, and message two seniors or alumni to ask for feedback.\n\nThis takes perhaps two hours a week, which fits around exam preparation or a final-year timetable. At the end, you will have a clearer profile, one visible piece of work and a few new conversations.\n\nThen repeat the cycle with a new small project. Consistency over six months matters far more than a burst of activity in one week.",
+          "do": [
+            "Block about two hours a week for brand-building",
+            "Repeat the cycle every month"
+          ],
+          "dont": [
+            "Try to do everything in one weekend and then stop",
+            "Let brand-building replace your exam preparation"
+          ]
+        }
+      ],
+      "takeaways": [
+        "A personal brand is what people can rely on you for, built from real strengths.",
+        "Choose two or three focus topics and use them consistently.",
+        "Small, finished proof-of-work projects matter more than a big unfinished one.",
+        "Learn in public honestly, checking facts and welcoming corrections.",
+        "A steady routine of about two hours a week beats occasional bursts."
+      ],
+      "quiz": [
+        [
+          "What does a personal brand mean for a fresher?",
+          [
+            "Having thousands of followers",
+            "What people can rely on you for",
+            "A logo and colour scheme for your profile",
+            "Appearing more experienced than you really are, so recruiters take you seriously"
+          ],
+          1,
+          "It is about real strengths people recognise, not image or follower counts."
+        ],
+        [
+          "Ankita wants to be known for \"finance, coding, fitness, travel, startups and cricket\". What is the best advice?",
+          [
+            "Narrow it to two or three job-linked topics",
+            "Keep all six so she can reach the widest possible audience on LinkedIn",
+            "Pick whichever topic is trending this week",
+            "Avoid having any focus at all"
+          ],
+          0,
+          "A clear focus helps people remember what you are good at."
+        ],
+        [
+          "Which is the best example of proof of work for a banking aspirant?",
+          [
+            "A post saying \"I am very passionate about banking\"",
+            "A list of coaching institutes you joined",
+            "A certificate of participation from a webinar you did not attend",
+            "A one-page comparison of savings account features across three banks"
+          ],
+          3,
+          "It is something concrete others can see that demonstrates analysis and clarity."
+        ],
+        [
+          "You just learned the difference between CRR and SLR. How should you post about it?",
+          [
+            "Claim to be an expert on monetary policy so people take the post seriously",
+            "Copy an explanation from a website without credit",
+            "Explain it simply, as a learner, facts checked",
+            "Don't post until you know everything about banking"
+          ],
+          2,
+          "Learning in public is honest, useful to peers and shows curiosity and clarity."
+        ],
+        [
+          "Someone politely corrects a fact in your post. What should you do?",
+          [
+            "Thank them and update the post",
+            "Delete their comment",
+            "Argue until they give up",
+            "Ignore it and leave the error in place"
+          ],
+          0,
+          "Accepting corrections gracefully increases your credibility."
+        ],
+        [
+          "Which project size is most sensible to start with?",
+          [
+            "A full fintech app you plan to launch",
+            "A 100-page research report",
+            "Something that needs a team of ten",
+            "A weekend-sized project"
+          ],
+          3,
+          "Small finished projects build momentum and visible proof quickly."
+        ],
+        [
+          "You worked on a group project with four classmates. How should you describe it?",
+          [
+            "As entirely your own work",
+            "The team's result and your specific part",
+            "Don't mention it at all, since group work never counts on a fresher's profile",
+            "List all classmates' work as your skills"
+          ],
+          1,
+          "Honesty about your contribution is credible and easy to verify."
+        ],
+        [
+          "How much time is a realistic start for brand-building during exam preparation?",
+          [
+            "Six hours every day",
+            "Nothing until all exams are over",
+            "About two hours a week",
+            "A whole weekend once a year"
+          ],
+          2,
+          "A small, steady routine fits around studies and adds up over months."
+        ],
+        [
+          "A friend suggests posting \"5 tricks that guarantee selection in IBPS PO\". What is the main problem?",
+          [
+            "No one can honestly guarantee exam selection",
+            "The title is too short",
+            "IBPS is not a popular topic",
+            "Lists of five are never read"
+          ],
+          0,
+          "Guarantee claims are misleading and damage your credibility."
+        ],
+        [
+          "Which experience counts as useful raw material for a fresher's brand?",
+          [
+            "Nothing; only paid, full-time jobs at registered companies count as experience",
+            "Helping run a family shop's accounts",
+            "Only international internships",
+            "Only experience at well-known companies"
+          ],
+          1,
+          "Real responsibility of any kind shows skills employers value."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "Nothing to show",
+          "situation": "You are Rohit, a B.Sc graduate in Patna preparing for bank PO exams and also applying to private banks. Your LinkedIn profile is empty apart from your college name. You feel you have nothing to show.",
+          "options": [
+            {
+              "text": "Write \"Banking professional\" in your headline to look experienced.",
+              "rating": "poor",
+              "feedback": "It is a false claim and will be noticed by anyone who reads further."
+            },
+            {
+              "text": "Pick two topics, update your headline, and build one small project like a mock-test analysis dashboard to share.",
+              "rating": "best",
+              "feedback": "It turns real effort into visible, honest proof and gives your profile a clear direction."
+            },
+            {
+              "text": "Update your headline and About section honestly, and wait until you have a job to do more.",
+              "rating": "good",
+              "feedback": "A good first step, but without any proof of work your profile still looks thin to recruiters."
+            },
+            {
+              "text": "Post daily motivational quotes to build an audience.",
+              "rating": "poor",
+              "feedback": "Quotes do not show your skills and attract the wrong kind of attention."
+            }
+          ]
+        },
+        {
+          "title": "The confident mistake",
+          "situation": "You posted an explanation of how repo rate changes affect home loans. A banker in the comments points out that you mixed up how quickly floating rates respond. Your post already has 80 likes.",
+          "options": [
+            {
+              "text": "Delete the comment so the post stays clean.",
+              "rating": "poor",
+              "feedback": "Hiding a correction looks defensive and leaves others with wrong information."
+            },
+            {
+              "text": "Thank the banker, edit the post with the correction and note that it was updated.",
+              "rating": "best",
+              "feedback": "It is honest, keeps readers informed and shows you learn quickly."
+            },
+            {
+              "text": "Reply thanking the banker but leave the post unchanged.",
+              "rating": "good",
+              "feedback": "Polite, but readers who don't open the comments will still see the mistake."
+            }
+          ]
+        },
+        {
+          "title": "Copying a popular creator",
+          "situation": "A finance creator you follow has a very successful posting style with bold claims and dramatic hooks. Your friend suggests you copy her posts with small changes, since \"freshers have nothing original to say anyway\".",
+          "options": [
+            {
+              "text": "Copy her posts with small edits; it works for her.",
+              "rating": "poor",
+              "feedback": "Copying is dishonest and easy to spot; it can badly damage a new reputation."
+            },
+            {
+              "text": "Learn from her structure, but write about your own learning in your own words.",
+              "rating": "best",
+              "feedback": "You borrow the craft without borrowing her content, and your posts reflect what you actually know."
+            },
+            {
+              "text": "Avoid posting until you have years of experience.",
+              "rating": "good",
+              "feedback": "It avoids copying, but you lose months of honest learning in public that could help you."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "star",
+          "title": "A brand without a job title",
+          "text": "You don't need years of experience to be known for something. Exam prep, projects and part-time work are real raw material. Here's how to make your strengths visible — honestly."
+        },
+        {
+          "kind": "compare",
+          "icon": "target",
+          "title": "Pick two or three topics",
+          "text": "Known for everything = known for nothing. Link topics to the jobs you want.",
+          "bad": "Finance, coding, fitness, travel, startups, cricket",
+          "good": "Retail banking and digital payments"
+        },
+        {
+          "kind": "tip",
+          "icon": "chart",
+          "title": "Make small proof of work",
+          "text": "Anything people can see that shows what you can do. Keep it weekend-sized and finish it.",
+          "example": "An Excel dashboard of your mock-test errors · A one-page comparison of three banks' savings accounts"
+        },
+        {
+          "kind": "compare",
+          "icon": "book",
+          "title": "Learn in public, honestly",
+          "text": "Share as a learner. Check facts and welcome corrections.",
+          "bad": "5 tricks that GUARANTEE selection in IBPS PO!",
+          "good": "Just understood CRR vs SLR while preparing. Here's how I'd explain it to a friend."
+        },
+        {
+          "kind": "compare",
+          "icon": "shield",
+          "title": "Honest beats impressive",
+          "text": "Real strengths are easy to verify. Claimed ones get found out.",
+          "bad": "Headline: Banking Professional (no banking job yet)",
+          "good": "Headline: B.Sc graduate | Aspiring banker | Retail banking, Excel | Patna"
+        },
+        {
+          "kind": "checklist",
+          "icon": "clock",
+          "title": "Your 30-day starter plan",
+          "text": "About two hours a week. Tap each week as you finish it.",
+          "items": [
+            "Week 1: headline and About around your topics",
+            "Week 2: follow 20 relevant people, leave 3 comments",
+            "Week 3: finish one small project",
+            "Week 4: post about it, ask two seniors for feedback"
+          ]
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Your brand starts now, not after your first job:"
+        }
+      ]
+    },
+    {
+      "id": "building-trust-online-finance",
+      "title": "Building Trust Online as a Finance Professional",
+      "track": "professional",
+      "minutes": 9,
+      "summary": "Build a credible online presence as a distributor, adviser or bank RM by describing your role accurately, sharing education instead of promises and protecting client data. You will rewrite risky posts into compliant, trustworthy ones.",
+      "sections": [
+        {
+          "heading": "In finance, trust is the product",
+          "body": "When someone hands you their savings, they are trusting your judgement and your honesty. Online, they decide whether to trust you long before they meet you, from your profile, your posts and how you respond to questions.\n\nThe finance professionals who build lasting online reputations usually do three things well. They are clear about who they are and how they are paid. They educate rather than sell. And they behave with the same care in public as in a client meeting.\n\nRegulators and industry bodies in India, such as SEBI and AMFI, set expectations for how market intermediaries communicate and advertise, and these apply to social media too. Your employer or the entities you work with may have stricter policies. Read the current guidelines that apply to your registration, and when in doubt, check with your compliance team before posting.",
+          "do": [
+            "Treat every public post like a client conversation",
+            "Read the current communication guidelines for your registration"
+          ],
+          "dont": [
+            "Assume social media is outside regulatory or employer rules",
+            "Post first and check compliance later"
+          ]
+        },
+        {
+          "heading": "Say exactly who you are",
+          "body": "Your profile should describe your role and registration accurately. A mutual fund distributor should say so, for example \"AMFI-registered Mutual Fund Distributor\" with the ARN shown where required. Titles such as \"adviser\" or \"wealth advisor\" are generally reserved for those registered with SEBI as investment advisers; using them otherwise can mislead clients and breach rules. A bank RM should name the role and employer as they are.\n\nBe ready to explain how you are paid. If you earn commission from product providers, say so plainly when clients ask, and share the disclosures your rules require. Clients increasingly expect this, and openness about fees builds more trust than a vague answer.\n\nBefore: \"Financial Wizard | Wealth Creator | Making clients rich since 2015\". After: \"AMFI-registered Mutual Fund Distributor (ARN shown in profile) | Goal-based investing for salaried families | Thane\".",
+          "do": [
+            "State your registration and role exactly",
+            "Explain how you are paid when asked, plainly"
+          ],
+          "dont": [
+            "Use titles your registration does not permit",
+            "Use labels like \"wealth creator\" or \"making clients rich\""
+          ]
+        },
+        {
+          "heading": "Educate, don't promise",
+          "body": "The safest and most trusted content is education: what an SIP is, how risk and time horizon relate, why an emergency fund comes before investing, how to read a factsheet. These posts help people make better decisions and show your knowledge without selling.\n\nNever promise or imply returns. Avoid lines like \"Earn 18% guaranteed\", \"This fund doubled money in three years, don't miss out\" or screenshots of big gains. Market-linked products carry risk, and past performance may not be repeated. If you mention performance at all, follow the rules that apply to you on how it may be shown, and include the required risk statements.\n\nDo not publish client testimonials, reviews or \"success stories\" as endorsements; industry rules restrict them, and they suggest outcomes others may not get. Let the quality of your explanations speak instead.",
+          "do": [
+            "Post plain-language explainers on concepts",
+            "Include the risk statements your rules require"
+          ],
+          "dont": [
+            "Promise, imply or screenshot returns",
+            "Share client testimonials or success stories as promotion"
+          ]
+        },
+        {
+          "heading": "Public questions, private advice",
+          "body": "People will ask in comments and messages: \"Which fund will give the best return?\" or \"Should I put ₹5 lakh in small caps now?\" Answering with a specific product in public is risky. You do not know their goals, risk appetite or existing investments, so any recommendation could be unsuitable.\n\nA better public reply is general and invites a proper conversation: \"That depends on your goal, time horizon and how much risk you can take. Happy to discuss your situation privately and understand it first.\" Then, in private, follow your normal suitability and documentation process.\n\nBe careful with finfluencer-style collaborations. Partnering with or paying unregistered people who give investment advice or make return claims can create serious regulatory problems for you. Check current rules before any tie-up.",
+          "do": [
+            "Keep public answers general and move specifics to a private, documented conversation",
+            "Assess suitability before any recommendation"
+          ],
+          "dont": [
+            "Recommend a specific product to a stranger in comments",
+            "Collaborate with unregistered influencers making return claims"
+          ]
+        },
+        {
+          "heading": "Protect client data and handle mistakes well",
+          "body": "Never post client names, photos with clients without written consent, portfolio screenshots, account statements or details of conversations. Even \"anonymous\" stories can identify someone in a small town or community. If a client story helps explain a concept, change enough details that no one could recognise them, and keep it about the lesson, not the outcome.\n\nSeparate personal and professional accounts where you can, and keep your professional profile free of political arguments and offensive jokes. Clients and employers will read both.\n\nIf you post something wrong or non-compliant, correct it quickly: edit or delete, and if needed, post a clear correction. Tell your compliance team. Owning a mistake openly preserves trust far better than hoping no one noticed.",
+          "do": [
+            "Change identifying details in any client-based example",
+            "Correct errors quickly and inform compliance"
+          ],
+          "dont": [
+            "Post portfolio screenshots or client photos without consent",
+            "Hide a mistake and hope nobody noticed"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Online trust comes from accuracy, education and care, not promises.",
+        "Describe your registration and role exactly, and be open about how you are paid.",
+        "Never promise returns, share gains screenshots or post client testimonials.",
+        "Keep public replies general; give specific recommendations only after a private suitability check.",
+        "Protect client data completely and correct mistakes quickly with compliance in the loop."
+      ],
+      "quiz": [
+        [
+          "Which LinkedIn headline is most appropriate for an AMFI-registered mutual fund distributor?",
+          [
+            "\"Wealth Advisor | Making clients rich since 2015\"",
+            "\"Financial Wizard | Guaranteed wealth creation\"",
+            "\"AMFI-registered Mutual Fund Distributor | Goal-based investing for salaried families | Thane\"",
+            "\"SEBI Investment Adviser (registration applied)\""
+          ],
+          2,
+          "It describes the actual registration and focus without misleading titles or promises."
+        ],
+        [
+          "Which post is safest and most trust-building for a distributor?",
+          [
+            "\"This fund doubled money in 3 years. Don't miss out!\"",
+            "A screenshot of a client's portfolio gains with the name blurred",
+            "\"Earn 15% returns with zero risk — DM me\"",
+            "An explainer on emergency funds"
+          ],
+          3,
+          "Educational content helps people decide well without promising outcomes."
+        ],
+        [
+          "A stranger comments: \"Which small-cap fund should I put ₹5 lakh into now?\" What is the best reply?",
+          [
+            "Name the top-performing small-cap fund of the last year",
+            "Say it depends on their goals; offer to talk privately",
+            "Tell them small caps always beat other funds over any period, so go ahead",
+            "Ignore the question and block them"
+          ],
+          1,
+          "Specific advice needs a suitability check; a general reply and private follow-up is responsible."
+        ],
+        [
+          "A happy client offers a glowing review for you to post. What should you do?",
+          [
+            "Thank them, but don't post it as promotion",
+            "Post it with their photo and name",
+            "Post it without their name",
+            "Turn it into a paid advertisement"
+          ],
+          0,
+          "Industry rules restrict testimonials, and they imply results others may not get."
+        ],
+        [
+          "A client asks how you earn money from recommending a fund. What is the best approach?",
+          [
+            "Say the service is completely free for them",
+            "Change the subject to fund performance",
+            "Explain your commission plainly, with disclosures",
+            "Say it's confidential company information that you are not allowed to share"
+          ],
+          2,
+          "Openness about how you are paid is expected and builds more trust than evasion."
+        ],
+        [
+          "Which is the best way to use a client story in an educational post?",
+          [
+            "Use the client's real name to make it relatable",
+            "Change identifying details; focus on the lesson",
+            "Share their statement with only the account number blurred for privacy",
+            "Mention their town, job and family to add detail"
+          ],
+          1,
+          "Even partial details can identify people; the lesson is what matters."
+        ],
+        [
+          "An unregistered finance influencer offers to promote your services by showing his own returns. What should you do?",
+          [
+            "Accept, since more reach means more clients",
+            "Accept but ask him not to mention your name",
+            "Pay him only in referrals instead of money",
+            "Decline or check current rules with compliance first"
+          ],
+          3,
+          "Tie-ups with unregistered people making return claims can create serious regulatory issues."
+        ],
+        [
+          "You notice your post from yesterday left out a required risk statement. What is best?",
+          [
+            "Correct it promptly and tell compliance",
+            "Leave it, since it has already been seen",
+            "Delete it quietly and never mention it",
+            "Add the statement later, but only if a client or a follower complains about it"
+          ],
+          0,
+          "Prompt correction and transparency with compliance limit harm and preserve trust."
+        ],
+        [
+          "Who decides whether a bank RM can post about the bank's products?",
+          [
+            "Only the RM's own judgement",
+            "Whoever has the most followers in the team",
+            "The product provider's marketing team alone",
+            "The bank's social media and compliance policies"
+          ],
+          3,
+          "Employees in regulated businesses must follow their employer's policies, which may be stricter than general rules."
+        ],
+        [
+          "What is the main reason to avoid titles like \"wealth advisor\" if you are a distributor?",
+          [
+            "They are too long for a LinkedIn headline",
+            "Recruiters dislike the word \"wealth\"",
+            "They can mislead clients and breach rules",
+            "They reduce your visibility in LinkedIn search results for financial planning"
+          ],
+          2,
+          "Your title should accurately reflect your registration so clients understand your role."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "The tempting screenshot",
+          "situation": "You are an MFD in Surat. A client's portfolio has grown strongly over five years, and he is happy for you to share a screenshot with his name hidden. A peer says such posts bring in many enquiries.",
+          "options": [
+            {
+              "text": "Post the screenshot with the name hidden, since the client agreed.",
+              "rating": "poor",
+              "feedback": "It still works as a testimonial and implies returns others may not get, which industry rules restrict."
+            },
+            {
+              "text": "Post the screenshot with a disclaimer that past performance is not a guarantee.",
+              "rating": "poor",
+              "feedback": "A disclaimer does not fix a post whose main message is a return claim."
+            },
+            {
+              "text": "Instead, write an explainer on staying invested through market falls, without his figures or story.",
+              "rating": "best",
+              "feedback": "You share the real lesson behind the result without implying outcomes or using client data."
+            },
+            {
+              "text": "Write a general post about the value of long-term investing, citing the client's experience in vague terms.",
+              "rating": "good",
+              "feedback": "Better than a screenshot, but even a vague reference to a client's gains edges towards a testimonial."
+            }
+          ]
+        },
+        {
+          "title": "The comment-section question",
+          "situation": "You are a bank RM in Kochi with an active LinkedIn presence. A stranger comments on your post: \"I'm 28 with ₹3 lakh saved. Which fund will give me the best return in one year?\"",
+          "options": [
+            {
+              "text": "Reply with the name of a fund that did well last year.",
+              "rating": "poor",
+              "feedback": "A public product pick with no suitability check could be unsuitable and breaches good practice."
+            },
+            {
+              "text": "Reply that it depends on goals, time frame and emergency savings, and invite a private conversation through the bank.",
+              "rating": "best",
+              "feedback": "It educates publicly and moves any recommendation into a proper, documented process."
+            },
+            {
+              "text": "Reply that one year is usually too short for equity funds and leave it there.",
+              "rating": "good",
+              "feedback": "Useful general education, but it misses the chance to offer a proper suitability conversation."
+            }
+          ]
+        },
+        {
+          "title": "The misleading title",
+          "situation": "A junior colleague, Pooja, who is an AMFI-registered distributor, has set her LinkedIn headline to \"Certified Wealth Advisor\". She says clients trust the word \"advisor\" more.",
+          "options": [
+            {
+              "text": "Tell her it's fine since everyone uses it.",
+              "rating": "poor",
+              "feedback": "Common misuse does not make it accurate or compliant."
+            },
+            {
+              "text": "Suggest she change it to her actual registration, such as \"AMFI-registered Mutual Fund Distributor\", and mention her focus area.",
+              "rating": "best",
+              "feedback": "An accurate title protects clients and Pooja, and a clear focus still makes her profile appealing."
+            },
+            {
+              "text": "Suggest she remove her headline title entirely to avoid problems.",
+              "rating": "good",
+              "feedback": "It removes the risk, but leaves her profile unclear; an accurate title is better than none."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "shield",
+          "title": "Trust is your real product",
+          "text": "Clients decide whether to trust you from your profile and posts — long before they meet you. Here's how to build that trust online and stay within the rules."
+        },
+        {
+          "kind": "compare",
+          "icon": "user",
+          "title": "Say exactly who you are",
+          "text": "Use your actual registration. Titles like \"adviser\" are generally for SEBI-registered investment advisers.",
+          "bad": "Financial Wizard | Wealth Advisor | Making clients rich",
+          "good": "AMFI-registered Mutual Fund Distributor | Goal-based investing for salaried families | Thane"
+        },
+        {
+          "kind": "compare",
+          "icon": "book",
+          "title": "Educate, don't promise",
+          "text": "Explain concepts. Never promise, imply or screenshot returns.",
+          "bad": "This fund doubled money in 3 years. Don't miss out!",
+          "good": "Why your emergency fund should come before your first SIP."
+        },
+        {
+          "kind": "compare",
+          "icon": "phone",
+          "title": "Public question, private advice",
+          "text": "You don't know a stranger's goals or risk. Move specifics to a proper suitability conversation.",
+          "bad": "Go for the top small-cap fund from last year.",
+          "good": "That depends on your goal, time frame and risk. Happy to discuss your situation privately first."
+        },
+        {
+          "kind": "tip",
+          "icon": "info",
+          "title": "Be open about how you're paid",
+          "text": "If you earn commission, say so plainly when asked and share the required disclosures. A clear answer builds more trust than a vague one."
+        },
+        {
+          "kind": "checklist",
+          "icon": "check",
+          "title": "Before any finance post",
+          "text": "Tap each one as you check it.",
+          "items": [
+            "No client names, photos, statements or screenshots",
+            "No testimonials or success stories",
+            "No promised or implied returns",
+            "Required risk statements included",
+            "Fits your employer's and compliance team's policy"
+          ]
+        },
+        {
+          "kind": "tip",
+          "icon": "refresh",
+          "title": "Got it wrong? Fix it fast",
+          "text": "Edit or delete, post a clear correction if needed, and tell compliance. Owning a mistake keeps trust; hiding it doesn't."
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Trust online, the compliant way:"
+        }
+      ]
+    }
+  ]
+}
