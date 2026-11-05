@@ -293,6 +293,11 @@ label.field > span { display: block; margin-bottom: 7px; }
 .auth-side li { display: flex; gap: 12px; align-items: center; padding: 9px 0; font-weight: 500; color: var(--heading); }
 .auth-side li span { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 10px; background: var(--surface); color: var(--brand); border: 1px solid var(--border); }
 .auth-form { padding: 44px; }
+.btn-google { display: flex; align-items: center; justify-content: center; gap: 10px; background: var(--surface); color: var(--heading); border: 1px solid var(--border); margin-top: 18px; }
+.btn-google:hover { background: var(--surface-2); }
+.or-divider { display: flex; align-items: center; gap: 12px; margin: 18px 0 6px; color: var(--muted); font-size: .85rem; }
+.or-divider::before, .or-divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+img.avatar { object-fit: cover; padding: 0; }
 
 /* Exam detail */
 .exam-hero-top { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }

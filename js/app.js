@@ -186,6 +186,49 @@
   const chaptersFor = (examId) => [...new Set(questionsFor(examId).map((q) => q.chapter))];
   const totalQuestions = () => EXAMS.reduce((s, e) => s + questionsFor(e.id).length, 0);
 
+  // ---------- Google sign-in (Supabase Auth) ----------
+  // The publishable key is meant to be public; the Google client secret lives only in Supabase.
+  const SUPABASE_URL = 'https://yjxjldpmtedhjxggybbx.supabase.co';
+  const SUPABASE_KEY = 'sb_publishable_0oUFLZ9eHK3pr19J2Ae4UQ_N4Kaqrtn';
+  const sb = window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, { auth: { flowType: 'pkce', detectSessionInUrl: true, persistSession: true } }) : null;
+
+  async function googleSignIn(next) {
+    if (!sb) return toast('Google sign-in is unavailable right now. Please try again.');
+    try { sessionStorage.setItem('s4s_next', next || '/dashboard'); } catch (e) { /* storage unavailable */ }
+    const { error } = await sb.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: location.origin + '/' } });
+    if (error) toast('Could not start Google sign-in: ' + error.message);
+  }
+
+  // Mirror the Supabase user into the local stores so subscriptions and progress keep working.
+  function adoptSupabaseUser(su) {
+    const m = su.user_metadata || {};
+    const list = store.get('users', []);
+    const prev = list.find((x) => x.id === su.id) || {};
+    const u = { ...prev, id: su.id, email: (su.email || '').toLowerCase(), name: m.full_name || m.name || (su.email || 'Learner').split('@')[0],
+      avatar: m.avatar_url || m.picture || '', provider: 'google', created: prev.created || Date.now() };
+    store.set('users', [...list.filter((x) => x.id !== su.id), u]);
+    store.set('session', { userId: u.id, provider: 'google' });
+    return u;
+  }
+
+  if (sb) {
+    sb.auth.onAuthStateChange((event, s) => {
+      setTimeout(() => {
+        if (s && s.user) {
+          const fresh = !(store.get('session', null) || {}).userId || store.get('session', null).userId !== s.user.id;
+          const u = adoptSupabaseUser(s.user);
+          let next = null;
+          try { next = sessionStorage.getItem('s4s_next'); sessionStorage.removeItem('s4s_next'); } catch (e) { /* storage unavailable */ }
+          if (/[?&]code=/.test(location.search)) history.replaceState(null, '', location.pathname + location.hash);
+          if (next) { toast(`Welcome, ${u.name.split(' ')[0]}!`); location.hash = '#' + next; }
+          if (fresh || next) route();
+        } else if (event === 'SIGNED_OUT' && (store.get('session', null) || {}).provider === 'google') {
+          store.set('session', null); route();
+        }
+      }, 0);
+    });
+  }
+
   const users = () => store.get('users', []);
   const session = () => store.get('session', null);
   const currentUser = () => { const s = session(); return s ? users().find((u) => u.id === s.userId) || null : null; };
@@ -240,7 +283,7 @@
         ${icon('search', 16)}<input type="search" placeholder="Search exams, e.g. NISM V-A, IBPS PO…" aria-label="Search exams"><kbd>⌘K</kbd>
       </form>
       <div class="nav-right">
-        ${u ? `${link('#/dashboard', 'Dashboard', 'dashboard')}<a href="#/" id="logout">Log out</a><span class="avatar" title="${esc(u.name)}">${esc(u.name.trim()[0].toUpperCase())}</span>`
+        ${u ? `${link('#/dashboard', 'Dashboard', 'dashboard')}<a href="#/" id="logout">Log out</a>${u.avatar ? `<img class="avatar" src="${esc(u.avatar)}" alt="" title="${esc(u.name)}" referrerpolicy="no-referrer">` : `<span class="avatar" title="${esc(u.name)}">${esc(u.name.trim()[0].toUpperCase())}</span>`}`
             : `<a href="#/login" class="btn btn-primary btn-sm">Login / Sign up</a>`}
       </div>`;
     $('#nav-search').addEventListener('submit', (e) => {
@@ -249,7 +292,13 @@
       location.hash = '#/exams' + (q ? '?q=' + encodeURIComponent(q) : '');
     });
     const lo = $('#logout');
-    lo && lo.addEventListener('click', (e) => { e.preventDefault(); store.set('session', null); toast('Logged out'); location.hash = '#/'; route(); });
+    lo && lo.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const viaGoogle = (session() || {}).provider === 'google';
+      store.set('session', null);
+      if (viaGoogle && sb) await sb.auth.signOut().catch(() => {});
+      toast('Logged out'); location.hash = '#/'; route();
+    });
   }
 
   document.addEventListener('keydown', (e) => {
@@ -801,6 +850,8 @@
           <div class="auth-form">
             <h2 style="font-size:1.7rem">${isReg ? 'Create your account' : 'Log in'}</h2>
             <p class="muted">${isReg ? 'It takes less than a minute.' : 'Enter your details to continue.'}</p>
+            <button type="button" class="btn btn-google btn-lg btn-block" id="google-btn"><svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>Continue with Google</button>
+            <div class="or-divider"><span>or use email</span></div>
             <form id="auth-form" novalidate>
               ${isReg ? `<label class="field"><span>Full name</span><div class="input-ico">${icon('user', 18)}<input name="name" autocomplete="name" placeholder="Your name" required></div></label>
               <label class="field"><span>Mobile number</span><div class="input-ico">${icon('phone', 18)}<input name="mobile" inputmode="numeric" autocomplete="tel" maxlength="10" placeholder="10-digit mobile" required></div></label>` : ''}
@@ -810,10 +861,11 @@
               <button class="btn btn-primary btn-lg btn-block">${isReg ? 'Create account' : 'Log in'} ${arrow()}</button>
             </form>
             <p class="center small" style="margin-top:18px">${isReg ? 'Already have an account?' : 'New to Success4Sure?'} <a href="#/${other}${nextQs}"><b>${isReg ? 'Log in' : 'Create an account'}</b></a></p>
-            <div class="notice info small">${icon('info', 16)}<span>Prototype: accounts are stored only in this browser. The live site will use secure server-side login.</span></div>
+            <div class="notice info small">${icon('info', 16)}<span>Google sign-in is secure and works across devices. Email accounts are a prototype stored only in this browser.</span></div>
           </div>
         </div>
       </div>`;
+    $('#google-btn').addEventListener('click', () => googleSignIn(next));
     $('#auth-form').addEventListener('submit', async (ev) => {
       ev.preventDefault();
       const f = Object.fromEntries(new FormData(ev.target));
