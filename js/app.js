@@ -222,6 +222,7 @@
           if (/[?&]code=/.test(location.search)) history.replaceState(null, '', location.pathname + location.hash);
           if (next) { toast(`Welcome, ${u.name.split(' ')[0]}!`); location.hash = '#' + next; }
           if (fresh || next) route();
+          else renderNav((location.hash.replace(/^#\/?/, '').split(/[/?]/)[0]) || '');
         } else if (event === 'SIGNED_OUT' && (store.get('session', null) || {}).provider === 'google') {
           store.set('session', null); route();
         }
@@ -283,7 +284,16 @@
         ${icon('search', 16)}<input type="search" placeholder="Search exams, e.g. NISM V-A, IBPS PO…" aria-label="Search exams"><kbd>⌘K</kbd>
       </form>
       <div class="nav-right">
-        ${u ? `${link('#/dashboard', 'Dashboard', 'dashboard')}<a href="#/" id="logout">Log out</a>${u.avatar ? `<img class="avatar" src="${esc(u.avatar)}" alt="" title="${esc(u.name)}" referrerpolicy="no-referrer">` : `<span class="avatar" title="${esc(u.name)}">${esc(u.name.trim()[0].toUpperCase())}</span>`}`
+        ${u ? `${link('#/dashboard', 'Dashboard', 'dashboard', 'nav-dash')}
+          <div class="pmenu">
+            <button type="button" class="pmenu-btn ${active === 'profile' ? 'active' : ''}" id="pmenu-btn" aria-haspopup="menu" aria-expanded="false" aria-label="Open profile menu">${avatarHtml(u)}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+            <div class="pmenu-pop" id="pmenu-pop" role="menu" hidden>
+              <div class="pmenu-head">${avatarHtml(u, 'avatar avatar-md')}<div><b>${esc(u.name)}</b><span>${esc(u.email || '')}</span></div></div>
+              <a role="menuitem" href="#/profile">${icon('user', 18)} My profile &amp; plans</a>
+              <a role="menuitem" href="#/dashboard">${icon('grid', 18)} Dashboard</a>
+              <a role="menuitem" href="#/" id="logout" class="pmenu-out">${icon('back', 18)} Log out</a>
+            </div>
+          </div>`
             : `<a href="#/login" class="btn btn-primary btn-sm">Login / Sign up</a>`}
       </div>`;
     $('#nav-search').addEventListener('submit', (e) => {
@@ -291,6 +301,8 @@
       const q = $('input', e.currentTarget).value.trim();
       location.hash = '#/exams' + (q ? '?q=' + encodeURIComponent(q) : '');
     });
+    const pb = $('#pmenu-btn');
+    pb && pb.addEventListener('click', (e) => { e.stopPropagation(); togglePmenu(); });
     const lo = $('#logout');
     lo && lo.addEventListener('click', async (e) => {
       e.preventDefault();
@@ -300,6 +312,19 @@
       toast('Logged out'); location.hash = '#/'; route();
     });
   }
+
+  function avatarHtml(u, cls = 'avatar') {
+    const initial = esc((u.name || u.email || '?').trim()[0].toUpperCase());
+    return `<span class="${cls}" title="${esc(u.name)}">${initial}${u.avatar ? `<img src="${esc(u.avatar)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">` : ''}</span>`;
+  }
+  function togglePmenu(open) {
+    const pop = $('#pmenu-pop'), btn = $('#pmenu-btn');
+    if (!pop) return;
+    const show = open === undefined ? pop.hidden : open;
+    pop.hidden = !show; btn.setAttribute('aria-expanded', String(show));
+  }
+  document.addEventListener('click', (e) => { if (!e.target.closest('.pmenu-pop')) togglePmenu(false); else if (e.target.closest('a')) togglePmenu(false); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') togglePmenu(false); });
 
   document.addEventListener('keydown', (e) => {
     if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
@@ -327,6 +352,7 @@
       register: () => viewAuth('register', params.get('next')),
       checkout: () => viewCheckout(parts[1], Number(parts[2])),
       dashboard: viewDashboard,
+      profile: viewProfile,
       test: () => viewTest(parts[1], params.get('demo') === '1', Number(parts[2]) || 0),
       result: () => viewResult(parts[1]),
       admin: viewAdmin,
@@ -993,29 +1019,8 @@
         </div>
 
         <section style="margin-top:40px">
-          <div class="row" style="margin-bottom:18px"><h2 style="margin:0;font-size:1.5rem">My subscriptions</h2></div>
-          ${latest.length ? `<div class="grid">${latest.map((s, i) => {
-            const e = examById(s.examId);
-            const c = CAT[e.category];
-            const active = s.end > now;
-            const left = Math.ceil((s.end - now) / DAY);
-            const owned = testsIn(s);
-            const st = mockStatus(u.id, e.id);
-            const doneN = Object.keys(st).filter((k) => Number(k) <= owned).length;
-            const nx = nextMock(st, owned);
-            const pct = (doneN / owned) * 100;
-            return `<div class="exam-card sub-card reveal" style="--c:${c.color};--d:${i * 0.05}s">
-              <div class="ec-top"><span class="ec-icon">${icon(c.icon, 24)}</span>${active ? `<span class="badge">${left} day${left === 1 ? '' : 's'} left</span>` : '<span class="badge badge-danger">Expired</span>'}</div>
-              <span class="series">${esc(examCode(e))}</span>
-              <h3>${esc(e.name)}</h3>
-              <div class="meter"><span style="width:${pct}%"></span></div>
-              <span class="small muted">${doneN} of ${owned} mock tests attempted · ${active ? 'valid until' : 'expired on'} ${fmtDate(s.end)}</span>
-              <div style="margin-top:auto;padding-top:14px">${active
-                ? (nx ? `<a class="btn btn-primary btn-block" href="#/test/${e.id}/${nx}">${icon('bolt', 16)} Start Mock Test ${nx}</a>`
-                      : `<a class="btn btn-block" href="#/exam/${e.id}">View all mock tests</a>`)
-                : `<a class="btn btn-block" href="#/exam/${e.id}">${icon('refresh', 16)} Renew</a>`}</div>
-            </div>`;
-          }).join('')}</div>` : `<div class="card center reveal" style="padding:48px 24px"><span class="stat-ico" style="margin:0 auto 14px;width:60px;height:60px">${icon('book', 28)}</span><h3>No subscriptions yet</h3><p class="muted">Choose an exam and a plan to unlock up to 30 mock tests.</p><a class="btn btn-primary" href="#/exams">Browse exams ${arrow()}</a></div>`}
+          ${latest.length ? `<a class="card plans-link reveal" href="#/profile"><span class="stat-ico">${icon('grid', 22)}</span><div><b>My plans</b><span class="small muted">${activeCount ? `${activeCount} active plan${activeCount === 1 ? '' : 's'} · start your next mock test from your profile` : 'All your plans have expired · renew from your profile'}</span></div>${arrow()}</a>`
+            : `<div class="card center reveal" style="padding:48px 24px"><span class="stat-ico" style="margin:0 auto 14px;width:60px;height:60px">${icon('book', 28)}</span><h3>No subscriptions yet</h3><p class="muted">Choose an exam and a plan to unlock up to 30 mock tests.</p><a class="btn btn-primary" href="#/exams">Browse exams ${arrow()}</a></div>`}
         </section>
 
         <section style="margin-top:48px">
@@ -1038,6 +1043,80 @@
         </section>` : ''}
       </div>`;
     requestAnimationFrame(() => setTimeout(() => $$('.bar > span[data-w]').forEach((s) => { s.style.width = s.dataset.w + '%'; }), 100));
+  }
+
+  // ---------- profile ----------
+  function subCard(u, s, i) {
+    const now = Date.now();
+    const e = examById(s.examId);
+    const c = CAT[e.category];
+    const active = s.end > now;
+    const left = Math.ceil((s.end - now) / DAY);
+    const owned = testsIn(s);
+    const st = mockStatus(u.id, e.id);
+    const doneN = Object.keys(st).filter((k) => Number(k) <= owned).length;
+    const nx = nextMock(st, owned);
+    const pct = (doneN / owned) * 100;
+    return `<div class="exam-card sub-card reveal" style="--c:${c.color};--d:${i * 0.05}s">
+      <div class="ec-top"><span class="ec-icon">${icon(c.icon, 24)}</span>${active ? `<span class="badge">${left} day${left === 1 ? '' : 's'} left</span>` : '<span class="badge badge-danger">Expired</span>'}</div>
+      <span class="series">${esc(examCode(e))}</span>
+      <h3>${esc(e.name)}</h3>
+      <div class="meter"><span style="width:${pct}%"></span></div>
+      <span class="small muted">${doneN} of ${owned} mock tests attempted · ${active ? 'valid until' : 'expired on'} ${fmtDate(s.end)}</span>
+      <div style="margin-top:auto;padding-top:14px">${active
+        ? (nx ? `<a class="btn btn-primary btn-block" href="#/test/${e.id}/${nx}">${icon('bolt', 16)} Start Mock Test ${nx}</a>`
+              : `<a class="btn btn-block" href="#/exam/${e.id}">View all mock tests</a>`)
+        : `<a class="btn btn-block" href="#/exam/${e.id}">${icon('refresh', 16)} Renew</a>`}</div>
+    </div>`;
+  }
+
+  function viewProfile() {
+    if (!requireLogin()) return;
+    const u = currentUser();
+    const now = Date.now();
+    const mine = subs().filter((s) => s.userId === u.id && examById(s.examId));
+    const byExam = {};
+    mine.forEach((s) => { if (!byExam[s.examId] || s.end > byExam[s.examId].end) byExam[s.examId] = s; });
+    const current = Object.values(byExam).sort((a, b) => b.end - a.end);
+    const history = [...mine].sort((a, b) => (b.created || b.start) - (a.created || a.start));
+    const status = (s) => (s.upgradedTo ? '<span class="badge">Upgraded</span>' : s.end > now ? '<span class="badge badge-success">Active</span>' : '<span class="badge badge-danger">Expired</span>');
+    const viaGoogle = (session() || {}).provider === 'google' || u.provider === 'google';
+    app.innerHTML = `
+      <div class="wrap page">
+        <div class="card profile-card reveal">
+          ${avatarHtml(u, 'avatar avatar-xl')}
+          <div class="profile-info">
+            <h1>${esc(u.name)}</h1>
+            <p class="muted">${esc(u.email || '')}${u.mobile ? ` · ${esc(u.mobile)}` : ''}</p>
+            <div class="row" style="gap:8px;margin-top:10px">
+              <span class="badge">${viaGoogle ? 'Signed in with Google' : 'Email account (this browser only)'}</span>
+              ${u.created ? `<span class="badge">Member since ${fmtDate(u.created)}</span>` : ''}
+            </div>
+          </div>
+          <button class="btn" id="profile-logout">${icon('back', 16)} Log out</button>
+        </div>
+
+        <section style="margin-top:40px">
+          <div class="row" style="margin-bottom:18px"><h2 style="margin:0;font-size:1.5rem">My plans</h2><span class="spacer"></span><a class="btn btn-sm" href="#/exams">${icon('plus', 16)} Add an exam</a></div>
+          ${current.length ? `<div class="grid">${current.map((s, i) => subCard(u, s, i)).join('')}</div>`
+            : `<div class="card center reveal" style="padding:48px 24px"><span class="stat-ico" style="margin:0 auto 14px;width:60px;height:60px">${icon('book', 28)}</span><h3>No plans yet</h3><p class="muted">Choose an exam and a plan to unlock up to 30 mock tests.</p><a class="btn btn-primary" href="#/exams">Browse exams ${arrow()}</a></div>`}
+        </section>
+
+        ${history.length ? `<section style="margin-top:48px">
+          <h2 style="font-size:1.5rem">Purchase history</h2>
+          <div class="card table-wrap reveal" style="padding:8px 16px"><table>
+            <tr><th>Purchased</th><th>Exam</th><th>Plan</th><th>Valid until</th><th>Amount</th><th>Status</th></tr>
+            ${history.map((s) => { const e = examById(s.examId); return `<tr>
+              <td>${fmtDate(s.created || s.start)}</td>
+              <td><b>${esc(examCode(e))}</b><div class="small muted">${esc(e.name)}</div></td>
+              <td>${esc(s.label || s.days + ' days')}<div class="small muted">${testsIn(s)} mock tests</div></td>
+              <td>${fmtDate(s.end)}</td>
+              <td>${s.price !== undefined ? inr(s.price) : '—'}<div class="small muted">${esc(s.paymentRef || '')}</div></td>
+              <td>${status(s)}</td></tr>`; }).join('')}
+          </table></div>
+        </section>` : ''}
+      </div>`;
+    $('#profile-logout').addEventListener('click', () => $('#logout').click());
   }
 
   // ---------- test engine ----------
