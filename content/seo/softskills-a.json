@@ -1,0 +1,641 @@
+{
+  "hub": {
+    "primary": "soft skills courses online",
+    "secondary": [
+      "soft skills training for freshers",
+      "soft skills course for professionals",
+      "online soft skills certification course",
+      "workplace skills course online",
+      "soft skills for students",
+      "personality development course online",
+      "communication and interview skills course"
+    ],
+    "title": "Soft Skills Courses Online for Freshers and Professionals",
+    "description": "Soft skills courses online for freshers and professionals: communication, interviews, AI at work, money and more. Start your first lesson free today.",
+    "intro": "Our soft skills courses online cover the skills employers notice from day one: clear communication, confident interviews, teamwork, working with AI, critical thinking, productivity, networking, negotiation and handling money and stress. There are 16 short courses, each with six bite-size lessons, quick quizzes and realistic workplace scenarios. They suit freshers, students and early-career professionals, and several lessons are written for mutual fund distributors, advisers and relationship managers. Pick a course, try the first lesson free and build one practical skill at a time."
+  },
+  "courses": {
+    "communication": {
+      "primary": "communication skills course online",
+      "secondary": [
+        "communication skills for freshers",
+        "how to improve communication skills",
+        "communication skills course free",
+        "business communication skills",
+        "workplace communication skills",
+        "professional email writing",
+        "active listening skills",
+        "spoken english for workplace"
+      ],
+      "title": "Communication Skills Course Online for Work and Clients",
+      "description": "Communication skills course online: learn how to improve communication skills at work, from emails to calls and meetings. Try the first lesson free.",
+      "intro": "This communication skills course online helps you say what you mean, clearly and politely, in the situations you face every working day. You will learn to lead with your main point, listen properly, write emails that get replies and handle calls and video meetings with ease. If you are looking for practical communication skills for freshers, the lessons on workplace English and small talk will feel familiar fast. Finance professionals also get a lesson on explaining products simply. It is a hands-on way to learn how to improve communication skills without long lectures.",
+      "learn": [
+        "Lead with your main point and cut filler so people understand you quickly",
+        "Listen actively, ask clarifying questions and paraphrase to confirm what someone needs",
+        "Write professional emails with clear subject lines and the request in the first two lines",
+        "Open and close phone calls well and contribute confidently in video meetings",
+        "Use simple workplace English phrases and start small talk without awkwardness",
+        "Explain financial products in plain language and discuss risk honestly with clients"
+      ],
+      "who": [
+        "Freshers and students preparing for their first office job",
+        "Early-career professionals who want to sound clearer in meetings",
+        "Anyone whose emails often get no reply or confused replies",
+        "Mutual fund distributors, advisers and relationship managers who explain products"
+      ],
+      "faqs": [
+        [
+          "How can I improve my communication skills quickly?",
+          "Start with three habits: state your main point first, replace filler words with specific facts, and ask a quick question to check you were understood. Practise them in every email and meeting for two weeks. Short daily practice with real situations works better than reading long theory, which is why each lesson here ends with a scenario."
+        ],
+        [
+          "Which communication skills do freshers need at work?",
+          "Freshers mainly need clear speaking, active listening, professional email writing and confident phone and video meeting etiquette. Simple workplace English and comfortable small talk also help you settle in. You do not need fancy vocabulary; managers value short, specific messages and people who confirm what they heard before acting."
+        ],
+        [
+          "How do I write a professional email that gets a reply?",
+          "Use a subject line that says what is inside, put your request and deadline in the first two lines, and keep the body easy to scan with short paragraphs or bullets. Check your tone and CC list before sending. Vague emails get ignored because the reader cannot tell what you need from them."
+        ],
+        [
+          "Is good English required for strong communication skills?",
+          "No. Strong workplace communication depends far more on clarity, structure and listening than on advanced English. Simple words, short sentences and concrete numbers are easier for everyone to follow. Learning a handful of useful phrases for introductions, asking for help and disagreeing politely is enough to communicate confidently in most offices."
+        ]
+      ]
+    },
+    "interview-career": {
+      "primary": "interview skills course online",
+      "secondary": [
+        "interview preparation for freshers",
+        "how to answer tell me about yourself",
+        "hr interview questions and answers",
+        "star method interview answers",
+        "group discussion tips",
+        "resume tips for freshers",
+        "how to negotiate salary in interview",
+        "interview tips for relationship manager"
+      ],
+      "title": "Interview Skills Course Online for Freshers and Switchers",
+      "description": "Interview skills course online with interview preparation for freshers: HR questions, STAR answers, GDs, resume and salary talks. Try lesson one free.",
+      "intro": "This interview skills course online prepares you for the moments that decide a selection: the opening question, the HR round, the group discussion and the offer conversation. You will build a strong answer to \"tell me about yourself\", create STAR stories from your own experience and turn your resume into evidence of results. It works as focused interview preparation for freshers, and it also covers lateral moves and client-facing finance roles. Each lesson includes a realistic scenario, so you practise answering HR interview questions out loud rather than memorising scripts.",
+      "learn": [
+        "Build a 60–90 second answer to \"Tell me about yourself\" using Present, Past, Future",
+        "Answer behavioural HR questions with clear STAR stories from a ready story bank",
+        "Rewrite duty-style resume bullets into results and align your LinkedIn profile",
+        "Understand CTC versus in-hand pay and discuss salary expectations calmly",
+        "Open, build on others and summarise well in bank PO and MBA group discussions",
+        "Show client focus and ethics in relationship manager and adviser interviews"
+      ],
+      "who": [
+        "Final-year students and freshers facing campus placements",
+        "Bank PO and MBA aspirants preparing for group discussions",
+        "Professionals planning a lateral move or a new role",
+        "Candidates for relationship manager, adviser and distributor roles"
+      ],
+      "faqs": [
+        [
+          "How should a fresher answer \"Tell me about yourself\"?",
+          "Use a simple Present, Past, Future structure: what you are doing now, the relevant study or projects that brought you here, and why this role fits what you want next. Keep it to 60–90 seconds, link each part to the job, and practise the key points rather than memorising a script word for word."
+        ],
+        [
+          "What is the STAR method in interviews?",
+          "STAR stands for Situation, Task, Action and Result. It is a way to answer behavioural questions such as \"Tell me about a time you handled pressure\" with a short, real story. Spend most of your answer on the actions you personally took and end with a specific result or what you learned."
+        ],
+        [
+          "How do I perform well in a group discussion?",
+          "Evaluators look for relevant content, listening and teamwork, not volume. Enter with a clear point, build on what others say, invite quieter members in and offer a balanced summary at the end. Avoid shouting over people, hijacking the topic or staying silent for the whole discussion."
+        ],
+        [
+          "What is the difference between CTC and in-hand salary?",
+          "CTC is the total annual cost to the company, including fixed pay, variable pay, employer PF contributions and other benefits. In-hand salary is what reaches your bank account each month after deductions such as tax and your PF share. Always ask for the break-up before comparing offers."
+        ]
+      ]
+    },
+    "personality": {
+      "primary": "personality development course online",
+      "secondary": [
+        "personality development for freshers",
+        "how to build confidence at work",
+        "body language tips for interviews",
+        "professional grooming tips",
+        "corporate etiquette for freshers",
+        "how to handle rejection",
+        "self confidence course online"
+      ],
+      "title": "Personality Development Course Online: Confidence at Work",
+      "description": "Personality development course online: build confidence at work, body language, grooming and resilience with practical lessons. Start lesson one free.",
+      "intro": "This personality development course online focuses on what people actually notice at work: how you carry yourself, how you speak up and how you recover when things go wrong. Instead of pep talks, you will learn how to build confidence at work from evidence and small stretch steps, use body language that builds trust and create a reliable first impression on any budget. It also covers personality development for freshers moving from campus to corporate, and trust-building for client-facing finance roles. Every lesson ends with a realistic scenario to practise.",
+      "learn": [
+        "Build confidence from evidence and practice so you can speak up without hedging",
+        "Use posture, eye contact and greetings that build trust, in person and on video",
+        "Create a dependable first impression through punctuality, preparation and neat grooming",
+        "Respond to rejection and setbacks with a steady routine and useful lessons",
+        "Follow everyday first-job etiquette for emails, meetings, deadlines and office relationships",
+        "Earn client trust through plain disclosure of fees and risks and consistent follow-through"
+      ],
+      "who": [
+        "Freshers making the move from campus to corporate life",
+        "Young professionals who freeze or over-explain when speaking up",
+        "Job seekers dealing with repeated rejections and setbacks",
+        "Advisers and relationship managers building long-term client trust"
+      ],
+      "faqs": [
+        [
+          "How can I build self-confidence at work?",
+          "Confidence grows from evidence, not affirmations. Keep a simple record of tasks you handled well, prepare before meetings, and take on slightly bigger challenges in small, regular steps. Practise stating your view without excessive hedging, and admit gaps honestly. Each small success gives you real proof that you can handle the next one."
+        ],
+        [
+          "What does personality development include for freshers?",
+          "For freshers it usually covers confidence, body language, grooming and professional presence, workplace etiquette and resilience. The aim is not to change who you are but to show your strengths clearly: being punctual, prepared, attentive and dependable. These habits shape how managers and colleagues see you in your first months."
+        ],
+        [
+          "Does body language really matter in interviews and meetings?",
+          "Yes, though it has limits. Upright, relaxed posture, natural eye contact and a calm greeting help people read you as attentive and trustworthy. Signals work best when they match your words. On video calls, camera height, framing and looking at the lens occasionally matter just as much."
+        ],
+        [
+          "How do I handle rejection without losing motivation?",
+          "Give yourself a short time to feel disappointed, then review what you can learn without dwelling on it. Track your inputs, such as applications sent or practice done, not only outcomes you cannot control. Steady routines for sleep, exercise and support from friends help you keep going after each \"no\"."
+        ]
+      ]
+    },
+    "workplace": {
+      "primary": "workplace skills training online",
+      "secondary": [
+        "time management skills course",
+        "teamwork skills at workplace",
+        "emotional intelligence at work",
+        "how to handle conflict at work",
+        "presentation skills course online",
+        "how to take feedback positively",
+        "handling client objections",
+        "workplace effectiveness training"
+      ],
+      "title": "Workplace Skills Training Online: Time, Teams and Feedback",
+      "description": "Workplace skills training online: time management, teamwork, emotional intelligence, conflict, presentations and feedback. Try your first lesson free.",
+      "intro": "This workplace skills training online covers the everyday habits that make you effective and easy to work with. You will learn to prioritise by urgency and importance, plan realistic weeks, set clear roles in a team and disagree without damaging relationships. Lessons on emotional intelligence at work and how to handle conflict at work give you a step-by-step approach for tense moments. You will also build presentations around one clear message, take feedback without getting defensive and, for finance roles, handle client objections calmly and honestly.",
+      "learn": [
+        "Sort tasks by urgency and importance and plan realistic weeks and days",
+        "Clarify team roles, become dependable and disagree constructively before committing to decisions",
+        "Pause, name and choose your response when emotions run high at work",
+        "Build a presentation around one message and handle tough questions with confidence",
+        "Turn vague feedback into specific actions using the SBI model",
+        "Handle client concerns about market falls and fees without promising returns"
+      ],
+      "who": [
+        "Freshers who want to be seen as reliable from week one",
+        "Team members juggling many requests and tight deadlines",
+        "Professionals who dread presenting or receiving critical feedback",
+        "Client-facing finance staff handling objections and difficult conversations"
+      ],
+      "faqs": [
+        [
+          "What are the most important workplace skills for freshers?",
+          "Time management, teamwork, emotional intelligence, presenting ideas and taking feedback well matter most early on. Together they show you can deliver on time, work smoothly with others and keep improving. Technical skills get you hired, but these everyday habits decide how much responsibility you are trusted with next."
+        ],
+        [
+          "How do I manage my time better at work?",
+          "Sort tasks by urgency and importance before starting them, plan your week first and then each day, and block time for focused work. When new requests arrive, ask about priority and agree a realistic timeline instead of saying yes to everything. Flag likely delays early, not on the deadline."
+        ],
+        [
+          "How should I handle conflict with a colleague?",
+          "Pause before reacting, name what you are feeling and choose a calm response. Then talk privately, describe the specific issue rather than the person, listen to their view and agree a next step together. If the conflict involves harassment, discrimination or ethics, use your organisation's formal channels instead."
+        ],
+        [
+          "How do I take negative feedback without getting defensive?",
+          "Listen fully, thank the person and ask for a specific example. The SBI model helps: clarify the Situation, the Behaviour observed and its Impact. Then agree one or two actions you will take and check back later. Treating feedback as information about your work, not your worth, makes it easier."
+        ]
+      ]
+    },
+    "ai-at-work": {
+      "primary": "ai skills course for professionals",
+      "secondary": [
+        "how to use ai at work",
+        "prompt writing for beginners",
+        "chatgpt for office work",
+        "how to write good prompts",
+        "ai tools for productivity",
+        "is it safe to use ai at work",
+        "ai for finance professionals",
+        "generative ai course online"
+      ],
+      "title": "AI Skills Course for Professionals: Use AI at Work Safely",
+      "description": "AI skills course for professionals: learn how to use AI at work to write prompts, check output and protect data. Practical lessons, first lesson free.",
+      "intro": "This AI skills course for professionals shows you how to use AI at work in a practical, responsible way. You will learn prompt writing for beginners using a simple task, context, audience and format structure, then check AI output for made-up facts and wrong figures before anyone else sees it. Lessons cover what you should never paste into a public AI tool, drafting emails and summaries faster, and using AI honestly in your job search. Finance professionals get a dedicated lesson on client data, suitability and compliance records.",
+      "learn": [
+        "Write prompts with task, context, audience and format to get useful answers",
+        "Spot made-up facts, wrong figures and bias in AI output before using it",
+        "Remove personal and confidential data from prompts and follow your company's AI policy",
+        "Use AI to draft emails, summarise long documents and start research faster",
+        "Tailor resumes and practise interviews with AI without inventing anything about yourself",
+        "Keep client data private and check every AI-generated number in finance work"
+      ],
+      "who": [
+        "Freshers and students starting to use AI chat tools",
+        "Office professionals who want faster drafting, summaries and research",
+        "Job seekers using AI for resumes, cover letters and practice",
+        "Mutual fund distributors, advisers and relationship managers handling client data"
+      ],
+      "faqs": [
+        [
+          "How can I use AI at work without making mistakes?",
+          "Give the AI a clear brief with the task, context and format you need, then treat its answer as a first draft. Verify facts, figures and sources before using them, match your checking to the stakes, and never paste confidential or personal data into public tools. Your judgement stays in charge."
+        ],
+        [
+          "How do I write a good prompt for ChatGPT or other AI tools?",
+          "Say what you want done, give the background, name the audience and describe the format, such as five bullet points or a 100-word email. Add an example or limits if useful. If the first answer is off, refine it in the same conversation instead of starting over."
+        ],
+        [
+          "Is it safe to use AI tools at work?",
+          "It can be, if you follow your company's AI policy and treat every prompt as sharing information outside the organisation. Never enter client details, passwords, salary data or unreleased business information into public AI tools. Remove names and identifiers, use approved tools where available and be open about when you have used AI."
+        ],
+        [
+          "Can I use AI to prepare for job interviews?",
+          "Yes. AI can generate likely questions, give feedback on your practice answers and help tailor your resume to a job description. Keep everything truthful and in your own voice. Do not use AI during online tests or live interviews unless clearly allowed, because a shortcut there can cost you the offer."
+        ]
+      ]
+    },
+    "critical-thinking": {
+      "primary": "critical thinking course online",
+      "secondary": [
+        "problem solving skills course",
+        "critical thinking skills for freshers",
+        "how to improve critical thinking",
+        "decision making skills",
+        "how to spot fake news",
+        "guesstimate interview questions",
+        "how to ask better questions at work"
+      ],
+      "title": "Critical Thinking Course Online: Solve Problems Better",
+      "description": "Critical thinking course online with problem solving skills you can use: break down problems, check claims and decide well. Start the first lesson free.",
+      "intro": "This critical thinking course online gives you practical tools for thinking clearly when problems are messy and information is incomplete. You will turn vague problems into clear questions with an issue tree, ask sharper questions at work and check forwards, statistics and charts before you share them. The course builds real problem solving skills, from finding root causes to making decisions under uncertainty. If you want to know how to improve critical thinking for interviews, there is a lesson on guesstimates and case questions, plus one on questioning financial claims and market tips.",
+      "learn": [
+        "Define a vague problem clearly and split it using an issue tree",
+        "Use open and closed questions on purpose and clarify tasks before starting",
+        "Check viral forwards, statistics and charts for cherry-picked or misleading information",
+        "Make sound decisions with incomplete information by matching effort to the stakes",
+        "Structure guesstimates, business cases and puzzles calmly in placement interviews",
+        "Spot survivorship bias, misuse of past performance and unregistered advisers"
+      ],
+      "who": [
+        "Students preparing for case, guesstimate and puzzle interview rounds",
+        "Freshers who feel stuck on large or unclear tasks",
+        "Professionals who must decide quickly without complete data",
+        "Finance professionals helping clients judge return claims and tips"
+      ],
+      "faqs": [
+        [
+          "How can I improve my critical thinking skills?",
+          "Practise defining problems before solving them, asking why until you reach a root cause, and checking sources before believing a claim. Think in scenarios rather than certainties, and review decisions by their reasoning, not only their results. Applying these habits to everyday tasks at work builds the skill faster than puzzles alone."
+        ],
+        [
+          "What is an issue tree in problem solving?",
+          "An issue tree breaks one big question into smaller parts that together cover the whole problem without overlapping. For example, \"Why are sales down?\" splits into fewer customers or lower spend per customer, and each branch splits further. It helps you see where to look first instead of guessing."
+        ],
+        [
+          "How do I solve guesstimate questions in interviews?",
+          "Clarify the question and any assumptions, break the estimate into logical parts such as population, share and frequency, round numbers to keep maths simple and talk through your reasoning out loud. Finish with a sanity check. Interviewers care more about your structure and calm than the exact figure."
+        ],
+        [
+          "How can I tell if a news forward or chart is misleading?",
+          "Pause before forwarding and check whether official or independent sources report the same thing. Look at who made the claim, the date and the original data. For charts, check where the axis starts, the time period chosen and whether key numbers are missing or cherry-picked."
+        ]
+      ]
+    },
+    "adaptability": {
+      "primary": "adaptability skills course online",
+      "secondary": [
+        "how to learn new skills faster",
+        "learning how to learn course",
+        "growth mindset at work",
+        "how to handle change at work",
+        "career switch planning",
+        "how to change career in india",
+        "upskilling for working professionals"
+      ],
+      "title": "Adaptability Skills Course Online: Learn Faster at Work",
+      "description": "Adaptability skills course online: learn new skills faster, build a growth mindset and handle change at work or a career switch. Try lesson one free.",
+      "intro": "This adaptability skills course online helps you keep learning and stay steady when work keeps changing. You will see how to learn new skills faster using self-testing, spaced practice and teaching others, and how to apply a growth mindset at work through feedback and calm reviews of mistakes. Lessons cover reorganisations, new managers and new tools, planning a career switch step by step, and turning years of competitive exam preparation into strong job skills. Finance professionals get a routine for keeping up with regulatory changes and certifications.",
+      "learn": [
+        "Replace rereading and cramming with active recall, spaced practice and a weekly plan",
+        "Rewrite self-limiting thoughts and use feedback as data rather than a verdict",
+        "Ask clear questions and learn new tools quickly during reorganisations or manager changes",
+        "Plan a career switch by mapping transferable skills and testing with small experiments",
+        "Turn competitive exam preparation habits into learning skills for open-ended work tasks",
+        "Track regulatory updates from reliable sources and keep finance certifications current"
+      ],
+      "who": [
+        "Freshers and professionals who need to learn new skills quickly",
+        "Employees facing restructuring, new managers or new tools",
+        "People considering a career change into a new field",
+        "Former government exam aspirants starting their first corporate job"
+      ],
+      "faqs": [
+        [
+          "How can I learn new skills faster?",
+          "Test yourself instead of rereading, spread your practice across several short sessions and explain what you learned to someone else. These three techniques are well supported by research. Build them into a simple weekly plan with fixed slots, and skip popular myths such as learning only in your preferred style."
+        ],
+        [
+          "What does a growth mindset mean at work?",
+          "It means believing your abilities can improve with effort, good strategies and feedback, and acting on that belief. In practice you rewrite thoughts like \"I'm just bad at this\", treat feedback as useful data, review mistakes calmly and choose stretch goals. It is not blind positivity or ignoring real limits."
+        ],
+        [
+          "How do I handle sudden change at work?",
+          "Ask your manager clear questions about what is changing, what stays the same and what is expected of you, rather than relying on office gossip. Break any new tool or process into small learning steps, keep delivering your core work and raise concerns constructively with suggestions, not just complaints."
+        ],
+        [
+          "How do I plan a career switch in India?",
+          "Start with a clear reason for switching, then research what the new job is really like by talking to people who do it. Map your transferable skills and genuine gaps, test the move with short courses or side projects, and build a financial buffer before resigning. Prepare a confident story for interviews."
+        ]
+      ]
+    },
+    "productivity-focus": {
+      "primary": "productivity course online",
+      "secondary": [
+        "how to focus on work",
+        "how to stop phone addiction",
+        "deep work techniques",
+        "weekly planning tips",
+        "how to be more productive at work",
+        "time management for working professionals",
+        "how to study while working full time"
+      ],
+      "title": "Productivity Course Online: Focus Better, Beat Distraction",
+      "description": "Productivity course online: learn how to focus on work, beat phone distraction, plan your week and protect deep-work time. Start the first lesson free.",
+      "intro": "This productivity course online is for anyone who ends the day busy but unsure what actually moved forward. You will learn how to focus on work by cutting unnecessary notifications, protecting deep-work blocks and planning your week in just 20 minutes. Lessons show how to tell busy-work from real progress, renegotiate low-value requests and stop over-polishing. If you want to be more productive at work while preparing for exams or a course, there is a realistic routine for that too, plus a lesson on running productive days of client meetings.",
+      "learn": [
+        "Audit notifications and move your phone so it stops pulling you away",
+        "Plan deep-work blocks with a clear finish line and protect them from interruptions",
+        "Run a 20-minute weekly plan and a five-minute daily check",
+        "Spot busy-work, judge your day by results and renegotiate low-value requests",
+        "Fit exam preparation or upskilling around a full-time job with fixed study slots",
+        "Cluster client meetings, prepare in ten minutes and finish notes the same day"
+      ],
+      "who": [
+        "Freshers and young professionals distracted by their phones",
+        "Professionals who feel busy all day but achieve little",
+        "Working people preparing for exams or courses alongside a job",
+        "Relationship managers and advisers with packed client meeting days"
+      ],
+      "faqs": [
+        [
+          "How can I focus on work without getting distracted by my phone?",
+          "Turn off non-essential notifications, keep your phone out of sight and reach during focused work and check it at set times rather than whenever it buzzes. If work messages arrive on your phone, separate work and personal apps where possible. Small changes to where the phone sits make a surprisingly big difference."
+        ],
+        [
+          "What is deep work and how do I start?",
+          "Deep work is uninterrupted time spent on your most demanding tasks, such as analysis, writing or planning. Start with one 60–90 minute block a day, decide the finish line before you begin, block it in your calendar and silence interruptions. End by noting the next step so restarting is easy."
+        ],
+        [
+          "How do I plan my week effectively?",
+          "Spend about 20 minutes once a week: review last week, capture every pending task, choose three outcomes that matter most and place them in your calendar first. Then do a five-minute check each morning to adjust for new requests. Planning the week keeps important work from being swallowed by urgent tasks."
+        ],
+        [
+          "How can I study for exams while working full time?",
+          "Map your real free time honestly, choose one main goal per season and fix regular study slots instead of waiting for spare time. Keep work and study separate, protect your sleep and plan lighter study weeks during busy work periods. A weekly check helps you adjust without guilt."
+        ]
+      ]
+    }
+  },
+  "lessons": {
+    "speaking-clearly-and-concisely": {
+      "primary": "how to speak clearly and concisely at work",
+      "title": "How to Speak Clearly and Concisely at Work",
+      "description": "Learn how to speak clearly and concisely at work: lead with your point, cut filler and hedging, use concrete numbers and check that your message landed."
+    },
+    "active-listening": {
+      "primary": "active listening skills at work",
+      "title": "Active Listening Skills at Work: Tips and Examples",
+      "description": "Build active listening skills at work: ask open questions, paraphrase to confirm understanding and hear the real concern behind what people say."
+    },
+    "professional-email-writing": {
+      "primary": "how to write a professional email",
+      "title": "How to Write a Professional Email That Gets Replies",
+      "description": "Learn how to write a professional email with a clear subject line, your request in the first two lines, a scannable body and the right tone and CC."
+    },
+    "calls-and-video-meetings": {
+      "primary": "phone call and video meeting etiquette",
+      "title": "Phone Call and Video Meeting Etiquette for Work",
+      "description": "Phone call and video meeting etiquette for work: open and close calls well, set up for video, speak up in online meetings and follow up in writing."
+    },
+    "workplace-english-and-small-talk": {
+      "primary": "workplace english and small talk for freshers",
+      "title": "Workplace English and Small Talk for Freshers",
+      "description": "Workplace English and small talk for freshers: useful phrases to introduce yourself, ask for help, disagree politely and start or end easy conversations."
+    },
+    "explaining-financial-products-to-clients": {
+      "primary": "how to explain financial products to clients",
+      "title": "How to Explain Financial Products to Clients Simply",
+      "description": "Learn how to explain financial products to clients in plain language, start from their goals, discuss risk honestly and check understanding first."
+    },
+    "tell-me-about-yourself": {
+      "primary": "how to answer tell me about yourself",
+      "title": "How to Answer \"Tell Me About Yourself\" in an Interview",
+      "description": "Learn how to answer tell me about yourself with a 60–90 second Present, Past, Future answer, with fresher examples and tips for lateral moves."
+    },
+    "common-hr-questions-star-method": {
+      "primary": "hr interview questions with the star method",
+      "title": "HR Interview Questions with the STAR Method",
+      "description": "Prepare for HR interview questions with the STAR method: see what HR rounds test, handle tricky regulars and build a story bank of real examples."
+    },
+    "resume-and-linkedin": {
+      "primary": "how to write a resume and linkedin profile",
+      "title": "How to Write a Resume and LinkedIn Profile That Works",
+      "description": "Learn how to write a resume and LinkedIn profile that pass a quick screen: a clear structure, results-based bullets, tailoring and certifications."
+    },
+    "salary-discussions": {
+      "primary": "how to discuss salary in an interview",
+      "title": "How to Discuss Salary and Offers: CTC vs In-Hand",
+      "description": "Learn how to discuss salary in an interview: decode CTC versus in-hand pay, answer expectations questions, negotiate politely and handle notice periods."
+    },
+    "group-discussions": {
+      "primary": "group discussion tips for bank po and mba",
+      "title": "Group Discussion Tips for Bank PO and MBA Selection",
+      "description": "Group discussion tips for bank PO and MBA selection: what evaluators watch, how to enter, build on others without dominating and summarise well."
+    },
+    "interviewing-for-client-facing-finance-roles": {
+      "primary": "relationship manager interview tips",
+      "title": "Relationship Manager Interview Tips for Finance Roles",
+      "description": "Relationship manager interview tips: show suitability thinking and ethics, describe certifications accurately and handle \"sell me this product\" well."
+    },
+    "building-confidence": {
+      "primary": "how to build confidence at work",
+      "title": "How to Build Real Confidence at Work",
+      "description": "Learn how to build confidence at work from evidence and practice: speak up without hedging, admit gaps honestly and take on stretch work in small steps."
+    },
+    "body-language": {
+      "primary": "body language tips for work",
+      "title": "Body Language Tips for Work That Build Trust",
+      "description": "Body language tips for work: posture, eye contact, expression, greetings and personal space that build trust in person and on video calls."
+    },
+    "first-impressions-and-grooming": {
+      "primary": "professional grooming and first impression tips",
+      "title": "Professional Grooming and First Impression Tips",
+      "description": "Professional grooming and first impression tips on any budget: punctuality, preparation, dressing for the context and a five-minute pre-meeting check."
+    },
+    "resilience-and-handling-rejection": {
+      "primary": "how to handle rejection and setbacks",
+      "title": "How to Handle Rejection and Setbacks: Build Resilience",
+      "description": "Learn how to handle rejection and setbacks: what to do in the first 24 hours, learn without dwelling, track inputs and build steadying routines."
+    },
+    "campus-to-corporate": {
+      "primary": "corporate etiquette for freshers",
+      "title": "Corporate Etiquette for Freshers: Campus to Corporate",
+      "description": "Corporate etiquette for freshers: the mindset shift, email and meeting manners, deadlines, asking questions and building good office relationships."
+    },
+    "building-client-trust-and-credibility": {
+      "primary": "how to build trust with clients",
+      "title": "How to Build Trust and Credibility with Clients",
+      "description": "Learn how to build trust with clients through kept promises, clear disclosure of fees and risks, suitable advice and proactive updates in bad times."
+    },
+    "time-management-and-prioritisation": {
+      "primary": "time management and prioritisation at work",
+      "title": "Time Management and Prioritisation at Work",
+      "description": "Time management and prioritisation at work: sort tasks by urgency, plan the week then the day, protect focus time and say \"not now\" without losing trust."
+    },
+    "teamwork-and-collaboration": {
+      "primary": "teamwork and collaboration skills",
+      "title": "Teamwork and Collaboration Skills: Tips for Freshers",
+      "description": "Teamwork and collaboration skills: clarify roles early, be the reliable one, work across levels and locations and disagree well inside a team."
+    },
+    "emotional-intelligence-and-conflict": {
+      "primary": "how to handle conflict at work",
+      "title": "How to Handle Conflict at Work with Emotional Intelligence",
+      "description": "Learn how to handle conflict at work: use emotional intelligence to pause, name and choose your response, read others and resolve disputes step by step."
+    },
+    "presentations-and-public-speaking": {
+      "primary": "presentation and public speaking tips",
+      "title": "Presentation and Public Speaking Tips for Work",
+      "description": "Presentation and public speaking tips: build around one message, design slides that help, rehearse, manage nerves and handle tough questions calmly."
+    },
+    "feedback-and-your-first-manager": {
+      "primary": "how to take feedback at work",
+      "title": "How to Take Feedback and Work with Your First Manager",
+      "description": "Learn how to take feedback at work without getting defensive, use the SBI model to clarify comments and build a strong relationship with your manager."
+    },
+    "handling-client-objections": {
+      "primary": "how to handle client objections",
+      "title": "How to Handle Client Objections and Tough Conversations",
+      "description": "Learn how to handle client objections about market falls, fees and unsuitable requests with a calm framework, full transparency and no promised returns."
+    },
+    "writing-good-prompts": {
+      "primary": "how to write good ai prompts",
+      "title": "How to Write Good AI Prompts That Get Useful Answers",
+      "description": "Learn how to write good AI prompts using task, context, audience and format, add examples and limits, and refine answers instead of starting over."
+    },
+    "checking-ai-output": {
+      "primary": "how to check ai output for accuracy",
+      "title": "How to Check AI Output for Accuracy Before Using It",
+      "description": "Learn how to check AI output for accuracy: verify facts, figures and sources, look for bias and missing views and match your checking to the stakes."
+    },
+    "using-ai-safely": {
+      "primary": "how to use ai safely at work",
+      "title": "How to Use AI Safely at Work: Privacy and Ethics",
+      "description": "Learn how to use AI safely at work: what never to put in a public AI tool, following your company's AI policy and being honest about AI help."
+    },
+    "ai-for-everyday-work": {
+      "primary": "how to use ai for emails and summaries",
+      "title": "How to Use AI for Emails, Research and Summaries",
+      "description": "Learn how to use AI for emails and summaries, draft in your own voice, start research faster and know when doing the task yourself is quicker."
+    },
+    "ai-in-your-job-search": {
+      "primary": "how to use ai in your job search",
+      "title": "How to Use AI Honestly in Your Job Search",
+      "description": "Learn how to use AI in your job search honestly: tailor your resume, write cover letters, practise interviews and know the line in tests and interviews."
+    },
+    "ai-for-finance-professionals": {
+      "primary": "ai for finance professionals",
+      "title": "AI for Finance Professionals: Client Data and Compliance",
+      "description": "AI for finance professionals: keep client data out of public tools, own suitability decisions, check every AI figure and keep proper records."
+    },
+    "breaking-down-problems": {
+      "primary": "how to break down a problem",
+      "title": "How to Break Down a Problem: Issue Trees and Root Cause",
+      "description": "Learn how to break down a problem: define it clearly, split it with an issue tree, dig for the root cause and choose the first step to take."
+    },
+    "asking-better-questions": {
+      "primary": "how to ask better questions at work",
+      "title": "How to Ask Better Questions at Work",
+      "description": "Learn how to ask better questions at work: use open and closed questions on purpose, clarify tasks before starting and ask for help the smart way."
+    },
+    "spotting-misinformation": {
+      "primary": "how to spot fake news and misleading charts",
+      "title": "How to Spot Fake News, Bad Data and Misleading Charts",
+      "description": "Learn how to spot fake news and misleading charts: pause before forwarding, verify with reliable sources, question numbers and read graphs carefully."
+    },
+    "deciding-with-incomplete-information": {
+      "primary": "how to make decisions with incomplete information",
+      "title": "How to Make Decisions with Incomplete Information",
+      "description": "Learn how to make decisions with incomplete information: match effort to the stakes, think in scenarios and judge decisions by reasoning, not outcome."
+    },
+    "case-and-puzzle-questions": {
+      "primary": "how to solve guesstimate and case interview questions",
+      "title": "How to Solve Guesstimates, Cases and Puzzles in Interviews",
+      "description": "Learn how to solve guesstimate and case interview questions with a clear structure, simple maths, calm out-loud reasoning and a final sanity check."
+    },
+    "questioning-financial-claims": {
+      "primary": "how to evaluate stock market tips and return claims",
+      "title": "How to Evaluate Market Tips and Financial Return Claims",
+      "description": "Learn how to evaluate stock market tips and return claims: spot red flags and survivorship bias, read past performance and verify adviser registration."
+    },
+    "learning-anything-faster": {
+      "primary": "how to learn anything faster",
+      "title": "How to Learn Anything Faster: Active Recall and Spacing",
+      "description": "Learn how to learn anything faster with active recall, spaced practice and teaching others, and replace rereading and cramming with a weekly plan."
+    },
+    "growth-mindset-in-practice": {
+      "primary": "how to develop a growth mindset",
+      "title": "How to Develop a Growth Mindset: Practical Habits",
+      "description": "Learn how to develop a growth mindset in practice: rewrite fixed scripts, use feedback as data, review mistakes calmly and track stretch goals."
+    },
+    "handling-change-at-work": {
+      "primary": "how to handle change at work",
+      "title": "How to Handle Change at Work: New Managers and Tools",
+      "description": "Learn how to handle change at work: get clarity not gossip, start fresh with a new manager, learn new tools quickly and raise concerns constructively."
+    },
+    "switching-careers": {
+      "primary": "how to plan a career switch",
+      "title": "How to Plan a Career Switch Step by Step",
+      "description": "Learn how to plan a career switch: clarify your why, research the real job, map transferable skills, test with small experiments and prepare your story."
+    },
+    "from-exam-prep-to-job-skills": {
+      "primary": "from competitive exam preparation to job skills",
+      "title": "From Competitive Exam Preparation to Job Skills",
+      "description": "From competitive exam preparation to job skills: use your mock-test discipline at work, learn beyond the syllabus and talk about prep years confidently."
+    },
+    "keeping-up-with-rule-changes": {
+      "primary": "how to keep up with sebi and amfi rule changes",
+      "title": "How to Keep Up with SEBI and AMFI Rule Changes",
+      "description": "Learn how to keep up with SEBI and AMFI rule changes: reliable source list, a weekly 30-minute routine, current certifications and accurate client updates."
+    },
+    "beating-digital-distraction": {
+      "primary": "how to stop phone distraction while working",
+      "title": "How to Stop Phone Distraction While Working",
+      "description": "Learn how to stop phone distraction while working: audit notifications, change where your phone sits and break the automatic scroll habit for good."
+    },
+    "deep-work-blocks": {
+      "primary": "how to do deep work",
+      "title": "How to Do Deep Work: Plan and Protect Focus Blocks",
+      "description": "Learn how to do deep work: set a finish line before each block, protect the time from interruptions, handle stray thoughts and end with a next step."
+    },
+    "planning-your-week": {
+      "primary": "how to plan your week",
+      "title": "How to Plan Your Week in 20 Minutes",
+      "description": "Learn how to plan your week in 20 minutes: review and capture tasks, choose three outcomes, put them in your calendar and run a five-minute daily check."
+    },
+    "busy-vs-productive": {
+      "primary": "busy vs productive at work",
+      "title": "Busy vs Productive: How to Focus on What Matters",
+      "description": "Busy vs productive at work: spot busy-work, judge your day by results, renegotiate low-value requests and stop over-polishing small tasks."
+    },
+    "balancing-work-and-upskilling": {
+      "primary": "how to balance a job and exam preparation",
+      "title": "How to Balance a Job, Exam Preparation and Upskilling",
+      "description": "Learn how to balance a job and exam preparation: map real free time, pick one goal per season, use fixed study slots and manage busy months calmly."
+    },
+    "productive-client-days": {
+      "primary": "how to plan a day of client meetings",
+      "title": "How to Plan a Productive Day of Client Meetings",
+      "description": "Learn how to plan a day of client meetings: cluster appointments, prepare in ten minutes per client, write notes straight after and close the day clean."
+    }
+  }
+}

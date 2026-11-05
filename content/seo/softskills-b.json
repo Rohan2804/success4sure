@@ -1,0 +1,630 @@
+{
+  "courses": {
+    "remote-hybrid": {
+      "primary": "remote work skills course",
+      "secondary": [
+        "work from home tips",
+        "hybrid work skills",
+        "async communication at work",
+        "slack and teams etiquette",
+        "how to be visible working remotely",
+        "work from home productivity tips",
+        "starting first job remotely",
+        "remote work skills for freshers"
+      ],
+      "title": "Remote Work Skills Course: Async, Visibility, Discipline",
+      "description": "A remote work skills course with practical work from home tips: clear async messages, chat etiquette and staying visible. Try the first lesson free.",
+      "intro": "Working from home or in a hybrid team needs more than a laptop and a good connection. This remote work skills course shows you how to write async messages a colleague can act on hours later, follow sensible Slack, Teams and WhatsApp etiquette, and stay visible to your manager without bragging. You also get work from home tips that fit Indian homes, with shared rooms, family and power cuts in the picture. Freshers learn to start a first job remotely, and finance professionals learn to serve clients safely over video and phone, building hybrid work skills that last.",
+      "learn": [
+        "Write async messages and updates colleagues can act on without a follow-up call",
+        "Choose the right channel for chats, threads, mentions, voice notes and WhatsApp groups",
+        "Send short weekly updates that keep your work visible to your manager",
+        "Set up a work spot, daily routine and backup plan for power cuts",
+        "Settle into a remote first job by asking smart questions and seeking feedback early",
+        "Run secure, compliant client calls with consent, safe screen sharing and written summaries"
+      ],
+      "who": [
+        "Freshers starting a remote or hybrid first job",
+        "Early-career professionals working from home most days",
+        "Team members who feel unnoticed in online meetings",
+        "Distributors, advisers and RMs who serve clients over video calls"
+      ],
+      "faqs": [
+        [
+          "How can I be more productive when working from home?",
+          "Give your day a clear shape: a fixed start time, planned focus blocks and a proper end to the workday. Set up a dedicated work spot, even a small corner, agree quiet hours with family and keep a backup for power and internet problems. Small routines matter more than long hours."
+        ],
+        [
+          "What is async communication at work?",
+          "Async communication means sharing information so colleagues can respond in their own time instead of in a live call. A good async message stands on its own: bottom line first, full context, clear timelines and what you need from the reader. Switch to a quick call when things get confusing, then write down the outcome."
+        ],
+        [
+          "How do I stay visible to my manager when working remotely?",
+          "Send a short weekly update covering what you finished, what you are working on and where you are stuck. Speak up early in online meetings, keep your camera on when it is expected and build relationships deliberately with short one-to-one chats. Visibility comes from clarity, not from longer hours."
+        ],
+        [
+          "What is the right etiquette for WhatsApp and Teams at work?",
+          "Use each channel for its purpose: urgent items on a call, quick questions on chat, decisions in email or a shared document. Send one complete message rather than many fragments, keep replies in threads, use mentions sparingly and respect colleagues' off-hours, especially on personal WhatsApp numbers."
+        ]
+      ]
+    },
+    "personal-branding": {
+      "primary": "personal branding course online",
+      "secondary": [
+        "linkedin profile tips",
+        "how to build personal brand on linkedin",
+        "networking skills for freshers",
+        "how to ask for a job referral",
+        "linkedin post ideas",
+        "personal branding for students",
+        "how to network professionally",
+        "personal branding for financial advisors"
+      ],
+      "title": "Personal Branding Course Online: LinkedIn and Networking",
+      "description": "A personal branding course online with LinkedIn profile tips, natural posting habits and networking that leads to referrals. Start the first lesson free.",
+      "intro": "Your next opportunity often comes from someone who found you, remembered you or was happy to refer you. This personal branding course online helps you get there honestly. You will rewrite your LinkedIn headline and About section with practical LinkedIn profile tips, write posts that sound like you and build networking skills for freshers and experienced professionals alike, from event openers to follow-up messages. You will also learn to ask for referrals the right way. Students get a 30-day starter plan, and finance professionals learn to build trust online while staying compliant.",
+      "learn": [
+        "Write a LinkedIn headline, About section and skills list that recruiters can find",
+        "Write short LinkedIn posts and comments using simple formats that do not feel fake",
+        "Start conversations at events, exit gracefully and send connection requests people accept",
+        "Ask for job referrals and introductions with a specific, forwardable message",
+        "Build proof of work and a simple 30-day personal brand routine as a fresher",
+        "Post educational, compliant content as a finance professional while protecting client data"
+      ],
+      "who": [
+        "Students and freshers with little work experience to show",
+        "Job seekers who want referrals and better LinkedIn visibility",
+        "Professionals who feel awkward posting or networking",
+        "Mutual fund distributors, advisers and RMs building trust online"
+      ],
+      "faqs": [
+        [
+          "How do I build a personal brand on LinkedIn as a fresher?",
+          "Pick two or three topics you want to be known for, then create small pieces of proof such as projects, write-ups or certificates and share what you are learning in public. Keep your profile specific and honest, and post or comment regularly. A simple 30-day routine is easier to sustain than bursts of activity."
+        ],
+        [
+          "What should I write in my LinkedIn headline?",
+          "Say what you do or want to do, for whom, and with which skills, using words people actually search for. For example, 'Final-year B.Com student | Excel and financial analysis | Interested in banking operations' works better than 'Seeking opportunities'. Keep it truthful and update it as your role changes."
+        ],
+        [
+          "How do I ask someone for a job referral?",
+          "Ask people who know you or your work, even slightly, and make the request specific: the role, the job link and why you fit. Write a short message they can forward easily, make it simple to decline, and follow up once. Always report back on the outcome and say thank you."
+        ],
+        [
+          "How can I network if I am an introvert?",
+          "Treat networking as building a few genuine relationships rather than collecting contacts. Prepare two or three openers before an event, ask questions and listen, and leave conversations politely when you are ready. Online, send short personalised connection requests and stay in touch by sharing something useful now and then."
+        ]
+      ]
+    },
+    "negotiation": {
+      "primary": "negotiation skills course online",
+      "secondary": [
+        "negotiation skills for freshers",
+        "how to negotiate at work",
+        "persuasion skills",
+        "how to handle counter offers",
+        "win win negotiation",
+        "how to negotiate deadlines with your manager",
+        "how to persuade people without pressure",
+        "negotiation skills for financial advisors"
+      ],
+      "title": "Negotiation Skills Course Online: Prepare, Trade, Persuade",
+      "description": "A negotiation skills course online covering persuasion skills, win–win offers and handling a firm no. Learn with real workplace scenarios. Start free.",
+      "intro": "Whether you are discussing a deadline with your manager or terms with a client, negotiation is an everyday work skill. This negotiation skills course online teaches you to prepare with a clear goal, a walk-away point and a Plan B, then build win–win offers by trading rather than conceding. You will practise persuasion skills that respect the other person's right to say no, and learn calm replies to refusals and tough counter-offers. Negotiation skills for freshers cover workload and deadlines, while finance professionals learn to discuss fees and terms ethically.",
+      "learn": [
+        "Prepare a one-page plan with your goal, walk-away point and Plan B",
+        "Build win–win offers by putting several issues on the table and trading",
+        "Respond calmly to a no or tough counter-offer using fair criteria",
+        "Persuade people by linking ideas to their goals without manipulative tactics",
+        "Negotiate deadlines and workload with your manager early instead of burning out",
+        "Discuss fees and terms with clients openly without compromising suitability"
+      ],
+      "who": [
+        "Freshers juggling tight deadlines and new tasks",
+        "Early-career professionals who avoid difficult conversations",
+        "Team members who need to persuade colleagues without authority",
+        "Distributors, advisers and RMs discussing fees and terms with clients"
+      ],
+      "faqs": [
+        [
+          "How do I prepare for a negotiation?",
+          "Decide exactly what you want, the point at which you would walk away and your Plan B if there is no deal. Then think about what the other side needs and fears. Put it all on a one-page prep sheet so you stay clear and calm during the conversation."
+        ],
+        [
+          "What is a win–win negotiation?",
+          "A win–win negotiation gives both sides more of what they value instead of splitting one number. You bring several issues to the table, such as timing, scope and support, and trade the ones you value less for the ones you value more. Offering two or three options and writing down the agreement helps."
+        ],
+        [
+          "How do I say no to extra work as a fresher without sounding rude?",
+          "First clarify the request: what is needed, by when and why. If you are already full, ask your manager to help prioritise by showing your current tasks and asking what should move. Propose a realistic option early rather than missing a deadline later, and keep your word on what you agree."
+        ],
+        [
+          "What is the difference between persuasion and manipulation?",
+          "Persuasion links your idea to the other person's goals, shows honest evidence and leaves them free to say no. Manipulation relies on pressure, false urgency, guilt or hiding information. A simple test is whether you would be comfortable if the other person saw exactly how and why you made your case."
+        ]
+      ]
+    },
+    "storytelling": {
+      "primary": "storytelling skills course online",
+      "secondary": [
+        "business storytelling",
+        "how to pitch an idea",
+        "elevator pitch examples",
+        "data storytelling",
+        "storytelling for interviews",
+        "star method interview answers",
+        "storytelling on linkedin",
+        "presentation skills for freshers"
+      ],
+      "title": "Storytelling Skills Course Online: Pitches, Data and Posts",
+      "description": "A storytelling skills course online: pitch an idea in 60 seconds, turn data into clear messages and answer interviews with stories. Try lesson one free.",
+      "intro": "People forget claims but remember stories. This storytelling skills course online gives you simple structures you can use at work straight away. You will shape any experience into a situation–challenge–result story, learn how to pitch an idea in about a minute with a clear ask, and practise business storytelling with numbers so that data becomes a message people remember. You will also write social posts people read to the end. Freshers build a story bank for interviews and GDs, and finance professionals learn to use honest, clearly labelled stories to explain investing concepts.",
+      "learn": [
+        "Shape any work experience into a short situation–challenge–result story",
+        "Pitch an idea in 60 seconds with one proof point and a clear ask",
+        "Turn a page of numbers into one memorable message with honest charts",
+        "Write social media posts with a strong first line and one honest story",
+        "Build a story bank of five or six stories for interviews and GDs",
+        "Explain goals, time and risk to clients with clearly labelled illustrations"
+      ],
+      "who": [
+        "Freshers preparing for interviews and group discussions",
+        "Early-career professionals who present ideas to managers",
+        "Anyone who shares numbers or reports with a team",
+        "Distributors, advisers and RMs explaining investing to clients"
+      ],
+      "faqs": [
+        [
+          "How can I improve my storytelling skills at work?",
+          "Start with a simple three-part structure: the situation in one or two lines, a concrete challenge and a clear result with a lesson. Cut background people do not need, use specific details and practise telling the story aloud in under a minute. Small, regular practice in meetings and updates builds the skill quickly."
+        ],
+        [
+          "How do I pitch an idea in 60 seconds?",
+          "Open with the problem your listener cares about, state your idea in one sentence, give one strong proof point and end with a small, clear ask such as a trial or a meeting. Avoid listing every feature. One good example or number is more convincing than five general claims."
+        ],
+        [
+          "How do I use stories to answer interview questions?",
+          "Prepare five or six short stories from college, internships or projects that show skills like teamwork, problem-solving and handling setbacks. Use a situation, challenge and result structure, similar to the STAR method, and fit the story to the question. Keep each answer to around a minute and finish with what you learnt."
+        ],
+        [
+          "What is data storytelling?",
+          "Data storytelling means turning numbers into a message people understand and remember. Pick the one number that matters most, add context such as a comparison with last year or a target, and use simple comparisons people can picture. Keep charts simple and check every figure before you share it."
+        ]
+      ]
+    },
+    "first-time-manager": {
+      "primary": "first time manager training online",
+      "secondary": [
+        "new manager tips",
+        "how to manage former peers",
+        "delegation skills",
+        "how to give feedback to employees",
+        "one on one meeting questions",
+        "leadership skills for freshers",
+        "how to lead a sales team ethically",
+        "team leader skills"
+      ],
+      "title": "First Time Manager Training Online: Lead Your First Team",
+      "description": "First time manager training online with new manager tips on delegation, feedback and useful one-on-ones. Go from peer to boss with confidence. Start free.",
+      "intro": "Being promoted is exciting, but managing people you used to sit beside is a different job. This first time manager training online helps you handle the move from peer to boss, reset relationships fairly and earn credibility in your first 90 days. You will pick up practical new manager tips, build delegation skills, give specific feedback with a simple structure and run one-on-ones your team actually values. If you are not managing yet, you will learn to show leadership without the title. Sales and advisory team leaders learn to meet targets without rewarding mis-selling.",
+      "learn": [
+        "Reset relationships and set fair boundaries after being promoted over former peers",
+        "Decide what to delegate and brief people so they can deliver",
+        "Give praise and corrective feedback using situation, behaviour and impact",
+        "Run regular one-on-ones with good questions and clear follow-through",
+        "Show leadership in your first job through reliability, initiative and peer influence",
+        "Lead advisers or RMs with balanced goals, coaching and proper complaint handling"
+      ],
+      "who": [
+        "Newly promoted team leads and first-time managers",
+        "Professionals expecting to manage a team soon",
+        "Freshers who want to show leadership early",
+        "Branch heads and leaders of sales or advisory teams"
+      ],
+      "faqs": [
+        [
+          "How do I manage people who used to be my peers?",
+          "Have an honest reset conversation early, acknowledging that the relationship has changed and asking how you can support each person. Stay friendly but be visibly fair in decisions, avoid favourites and stop trying to be the team's best individual worker. Credibility comes from consistent actions over your first few months."
+        ],
+        [
+          "How should a new manager delegate work?",
+          "Choose tasks that match each person's skills and growth, then brief clearly: the outcome, why it matters, the deadline, resources and how you will check in. Give more freedom to experienced people and more structure to newer ones. Follow up at agreed points rather than hovering, which is the line between support and micromanaging."
+        ],
+        [
+          "What questions should I ask in a one-on-one meeting?",
+          "Use open questions such as 'What is going well?', 'What is getting in your way?', 'What would you like more or less of from me?' and 'What are you hoping to learn this quarter?'. Let the team member lead most of the time, note what you hear and follow through on what you promise."
+        ],
+        [
+          "How can I show leadership without a manager title?",
+          "Start by being completely reliable: meet deadlines, communicate early and own mistakes. Then take sensible initiative, such as fixing a small process or helping a new joiner, while keeping your manager informed. Influence peers by listening and sharing credit, and tell your manager calmly that you are interested in leading."
+        ]
+      ]
+    },
+    "customer-sales": {
+      "primary": "sales communication skills course",
+      "secondary": [
+        "customer service skills",
+        "how to build rapport with customers",
+        "consultative selling",
+        "sales follow up tips",
+        "how to ask customers for referrals",
+        "how to handle customer complaints",
+        "ethical selling for financial advisors",
+        "sales skills for freshers"
+      ],
+      "title": "Sales Communication Skills Course: Rapport to Referrals",
+      "description": "A sales communication skills course on rapport, needs-based questions and follow-ups that are not pushy, plus customer service skills. Try lesson one free.",
+      "intro": "Good sales conversations feel like help, not pressure. This sales communication skills course shows you how to build rapport with customers quickly, ask discovery questions before you recommend anything and follow up in a way that adds value. You will also learn when and how to ask happy customers for referrals while respecting privacy. Freshers in bank branches, call centres and retail build customer service skills for handling queries and complaints calmly. Distributors, advisers and relationship managers learn a suitability-first process with clear disclosure, so ethical selling becomes part of everyday work.",
+      "learn": [
+        "Open customer conversations with care and find genuine common ground quickly",
+        "Ask open discovery questions and confirm needs before recommending anything",
+        "Agree next steps and send follow-ups that add value, not pressure",
+        "Ask satisfied customers for referrals at the right moment with consent",
+        "Handle customer queries and complaints calmly with honest timelines and escalation",
+        "Assess suitability, disclose costs and earnings, and decline unsuitable sales"
+      ],
+      "who": [
+        "Freshers in branch banking, call centre or retail roles",
+        "Early-career sales and business development professionals",
+        "Anyone who finds follow-ups awkward or pushy",
+        "Mutual fund distributors, advisers and relationship managers"
+      ],
+      "faqs": [
+        [
+          "How do I build rapport with a customer quickly?",
+          "Spend two minutes preparing, greet the person warmly and use their name. Listen visibly by nodding, summarising and asking follow-up questions, and find genuine common ground rather than forced small talk. Matching the customer's pace, whether brisk or relaxed, also helps people feel comfortable."
+        ],
+        [
+          "What is needs-based or consultative selling?",
+          "It means understanding what the customer actually needs before recommending anything. You ask open questions, go one level deeper to find the reason behind each answer, summarise what you heard and check it is correct. Only then do you link your recommendation to those specific needs."
+        ],
+        [
+          "How do I follow up with a customer without being pushy?",
+          "Agree the next step and timing before the conversation ends, so your follow-up is expected. Make every message add something, such as an answer, a document or a useful update, and use the channel the customer prefers. If there is no response after a few tries, close the loop politely."
+        ],
+        [
+          "How should I handle an angry customer complaint?",
+          "Listen fully without interrupting, acknowledge the problem and apologise for the experience. Ask questions to understand the facts, explain what you can do and give an honest, realistic timeline. If the issue is beyond your authority, escalate it properly and tell the customer who will contact them and when."
+        ]
+      ]
+    },
+    "money-skills": {
+      "primary": "personal finance course for beginners",
+      "secondary": [
+        "money management for freshers",
+        "how to plan your first salary",
+        "budgeting tips for india",
+        "50/30/20 budget rule",
+        "how to avoid credit card debt",
+        "investing basics for beginners",
+        "upi fraud awareness",
+        "financial literacy course online"
+      ],
+      "title": "Personal Finance Course for Beginners: Salary to Savings",
+      "description": "A personal finance course for beginners on first-salary planning, budgeting, debt traps and scam safety. Educational only, not advice. Try lesson one free.",
+      "intro": "Your first salary brings freedom, and also new questions. This personal finance course for beginners explains the basics in plain language. You will learn how to plan your first salary, why CTC differs from your in-hand pay and why an emergency fund comes first. Practical budgeting tips for India cover the 50/30/20 split, small UPI payments and yearly expenses. You will also understand credit cards, EMIs and buy-now-pay-later, core investing ideas and common scams. The course is educational only and does not recommend any product or promise returns.",
+      "learn": [
+        "Understand the difference between CTC and in-hand salary on your payslip",
+        "Build an emergency fund and automate saving with a pay-yourself-first habit",
+        "Set up a budget using 50/30/20 and plan for non-monthly expenses",
+        "Avoid the minimum-due trap and understand how credit scores and EMIs work",
+        "Understand compounding, inflation, risk, diversification and time horizon in plain words",
+        "Spot fake job, loan app and UPI collect-request scams and respond quickly"
+      ],
+      "who": [
+        "Freshers who have just received their first salary",
+        "Students and young earners new to managing money",
+        "Anyone confused by credit cards, EMIs or buy-now-pay-later",
+        "Finance professionals who want better money-habit conversations with clients"
+      ],
+      "faqs": [
+        [
+          "Why is my in-hand salary lower than my CTC?",
+          "CTC, or cost to company, includes items that do not reach your bank account each month, such as the employer's provident fund contribution, gratuity, insurance and some allowances or bonuses. Deductions like your own PF share, professional tax and income tax are also subtracted. Your payslip shows the exact breakdown."
+        ],
+        [
+          "What is the 50/30/20 budget rule?",
+          "It is a simple starting split: about 50 percent of take-home pay for needs such as rent and bills, 30 percent for wants and 20 percent for saving. It is a guide, not a fixed rule. In a high-rent city you may need to adjust it, so track your spending and tweak the split."
+        ],
+        [
+          "What happens if I pay only the minimum due on my credit card?",
+          "Paying only the minimum due avoids a late fee, but interest is charged on the remaining balance, usually at a high rate, and often on new purchases too. The debt can grow quickly and take a long time to clear. Paying the full statement amount each month avoids interest."
+        ],
+        [
+          "How can I recognise a UPI or job scam?",
+          "Warning signs include being asked to pay a fee for a job, earn money by completing simple tasks, approve a UPI collect request to 'receive' money, share an OTP or install a screen-sharing app. Never share OTPs or PINs. If you are targeted, contact your bank immediately and report it on the cybercrime helpline 1930."
+        ]
+      ]
+    },
+    "stress-burnout": {
+      "primary": "stress management course online",
+      "secondary": [
+        "work life balance tips",
+        "signs of burnout at work",
+        "how to set boundaries at work",
+        "how to say no at work",
+        "imposter syndrome at first job",
+        "how to switch off after work",
+        "dealing with sales target pressure",
+        "workplace stress tips"
+      ],
+      "title": "Stress Management Course Online: Burnout and Boundaries",
+      "description": "A stress management course online with practical work life balance tips: spot burnout early, set boundaries and say no kindly. Try the first lesson free.",
+      "intro": "Busy weeks are normal, but constant pressure wears anyone down. This stress management course online offers practical, everyday habits rather than quick fixes. You will learn to notice the signs of burnout at work early with a five-minute weekly check, set polite boundaries around late-night messages and weekend work, and say no without guilt. Simple work life balance tips cover sleep timing, real breaks and switching off. Freshers learn to handle first-job pressure and imposter feelings, and sales and finance professionals learn to manage target pressure ethically. This is general wellbeing guidance, not medical advice.",
+      "learn": [
+        "Tell everyday stress from burnout and run a five-minute weekly self-check",
+        "Set polite boundaries for late-night messages, weekend work and heavy workload",
+        "Say no using a simple three-part structure and handle pushback calmly",
+        "Build a daily recovery routine with steady sleep, real breaks and switching off",
+        "Steady yourself in a first job by asking for help and tracking progress",
+        "Turn sales targets into daily actions while keeping ethics ahead of numbers"
+      ],
+      "who": [
+        "Freshers feeling overwhelmed in their first job",
+        "Early-career professionals who struggle to switch off",
+        "People who find it hard to say no at work",
+        "Sales, banking and advisory staff under target pressure"
+      ],
+      "faqs": [
+        [
+          "What are the early signs of burnout at work?",
+          "Common warning signs include feeling drained even after rest, becoming cynical or detached about work and feeling that your effort no longer makes a difference. A short weekly self-check helps you notice these early. If low mood or anxiety lasts for weeks or affects daily life, please speak to a doctor or qualified counsellor."
+        ],
+        [
+          "How do I set boundaries with my manager politely?",
+          "Raise it calmly in a planned conversation rather than in the moment. Explain how you will stay reachable for genuine emergencies, agree response times for late-night messages and make workload trade-offs visible by asking which task should move. Framing boundaries as a way to do better work makes the conversation easier."
+        ],
+        [
+          "How can I say no at work without feeling guilty?",
+          "Use a simple three-part no: acknowledge the request, give a short honest reason and decline clearly. Offer a real alternative only if you can deliver it. Some guilt afterwards is normal, especially early in your career, and it fades as you see that clear limits help you keep your commitments."
+        ],
+        [
+          "How do I deal with imposter feelings in my first job?",
+          "Imposter feelings are common among freshers because everything is new. Ask for help early, keep a simple record of what you learn and finish each week, and talk to yourself as fairly as you would to a friend. If the feelings persist or affect your daily life, consider talking to a counsellor."
+        ]
+      ]
+    }
+  },
+  "lessons": {
+    "async-communication": {
+      "primary": "async communication at work",
+      "title": "Async Communication at Work: Messages That Move",
+      "description": "Learn async communication at work: write messages that stand on their own, put the bottom line first, set clear timelines and know when to call."
+    },
+    "chat-etiquette": {
+      "primary": "slack, teams and whatsapp etiquette for work",
+      "title": "Slack, Teams and WhatsApp Etiquette for Work",
+      "description": "Slack, Teams and WhatsApp etiquette for work: pick the right channel, send complete messages, get the tone right and respect colleagues' boundaries."
+    },
+    "being-visible-remotely": {
+      "primary": "how to be visible when working remotely",
+      "title": "How to Be Visible When Working Remotely",
+      "description": "How to be visible when working remotely: send a short weekly update, contribute in online meetings and build work relationships on purpose."
+    },
+    "self-discipline-at-home": {
+      "primary": "self discipline when working from home",
+      "title": "Self-Discipline When Working from Home: Practical Tips",
+      "description": "Build self discipline when working from home: set up a work spot, shape your day, plan for power cuts and handle household distractions."
+    },
+    "starting-a-job-remotely": {
+      "primary": "how to start a new job remotely",
+      "title": "How to Start a New Job Remotely: Tips for Freshers",
+      "description": "How to start a new job remotely as a fresher: get set up before day one, learn team norms, ask for help smartly and seek early feedback."
+    },
+    "serving-clients-remotely": {
+      "primary": "how to serve clients over video calls",
+      "title": "How to Serve Clients over Video Calls and Phone",
+      "description": "How to serve clients over video calls and phone: confirm identity and consent, share screens safely, explain products clearly and send summaries."
+    },
+    "linkedin-profile-that-gets-found": {
+      "primary": "how to optimise linkedin profile",
+      "title": "How to Optimise Your LinkedIn Profile to Get Found",
+      "description": "How to optimise LinkedIn profile basics: write a clear headline, an About section people finish, the right skills, and keep it honest and current."
+    },
+    "posting-without-the-cringe": {
+      "primary": "how to write linkedin posts",
+      "title": "How to Write LinkedIn Posts Without the Cringe",
+      "description": "How to write LinkedIn posts that sound like you: three easy formats, a four-line structure, habits to avoid and tips for comments and criticism."
+    },
+    "networking-at-events-and-online": {
+      "primary": "how to network at events",
+      "title": "How to Network at Events and Online: Tips and Examples",
+      "description": "How to network at events and online: start conversations, exit gracefully, send connection requests people accept and follow up without pushing."
+    },
+    "asking-for-referrals": {
+      "primary": "how to ask for a job referral",
+      "title": "How to Ask for a Job Referral or an Introduction",
+      "description": "How to ask for a job referral or introduction: choose who to ask, write a specific, forwardable request, follow up and return the favour."
+    },
+    "personal-brand-with-no-experience": {
+      "primary": "how to build a personal brand as a fresher",
+      "title": "How to Build a Personal Brand as a Fresher",
+      "description": "How to build a personal brand as a fresher with no experience: pick a focus, create proof of work, learn in public and follow a 30-day plan."
+    },
+    "building-trust-online-finance": {
+      "primary": "how to build trust online as a financial advisor",
+      "title": "Building Trust Online as a Finance Professional",
+      "description": "How to build trust online as a financial advisor or RM: describe your role accurately, educate instead of promising and protect client data."
+    },
+    "preparing-to-negotiate": {
+      "primary": "how to prepare for a negotiation",
+      "title": "How to Prepare for a Negotiation: Goal and Plan B",
+      "description": "How to prepare for a negotiation: set a clear goal, a walk-away point and a Plan B, map the other side's interests and build a one-page prep sheet."
+    },
+    "creating-win-win-offers": {
+      "primary": "how to create win–win offers",
+      "title": "How to Create Win–Win Offers in a Negotiation",
+      "description": "How to create win–win offers: put several issues on the table, trade instead of giving in, offer choices and write the agreement down clearly."
+    },
+    "handling-no-and-counter-offers": {
+      "primary": "how to respond to a counter offer",
+      "title": "How to Handle a No and Tough Counter-Offers",
+      "description": "How to respond to a counter offer or a firm no: pause before replying, find the reason, answer with criteria and walk away politely if needed."
+    },
+    "persuading-without-pressure": {
+      "primary": "how to persuade someone without pressure",
+      "title": "How to Persuade Someone Without Pressure",
+      "description": "How to persuade someone without pressure: link your idea to their goals, show evidence, avoid manipulation and respect their right to say no."
+    },
+    "negotiating-deadlines-and-workload": {
+      "primary": "how to negotiate deadlines with your manager",
+      "title": "How to Negotiate Deadlines and Workload as a Fresher",
+      "description": "How to negotiate deadlines with your manager in your first job: clarify requests, ask for priorities when overloaded and propose options early."
+    },
+    "negotiating-terms-with-clients": {
+      "primary": "how to discuss fees with clients",
+      "title": "How to Discuss Fees and Terms with Clients Ethically",
+      "description": "How to discuss fees with clients ethically: disclose every cost, negotiate only what you may change, protect suitability and agree terms in writing."
+    },
+    "the-three-part-story": {
+      "primary": "situation challenge result story structure",
+      "title": "Situation, Challenge, Result: A Simple Story Structure",
+      "description": "Use the situation challenge result story structure to turn any work experience into a short story with a concrete problem, outcome and lesson."
+    },
+    "pitching-in-60-seconds": {
+      "primary": "how to pitch an idea in 60 seconds",
+      "title": "How to Pitch an Idea in 60 Seconds: A Simple Shape",
+      "description": "How to pitch an idea in 60 seconds: start with the problem, state the idea in one line, give one proof point and end with a small, clear ask."
+    },
+    "stories-with-data": {
+      "primary": "how to tell a story with data",
+      "title": "How to Tell a Story with Data: Tips and Examples",
+      "description": "How to tell a story with data: find the one number that matters, add context, use comparisons people can picture and keep charts honest."
+    },
+    "storytelling-on-social-media": {
+      "primary": "storytelling on social media",
+      "title": "Storytelling on Social Media: Posts People Finish",
+      "description": "Storytelling on social media: write a strong first line, tell one small story per post, stay honest about what happened and protect others' privacy."
+    },
+    "stories-in-interviews": {
+      "primary": "how to use storytelling in interviews",
+      "title": "How to Use Storytelling in Interviews and GDs",
+      "description": "How to use storytelling in interviews and group discussions: build a bank of five or six stories and fit the right one to each question."
+    },
+    "stories-that-help-clients-decide": {
+      "primary": "how to explain investing to clients",
+      "title": "How to Explain Investing to Clients with Stories",
+      "description": "How to explain investing to clients with clearly labelled illustrative stories on goals, time and risk, without cherry-picking or implying returns."
+    },
+    "from-peer-to-boss": {
+      "primary": "how to manage former peers",
+      "title": "From Peer to Boss: How to Manage Former Peers",
+      "description": "How to manage former peers after a promotion: have an early reset talk, set fair boundaries and earn credibility in your first 90 days."
+    },
+    "delegating-well": {
+      "primary": "how to delegate effectively as a new manager",
+      "title": "How to Delegate Effectively as a New Manager",
+      "description": "How to delegate effectively as a new manager: choose the right task and person, brief clearly, match freedom to skill and avoid micromanaging."
+    },
+    "giving-feedback-as-a-manager": {
+      "primary": "how to give feedback as a manager",
+      "title": "How to Give Feedback as a Manager: SBI Examples",
+      "description": "How to give feedback as a manager with situation, behaviour, impact: meaningful praise, private correction and calm difficult conversations."
+    },
+    "running-one-on-ones": {
+      "primary": "how to run one on one meetings",
+      "title": "How to Run One-on-One Meetings Your Team Values",
+      "description": "How to run one on one meetings that help: set a steady rhythm, use a simple structure, ask open questions and follow through on what you hear."
+    },
+    "leading-without-the-title": {
+      "primary": "how to show leadership without a title",
+      "title": "How to Show Leadership Without a Title as a Fresher",
+      "description": "How to show leadership without a title in your first job: be reliable, take initiative the right way, influence peers and show ambition calmly."
+    },
+    "leading-a-sales-or-advisory-team": {
+      "primary": "how to lead a sales team ethically",
+      "title": "How to Lead a Sales or Advisory Team Ethically",
+      "description": "How to lead a sales team ethically: set goals that don't reward mis-selling, coach client conversations, handle complaints and escalate concerns."
+    },
+    "building-rapport": {
+      "primary": "how to build rapport with customers",
+      "title": "How to Build Rapport with Customers Quickly",
+      "description": "How to build rapport with customers quickly: prepare for two minutes, open with care, listen in a way people can see and find genuine common ground."
+    },
+    "ask-before-you-pitch": {
+      "primary": "needs based selling questions",
+      "title": "Needs-Based Selling: Ask Questions Before You Pitch",
+      "description": "Needs based selling questions that work: ask open questions, go one level deeper, summarise needs and link your recommendation to what you heard."
+    },
+    "follow-ups-that-arent-pushy": {
+      "primary": "how to follow up with customers without being pushy",
+      "title": "How to Follow Up with Customers Without Being Pushy",
+      "description": "How to follow up with customers without being pushy: agree next steps, add value each time, pick the right channel and close the loop gracefully."
+    },
+    "getting-referrals-from-customers": {
+      "primary": "how to ask customers for referrals",
+      "title": "How to Ask Happy Customers for Referrals",
+      "description": "How to ask customers for referrals: earn them first, choose the right moment, make a specific ask, respect consent and thank everyone involved."
+    },
+    "handling-customer-queries": {
+      "primary": "how to handle customer complaints",
+      "title": "How to Handle Customer Queries and Complaints",
+      "description": "How to handle customer complaints in a bank, call centre or retail job: a step-by-step approach, calming phrases, honest timelines and escalation."
+    },
+    "ethical-selling-and-suitability": {
+      "primary": "ethical selling and suitability",
+      "title": "Ethical Selling: Suitability, Disclosure and Saying No",
+      "description": "Ethical selling and suitability for distributors and RMs: assess the client, disclose risks, costs and earnings, record advice and decline misfits."
+    },
+    "your-first-salary-plan": {
+      "primary": "how to plan your first salary",
+      "title": "How to Plan Your First Salary: A Simple Checklist",
+      "description": "How to plan your first salary: understand CTC versus in-hand pay, build an emergency fund first and automate saving with a simple checklist."
+    },
+    "budgeting-that-works": {
+      "primary": "how to make a monthly budget",
+      "title": "How to Make a Monthly Budget That Actually Works",
+      "description": "How to make a monthly budget you can stick to: start with 50/30/20, sort needs and wants, watch small UPI spends and plan for yearly costs."
+    },
+    "credit-cards-loans-and-bnpl": {
+      "primary": "how to avoid credit card debt",
+      "title": "Credit Cards, EMIs and BNPL: How to Avoid Debt Traps",
+      "description": "How to avoid credit card debt: why minimum due is costly, what affects your credit score, an EMI's true cost and the risks of BNPL and loan apps."
+    },
+    "investing-basics": {
+      "primary": "investing basics for beginners",
+      "title": "Investing Basics for Beginners: Compounding and Risk",
+      "description": "Investing basics for beginners: inflation, compounding, risk and return, diversification and time horizon explained simply. Educational only."
+    },
+    "money-scams-targeting-young-people": {
+      "primary": "how to avoid online money scams",
+      "title": "How to Avoid Money Scams Targeting Students",
+      "description": "How to avoid online money scams aimed at students and freshers: fake jobs, task scams, loan apps, UPI collect requests and what to do if targeted."
+    },
+    "helping-clients-build-money-habits": {
+      "primary": "how to help clients build money habits",
+      "title": "How to Help Clients Build Better Money Habits",
+      "description": "How to help clients build money habits: start with goals, teach habits before transactions, stay within your role and support them when markets dip."
+    },
+    "spotting-burnout-early": {
+      "primary": "signs of burnout at work",
+      "title": "Signs of Burnout at Work: How to Spot Them Early",
+      "description": "Learn the early signs of burnout at work, how burnout differs from stress, a five-minute weekly self-check and sensible first steps to take."
+    },
+    "setting-boundaries-politely": {
+      "primary": "how to set boundaries at work",
+      "title": "How to Set Boundaries at Work Politely",
+      "description": "How to set boundaries at work politely: phrases for late-night messages, weekend work and heavy workload, and agreeing limits with your manager."
+    },
+    "saying-no-without-guilt": {
+      "primary": "how to say no at work without guilt",
+      "title": "How to Say No at Work Without Feeling Guilty",
+      "description": "How to say no at work without guilt: a simple three-part no, offering only real alternatives, and handling pushback and the guilt afterwards calmly."
+    },
+    "daily-recovery-routines": {
+      "primary": "how to switch off after work",
+      "title": "How to Switch Off After Work: Sleep and Breaks",
+      "description": "How to switch off after work and recover daily: steadier sleep timing, breaks that refresh you and a clear end to your workday routine."
+    },
+    "first-job-pressure-and-imposter-feelings": {
+      "primary": "imposter syndrome in first job",
+      "title": "Imposter Feelings and Pressure in Your First Job",
+      "description": "Handle imposter syndrome in first job settings: why it feels heavy, practical ways to steady yourself, fairer self-talk and when to seek support."
+    },
+    "handling-target-pressure": {
+      "primary": "how to handle sales target pressure",
+      "title": "How to Handle Sales Target Pressure Ethically",
+      "description": "How to handle sales target pressure in finance and sales roles: break targets into daily actions, keep ethics first and talk to your manager."
+    }
+  }
+}

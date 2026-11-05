@@ -55,6 +55,19 @@ def neg_text(x):
     return f"−{round(p['negative'] * mpq, 2):g} mark per wrong answer"
 INDEXABLE = [x for x in EXAMS if not x.get('noindex')]
 
+# ---------- SEO keyword targets (content/seo/*.json, optional) ----------
+SEO = {'exams': {}, 'groups': {}, 'hub': {}, 'skills_hub': {}, 'courses': {}, 'lessons': {}}
+for f in sorted(glob.glob(os.path.join(ROOT, 'content', 'seo', '*.json'))):
+    d = json.load(open(f, encoding='utf-8'))
+    for k in ('exams', 'groups', 'courses', 'lessons'): SEO[k].update(d.get(k, {}))
+    if os.path.basename(f) == 'exams.json': SEO['hub'] = d.get('hub', {})
+    elif d.get('hub'): SEO['skills_hub'] = d['hub']
+def seo_title(t):
+    t2 = f"{t} | {SITE['name']}"
+    return t2 if len(t2) <= 70 else t
+def practice_url(x): return exam_url(x) + 'practice-questions/'
+PRACTICE_N = 15
+
 # ---------- question bank ----------
 QB = {}
 for f in sorted(glob.glob(os.path.join(ROOT, 'js', 'data', 'qbank', '*.json'))):
@@ -192,12 +205,16 @@ def exam_page(x):
     if len(title) > 68: title = f"{code(x)} Mock Test {YEAR} | {SITE['name']}"
     desc = (f"Prepare for {code(x)} ({x['name']}) with up to {CAT['MAX_TESTS']} full-length mock tests of {p['questions']} questions, "
             f"chapter-wise analysis and an explanation for every answer. Free demo; plans from ₹{PLANS[0]['price']}.")
+    kw = SEO['exams'].get(x['id'], {})
+    if kw.get('title'): title = seo_title(kw['title'])
+    if kw.get('description'): desc = kw['description']
     crumbs = [('Home', '/'), ('Exams', '/exams/'), (g['label'], group_url(g)), (code(x), exam_url(x))]
     faqs = [
         (f"How many questions are there in the {code(x)} exam?", f"The {code(x)} paper has {p['questions']} multiple-choice questions for {p['marks']} marks, to be completed in {p['duration']} minutes. This is the indicative pattern — always confirm it in the latest official notification."),
         (f"Is there negative marking in {code(x)}?", (f"Yes. {neg_text(x)} ({round(p['negative'] * 100, 1):g}% of the marks for that question)." if p['negative'] else "No. There is no negative marking, so attempt every question.") + " Our mock tests apply the same rule."),
         (f"What is the {pw} for {code(x)}?", (f"Cut-offs vary by year and category; our mock tests use {p['passPct']}% as a target score to aim for." if competitive(x) else f"You need {p['passPct']}% to pass. Our mock tests show pass or fail against the same mark.")),
         (f"How many {code(x)} mock tests do I get?", f"One full-length mock test is unlocked for each day of your plan: {', '.join(str(pl['tests']) for pl in PLANS[:-1])} or {PLANS[-1]['tests']} mock tests on the {', '.join(pl['label'] for pl in PLANS[:-1])} or {PLANS[-1]['label']} plans. You can retake any unlocked test while your plan is active."),
+        *[tuple(f) for f in kw.get('faqs', [])],
         ("Are these the actual exam questions?", "No. Every question is an original practice question written to match the official syllabus and the exam's style. Reproducing real exam questions is not permitted, and we do not do it."),
         (f"Where can I get the official {code(x)} study material?", ("NISM provides the latest workbook free of cost on its official portal after a short registration. The link is in the Official study material section on this page." if x['group'] == 'NISM' else "The official syllabus and notifications are published by the conducting body — see the Official resources section on this page.")),
     ]
@@ -225,7 +242,7 @@ def exam_page(x):
     body = f'''    <section class="page-hero"><div class="wrap">
       {crumbs_html(crumbs)}
       <h1>{e(code(x))} Mock Test: {e(x['name'])}</h1>
-      <p class="lead-left">Up to {CAT['MAX_TESTS']} full-length mock tests of {p['questions']} questions each, built on the official syllabus, with an explanation for every answer.</p>
+      <p class="lead-left">{e(kw['intro']) if kw.get('intro') else f"Up to {CAT['MAX_TESTS']} full-length mock tests of {p['questions']} questions each, built on the official syllabus, with an explanation for every answer."}</p>
       <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team · <a href="/how-we-create-questions/">How we create questions</a></p>
       {rev_html}
       <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/exam/{x['id']}">See plans &amp; start</a><a class="btn btn-lg" href="/#/test/{x['id']}?demo=1">Try a free demo</a></div>
@@ -250,6 +267,7 @@ def exam_page(x):
       <section><h2>Free {e(code(x))} sample questions</h2>
         <p>Try five questions from our bank. Each mock test gives you {p['questions']} like these, with your score, chapter-wise analysis and explanations at the end.</p>
         {sample_html}
+        {'' if x.get('noindex') else f'<p><a class="btn" href="{practice_url(x)}">{PRACTICE_N} more free {e(code(x))} practice questions with answers {"&rarr;"}</a></p>'}
       </section>
       <section><h2>{e(code(x))} mock test plans</h2>
         <p>Every plan unlocks one full-length mock test per day of the plan. Prices include GST.</p>
@@ -279,6 +297,55 @@ def exam_page(x):
     if revs: course['reviewedBy'] = [{'@type': 'Person', 'name': r['name'], **({'url': r['profileUrl']} if r.get('profileUrl') else {})} for r in revs]
     ld = [breadcrumb_ld(crumbs), course, {'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in faqs]}]
     return page(exam_url(x), title, desc, body, ld, noindex=x.get('noindex'), active=group_url(g))
+
+def practice_questions(x):
+    used = {q[1] for q in samples(x)}
+    pool = [q for q in QB.get(x['id'], []) if q[1] not in used]
+    by_ch = {}
+    for q in pool: by_ch.setdefault(q[0], []).append(q)
+    pick, k = [], 0
+    while len(pick) < PRACTICE_N and any(len(v) > k for v in by_ch.values()):
+        for v in by_ch.values():
+            if len(v) > k and len(pick) < PRACTICE_N: pick.append(v[k])
+        k += 1
+    return pick
+
+def practice_page(x):
+    g, p, kw = GROUP[x['group']], x['pattern'], SEO['exams'].get(x['id'], {})
+    qs = practice_questions(x)
+    crumbs = [('Home', '/'), ('Exams', '/exams/'), (g['label'], group_url(g)), (code(x), exam_url(x)), ('Practice questions', practice_url(x))]
+    title = seo_title(kw.get('pq_title') or f"{code(x)} Practice Questions with Answers (Free)")
+    desc = kw.get('pq_description') or f"Free {code(x)} practice questions with answers and explanations, covering every chapter of the {x['name']} syllabus. Try them, then take a full mock test."
+    chs = list(dict.fromkeys(q[0] for q in qs))
+    q_html = ''.join(f'''
+        <div class="sample" id="q{i + 1}">
+          <div class="small muted">Question {i + 1} · {e(q[0])}</div>
+          <p class="sample-q">{e(q[1])}</p>
+          <ol class="sample-opts" type="A">{''.join(f'<li>{e(o)}</li>' for o in q[2])}</ol>
+          <details><summary>Show answer &amp; explanation</summary><p><b>Answer: {"ABCD"[q[3]]}. {e(q[2][q[3]])}</b></p><p>{e(q[4])}</p></details>
+        </div>''' for i, q in enumerate(qs))
+    body = f'''    <section class="page-hero"><div class="wrap">
+      {crumbs_html(crumbs)}
+      <h1>{e(code(x))} practice questions with answers</h1>
+      <p class="lead-left">{len(qs)} free practice questions for {e(code(x))} ({e(x['name'])}) from {len(chs)} chapters of the syllabus. Try each one, then open the answer to read why it is correct.</p>
+      <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team · <a href="/how-we-create-questions/">How we create questions</a></p>
+      <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/test/{x['id']}?demo=1">Take a free timed demo</a><a class="btn btn-lg" href="{exam_url(x)}">{e(code(x))} mock tests</a></div>
+    </div></section>
+    <div class="wrap page prose">
+      <section><h2>How to use these questions</h2>
+        <p>Answer each question before opening the explanation, and note the chapter of every one you get wrong — those are the chapters to revise first. The real {e(code(x))} paper has {p['questions']} questions in {p['duration']} minutes{', with negative marking' if p['negative'] else ''}, so once you are comfortable, practise under time pressure with a full-length mock test.</p>
+        <p class="small muted">These are original practice questions written to the official syllabus. They are not actual exam questions.</p>
+      </section>
+      <section><h2>Free {e(code(x))} practice questions</h2>{q_html}</section>
+      <section><h2>Ready for a full {e(code(x))} mock test?</h2>
+        <p>Each mock test has {p['questions']} questions with a timer, your score, chapter-wise analysis and an explanation for every answer. Plans unlock one full-length mock test per day, from ₹{PLANS[0]['price']} including GST.</p>
+        <div class="row"><a class="btn btn-primary" href="/#/exam/{x['id']}">See {e(code(x))} plans</a><a class="btn" href="{exam_url(x)}">Exam pattern &amp; syllabus</a></div>
+      </section>
+    </div>'''
+    lr = {'@type': 'LearningResource', 'name': f"{code(x)} practice questions", 'description': desc, 'url': BASE + practice_url(x), 'inLanguage': 'en-IN',
+          'learningResourceType': 'Practice questions', 'educationalLevel': 'Professional certification' if x['group'] in ('NISM', 'Insurance & Finance') else 'Competitive exam',
+          'isAccessibleForFree': True, 'provider': {'@id': BASE + '/#org'}, 'dateModified': TODAY.isoformat(), 'about': x['name']}
+    return page(practice_url(x), title, desc, body, [breadcrumb_ld(crumbs), lr], active=group_url(g))
 
 # ---------- group & hub pages ----------
 GROUP_INTRO = {
@@ -325,6 +392,9 @@ def group_page(g):
     crumbs = [('Home', '/'), ('Exams', '/exams/'), (g['label'], group_url(g))]
     title = f"{g['label']} Mock Tests {YEAR} – {len(xs)} Exams | {SITE['name']}"
     desc = f"Full-length {g['label']} mock tests for {', '.join(code(x) for x in xs[:4])}{' and more' if len(xs) > 4 else ''}. Exam pattern, syllabus, free sample questions and plans from ₹{PLANS[0]['price']}."
+    gk = SEO['groups'].get(g['id'], {})
+    if gk.get('title'): title = seo_title(gk['title'])
+    if gk.get('description'): desc = gk['description']
     if g['id'] == 'NISM':
         blocks = ''.join(f'<h3>{e(cat)}</h3>' + exam_table([x for x in xs if x.get('category') == cat]) for cat in CAT['CATEGORIES'] if any(x.get('category') == cat for x in xs))
     else:
@@ -346,6 +416,8 @@ def exams_hub():
     crumbs = [('Home', '/'), ('Exams', '/exams/')]
     title = f"All Exam Mock Tests – NISM, Banking, SSC, MBA | {SITE['name']}"
     desc = f"Browse {len(INDEXABLE)} exams with full-length mock tests: NISM certifications, IBPS & SBI, SSC, CAT/CMAT/MAT and IRDAI, NCFM, JAIIB & CAIIB. Patterns, syllabus and free samples."
+    if SEO['hub'].get('title'): title = seo_title(SEO['hub']['title'])
+    if SEO['hub'].get('description'): desc = SEO['hub']['description']
     body = f'    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}<h1>All exams</h1><p class="lead-left">{len(INDEXABLE)} exams across {len(GROUPS)} categories. Each page shows the exam pattern, the syllabus our question bank covers, free sample questions and mock test plans.</p></div></section>\n    <div class="wrap page prose">' + ''.join(
         f'<section><h2><a href="{group_url(g)}">{e(g["label"])}</a></h2><p class="muted">{e(g["blurb"])}</p>{exam_table([x for x in INDEXABLE if x["group"] == g["id"]], target=bool(g.get("competitive")))}</section>' for g in GROUPS) + '</div>'
     ld = [breadcrumb_ld(crumbs), {'@type': 'CollectionPage', 'name': 'All exams', 'url': BASE + '/exams/'}]
@@ -354,7 +426,7 @@ def exams_hub():
 def study_page():
     crumbs = [('Home', '/'), ('Free study material', '/study-material/')]
     title = f"Free NISM Workbooks & Official Exam Syllabus | {SITE['name']}"
-    desc = "Official, free study resources for every exam we cover: NISM's free workbook portal, NISM test objectives, and official syllabus pages for IBPS, SBI, RBI, SSC, CAT, CMAT, MAT, IRDAI, NSE and IIBF."
+    desc = "Free NISM workbook PDFs from the official portal, NISM test objectives and official syllabus links for IBPS, SBI, RBI, SSC, CAT, CMAT, MAT, IRDAI and IIBF."
     secs = ''
     for g in GROUPS:
         link = lambda l: '<a href="' + e(l['url']) + '" target="_blank" rel="noopener noreferrer">' + e(l['label']) + '</a>'
@@ -494,11 +566,15 @@ def skills_hub_page():
     crumbs = [('Home', '/'), ('Soft skills', '/soft-skills/')]
     title = f"{len(SKILLS)} Soft Skills Courses – Communication, AI, Money & More | {SITE['name']}"
     desc = f"{len(SKILLS)} practical soft-skills courses with bite-size lessons, quizzes and workplace scenarios — communication, interviews, working with AI, money skills, negotiation, leadership and more."[:158]
+    hk = SEO['skills_hub']
+    if hk.get('title'): title = seo_title(hk['title'])
+    if hk.get('description'): desc = hk['description']
     course_card = lambda a: f'''<div class="card"><h3 style="font-size:1.15rem"><a href="{skill_url(a)}">{e(a['name'])}</a></h3><p class="muted">{e(a['blurb'])}</p>
       <ul>{''.join(f'<li><a href="{skill_url(a, l)}">{e(l["title"])}</a> <span class="small muted">· {TRACK_LABEL[l["track"]]}{" · free" if i == 0 else ""}</span></li>' for i, l in enumerate(a['lessons']))}</ul></div>'''
     cards = ''.join(f'<section><h2>{e(g["label"])}</h2><p class="muted">{e(g["blurb"])}</p><div class="stack">' + ''.join(course_card(a) for a in SKILLS if a.get('group') == g['id']) + '</div></section>'
                     for g in SKILL_GROUPS if any(a.get('group') == g['id'] for a in SKILLS))
     body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}<h1>Soft skills for your career</h1>
+      {f'<p class="lead-left">{e(hk["intro"])}</p>' if hk.get('intro') else ''}
       <p class="lead-left">{len(SKILLS)} practical courses. Short lessons with a quiz and real workplace scenarios after each one — for freshers starting their first job and finance professionals working with clients. The first lesson in every course is free.</p>
       <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team</p>
       <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/skills">Start learning</a></div></div></section>
@@ -513,21 +589,28 @@ def skill_area_page(a):
     n = len(a['lessons'])
     title = f"{a['name']} Course – {n} Lessons with Quizzes | {SITE['name']}"
     desc = f"{a['blurb']} {n} practical lessons, {n * 10} quiz questions and {n * 3} workplace scenarios. First lesson free; plans from ₹{PLANS[0]['price']}."
+    ck = SEO['courses'].get(a['slug'], {})
+    if ck.get('title'): title = seo_title(ck['title'])
+    if ck.get('description'): desc = ck['description']
     rows = ''.join(f"<tr><td><a href=\"{skill_url(a, l)}\"><b>{e(l['title'])}</b></a><div class=\"small muted\">{e(l['summary'])}</div></td><td>{TRACK_LABEL[l['track']]}</td><td>{l['minutes']} min</td><td>{'Free' if i == 0 else 'Plan'}</td></tr>" for i, l in enumerate(a['lessons']))
     faqs = [
         (f"Who is the {a['name']} course for?", "Freshers preparing for or starting their first job, and finance professionals such as mutual fund distributors, investment advisers and relationship managers. Core lessons suit everyone; one lesson is written for each of the two groups."),
         ("What do I get with a plan?", f"Full access to all {n} lessons, {n * 10} quiz questions with explanations and {n * 3} practice scenarios for the length of your plan: " + ', '.join(f"{p['label']} ₹{p['price']}" for p in PLANS) + ". Prices include GST."),
         ("Can I try it first?", f"Yes. The first lesson, “{a['lessons'][0]['title']}”, is free with its quiz and scenarios."),
-    ]
+    ] + [tuple(f) for f in ck.get('faqs', [])]
+    learn = ('<section><h2>What you will learn</h2><ul class="checks">' + ''.join(f'<li>{e(t)}</li>' for t in ck['learn']) + '</ul></section>') if ck.get('learn') else ''
+    who = ('<section><h2>Who this course is for</h2><ul>' + ''.join(f'<li>{e(t)}</li>' for t in ck['who']) + '</ul></section>') if ck.get('who') else ''
+    intro = f'<section><h2>About this {e(a["name"])} course</h2><p>{e(ck["intro"])}</p></section>' if ck.get('intro') else ''
     body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}<h1>{e(a['name'])}</h1><p class="lead-left">{e(a['blurb'])}</p>
       <p class="meta-row small muted">Last updated {DATE_HUMAN} · <a href="/how-we-create-questions/">Our editorial process</a></p>
       <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/skills/{a['slug']}">See plans &amp; start</a><a class="btn btn-lg" href="{skill_url(a, a['lessons'][0])}">Read lesson 1 free</a></div></div></section>
     <div class="wrap page prose">
       {('<div class="notice">' + e(a['note']) + '</div>') if a.get('note') else ''}
+      {intro}{learn}{who}
       <section><h2>Lessons in this course</h2><div class="table-wrap"><table><tr><th>Lesson</th><th>For</th><th>Read</th><th>Access</th></tr>{rows}</table></div></section>
       <section><h2>FAQs</h2>{''.join(f'<details class="faq-item"><summary>{e(q)}</summary><p>{e(x)}</p></details>' for q, x in faqs)}</section>
     </div>'''
-    course = {'@type': 'Course', 'name': a['name'], 'description': a['blurb'], 'provider': {'@id': BASE + '/#org'}, 'inLanguage': 'en-IN', 'url': BASE + skill_url(a),
+    course = {'@type': 'Course', 'name': a['name'], 'description': ck.get('intro') or a['blurb'], **({'teaches': ck['learn']} if ck.get('learn') else {}), **({'keywords': ', '.join([ck['primary']] + ck.get('secondary', []))} if ck.get('primary') else {}), 'provider': {'@id': BASE + '/#org'}, 'inLanguage': 'en-IN', 'url': BASE + skill_url(a),
               'offers': {'@type': 'AggregateOffer', 'priceCurrency': 'INR', 'lowPrice': PLANS[0]['price'], 'highPrice': PLANS[-1]['price'], 'offerCount': len(PLANS), 'category': 'Paid'},
               'hasCourseInstance': {'@type': 'CourseInstance', 'courseMode': 'Online'}, 'dateModified': TODAY.isoformat()}
     ld = [breadcrumb_ld(crumbs), course, {'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': x}} for q, x in faqs]}]
@@ -539,6 +622,9 @@ def skill_lesson_page(a, i, l):
     title = f"{l['title']} | {SITE['name']}"
     if len(title) > 68: title = l['title'][:66]
     desc = l['summary'][:155]
+    lk = SEO['lessons'].get(l['id'], {})
+    if lk.get('title'): title = seo_title(lk['title'])
+    if lk.get('description'): desc = lk['description']
     if free:
         content = ''.join(skill_section_html(s) for s in l['sections']) + '<section class="lesson-sec takeaways"><h2>Key takeaways</h2><ul>' + ''.join(f'<li>{e(t)}</li>' for t in l['takeaways']) + '</ul></section>'
         cta = f'<div class="card"><h3>Practise this lesson</h3><p class="muted">Take the free 10-question quiz and three workplace scenarios for this lesson.</p><a class="btn btn-primary" href="/#/skills/{a["slug"]}/{l["id"]}/quiz">Take the quiz</a></div>'
@@ -556,7 +642,7 @@ def skill_lesson_page(a, i, l):
       <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team</p></div></section>
     <div class="wrap page prose lesson">{('<div class="notice" style="margin-bottom:24px">' + e(a['note']) + '</div>') if a.get('note') else ''}{content}{sample}{cta}
       <section class="lesson-sec" style="margin-top:32px"><h2>More in {e(a['name'])}</h2><ul class="related">{others}</ul></section></div>'''
-    art = {'@type': 'Article', 'headline': l['title'], 'description': l['summary'], 'inLanguage': 'en-IN', 'url': BASE + skill_url(a, l),
+    art = {'@type': 'Article', 'headline': lk.get('title') or l['title'], 'description': l['summary'], **({'keywords': lk['primary']} if lk.get('primary') else {}), 'inLanguage': 'en-IN', 'url': BASE + skill_url(a, l),
            'author': {'@id': BASE + '/#org'}, 'publisher': {'@id': BASE + '/#org'}, 'dateModified': TODAY.isoformat(),
            'isAccessibleForFree': free, 'isPartOf': {'@type': 'Course', 'name': a['name'], 'url': BASE + skill_url(a)}}
     if not free:
@@ -565,8 +651,8 @@ def skill_lesson_page(a, i, l):
 
 # ---------- home (SPA shell gets SEO head + crawlable fallback) ----------
 def home_seo():
-    title = f"{SITE['name']} – NISM, Banking, SSC & CAT Mock Tests"
-    desc = f"Full-length mock tests with explanations for {len(INDEXABLE)} exams: NISM certifications, IBPS, SBI, RBI, SSC, CAT, CMAT, MAT, IRDAI IC-38, NCFM, JAIIB and CAIIB. Free demo; plans from ₹{PLANS[0]['price']}."
+    title = f"NISM, Bank, SSC & CAT Mock Tests Online | {SITE['name']}"
+    desc = f"Online mock tests with answers for {len(INDEXABLE)} exams – NISM, IBPS, SBI, SSC, CAT, IC-38 – plus soft-skills courses. Free demo; plans from ₹{PLANS[0]['price']}."
     ld = {'@context': 'https://schema.org', '@graph': [org_ld(), {'@type': 'WebSite', '@id': BASE + '/#site', 'name': SITE['name'], 'url': BASE + '/', 'publisher': {'@id': BASE + '/#org'}, 'inLanguage': 'en-IN'}]}
     head = f'''<!-- seo:head -->
   <title>{e(title)}</title>
@@ -597,6 +683,8 @@ def main():
     pages = []  # (path, indexable)
     for x in EXAMS:
         wr(exam_url(x).strip('/') + '/index.html', exam_page(x)); pages.append((exam_url(x), not x.get('noindex')))
+        if not x.get('noindex'):
+            wr(practice_url(x).strip('/') + '/index.html', practice_page(x)); pages.append((practice_url(x), True))
     for g in GROUPS:
         wr(group_url(g).strip('/') + '/index.html', group_page(g)); pages.append((group_url(g), True))
     wr('exams/index.html', exams_hub()); pages.append(('/exams/', True))
@@ -646,7 +734,7 @@ def main():
     wr('robots.txt', f'User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n')
 
     ss = (1 + len(SKILLS) + sum(len(a['lessons']) for a in SKILLS)) if SKILLS else 0
-    print(f'Sitemap: {len(urls)} URLs  (home 1, exam hub 1, categories {len(GROUPS)}, exams {len(INDEXABLE)}, study material 1, trust pages 7, soft skills {ss})')
+    print(f'Sitemap: {len(urls)} URLs  (home 1, exam hub 1, categories {len(GROUPS)}, exams {len(INDEXABLE)}, practice-question pages {len(INDEXABLE)}, study material 1, trust pages 7, soft skills {ss})')
     print(f'Not in sitemap (noindex): {", ".join(code(x) for x in EXAMS if x.get("noindex"))}')
     for w in warnings: print('WARN', w)
 
