@@ -1,0 +1,9 @@
+{
+  "name": "success4sure",
+  "private": true,
+  "type": "module",
+  "description": "Success4Sure static site and AI Coach worker",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.4.0"
+  }
+}

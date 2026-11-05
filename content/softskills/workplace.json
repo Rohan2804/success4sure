@@ -1,0 +1,1721 @@
+{
+  "area": "workplace",
+  "lessons": [
+    {
+      "id": "time-management-and-prioritisation",
+      "title": "Time Management and Prioritisation",
+      "track": "core",
+      "minutes": 7,
+      "summary": "Sort your work by urgency and importance, plan realistic weeks and days, and protect time for focused work. You will also learn how to handle new requests and flag delays without losing trust.",
+      "sections": [
+        {
+          "heading": "Sort tasks before you start them",
+          "body": "Most people do not run out of time; they spend it on whatever shouts loudest. A simple way to stop this is the urgent–important grid. Urgent means there is a near deadline or someone is waiting. Important means the task moves a real goal forward: your targets, your learning, a client's outcome. Every task falls into one of four boxes: urgent and important (do it now), important but not urgent (schedule it), urgent but not important (delegate, batch or keep it short), and neither (drop it).\n\nThe trap is the second box. Preparing for a certification, cleaning up a client list or learning Excel properly never feels urgent, so it keeps sliding until it becomes a crisis. People who seem calm at work usually protect time for important-but-not-urgent work before it turns red.\n\nTry it on Monday morning. Write down everything on your plate, then mark each item: A for do now, B for schedule, C for delegate or batch, D for drop. It takes ten minutes and usually reveals two or three things you can simply stop doing."
+        },
+        {
+          "heading": "Plan the week, then the day",
+          "body": "A weekly plan answers one question: which three outcomes would make this week a success? Write outcomes, not activities: 'send the revised MIS to the branch head' rather than 'work on MIS'. Put them in your calendar as blocks before meetings fill the week.\n\nEach evening, or first thing in the morning, pick the day's top three from that list and estimate how long each will take. Then add a buffer. Most tasks take longer than expected, especially when they depend on replies, approvals or a system that goes down at month-end. A plan that fills every minute is a wish list, not a plan.\n\nKeep one trusted list, whether a notebook, a notes app or a task tool, instead of scraps spread across WhatsApp, sticky notes and memory. When everything lives in one place, you stop spending energy just remembering what is pending.",
+          "do": [
+            "Write outcomes you can tick off, not vague activities",
+            "Leave 20–30% of the day unplanned for the unexpected",
+            "Review your list at the same time every day"
+          ],
+          "dont": [
+            "Plan your day only from whatever is in your inbox",
+            "Treat every request as same-day by default"
+          ]
+        },
+        {
+          "heading": "Protect your focus",
+          "body": "Deep work, such as drafting a report, reviewing a portfolio or studying for an exam, needs uninterrupted stretches. Every jump to a notification costs several minutes of getting back into the task. Block 60–90 minutes for focused work, mute non-essential groups and keep your phone face down or out of reach.\n\nBatch the small stuff. Instead of answering every email and message the moment it arrives, check them at fixed times, say 10:30, 1:30 and 4:30. Tell your team the pattern so nobody thinks you are ignoring them, and agree on a channel for genuine emergencies, such as a phone call.\n\nNotice your own energy through the day. If you think most clearly in the morning, put analytical work there and keep routine calls and data entry for the post-lunch dip."
+        },
+        {
+          "heading": "Saying 'not now' without saying 'no'",
+          "body": "New requests will keep arriving. Accepting all of them silently is how deadlines get missed. The professional move is to make the trade-off visible: 'I can take this up. Right now I'm finishing the branch report due Thursday. Should I pause that, or can this wait until Friday?' You stay helpful, and the person who sets priorities makes the call.\n\nWhen you cannot meet a deadline, say so early, ideally the moment you know rather than on the due date. Give the reason in one line, a realistic new date and what is already done: 'The data from operations came in late, so the reconciliation will be ready by Wednesday noon instead of Tuesday. The first two sections are complete.' Early warning builds trust; last-minute surprises erode it.",
+          "dont": [
+            "Promise a time you have not checked against your list",
+            "Wait until the deadline to mention a delay"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Sort tasks by urgency and importance before you start working on them.",
+        "Schedule important-but-not-urgent work before it turns into a crisis.",
+        "Plan three outcomes for the week and three for the day, with buffer time.",
+        "Batch messages at fixed times and protect blocks of focused work.",
+        "Make trade-offs visible when new work arrives, and flag delays early."
+      ],
+      "quiz": [
+        [
+          "Your manager wants a client report by 5 pm today, and you also need to prepare for a certification exam six weeks away. Using the urgent–important grid, what is the best approach?",
+          [
+            "Do the report now; schedule study slots for the coming weeks",
+            "Study first, because long-term growth matters more than one report",
+            "Alternate between the report and studying every 15 minutes",
+            "Leave exam preparation until the final week, when it becomes urgent"
+          ],
+          0,
+          "The report is urgent and important, so it comes first; the exam is important but not urgent, so it should be scheduled rather than left to chance."
+        ],
+        [
+          "Which of these is a weekly outcome rather than an activity?",
+          [
+            "Send the revised SIP analysis to the regional head",
+            "Work on the SIP book whenever there is free time this week",
+            "Spend a few hours going through client data",
+            "Be more productive and organised with weekly reports"
+          ],
+          0,
+          "An outcome describes a finished result you can tick off; the others describe effort with no clear end point."
+        ],
+        [
+          "A colleague keeps sending you routine data-formatting requests that take 40 minutes a day but are not part of your goals. Which box do they mostly belong in?",
+          [
+            "Urgent and important: do them immediately",
+            "Urgent, not important: batch or delegate",
+            "Important but not urgent: schedule them",
+            "Neither: ignore them without telling anyone"
+          ],
+          1,
+          "They feel pressing because someone is waiting, but they don't move your goals. Ignoring them silently would damage the working relationship."
+        ],
+        [
+          "You planned your day to the last minute and are already behind by noon. Which habit would most likely have prevented this?",
+          [
+            "Starting work an hour earlier",
+            "Leaving buffer time for delays",
+            "Adding more tasks to stay motivated",
+            "Checking email more often"
+          ],
+          1,
+          "Tasks routinely take longer than estimated, so a plan without buffer breaks at the first delay."
+        ],
+        [
+          "Your team head asks you to take up an urgent audit query while you are midway through a presentation due tomorrow. What is the best response?",
+          [
+            "Accept it and quietly work late to finish both",
+            "Decline because you are already busy",
+            "Pass the query to a junior without telling the head",
+            "Share your current work and ask which comes first"
+          ],
+          3,
+          "Making the trade-off visible lets the person who owns priorities decide, instead of you silently risking both deadlines."
+        ],
+        [
+          "When is the best time to tell your manager that a deliverable will be late?",
+          [
+            "On the due date, with an apology",
+            "As soon as you realise the deadline is at risk",
+            "Only if the manager asks for an update",
+            "After you finish, so you can show the final result"
+          ],
+          1,
+          "An early warning gives your manager time to adjust plans; a late surprise removes their options."
+        ],
+        [
+          "Which practice best protects deep, focused work?",
+          [
+            "Replying to every message within two minutes",
+            "Keeping every chat group open so you never miss any update",
+            "Muted 60–90 minute focus blocks, with an emergency channel",
+            "Working on three tasks at once to save time"
+          ],
+          2,
+          "Focused blocks reduce switching, while an emergency channel ensures truly urgent matters still reach you."
+        ],
+        [
+          "Why does checking messages at fixed times usually work better than responding instantly?",
+          [
+            "It reduces the time lost switching between tasks",
+            "It shows colleagues that you are too busy to be disturbed",
+            "It guarantees you never miss anything important",
+            "It lets you stop replying to low-priority people"
+          ],
+          0,
+          "Each interruption costs time to regain focus; batching cuts the number of switches without ignoring anyone."
+        ],
+        [
+          "For most employees, which task belongs in the 'neither urgent nor important' box?",
+          [
+            "Responding to a client whose SIP mandate has failed",
+            "Preparing for next month's compliance training",
+            "Finishing a report due tomorrow",
+            "Re-sorting desktop folders for the third time"
+          ],
+          3,
+          "Repeated tidying feels productive but neither has a deadline nor moves a real goal forward."
+        ],
+        [
+          "You track pending tasks across WhatsApp, sticky notes and memory. What is the main benefit of moving to one trusted list?",
+          [
+            "Each task automatically takes less time",
+            "Your manager can monitor your progress much more closely",
+            "Less mental effort spent remembering what's pending",
+            "You no longer need to prioritise"
+          ],
+          2,
+          "A single list frees your attention for the work itself; it still needs prioritising."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "Three requests, one afternoon",
+          "situation": "It is 3 pm. Your reporting manager wants a branch performance summary by 6 pm, the regional office has emailed asking for KYC data 'at the earliest', and a colleague wants help with her presentation. You realise you cannot do all three properly today.",
+          "options": [
+            {
+              "text": "Message your manager listing the three requests, say what you can finish by 6 pm, and ask whether the regional request should take precedence.",
+              "rating": "best",
+              "feedback": "Making the trade-off visible lets the person who owns priorities decide, and nothing gets dropped silently."
+            },
+            {
+              "text": "Finish the summary, send the KYC data tomorrow morning and tell your colleague you can help after 6 pm.",
+              "rating": "good",
+              "feedback": "A sensible order, but the regional office doesn't know about the delay and your manager may rank the KYC request higher. Share the plan."
+            },
+            {
+              "text": "Work on all three in parallel and stay late until everything is done.",
+              "rating": "poor",
+              "feedback": "Constant switching slows every task, and late nights hide a workload problem instead of solving it."
+            },
+            {
+              "text": "Start with your colleague's presentation, since it is the quickest.",
+              "rating": "poor",
+              "feedback": "Quick is not the same as important; doing the easiest task first is a common way to miss the real deadline."
+            }
+          ]
+        },
+        {
+          "title": "The certification that keeps slipping",
+          "situation": "You registered for a NISM certification exam three months ago. Every week, client calls and branch work push your study time aside, and the exam is now five weeks away.",
+          "options": [
+            {
+              "text": "Block three fixed study slots a week in your calendar, treat them like client meetings and tell your team when you are unavailable.",
+              "rating": "best",
+              "feedback": "Important-but-not-urgent work only survives when it is scheduled and protected in advance."
+            },
+            {
+              "text": "Plan to study intensively in the final two weeks.",
+              "rating": "good",
+              "feedback": "It can work, but it turns an important task into an urgent one and leaves no room if work spikes in those weeks."
+            },
+            {
+              "text": "Study whenever a free moment appears during the day.",
+              "rating": "poor",
+              "feedback": "Free moments rarely appear, and scattered minutes don't build the concentration exam preparation needs."
+            }
+          ]
+        },
+        {
+          "title": "The late data",
+          "situation": "Your quarterly reconciliation is due on Tuesday. On Monday afternoon you learn that the operations team will send the data you need only on Tuesday evening.",
+          "options": [
+            {
+              "text": "Tell your manager on Monday about the dependency, what is already done and a realistic new time of Wednesday noon.",
+              "rating": "best",
+              "feedback": "An early, specific warning lets your manager adjust; people remember that you flagged it, not just that it slipped."
+            },
+            {
+              "text": "Chase operations hard for the data and mention the risk to your manager only if they don't deliver.",
+              "rating": "good",
+              "feedback": "Chasing helps, but holding back the warning shrinks the time your manager has to react."
+            },
+            {
+              "text": "Submit on Tuesday using last quarter's figures as estimates without mentioning it.",
+              "rating": "poor",
+              "feedback": "Presenting estimates as actual figures is misleading and can create a far bigger problem than a one-day delay."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "clock",
+          "title": "Take charge of your day",
+          "text": "Busy isn't the same as productive. In the next two minutes, learn how to sort your work, plan a realistic day and handle new requests without dropping the ball."
+        },
+        {
+          "kind": "tip",
+          "icon": "grid",
+          "title": "Sort tasks with the urgent–important grid",
+          "text": "Urgent means someone is waiting. Important means it moves a real goal. Do both-boxes work now, schedule important work, batch or delegate the merely urgent, and drop the rest.",
+          "example": "A: client report due 5 pm\nB: NISM exam prep\nC: routine data formatting\nD: re-sorting folders"
+        },
+        {
+          "kind": "compare",
+          "icon": "target",
+          "title": "Plan outcomes, not activities",
+          "text": "Pick three outcomes for the week and three for the day. An outcome is something you can tick off.",
+          "bad": "Work on MIS",
+          "good": "Send revised MIS to branch head by Thursday"
+        },
+        {
+          "kind": "compare",
+          "icon": "clock",
+          "title": "Leave room for the unexpected",
+          "text": "Approvals, replies and system downtime always eat time. Keep 20–30% of your day unplanned.",
+          "bad": "Nine tasks booked back to back, 9:30 to 6:30",
+          "good": "Top three tasks in the morning, buffer after lunch"
+        },
+        {
+          "kind": "tip",
+          "icon": "bolt",
+          "title": "Protect your focus time",
+          "text": "Block 60–90 minutes for deep work. Mute non-essential groups and check messages at fixed times. Tell your team, and agree that a phone call means a real emergency.",
+          "example": "Message checks: 10:30, 1:30, 4:30"
+        },
+        {
+          "kind": "compare",
+          "icon": "refresh",
+          "title": "Say “not now” without saying “no”",
+          "text": "When new work arrives, show the trade-off and let the person who sets priorities decide.",
+          "bad": "“Sure, I'll do it.” (Then Thursday's report quietly slips.)",
+          "good": "“Happy to. I'm on the branch report due Thursday — should I pause it, or can this wait till Friday?”"
+        },
+        {
+          "kind": "compare",
+          "icon": "flag",
+          "title": "Flag delays early",
+          "text": "Tell your manager the moment you know, not on the due date. Give the reason, a new date and what's done.",
+          "bad": "“Sorry, it's not ready.” (on the due date)",
+          "good": "“Ops data came late, so the reconciliation will be ready Wednesday noon. Two sections are done.”"
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Five habits to manage your time:"
+        }
+      ]
+    },
+    {
+      "id": "teamwork-and-collaboration",
+      "title": "Teamwork and Collaboration",
+      "track": "core",
+      "minutes": 7,
+      "summary": "Set clear roles, become someone teammates can rely on, and collaborate across seniority, languages and locations. You will also practise disagreeing constructively and committing once a decision is made.",
+      "sections": [
+        {
+          "heading": "Clarify roles before the work starts",
+          "body": "Many team problems are not personality clashes; they are unclear roles. Two people do the same task, or each assumes the other is doing it. At the start of any shared piece of work, whether a branch product launch, an MBA group project or a month-end close, spend ten minutes agreeing who does what, by when, and who makes the final call.\n\nA simple method is to list the tasks and, for each one, name an owner (one person, never 'everyone'), who should be consulted and who only needs to be informed. Write it down and share it in the team group. When someone later asks who is handling the client presentation, the answer is already there.\n\nIf you join a team midway, ask for this picture early: 'Could you help me understand who owns what, so I don't duplicate anyone's work?'"
+        },
+        {
+          "heading": "Be the reliable one",
+          "body": "Trust in a team is built on small, kept promises. Doing what you said, when you said, matters more than occasional brilliance. If you say you will send the numbers by lunch, send them by lunch, or message before lunch explaining the delay.\n\nClose loops. When a task is done, say so briefly and specifically: 'Uploaded the revised deck to the shared folder; slide 6 has the new figures.' Colleagues should not have to chase you to learn the status of your work.\n\nShare credit generously and precisely. 'Priya's analysis of the redemption data is what made this pitch work' costs you nothing and builds goodwill. When something goes wrong in your part, own it plainly and move straight to the fix.",
+          "do": [
+            "Confirm deadlines in writing",
+            "Update people before they have to ask"
+          ],
+          "dont": [
+            "Agree to deadlines you know you can't keep",
+            "Present shared work as only your own"
+          ]
+        },
+        {
+          "heading": "Collaborating across levels and locations",
+          "body": "Indian workplaces often mix seniority levels, languages and locations: a head office in Mumbai, branches in tier-2 towns, colleagues on different shifts. Good collaborators adapt without losing clarity. Write messages that make sense to someone reading them later on a phone: put the context, the request and the deadline in the first two lines.\n\nRespect for seniority does not mean staying silent. If you spot a problem, raise it as a question rather than a verdict: 'I noticed the client list has duplicates from the old system. Should I clean it before we send it?' A senior colleague can act on that comfortably, and the issue still gets fixed.\n\nIn mixed-language teams, use a language everyone in the conversation follows. Switching to one that a colleague doesn't understand, even casually, quietly shuts them out of the work."
+        },
+        {
+          "heading": "Disagreeing well inside a team",
+          "body": "Healthy teams disagree about ideas and still work well together. Keep the disagreement about the work, not the person: 'I'm worried this timeline leaves no room for compliance review' rather than 'You always rush things.'\n\nBring evidence and an alternative instead of only objecting: 'If we start the review on Wednesday instead of Friday, we can still launch on the first.' Once the team or the decision-maker has chosen, commit fully even if your idea wasn't picked. Re-arguing a settled decision in side conversations damages trust faster than the original disagreement ever could. If genuinely new information appears later, raise it openly with the decision-maker.",
+          "dont": [
+            "Complain about teammates in other groups or chats",
+            "Reopen settled decisions behind the scenes"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Agree one named owner for every task before the work starts.",
+        "Keep small promises and close loops without being chased.",
+        "Raise concerns as questions and proposals, not verdicts.",
+        "Put context, request and deadline at the top of every message.",
+        "Disagree openly in the room, then commit to the decision."
+      ],
+      "quiz": [
+        [
+          "At the start of a branch campaign, the team agrees that 'everyone will handle client follow-ups'. What is the main risk?",
+          [
+            "Clients receive too many calls from the same person",
+            "The campaign finishes ahead of schedule",
+            "Senior staff feel left out of the work",
+            "No one owns follow-ups, so some get missed"
+          ],
+          3,
+          "When a task belongs to everyone, each person assumes someone else has done it. One named owner prevents this."
+        ],
+        [
+          "You realise you will miss your 1 pm promise to share data with a teammate. What should you do?",
+          [
+            "Message before 1 pm with a reason and new time",
+            "Send it whenever it's ready; they will understand",
+            "Send incomplete data at 1 pm without comment",
+            "Ask another colleague to explain the delay for you"
+          ],
+          0,
+          "Updating before the deadline keeps trust intact and lets your teammate plan around the delay."
+        ],
+        [
+          "Which status update best closes the loop on a task?",
+          [
+            "Working on it, will share once it's done",
+            "Done, please check the folder when you get time",
+            "I'll update everyone soon on where things stand",
+            "Deck uploaded to shared folder; slide 6 has new NAV figures"
+          ],
+          3,
+          "It confirms completion, says where the work is and highlights what changed, so nobody has to follow up."
+        ],
+        [
+          "A senior colleague's client list contains errors. Which is the most effective way to raise it?",
+          [
+            "Tell them: 'Your list is full of mistakes.'",
+            "Fix the errors quietly yourself and say nothing about it",
+            "Ask whether to clean the duplicates before it goes out",
+            "Mention the errors to the branch head first"
+          ],
+          2,
+          "A question that names the specific issue gets it fixed while keeping the relationship comfortable and the owner informed."
+        ],
+        [
+          "In a team meeting, two colleagues switch to a language that a third member doesn't understand. What would a good collaborator do?",
+          [
+            "Join in, since most of the group understands",
+            "Gently switch back to a language all present follow",
+            "Report the two colleagues to HR immediately after the meeting",
+            "Summarise for the third person only if they ask"
+          ],
+          1,
+          "Inclusion is part of good collaboration; a light redirect solves the problem without making it a formal issue."
+        ],
+        [
+          "Your proposal for the project plan was not chosen by the team lead. What is the best next step?",
+          [
+            "Keep making the case for your plan in side conversations",
+            "Commit fully to the chosen plan and help it succeed",
+            "Do your part using your own plan anyway",
+            "Stop contributing ideas in future planning discussions"
+          ],
+          1,
+          "Once a decision is made, visible commitment builds trust; new evidence can still be raised openly if it appears."
+        ],
+        [
+          "Which statement keeps a disagreement about the work rather than the person?",
+          [
+            "'You always rush these things and never check properly.'",
+            "'I'm worried we've no time for compliance review.'",
+            "'This plan clearly wasn't thought through.'",
+            "'Nobody in this team plans properly.'"
+          ],
+          1,
+          "It names a specific, fixable concern about the work instead of labelling people."
+        ],
+        [
+          "What makes a message easiest for a busy colleague to act on, especially on a phone?",
+          [
+            "A detailed background paragraph placed before the request",
+            "Several unrelated questions in one message",
+            "Context, request and deadline in the first two lines",
+            "A long voice note with no written summary"
+          ],
+          2,
+          "Putting the essentials up front lets the reader understand and respond quickly."
+        ],
+        [
+          "A project succeeds largely because of a teammate's analysis. In the review meeting, what should you do?",
+          [
+            "Name the teammate and their specific contribution",
+            "Describe it as a team effort without naming anyone",
+            "Highlight your own role first to stay visible",
+            "Let the manager work out who did what"
+          ],
+          0,
+          "Specific credit is fair, builds goodwill and helps leaders recognise the right people."
+        ],
+        [
+          "You join a team midway through a project. Which early question is most useful?",
+          [
+            "'Why was the project planned this way in the first place?'",
+            "'Which tasks can I avoid?'",
+            "'Who owns what, so I don't duplicate work?'",
+            "'When is the next team outing?'"
+          ],
+          2,
+          "Understanding ownership first helps you contribute without confusion or overlap."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "The missing section",
+          "situation": "You are in a four-person team preparing a client outreach plan for your branch. One teammate, Arjun, has missed two check-ins and hasn't submitted his section, which is due in two days.",
+          "options": [
+            {
+              "text": "Message Arjun privately: 'Haven't seen your section yet. Is something blocking you? Can we agree what you'll send by tomorrow evening?'",
+              "rating": "best",
+              "feedback": "A private, curious check-in often uncovers a real obstacle and resets the commitment without public embarrassment."
+            },
+            {
+              "text": "Tell the team lead straight away so they can deal with it.",
+              "rating": "good",
+              "feedback": "Escalation may be needed later, but going over Arjun's head before talking to him skips a simple, respectful first step."
+            },
+            {
+              "text": "Quietly write his section yourself so the plan is complete.",
+              "rating": "good",
+              "feedback": "It protects the deadline, but it hides the problem, overloads you and denies Arjun the chance to deliver."
+            },
+            {
+              "text": "Post in the team group that Arjun is holding everyone up.",
+              "rating": "poor",
+              "feedback": "Public blame triggers defensiveness and damages team trust far more than one late section."
+            }
+          ]
+        },
+        {
+          "title": "Credit in the review",
+          "situation": "In a meeting with the regional head, your manager praises 'your' excellent client segmentation. Most of the segmentation logic actually came from your colleague Meenal, who is also in the room.",
+          "options": [
+            {
+              "text": "Thank your manager and add: 'Meenal built the segmentation logic; I worked on the presentation.'",
+              "rating": "best",
+              "feedback": "It is accurate, gracious and takes a few seconds, and it builds trust with both Meenal and your manager."
+            },
+            {
+              "text": "Say nothing in the meeting, but thank Meenal privately afterwards.",
+              "rating": "good",
+              "feedback": "Kind, but the senior audience leaves with the wrong picture of who did the work."
+            },
+            {
+              "text": "Accept the praise, since it was a team result anyway.",
+              "rating": "poor",
+              "feedback": "Letting misattributed credit stand erodes trust once colleagues notice, and they usually do."
+            }
+          ]
+        },
+        {
+          "title": "The decision you argued against",
+          "situation": "Your team chose to hold a customer webinar on a Saturday. You argued for a weekday evening, but the lead decided otherwise. Now two teammates complain to you that Saturday was a bad call.",
+          "options": [
+            {
+              "text": "Say: 'I preferred a weekday too, but it's decided. Let's make Saturday work. Want to split the promotion list?'",
+              "rating": "best",
+              "feedback": "You acknowledge the view honestly and steer the group back to delivery, which is what makes a decision succeed."
+            },
+            {
+              "text": "Stay neutral and change the topic.",
+              "rating": "good",
+              "feedback": "It avoids fuelling the complaint but misses the chance to redirect the group's energy."
+            },
+            {
+              "text": "Agree that it was a bad call and explain why you expected it to fail.",
+              "rating": "poor",
+              "feedback": "Re-arguing a settled decision behind the scenes weakens commitment and can make failure self-fulfilling."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "user",
+          "title": "Be the teammate everyone trusts",
+          "text": "Most team problems come from unclear roles and missed promises, not bad people. In the next two minutes, learn habits that make you easy to work with."
+        },
+        {
+          "kind": "compare",
+          "icon": "grid",
+          "title": "One owner for every task",
+          "text": "At the start, list the tasks and name one owner and a deadline for each. Share it in the team group.",
+          "bad": "“Everyone will handle client follow-ups.”",
+          "good": "“Ravi owns follow-ups and Neha owns the deck, both by Friday.”"
+        },
+        {
+          "kind": "compare",
+          "icon": "check",
+          "title": "Close the loop",
+          "text": "Don't make people chase you. When something's done, say what changed and where to find it.",
+          "bad": "“Done, check.”",
+          "good": "“Revised deck is in the shared folder. Slide 6 has the new figures.”"
+        },
+        {
+          "kind": "tip",
+          "icon": "star",
+          "title": "Give credit by name",
+          "text": "Specific credit costs nothing and builds goodwill. If your part goes wrong, own it plainly and move straight to the fix.",
+          "example": "“Priya's redemption analysis is what made this pitch work.”"
+        },
+        {
+          "kind": "compare",
+          "icon": "search",
+          "title": "Raise problems as questions",
+          "text": "Respecting seniority doesn't mean staying silent. Ask in a way that's easy to act on.",
+          "bad": "“Your client list is full of mistakes.”",
+          "good": "“I noticed duplicates from the old system. Should I clean them before we send it?”"
+        },
+        {
+          "kind": "compare",
+          "icon": "refresh",
+          "title": "Disagree, then commit",
+          "text": "Argue about the work, not the person, and bring an alternative. Once it's decided, back the decision fully.",
+          "bad": "“You always rush things.”",
+          "good": "“If we start the compliance review on Wednesday, we can still launch on the 1st.”"
+        },
+        {
+          "kind": "checklist",
+          "icon": "mail",
+          "title": "Before you send a team message",
+          "text": "Tap each one as you check it.",
+          "items": [
+            "Context, request and deadline in the first two lines",
+            "Easy to read on a phone",
+            "In a language everyone in the group follows",
+            "Clear about who needs to act"
+          ]
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Five habits for better teamwork:"
+        }
+      ]
+    },
+    {
+      "id": "emotional-intelligence-and-conflict",
+      "title": "Emotional Intelligence and Handling Conflict",
+      "track": "core",
+      "minutes": 8,
+      "summary": "Recognise and manage your own reactions, read what others may be feeling, and work through disagreements with a clear step-by-step approach. You will also know when a conflict needs formal channels instead.",
+      "sections": [
+        {
+          "heading": "What emotional intelligence looks like at work",
+          "body": "Emotional intelligence at work is practical: noticing what you are feeling, managing how you act on it, reading what others may be feeling, and handling relationships with that awareness. It is not about being calm all the time or agreeing with everyone. It is about choosing your response instead of letting your first reaction choose for you.\n\nPicture a branch manager who receives a curt email from the zonal office late on a Friday. Low self-awareness looks like firing back an equally curt reply. Higher self-awareness sounds like: 'I'm irritated and tired. I'll reply on Monday morning when I can be clear.' Same feeling, very different outcome.\n\nThese are skills, not fixed traits. Small habits, repeated over weeks, change how colleagues and clients experience you."
+        },
+        {
+          "heading": "Pause, name, choose",
+          "body": "When something triggers you, such as a public correction, a client raising their voice or a colleague presenting your idea, use a three-step pause. First, pause: take a breath or two before speaking or typing. Second, name the feeling to yourself in a word or two, such as 'frustrated', 'embarrassed' or 'anxious'. Putting a label on it often takes some of the heat out. Third, choose the response that serves your goal rather than your mood.\n\nFor written messages, a simple rule helps: if you feel strongly while drafting, save it and reread it later. Most heated emails get softened or deleted on the second read.\n\nSeparate feeling from behaviour. You can feel annoyed and still speak respectfully. Nobody controls their first feeling, but everyone is responsible for what they do next.",
+          "do": [
+            "Wait before replying when you are upset",
+            "Name the feeling privately before acting"
+          ],
+          "dont": [
+            "Send emails while angry",
+            "Assume your first interpretation is the correct one"
+          ]
+        },
+        {
+          "heading": "Reading the other person",
+          "body": "Empathy at work means trying to understand someone's position, not necessarily agreeing with it. A colleague who snaps about a delayed report may be under pressure from their own manager. A client who sounds angry may really be anxious about money set aside for a child's education.\n\nListen for what sits underneath. Ask open questions such as 'What worries you most about this?' and reflect back what you heard: 'So the main concern is that the delay affects your quarterly review.' People tend to calm down when they feel understood, and you get better information to solve the actual problem.\n\nNotice signals beyond words, but hold your interpretations lightly. Silence in a meeting might mean disagreement, discomfort speaking up in front of seniors, or simply that someone is thinking. When unsure, ask privately."
+        },
+        {
+          "heading": "Handling conflict step by step",
+          "body": "Most workplace conflicts are about goals, resources, roles or plain misunderstandings. A simple sequence works for many of them. Choose the right setting: private, not a group chat and not in front of clients. Open with the shared goal: 'We both want the audit to close cleanly.' Describe the specific issue without labels: 'The last two files reached me after the cut-off' rather than 'You're always late.'\n\nThen ask for their view and listen fully before responding. Look for options that meet both sides' core needs, perhaps an earlier internal deadline or a shared checklist. Agree on a concrete next step and confirm it in a short message.\n\nSome issues are not personal disagreements to manage on your own. Harassment, discrimination or an ethics concern should go through your organisation's formal channels, such as HR, the Internal Committee for sexual harassment complaints, or the compliance team.",
+          "dont": [
+            "Discuss the conflict in group chats",
+            "Use labels like 'always' and 'never'"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Emotional intelligence is choosing your response, not suppressing feelings.",
+        "Pause, name the feeling, then choose the action that serves your goal.",
+        "Ask open questions and reflect back to understand the real concern.",
+        "Address conflict privately, start from the shared goal and describe specifics.",
+        "Take harassment, discrimination and ethics issues to formal channels."
+      ],
+      "quiz": [
+        [
+          "A senior colleague corrects you sharply in a meeting. Which response shows the best self-management?",
+          [
+            "Defend yourself point by point in front of everyone",
+            "Stay silent and avoid the colleague for a week",
+            "Acknowledge it briefly; discuss details after the meeting",
+            "Reply-all afterwards with detailed evidence that you were right"
+          ],
+          2,
+          "It keeps the meeting on track, avoids a public argument and still gives you a chance to clarify."
+        ],
+        [
+          "Why does naming your emotion to yourself ('I'm frustrated') help?",
+          [
+            "It signals to others that you are right and they are wrong",
+            "It can cool the feeling so you respond with more thought",
+            "It removes the need to deal with the problem",
+            "It ensures the other person apologises"
+          ],
+          1,
+          "Labelling a feeling creates a little distance from it, which helps you choose your next action."
+        ],
+        [
+          "A client sounds angry on a call about a delayed redemption. What is the most useful first step?",
+          [
+            "Explain the full process before they say anything more",
+            "Acknowledge the concern and ask what worries them most",
+            "Tell them there is no reason to be upset",
+            "Transfer the call to your manager straight away"
+          ],
+          1,
+          "Acknowledgement lowers the temperature, and the question uncovers the real issue you need to solve."
+        ],
+        [
+          "Which opening is best for a private conversation about repeated late file submissions?",
+          [
+            "'You're always late, and it's affecting everyone.'",
+            "'HR has been asking me about these repeated delays, so we need to discuss it.'",
+            "'I won't accept late files any more.'",
+            "'We both want a clean audit. Can we talk about the last two late files?'"
+          ],
+          3,
+          "It starts from a shared goal and describes specific facts without labels, threats or ultimatums."
+        ],
+        [
+          "At 9 pm you have drafted an angry reply to an email you feel is unfair. What should you do?",
+          [
+            "Save it as a draft and reread it the next morning",
+            "Send it now while the facts are fresh",
+            "Forward the original email to your team for opinions",
+            "Delete it and never respond"
+          ],
+          0,
+          "Time usually lets you respond clearly; never responding may leave a real issue unresolved."
+        ],
+        [
+          "A team member stays silent in a meeting where others disagree loudly. What is the most reasonable interpretation?",
+          [
+            "They agree with the decision",
+            "They are not interested in the work",
+            "It's unclear, so check in privately",
+            "They lack confidence and need training"
+          ],
+          2,
+          "Silence is ambiguous; asking privately avoids acting on a wrong assumption."
+        ],
+        [
+          "Which situation should NOT be handled as a personal disagreement between two colleagues?",
+          [
+            "A disagreement over who prepares the weekly MIS for the branch",
+            "Different preferences on meeting times",
+            "Repeated remarks about your appearance from a colleague",
+            "Overlap in client follow-up responsibilities"
+          ],
+          2,
+          "Possible harassment belongs with formal channels such as HR or the Internal Committee, not informal negotiation."
+        ],
+        [
+          "What does empathy at work require?",
+          [
+            "Agreeing with the other person to keep the peace",
+            "Sharing a similar experience of your own before listening",
+            "Avoiding any topic that might upset someone",
+            "Understanding their position, even without agreeing"
+          ],
+          3,
+          "Empathy is about understanding; you can still hold and explain a different view."
+        ],
+        [
+          "After discussing a conflict over shared resources, you and a colleague agree on a new process. What is a sensible final step?",
+          [
+            "Tell your manager that you won the discussion",
+            "Assume the agreement will hold without any follow-up",
+            "Ask the whole team to vote on whether it is fair",
+            "Confirm the agreed next steps in a short message"
+          ],
+          3,
+          "A brief written confirmation prevents later misunderstanding about what was agreed."
+        ],
+        [
+          "Reflecting back ('So your main worry is the delay affecting your review') is useful mainly because it:",
+          [
+            "Shows you understood and checks you've got it right",
+            "Buys time while you think of a counter-argument",
+            "Commits you to whatever the person asks",
+            "Proves you listened, so they cannot complain about it later"
+          ],
+          0,
+          "Reflection builds understanding and lets the other person correct you before you try to solve the wrong problem."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "Your idea, his slide",
+          "situation": "In a team meeting, a peer presents a process improvement that you shared with him over lunch last week, without mentioning you. You feel your face getting hot.",
+          "options": [
+            {
+              "text": "Stay composed, build on the idea in the discussion ('Glad this came up; I'd also suggest…'), and speak to him privately afterwards about crediting shared ideas.",
+              "rating": "best",
+              "feedback": "You contribute visibly, avoid a public clash and still address the behaviour directly with the person involved."
+            },
+            {
+              "text": "Say nothing now and let it go to avoid friction.",
+              "rating": "good",
+              "feedback": "It keeps the peace in the moment, but unspoken resentment builds and the pattern may repeat."
+            },
+            {
+              "text": "Interrupt: 'Actually, that was my idea.'",
+              "rating": "poor",
+              "feedback": "Even if true, a public challenge in the heat of the moment looks defensive and puts everyone on the spot."
+            }
+          ]
+        },
+        {
+          "title": "One analyst, two deadlines",
+          "situation": "You and a colleague from another department both need the only available analyst for the next two days to finish urgent work. Your colleague has already asked her own manager, who told the analyst to prioritise her task.",
+          "options": [
+            {
+              "text": "Talk to your colleague directly, explain your deadline and explore splitting the analyst's time or sequencing the work, involving both managers only if you can't agree.",
+              "rating": "best",
+              "feedback": "Peers can often solve resource clashes faster than managers, and starting with a direct conversation keeps the relationship intact."
+            },
+            {
+              "text": "Ask your manager to take it up with her manager.",
+              "rating": "good",
+              "feedback": "Sometimes necessary, but it escalates a problem the two of you might settle yourselves first."
+            },
+            {
+              "text": "Ask the analyst to quietly do your work first.",
+              "rating": "poor",
+              "feedback": "It puts the analyst in an unfair position and undermines trust between the teams."
+            }
+          ]
+        },
+        {
+          "title": "The stressed teammate",
+          "situation": "A usually cheerful teammate has been short-tempered for a week and snapped at you over a minor query. Others in the team have started avoiding her.",
+          "options": [
+            {
+              "text": "Check in privately: 'You seem to have a lot on. Is there anything I can take off your plate?' without pressing for personal details.",
+              "rating": "best",
+              "feedback": "A private, practical offer shows care, respects her privacy and may ease whatever is causing the strain."
+            },
+            {
+              "text": "Give her space and keep your interactions brief until things settle.",
+              "rating": "good",
+              "feedback": "Respectful, but a small private offer of help could make a real difference to her and the team."
+            },
+            {
+              "text": "Tell her that her tone is unprofessional and others have noticed.",
+              "rating": "poor",
+              "feedback": "Leading with judgement and group pressure is likely to increase defensiveness rather than solve anything."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "sparkle",
+          "title": "Stay calm when it counts",
+          "text": "Emotional intelligence isn't about never feeling upset. It's about choosing what you do next. In the next two minutes, learn simple steps for heated moments and conflicts."
+        },
+        {
+          "kind": "tip",
+          "icon": "clock",
+          "title": "Pause, name, choose",
+          "text": "Something stings? Take a breath before you speak or type. Name the feeling to yourself. Then pick the response that serves your goal, not your mood.",
+          "example": "“I'm irritated and tired. I'll reply on Monday morning.”"
+        },
+        {
+          "kind": "compare",
+          "icon": "mail",
+          "title": "Don't send it angry",
+          "text": "Feeling strongly while writing? Save a draft and reread it later. Most heated emails get softened on the second read.",
+          "bad": "A 9 pm reply-all listing everything they got wrong",
+          "good": "A draft saved overnight and sent calmly next morning"
+        },
+        {
+          "kind": "compare",
+          "icon": "phone",
+          "title": "Find the worry underneath",
+          "text": "An angry client is often an anxious one. Acknowledge the feeling, then ask an open question.",
+          "bad": "“There's no need to get upset, sir.”",
+          "good": "“I understand this delay is worrying. What concerns you most about it?”"
+        },
+        {
+          "kind": "compare",
+          "icon": "user",
+          "title": "Describe facts, not labels",
+          "text": "Talk in private and start from the shared goal. Then name the specific issue.",
+          "bad": "“You're always late with files.”",
+          "good": "“We both want the audit to close cleanly. The last two files reached me after the cut-off. Can we talk about it?”"
+        },
+        {
+          "kind": "tip",
+          "icon": "search",
+          "title": "Read silence carefully",
+          "text": "A quiet colleague may disagree, may not feel comfortable speaking up before seniors, or may just be thinking. Don't assume. Check in privately."
+        },
+        {
+          "kind": "tip",
+          "icon": "shield",
+          "title": "Know when it isn't personal",
+          "text": "Harassment, discrimination or an ethics concern isn't a disagreement to sort out yourself. Use formal channels: HR, the Internal Committee or the compliance team."
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Five ways to handle emotions and conflict:"
+        }
+      ]
+    },
+    {
+      "id": "presentations-and-public-speaking",
+      "title": "Presentations and Public Speaking",
+      "track": "core",
+      "minutes": 7,
+      "summary": "Build a presentation around one clear message, design slides that support your listeners, and deliver with confidence. You will also learn to handle tough questions and the unexpected.",
+      "sections": [
+        {
+          "heading": "Start with the one message",
+          "body": "Before opening PowerPoint, write one sentence: what should the audience think or do after your talk? For example: 'The branch should move two relationship managers to SIP renewals this quarter, because lapsed SIPs are our biggest leak.' Everything in the presentation should support that sentence; anything that doesn't is a candidate for cutting.\n\nNext, think about the audience. A regional head wants the conclusion and the numbers behind it. New joiners need context and examples. Clients need plain language and what it means for them. The same data can be framed very differently for each.\n\nA reliable structure for short talks is: the point, two or three reasons, evidence for each, then the point again with a clear next step. Audiences forgive a plain structure; they rarely forgive confusion."
+        },
+        {
+          "heading": "Slides that help, not hide",
+          "body": "Slides are there to support the listener, not to hold your script. Aim for one idea per slide, with a headline that states the takeaway, such as 'Lapsed SIPs doubled in Q2' rather than 'SIP data'. Use a simple chart instead of a dense table when you want people to see a trend.\n\nKeep text short enough to read in a few seconds. Put detail in an appendix or handout. Check that numbers match across slides, that units such as lakh, crore and per cent are clear, and that charts are readable from the back of the room.\n\nBefore: a slide with fourteen bullet points copied from a report. After: a headline, one chart and a single line of interpretation. The second version asks less of the audience and is far more memorable.",
+          "do": [
+            "Headline every slide with its takeaway",
+            "Label units and data sources"
+          ],
+          "dont": [
+            "Read your slides word for word",
+            "Squeeze a whole report onto one slide"
+          ]
+        },
+        {
+          "heading": "Rehearse and manage nerves",
+          "body": "Feeling nervous before speaking is normal, even for experienced presenters. Preparation is the most reliable way to reduce it. Rehearse out loud at least twice, once alone and once with a colleague or a phone recording. Time yourself; most people overrun.\n\nKnow your first minute well. A confident opening steadies you for the rest. Arrive early to check the projector, the clicker or your screen-share on a video call. On the day, slow breathing and a glass of water help, and so does looking at a few friendly faces for the first few sentences.\n\nIf you lose your place, pause, glance at the slide headline and carry on. A short silence feels much longer to you than it does to the audience."
+        },
+        {
+          "heading": "Delivery and handling questions",
+          "body": "Speak a little slower than in conversation, and pause after key numbers so they land. Make eye contact across the room, or look at the camera on video calls. Use your natural voice and a language your audience is comfortable with; you don't need a special 'presentation' style.\n\nPrepare for the three questions you are most likely to get. When asked something, listen fully, repeat or rephrase it if the room is large, then answer briefly. If you don't know, say so and commit to a follow-up: 'I don't have the scheme-wise split with me; I'll share it by tomorrow.' Guessing in front of seniors or clients is far riskier than an honest follow-up.\n\nClose with your main message and a clear next step. The last thing people hear is often what they remember.",
+          "dont": [
+            "Guess answers to appear knowledgeable",
+            "End with a flat 'That's all from my side'"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Write your one-sentence message before you build any slides.",
+        "Give each slide a headline that states its takeaway.",
+        "Rehearse out loud and know your opening minute well.",
+        "Answer questions briefly, and follow up rather than guess.",
+        "End by repeating your message with a clear next step."
+      ],
+      "quiz": [
+        [
+          "What should you do first when preparing a presentation?",
+          [
+            "Choose a slide template and colour scheme",
+            "Define, in one sentence, what listeners should take away",
+            "Collect every data point that might be relevant",
+            "Write a complete script that you can read from on the day"
+          ],
+          1,
+          "A single clear message guides what to include and what to cut."
+        ],
+        [
+          "Which slide headline is most effective?",
+          [
+            "'SIP data for the quarter'",
+            "'Lapsed SIPs doubled in Q2'",
+            "'Q2 analysis: part 1 of 3'",
+            "'Some observations on SIPs'"
+          ],
+          1,
+          "A headline that states the takeaway tells the audience what to notice before they read the detail."
+        ],
+        [
+          "A regional head and a batch of new joiners will each see your branch performance data in separate sessions. How should you approach this?",
+          [
+            "Frame it to suit each: conclusions for the head, context for joiners",
+            "Use the same slides for both groups so the message stays fully consistent",
+            "Show the new joiners less data because they are junior",
+            "Focus on technical detail for both groups"
+          ],
+          0,
+          "The core facts stay the same, but framing should match what each audience needs to understand and act on."
+        ],
+        [
+          "A senior asks a question during your talk and you don't know the answer. What is the best response?",
+          [
+            "Give your best estimate as though it were exact",
+            "Steer to a related topic you know well",
+            "Say the question is outside the scope of the talk",
+            "Admit you don't have it and promise it by a set time"
+          ],
+          3,
+          "Honesty with a concrete follow-up protects your credibility; a wrong guess can undo it."
+        ],
+        [
+          "You have a 40-row table supporting your main point. Where does it belong?",
+          [
+            "On the main slide in a small font",
+            "Split across four consecutive slides",
+            "Read it out row by row so that nothing important is missed",
+            "In an appendix, with the trend shown as a chart"
+          ],
+          3,
+          "The slide should show the insight; the full detail can be available for anyone who wants it."
+        ],
+        [
+          "Which is the most effective way to reduce nerves before a presentation?",
+          [
+            "Rehearse out loud and know your opening well",
+            "Avoid thinking about the talk at all until the day itself",
+            "Memorise every word of a script",
+            "Plan to speak quickly so it finishes sooner"
+          ],
+          0,
+          "Practice builds familiarity, and a confident opening settles you for the rest."
+        ],
+        [
+          "You lose your place in the middle of your presentation. What should you do?",
+          [
+            "Apologise several times and restart the section",
+            "Skip straight to the conclusion",
+            "Fill the silence with filler words until you remember",
+            "Pause, look at the slide headline and continue"
+          ],
+          3,
+          "A brief pause is barely noticed, and the headline is a quick prompt back into your flow."
+        ],
+        [
+          "Why should you pause after stating a key number?",
+          [
+            "It gives the audience time to take it in",
+            "It signals the end of a section",
+            "It invites the audience to challenge the number",
+            "It gives you time to read the next slide"
+          ],
+          0,
+          "Numbers need a moment to register; rushing past them reduces their impact."
+        ],
+        [
+          "During a video-call presentation, where should you mostly look while speaking?",
+          [
+            "At your own video thumbnail",
+            "At your notes throughout",
+            "At the camera",
+            "At the participant list to see who has joined"
+          ],
+          2,
+          "Looking at the camera feels like eye contact to the people watching."
+        ],
+        [
+          "Which closing is strongest?",
+          [
+            "'That's all from my side.'",
+            "'Any questions? No? Okay, thanks.'",
+            "Restating the main message with a clear next step",
+            "Introducing a new data point not mentioned earlier"
+          ],
+          2,
+          "The ending is what people remember, so it should reinforce your message and say what happens next."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "Ten minutes becomes five",
+          "situation": "You have prepared a ten-minute update for the monthly review meeting. As you stand up, the chair says the agenda has slipped and you have five minutes.",
+          "options": [
+            {
+              "text": "State your main message, cover the two most important supporting points and offer to share the rest in writing.",
+              "rating": "best",
+              "feedback": "Leading with the message and the strongest evidence respects the time and still makes your case."
+            },
+            {
+              "text": "Skip to your recommendation slide and present only that.",
+              "rating": "good",
+              "feedback": "It respects the time, but without any supporting evidence the recommendation may not persuade."
+            },
+            {
+              "text": "Speak faster to get through all your slides.",
+              "rating": "poor",
+              "feedback": "Rushing makes everything harder to follow, so the audience retains less, not more."
+            }
+          ]
+        },
+        {
+          "title": "The cherry-picking challenge",
+          "situation": "While presenting fund performance figures to a group of branch clients, an investor says loudly, 'Your numbers look cherry-picked. What about the bad years?'",
+          "options": [
+            {
+              "text": "Thank him, agree it is a fair question, and show or offer to share the full period including weaker years, with the standard risk disclosure.",
+              "rating": "best",
+              "feedback": "Openly addressing the concern with complete data builds trust with the whole room, not just the questioner."
+            },
+            {
+              "text": "Remind everyone that past performance does not guarantee future returns and move on.",
+              "rating": "good",
+              "feedback": "True and necessary, but it doesn't answer his concern that the data shown was selective."
+            },
+            {
+              "text": "Say the figures came from head office and you can't comment on them.",
+              "rating": "poor",
+              "feedback": "Deflecting looks evasive and damages your credibility with everyone listening."
+            }
+          ]
+        },
+        {
+          "title": "The projector fails",
+          "situation": "Two minutes into your first presentation to the zonal team, the projector stops working. IT says it will take fifteen minutes to fix.",
+          "options": [
+            {
+              "text": "Continue without slides, using your one-line message and the key numbers, and email the deck afterwards.",
+              "rating": "best",
+              "feedback": "Knowing your message well enough to present without slides shows command of your material and saves everyone's time."
+            },
+            {
+              "text": "Ask the chair whether to wait or continue without slides.",
+              "rating": "good",
+              "feedback": "Respectful and reasonable, but offering a ready plan to continue shows more confidence."
+            },
+            {
+              "text": "Ask everyone to gather around your laptop screen.",
+              "rating": "poor",
+              "feedback": "Most people won't see clearly, and the shuffle breaks the flow more than presenting without slides would."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "chart",
+          "title": "Present with confidence",
+          "text": "A good presentation is one clear message, well supported. In the next two minutes, learn how to plan, design and deliver talks people remember."
+        },
+        {
+          "kind": "tip",
+          "icon": "target",
+          "title": "Start with one sentence",
+          "text": "Before opening PowerPoint, write what the audience should think or do afterwards. Cut anything that doesn't support it.",
+          "example": "“Move two RMs to SIP renewals this quarter — lapsed SIPs are our biggest leak.”"
+        },
+        {
+          "kind": "compare",
+          "icon": "chart",
+          "title": "Headlines that tell the story",
+          "text": "One idea per slide, with a headline that states the takeaway.",
+          "bad": "SIP data",
+          "good": "Lapsed SIPs doubled in Q2"
+        },
+        {
+          "kind": "compare",
+          "icon": "grid",
+          "title": "Less text, more meaning",
+          "text": "Put the detail in an appendix. Show the trend, then say what it means.",
+          "bad": "Fourteen bullet points copied from a report",
+          "good": "A headline, one chart and one line of interpretation"
+        },
+        {
+          "kind": "checklist",
+          "icon": "check",
+          "title": "Presentation prep checklist",
+          "text": "Tap each one as you check it.",
+          "items": [
+            "Rehearsed out loud at least twice",
+            "Timed, and within the limit",
+            "First minute known well",
+            "Projector or screen-share tested",
+            "Answers ready for three likely questions"
+          ],
+          "tip": "Lost your place? Pause, glance at the headline and carry on."
+        },
+        {
+          "kind": "compare",
+          "icon": "bulb",
+          "title": "Don't guess, follow up",
+          "text": "Not knowing is fine. Guessing in front of seniors or clients is not.",
+          "bad": "“Roughly 40%, I think.” (It's a guess.)",
+          "good": "“I don't have the scheme-wise split with me. I'll share it by tomorrow.”"
+        },
+        {
+          "kind": "compare",
+          "icon": "flag",
+          "title": "End strong",
+          "text": "People remember the last thing they hear. Repeat your message and the next step.",
+          "bad": "“That's all from my side.”",
+          "good": "“So: two RMs on SIP renewals from next month. Can we confirm today?”"
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Five habits for your next presentation:"
+        }
+      ]
+    },
+    {
+      "id": "feedback-and-your-first-manager",
+      "title": "Taking Feedback and Working with Your First Manager",
+      "track": "fresher",
+      "minutes": 7,
+      "summary": "Receive feedback without getting defensive, turn vague comments into specific actions using the SBI model, and build a strong working relationship with your first manager.",
+      "sections": [
+        {
+          "heading": "Why feedback feels different at work",
+          "body": "During exam preparation, feedback is clear: a mock test score tells you exactly where you stand. At work, comments are quicker, less structured and sometimes delivered in passing, such as 'This needs more work' or 'Be more proactive.'\n\nIt is natural to feel defensive, especially if you were a top performer in college or cleared a competitive exam. But early feedback is information, not a verdict on your ability. A manager who takes time to correct you is usually investing in you; the more worrying sign is silence.\n\nYour aim in the first six months is to shorten the gap between doing something and learning how it landed."
+        },
+        {
+          "heading": "Receiving feedback well",
+          "body": "When someone gives you feedback, listen to the end without interrupting or explaining. Then ask questions to make it specific. 'Your emails are unclear' becomes useful when you ask: 'Could you show me one email where that happened, and what you would have expected instead?'\n\nA helpful lens is the SBI model: Situation, Behaviour, Impact. If feedback is missing a part, ask for it. Situation: when and where did this happen? Behaviour: what exactly did I do or not do? Impact: what effect did it have on the client, the team or the task? For example: 'In Tuesday's client call (situation), you quoted fund returns without the risk disclosure (behaviour), which could have misled the client (impact).'\n\nThank the person even if you don't fully agree, and say what you will try next. If you do disagree, take some time, then come back with facts: 'I checked the timeline again. The delay came from the approval step. Could we discuss how I should handle that next time?'",
+          "do": [
+            "Listen fully before responding",
+            "Ask for one concrete example",
+            "Say what you will do differently"
+          ],
+          "dont": [
+            "Explain or justify mid-sentence",
+            "Argue in the moment when you feel stung"
+          ]
+        },
+        {
+          "heading": "Understanding your first manager",
+          "body": "Every manager has preferences about communication, detail and independence. In your first couple of weeks, ask directly: 'How would you like updates, a short daily message or only when something changes?' 'Which decisions can I take on my own, and which should I check with you first?' 'What would a great first three months look like?'\n\nObserve as well. Does your manager reply to long emails, or prefer a quick call? Do they want options or a recommendation? Adapting to these preferences is not flattery; it makes your work easier to use.\n\nBring a possible solution along with each problem. Instead of 'The client data isn't matching', try: 'The client data doesn't match for 12 folios. It looks like a PAN mismatch. Should I raise it with operations, or would you like to check first?'"
+        },
+        {
+          "heading": "Asking for feedback and tracking growth",
+          "body": "Don't wait for the annual appraisal. After a significant task, ask one specific question: 'What's one thing I could have done better in that client presentation?' Specific questions get specific answers; 'Any feedback?' usually gets 'All good.'\n\nKeep a simple log of the date, the feedback and what you changed. Over months it shows patterns, perhaps repeated comments about attention to detail, and gives you concrete examples for your review conversation.\n\nAsk for a short monthly check-in about progress and goals. If your manager is very busy, propose a 15-minute slot and bring a brief agenda. Managing upward in this way is a professional skill, not pushiness."
+        }
+      ],
+      "takeaways": [
+        "Treat early feedback as information about how your work landed.",
+        "Use Situation–Behaviour–Impact to turn vague comments into specifics.",
+        "Ask your manager early how they like updates and what you can decide alone.",
+        "Bring a possible solution along with every problem you raise.",
+        "Ask specific feedback questions often and keep a simple log."
+      ],
+      "quiz": [
+        [
+          "Your manager says, 'Your reports need to be more detailed.' What is the best follow-up?",
+          [
+            "Add more pages to every report from now on",
+            "Explain why you kept the reports short",
+            "Ask for an example and what they expected instead",
+            "Ask colleagues whether they agree with the manager"
+          ],
+          2,
+          "A concrete example shows you exactly what 'more detailed' means to this manager."
+        ],
+        [
+          "In the SBI feedback model, what does 'Impact' describe?",
+          [
+            "How strongly the manager feels about the issue",
+            "The effect on the client, team or task",
+            "The rating the behaviour will receive in the appraisal",
+            "The training needed to correct the behaviour"
+          ],
+          1,
+          "Impact explains why the behaviour matters, which makes the feedback easier to act on."
+        ],
+        [
+          "Which is the best example of SBI-style feedback?",
+          [
+            "'In Tuesday's call, you skipped the risk disclosure, which could mislead.'",
+            "'You're careless on client calls.'",
+            "'Please be more professional.'",
+            "'Your client calls in general need a lot of improvement across the board.'"
+          ],
+          0,
+          "It names the situation, the specific behaviour and its impact; the others are labels or generalities."
+        ],
+        [
+          "You receive feedback you believe is unfair. What is the most professional response?",
+          [
+            "Argue immediately while the details are fresh",
+            "Thank them, reflect, then discuss with facts",
+            "Agree outwardly and then ignore it",
+            "Escalate to your manager's manager"
+          ],
+          1,
+          "Reflecting first keeps the conversation calm; coming back with facts allows a genuine discussion."
+        ],
+        [
+          "In your first week, which question will most help you work well with your manager?",
+          [
+            "'When is my first appraisal, and how will I be rated?'",
+            "'What can I decide alone, and what should I check?'",
+            "'How did the person before me perform?'",
+            "'Can I work only on tasks I prefer?'"
+          ],
+          1,
+          "Clarifying decision boundaries early prevents both over-checking and overstepping."
+        ],
+        [
+          "Which message best brings a possible solution along with a problem?",
+          [
+            "'The data is wrong, please check.'",
+            "'There's some issue with the client data.'",
+            "'12 folios don't match (PAN issue?). Shall I flag it to ops?'",
+            "'Operations has messed up the client data again, as usual. Please check.'"
+          ],
+          2,
+          "It states the specific problem, a likely cause and a proposed next step for the manager to approve."
+        ],
+        [
+          "Why is 'Any feedback?' a weak question to ask after a presentation?",
+          [
+            "It sounds overconfident",
+            "Managers are not allowed to give informal feedback",
+            "Feedback questions should only be asked in writing",
+            "It's too general to get a useful answer"
+          ],
+          3,
+          "A specific question such as 'What's one thing I could improve?' prompts a specific, useful answer."
+        ],
+        [
+          "What is the main benefit of keeping a feedback log?",
+          [
+            "It shows patterns and gives examples for reviews",
+            "It proves that your manager is being unfair to you",
+            "It removes the need for check-ins",
+            "It means you never have to redo tasks"
+          ],
+          0,
+          "Recorded feedback shows what keeps coming up and how you have responded over time."
+        ],
+        [
+          "Your manager is always busy and never schedules one-to-ones. What should you do?",
+          [
+            "Wait for the annual appraisal",
+            "Raise it as a complaint with HR",
+            "Send long daily emails summarising your work",
+            "Propose a short regular slot with an agenda"
+          ],
+          3,
+          "A short, well-prepared check-in is easy for a busy manager to accept and keeps feedback flowing."
+        ],
+        [
+          "Which attitude towards feedback early in your career is most useful?",
+          [
+            "See it as information on how your work landed",
+            "Treat it as a judgement of your overall ability",
+            "Accept only the feedback you agree with",
+            "Avoid it until you have more experience"
+          ],
+          0,
+          "Seeing feedback as information makes it easier to hear and act on without becoming defensive."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "Red ink on your first report",
+          "situation": "Your manager returns your first MIS report with many corrections and the comment 'Not up to the mark.' You stayed late to finish it and feel disheartened.",
+          "options": [
+            {
+              "text": "Thank her, then ask for ten minutes to go through the two or three most important changes so you get it right next time.",
+              "rating": "best",
+              "feedback": "Focusing on the biggest gaps turns a discouraging moment into learning you can apply to every future report."
+            },
+            {
+              "text": "Make all the corrections carefully and resubmit without discussion.",
+              "rating": "good",
+              "feedback": "It fixes this report, but you may miss the underlying pattern and repeat the same issues."
+            },
+            {
+              "text": "Explain that you stayed late and the instructions weren't clear.",
+              "rating": "poor",
+              "feedback": "Your effort and an unclear brief may both be real, but leading with them sounds defensive. Ask for clearer briefs going forward instead."
+            }
+          ]
+        },
+        {
+          "title": "The silent manager",
+          "situation": "Three months into the job, your manager hasn't given you any feedback. You don't know whether you are doing well, and appraisals are six months away.",
+          "options": [
+            {
+              "text": "Request a 15-minute check-in and ask: 'What's one thing I'm doing well and one thing I should improve?'",
+              "rating": "best",
+              "feedback": "A short, specific request is easy to say yes to and gets you direct feedback from the person who evaluates you."
+            },
+            {
+              "text": "Ask a senior colleague how they think you are doing.",
+              "rating": "good",
+              "feedback": "A useful perspective, but it doesn't replace hearing from your own manager."
+            },
+            {
+              "text": "Assume no news is good news and wait for the appraisal.",
+              "rating": "poor",
+              "feedback": "Waiting risks surprises at appraisal time, when there is no longer a chance to adjust."
+            }
+          ]
+        },
+        {
+          "title": "Different communication styles",
+          "situation": "Your manager prefers short WhatsApp updates, but you have been sending detailed daily emails that she rarely opens. Yesterday she asked whether a client form had been submitted; the answer was in your email.",
+          "options": [
+            {
+              "text": "Ask how she would like updates, then send key status points on her preferred channel and keep detailed emails for the record.",
+              "rating": "best",
+              "feedback": "Adapting to how your manager works makes your updates useful while still keeping a proper written trail."
+            },
+            {
+              "text": "Keep emailing, but add 'Important' to the subject line.",
+              "rating": "good",
+              "feedback": "It may help a little, but it doesn't address the real mismatch in how she prefers to receive updates."
+            },
+            {
+              "text": "Point out that the information was already in your email.",
+              "rating": "poor",
+              "feedback": "Technically true, but it sounds like blame and doesn't fix the communication gap."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "book",
+          "title": "Feedback is information",
+          "text": "At work there's no mock-test score; feedback comes quick and casual. In the next two minutes, learn how to take it well and build a strong start with your first manager."
+        },
+        {
+          "kind": "compare",
+          "icon": "search",
+          "title": "Turn vague into specific",
+          "text": "Listen to the end without explaining. Then ask for one example.",
+          "bad": "“But I put in so much effort on that…”",
+          "good": "“Could you show me one email that was unclear, and what you expected instead?”"
+        },
+        {
+          "kind": "tip",
+          "icon": "grid",
+          "title": "Use SBI: Situation, Behaviour, Impact",
+          "text": "If feedback is missing a part, ask for it. When did it happen? What exactly did I do? What effect did it have?",
+          "example": "“In Tuesday's client call (S), you skipped the risk disclosure (B), which could mislead the client (I).”"
+        },
+        {
+          "kind": "compare",
+          "icon": "refresh",
+          "title": "Disagree the right way",
+          "text": "Thank them first. If you still disagree, come back later with facts.",
+          "bad": "“That's not my fault, the approval was late.” (said on the spot)",
+          "good": "“I checked the timeline. The delay was at approval. How should I handle that next time?”"
+        },
+        {
+          "kind": "checklist",
+          "icon": "user",
+          "title": "Ask your manager in week one",
+          "text": "Tap each one once you've asked.",
+          "items": [
+            "How would you like updates?",
+            "What can I decide alone, and what should I check?",
+            "What does a great first three months look like?"
+          ],
+          "tip": "Also notice: long emails or quick calls? Options or a recommendation?"
+        },
+        {
+          "kind": "compare",
+          "icon": "bulb",
+          "title": "Bring a solution with the problem",
+          "text": "Show you've thought it through, and let your manager decide.",
+          "bad": "“Client data isn't matching.”",
+          "good": "“12 folios don't match. Looks like a PAN mismatch. Shall I raise it with operations?”"
+        },
+        {
+          "kind": "tip",
+          "icon": "star",
+          "title": "Ask specific questions, keep a log",
+          "text": "“Any feedback?” usually gets “All good.” After big tasks, ask one sharp question. Note the date, the feedback and what you changed.",
+          "example": "“What's one thing I could have done better in that presentation?”"
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Five habits for a strong first year:"
+        }
+      ]
+    },
+    {
+      "id": "handling-client-objections",
+      "title": "Handling Client Objections and Difficult Conversations",
+      "track": "professional",
+      "minutes": 9,
+      "summary": "Handle client concerns about market falls, fees and unsuitable requests with a calm, structured approach. You will learn to stay transparent, avoid promising returns and say no when a request isn't right for the client.",
+      "sections": [
+        {
+          "heading": "A framework for any objection",
+          "body": "Objections are normal. A client who questions your recommendation is engaged, not hostile. A simple five-step sequence keeps you calm and useful: Listen, Acknowledge, Clarify, Respond, Confirm. Listen fully without jumping in. Acknowledge the concern: 'It's understandable to feel uneasy when the portfolio is down.' Clarify what lies behind it: 'Is it the overall fall, or a worry about a particular goal?' Respond with facts relevant to their situation. Confirm what happens next and record it.\n\nThe aim is not to win the conversation or close a sale. It is to help the client make an informed decision that fits their goals and risk profile, even if that decision is to do nothing or invest less.\n\nKeep notes of significant conversations, especially when a client acts against your suggestion. Clear records protect both the client and you."
+        },
+        {
+          "heading": "When markets fall",
+          "body": "During corrections, calls go up and emotions run high. Reach out before clients call you; silence during a fall can feel like abandonment. Bring the conversation back to their plan: goals, time horizon and asset allocation. For a long-term equity goal, a fall may not change the plan at all. For money needed within a year, the conversation is about why short-term needs and volatile assets don't mix, and how to manage the position now.\n\nNever promise recovery dates or returns. Avoid phrases such as 'markets always come back within a year' or 'this fund can't lose money.' Say instead: 'I can't predict when markets will recover. What we can do is check whether your plan still fits your goals and the risk you are comfortable with.' Mutual fund investments are subject to market risk, and clients deserve to hear that plainly.\n\nIf a client wants to exit everything, don't pressure them to stay. Explain the trade-offs, such as tax, exit loads, the possibility of missing a recovery and the goal's timeline, then respect their decision once it is informed.",
+          "do": [
+            "Call clients early in a correction",
+            "Anchor every discussion in the client's goal and time horizon"
+          ],
+          "dont": [
+            "Predict when markets will recover",
+            "Use guarantees or 'safe' language for market-linked products"
+          ]
+        },
+        {
+          "heading": "Questions about fees and how you are paid",
+          "body": "Clients increasingly ask, 'How do you earn from this?' Treat it as a fair question and answer directly. If you are a mutual fund distributor, explain that you receive commission from the fund house through regular plans, which is reflected in their higher expense ratio, and that direct plans without distributor commission also exist. If you are a registered investment adviser, explain your fee and what it covers.\n\nThen describe the value you provide without overstating it: goal planning, asset allocation, regular reviews, help with paperwork and support in staying disciplined through volatile periods. Let the client decide whether that is worth it to them.\n\nAvoid being defensive or vague. 'Don't worry about that, it's very small' undermines trust; 'Here is what I earn and what you get for it' builds it. Transparency about costs is part of the conduct expected in this industry, not a favour to the client."
+        },
+        {
+          "heading": "Pushy clients and unsuitable requests",
+          "body": "Sometimes a client insists on something that doesn't fit them: putting all their retirement savings into a sectoral fund a friend recommended, moving money set aside for a daughter's college admission next year into a small-cap scheme, or asking you to 'just guarantee' a return. Agreeing simply to keep the client happy is mis-selling in all but name.\n\nSay no to the request, not to the person: 'I understand why that fund looks attractive. Since you need this money in twelve months, I can't recommend a high-risk scheme for it. Here's what I'd suggest instead.' Explain the risk in plain language and offer suitable alternatives.\n\nIf the client still wants to go ahead with a decision that is legitimately theirs, document that it is against your advice, following your organisation's process. Some requests must be refused outright, including anything that breaks the rules, such as promising returns, splitting transactions to get around KYC requirements or investing in someone else's name without proper authority. Stay polite, hold the line and involve compliance if the pressure continues. Losing one transaction is far better than losing your registration or your integrity.",
+          "dont": [
+            "Agree to unsuitable investments to keep a client happy",
+            "Bend KYC or documentation rules under pressure"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Use Listen, Acknowledge, Clarify, Respond, Confirm for any objection.",
+        "In market falls, return to the client's goals and never predict recoveries or returns.",
+        "Explain plainly how you are paid and what the client receives for it.",
+        "Say no to unsuitable requests, offer alternatives and document the outcome.",
+        "Refuse rule-breaking requests outright and escalate to compliance if pushed."
+      ],
+      "quiz": [
+        [
+          "A client calls during a sharp market fall and asks, 'Should I sell everything?' What is the best first step?",
+          [
+            "Acknowledge the worry; ask about the goal and timeline",
+            "Assure them the market will recover within a few months",
+            "Advise them to sell to avoid further losses",
+            "Tell them to stop checking their portfolio until things improve"
+          ],
+          0,
+          "Understanding the goal and time horizon is the basis for any sound response; predictions and reflex advice are not."
+        ],
+        [
+          "Which statement is appropriate when discussing returns with a client?",
+          [
+            "'This fund has never given negative returns, so you're safe.'",
+            "'You'll easily get 15% a year here.'",
+            "'Equity always beats FDs in the long run, so there's no real risk.'",
+            "'I can't predict returns, but let's check suitability.'"
+          ],
+          3,
+          "Market-linked returns can't be promised; the conversation should focus on suitability, not predictions."
+        ],
+        [
+          "A client asks how you, as a mutual fund distributor, are paid. What is the best answer?",
+          [
+            "Explain your regular-plan commission; mention direct plans",
+            "Say it's a very small amount and not really worth discussing",
+            "Say you don't earn anything from their investment",
+            "Move the conversation on to the fund's strong past performance"
+          ],
+          0,
+          "A direct, accurate answer about how you are paid, including the alternative, builds trust and meets conduct expectations."
+        ],
+        [
+          "A client wants to invest money needed for a home down payment in ten months in a small-cap fund. What should you do?",
+          [
+            "Process it, since it is the client's money",
+            "Explain it's unsuitable for ten months; suggest safer options",
+            "Suggest a mid-cap fund as a compromise",
+            "Recommend splitting it equally between small-cap and large-cap funds"
+          ],
+          1,
+          "Any equity-heavy option carries significant short-term risk; suitability depends on the time horizon, not on finding a middle ground."
+        ],
+        [
+          "A client insists on a transaction you have advised against, and the decision is legitimately theirs. What is the right step?",
+          [
+            "Refuse to deal with the client in future",
+            "Record that it is against your advice, per process",
+            "Process it without any record to avoid friction",
+            "Ask a colleague to process it under their name instead"
+          ],
+          1,
+          "Clients can make their own choices; a clear record shows the advice given and protects both sides."
+        ],
+        [
+          "Which request must be refused however much the client insists?",
+          [
+            "Switching from a regular plan to a direct plan",
+            "Pausing an SIP during a market fall",
+            "Redeeming units to meet a medical emergency",
+            "Splitting an investment to get around KYC"
+          ],
+          3,
+          "Getting around KYC breaks the rules; the other requests are legitimate client choices."
+        ],
+        [
+          "In the Listen–Acknowledge–Clarify–Respond–Confirm sequence, what is 'Clarify' meant to uncover?",
+          [
+            "The client's total income and net worth",
+            "The real concern behind the objection",
+            "Whether the client is likely to complain",
+            "Which competitor the client is talking to"
+          ],
+          1,
+          "The stated objection often sits on top of a deeper worry; clarifying ensures you respond to the right one."
+        ],
+        [
+          "Why is it useful to contact clients proactively during a market correction?",
+          [
+            "It is the best time to sell new products",
+            "Regulations require daily calls during corrections",
+            "Silence in a fall can feel like abandonment",
+            "It stops clients from checking their statements"
+          ],
+          2,
+          "Early contact reassures clients that someone is reviewing their plan, which supports calmer decisions."
+        ],
+        [
+          "A client says your fees aren't worth it. Which response builds the most trust?",
+          [
+            "Offer a discount immediately to keep them",
+            "Point out that other advisers charge more",
+            "Explain your charges and services, and let them decide",
+            "Warn them that they will surely lose money without your help"
+          ],
+          2,
+          "Transparency and respect for the client's choice build trust; scare tactics and reflex discounts don't."
+        ],
+        [
+          "After an informed discussion of the trade-offs, a client still wants to exit all equity funds. What should you do?",
+          [
+            "Delay processing for a week in case markets recover",
+            "Keep calling until they change their mind",
+            "Respect the decision and help them complete it",
+            "Insist they keep at least half invested"
+          ],
+          2,
+          "Once the client has understood the trade-offs, the decision is theirs; your role is to help them carry it out properly."
+        ]
+      ],
+      "scenarios": [
+        {
+          "title": "The panicked SIP investor",
+          "situation": "Mr Iyer, 52, runs a flexi-cap SIP for retirement in eight years. After a 12% market fall he calls you, upset: 'My portfolio is down two lakh. Stop all my SIPs and redeem everything.'",
+          "options": [
+            {
+              "text": "Acknowledge his worry, revisit his retirement goal and asset allocation with him, explain the trade-offs of exiting now, let him decide and record the outcome.",
+              "rating": "best",
+              "feedback": "It treats his concern seriously, grounds the discussion in his own plan and leaves the informed decision with him."
+            },
+            {
+              "text": "Tell him that markets have historically recovered and he should stay invested.",
+              "rating": "good",
+              "feedback": "Often a reasonable long-term view, but it sounds like a prediction and skips his specific goal and comfort with risk."
+            },
+            {
+              "text": "Process the full redemption immediately without discussion.",
+              "rating": "poor",
+              "feedback": "It is his money, but acting on a panicked instruction without any discussion of his plan doesn't help him make an informed choice."
+            },
+            {
+              "text": "Assure him the market is expected to recover within six months.",
+              "rating": "poor",
+              "feedback": "No one can promise when markets will recover; a timeline like this is a prediction he may rely on."
+            }
+          ]
+        },
+        {
+          "title": "The direct-plan question",
+          "situation": "At an annual review, a client who has been reading about direct plans asks, 'Why should I keep paying your commission when I could invest directly?'",
+          "options": [
+            {
+              "text": "Explain clearly how you are paid, the cost difference and the services you provide, then respect whichever route the client chooses.",
+              "rating": "best",
+              "feedback": "Full transparency lets the client weigh cost against value honestly, which is the basis of a lasting relationship."
+            },
+            {
+              "text": "Describe the services you provide, such as reviews and paperwork, and why many clients value them.",
+              "rating": "good",
+              "feedback": "Useful context, but without stating what it costs them, the comparison is incomplete."
+            },
+            {
+              "text": "Tell the client that direct plans are risky for beginners and best avoided.",
+              "rating": "poor",
+              "feedback": "Misleading: a direct plan holds the same portfolio as the regular plan; the difference is cost and support."
+            }
+          ]
+        },
+        {
+          "title": "Target pressure at the branch",
+          "situation": "You are a bank relationship manager with a quarterly insurance target. A 68-year-old customer with a maturing FD wants a safe option that gives regular income. Your branch head suggests pitching a long-term ULIP to help meet the target.",
+          "options": [
+            {
+              "text": "Assess her needs and risk profile, recommend options suited to safety and regular income, and explain to the branch head why the ULIP doesn't fit her.",
+              "rating": "best",
+              "feedback": "Suitability comes before targets; explaining your reasoning to the branch head also protects the bank from a mis-selling complaint."
+            },
+            {
+              "text": "Mention the ULIP briefly, making sure she understands its lock-in period and market risk.",
+              "rating": "good",
+              "feedback": "Disclosure is important, but offering a product that clearly doesn't match her stated needs is still driven by the target."
+            },
+            {
+              "text": "Present the ULIP as an investment with insurance benefits and good returns.",
+              "rating": "poor",
+              "feedback": "This frames a market-linked, long lock-in product as a fit for a safety-seeking retiree, which is classic mis-selling."
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "kind": "intro",
+          "icon": "shield",
+          "title": "Handle tough client talks",
+          "text": "Market falls, fee questions and pushy requests test every adviser. In the next two minutes, learn a calm way to respond that keeps you honest and the client informed."
+        },
+        {
+          "kind": "tip",
+          "icon": "phone",
+          "title": "Listen, Acknowledge, Clarify, Respond, Confirm",
+          "text": "Hear them out. Acknowledge the worry. Find the real concern. Answer for their situation. Agree on next steps and note them down.",
+          "example": "“Is it the overall fall that worries you, or a particular goal?”"
+        },
+        {
+          "kind": "compare",
+          "icon": "chart",
+          "title": "When markets fall",
+          "text": "Call clients early. Bring the talk back to their goal, time horizon and asset allocation. Never predict a recovery.",
+          "bad": "“Don't worry, markets always come back within a year.”",
+          "good": "“I can't predict when markets recover. Let's check if your plan still fits your goal.”"
+        },
+        {
+          "kind": "compare",
+          "icon": "briefcase",
+          "title": "Be open about how you're paid",
+          "text": "It's a fair question. Answer directly, explain your value and let the client decide.",
+          "bad": "“Don't worry about that, it's very small.”",
+          "good": "“I earn commission through regular plans; direct plans cost less. Here's what my service includes.”"
+        },
+        {
+          "kind": "compare",
+          "icon": "flag",
+          "title": "Say no to the request, not the person",
+          "text": "Agreeing to an unsuitable request to keep a client happy is mis-selling.",
+          "bad": "“Okay, I'll put the admission money in that small-cap fund.”",
+          "good": "“You need this in 12 months, so I can't recommend a high-risk scheme. Here's what I'd suggest.”"
+        },
+        {
+          "kind": "tip",
+          "icon": "refresh",
+          "title": "Respect an informed decision",
+          "text": "If a client still wants to exit after hearing the trade-offs (tax, exit loads, the goal's timeline), help them do it. If they act against your advice, document it as per process."
+        },
+        {
+          "kind": "checklist",
+          "icon": "shield",
+          "title": "Always refuse these",
+          "text": "Tap each one. No exceptions.",
+          "items": [
+            "Promising or guaranteeing returns",
+            "Splitting transactions to get around KYC",
+            "Investing in someone else's name without proper authority",
+            "Selling an unsuitable product to meet a target"
+          ],
+          "tip": "Pressure continues? Stay polite and involve compliance."
+        },
+        {
+          "kind": "recap",
+          "icon": "trophy",
+          "title": "You've got it!",
+          "text": "Five ways to handle tough client conversations:"
+        }
+      ]
+    }
+  ]
+}

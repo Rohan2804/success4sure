@@ -1,10 +1,18 @@
-// Cloudflare Workers config: publishes this folder as a static site.
+// Cloudflare Workers config: the static site plus the AI Coach API (worker/index.js).
 // Used by `npx wrangler deploy` (and by Cloudflare's GitHub auto-deploy).
 {
   "name": "success4sure",
+  "main": "worker/index.js",
   "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": "./",
+    "binding": "ASSETS",
     "not_found_handling": "404-page"
+  },
+  // AI Coach stays off until accounts and payments are live.
+  // To turn it on: set this to "true" and run `npx wrangler secret put ANTHROPIC_API_KEY`.
+  "vars": {
+    "COACH_ENABLED": "false"
   }
 }

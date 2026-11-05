@@ -1,0 +1,1831 @@
+{
+ "area": "personality",
+ "lessons": [
+  {
+   "id": "building-confidence",
+   "title": "Building Real Confidence at Work",
+   "track": "core",
+   "minutes": 6,
+   "summary": "Build confidence from evidence and practice rather than pep talks, so you can speak up, admit gaps and take on stretch work without freezing or bluffing.",
+   "sections": [
+    {
+     "heading": "What confidence actually looks like",
+     "body": "At work, confidence is not loudness, and it is not the absence of nervousness. It is the willingness to act, speak or decide before you feel completely certain, combined with the honesty to say what you do and do not know. The quiet analyst who says \"I checked these numbers twice; the variance comes from the March accruals\" is more convincing than the person who talks first and longest.\n\nMost people who look calm in a review meeting still feel a racing heart. The difference is that they have learnt the feeling does not have to decide what they do. Treat nervousness as a sign that something matters to you, then focus on the next useful action.\n\nThat is why confidence can be built. It grows from two sources you control: evidence that you can handle things, and repeated practice in situations slightly harder than your comfort level.",
+     "do": [
+      "Judge yourself by actions taken, not by how calm you felt",
+      "Say clearly what you know and what you will check"
+     ],
+     "dont": [
+      "Confuse dominating a conversation with confidence",
+      "Wait to feel fully ready before you volunteer"
+     ]
+    },
+    {
+     "heading": "Collect evidence, not affirmations",
+     "body": "Repeating \"I am confident\" in the mirror rarely survives a tough question from a senior. Evidence does. Keep a simple \"proof file\" in a notebook or notes app. Every Friday, write three things you handled that week: a client query you resolved, a report submitted on time, a mistake you caught before it went out. After two months you will have a record your doubts cannot easily argue with.\n\nPreparation is the other form of evidence. Before a meeting where you need to speak, write down the one point you want to make and the likely question you will be asked. Rehearse the first two sentences aloud. Most anxiety lives in the opening moments; once you are past them, your knowledge takes over.\n\nBefore: you walk into the weekly sales review hoping nobody asks you anything. After: you walk in with two numbers memorised and one suggestion ready, and you offer them in the first ten minutes."
+    },
+    {
+     "heading": "Speaking up without hedging",
+     "body": "Many capable freshers and professionals weaken good ideas with filler: \"Sorry, this may be a silly point, but maybe we could just possibly...\" Listeners hear the apology, not the idea. Try a simple structure instead: point, reason, next step. \"I suggest we call the inactive SIP investors first. They already trust us, and a restart is quicker than a new sale. I can draft a call script by Thursday.\"\n\nSpeak within the first part of a meeting. The longer you wait, the bigger the moment feels. Asking a sharp question also counts as contributing: \"What would change our decision here?\" shows thinking without needing a full proposal.\n\nIf you are interrupted, it is acceptable to say calmly, \"Let me just finish this point,\" and then complete it in one or two sentences.",
+     "do": [
+      "Use point, reason, next step",
+      "Contribute once in the first part of a meeting"
+     ],
+     "dont": [
+      "Open with apologies for your own idea",
+      "Stack \"just\", \"maybe\" and \"possibly\" into one sentence"
+     ]
+    },
+    {
+     "heading": "Not knowing, and getting it wrong",
+     "body": "Real confidence includes saying \"I don't know yet.\" The skill is in what follows: \"I don't know the exit load on that fund offhand. I'll confirm and message you by 4 pm.\" This keeps trust intact far better than guessing and being corrected later.\n\nMistakes work the same way. Report them early, with the fix: \"I sent the wrong version of the deck to the regional team. I've recalled it and sent the corrected one; it won't happen again because I now name files with the date.\" People remember how you handled an error far longer than the error itself.\n\nA small exercise: next time you make a minor slip, practise owning it in one sentence without over-apologising. Then move on."
+    },
+    {
+     "heading": "Stretch in small, regular steps",
+     "body": "Confidence grows at the edge of your comfort zone, not far beyond it. Build a personal ladder. The first rung might be asking one question in a team meeting. Then presenting a single slide. Then leading the meeting while your manager watches. Then handling a client presentation alone.\n\nPick one rung per fortnight and note in your proof file how it went. If a step goes badly, repeat it rather than retreating to the bottom. Over a few months the ladder turns into a track record, and the track record is what others see as confidence."
+    }
+   ],
+   "takeaways": [
+    "Confidence means acting without perfect certainty, not feeling no nerves.",
+    "Keep a weekly proof file of things you handled well.",
+    "Use point, reason, next step instead of hedging and apologising.",
+    "\"I don't know yet, I'll confirm by a set time\" builds trust.",
+    "Own mistakes early, with the fix, in one or two sentences.",
+    "Climb a small ladder of stretch tasks, one rung at a time."
+   ],
+   "quiz": [
+    [
+     "Your manager asks a question in a review and you are not sure of the answer. Which response best shows real confidence?",
+     [
+      "\"I'm not certain; I'll check the data and update you by 3 pm.\"",
+      "Give your best guess in a firm voice so that you do not look unprepared",
+      "Stay silent and hope someone else answers",
+      "Apologise at length for not knowing"
+     ],
+     0,
+     "Admitting the gap and committing to a specific follow-up keeps trust and shows ownership; guessing risks credibility."
+    ],
+    [
+     "Which statement best describes workplace confidence?",
+     [
+      "Never feeling nervous before a meeting",
+      "Being willing to act and speak before feeling fully certain",
+      "Being the first and longest speaker in discussions",
+      "Always sounding sure, even when unsure"
+     ],
+     1,
+     "Confident people often still feel nervous; what differs is that they act anyway and stay honest about uncertainty."
+    ],
+    [
+     "What is the main purpose of a weekly \"proof file\"?",
+     [
+      "To show your manager during appraisal only",
+      "To list colleagues' mistakes for comparison",
+      "To keep a factual record of what you handled well",
+      "To repeat positive affirmations to yourself each morning"
+     ],
+     2,
+     "A record of real achievements gives you evidence that counters self-doubt, which works better than affirmations."
+    ],
+    [
+     "Which version of a suggestion is likely to land best in a team meeting?",
+     [
+      "\"Sorry, maybe this is a silly idea, but could we perhaps possibly look at renewals?\"",
+      "\"Renewals. Obviously. Everyone should know that.\"",
+      "\"I'll mention it to you separately after the meeting.\"",
+      "\"Let's start with renewals; they close faster. I'll share a list tomorrow.\""
+     ],
+     3,
+     "It follows point, reason, next step and avoids both hedging and arrogance."
+    ],
+    [
+     "You sent a client the wrong statement. What should you do first?",
+     [
+      "Tell your manager and client promptly and share the corrected version",
+      "Wait to see whether the client notices",
+      "Quietly send the correct one later without ever mentioning the earlier error",
+      "Explain at length why the system caused it"
+     ],
+     0,
+     "Early, plain ownership plus the fix protects trust; hiding or over-explaining tends to damage it."
+    ],
+    [
+     "You feel anxious mainly in the first minute of presentations. What is the most practical preparation?",
+     [
+      "Memorise the whole presentation word for word",
+      "Rehearse your opening two sentences aloud beforehand",
+      "Skip the introduction and start with the data",
+      "Ask a colleague to present the first slide"
+     ],
+     1,
+     "Rehearsing the opening carries you through the most anxious moment, after which your knowledge takes over."
+    ],
+    [
+     "Which is the best example of a \"confidence ladder\" first rung for someone who never speaks in meetings?",
+     [
+      "Volunteering to lead next quarter's client town hall",
+      "Presenting the full monthly report to senior leadership",
+      "Asking one relevant question in the next team meeting",
+      "Waiting until you feel ready to speak"
+     ],
+     2,
+     "Ladders start with a small, achievable step slightly beyond your comfort zone, then build up."
+    ],
+    [
+     "A colleague interrupts you mid-point in a meeting. What is the most effective response?",
+     [
+      "Stop talking and drop the point entirely",
+      "Raise your voice until they stop",
+      "Complain about the interruption to your team after the meeting ends",
+      "Calmly say \"Let me finish this point\" and complete it briefly"
+     ],
+     3,
+     "A calm, brief reclaim keeps your point alive without escalating the situation."
+    ],
+    [
+     "Which habit most weakens how confident you sound?",
+     [
+      "Packing sentences with \"just\", \"maybe\" and \"sorry\"",
+      "Pausing briefly before answering a question",
+      "Saying you will check a figure and revert",
+      "Asking a clarifying question"
+     ],
+     0,
+     "Excessive hedges and apologies bury your idea; brief pauses and clarifying questions are signs of thought, not weakness."
+    ],
+    [
+     "Your first attempt at leading a meeting went poorly. According to the ladder approach, what should you do next?",
+     [
+      "Go back to never speaking in meetings",
+      "Repeat the same rung, adjusting what went wrong",
+      "Jump to an even bigger challenge to prove yourself",
+      "Ask your manager never to give you meetings again"
+     ],
+     1,
+     "Repeating the step with adjustments builds skill; retreating or overreaching both stall progress."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The silent new joiner",
+     "situation": "You joined a bank's retail team two months ago. In weekly meetings you have ideas about improving branch footfall but never speak because seniors dominate. Your team lead has just asked, \"Anyone else?\" and the room goes quiet.",
+     "options": [
+      {
+       "text": "Say: \"One idea: we could tie our weekend camps to salary credit dates. Footfall is higher then. I can pull last quarter's data to check.\"",
+       "rating": "best",
+       "feedback": "Clear point, a reason and an offered next step make you sound prepared without overselling."
+      },
+      {
+       "text": "Say: \"Sorry, this might be wrong, I'm new, but maybe something with dates? Not sure.\"",
+       "rating": "poor",
+       "feedback": "The idea is lost under apologies, and listeners cannot act on something so vague."
+      },
+      {
+       "text": "Stay quiet and email the idea to your team lead after the meeting.",
+       "rating": "good",
+       "feedback": "The idea reaches someone, which is better than nothing, but you miss the chance to be seen contributing and to get the team's input."
+      },
+      {
+       "text": "Wait until next month when you feel more settled.",
+       "rating": "poor",
+       "feedback": "Waiting to feel ready usually makes the first contribution feel even bigger and harder."
+      }
+     ]
+    },
+    {
+     "title": "The question you cannot answer",
+     "situation": "During a client call, a business owner asks you how a particular debt fund was taxed after the latest Budget change. You remember there was a change but not the details. The client is waiting.",
+     "options": [
+      {
+       "text": "Give the rule you remember from two years ago, confidently.",
+       "rating": "poor",
+       "feedback": "An outdated answer delivered firmly can mislead the client and hurt your credibility when it is corrected."
+      },
+      {
+       "text": "Say: \"There was a change this year and I want to give you the exact position. I'll confirm and send you a short note by this evening.\"",
+       "rating": "best",
+       "feedback": "You stay honest, show you are aware of the topic, and commit to a specific follow-up time."
+      },
+      {
+       "text": "Say: \"Tax is complicated; you should ask your CA.\"",
+       "rating": "good",
+       "feedback": "Pointing to a CA is sensible for personal tax advice, but on its own it sounds like avoidance; pairing it with your own follow-up would be stronger."
+      }
+     ]
+    },
+    {
+     "title": "Owning the slip",
+     "situation": "You prepared a branch performance sheet for your regional manager and later noticed one column used last month's figures. The meeting where it will be discussed starts in an hour.",
+     "options": [
+      {
+       "text": "Message your manager: \"I found an error in column D of the sheet; it shows last month's figures. Corrected version attached. I've added a date check to my process.\"",
+       "rating": "best",
+       "feedback": "Early disclosure with the fix and a prevention step shows reliability; people remember how you handle errors."
+      },
+      {
+       "text": "Fix the file and replace it in the shared folder without saying anything.",
+       "rating": "good",
+       "feedback": "The data is now correct, but if your manager already downloaded the old version, they could still present wrong numbers."
+      },
+      {
+       "text": "Say nothing; the difference is small and might not be noticed.",
+       "rating": "poor",
+       "feedback": "If it is noticed in the meeting, both the error and the silence damage trust."
+      },
+      {
+       "text": "Send a long apology explaining how busy the week was.",
+       "rating": "poor",
+       "feedback": "Over-explaining shifts attention to excuses rather than the correction."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "bolt",
+     "title": "Confidence you can build",
+     "text": "Confidence at work isn't loudness or zero nerves. It's acting before you feel fully certain, and being honest about what you don't know. Here are five habits that build it."
+    },
+    {
+     "kind": "tip",
+     "icon": "chart",
+     "title": "Keep a proof file",
+     "text": "Every Friday, note three things you handled well: a query resolved, a report on time, an error caught. In two months, you'll have evidence your doubts can't argue with.",
+     "example": "Fri: fixed MIS mismatch; closed 2 SIP restarts; presented 1 slide"
+    },
+    {
+     "kind": "tip",
+     "icon": "clock",
+     "title": "Rehearse the first two sentences",
+     "text": "Most nerves sit in the opening moments. Before a meeting, write your one point and the likely question, then say your opening aloud."
+    },
+    {
+     "kind": "compare",
+     "icon": "flag",
+     "title": "Drop the hedges",
+     "text": "Use point, reason, next step. Your idea shouldn't be buried under apologies.",
+     "bad": "Sorry, this may be silly, but maybe we could just possibly…",
+     "good": "I suggest we call inactive SIP investors first. They already trust us. I'll draft a script by Thursday."
+    },
+    {
+     "kind": "compare",
+     "icon": "info",
+     "title": "Say \"I don't know yet\" well",
+     "text": "A guess that gets corrected costs more trust than an honest gap with a clear follow-up time.",
+     "bad": "Guessing an exit load figure confidently.",
+     "good": "I'll confirm the exit load and message you by 4 pm."
+    },
+    {
+     "kind": "compare",
+     "icon": "refresh",
+     "title": "Own mistakes in one line",
+     "text": "Report early, with the fix. Don't over-apologise or over-explain.",
+     "bad": "Saying nothing and hoping nobody notices the wrong file.",
+     "good": "I sent the wrong deck. The corrected one is attached, and I now date my file names."
+    },
+    {
+     "kind": "checklist",
+     "icon": "target",
+     "title": "Your confidence ladder",
+     "text": "Climb one rung a fortnight. If a step goes badly, repeat it.",
+     "items": [
+      "Ask one question in a team meeting",
+      "Present a single slide",
+      "Lead a meeting while your manager watches",
+      "Handle a client presentation alone"
+     ]
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Five habits to try this week:"
+    }
+   ]
+  },
+  {
+   "id": "body-language",
+   "title": "Body Language That Builds Trust",
+   "track": "core",
+   "minutes": 6,
+   "summary": "Use posture, eye contact, gestures and greetings that match your words, so colleagues and clients read you as attentive and trustworthy, in person and on video.",
+   "sections": [
+    {
+     "heading": "Why signals matter, and their limits",
+     "body": "People read your body before they process your words. If you say \"I'm happy to help\" while scrolling your phone, the listener believes the phone. Trust builds when your words and signals match.\n\nTwo cautions keep this practical. First, no single gesture has one fixed meaning. Crossed arms can mean defensiveness, or simply that the air conditioning is too cold. Read clusters of signals and context, not isolated movements. Second, you may have heard that 93 per cent of communication is non-verbal. That figure comes from narrow experiments about feelings conveyed in single words and is widely misquoted. Words matter enormously; body language decides whether people believe them.\n\nIndia also adds variety. Norms on eye contact with elders, physical distance and greetings differ across regions, generations and families. Observe first, then adapt."
+    },
+    {
+     "heading": "Posture and stillness",
+     "body": "Aim for open and settled, not stiff. When seated, sit back in the chair with your feet on the floor, shoulders relaxed and hands resting on the table or your lap. Lean forward slightly when the other person is making an important point; it signals that you are listening.\n\nRestless movements leak nervousness: tapping a pen, jiggling a leg, adjusting your watch, clicking a mouse. Notice your own habit by recording a short practice explanation on your phone and watching it once with the sound off.\n\nYour phone is part of your posture. Placing it face down, or away, at the start of a meeting says \"you have my attention\" more clearly than any sentence.",
+     "do": [
+      "Sit back with relaxed shoulders and visible hands",
+      "Put your phone face down before a conversation"
+     ],
+     "dont": [
+      "Fidget with pens, rings or your watch",
+      "Turn your body towards the door while someone is talking"
+     ]
+    },
+    {
+     "heading": "Eye contact and expression",
+     "body": "Comfortable eye contact means looking at the person most of the time while they speak, and a little less while you speak, breaking away naturally to think. Staring without breaks feels intense; constantly looking away feels evasive. If direct eye contact with a senior feels uncomfortable for you, looking at the area around their eyes works well.\n\nIn a group, share your gaze. Freshers often look only at the most senior person, which makes others feel excluded. When you answer a question, start with the person who asked, then include the rest of the table.\n\nLet your face match the message. A neutral or warm expression while listening, a brief nod to show understanding, and a genuine smile when greeting someone do more than any rehearsed gesture. Smiling while delivering bad news, however, reads as careless.",
+     "do": [
+      "Share eye contact across everyone in a group",
+      "Nod to show you are following"
+     ],
+     "dont": [
+      "Speak only to the most senior person in the room",
+      "Smile through serious or bad news"
+     ]
+    },
+    {
+     "heading": "Greetings, handshakes and personal space",
+     "body": "Indian workplaces use several greetings: a namaste, a handshake, a nod, or a mix. A simple rule is to follow the other person's lead. If they extend a hand, offer a firm but not crushing handshake for a second or two with eye contact. If they fold their hands in a namaste, return it. Some people prefer not to shake hands for personal, cultural or religious reasons; respond warmly with a namaste or a nod and move on without comment.\n\nKeep a comfortable distance, roughly an arm's length, in conversation. Avoid touching shoulders or backs of colleagues and clients, however friendly your intent.\n\nWhen someone walks up to your desk, stand or turn fully towards them. It takes a second and signals respect."
+    },
+    {
+     "heading": "Body language on video calls",
+     "body": "Much client and team work now happens on video, where your frame is your body language. Place the camera at eye level by raising the laptop on a few books, so you are not looking down at people. Sit facing a light source, not with a bright window behind you.\n\nLook at the camera when making a key point, and at the faces when listening. Keep your head and shoulders in frame, and let your nods be visible. If you must check another window, say so: \"Let me pull up your portfolio statement.\" Silent glancing away looks like distraction.\n\nBefore an important call, do a ten-second check: camera height, light, background tidy, notifications off."
+    }
+   ],
+   "takeaways": [
+    "Trust grows when your words and signals match.",
+    "Read clusters of signals in context, never a single gesture.",
+    "Sit settled, keep hands visible and phone face down.",
+    "Share eye contact across the group, not just the senior.",
+    "Follow the other person's lead on greetings and respect preferences.",
+    "On video, camera at eye level and narrate when you look away."
+   ],
+   "quiz": [
+    [
+     "A client sits with crossed arms during your presentation. What is the most sensible interpretation?",
+     [
+      "They are definitely rejecting your proposal",
+      "They are bored and you should wrap up early",
+      "Look at other signals and the context first",
+      "They are angry and you should apologise"
+     ],
+     2,
+     "Single gestures have many possible meanings; the room may simply be cold."
+    ],
+    [
+     "In a meeting with your manager and two colleagues, your manager asks you a question. Where should your eye contact go as you answer?",
+     [
+      "Only at your manager throughout",
+      "At your laptop screen to stay focused",
+      "At the colleagues so the manager doesn't feel pressured",
+      "Begin with your manager, then include the colleagues too"
+     ],
+     3,
+     "Starting with the asker and then including everyone keeps the whole group engaged."
+    ],
+    [
+     "What does the often-quoted \"93 per cent is non-verbal\" claim best illustrate?",
+     [
+      "A narrow finding that is often misapplied to all communication",
+      "A proven rule that words hardly matter at work",
+      "A rule that applies only to sales and client-facing conversations",
+      "A standard used in Indian HR assessments"
+     ],
+     0,
+     "The figure came from limited experiments on feelings in single words and does not mean words barely matter."
+    ],
+    [
+     "A new client folds their hands in a namaste as you extend your hand. What should you do?",
+     [
+      "Keep your hand out until they shake it",
+      "Return the namaste smoothly and carry on",
+      "Joke about the mismatch to ease tension",
+      "Explain that handshakes are standard in your firm"
+     ],
+     1,
+     "Following the other person's lead respects their preference and keeps the moment comfortable."
+    ],
+    [
+     "Which is the quickest way to show full attention at the start of a one-on-one meeting?",
+     [
+      "Keep your phone on the table but on silent",
+      "Check messages once quickly before starting",
+      "Place your phone face down or put it away",
+      "Hold the phone in your hand in case of urgent calls"
+     ],
+     2,
+     "Visibly setting the phone aside signals that the other person has your attention."
+    ],
+    [
+     "On a video call with a client, when should you look into the camera rather than at their face?",
+     [
+      "Never; always look at their face on screen",
+      "Only when you are listening to them",
+      "Only when you are sharing your screen",
+      "When making a key point you want to land"
+     ],
+     3,
+     "Looking at the camera appears as eye contact to the viewer, which helps key points land."
+    ],
+    [
+     "You notice you constantly tap your pen while explaining things. What is the most practical way to fix it?",
+     [
+      "Record a practice explanation and watch it on mute",
+      "Hold the pen more tightly during meetings",
+      "Avoid explaining things in meetings",
+      "Ask colleagues to stop you every time they hear you tap"
+     ],
+     0,
+     "Watching yourself without sound makes habits obvious so you can correct them deliberately."
+    ],
+    [
+     "A colleague walks up to your desk to ask something. What is the most respectful body-language response?",
+     [
+      "Keep typing and answer over your shoulder",
+      "Turn towards them or stand, and pause typing",
+      "Raise one finger to signal them to wait silently",
+      "Answer while keeping your eyes on your screen"
+     ],
+     1,
+     "Turning towards someone signals they matter more than your screen in that moment."
+    ],
+    [
+     "You need to tell a client that their fund has underperformed its benchmark. Which expression fits best?",
+     [
+      "A wide smile to keep the mood positive",
+      "A frown to show you are equally upset",
+      "A calm, attentive expression, no broad smile",
+      "Looking down at your notes for the whole conversation"
+     ],
+     2,
+     "Your face should match the seriousness of the message; constant smiling can look careless."
+    ],
+    [
+     "During a video call you need to check a document on another screen. What should you do?",
+     [
+      "Glance at it silently; they won't notice",
+      "Turn your camera off until you find it",
+      "Ask the client to wait, then mute yourself without any explanation",
+      "Say what you are doing, e.g. \"Let me pull up your statement\""
+     ],
+     3,
+     "Narrating the action explains your glance away so it is not read as distraction."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The handshake moment",
+     "situation": "You are meeting a senior client at her office for the first time. As you enter, you extend your hand, but she smiles and gives a namaste instead. Her colleague, standing beside her, extends his hand to you.",
+     "options": [
+      {
+       "text": "Return her namaste warmly, then shake hands with her colleague.",
+       "rating": "best",
+       "feedback": "You follow each person's lead individually, which is respectful and keeps the greeting natural."
+      },
+      {
+       "text": "Give everyone a namaste to keep things consistent.",
+       "rating": "good",
+       "feedback": "This is respectful and safe, but ignoring the colleague's extended hand can feel slightly awkward to him."
+      },
+      {
+       "text": "Keep your hand out briefly in case she changes her mind.",
+       "rating": "poor",
+       "feedback": "Holding your hand out puts pressure on someone who has already shown their preference."
+      }
+     ]
+    },
+    {
+     "title": "The distracted review",
+     "situation": "Your team lead is giving you feedback on a client report. Your phone keeps buzzing with messages from a WhatsApp group about a branch event. You feel the urge to check it.",
+     "options": [
+      {
+       "text": "Glance at the phone quickly when your lead looks at the report.",
+       "rating": "poor",
+       "feedback": "Even quick glances are noticed and suggest the feedback is less important than the group chat."
+      },
+      {
+       "text": "Turn the phone face down and say, \"Sorry, let me silence that,\" then focus on the feedback.",
+       "rating": "best",
+       "feedback": "A brief acknowledgement plus a visible action shows respect and full attention."
+      },
+      {
+       "text": "Leave the phone buzzing but keep eye contact throughout.",
+       "rating": "good",
+       "feedback": "Your eye contact helps, but the repeated buzzing still distracts both of you."
+      },
+      {
+       "text": "Ask your lead to continue the feedback later.",
+       "rating": "poor",
+       "feedback": "Postponing feedback for a non-urgent group chat signals the wrong priorities."
+      }
+     ]
+    },
+    {
+     "title": "The low-energy video call",
+     "situation": "You present a mutual fund portfolio review to a client on video from home. Your laptop sits flat on the desk, a bright window is behind you, and the client seems disengaged. You have a 10-minute break before the next call.",
+     "options": [
+      {
+       "text": "Raise the laptop to eye level, face the window instead, and look at the camera for key points on the next call.",
+       "rating": "best",
+       "feedback": "Fixing camera height and lighting improves how you come across, and camera eye contact helps engagement."
+      },
+      {
+       "text": "Speak louder and faster on the next call to sound energetic.",
+       "rating": "poor",
+       "feedback": "Pace and volume do not fix poor framing, and rushing makes explanations harder to follow."
+      },
+      {
+       "text": "Switch off your video and use audio only.",
+       "rating": "poor",
+       "feedback": "Removing video loses the visual trust signals clients value in reviews."
+      },
+      {
+       "text": "Close the curtains behind you but keep the laptop as it is.",
+       "rating": "good",
+       "feedback": "Better lighting helps, but the low camera angle still makes you look down at the client."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "user",
+     "title": "Signals that build trust",
+     "text": "People read your body before your words. When the two match, they trust you. A few simple habits, in person and on video, make the difference."
+    },
+    {
+     "kind": "tip",
+     "icon": "search",
+     "title": "Read clusters, not gestures",
+     "text": "Crossed arms may mean disagreement, or just a cold AC. Look at several signals and the context. Body language varies across India too, so observe first."
+    },
+    {
+     "kind": "compare",
+     "icon": "phone",
+     "title": "Show full attention",
+     "text": "Sit settled, with relaxed shoulders and hands visible. Your phone is part of your posture.",
+     "bad": "Phone on the table, buzzing, while you nod along.",
+     "good": "Phone face down before the conversation starts."
+    },
+    {
+     "kind": "compare",
+     "icon": "user",
+     "title": "Include everyone with your eyes",
+     "text": "Start with the person who asked, then include the rest of the table.",
+     "bad": "Answering only the most senior person in the room.",
+     "good": "Looking at the asker first, then sharing eye contact with everyone."
+    },
+    {
+     "kind": "tip",
+     "icon": "briefcase",
+     "title": "Follow their greeting",
+     "text": "Handshake or namaste? Follow the other person's lead. If someone prefers not to shake hands, return a namaste or nod warmly, without comment. Keep about an arm's length of space."
+    },
+    {
+     "kind": "compare",
+     "icon": "bulb",
+     "title": "Match your face to the message",
+     "text": "A warm look when greeting, a calm one for serious news.",
+     "bad": "Smiling broadly while explaining a fund's underperformance.",
+     "good": "A calm, attentive expression, then the facts."
+    },
+    {
+     "kind": "checklist",
+     "icon": "check",
+     "title": "10-second video check",
+     "text": "Before an important call, check each one.",
+     "items": [
+      "Camera at eye level",
+      "Facing the light, not a bright window",
+      "Background tidy",
+      "Notifications off"
+     ],
+     "tip": "Looking away to check a file? Say so: \"Let me pull up your statement.\""
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Signals to use in your next meeting:"
+    }
+   ]
+  },
+  {
+   "id": "first-impressions-and-grooming",
+   "title": "First Impressions, Grooming and Professional Presence",
+   "track": "core",
+   "minutes": 6,
+   "summary": "Create a reliable first impression through punctuality, preparation and neat, context-appropriate presentation, on any budget and in any attire you choose.",
+   "sections": [
+    {
+     "heading": "What a first impression is really made of",
+     "body": "A first impression forms quickly, but it is built from things you can control: arriving on time, a clear greeting, being prepared, and a neat appearance. Expensive clothes or a particular look are not on that list. A candidate in a well-ironed, simple shirt or kurta who arrives five minutes early with the documents ready will usually be remembered better than someone in a costly outfit who rushes in late.\n\nThink of presence as signals of reliability. Each one tells the other person, \"This person takes the meeting, and me, seriously.\" That is what you want them to conclude.\n\nFirst impressions can be revised, but it takes many good interactions to undo one careless one. It is easier to get the basics right from the start."
+    },
+    {
+     "heading": "Grooming basics that work for everyone",
+     "body": "Good grooming is about being clean, neat and comfortable, not about matching a particular image. The essentials apply to everyone regardless of gender, faith or budget: a daily bath, clean and trimmed nails, fresh breath, tidy hair in whatever style you wear, and clothes that are clean, ironed and fit reasonably.\n\nIf you wear a beard, turban, hijab, bindi, tilak or any other personal or religious marker, it is entirely professional; simply keep it neat as you would anything else. Fragrance should be light or absent, because many people are sensitive to strong scents in closed offices and branches.\n\nOn a tight budget, choose two or three plain, versatile pieces in neutral colours that mix together, and invest in ironing rather than in more clothes. Polished, comfortable footwear matters more than brand.",
+     "do": [
+      "Iron clothes the night before",
+      "Keep a small kit at work: comb, tissues, mints, safety pins"
+     ],
+     "dont": [
+      "Use strong perfume or deodorant in shared spaces",
+      "Assume costly clothes compensate for creases or stains"
+     ]
+    },
+    {
+     "heading": "Dressing for the context",
+     "body": "\"Professional\" means different things in a private bank's wealth desk, a government office, a start-up and a semi-urban branch. The right choice is the one that fits the setting and does not distract from you.\n\nBefore your first day or a client meeting, find out the norm. Ask HR or your manager, \"What do people usually wear here?\", or look at photos on the company's pages. Indian formal and Western formal are both acceptable in most offices. For client meetings, dress one level more formal than the client is likely to be; it is easier to roll up sleeves than to look underdressed.\n\nCasual Fridays still have limits: avoid slogans, torn fabric and beachwear. On video calls, what is visible should be as neat as it would be in person."
+    },
+    {
+     "heading": "Presence beyond clothes",
+     "body": "Your professional presence also lives in places people see before they meet you. Check your email address, WhatsApp display name and photo, LinkedIn profile, and the greeting on your voicemail. An address like coolboy99 or a party photo on WhatsApp, used for client communication, creates a first impression you did not intend.\n\nYour desk and laptop count too. A tidy desk, a clean laptop screen and a sensible wallpaper during screen-share all signal care.\n\nFinally, there is how you treat people. Clients and interview panels often ask the receptionist, security guard or office assistant how a visitor behaved. Courtesy to everyone is part of presence.",
+     "do": [
+      "Use a simple name-based email ID and a clear profile photo",
+      "Greet support staff the same way you greet seniors"
+     ],
+     "dont": [
+      "Use personal party photos on numbers shared with clients",
+      "Screen-share with cluttered desktops or open personal chats"
+     ]
+    },
+    {
+     "heading": "A five-minute pre-meeting check",
+     "body": "Turn presence into a routine. Five minutes before an important meeting, run through a short check. Appearance: clothes neat, hair tidy, nothing on your teeth, phone silenced. Materials: documents, pen, visiting cards or a digital card ready, laptop charged. Context: names and designations of the people you are meeting, and the one outcome you want.\n\nArrive or log in a few minutes early. Use the time to breathe, sit upright and note your opening line. A calm start sets the tone more than anything else you wear."
+    }
+   ],
+   "takeaways": [
+    "First impressions come from punctuality, preparation, greeting and neatness.",
+    "Clean, ironed and well-fitting beats expensive.",
+    "Personal and religious attire is professional; keep everything neat.",
+    "Match the setting, and go one level more formal for clients.",
+    "Check your email ID, profile photo and screen before others see them.",
+    "Use a short pre-meeting check every time."
+   ],
+   "quiz": [
+    [
+     "You have a limited budget for work clothes. What gives the best return?",
+     [
+      "A few plain, versatile pieces kept clean and ironed",
+      "One expensive branded outfit for important days",
+      "Many inexpensive outfits so you never repeat",
+      "Following the latest fashion trends closely"
+     ],
+     0,
+     "Neatness and fit create a professional impression far more than brand or variety."
+    ],
+    [
+     "You are unsure what to wear on your first day at a new office. What is the best step?",
+     [
+      "Wear your most formal suit to be safe whatever the norm",
+      "Ask HR or your manager what people usually wear",
+      "Wear casual clothes to look relaxed",
+      "Copy what you wore in college"
+     ],
+     1,
+     "Asking removes guesswork and shows you care about fitting the context."
+    ],
+    [
+     "A colleague wears a turban to client meetings. How should this be viewed professionally?",
+     [
+      "As acceptable only for internal meetings",
+      "As something to discuss with HR before client visits",
+      "As fully professional, like any neatly worn attire",
+      "As informal compared with Western formal wear"
+     ],
+     2,
+     "Personal and religious attire is professional; the standard is neatness, not a specific style."
+    ],
+    [
+     "Why is light or no fragrance recommended at work?",
+     [
+      "Perfume is considered unprofessional in all Indian offices",
+      "It signals that you cannot afford good perfume",
+      "It is a legal requirement in banks",
+      "Strong scents can bother people in closed shared spaces"
+     ],
+     3,
+     "Many people are sensitive to strong smells; a light or no scent is considerate."
+    ],
+    [
+     "You are meeting a client from a manufacturing business who usually dresses business-casual. What should you wear?",
+     [
+      "One level more formal than business-casual",
+      "Exactly what the client wears, so that you blend in",
+      "Very casual clothes to seem approachable",
+      "Formal evening wear to impress"
+     ],
+     0,
+     "Dressing slightly more formal than the client shows respect without looking out of place."
+    ],
+    [
+     "Which of these is most likely to create an unintended first impression with a new client?",
+     [
+      "A plain, name-based email address printed on your visiting card",
+      "A party photo as your WhatsApp picture on your work number",
+      "A short, clear voicemail greeting",
+      "A simple LinkedIn headline with your role"
+     ],
+     1,
+     "Clients see your display picture before they meet you; it should be suitable for work."
+    ],
+    [
+     "What does a five-minute pre-meeting check mainly help you do?",
+     [
+      "Memorise the full agenda word for word before you go in",
+      "Change into a different outfit for each meeting",
+      "A calm start, with appearance and materials in order",
+      "Avoid arriving early"
+     ],
+     2,
+     "A routine check removes avoidable slips and gives you a calm start."
+    ],
+    [
+     "An interview panel later asks the receptionist how candidates behaved. What does this tell you about presence?",
+     [
+      "Only the panel's opinion matters",
+      "Receptionists decide final selections",
+      "You need to be formal only with the senior people you meet",
+      "Courtesy to everyone is part of your impression"
+     ],
+     3,
+     "How you treat support staff is often noticed and reflects your character."
+    ],
+    [
+     "You are about to share your screen in a client review. What should you check first?",
+     [
+      "Close personal chats and tidy your desktop",
+      "Increase the screen brightness to maximum",
+      "Change your wallpaper to the company logo only",
+      "Turn off your camera so they focus on the screen"
+     ],
+     0,
+     "Open personal chats or clutter can embarrass you and distract the client."
+    ],
+    [
+     "Which statement about first impressions is most accurate?",
+     [
+      "They are permanent and can never be changed",
+      "They can change, but undoing a poor one takes many good interactions",
+      "They depend mainly on how expensive and fashionable your clothes look",
+      "They do not matter after the first week"
+     ],
+     1,
+     "Impressions can shift over time, but getting the basics right first is much easier."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The interview outfit",
+     "situation": "You have a bank PO interview next week. Your only formal shirt has a faded collar and your budget is tight. A friend suggests borrowing an expensive blazer that is a size too big.",
+     "options": [
+      {
+       "text": "Wear the oversized blazer; a brand will impress the panel.",
+       "rating": "poor",
+       "feedback": "An ill-fitting garment draws attention for the wrong reasons; fit matters more than label."
+      },
+      {
+       "text": "Buy or borrow one plain, well-fitting shirt or kurta, iron it well and polish your shoes.",
+       "rating": "best",
+       "feedback": "A neat, well-fitting, simple outfit is exactly what panels look for, and it fits your budget."
+      },
+      {
+       "text": "Wear your existing shirt but iron it carefully.",
+       "rating": "good",
+       "feedback": "Ironing helps, but a visibly faded collar can still distract; a small upgrade would be better if possible."
+      }
+     ]
+    },
+    {
+     "title": "Casual Friday, client Saturday",
+     "situation": "Your office allows jeans on Fridays. On Friday afternoon your manager asks you to join an unplanned visit to a long-standing HNI client's home office at 5 pm. You are in jeans and a printed T-shirt.",
+     "options": [
+      {
+       "text": "Go as you are; it is Friday and the client will understand.",
+       "rating": "poor",
+       "feedback": "The client does not know your office policy; a slogan T-shirt may seem careless for a wealth review."
+      },
+      {
+       "text": "Decline the visit because you are not dressed properly.",
+       "rating": "poor",
+       "feedback": "Missing the opportunity over clothing is a bigger loss than a slightly casual look."
+      },
+      {
+       "text": "Tell your manager what you are wearing and ask if it is fine; if possible, change into the spare shirt you keep at work.",
+       "rating": "best",
+       "feedback": "You check expectations and fix the issue simply, which is why a spare shirt at work is useful."
+      },
+      {
+       "text": "Put on your manager's spare jacket over the T-shirt.",
+       "rating": "good",
+       "feedback": "It may improve the look, but borrowing without fit or permission can look odd; a quick check is better."
+      }
+     ]
+    },
+    {
+     "title": "The new number",
+     "situation": "You have just become a relationship manager and will use your personal mobile number to message clients on WhatsApp. Your display picture is a group photo from a friend's wedding, and your name shows as \"Rocky\".",
+     "options": [
+      {
+       "text": "Change the display name to your full name and use a clear, simple photo before you message any client.",
+       "rating": "best",
+       "feedback": "Your profile is the first thing clients see; it should identify you clearly and look professional."
+      },
+      {
+       "text": "Keep the photo but change the name to your full name.",
+       "rating": "good",
+       "feedback": "Clients will know who you are, but a wedding group photo still makes it hard to identify you and looks informal."
+      },
+      {
+       "text": "Leave it as it is; clients care about returns, not photos.",
+       "rating": "poor",
+       "feedback": "An informal profile can make clients doubt whether they are dealing with a professional."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "star",
+     "title": "First impressions you control",
+     "text": "First impressions come from things you control: being on time, prepared, greeting clearly and looking neat. Not expensive clothes. Here's how to get them right."
+    },
+    {
+     "kind": "tip",
+     "icon": "sparkle",
+     "title": "Grooming basics for everyone",
+     "text": "Clean, ironed clothes that fit. Tidy hair in your own style, trimmed nails, fresh breath. Light or no fragrance. Turbans, hijabs, bindis, beards and tilaks are fully professional; just keep everything neat."
+    },
+    {
+     "kind": "compare",
+     "icon": "briefcase",
+     "title": "Neat beats expensive",
+     "text": "On a budget, choose two or three plain pieces that mix together. Spend on ironing, not more clothes.",
+     "bad": "A costly blazer a size too big.",
+     "good": "A simple, well-fitting shirt or kurta, freshly ironed."
+    },
+    {
+     "kind": "tip",
+     "icon": "search",
+     "title": "Dress for the setting",
+     "text": "Ask HR, \"What do people usually wear here?\" For client meetings, go one level more formal than the client. On video, what shows should be as neat as in person."
+    },
+    {
+     "kind": "compare",
+     "icon": "phone",
+     "title": "Your profile is a first impression",
+     "text": "Clients see your email ID and display picture before they meet you.",
+     "bad": "WhatsApp name \"Rocky\" with a wedding group photo.",
+     "good": "Your full name and a clear, simple photo."
+    },
+    {
+     "kind": "tip",
+     "icon": "user",
+     "title": "Courtesy to everyone counts",
+     "text": "Panels and clients often ask the receptionist or security guard how a visitor behaved. Greet support staff the way you greet seniors."
+    },
+    {
+     "kind": "checklist",
+     "icon": "clock",
+     "title": "Five-minute pre-meeting check",
+     "text": "Tap each one before you walk in.",
+     "items": [
+      "Clothes neat, hair tidy, phone silenced",
+      "Documents, pen and cards ready",
+      "Names and designations noted",
+      "The one outcome you want"
+     ],
+     "tip": "Arrive or log in a few minutes early."
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Your presence checklist:"
+    }
+   ]
+  },
+  {
+   "id": "resilience-and-handling-rejection",
+   "title": "Resilience: Handling Rejection and Setbacks",
+   "track": "core",
+   "minutes": 6,
+   "summary": "Use practical habits to respond to rejection and setbacks, recover steadily, learn something useful and keep going without taking each \"no\" personally.",
+   "sections": [
+    {
+     "heading": "What resilience is, and what it isn't",
+     "body": "Resilience is your ability to absorb a setback, recover and adjust your approach. It does not mean feeling nothing. Missing a promotion, failing an exam attempt or losing a big client will sting, and that is normal. The resilient response is to feel it, then return to useful action within a reasonable time.\n\nIn Indian careers, setbacks are common and often public. Exam results are compared in family groups; sales targets are displayed on branch boards. That visibility makes rejection feel larger than it is. Remember that most people you admire have a long list of attempts that did not work out.\n\nResilience is built through habits, not personality. The sections below give you a sequence to follow when things go wrong."
+    },
+    {
+     "heading": "The first 24 hours",
+     "body": "Right after a setback, your judgement is at its weakest. Give yourself a short pause before reacting. Do not send the angry email, resign in the WhatsApp group or post on social media. Draft if you must, but wait until the next day to send.\n\nName what happened in plain words: \"The client chose another distributor\" instead of \"I am useless at sales.\" Separating the event from your identity is the single most useful move. One rejection is information about one situation, not a verdict on you.\n\nThen do something small and steady: finish one routine task, take a walk, talk to someone you trust. Momentum in small things helps you regain balance for bigger ones.",
+     "do": [
+      "Wait a day before responding to a disappointing decision",
+      "Describe the event in factual words"
+     ],
+     "dont": [
+      "Turn one rejection into a statement about your worth",
+      "Post about it on social media while upset"
+     ]
+    },
+    {
+     "heading": "Learn from it without dwelling",
+     "body": "Once the sting has settled, review the setback with three questions. What happened? What was in my control? What will I do differently next time? Write the answers in a few lines. This keeps the lesson and lets go of the replay.\n\nAsk for feedback when you can. After an interview or a lost client, a short, polite message often gets a useful answer: \"Thank you for your time. If you are comfortable sharing, what could I have done better?\" Not everyone will reply, and that is fine.\n\nWatch out for two traps: blaming only yourself for things outside your control, such as a market fall or a hiring freeze, and blaming only others for things within it, such as weak preparation. The honest answer is usually a mix.",
+     "do": [
+      "Use the three-question review and write it down",
+      "Ask politely for feedback after a rejection"
+     ],
+     "dont": [
+      "Replay the event repeatedly without a conclusion",
+      "Blame only yourself or only others"
+     ]
+    },
+    {
+     "heading": "Track inputs, not just outcomes",
+     "body": "In roles with frequent rejection, such as sales, advisory or job hunting, outcomes are partly outside your control. Inputs are not. A mutual fund distributor cannot guarantee that a prospect will invest, but can control the number of quality conversations, follow-ups and review meetings each week.\n\nSet weekly input goals and track them: ten client calls, three follow-ups, two applications sent. When results are slow, a steady input record shows you are doing the work and tells you what to adjust. It also protects your morale, because you can succeed at the inputs every week even when outcomes lag.\n\nOver months, inputs and outcomes tend to line up, and you will see which activities actually lead to results."
+    },
+    {
+     "heading": "Routines that keep you steady",
+     "body": "Resilience is easier when your basic reserves are full. Regular sleep, some daily movement, meals at reasonable times and time with people outside work all help you cope with pressure. None of this is complicated, but it is the first thing people drop during a stressful month.\n\nBuild a small support circle: a mentor, a peer going through similar challenges, and someone outside work who knows you well. Talking a setback through often shrinks it.\n\nEveryday habits help with everyday setbacks. If low mood, anxiety or stress persists for weeks or affects your daily life, consider speaking to a qualified counsellor or doctor."
+    }
+   ],
+   "takeaways": [
+    "Resilience means recovering and adjusting, not feeling nothing.",
+    "Pause before reacting; send nothing important in the first hours.",
+    "Describe the event factually and separate it from your identity.",
+    "Review with three questions: what happened, what I controlled, what next.",
+    "Track weekly inputs when outcomes are slow.",
+    "Protect sleep, movement and a small support circle."
+   ],
+   "quiz": [
+    [
+     "You just learnt you were not shortlisted for an internal role. What is the best immediate step?",
+     [
+      "Email HR right away explaining why the decision was unfair",
+      "Tell your team you are planning to resign",
+      "Pause, and send no reaction until you have settled",
+      "Pretend it does not affect you at all"
+     ],
+     2,
+     "Judgement is weakest right after a setback; a pause prevents reactions you may regret."
+    ],
+    [
+     "Which statement best separates the event from your identity?",
+     [
+      "\"I am just not good at sales.\"",
+      "\"I always lose the clients who really matter.\"",
+      "\"Nobody will ever trust me with money.\"",
+      "\"This client chose another distributor.\""
+     ],
+     3,
+     "A factual description treats the rejection as one event, not a judgement on who you are."
+    ],
+    [
+     "Which is one of the three review questions suggested after a setback?",
+     [
+      "What was within my control?",
+      "Who is to blame for this?",
+      "How can I avoid all future risk?",
+      "Why does this always happen to me?"
+     ],
+     0,
+     "Focusing on what you controlled leads to practical lessons rather than blame."
+    ],
+    [
+     "Markets fell sharply and several clients paused SIPs, cutting your monthly numbers. What is the most balanced view?",
+     [
+      "It was entirely your fault for not predicting the fall",
+      "The fall wasn't in your control; your client communication was",
+      "It had nothing to do with you, so there is nothing to learn from it",
+      "You should stop recommending SIPs altogether"
+     ],
+     1,
+     "Honest reviews separate external factors from the parts you can improve."
+    ],
+    [
+     "Why track inputs such as calls and follow-ups when results are slow?",
+     [
+      "Inputs guarantee immediate sales",
+      "Managers only care about inputs, not results",
+      "Inputs are within your control and show what to adjust",
+      "Tracking inputs replaces the need for outcomes"
+     ],
+     2,
+     "Inputs give you a steady measure of effort and reveal which activities drive results."
+    ],
+    [
+     "After an interview rejection, what is the most effective feedback request?",
+     [
+      "A long message arguing why you deserved the role",
+      "Calling the interviewer repeatedly until they answer",
+      "Asking a friend to find out unofficially",
+      "A short, polite note asking what you could improve"
+     ],
+     3,
+     "Brief, courteous requests are more likely to get a helpful answer and leave a good impression."
+    ],
+    [
+     "A colleague has felt low and anxious for over a month after a setback and is struggling with daily tasks. What is the most appropriate suggestion?",
+     [
+      "Gently suggest speaking to a qualified counsellor or doctor",
+      "Tell them to try harder to think positively",
+      "Advise them to ignore it until it passes",
+      "Suggest they take on more work to stay busy"
+     ],
+     0,
+     "Persistent distress that affects daily life is best handled with professional support."
+    ],
+    [
+     "Which routine most directly supports resilience during a stressful month?",
+     [
+      "Working late every night until you have caught up on everything",
+      "Regular sleep, some movement and time with trusted people",
+      "Skipping meals to save time",
+      "Avoiding friends until things improve"
+     ],
+     1,
+     "Basic reserves of rest, activity and support make setbacks easier to handle."
+    ],
+    [
+     "You keep replaying a failed client presentation in your mind for days. What helps most?",
+     [
+      "Keep replaying it until you feel better",
+      "Avoid all presentations for a while",
+      "Write down what happened, what you controlled and what you'll change",
+      "Ask everyone who attended what they thought of it, every day for a week"
+     ],
+     2,
+     "A written review captures the lesson and gives you permission to stop replaying it."
+    ],
+    [
+     "Which describes resilience most accurately?",
+     [
+      "Never feeling disappointed by setbacks",
+      "A fixed personality trait that you either have or do not",
+      "Avoiding situations where you might fail",
+      "Feeling the setback, then returning to useful action"
+     ],
+     3,
+     "Resilience is a set of habits for recovering, not an absence of feelings."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The missed promotion",
+     "situation": "Your batchmate was promoted to branch sales manager; you were not, despite similar numbers. The announcement was made in the regional WhatsApp group and people are sending congratulations. You feel upset and embarrassed.",
+     "options": [
+      {
+       "text": "Post a brief congratulations to your batchmate, then ask your manager for a short meeting later in the week to understand what to work on.",
+       "rating": "best",
+       "feedback": "You stay gracious in public, give yourself time, and turn the setback into specific feedback."
+      },
+      {
+       "text": "Stay silent in the group and avoid your batchmate for a few days.",
+       "rating": "poor",
+       "feedback": "Silence in a visible group can look resentful and strains a relationship you will need."
+      },
+      {
+       "text": "Message your manager immediately asking why you were overlooked.",
+       "rating": "good",
+       "feedback": "Seeking feedback is right, but asking in the heat of the moment can sound like a complaint rather than a request to grow."
+      },
+      {
+       "text": "Start applying to other companies the same evening.",
+       "rating": "poor",
+       "feedback": "A decision made while upset may not reflect your real long-term interest."
+      }
+     ]
+    },
+    {
+     "title": "The fifth \"no\" this week",
+     "situation": "You are a new mutual fund distributor. Five prospects this week said they were not interested, and one was curt on the phone. You are starting to dread making calls.",
+     "options": [
+      {
+       "text": "Take the rest of the week off from calls to recover.",
+       "rating": "poor",
+       "feedback": "Avoiding calls makes the next one harder and slows your learning."
+      },
+      {
+       "text": "Review your calls with the three questions, adjust your opening, and set a fixed daily number of calls to track.",
+       "rating": "best",
+       "feedback": "You learn from the pattern and focus on controllable inputs, which protects both results and morale."
+      },
+      {
+       "text": "Keep calling exactly as before; it is just a numbers game.",
+       "rating": "good",
+       "feedback": "Persistence matters, but not reviewing your approach may repeat the same mistakes."
+      }
+     ]
+    },
+    {
+     "title": "Exam attempt result",
+     "situation": "You cleared prelims but missed the mains cut-off for a bank exam by a few marks while also working your first job. Relatives keep asking about the result at a family function.",
+     "options": [
+      {
+       "text": "Say calmly, \"I cleared prelims and missed mains narrowly; I'm working out my plan for the next one,\" and change the topic.",
+       "rating": "best",
+       "feedback": "A factual, brief answer protects your dignity and keeps the focus on your next step."
+      },
+      {
+       "text": "Avoid the function to escape the questions.",
+       "rating": "poor",
+       "feedback": "Avoidance may help today but tends to increase the weight you give to the result."
+      },
+      {
+       "text": "Explain in detail why the paper was unfair this year.",
+       "rating": "good",
+       "feedback": "There may be some truth in it, but long explanations keep you dwelling and can sound defensive."
+      },
+      {
+       "text": "Tell everyone you have decided exams are a waste of time.",
+       "rating": "poor",
+       "feedback": "A dismissive statement made under pressure can close options you may still want."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "refresh",
+     "title": "Bounce back from setbacks",
+     "text": "Resilience isn't feeling nothing. Missing a promotion or losing a client will sting. It's about recovering and adjusting. These habits help you do that."
+    },
+    {
+     "kind": "compare",
+     "icon": "clock",
+     "title": "Pause in the first 24 hours",
+     "text": "Your judgement is weakest right after a setback. Draft if you must, then send tomorrow.",
+     "bad": "Posting an angry message in the team WhatsApp group.",
+     "good": "Waiting a day, then asking your manager for a short meeting."
+    },
+    {
+     "kind": "compare",
+     "icon": "user",
+     "title": "Separate the event from you",
+     "text": "One rejection is information about one situation, not a verdict on you.",
+     "bad": "I'm useless at sales.",
+     "good": "This client chose another distributor this time."
+    },
+    {
+     "kind": "checklist",
+     "icon": "search",
+     "title": "The three-question review",
+     "text": "Write a few lines, then close it.",
+     "items": [
+      "What happened?",
+      "What was in my control?",
+      "What will I do differently next time?"
+     ],
+     "tip": "Avoid blaming only yourself or only others. It's usually a mix."
+    },
+    {
+     "kind": "tip",
+     "icon": "mail",
+     "title": "Ask for feedback politely",
+     "text": "After an interview or a lost client, a short message often helps. Not everyone replies, and that's fine.",
+     "example": "Thank you for your time. If you're comfortable sharing, what could I have done better?"
+    },
+    {
+     "kind": "tip",
+     "icon": "chart",
+     "title": "Track inputs, not just results",
+     "text": "You can't control every outcome, but you can control your effort. Set weekly goals and track them.",
+     "example": "This week: 10 client calls, 3 follow-ups, 2 applications"
+    },
+    {
+     "kind": "tip",
+     "icon": "shield",
+     "title": "Keep your reserves full",
+     "text": "Regular sleep, some movement and time with people you trust make setbacks easier to handle. If low mood or stress lasts for weeks, consider speaking to a qualified counsellor or doctor."
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Habits for your next setback:"
+    }
+   ]
+  },
+  {
+   "id": "campus-to-corporate",
+   "title": "From Campus to Corporate: Etiquette for Your First Job",
+   "track": "fresher",
+   "minutes": 6,
+   "summary": "Handle the everyday etiquette of your first job, from emails and meetings to deadlines, questions and office relationships, so you are seen as dependable from week one.",
+   "sections": [
+    {
+     "heading": "The mindset shift",
+     "body": "In college or exam preparation, someone gave you a syllabus, a timetable and marks. At work, nobody hands you a syllabus. Your manager expects you to understand the goal, ask what you need, and deliver without daily reminders. Marks are replaced by a quieter question in your manager's mind: \"Can I rely on this person?\"\n\nThe good news is that reliability is built through small, visible habits that anyone can learn. Being on time, replying promptly, keeping commitments and asking good questions matter more in your first six months than brilliant ideas.\n\nTreat the first three months as a learning period. Observe how respected colleagues behave, and copy their habits."
+    },
+    {
+     "heading": "Communication etiquette",
+     "body": "Write emails with a clear subject line, a greeting, the purpose in the first two lines, and a specific request or next step. \"Subject: Branch MIS for 12 Oct – need approval by 3 pm\" is far more useful than \"Update\". Check the To and CC lists before sending, and use Reply All only when everyone needs to see your reply.\n\nOn WhatsApp work groups, keep messages relevant and avoid forwards, jokes or good-morning images unless the group clearly welcomes them. Respond to direct work messages within a reasonable time, even if only to say, \"Noted, will revert by evening.\"\n\nHow to address people varies. Some teams use first names for everyone; others use \"sir\" or \"ma'am\" for seniors. Follow what your team does, and when unsure, ask a peer.",
+     "do": [
+      "Put the purpose and request in the first two lines",
+      "Acknowledge work messages even if the full answer comes later"
+     ],
+     "dont": [
+      "Reply All for a simple \"thanks\"",
+      "Send personal forwards to work groups"
+     ]
+    },
+    {
+     "heading": "Time, deadlines and commitments",
+     "body": "Arrive a few minutes before your start time and before meetings. Log in to video calls a minute early. Punctuality is the cheapest way to earn trust.\n\nWhen you receive a task, confirm three things: what exactly is needed, by when, and in what format. \"Just to confirm, you need the client list in Excel by Thursday 5 pm, sorted by AUM?\" One clarifying question saves hours of rework.\n\nIf you will miss a deadline, say so early, not at the deadline. \"I'll need until Friday morning because the branch data came late; I can send a partial version by Thursday.\" Early warnings let your manager plan; last-minute surprises damage trust.",
+     "do": [
+      "Repeat back the task, deadline and format",
+      "Flag delays as soon as you see them"
+     ],
+     "dont": [
+      "Say \"yes, done\" before you have checked the scope",
+      "Stay silent until the deadline passes"
+     ]
+    },
+    {
+     "heading": "Asking questions and learning fast",
+     "body": "Freshers are expected to ask questions; what matters is how. Try first for a reasonable time, check internal documents or past emails, then ask with context: \"I've checked the SOP and the last month's file, but I'm unsure which branch code to use for merged branches. Could you guide me?\"\n\nBatch non-urgent questions and ask them together rather than interrupting your senior every ten minutes. Keep a notebook or digital file of answers so you never ask the same thing twice.\n\nVolunteer for small extra tasks, such as taking meeting notes or preparing a first draft. They help you learn the business and get noticed for the right reasons."
+    },
+    {
+     "heading": "Office manners and relationships",
+     "body": "Shared spaces need shared courtesy. Keep phone calls short and quiet at your desk, use headphones for videos, and clean up after yourself in the pantry. Be mindful of strongly flavoured food at your desk if your office is enclosed.\n\nBuild good relationships across levels, but stay away from gossip. If a conversation turns to criticising a colleague, you can steer away without lecturing: \"I haven't worked with him much; how's the quarter-end prep going?\"\n\nAt office parties, participate, but drinking alcohol is always optional; a simple \"I'll have a juice\" needs no explanation. Be careful about posting office photos or opinions about your employer on social media, and never share client or internal information.",
+     "do": [
+      "Use headphones and keep calls quiet in shared spaces",
+      "Steer politely away from gossip"
+     ],
+     "dont": [
+      "Post internal or client details on social media",
+      "Feel pressured to drink at office events"
+     ]
+    }
+   ],
+   "takeaways": [
+    "At work, reliability replaces marks as your scorecard.",
+    "Emails need a clear subject, purpose and request up front.",
+    "Confirm task, deadline and format before you start.",
+    "Flag delays early, with a revised plan.",
+    "Try first, then ask with context; never ask the same thing twice.",
+    "Be courteous in shared spaces and stay clear of gossip."
+   ],
+   "quiz": [
+    [
+     "Your manager says, \"Send me the client list.\" What should you do before starting?",
+     [
+      "Confirm the deadline, format and any filters needed",
+      "Start immediately so you look efficient",
+      "Wait for a detailed written brief before doing anything",
+      "Ask a peer what they think the manager wants"
+     ],
+     0,
+     "A quick clarification of scope, deadline and format prevents rework."
+    ],
+    [
+     "Which email subject line is most useful?",
+     [
+      "\"Update\"",
+      "\"Q2 SIP renewals – approval needed by Friday\"",
+      "\"Please check this when you get some free time\"",
+      "\"Urgent!!! Need your reply on this ASAP please\""
+     ],
+     1,
+     "A specific subject tells the reader what it is about and what is needed."
+    ],
+    [
+     "You realise on Tuesday that you cannot finish a report due Thursday. What should you do?",
+     [
+      "Work late and hope you finish by Thursday",
+      "Wait until Thursday morning to explain",
+      "Tell your manager now, with the reason and a revised timeline",
+      "Submit an incomplete report on Thursday without mentioning the gaps"
+     ],
+     2,
+     "Early warnings let your manager plan; surprises at the deadline damage trust."
+    ],
+    [
+     "Your team addresses each other by first name, including the manager. You are used to saying \"sir\". What is best?",
+     [
+      "Keep saying \"sir\" to everyone regardless",
+      "Use first names for your peers only and \"sir\" for everyone else",
+      "Avoid using any names at all",
+      "Follow the team's norm, and ask a peer if you are unsure"
+     ],
+     3,
+     "Matching the team's norm helps you fit in; asking a peer clears doubts."
+    ],
+    [
+     "Which is the best way to ask a senior a question?",
+     [
+      "Share what you've already checked, then ask the specific question",
+      "Ask as soon as you get stuck, every time",
+      "Avoid asking so you don't look inexperienced",
+      "Ask the same question to several people and compare all their answers"
+     ],
+     0,
+     "Showing effort and being specific respects the senior's time and gets better answers."
+    ],
+    [
+     "When should you use Reply All?",
+     [
+      "Whenever you want to say thank you",
+      "When everyone on the thread needs your response",
+      "Always, to keep everyone informed",
+      "Only when the email came from a senior"
+     ],
+     1,
+     "Reply All should be used only when your reply is relevant to the whole group."
+    ],
+    [
+     "A colleague starts criticising another team member during lunch. What is the best response?",
+     [
+      "Agree to fit in with the group",
+      "Tell the person being criticised afterwards",
+      "Change the topic politely without joining in",
+      "Lecture the colleague about gossip"
+     ],
+     2,
+     "Steering away avoids gossip without creating conflict."
+    ],
+    [
+     "At a team dinner, colleagues offer you a drink and you do not drink alcohol. What should you do?",
+     [
+      "Accept one drink so you don't seem rude",
+      "Leave the dinner early",
+      "Give a long explanation of your personal reasons for not drinking",
+      "Politely ask for a non-alcoholic drink, no explanation needed"
+     ],
+     3,
+     "Drinking is always optional; a simple polite choice is enough."
+    ],
+    [
+     "You receive a direct work message from your manager but need time to answer fully. What should you do?",
+     [
+      "Acknowledge it and say when you will reply in full",
+      "Wait until you have the complete answer before replying",
+      "Ignore it until the next day",
+      "Forward it to a colleague to handle"
+     ],
+     0,
+     "A quick acknowledgement shows responsiveness while you prepare the full answer."
+    ],
+    [
+     "What usually matters most to a manager in a fresher's first six months?",
+     [
+      "Proposing major changes to existing processes",
+      "Being reliable with time, commitments and communication",
+      "Having the highest academic scores in the team",
+      "Being active on the team WhatsApp group"
+     ],
+     1,
+     "Early on, managers mainly assess whether they can depend on you."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The vague task",
+     "situation": "On your second week at an asset management company, your manager says in passing, \"Prepare something on our top funds for the distributor meet,\" and walks into another meeting. You are not sure what \"something\" means.",
+     "options": [
+      {
+       "text": "Make a detailed 30-slide presentation on all funds to be safe.",
+       "rating": "poor",
+       "feedback": "Guessing big wastes time and may not match what is needed."
+      },
+      {
+       "text": "Send a short message: \"For the distributor meet, should I prepare a one-page fund summary or slides? Which funds and by when?\"",
+       "rating": "best",
+       "feedback": "A specific, brief question clears the scope quickly without disturbing the meeting."
+      },
+      {
+       "text": "Ask a peer what they made for the last meet and follow that format.",
+       "rating": "good",
+       "feedback": "Using a past format is a smart start, but your manager may want something different this time; confirming is still needed."
+      }
+     ]
+    },
+    {
+     "title": "The group chat",
+     "situation": "You have been added to your department's WhatsApp group of 60 people, including the business head. You came across a funny video about Mondays and want to share it to seem friendly.",
+     "options": [
+      {
+       "text": "Share it; humour helps people get to know you.",
+       "rating": "poor",
+       "feedback": "Unrelated forwards in a large work group can annoy senior members and set the wrong first impression."
+      },
+      {
+       "text": "Observe how the group is used for a few weeks before sharing anything non-work.",
+       "rating": "best",
+       "feedback": "Learning the group's norms first avoids missteps in a visible space."
+      },
+      {
+       "text": "Share it only with the two peers you are closest to.",
+       "rating": "good",
+       "feedback": "This keeps it out of the main group, but make sure even small chats stay appropriate for work contacts."
+      },
+      {
+       "text": "Post it with an apology for being off-topic.",
+       "rating": "poor",
+       "feedback": "An apology does not change that the post may be unwelcome in a formal group."
+      }
+     ]
+    },
+    {
+     "title": "The interrupting fresher",
+     "situation": "You are learning the bank's loan processing system. You have asked your senior six questions in the last hour, and you notice she sighs when you approach again. You have two more questions.",
+     "options": [
+      {
+       "text": "Stop asking and guess the answers to avoid annoying her.",
+       "rating": "poor",
+       "feedback": "Guessing in a loan process can cause errors that cost more than a question."
+      },
+      {
+       "text": "Note your questions, check the manual first, and ask her at a convenient time together: \"I have two questions; when is a good time?\"",
+       "rating": "best",
+       "feedback": "Batching questions and showing effort respects her time while still getting the answers."
+      },
+      {
+       "text": "Ask a different senior instead so you spread the questions.",
+       "rating": "good",
+       "feedback": "It reduces load on one person, but checking the manual first and batching would still be better."
+      },
+      {
+       "text": "Apologise repeatedly every time you ask.",
+       "rating": "poor",
+       "feedback": "Over-apologising adds to the interruption without solving it."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "briefcase",
+     "title": "Your first job, done right",
+     "text": "At work there's no syllabus and no marks. Your manager quietly asks, \"Can I rely on this person?\" Small habits answer that question from week one."
+    },
+    {
+     "kind": "compare",
+     "icon": "mail",
+     "title": "Write emails people can act on",
+     "text": "Clear subject, purpose in the first two lines, a specific request. Use Reply All only when everyone needs it.",
+     "bad": "Subject: Update",
+     "good": "Subject: Branch MIS for 12 Oct – need approval by 3 pm"
+    },
+    {
+     "kind": "compare",
+     "icon": "target",
+     "title": "Confirm the task before starting",
+     "text": "Check what, by when and in what format. One question saves hours of rework.",
+     "bad": "Yes sir, will do. (Then guessing the format.)",
+     "good": "Just to confirm: client list in Excel by Thursday 5 pm, sorted by AUM?"
+    },
+    {
+     "kind": "compare",
+     "icon": "clock",
+     "title": "Flag delays early",
+     "text": "Early warnings let your manager plan. Surprises at the deadline damage trust.",
+     "bad": "Staying silent until the deadline passes.",
+     "good": "I'll need until Friday morning as the branch data came late. I can send a partial version Thursday."
+    },
+    {
+     "kind": "tip",
+     "icon": "book",
+     "title": "Ask good questions",
+     "text": "Try first, check the SOP or past emails, then ask with context. Batch non-urgent questions and note answers so you never ask twice.",
+     "example": "I've checked the SOP, but which branch code applies to merged branches?"
+    },
+    {
+     "kind": "tip",
+     "icon": "phone",
+     "title": "Respect group chats and how people are addressed",
+     "text": "Skip forwards and good-morning images in work groups unless clearly welcome. First names or \"sir\" and \"ma'am\"? Follow your team, and ask a peer if unsure."
+    },
+    {
+     "kind": "checklist",
+     "icon": "user",
+     "title": "Office manners check",
+     "text": "Small courtesies people notice.",
+     "items": [
+      "Calls short and quiet at your desk",
+      "Headphones for videos",
+      "Steer politely away from gossip",
+      "No client or internal details on social media"
+     ],
+     "tip": "Drinking at office parties is always optional. \"I'll have a juice\" is enough."
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Habits for your first months:"
+    }
+   ]
+  },
+  {
+   "id": "building-client-trust-and-credibility",
+   "title": "Building Trust and Credibility with Clients",
+   "track": "professional",
+   "minutes": 6,
+   "summary": "Earn lasting client trust through reliability, plain disclosure of fees and risks, suitable recommendations and consistent follow-through, in line with SEBI and AMFI conduct expectations.",
+   "sections": [
+    {
+     "heading": "Trust is built from small promises kept",
+     "body": "Clients rarely judge a distributor, adviser or relationship manager by a single brilliant recommendation. They judge by many small moments: did you call back when you said you would, send the statement you promised, and remember what they told you last time?\n\nMake fewer, more specific promises and keep all of them. \"I'll send you the comparison by Wednesday noon\" is better than \"I'll get back to you soon.\" Keep a simple follow-up tracker, in a CRM or even a spreadsheet, listing each commitment and its date.\n\nWhen you cannot keep a promise, inform the client before the deadline with a new time. Reliability in small things gives clients the confidence to trust you with bigger decisions.",
+     "do": [
+      "Give specific times for follow-ups",
+      "Log every commitment in a tracker"
+     ],
+     "dont": [
+      "Say \"soon\" or \"I'll see\" when you mean a date",
+      "Let a missed promise pass without a message"
+     ]
+    },
+    {
+     "heading": "Be transparent about fees, costs and risks",
+     "body": "Clients increasingly understand that financial products have costs. Tell them before they ask. Explain your role accurately, whether you are a mutual fund distributor earning commission, a SEBI-registered investment adviser charging a fee, or a bank relationship manager, and how you are paid. Explain the expense ratio, exit load and the difference between regular and direct plans where relevant.\n\nDescribe risk in plain language. Show the riskometer, explain that returns are not guaranteed, and give a realistic sense of how much a fund could fall in a bad year. Never use past returns as a promise, and never use words like \"guaranteed\" or \"safe as an FD\" for market-linked products.\n\nA client who hears about costs and risks from you, upfront, is far less likely to feel misled later.",
+     "do": [
+      "Disclose how you are paid before the client asks",
+      "Explain risk with a realistic bad-year example"
+     ],
+     "dont": [
+      "Call a market-linked product \"guaranteed\"",
+      "Present past returns as expected future returns"
+     ]
+    },
+    {
+     "heading": "Suitability first, even if you lose the sale",
+     "body": "Recommend only what fits the client's goals, time horizon, risk profile and existing holdings. Complete the risk profiling and KYC properly rather than as paperwork. If a client nearing retirement asks to move most of their savings into a small-cap fund after seeing a friend's gains, your job is to explain the mismatch clearly and document the conversation.\n\nAvoid churning a portfolio to earn fresh commissions, pushing every new fund offer, or selling an insurance plan as if it were an investment or a deposit. These practices are classic forms of mis-selling and are against the spirit of SEBI regulations and the AMFI code of conduct.\n\nSaying \"This isn't right for you\" may cost a transaction today, but it often wins a client for life, and their referrals."
+    },
+    {
+     "heading": "Communicate proactively, especially in bad times",
+     "body": "Clients remember who called them when markets fell. When there is a sharp correction, reach out before they call you. Explain what happened in simple terms, how it affects their portfolio, and whether anything in their plan needs to change. Often the advice is to stay the course; say so with reasons, not just reassurance.\n\nSet a regular review rhythm, such as every six months, and stick to it. Send short, clear summaries after meetings so the client has a record of what was discussed and agreed.\n\nUse language the client understands. Replace jargon with plain explanations: \"This fund invests in large, well-established companies; it usually moves less than the market's smaller companies.\""
+    },
+    {
+     "heading": "Credibility and ethical boundaries",
+     "body": "Credibility comes from knowing your subject and being honest about its limits. Keep your certifications current, read product documents yourself and, when a question goes beyond your role, such as detailed tax planning, say so and refer the client to a qualified professional.\n\nSome lines should never be crossed. Never accept client money in your personal account; investments should go directly to the fund house or platform. Never ask for or store a client's OTPs, passwords or signed blank forms. Never execute a transaction without the client's clear instruction. If a client offers such shortcuts out of trust, decline politely and explain that it protects them.\n\nThese boundaries protect clients, and they protect your reputation, which is the only real asset a financial professional has.",
+     "do": [
+      "Refer tax or legal questions to qualified professionals",
+      "Route all money directly to the fund house or platform"
+     ],
+     "dont": [
+      "Accept OTPs, passwords or signed blank forms",
+      "Transact without the client's clear instruction"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Make specific promises and keep every one.",
+    "Disclose your role, fees and costs before you are asked.",
+    "Explain risk honestly; never call market-linked products guaranteed.",
+    "Recommend only what suits the client, even if you lose the sale.",
+    "Call clients first when markets fall.",
+    "Never handle client money, OTPs or blank forms."
+   ],
+   "quiz": [
+    [
+     "A client asks how you earn money from the mutual funds you recommend. As a distributor, what is the best response?",
+     [
+      "Say the service is free for the client",
+      "Change the subject to the fund's strong returns over the past five years",
+      "Say plainly that the fund house pays you commission on regular plans",
+      "Say it varies and isn't important"
+     ],
+     2,
+     "Clear disclosure of how you are paid builds trust and is expected of distributors."
+    ],
+    [
+     "A prospect says, \"My friend got 40% last year in this fund. Will I get the same?\" What is the best answer?",
+     [
+      "Say yes, if they stay invested for a year",
+      "Say it will probably do even better this year",
+      "Avoid the question and talk about the tax benefits of the fund instead",
+      "Say past returns aren't guaranteed and discuss a realistic range"
+     ],
+     3,
+     "Past performance cannot be promised; setting realistic expectations prevents later disappointment."
+    ],
+    [
+     "A 58-year-old client wants to put most of her retirement savings into a small-cap fund. What should you do?",
+     [
+      "Explain the mismatch with her horizon and risk profile, and document it",
+      "Process the request; it is her money",
+      "Suggest an even riskier sectoral fund so that she can earn higher returns",
+      "Refuse to speak to her about it"
+     ],
+     0,
+     "Suitability comes first; you explain clearly and record the advice given."
+    ],
+    [
+     "A long-standing client, travelling abroad, offers to share his OTP so you can complete a redemption for him. What should you do?",
+     [
+      "Accept since he trusts you",
+      "Politely decline and help him do it himself via the app",
+      "Accept but delete the OTP afterwards",
+      "Ask him to send the OTP to your colleague instead, just this once"
+     ],
+     1,
+     "Never accept OTPs or passwords; it protects the client and your integrity."
+    ],
+    [
+     "Markets fell 12% in a month. When is the best time to contact your clients?",
+     [
+      "Only when they call you",
+      "After markets recover, to share good news",
+      "Proactively, before most of them call you",
+      "At the next scheduled annual review"
+     ],
+     2,
+     "Proactive communication in bad times builds the strongest trust."
+    ],
+    [
+     "Which practice is a clear form of mis-selling?",
+     [
+      "Reviewing a portfolio every six months",
+      "Explaining exit loads before investment",
+      "Recommending a fund that matches the client's risk profile and goals",
+      "Switching a client's funds often to earn fresh commission"
+     ],
+     3,
+     "Churning for commission puts your interest above the client's and is mis-selling."
+    ],
+    [
+     "A client asks a detailed question about tax on selling inherited property. What is best?",
+     [
+      "Share general points and refer them to a qualified tax professional",
+      "Give detailed advice to show expertise",
+      "Tell them tax is not your job and end there",
+      "Guess the answer for now and correct it later if it turns out to be wrong"
+     ],
+     0,
+     "Credibility includes knowing the limits of your role and pointing to the right expert."
+    ],
+    [
+     "Which follow-up promise builds the most trust?",
+     [
+      "\"I'll get back to you soon.\"",
+      "\"I'll send the comparison by Wednesday noon.\"",
+      "\"I'll see what I can do.\"",
+      "\"Let me check on this and revert to you sometime.\""
+     ],
+     1,
+     "Specific promises set clear expectations that you can visibly meet."
+    ],
+    [
+     "How should a client's investment payment be made?",
+     [
+      "Into your personal account for faster processing",
+      "In cash to you at the meeting",
+      "Directly to the fund house or platform, in the client's name",
+      "Through a colleague's account if the client finds that easier"
+     ],
+     2,
+     "Client money must go directly to the fund house or platform, never through you."
+    ],
+    [
+     "How should you describe an equity mutual fund's risk to a first-time investor?",
+     [
+      "Say it is as safe as a fixed deposit over the long term",
+      "Say risk only matters to short-term traders",
+      "Avoid discussing risk so they are not discouraged",
+      "Show the riskometer and a realistic bad-year fall"
+     ],
+     3,
+     "Plain, realistic risk explanations protect clients and your credibility."
+    ]
+   ],
+   "scenarios": [
+    {
+     "title": "The NFO push",
+     "situation": "Your firm is running a contest for a new thematic fund offer. A conservative client with a balanced portfolio asks whether he should invest a large part of his savings in it because \"it's new and the NAV is only ₹10.\"",
+     "options": [
+      {
+       "text": "Explain that a ₹10 NAV doesn't make it cheaper, that a thematic fund is concentrated and higher risk, and suggest at most a small portion if it fits his goals.",
+       "rating": "best",
+       "feedback": "You correct the misconception, explain risk honestly, and put suitability ahead of the contest."
+      },
+      {
+       "text": "Recommend he invest a large amount; the contest will help your targets.",
+       "rating": "poor",
+       "feedback": "Pushing a product for your incentives against the client's profile is mis-selling."
+      },
+      {
+       "text": "Tell him not to invest in any new fund offers ever.",
+       "rating": "good",
+       "feedback": "Steering him away protects him, but a blanket rule isn't accurate; explaining why this one may not fit is more useful."
+      }
+     ]
+    },
+    {
+     "title": "The missed callback",
+     "situation": "You promised a client you would call her by Tuesday evening about restarting her stopped SIPs. A branch audit took over your Tuesday and you only remembered on Wednesday morning.",
+     "options": [
+      {
+       "text": "Call her as soon as possible on Wednesday, apologise briefly for the delay, and give the information you promised.",
+       "rating": "best",
+       "feedback": "Owning the missed commitment quickly and delivering what you promised limits the damage to trust."
+      },
+      {
+       "text": "Wait for her to follow up, since she may not have noticed.",
+       "rating": "poor",
+       "feedback": "Clients usually notice, and silence turns a small lapse into a pattern."
+      },
+      {
+       "text": "Send a WhatsApp message saying you will call later this week.",
+       "rating": "good",
+       "feedback": "It acknowledges the delay, but pushing it back again without a specific time weakens your reliability."
+      },
+      {
+       "text": "Ask a colleague to call her without explaining what happened.",
+       "rating": "poor",
+       "feedback": "The client loses continuity and may be confused about who is handling her account."
+      }
+     ]
+    },
+    {
+     "title": "The fee question",
+     "situation": "A new client, a young IT professional, says, \"I read online that direct plans are cheaper. Why should I invest through you?\" You are an AMFI-registered mutual fund distributor.",
+     "options": [
+      {
+       "text": "Say direct plans are risky and should be avoided.",
+       "rating": "poor",
+       "feedback": "This is inaccurate; direct plans are not riskier, and the claim damages your credibility."
+      },
+      {
+       "text": "Say, \"You're right, direct plans have a lower expense ratio. Through me you get help with goal planning, fund selection, paperwork and regular reviews; you can decide whether that is worth the difference.\"",
+       "rating": "best",
+       "feedback": "You confirm the fact, explain your value honestly, and leave the decision with the client."
+      },
+      {
+       "text": "Explain that you provide reviews and help, without mentioning the cost difference.",
+       "rating": "good",
+       "feedback": "Your service is real value, but avoiding the cost question can feel evasive."
+      },
+      {
+       "text": "Offer to share part of your commission with him if he invests through you.",
+       "rating": "poor",
+       "feedback": "Rebating commission is not permitted for distributors and creates the wrong basis for the relationship."
+      }
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "kind": "intro",
+     "icon": "shield",
+     "title": "Earn trust that lasts",
+     "text": "Clients judge you by many small moments, not one great recommendation. Reliability, honest disclosure and suitability build trust that lasts for years."
+    },
+    {
+     "kind": "compare",
+     "icon": "clock",
+     "title": "Make specific promises",
+     "text": "Fewer, clearer promises, all kept. Log each one in a CRM or spreadsheet. If you'll miss one, say so before the deadline.",
+     "bad": "I'll get back to you soon.",
+     "good": "I'll send the comparison by Wednesday noon."
+    },
+    {
+     "kind": "compare",
+     "icon": "info",
+     "title": "Disclose fees before they ask",
+     "text": "Explain your role and how you are paid, plus expense ratio, exit load and regular versus direct plans.",
+     "bad": "Changing the subject when a client asks how you earn.",
+     "good": "As a distributor, I earn commission from the fund house on regular plans."
+    },
+    {
+     "kind": "compare",
+     "icon": "chart",
+     "title": "Be honest about risk",
+     "text": "Show the riskometer and a realistic bad-year fall. Past returns are not a promise.",
+     "bad": "It's as safe as an FD over the long term.",
+     "good": "Returns aren't guaranteed. In a bad year, this fund could fall sharply."
+    },
+    {
+     "kind": "tip",
+     "icon": "target",
+     "title": "Suitability over the sale",
+     "text": "Recommend only what fits goals, horizon and risk profile. Avoid churning, pushing every NFO, or selling insurance as a deposit. Saying \"This isn't right for you\" often wins a client for life."
+    },
+    {
+     "kind": "tip",
+     "icon": "phone",
+     "title": "Call first when markets fall",
+     "text": "Reach out before clients call you. Explain what happened, how it affects them, and whether the plan should change. Hold regular reviews and send a short summary after each meeting."
+    },
+    {
+     "kind": "checklist",
+     "icon": "shield",
+     "title": "Lines you never cross",
+     "text": "These protect the client and your reputation.",
+     "items": [
+      "No client money in your personal account",
+      "No OTPs, passwords or signed blank forms",
+      "No transaction without clear client instruction",
+      "Refer tax or legal questions to qualified professionals"
+     ]
+    },
+    {
+     "kind": "recap",
+     "icon": "trophy",
+     "title": "You've got it!",
+     "text": "Trust habits for every client:"
+    }
+   ]
+  }
+ ]
+}

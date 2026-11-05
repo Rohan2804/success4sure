@@ -80,7 +80,7 @@ def reviewers_for(x):
     return [r for r in SITE.get('reviewers', []) if r.get('name') and ('*' in r.get('exams', []) or x['id'] in r.get('exams', []))]
 
 # ---------- page shell ----------
-NAV = [('/exams/', 'All Exams')] + [(group_url(g), 'MBA' if g['id'] == 'MBA' else g['label']) for g in GROUPS if g['id'] != 'Insurance & Finance'] + [('/study-material/', 'Study Material')]
+NAV = [('/exams/', 'All Exams')] + [(group_url(g), 'MBA' if g['id'] == 'MBA' else g['label']) for g in GROUPS if g['id'] != 'Insurance & Finance'] + [('/soft-skills/', 'Soft Skills'), ('/study-material/', 'Study Material')]
 
 def org_ld():
     o = {'@type': 'Organization', '@id': BASE + '/#org', 'name': SITE['name'], 'url': BASE + '/'}
@@ -156,6 +156,7 @@ def footer():
         <a href="/about/">About us</a>
         <a href="/how-we-create-questions/">How we create questions</a>
         <a href="/contact/">Contact</a>
+        <a href="/soft-skills/">Soft skills courses</a>
         <a href="/study-material/">Free study material</a>
         <a href="/privacy-policy/">Privacy policy</a>
         <a href="/terms/">Terms of use</a>
@@ -459,6 +460,113 @@ def not_found_page():
     <div class="wrap page prose"><h2>Popular sections</h2><ul>{groups}<li><a href="/study-material/">Free study material</a></li></ul></div>'''
     return page('/404', f"Page not found | {SITE['name']}", 'This page could not be found.', body, noindex=True)
 
+# ---------- soft skills ----------
+SKILL_META = [
+    {'slug': 'communication', 'name': 'Communication Skills', 'icon': 'mail', 'color': '#2457f5',
+     'blurb': 'Speak clearly, listen well, write emails that get replies and explain things simply.'},
+    {'slug': 'interview-career', 'name': 'Interview & Career Skills', 'icon': 'user', 'color': '#7a5af8',
+     'blurb': 'Answer interview questions with confidence, shine in group discussions and present yourself well.'},
+    {'slug': 'personality', 'name': 'Personality Development', 'icon': 'sparkle', 'color': '#0ea5e9',
+     'blurb': 'Build real confidence, body language, professional presence and resilience.'},
+    {'slug': 'workplace', 'name': 'Workplace Effectiveness', 'icon': 'briefcase', 'color': '#00a87e',
+     'blurb': 'Manage time, work in teams, handle conflict and feedback, and present your ideas.'},
+]
+TRACK_LABEL = {'core': 'Everyone', 'fresher': 'Freshers', 'professional': 'Finance professionals'}
+
+def load_skills():
+    out = []
+    for m in SKILL_META:
+        p = os.path.join(ROOT, 'content', 'softskills', m['slug'] + '.json')
+        if not os.path.exists(p):
+            warnings.append(f"soft skills: content/softskills/{m['slug']}.json not written yet — area skipped")
+            continue
+        d = json.load(open(p, encoding='utf-8'))
+        for l in d['lessons']:
+            l['quiz'] = [[q[0], q[1], q[2], q[-1]] for q in l['quiz']]  # explanation is always the last field
+        out.append({**m, 'id': 'ss-' + m['slug'], 'lessons': d['lessons']})
+    return out
+
+SKILLS = load_skills()
+def skill_url(a, l=None): return f"/soft-skills/{a['slug']}/" + (f"{l['id']}/" if l else '')
+
+def skill_section_html(s):
+    paras = ''.join(f'<p>{e(p)}</p>' for p in str(s['body']).split('\n\n') if p.strip())
+    lists = ''
+    if s.get('do') or s.get('dont'):
+        lists = '<div class="dodont">' + (('<div class="do"><b>Do</b><ul>' + ''.join(f'<li>{e(x)}</li>' for x in s['do']) + '</ul></div>') if s.get('do') else '') \
+            + (('<div class="dont"><b>Don\'t</b><ul>' + ''.join(f'<li>{e(x)}</li>' for x in s['dont']) + '</ul></div>') if s.get('dont') else '') + '</div>'
+    return f'<section class="lesson-sec"><h2>{e(s["heading"])}</h2>{paras}{lists}</section>'
+
+def skills_hub_page():
+    crumbs = [('Home', '/'), ('Soft skills', '/soft-skills/')]
+    title = f"Soft Skills Courses – Communication, Interview & Personality | {SITE['name']}"
+    desc = "Practical soft-skills lessons with quizzes and workplace scenarios: communication, interview skills, personality development and workplace effectiveness, for freshers and finance professionals."
+    cards = ''.join(f'''<div class="card"><h2 style="font-size:1.25rem"><a href="{skill_url(a)}">{e(a['name'])}</a></h2><p class="muted">{e(a['blurb'])}</p>
+      <ul>{''.join(f'<li><a href="{skill_url(a, l)}">{e(l["title"])}</a> <span class="small muted">· {TRACK_LABEL[l["track"]]}{" · free" if i == 0 else ""}</span></li>' for i, l in enumerate(a['lessons']))}</ul></div>''' for a in SKILLS)
+    body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}<h1>Soft skills for your career</h1>
+      <p class="lead-left">Short, practical lessons with a quiz and real workplace scenarios after each one — for freshers starting their first job and finance professionals working with clients. The first lesson in every course is free.</p>
+      <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team</p>
+      <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/skills">Start learning</a></div></div></section>
+    <div class="wrap page prose"><div class="stack">{cards}</div>
+      <section style="margin-top:40px"><h2>How the courses work</h2><p>Each course has six lessons: four core lessons for everyone, one for freshers and one for finance professionals such as mutual fund distributors, advisers and relationship managers. Every lesson takes 5–8 minutes to read and ends with a 10-question quiz and three scenarios where you choose what you would say and see why it works. Plans are per course: 10, 15, 20 or 30 days of full access, from ₹{PLANS[0]['price']}.</p></section>
+    </div>'''
+    ld = [breadcrumb_ld(crumbs), {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'url': BASE + skill_url(a), 'name': a['name']} for i, a in enumerate(SKILLS)]}]
+    return page('/soft-skills/', title, desc, body, ld, active='/soft-skills/')
+
+def skill_area_page(a):
+    crumbs = [('Home', '/'), ('Soft skills', '/soft-skills/'), (a['name'], skill_url(a))]
+    n = len(a['lessons'])
+    title = f"{a['name']} Course – {n} Lessons with Quizzes | {SITE['name']}"
+    desc = f"{a['blurb']} {n} practical lessons, {n * 10} quiz questions and {n * 3} workplace scenarios. First lesson free; plans from ₹{PLANS[0]['price']}."
+    rows = ''.join(f"<tr><td><a href=\"{skill_url(a, l)}\"><b>{e(l['title'])}</b></a><div class=\"small muted\">{e(l['summary'])}</div></td><td>{TRACK_LABEL[l['track']]}</td><td>{l['minutes']} min</td><td>{'Free' if i == 0 else 'Plan'}</td></tr>" for i, l in enumerate(a['lessons']))
+    faqs = [
+        (f"Who is the {a['name']} course for?", "Freshers preparing for or starting their first job, and finance professionals such as mutual fund distributors, investment advisers and relationship managers. Core lessons suit everyone; one lesson is written for each of the two groups."),
+        ("What do I get with a plan?", f"Full access to all {n} lessons, {n * 10} quiz questions with explanations and {n * 3} practice scenarios for the length of your plan: " + ', '.join(f"{p['label']} ₹{p['price']}" for p in PLANS) + ". Prices include GST."),
+        ("Can I try it first?", f"Yes. The first lesson, “{a['lessons'][0]['title']}”, is free with its quiz and scenarios."),
+    ]
+    body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}<h1>{e(a['name'])}</h1><p class="lead-left">{e(a['blurb'])}</p>
+      <p class="meta-row small muted">Last updated {DATE_HUMAN} · <a href="/how-we-create-questions/">Our editorial process</a></p>
+      <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/skills/{a['slug']}">See plans &amp; start</a><a class="btn btn-lg" href="{skill_url(a, a['lessons'][0])}">Read lesson 1 free</a></div></div></section>
+    <div class="wrap page prose">
+      <section><h2>Lessons in this course</h2><div class="table-wrap"><table><tr><th>Lesson</th><th>For</th><th>Read</th><th>Access</th></tr>{rows}</table></div></section>
+      <section><h2>FAQs</h2>{''.join(f'<details class="faq-item"><summary>{e(q)}</summary><p>{e(x)}</p></details>' for q, x in faqs)}</section>
+    </div>'''
+    course = {'@type': 'Course', 'name': a['name'], 'description': a['blurb'], 'provider': {'@id': BASE + '/#org'}, 'inLanguage': 'en-IN', 'url': BASE + skill_url(a),
+              'offers': {'@type': 'AggregateOffer', 'priceCurrency': 'INR', 'lowPrice': PLANS[0]['price'], 'highPrice': PLANS[-1]['price'], 'offerCount': len(PLANS), 'category': 'Paid'},
+              'hasCourseInstance': {'@type': 'CourseInstance', 'courseMode': 'Online'}, 'dateModified': TODAY.isoformat()}
+    ld = [breadcrumb_ld(crumbs), course, {'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': x}} for q, x in faqs]}]
+    return page(skill_url(a), title, desc, body, ld, active='/soft-skills/')
+
+def skill_lesson_page(a, i, l):
+    free = i == 0
+    crumbs = [('Home', '/'), ('Soft skills', '/soft-skills/'), (a['name'], skill_url(a)), (l['title'], skill_url(a, l))]
+    title = f"{l['title']} | {SITE['name']}"
+    if len(title) > 68: title = l['title'][:66]
+    desc = l['summary'][:155]
+    if free:
+        content = ''.join(skill_section_html(s) for s in l['sections']) + '<section class="lesson-sec takeaways"><h2>Key takeaways</h2><ul>' + ''.join(f'<li>{e(t)}</li>' for t in l['takeaways']) + '</ul></section>'
+        cta = f'<div class="card"><h3>Practise this lesson</h3><p class="muted">Take the free 10-question quiz and three workplace scenarios for this lesson.</p><a class="btn btn-primary" href="/#/skills/{a["slug"]}/{l["id"]}/quiz">Take the quiz</a></div>'
+    else:
+        content = skill_section_html(l['sections'][0]) + '<section class="lesson-sec"><h2>In the full lesson</h2><ul>' + ''.join(f'<li>{e(s["heading"])}</li>' for s in l['sections'][1:]) + '</ul></section>' \
+            + '<section class="lesson-sec takeaways"><h2>Key takeaways</h2><ul>' + ''.join(f'<li>{e(t)}</li>' for t in l['takeaways']) + '</ul></section>'
+        cta = f'<div class="card paywall"><h3>Read the full lesson</h3><p class="muted">Unlock every lesson in {e(a["name"])} with its quiz and practice scenarios, from ₹{PLANS[0]["price"]}.</p><div class="row" style="justify-content:center"><a class="btn btn-primary" href="/#/skills/{a["slug"]}">See plans</a><a class="btn" href="{skill_url(a, a["lessons"][0])}">Read lesson 1 free</a></div></div>'
+    q = l['quiz'][0]
+    sample = f'''<section class="lesson-sec"><h2>Quick check</h2><div class="sample"><p class="sample-q">{e(q[0])}</p><ol class="sample-opts" type="A">{''.join(f'<li>{e(o)}</li>' for o in q[1])}</ol>
+      <details><summary>Show answer &amp; explanation</summary><p><b>Answer: {"ABCD"[q[2]]}. {e(q[1][q[2]])}</b></p><p>{e(q[3])}</p></details></div></section>'''
+    others = ''.join(f'<li><a href="{skill_url(a, x)}">{e(x["title"])}</a></li>' for x in a['lessons'] if x['id'] != l['id'])
+    body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}
+      <div class="hero-series">{e(a['name'])} · Lesson {i + 1} of {len(a['lessons'])} · {l['minutes']} min read · {TRACK_LABEL[l['track']]}{' · Free' if free else ''}</div>
+      <h1 style="margin-top:6px">{e(l['title'])}</h1><p class="lead-left">{e(l['summary'])}</p>
+      <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team</p></div></section>
+    <div class="wrap page prose lesson">{content}{sample}{cta}
+      <section class="lesson-sec" style="margin-top:32px"><h2>More in {e(a['name'])}</h2><ul class="related">{others}</ul></section></div>'''
+    art = {'@type': 'Article', 'headline': l['title'], 'description': l['summary'], 'inLanguage': 'en-IN', 'url': BASE + skill_url(a, l),
+           'author': {'@id': BASE + '/#org'}, 'publisher': {'@id': BASE + '/#org'}, 'dateModified': TODAY.isoformat(),
+           'isAccessibleForFree': free, 'isPartOf': {'@type': 'Course', 'name': a['name'], 'url': BASE + skill_url(a)}}
+    if not free:
+        art['hasPart'] = {'@type': 'WebPageElement', 'isAccessibleForFree': False, 'cssSelector': '.paywall'}
+    return page(skill_url(a, l), title, desc, body, [breadcrumb_ld(crumbs), art], active='/soft-skills/')
+
 # ---------- home (SPA shell gets SEO head + crawlable fallback) ----------
 def home_seo():
     title = f"{SITE['name']} – NISM, Banking, SSC & CAT Mock Tests"
@@ -502,6 +610,14 @@ def main():
         wr(path.strip('/') + '/index.html', fn()); pages.append((path, True))
 
     wr('404.html', not_found_page())
+    if SKILLS:
+        wr('soft-skills/index.html', skills_hub_page()); pages.append(('/soft-skills/', True))
+        for a in SKILLS:
+            wr(skill_url(a).strip('/') + '/index.html', skill_area_page(a)); pages.append((skill_url(a), True))
+            for i, l in enumerate(a['lessons']):
+                wr(skill_url(a, l).strip('/') + '/index.html', skill_lesson_page(a, i, l)); pages.append((skill_url(a, l), True))
+    wr('js/data/softskills.js', '// Generated by tools/build_site.py from content/softskills/*.json — edit the JSON, then rebuild.\n'
+       + f'window.SKILL_AREAS = {json.dumps(SKILLS, ensure_ascii=False)};\n')
 
     # app data
     app_exams = [{k: v for k, v in x.items() if k not in ('page', 'noindex')} | {'slug': x['slug']} for x in EXAMS]
@@ -524,7 +640,8 @@ def main():
        + ''.join(f'  <url><loc>{BASE}{u}</loc><lastmod>{TODAY.isoformat()}</lastmod></url>\n' for u in urls) + '</urlset>\n')
     wr('robots.txt', f'User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n')
 
-    print(f'Sitemap: {len(urls)} URLs  (home 1, exam hub 1, categories {len(GROUPS)}, exams {len(INDEXABLE)}, study material 1, trust pages 7)')
+    ss = (1 + len(SKILLS) + sum(len(a['lessons']) for a in SKILLS)) if SKILLS else 0
+    print(f'Sitemap: {len(urls)} URLs  (home 1, exam hub 1, categories {len(GROUPS)}, exams {len(INDEXABLE)}, study material 1, trust pages 7, soft skills {ss})')
     print(f'Not in sitemap (noindex): {", ".join(code(x) for x in EXAMS if x.get("noindex"))}')
     for w in warnings: print('WARN', w)
 

@@ -77,6 +77,7 @@
     'SSC': { icon: 'flag', color: '#0ea5e9' },
     'MBA': { icon: 'trophy', color: '#7a5af8' },
     'Insurance & Finance': { icon: 'shield', color: '#00a87e' },
+    'Soft Skills': { icon: 'sparkle', color: '#7a5af8' },
   };
   const GROUP_ICON = { 'NISM': 'chart', 'Banking': 'bank', 'SSC': 'flag', 'MBA': 'trophy', 'Insurance & Finance': 'shield' };
 
@@ -234,6 +235,7 @@
         ${link('#/', 'Home', '', 'nav-home')}
         ${link('#/exams', 'All Exams', 'exams')}
         ${window.GROUPS.filter((g) => g.id !== 'Insurance & Finance').map((g) => `<a class="nav-cat" href="#/exams?g=${encodeURIComponent(g.id)}">${esc(g.id === 'MBA' ? 'MBA' : g.label)}</a>`).join('')}
+        ${link('#/skills', 'Soft Skills', 'skills', 'nav-skills')}
         ${link('#/study-material', 'Study Material', 'study-material', 'nav-study')}
       </div>
       <form class="nav-search" id="nav-search" role="search">
@@ -281,6 +283,11 @@
       test: () => viewTest(parts[1], params.get('demo') === '1', Number(parts[2]) || 0),
       result: () => viewResult(parts[1]),
       admin: viewAdmin,
+      skills: () => (!parts[1] ? viewSkills() : !parts[2] ? viewSkillArea(parts[1])
+        : parts[3] === 'quiz' ? viewSkillQuiz(parts[1], parts[2])
+        : parts[3] === 'scenario' ? viewScenario(parts[1], parts[2], Number(parts[4]) || 0)
+        : viewLesson(parts[1], parts[2], params.get('view'))),
+      coach: viewCoach,
     };
     (views[view] || viewNotFound)();
     enhance();
@@ -392,6 +399,16 @@
         <div class="grid" id="home-grid"></div>
         <div class="center reveal" style="margin-top:32px"><a class="btn btn-lg" href="#/exams">View all ${N} exams ${arrow()}</a></div>
       </section>
+
+      ${(window.SKILL_AREAS || []).length ? `<section class="section wrap" style="padding-top:0">
+        <div class="section-head reveal">
+          <span class="badge" style="align-self:flex-start">New</span>
+          <h2 style="margin-top:10px">Soft skills for your career</h2>
+          <p>Lessons, quizzes and real workplace scenarios for communication, interviews, personality and workplace skills — for freshers and finance professionals.</p>
+        </div>
+        <div class="grid">${window.SKILL_AREAS.map((x, i) => skillCard(x, i)).join('')}</div>
+        <div class="center reveal" style="margin-top:24px"><a class="btn btn-lg" href="#/skills">Explore soft skills ${arrow()}</a></div>
+      </section>` : ''}
 
       <section class="section section-alt">
         <div class="wrap">
@@ -842,16 +859,18 @@
 
   // ---------- checkout ----------
   function viewCheckout(examId, days) {
-    const e = examById(examId);
+    const e = productById(examId);
+    const isSkill = !!(e && skillById(examId));
     const plan = window.PLANS.find((p) => p.days === days);
     if (!e || !plan) return viewNotFound();
     if (!requireLogin()) return;
     const u = currentUser();
-    const c = CAT[e.category];
+    const c = isSkill ? { icon: e.icon, color: e.color } : CAT[e.category];
+    const back = isSkill ? skillUrl(e) : '#/exam/' + e.id;
     const existing = activeSub(u.id, e.id);
     if (existing && plan.tests <= testsIn(existing)) {
-      toast(`You already have ${testsIn(existing)} mock tests — pick a bigger plan to upgrade`);
-      location.hash = '#/exam/' + e.id;
+      toast(isSkill ? 'You already have this plan or a longer one — pick a longer plan to extend' : `You already have ${testsIn(existing)} mock tests — pick a bigger plan to upgrade`);
+      location.hash = back;
       return;
     }
     const base = plan.price / 1.18;
@@ -860,20 +879,21 @@
     const end = start + plan.days * DAY;
     app.innerHTML = `
       <div class="wrap page">
-        <a class="small" href="#/exam/${e.id}">${icon('back', 16)} Back to exam</a>
+        <a class="small" href="${back}">${icon('back', 16)} Back to ${isSkill ? 'lessons' : 'exam'}</a>
         <h1 style="font-size:2rem;margin-top:12px">Checkout</h1>
         <div class="checkout">
           <div class="card reveal">
             <div class="row" style="flex-wrap:nowrap">
               <span class="ec-icon" style="--c:${c.color};display:grid;place-items:center;width:52px;height:52px;border-radius:16px;color:${c.color};background:color-mix(in srgb, ${c.color} 12%, transparent)">${icon(c.icon, 24)}</span>
-              <div><div class="small muted"><b>${esc(examCode(e))}</b></div><h3 style="margin:2px 0 0">${esc(e.name)}</h3></div>
+              <div><div class="small muted"><b>${esc(isSkill ? 'Soft skills' : examCode(e))}</b></div><h3 style="margin:2px 0 0">${esc(e.name)}</h3></div>
             </div>
             <div style="margin-top:20px">
               <div class="summary-row"><span>Plan</span><b>${esc(plan.label)}</b></div>
-              <div class="summary-row"><span>Mock tests</span><b>${plan.tests} tests × ${e.pattern.questions} questions</b></div>
-              <div class="summary-row"><span>Total questions</span><b>${num(plan.tests * e.pattern.questions)}</b></div>
+              ${isSkill ? `<div class="summary-row"><span>Includes</span><b>${e.lessons.length} lessons, ${e.lessons.length * 10} quiz questions, ${scenarioCount(e)} scenarios</b></div>`
+                : `<div class="summary-row"><span>Mock tests</span><b>${plan.tests} tests × ${e.pattern.questions} questions</b></div>
+              <div class="summary-row"><span>Total questions</span><b>${num(plan.tests * e.pattern.questions)}</b></div>`}
               <div class="summary-row"><span>Access</span><b>${fmtDate(start)} → ${fmtDate(end)}</b></div>
-              ${existing ? `<div class="notice ok small" style="margin-top:8px">${icon('check', 16)}<span>Upgrade: this replaces your current ${testsIn(existing)}-test plan and starts today. Your past results are kept.</span></div>` : ''}
+              ${existing ? `<div class="notice ok small" style="margin-top:8px">${icon('check', 16)}<span>${isSkill ? 'This replaces your current plan and starts today. Your progress is kept.' : `Upgrade: this replaces your current ${testsIn(existing)}-test plan and starts today. Your past results are kept.`}</span></div>` : ''}
             </div>
           </div>
           <div class="card reveal" style="--d:.1s">
@@ -896,9 +916,9 @@
         const s = { id: uid(), userId: u.id, examId: e.id, days: plan.days, tests: plan.tests, label: plan.label, price: plan.price, start, end, paymentRef: 'DEMO-' + uid().toUpperCase(), created: now };
         const all = subs().map((x) => (existing && x.id === existing.id ? { ...x, end: now, upgradedTo: s.id } : x));
         store.set('subs', [...all, s]);
-        toast(existing ? `Upgraded — ${plan.tests} mock tests unlocked` : `Payment successful — ${plan.tests} mock tests unlocked`);
+        toast(isSkill ? `Payment successful — ${e.name} unlocked for ${plan.days} days` : existing ? `Upgraded — ${plan.tests} mock tests unlocked` : `Payment successful — ${plan.tests} mock tests unlocked`);
         confetti();
-        location.hash = '#/exam/' + e.id;
+        location.hash = back;
       }, 700);
     });
   }
@@ -943,6 +963,16 @@
         <section style="margin-top:40px">
           <div class="row" style="margin-bottom:18px"><h2 style="margin:0;font-size:1.5rem">My subscriptions</h2></div>
           ${latest.length ? `<div class="grid">${latest.map((s, i) => {
+            if (skillById(s.examId)) {
+              const a = skillById(s.examId), active = s.end > now, left = Math.ceil((s.end - now) / DAY), d = areaDone(a);
+              return `<div class="exam-card sub-card reveal" style="--c:${a.color};--d:${i * 0.05}s">
+                <div class="ec-top"><span class="ec-icon">${icon(a.icon, 24)}</span>${active ? `<span class="badge">${left} day${left === 1 ? '' : 's'} left</span>` : '<span class="badge badge-danger">Expired</span>'}</div>
+                <span class="series">Soft skills</span><h3>${esc(a.name)}</h3>
+                <div class="meter"><span style="width:${(d / a.lessons.length) * 100}%"></span></div>
+                <span class="small muted">${d} of ${a.lessons.length} lessons read · ${active ? 'valid until' : 'expired on'} ${fmtDate(s.end)}</span>
+                <div style="margin-top:auto;padding-top:14px"><a class="btn ${active ? 'btn-primary' : ''} btn-block" href="${skillUrl(a)}">${active ? 'Continue learning' : 'Renew'}</a></div>
+              </div>`;
+            }
             const e = examById(s.examId);
             const c = CAT[e.category];
             const active = s.end > now;
@@ -1301,6 +1331,460 @@
     if (r.passed && sessionStorageSafeTake('s4s_celebrate') === a.id) setTimeout(confetti, 500);
   }
 
+  // ---------- soft skills ----------
+  const SKILLS = window.SKILL_AREAS || [];
+  const skillBySlug = (slug) => SKILLS.find((a) => a.slug === slug);
+  const skillById = (id) => SKILLS.find((a) => a.id === id);
+  const productById = (id) => examById(id) || skillById(id);
+  const TRACK_LABEL = { core: 'Everyone', fresher: 'Freshers', professional: 'Finance professionals' };
+  const progressKey = () => (currentUser() ? currentUser().id : 'guest');
+  function lessonProgress(area, lessonId) {
+    return (store.get('skill_progress', {})[progressKey()] || {})[area.slug + '/' + lessonId] || {};
+  }
+  function saveLessonProgress(area, lessonId, patch) {
+    const all = store.get('skill_progress', {});
+    const mine = all[progressKey()] || (all[progressKey()] = {});
+    const key = area.slug + '/' + lessonId;
+    mine[key] = { ...(mine[key] || {}), ...patch };
+    store.set('skill_progress', all);
+  }
+  const skillAccess = (area) => { const u = currentUser(); return !!(u && activeSub(u.id, area.id)); };
+  const lessonFree = (i) => i === 0;
+  const canOpenLesson = (area, i) => lessonFree(i) || skillAccess(area);
+  const areaDone = (area) => area.lessons.filter((l) => lessonProgress(area, l.id).read).length;
+  const scenarioCount = (area) => area.lessons.reduce((s, l) => s + l.scenarios.length, 0);
+  const skillUrl = (a, ...rest) => '#/skills/' + [a.slug, ...rest].join('/');
+
+  function skillCard(a, i = 0) {
+    const n = a.lessons.length, done = areaDone(a);
+    return `<a class="exam-card reveal" style="--c:${a.color};--d:${Math.min(i, 8) * 0.05}s" href="${skillUrl(a)}">
+      <div class="ec-top"><span class="ec-icon">${icon(a.icon, 24)}</span>${skillAccess(a) ? '<span class="badge badge-success">Unlocked</span>' : '<span class="badge">First lesson free</span>'}</div>
+      <span class="series">Soft skills</span>
+      <h3>${esc(a.name)}</h3>
+      <p class="small muted" style="margin:2px 0 0">${esc(a.blurb)}</p>
+      <div class="ec-meta"><span>${icon('book', 14)} ${n} lessons</span><span>${icon('target', 14)} ${n * 10} quiz Qs</span><span>${icon('flag', 14)} ${scenarioCount(a)} scenarios</span></div>
+      ${done ? `<div class="meter"><span style="width:${(done / n) * 100}%"></span></div>` : ''}
+      <div class="ec-foot"><span>from <b>${inr(window.PLANS[0].price)}</b></span><span class="ec-arrow">${arrow(16)}</span></div>
+    </a>`;
+  }
+
+  function viewSkills() {
+    app.innerHTML = `
+      <section class="page-hero"><div class="wrap">
+        <span class="badge">New</span>
+        <h1 style="margin-top:10px">Soft skills for your career</h1>
+        <p>Short lessons, quizzes and real workplace scenarios to improve how you communicate, interview, present yourself and work with others — with tracks for freshers and finance professionals.</p>
+      </div></section>
+      <div class="wrap page" style="padding-top:0">
+        ${SKILLS.length ? `<div class="grid">${SKILLS.map(skillCard).join('')}</div>` : '<div class="card muted">Lessons are being prepared.</div>'}
+        <section style="margin-top:56px">
+          <h2 style="font-size:1.5rem">How it works</h2>
+          <div class="steps">
+            <div class="step reveal"><div class="step-num">${icon('book', 22)}<em>1</em></div><h3>Read a short lesson</h3><p>5–8 minute lessons with examples, sample phrases and do's and don'ts.</p></div>
+            <div class="step reveal" style="--d:.1s"><div class="step-num">${icon('target', 22)}<em>2</em></div><h3>Check yourself</h3><p>A 10-question quiz after every lesson, with an explanation for each answer.</p></div>
+            <div class="step reveal" style="--d:.2s"><div class="step-num">${icon('flag', 22)}<em>3</em></div><h3>Practise real situations</h3><p>Choose what you'd say in realistic workplace scenarios and see why it works — or doesn't.</p></div>
+          </div>
+        </section>
+        <section style="margin-top:48px">
+          <div class="card coach-teaser reveal">
+            <span class="stat-ico" style="background:var(--brand-50);color:var(--brand)">${icon('sparkle', 22)}</span>
+            <div style="flex:1;min-width:220px"><div class="row" style="gap:8px"><h3 style="margin:0">AI Coach</h3><span class="badge badge-warn">Coming soon</span></div>
+              <p class="small muted" style="margin:6px 0 0">Type your answer to "Tell me about yourself", a client email or an objection, and get personal feedback with an improved version.</p></div>
+            <a class="btn" href="#/coach">See how it works ${arrow(16)}</a>
+          </div>
+        </section>
+      </div>`;
+  }
+
+  function viewSkillArea(slug) {
+    const a = skillBySlug(slug);
+    if (!a) return viewNotFound();
+    const u = currentUser();
+    const sub = u && activeSub(u.id, a.id);
+    const offer = window.PLANS.filter((pl) => pl.days > (sub ? sub.days : 0));
+    let selected = (offer.find((pl) => pl.tag === 'Popular') || offer[0] || {}).days;
+    let track = 'all';
+    const nextIdx = a.lessons.findIndex((l) => !lessonProgress(a, l.id).read);
+    app.innerHTML = `
+      <section class="page-hero"><div class="wrap">
+        <a class="crumb" href="#/skills">${icon('back', 16)} Soft skills</a>
+        <div class="exam-hero-top">
+          <span class="big-ico" style="background:color-mix(in srgb, ${a.color} 12%, transparent);color:${a.color}">${icon(a.icon, 30)}</span>
+          <div><div class="hero-series">Soft skills · ${a.lessons.length} lessons · ${a.lessons.length * 10} quiz questions · ${scenarioCount(a)} scenarios</div><h1 style="margin:6px 0 0">${esc(a.name)}</h1></div>
+        </div>
+        <p style="margin-top:14px">${esc(a.blurb)}</p>
+      </div></section>
+      <div class="wrap page" style="padding-top:0">
+        <div class="detail">
+          <div class="stack">
+            <div class="card">
+              <div class="row"><h3 style="margin:0">Lessons</h3><span class="spacer"></span><span class="small muted">${areaDone(a)} of ${a.lessons.length} read</span></div>
+              <div class="tabs" id="track-tabs" style="margin-top:12px">${['all', 'core', 'fresher', 'professional'].map((t) => `<button class="tab ${t === 'all' ? 'active' : ''}" data-t="${t}">${t === 'all' ? 'All lessons' : TRACK_LABEL[t]}</button>`).join('')}</div>
+              <div id="lesson-list"></div>
+            </div>
+          </div>
+          <div class="stack sticky">
+            ${sub ? `
+              <div class="card access-card">
+                <span class="badge badge-success">${icon('check', 12)} ${esc(sub.label || sub.days + ' Days')} plan active</span>
+                <h3 style="margin-top:12px">Full access unlocked</h3>
+                <div class="meter"><span style="width:${(areaDone(a) / a.lessons.length) * 100}%"></span></div>
+                <div class="small muted" style="margin-bottom:16px">${Math.ceil((sub.end - Date.now()) / DAY)} days left · until ${fmtDate(sub.end)}</div>
+                <a class="btn btn-primary btn-lg btn-block" href="${skillUrl(a, a.lessons[nextIdx < 0 ? 0 : nextIdx].id)}">${icon('book', 18)} ${nextIdx < 0 ? 'Review lessons' : areaDone(a) ? 'Continue learning' : 'Start learning'}</a>
+              </div>` : ''}
+            ${offer.length ? `
+              <div class="card">
+                <h3>${sub ? 'Extend your access' : 'Unlock all lessons'}</h3>
+                <p class="small muted" style="margin:0 0 14px">Every plan unlocks all ${a.lessons.length} lessons, ${a.lessons.length * 10} quiz questions and ${scenarioCount(a)} scenarios in ${esc(a.name)}.</p>
+                <div id="plans">
+                  ${offer.map((pl) => `
+                    <label class="plan-opt ${pl.days === selected ? 'selected' : ''}">
+                      <input type="radio" name="plan" value="${pl.days}" ${pl.days === selected ? 'checked' : ''}>
+                      <span class="radio"></span>
+                      <div><b>${esc(pl.label)}</b> ${pl.tag ? `<span class="badge">${esc(pl.tag)}</span>` : ''}<div class="small muted">${pl.days} days of full access</div></div>
+                      <div class="p-price">${inr(pl.price)}<small>incl. GST</small></div>
+                    </label>`).join('')}
+                </div>
+                <a class="btn btn-primary btn-lg btn-block" id="buy" href="#/checkout/${a.id}/${selected}">${sub ? 'Extend' : 'Continue'} ${arrow()}</a>
+              </div>` : `<div class="card small muted">${icon('trophy', 16)} You're on the longest plan for ${esc(a.name)}.</div>`}
+            ${sub ? '' : `
+              <div class="card">
+                <div class="row" style="flex-wrap:nowrap"><span class="stat-ico">${icon('bolt', 22)}</span><div><b>Start free</b><div class="small muted">The first lesson, its quiz and scenarios are free.</div></div></div>
+                <a class="btn btn-block" style="margin-top:14px" href="${skillUrl(a, a.lessons[0].id)}">Read lesson 1 free ${arrow()}</a>
+              </div>`}
+          </div>
+        </div>
+      </div>`;
+    const drawList = () => {
+      $('#lesson-list').innerHTML = a.lessons.map((l, i) => ({ l, i })).filter(({ l }) => track === 'all' || l.track === track).map(({ l, i }) => {
+        const open = canOpenLesson(a, i), p = lessonProgress(a, l.id);
+        return `<a class="lesson-row ${open ? '' : 'locked'}" href="${skillUrl(a, l.id)}">
+          <span class="lesson-num ${p.read ? 'done' : ''}">${p.read ? icon('check', 16) : i + 1}</span>
+          <span class="lesson-main"><b>${esc(l.title)}</b><span class="small muted">${l.minutes} min read · ${TRACK_LABEL[l.track]}${p.quizBest != null ? ` · quiz best ${p.quizBest}%` : ''}</span></span>
+          ${lessonFree(i) && !skillAccess(a) ? '<span class="badge badge-success">Free</span>' : open ? arrow(16) : icon('lock', 16)}
+        </a>`;
+      }).join('') || '<p class="muted small">No lessons in this track.</p>';
+    };
+    $$('#track-tabs .tab').forEach((b) => b.addEventListener('click', () => {
+      track = b.dataset.t;
+      $$('#track-tabs .tab').forEach((x) => x.classList.toggle('active', x === b));
+      drawList();
+    }));
+    $$('#plans input').forEach((r) => r.addEventListener('change', () => {
+      selected = Number(r.value);
+      $$('#plans .plan-opt').forEach((x) => x.classList.toggle('selected', x.contains(r)));
+      $('#buy').href = `#/checkout/${a.id}/${selected}`;
+    }));
+    drawList();
+  }
+
+  function lessonSection(s) {
+    const list = (items) => `<ul>${items.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>`;
+    return `<section class="lesson-sec"><h2>${esc(s.heading)}</h2>${String(s.body).split(/\n\n+/).map((p) => `<p>${esc(p)}</p>`).join('')}
+      ${s.do || s.dont ? `<div class="dodont">${s.do ? `<div class="do"><b>${icon('check', 14)} Do</b>${list(s.do)}</div>` : ''}${s.dont ? `<div class="dont"><b>${icon('x', 14)} Don't</b>${list(s.dont)}</div>` : ''}</div>` : ''}</section>`;
+  }
+
+  function findLesson(slug, lessonId) {
+    const a = skillBySlug(slug);
+    const i = a ? a.lessons.findIndex((l) => l.id === lessonId) : -1;
+    return i < 0 ? null : { a, i, l: a.lessons[i] };
+  }
+
+  // Bite-size card player: one idea per card, story-style progress, swipe/tap/keys to move.
+  function viewLessonCards(a, i, l) {
+    const cards = l.cards;
+    let k = 0;
+    const ticked = new Set();
+    const next = a.lessons[i + 1];
+    const cardHtml = (c) => {
+      const body = c.text ? `<p class="lc-text">${esc(c.text)}</p>` : '';
+      if (c.kind === 'compare') return body + `
+        <div class="lc-compare">
+          <div class="lc-bad"><span>${icon('x', 14)} Instead of</span><p>${esc(c.bad)}</p></div>
+          <div class="lc-good"><span>${icon('check', 14)} Try</span><p>${esc(c.good)}</p></div>
+        </div>`;
+      if (c.kind === 'tip') return body + (c.example ? `<div class="lc-good"><span>${icon('check', 14)} Example</span><p>${esc(c.example)}</p></div>` : '');
+      if (c.kind === 'checklist') return body + `
+        <div class="lc-checklist">${c.items.map((it, j) => `<button class="lc-check ${ticked.has(j) ? 'on' : ''}" data-j="${j}"><span class="lc-box">${icon('check', 14)}</span><span>${esc(it)}</span></button>`).join('')}</div>
+        ${c.tip ? `<div class="lc-tip">${icon('info', 16)}<span>${esc(c.tip)}</span></div>` : ''}`;
+      if (c.kind === 'recap') return body + `
+        <ol class="lc-recap">${l.takeaways.map((t) => `<li>${esc(t)}</li>`).join('')}</ol>
+        <div class="lc-actions">
+          <a class="btn btn-primary btn-block" href="${skillUrl(a, l.id, 'quiz')}">${icon('target', 16)} Take the 2-minute quiz</a>
+          <a class="btn btn-block" href="${skillUrl(a, l.id, 'scenario', 0)}">${icon('flag', 16)} Practise a real scenario</a>
+          ${next ? `<a class="btn btn-ghost btn-block" href="${skillUrl(a, next.id)}">Next lesson: ${esc(next.title)} ${arrow(16)}</a>` : ''}
+        </div>`;
+      return body;
+    };
+    app.innerHTML = `
+      <div class="lc-wrap">
+        <div class="lc-top">
+          <div class="lc-progress">${cards.map((_, j) => `<span data-j="${j}"><i></i></span>`).join('')}</div>
+          <div class="lc-meta"><a href="${skillUrl(a)}" class="lc-close" aria-label="Close lesson">${icon('x', 18)}</a><span class="small muted">${esc(l.title)}</span><span class="spacer"></span><a class="small lc-article" href="${skillUrl(a, l.id)}?view=article">Full article</a></div>
+        </div>
+        <div class="lc-stage" id="lc-stage" aria-live="polite"></div>
+        <div class="lc-nav">
+          <button class="btn" id="lc-prev">${icon('back', 16)} Back</button>
+          <span class="small muted" id="lc-count"></span>
+          <button class="btn btn-primary" id="lc-next">Next ${arrow(16)}</button>
+        </div>
+      </div>`;
+    const stage = $('#lc-stage');
+    const draw = (dir = 0) => {
+      const c = cards[k];
+      stage.innerHTML = `<article class="lc-card ${c.kind === 'intro' || c.kind === 'recap' ? 'lc-hero' : ''} ${dir > 0 ? 'in-right' : dir < 0 ? 'in-left' : ''}">
+          <span class="lc-icon">${icon(c.icon || 'book', 22)}</span>
+          ${c.kind === 'intro' ? `<div class="small lc-kicker">${l.minutes > 3 ? '2-minute lesson' : 'Quick lesson'} · ${cards.length} cards</div>` : ''}
+          <h2>${esc(c.title)}</h2>
+          ${cardHtml(c)}
+        </article>`;
+      $$('.lc-progress span').forEach((s, j) => s.className = j < k ? 'done' : j === k ? 'now' : '');
+      $('#lc-count').textContent = `${k + 1} / ${cards.length}`;
+      $('#lc-prev').disabled = k === 0;
+      $('#lc-next').hidden = k === cards.length - 1;
+      $$('.lc-check', stage).forEach((b) => b.addEventListener('click', () => {
+        const j = Number(b.dataset.j);
+        ticked.has(j) ? ticked.delete(j) : ticked.add(j);
+        b.classList.toggle('on');
+        if (ticked.size === cards[k].items.length) toast('All checked — ready to send!');
+      }));
+      if (k === cards.length - 1) { saveLessonProgress(a, l.id, { read: true }); }
+    };
+    const go = (d) => { const n = k + d; if (n < 0 || n >= cards.length) return; k = n; draw(d); };
+    $('#lc-next').addEventListener('click', () => go(1));
+    $('#lc-prev').addEventListener('click', () => go(-1));
+    $$('.lc-progress span').forEach((s) => s.addEventListener('click', () => { const j = Number(s.dataset.j); if (j !== k) { const d = j > k ? 1 : -1; k = j; draw(d); } }));
+    // Tap the left/right edge of the card, or swipe, like stories.
+    stage.addEventListener('click', (ev) => {
+      if (ev.target.closest('a, button')) return;
+      const r = stage.getBoundingClientRect();
+      const x = ev.clientX - r.left;
+      if (x > r.width * 0.65) go(1); else if (x < r.width * 0.35) go(-1);
+    });
+    let sx = null, sy = null;
+    stage.addEventListener('touchstart', (ev) => { sx = ev.touches[0].clientX; sy = ev.touches[0].clientY; }, { passive: true });
+    stage.addEventListener('touchend', (ev) => {
+      if (sx == null) return;
+      const dx = ev.changedTouches[0].clientX - sx, dy = ev.changedTouches[0].clientY - sy;
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) go(dx < 0 ? 1 : -1);
+      sx = null;
+    }, { passive: true });
+    const onKey = (ev) => { if (ev.key === 'ArrowRight') go(1); if (ev.key === 'ArrowLeft') go(-1); };
+    document.addEventListener('keydown', onKey);
+    cleanup = () => document.removeEventListener('keydown', onKey);
+    draw();
+  }
+
+  function viewLesson(slug, lessonId, view) {
+    const f = findLesson(slug, lessonId);
+    if (!f) return viewNotFound();
+    const { a, i, l } = f;
+    const open = canOpenLesson(a, i);
+    if (open && l.cards && l.cards.length && view !== 'article') return viewLessonCards(a, i, l);
+    const next = a.lessons[i + 1];
+    const practice = `
+      <section class="lesson-sec"><h2>Practise what you learned</h2>
+        <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">
+          <a class="card practice-card" href="${skillUrl(a, l.id, 'quiz')}"><span class="stat-ico">${icon('target', 22)}</span><b>Quiz · 10 questions</b><span class="small muted">${lessonProgress(a, l.id).quizBest != null ? `Your best: ${lessonProgress(a, l.id).quizBest}%` : 'Check your understanding'}</span></a>
+          ${l.scenarios.map((sc, k) => `<a class="card practice-card" href="${skillUrl(a, l.id, 'scenario', k)}"><span class="stat-ico">${icon('flag', 22)}</span><b>Scenario ${k + 1}: ${esc(sc.title)}</b><span class="small muted">${(lessonProgress(a, l.id).scen || {})[k] ? 'Done — try again' : 'What would you do?'}</span></a>`).join('')}
+        </div>
+      </section>
+      ${next ? `<div class="row" style="margin-top:8px"><span class="spacer"></span><a class="btn btn-primary" href="${skillUrl(a, next.id)}">Next lesson: ${esc(next.title)} ${arrow(16)}</a></div>` : ''}`;
+    const paywall = `
+      <div class="card paywall">
+        <span class="stat-ico" style="background:var(--brand-50);color:var(--brand)">${icon('lock', 22)}</span>
+        <h3>Unlock the full lesson</h3>
+        <p class="muted">Get every lesson in ${esc(a.name)}, with its quiz and practice scenarios, on any plan from ${inr(window.PLANS[0].price)}.</p>
+        <div class="row" style="justify-content:center"><a class="btn btn-primary" href="${skillUrl(a)}">See plans</a><a class="btn" href="${skillUrl(a, a.lessons[0].id)}">Read lesson 1 free</a></div>
+      </div>`;
+    app.innerHTML = `
+      <section class="page-hero"><div class="wrap">
+        <a class="crumb" href="${skillUrl(a)}">${icon('back', 16)} ${esc(a.name)}</a>
+        <div class="hero-series">Lesson ${i + 1} of ${a.lessons.length} · ${l.minutes} min read · ${TRACK_LABEL[l.track]}${lessonFree(i) ? ' · Free' : ''}</div>
+        <h1 style="margin:6px 0 10px">${esc(l.title)}</h1>
+        <p>${esc(l.summary)}</p>
+      </div></section>
+      <div class="wrap page lesson" style="padding-top:0">
+        ${open
+          ? l.sections.map(lessonSection).join('') + `<section class="lesson-sec takeaways"><h2>Key takeaways</h2><ul>${l.takeaways.map((t) => `<li>${esc(t)}</li>`).join('')}</ul></section>` + practice
+          : lessonSection(l.sections[0]) + paywall}
+      </div>`;
+    if (open) saveLessonProgress(a, l.id, { read: true });
+  }
+
+  function gateLesson(f) {
+    if (canOpenLesson(f.a, f.i)) return true;
+    toast('Unlock this lesson to practise it');
+    location.hash = skillUrl(f.a, f.l.id);
+    return false;
+  }
+
+  function viewSkillQuiz(slug, lessonId) {
+    const f = findLesson(slug, lessonId);
+    if (!f) return viewNotFound();
+    if (!gateLesson(f)) return;
+    const { a, l } = f;
+    const qs = l.quiz;
+    let k = 0, score = 0;
+    app.innerHTML = `
+      <section class="page-hero"><div class="wrap">
+        <a class="crumb" href="${skillUrl(a, l.id)}">${icon('back', 16)} ${esc(l.title)}</a>
+        <div class="hero-series">Quiz · ${qs.length} questions</div><h1 style="margin:6px 0 0">${esc(l.title)}</h1>
+      </div></section>
+      <div class="wrap page" style="padding-top:0"><div class="card intro" id="sq"></div></div>`;
+    const el = $('#sq');
+    const finish = () => {
+      const pct = Math.round((score / qs.length) * 100);
+      const best = Math.max(pct, lessonProgress(a, l.id).quizBest || 0);
+      saveLessonProgress(a, l.id, { quizBest: best });
+      if (pct >= 80) confetti();
+      el.innerHTML = `
+        <div class="center"><span class="stat-ico" style="margin:0 auto 12px;width:60px;height:60px;background:${pct >= 80 ? 'var(--success-soft)' : 'var(--brand-50)'};color:${pct >= 80 ? 'var(--success)' : 'var(--brand)'}">${icon(pct >= 80 ? 'trophy' : 'target', 28)}</span>
+        <h2>You scored ${score}/${qs.length} (${pct}%)</h2>
+        <p class="muted">${pct >= 80 ? 'Great work — you have this lesson down.' : 'Re-read the lesson sections you missed, then try again.'} Your best: ${best}%.</p>
+        <div class="row" style="justify-content:center"><a class="btn btn-primary" href="${skillUrl(a, l.id, 'scenario', 0)}">Practise scenarios ${arrow(16)}</a><button class="btn" id="sq-retry">${icon('refresh', 16)} Retake quiz</button><a class="btn btn-ghost" href="${skillUrl(a, l.id)}">Back to lesson</a></div></div>`;
+      $('#sq-retry').addEventListener('click', () => { k = 0; score = 0; draw(); });
+    };
+    const draw = () => {
+      if (k >= qs.length) return finish();
+      const [text, opts, ans, expl] = qs[k];
+      el.classList.remove('swap'); void el.offsetWidth; el.classList.add('swap');
+      el.innerHTML = `
+        <div class="progress-label"><span>Question ${k + 1} of ${qs.length}</span><span>Score ${score}</span></div>
+        <div class="bar"><span style="width:${(k / qs.length) * 100}%"></span></div>
+        <div class="q-text" style="margin-top:20px">${esc(text)}</div>
+        <div>${opts.map((o, j) => `<button class="qopt" data-j="${j}"><span class="letter">${LETTERS[j]}</span><span>${esc(o)}</span></button>`).join('')}</div>
+        <div class="quiz-foot" hidden></div>`;
+      $$('.qopt', el).forEach((b) => b.addEventListener('click', () => {
+        const j = Number(b.dataset.j), ok = j === ans;
+        if (ok) score++;
+        $$('.qopt', el).forEach((x, m) => { x.disabled = true; if (m === ans) x.classList.add('right'); else if (m === j) x.classList.add('wrong'); });
+        const foot = $('.quiz-foot', el);
+        foot.hidden = false;
+        foot.innerHTML = `<div class="explain">${icon(ok ? 'check' : 'info', 16)}<div><b>${ok ? 'Correct!' : 'Not quite.'}</b> ${esc(expl)}</div></div>
+          <div class="row"><span class="spacer"></span><button class="btn btn-primary" id="sq-next">${k === qs.length - 1 ? 'See result' : 'Next question'} ${arrow(16)}</button></div>`;
+        $('#sq-next').addEventListener('click', () => { k++; draw(); });
+      }));
+    };
+    draw();
+  }
+
+  const RATING = { best: { label: 'Best response', cls: 'right' }, good: { label: 'Reasonable, but not the best', cls: 'ok' }, poor: { label: 'Poor response', cls: 'wrong' } };
+
+  function viewScenario(slug, lessonId, idx) {
+    const f = findLesson(slug, lessonId);
+    if (!f) return viewNotFound();
+    if (!gateLesson(f)) return;
+    const { a, l } = f;
+    const sc = l.scenarios[idx];
+    if (!sc) return viewNotFound();
+    const nextLink = idx + 1 < l.scenarios.length ? skillUrl(a, l.id, 'scenario', idx + 1) : skillUrl(a, l.id);
+    app.innerHTML = `
+      <section class="page-hero"><div class="wrap">
+        <a class="crumb" href="${skillUrl(a, l.id)}">${icon('back', 16)} ${esc(l.title)}</a>
+        <div class="hero-series">Scenario ${idx + 1} of ${l.scenarios.length}</div><h1 style="margin:6px 0 0">${esc(sc.title)}</h1>
+      </div></section>
+      <div class="wrap page" style="padding-top:0">
+        <div class="card intro">
+          <p class="scenario-situation">${esc(sc.situation)}</p>
+          <h3 style="margin:18px 0 12px">What would you do?</h3>
+          <div id="sc-opts">${sc.options.map((o, j) => `<div class="scen-opt"><button class="qopt" data-j="${j}"><span class="letter">${LETTERS[j]}</span><span>${esc(o.text)}</span></button><div class="scen-fb" hidden></div></div>`).join('')}</div>
+          <div class="row" id="sc-next" hidden style="margin-top:16px"><span class="spacer"></span><a class="btn btn-primary" href="${nextLink}">${idx + 1 < l.scenarios.length ? 'Next scenario' : 'Back to lesson'} ${arrow(16)}</a></div>
+        </div>
+      </div>`;
+    $$('#sc-opts .qopt').forEach((b) => b.addEventListener('click', () => {
+      const j = Number(b.dataset.j);
+      $$('#sc-opts .scen-opt').forEach((wrap, m) => {
+        const o = sc.options[m], r = RATING[o.rating] || RATING.poor;
+        const btn = $('.qopt', wrap);
+        btn.disabled = true;
+        btn.classList.add(r.cls);
+        if (m === j) btn.classList.add('chosen');
+        const fb = $('.scen-fb', wrap);
+        fb.hidden = false;
+        fb.innerHTML = `<span class="badge ${r.cls === 'right' ? 'badge-success' : r.cls === 'ok' ? 'badge-warn' : 'badge-danger'}">${m === j ? 'Your choice · ' : ''}${r.label}</span> ${esc(o.feedback)}`;
+      });
+      const scen = { ...(lessonProgress(a, l.id).scen || {}) };
+      scen[idx] = sc.options[j].rating;
+      saveLessonProgress(a, l.id, { scen });
+      $('#sc-next').hidden = false;
+    }));
+  }
+
+  // ---------- AI coach (demo: switched off until accounts & payments are live) ----------
+  const COACH_TASKS = [
+    { id: 'intro', title: 'Tell me about yourself', area: 'Interview & Career',
+      prompt: 'You are in a job interview for an entry-level role at a bank. The interviewer says: "Tell me about yourself." Type your answer as you would say it.', hint: 'About 60–150 words',
+      sample: { score: 6, summary: 'A clear start, but it reads like a list of facts rather than a story about why you fit this role.',
+        strengths: ['You introduce your education and recent work clearly.', 'The tone is polite and confident.'],
+        improvements: ['Open with one line on who you are professionally, not your hometown.', 'Pick one achievement and give a number or result.', 'End by linking your skills to this bank role.'],
+        improved_version: 'I recently completed my B.Com and cleared NISM Series V-A while preparing for banking exams. During my internship at a cooperative bank, I handled walk-in customer queries and helped reduce the account-opening backlog by setting up a simple checklist. I enjoy explaining financial products clearly, which is why this customer-facing role at your bank appeals to me.' } },
+    { id: 'email', title: 'Reply to a worried client', area: 'Communication',
+      prompt: 'A client writes: "My SIP has lost 8% this year. Why should I continue? I am thinking of stopping it." Write your reply email.', hint: 'About 80–200 words',
+      sample: { score: 7, summary: 'Calm and respectful, but it leans on reassurance instead of helping the client decide.',
+        strengths: ['You acknowledge the client\'s concern before explaining.', 'You avoid promising future returns.'],
+        improvements: ['Remind the client of their original goal and time horizon.', 'Offer a short call to review whether the SIP still suits them.', 'Keep paragraphs to two or three sentences.'],
+        improved_version: 'Dear Mr Rao,\n\nThank you for writing — an 8% fall is understandably worrying. Your SIP was set up for your daughter\'s education in 2034, so it has nine more years to recover from short-term swings. Market-linked funds can fall in some years, and I can\'t promise how they will move.\n\nBefore you decide, could we have a 15-minute call this week to check whether this goal and fund still suit you? If your situation has changed, we can adjust the plan together.\n\nWarm regards,\nPriya' } },
+    { id: 'objection', title: 'Handle a fee objection', area: 'Workplace',
+      prompt: 'A prospective client says: "Your fees are too high. Another adviser charges much less." Write what you would say.', hint: 'About 60–150 words',
+      sample: { score: 5, summary: 'You defend your price, but you don\'t find out what the client values first.',
+        strengths: ['You stay polite and don\'t criticise the other adviser.'],
+        improvements: ['Ask what the other adviser\'s fee includes before comparing.', 'Explain the specific services behind your fee.', 'Respect the client\'s right to choose.'],
+        improved_version: 'That\'s a fair question, and comparing is sensible. May I ask what the other adviser\'s fee includes — for example, a written financial plan and regular reviews? My fee covers a full plan, quarterly reviews and help with tax-efficient withdrawals. If those services matter to you, I\'m happy to walk you through them. If not, a lower-cost option may suit you better, and that\'s completely fine.' } },
+  ];
+
+  function coachFeedbackHtml(fb, demo) {
+    const list = (xs) => `<ul>${xs.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>`;
+    return `
+      ${demo ? `<div class="notice info">${icon('info', 16)}<span><b>AI Coach is coming soon.</b> Here is an example of the feedback it gives for this task.</span></div>` : ''}
+      <div class="row" style="margin:16px 0 8px"><span class="coach-score">${fb.score}<small>/10</small></span><p style="margin:0;flex:1;min-width:200px"><b>${esc(fb.summary)}</b></p></div>
+      <div class="dodont"><div class="do"><b>${icon('check', 14)} What works</b>${list(fb.strengths)}</div><div class="dont"><b>${icon('flag', 14)} To improve</b>${list(fb.improvements)}</div></div>
+      <div class="explain" style="margin-top:16px">${icon('sparkle', 16)}<div><b>Improved version</b><p style="white-space:pre-line;margin:6px 0 0">${esc(fb.improved_version)}</p></div></div>`;
+  }
+
+  function viewCoach() {
+    let task = COACH_TASKS[0];
+    app.innerHTML = `
+      <section class="page-hero"><div class="wrap">
+        <a class="crumb" href="#/skills">${icon('back', 16)} Soft skills</a>
+        <div class="row" style="gap:10px"><h1 style="margin:0">AI Coach</h1><span class="badge badge-warn">Coming soon</span></div>
+        <p style="margin-top:10px">Practise real answers and get instant, personal feedback — what works, what to improve and a stronger version of your answer.</p>
+      </div></section>
+      <div class="wrap page" style="padding-top:0">
+        <div class="tabs" id="coach-tabs">${COACH_TASKS.map((t, i) => `<button class="tab ${i === 0 ? 'active' : ''}" data-id="${t.id}">${esc(t.title)}</button>`).join('')}</div>
+        <div class="card intro" id="coach-card"></div>
+      </div>`;
+    const draw = () => {
+      $('#coach-card').innerHTML = `
+        <span class="badge">${esc(task.area)}</span>
+        <p class="scenario-situation" style="margin-top:12px">${esc(task.prompt)}</p>
+        <label class="field" style="margin-top:12px"><span>Your answer <span class="muted small">(${esc(task.hint)})</span></span>
+          <textarea id="coach-answer" rows="7" maxlength="3000" placeholder="Type your answer here…"></textarea></label>
+        <div class="row" style="margin-top:12px"><span class="small muted" id="coach-count">0 words</span><span class="spacer"></span><button class="btn btn-primary" id="coach-go">${icon('sparkle', 16)} Get feedback</button></div>
+        <div id="coach-out"></div>`;
+      const ta = $('#coach-answer');
+      ta.addEventListener('input', () => { const n = ta.value.trim().split(/\s+/).filter(Boolean).length; $('#coach-count').textContent = `${n} word${n === 1 ? '' : 's'}`; });
+      $('#coach-go').addEventListener('click', async (ev) => {
+        const answer = ta.value.trim();
+        if (answer.split(/\s+/).length < 15) { toast('Write at least a few sentences first'); return; }
+        const btn = ev.currentTarget; btn.disabled = true; btn.textContent = 'Reviewing…';
+        let fb = null;
+        try {
+          const res = await fetch('/api/coach', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ task: task.id, answer }) });
+          if (res.ok) fb = (await res.json()).feedback;
+        } catch (e) { /* coach unavailable */ }
+        $('#coach-out').innerHTML = coachFeedbackHtml(fb || task.sample, !fb);
+        btn.disabled = false; btn.innerHTML = `${icon('sparkle', 16)} Get feedback`;
+      });
+    };
+    $$('#coach-tabs .tab').forEach((b) => b.addEventListener('click', () => {
+      task = COACH_TASKS.find((t) => t.id === b.dataset.id);
+      $$('#coach-tabs .tab').forEach((x) => x.classList.toggle('active', x === b));
+      draw();
+    }));
+    draw();
+  }
+
   // ---------- admin ----------
   function viewAdmin() {
     const now = Date.now();
@@ -1351,7 +1835,7 @@
           <h2 style="font-size:1.5rem">Users &amp; subscriptions</h2>
           <div class="card table-wrap" style="padding:8px 20px">${us.length ? `<table>
             <tr><th>Name</th><th>Email</th><th>Mobile</th><th>Subscriptions</th></tr>
-            ${us.map((x) => `<tr><td><b>${esc(x.name)}</b></td><td>${esc(x.email)}</td><td>${esc(x.mobile)}</td><td>${allSubs.filter((s) => s.userId === x.id).map((s) => `${esc(examById(s.examId).series)} <span class="badge ${s.end > now ? '' : 'badge-danger'}">${s.end > now ? 'until ' + fmtDate(s.end) : 'expired'}</span>`).join('<br>') || '<span class="muted">—</span>'}</td></tr>`).join('')}
+            ${us.map((x) => `<tr><td><b>${esc(x.name)}</b></td><td>${esc(x.email)}</td><td>${esc(x.mobile)}</td><td>${allSubs.filter((s) => s.userId === x.id).map((s) => `${esc(skillById(s.examId) ? skillById(s.examId).name : examById(s.examId).series)} <span class="badge ${s.end > now ? '' : 'badge-danger'}">${s.end > now ? 'until ' + fmtDate(s.end) : 'expired'}</span>`).join('<br>') || '<span class="muted">—</span>'}</td></tr>`).join('')}
           </table>` : '<p class="muted" style="padding:16px 0">No users yet.</p>'}</div>
         </section>
       </div>`;

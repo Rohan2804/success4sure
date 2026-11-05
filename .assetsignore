@@ -11,3 +11,6 @@ js/data/qbank/*.json
 *.py
 *.md
 content
+worker
+package.json
+package-lock.json
