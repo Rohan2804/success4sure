@@ -187,6 +187,50 @@
   const chaptersFor = (examId) => [...new Set(questionsFor(examId).map((q) => q.chapter))];
   const totalQuestions = () => EXAMS.reduce((s, e) => s + questionsFor(e.id).length, 0);
 
+  // ---------- Google sign-in (Supabase Auth) ----------
+  // The publishable key is meant to be public; the Google client secret lives only in Supabase.
+  const SUPABASE_URL = 'https://yjxjldpmtedhjxggybbx.supabase.co';
+  const SUPABASE_KEY = 'sb_publishable_0oUFLZ9eHK3pr19J2Ae4UQ_N4Kaqrtn';
+  const sb = window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, { auth: { flowType: 'pkce', detectSessionInUrl: true, persistSession: true } }) : null;
+
+  async function googleSignIn(next) {
+    if (!sb) return toast('Google sign-in is unavailable right now. Please try again.');
+    try { sessionStorage.setItem('s4s_next', next || '/dashboard'); } catch (e) { /* storage unavailable */ }
+    const { error } = await sb.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: location.origin + '/' } });
+    if (error) toast('Could not start Google sign-in: ' + error.message);
+  }
+
+  // Mirror the Supabase user into the local stores so subscriptions and progress keep working.
+  function adoptSupabaseUser(su) {
+    const m = su.user_metadata || {};
+    const list = store.get('users', []);
+    const prev = list.find((x) => x.id === su.id) || {};
+    const u = { ...prev, id: su.id, email: (su.email || '').toLowerCase(), name: m.full_name || m.name || (su.email || 'Learner').split('@')[0],
+      avatar: m.avatar_url || m.picture || '', provider: 'google', created: prev.created || Date.now() };
+    store.set('users', [...list.filter((x) => x.id !== su.id), u]);
+    store.set('session', { userId: u.id, provider: 'google' });
+    return u;
+  }
+
+  if (sb) {
+    sb.auth.onAuthStateChange((event, s) => {
+      setTimeout(() => {
+        if (s && s.user) {
+          const fresh = !(store.get('session', null) || {}).userId || store.get('session', null).userId !== s.user.id;
+          const u = adoptSupabaseUser(s.user);
+          let next = null;
+          try { next = sessionStorage.getItem('s4s_next'); sessionStorage.removeItem('s4s_next'); } catch (e) { /* storage unavailable */ }
+          if (/[?&]code=/.test(location.search)) history.replaceState(null, '', location.pathname + location.hash);
+          if (next) { toast(`Welcome, ${u.name.split(' ')[0]}!`); location.hash = '#' + next; }
+          if (fresh || next) route();
+          else renderNav((location.hash.replace(/^#\/?/, '').split(/[/?]/)[0]) || '');
+        } else if (event === 'SIGNED_OUT' && (store.get('session', null) || {}).provider === 'google') {
+          store.set('session', null); route();
+        }
+      }, 0);
+    });
+  }
+
   const users = () => store.get('users', []);
   const session = () => store.get('session', null);
   const currentUser = () => { const s = session(); return s ? users().find((u) => u.id === s.userId) || null : null; };
@@ -242,7 +286,16 @@
         ${icon('search', 16)}<input type="search" placeholder="Search exams, e.g. NISM V-A, IBPS PO…" aria-label="Search exams"><kbd>⌘K</kbd>
       </form>
       <div class="nav-right">
-        ${u ? `${link('#/dashboard', 'Dashboard', 'dashboard')}<a href="#/" id="logout">Log out</a><span class="avatar" title="${esc(u.name)}">${esc(u.name.trim()[0].toUpperCase())}</span>`
+        ${u ? `${link('#/dashboard', 'Dashboard', 'dashboard', 'nav-dash')}
+          <div class="pmenu">
+            <button type="button" class="pmenu-btn ${active === 'profile' ? 'active' : ''}" id="pmenu-btn" aria-haspopup="menu" aria-expanded="false" aria-label="Open profile menu">${avatarHtml(u)}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+            <div class="pmenu-pop" id="pmenu-pop" role="menu" hidden>
+              <div class="pmenu-head">${avatarHtml(u, 'avatar avatar-md')}<div><b>${esc(u.name)}</b><span>${esc(u.email || '')}</span></div></div>
+              <a role="menuitem" href="#/profile">${icon('user', 18)} My profile &amp; plans</a>
+              <a role="menuitem" href="#/dashboard">${icon('grid', 18)} Dashboard</a>
+              <a role="menuitem" href="#/" id="logout" class="pmenu-out">${icon('back', 18)} Log out</a>
+            </div>
+          </div>`
             : `<a href="#/login" class="btn btn-primary btn-sm">Login / Sign up</a>`}
       </div>`;
     $('#nav-search').addEventListener('submit', (e) => {
@@ -250,9 +303,30 @@
       const q = $('input', e.currentTarget).value.trim();
       location.hash = '#/exams' + (q ? '?q=' + encodeURIComponent(q) : '');
     });
+    const pb = $('#pmenu-btn');
+    pb && pb.addEventListener('click', (e) => { e.stopPropagation(); togglePmenu(); });
     const lo = $('#logout');
-    lo && lo.addEventListener('click', (e) => { e.preventDefault(); store.set('session', null); toast('Logged out'); location.hash = '#/'; route(); });
+    lo && lo.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const viaGoogle = (session() || {}).provider === 'google';
+      store.set('session', null);
+      if (viaGoogle && sb) await sb.auth.signOut().catch(() => {});
+      toast('Logged out'); location.hash = '#/'; route();
+    });
   }
+
+  function avatarHtml(u, cls = 'avatar') {
+    const initial = esc((u.name || u.email || '?').trim()[0].toUpperCase());
+    return `<span class="${cls}" title="${esc(u.name)}">${initial}${u.avatar ? `<img src="${esc(u.avatar)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">` : ''}</span>`;
+  }
+  function togglePmenu(open) {
+    const pop = $('#pmenu-pop'), btn = $('#pmenu-btn');
+    if (!pop) return;
+    const show = open === undefined ? pop.hidden : open;
+    pop.hidden = !show; btn.setAttribute('aria-expanded', String(show));
+  }
+  document.addEventListener('click', (e) => { if (!e.target.closest('.pmenu-pop')) togglePmenu(false); else if (e.target.closest('a')) togglePmenu(false); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') togglePmenu(false); });
 
   document.addEventListener('keydown', (e) => {
     if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
@@ -280,6 +354,7 @@
       register: () => viewAuth('register', params.get('next')),
       checkout: () => viewCheckout(parts[1], Number(parts[2])),
       dashboard: viewDashboard,
+      profile: viewProfile,
       test: () => viewTest(parts[1], params.get('demo') === '1', Number(parts[2]) || 0),
       result: () => viewResult(parts[1]),
       admin: viewAdmin,
@@ -818,6 +893,8 @@
           <div class="auth-form">
             <h2 style="font-size:1.7rem">${isReg ? 'Create your account' : 'Log in'}</h2>
             <p class="muted">${isReg ? 'It takes less than a minute.' : 'Enter your details to continue.'}</p>
+            <button type="button" class="btn btn-google btn-lg btn-block" id="google-btn"><svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>Continue with Google</button>
+            <div class="or-divider"><span>or use email</span></div>
             <form id="auth-form" novalidate>
               ${isReg ? `<label class="field"><span>Full name</span><div class="input-ico">${icon('user', 18)}<input name="name" autocomplete="name" placeholder="Your name" required></div></label>
               <label class="field"><span>Mobile number</span><div class="input-ico">${icon('phone', 18)}<input name="mobile" inputmode="numeric" autocomplete="tel" maxlength="10" placeholder="10-digit mobile" required></div></label>` : ''}
@@ -827,10 +904,11 @@
               <button class="btn btn-primary btn-lg btn-block">${isReg ? 'Create account' : 'Log in'} ${arrow()}</button>
             </form>
             <p class="center small" style="margin-top:18px">${isReg ? 'Already have an account?' : 'New to Success4Sure?'} <a href="#/${other}${nextQs}"><b>${isReg ? 'Log in' : 'Create an account'}</b></a></p>
-            <div class="notice info small">${icon('info', 16)}<span>Prototype: accounts are stored only in this browser. The live site will use secure server-side login.</span></div>
+            <div class="notice info small">${icon('info', 16)}<span>Google sign-in is secure and works across devices. Email accounts are a prototype stored only in this browser.</span></div>
           </div>
         </div>
       </div>`;
+    $('#google-btn').addEventListener('click', () => googleSignIn(next));
     $('#auth-form').addEventListener('submit', async (ev) => {
       ev.preventDefault();
       const f = Object.fromEntries(new FormData(ev.target));
@@ -961,39 +1039,8 @@
         </div>
 
         <section style="margin-top:40px">
-          <div class="row" style="margin-bottom:18px"><h2 style="margin:0;font-size:1.5rem">My subscriptions</h2></div>
-          ${latest.length ? `<div class="grid">${latest.map((s, i) => {
-            if (skillById(s.examId)) {
-              const a = skillById(s.examId), active = s.end > now, left = Math.ceil((s.end - now) / DAY), d = areaDone(a);
-              return `<div class="exam-card sub-card reveal" style="--c:${a.color};--d:${i * 0.05}s">
-                <div class="ec-top"><span class="ec-icon">${icon(a.icon, 24)}</span>${active ? `<span class="badge">${left} day${left === 1 ? '' : 's'} left</span>` : '<span class="badge badge-danger">Expired</span>'}</div>
-                <span class="series">Soft skills</span><h3>${esc(a.name)}</h3>
-                <div class="meter"><span style="width:${(d / a.lessons.length) * 100}%"></span></div>
-                <span class="small muted">${d} of ${a.lessons.length} lessons read · ${active ? 'valid until' : 'expired on'} ${fmtDate(s.end)}</span>
-                <div style="margin-top:auto;padding-top:14px"><a class="btn ${active ? 'btn-primary' : ''} btn-block" href="${skillUrl(a)}">${active ? 'Continue learning' : 'Renew'}</a></div>
-              </div>`;
-            }
-            const e = examById(s.examId);
-            const c = CAT[e.category];
-            const active = s.end > now;
-            const left = Math.ceil((s.end - now) / DAY);
-            const owned = testsIn(s);
-            const st = mockStatus(u.id, e.id);
-            const doneN = Object.keys(st).filter((k) => Number(k) <= owned).length;
-            const nx = nextMock(st, owned);
-            const pct = (doneN / owned) * 100;
-            return `<div class="exam-card sub-card reveal" style="--c:${c.color};--d:${i * 0.05}s">
-              <div class="ec-top"><span class="ec-icon">${icon(c.icon, 24)}</span>${active ? `<span class="badge">${left} day${left === 1 ? '' : 's'} left</span>` : '<span class="badge badge-danger">Expired</span>'}</div>
-              <span class="series">${esc(examCode(e))}</span>
-              <h3>${esc(e.name)}</h3>
-              <div class="meter"><span style="width:${pct}%"></span></div>
-              <span class="small muted">${doneN} of ${owned} mock tests attempted · ${active ? 'valid until' : 'expired on'} ${fmtDate(s.end)}</span>
-              <div style="margin-top:auto;padding-top:14px">${active
-                ? (nx ? `<a class="btn btn-primary btn-block" href="#/test/${e.id}/${nx}">${icon('bolt', 16)} Start Mock Test ${nx}</a>`
-                      : `<a class="btn btn-block" href="#/exam/${e.id}">View all mock tests</a>`)
-                : `<a class="btn btn-block" href="#/exam/${e.id}">${icon('refresh', 16)} Renew</a>`}</div>
-            </div>`;
-          }).join('')}</div>` : `<div class="card center reveal" style="padding:48px 24px"><span class="stat-ico" style="margin:0 auto 14px;width:60px;height:60px">${icon('book', 28)}</span><h3>No subscriptions yet</h3><p class="muted">Choose an exam and a plan to unlock up to 30 mock tests.</p><a class="btn btn-primary" href="#/exams">Browse exams ${arrow()}</a></div>`}
+          ${latest.length ? `<a class="card plans-link reveal" href="#/profile"><span class="stat-ico">${icon('grid', 22)}</span><div><b>My plans</b><span class="small muted">${activeCount ? `${activeCount} active plan${activeCount === 1 ? '' : 's'} · start your next mock test from your profile` : 'All your plans have expired · renew from your profile'}</span></div>${arrow()}</a>`
+            : `<div class="card center reveal" style="padding:48px 24px"><span class="stat-ico" style="margin:0 auto 14px;width:60px;height:60px">${icon('book', 28)}</span><h3>No subscriptions yet</h3><p class="muted">Choose an exam and a plan to unlock up to 30 mock tests.</p><a class="btn btn-primary" href="#/exams">Browse exams ${arrow()}</a></div>`}
         </section>
 
         <section style="margin-top:48px">
@@ -1016,6 +1063,90 @@
         </section>` : ''}
       </div>`;
     requestAnimationFrame(() => setTimeout(() => $$('.bar > span[data-w]').forEach((s) => { s.style.width = s.dataset.w + '%'; }), 100));
+  }
+
+  // ---------- profile ----------
+  function subCard(u, s, i) {
+    const now = Date.now();
+    if (skillById(s.examId)) {
+      const a = skillById(s.examId), active = s.end > now, left = Math.ceil((s.end - now) / DAY), d = areaDone(a);
+      return `<div class="exam-card sub-card reveal" style="--c:${a.color};--d:${i * 0.05}s">
+        <div class="ec-top"><span class="ec-icon">${icon(a.icon, 24)}</span>${active ? `<span class="badge">${left} day${left === 1 ? '' : 's'} left</span>` : '<span class="badge badge-danger">Expired</span>'}</div>
+        <span class="series">Soft skills</span><h3>${esc(a.name)}</h3>
+        <div class="meter"><span style="width:${(d / a.lessons.length) * 100}%"></span></div>
+        <span class="small muted">${d} of ${a.lessons.length} lessons read · ${active ? 'valid until' : 'expired on'} ${fmtDate(s.end)}</span>
+        <div style="margin-top:auto;padding-top:14px"><a class="btn ${active ? 'btn-primary' : ''} btn-block" href="${skillUrl(a)}">${active ? 'Continue learning' : 'Renew'}</a></div>
+      </div>`;
+    }
+    const e = examById(s.examId);
+    const c = CAT[e.category];
+    const active = s.end > now;
+    const left = Math.ceil((s.end - now) / DAY);
+    const owned = testsIn(s);
+    const st = mockStatus(u.id, e.id);
+    const doneN = Object.keys(st).filter((k) => Number(k) <= owned).length;
+    const nx = nextMock(st, owned);
+    const pct = (doneN / owned) * 100;
+    return `<div class="exam-card sub-card reveal" style="--c:${c.color};--d:${i * 0.05}s">
+      <div class="ec-top"><span class="ec-icon">${icon(c.icon, 24)}</span>${active ? `<span class="badge">${left} day${left === 1 ? '' : 's'} left</span>` : '<span class="badge badge-danger">Expired</span>'}</div>
+      <span class="series">${esc(examCode(e))}</span>
+      <h3>${esc(e.name)}</h3>
+      <div class="meter"><span style="width:${pct}%"></span></div>
+      <span class="small muted">${doneN} of ${owned} mock tests attempted · ${active ? 'valid until' : 'expired on'} ${fmtDate(s.end)}</span>
+      <div style="margin-top:auto;padding-top:14px">${active
+        ? (nx ? `<a class="btn btn-primary btn-block" href="#/test/${e.id}/${nx}">${icon('bolt', 16)} Start Mock Test ${nx}</a>`
+              : `<a class="btn btn-block" href="#/exam/${e.id}">View all mock tests</a>`)
+        : `<a class="btn btn-block" href="#/exam/${e.id}">${icon('refresh', 16)} Renew</a>`}</div>
+    </div>`;
+  }
+
+  function viewProfile() {
+    if (!requireLogin()) return;
+    const u = currentUser();
+    const now = Date.now();
+    const mine = subs().filter((s) => s.userId === u.id && productById(s.examId));
+    const byExam = {};
+    mine.forEach((s) => { if (!byExam[s.examId] || s.end > byExam[s.examId].end) byExam[s.examId] = s; });
+    const current = Object.values(byExam).sort((a, b) => b.end - a.end);
+    const history = [...mine].sort((a, b) => (b.created || b.start) - (a.created || a.start));
+    const status = (s) => (s.upgradedTo ? '<span class="badge">Upgraded</span>' : s.end > now ? '<span class="badge badge-success">Active</span>' : '<span class="badge badge-danger">Expired</span>');
+    const viaGoogle = (session() || {}).provider === 'google' || u.provider === 'google';
+    app.innerHTML = `
+      <div class="wrap page">
+        <div class="card profile-card reveal">
+          ${avatarHtml(u, 'avatar avatar-xl')}
+          <div class="profile-info">
+            <h1>${esc(u.name)}</h1>
+            <p class="muted">${esc(u.email || '')}${u.mobile ? ` · ${esc(u.mobile)}` : ''}</p>
+            <div class="row" style="gap:8px;margin-top:10px">
+              <span class="badge">${viaGoogle ? 'Signed in with Google' : 'Email account (this browser only)'}</span>
+              ${u.created ? `<span class="badge">Member since ${fmtDate(u.created)}</span>` : ''}
+            </div>
+          </div>
+          <button class="btn" id="profile-logout">${icon('back', 16)} Log out</button>
+        </div>
+
+        <section style="margin-top:40px">
+          <div class="row" style="margin-bottom:18px"><h2 style="margin:0;font-size:1.5rem">My plans</h2><span class="spacer"></span><a class="btn btn-sm" href="#/exams">${icon('plus', 16)} Add an exam</a></div>
+          ${current.length ? `<div class="grid">${current.map((s, i) => subCard(u, s, i)).join('')}</div>`
+            : `<div class="card center reveal" style="padding:48px 24px"><span class="stat-ico" style="margin:0 auto 14px;width:60px;height:60px">${icon('book', 28)}</span><h3>No plans yet</h3><p class="muted">Choose an exam and a plan to unlock up to 30 mock tests.</p><a class="btn btn-primary" href="#/exams">Browse exams ${arrow()}</a></div>`}
+        </section>
+
+        ${history.length ? `<section style="margin-top:48px">
+          <h2 style="font-size:1.5rem">Purchase history</h2>
+          <div class="card table-wrap reveal" style="padding:8px 16px"><table>
+            <tr><th>Purchased</th><th>Exam</th><th>Plan</th><th>Valid until</th><th>Amount</th><th>Status</th></tr>
+            ${history.map((s) => { const e = productById(s.examId); const sk = skillById(s.examId); return `<tr>
+              <td>${fmtDate(s.created || s.start)}</td>
+              <td><b>${sk ? 'Soft skills' : esc(examCode(e))}</b><div class="small muted">${esc(e.name)}</div></td>
+              <td>${esc(s.label || s.days + ' days')}<div class="small muted">${sk ? 'Full course access' : testsIn(s) + ' mock tests'}</div></td>
+              <td>${fmtDate(s.end)}</td>
+              <td>${s.price !== undefined ? inr(s.price) : '—'}<div class="small muted">${esc(s.paymentRef || '')}</div></td>
+              <td>${status(s)}</td></tr>`; }).join('')}
+          </table></div>
+        </section>` : ''}
+      </div>`;
+    $('#profile-logout').addEventListener('click', () => $('#logout').click());
   }
 
   // ---------- test engine ----------
