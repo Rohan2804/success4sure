@@ -93,7 +93,7 @@ def reviewers_for(x):
     return [r for r in SITE.get('reviewers', []) if r.get('name') and ('*' in r.get('exams', []) or x['id'] in r.get('exams', []))]
 
 # ---------- page shell ----------
-NAV = [('/exams/', 'All Exams')] + [(group_url(g), 'MBA' if g['id'] == 'MBA' else g['label']) for g in GROUPS if g['id'] != 'Insurance & Finance'] + [('/soft-skills/', 'Soft Skills'), ('/study-material/', 'Study Material')]
+NAV = [('/exams/', 'All Exams')] + [(group_url(g), 'MBA' if g['id'] == 'MBA' else g['label']) for g in GROUPS if g['id'] != 'Insurance & Finance'] + [('/soft-skills/', 'Soft Skills'), ('/tools/', 'Free Tools'), ('/study-material/', 'Study Material')]
 
 def org_ld():
     o = {'@type': 'Organization', '@id': BASE + '/#org', 'name': SITE['name'], 'url': BASE + '/'}
@@ -112,25 +112,25 @@ def crumbs_html(items):
     parts = [f'<a href="{e(u)}">{e(n)}</a>' for n, u in items[:-1]] + [f'<span aria-current="page">{e(items[-1][0])}</span>']
     return '<nav class="crumbs" aria-label="Breadcrumb">' + ' <span class="sep">›</span> '.join(parts) + '</nav>'
 
-def page(path, title, desc, body, ld=None, noindex=False, active=''):
+def page(path, title, desc, body, ld=None, noindex=False, active='', lang='en-IN', alternates=None):
     canonical = BASE + path
     graph = [org_ld()] + (ld or [])
     nav = ''.join(f'<a href="{u}" class="{"active" if u == active else ""}">{e(t)}</a>' for u, t in NAV)
     return f'''<!doctype html>
-<html lang="en-IN">
+<html lang="{lang}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{e(title)}</title>
   <meta name="description" content="{e(desc)}">
   <link rel="canonical" href="{canonical}">
-  <meta name="robots" content="{'noindex, follow' if noindex else 'index, follow, max-image-preview:large'}">
+{''.join(f'  <link rel="alternate" hreflang="{k}" href="{BASE}{v}">' + chr(10) for k, v in (alternates or {}).items())}  <meta name="robots" content="{'noindex, follow' if noindex else 'index, follow, max-image-preview:large'}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{e(SITE['name'])}">
   <meta property="og:title" content="{e(title)}">
   <meta property="og:description" content="{e(desc)}">
   <meta property="og:url" content="{canonical}">
-  <meta property="og:locale" content="en_IN">
+  <meta property="og:locale" content="{lang.replace('-', '_')}">
   <meta name="twitter:card" content="summary">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -171,6 +171,8 @@ def footer():
         <a href="/contact/">Contact</a>
         <a href="/soft-skills/">Soft skills courses</a>
         <a href="/study-material/">Free study material</a>
+        <a href="/tools/">Free calculators</a>
+        <a href="/guides/">Exam preparation guides</a>
         <a href="/privacy-policy/">Privacy policy</a>
         <a href="/terms/">Terms of use</a>
         <a href="/refund-policy/">Refund policy</a>
@@ -237,14 +239,18 @@ def exam_page(x):
         </div>''' for i, q in enumerate(smp))
 
     links_html = ''.join(f'<li><a href="{e(l["url"])}" target="_blank" rel="noopener noreferrer">{e(l["label"])}</a></li>' for l in x.get('links', []))
-    ch_html = ''.join(f'<li><span>{e(n)}</span><span class="muted small">{k} practice questions</span></li>' for n, k in ch.items())
+    fr = FREE.get(x['id'], {})
+    ch_html = ''.join(f'<li><span>{(chr(60) + "a href=" + chr(34) + chapter_url(x, n) + chr(34) + chr(62) + e(n) + "</a>") if n in fr else e(n)}</span><span class="muted small">{k} practice questions</span></li>' for n, k in ch.items())
+    gl = guides_for(x)
+    guides_html = ('<section><h2>' + e(code(x)) + ' preparation guides</h2><ul class="related">' + ''.join(f'<li><a href="{guide_url(gd)}">{e(gd["title"])}</a></li>' for gd in gl) + '</ul></section>') if gl else ''
+    hi_html = f'<p class="small"><a href="{hi_url(x)}" hreflang="hi-IN" lang="hi">{e(HI[x["id"]]["name"])} — हिंदी में पढ़ें</a></p>' if x['id'] in HI else ''
 
     body = f'''    <section class="page-hero"><div class="wrap">
       {crumbs_html(crumbs)}
       <h1>{e(code(x))} Mock Test: {e(x['name'])}</h1>
       <p class="lead-left">{e(kw['intro']) if kw.get('intro') else f"Up to {CAT['MAX_TESTS']} full-length mock tests of {p['questions']} questions each, built on the official syllabus, with an explanation for every answer."}</p>
       <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team · <a href="/how-we-create-questions/">How we create questions</a></p>
-      {rev_html}
+      {rev_html}{hi_html}
       <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/exam/{x['id']}">See plans &amp; start</a><a class="btn btn-lg" href="/#/test/{x['id']}?demo=1">Try a free demo</a></div>
     </div></section>
     <div class="wrap page prose">
@@ -259,9 +265,10 @@ def exam_page(x):
           <tr><th>Negative marking</th><td>{e(neg_text(x))}</td></tr>
         </table></div>
         <p class="small muted">Indicative pattern. Exam bodies revise patterns — confirm the details in the latest official notification before your exam.</p>
+        <p class="small">Check a mock-test score with this pattern in our <a href="/tools/exam-score-calculator/?exam={x['id']}">exam score calculator</a>{' · Already certified? See when it expires with the <a href="/tools/nism-certificate-validity-checker/">NISM certificate validity checker</a>' if x['group'] == 'NISM' else ''}.</p>
       </section>
       <section><h2>Syllabus covered in our {e(code(x))} question bank</h2>
-        <p>Our {bank}-question bank for {e(code(x))} covers every {'chapter' if x['group'] == 'NISM' else 'section'} below. Mock tests mix questions across all of them in the same proportion as the real paper.</p>
+        <p>Our {bank}-question bank for {e(code(x))} covers every {'chapter' if x['group'] == 'NISM' else 'section'} below. Mock tests mix questions across all of them in the same proportion as the real paper.{' Open any ' + ('chapter' if x['group'] == 'NISM' else 'section') + ' for free practice questions on it.' if fr else ''}</p>
         <ul class="chapter-counts">{ch_html}</ul>
       </section>
       <section><h2>Free {e(code(x))} sample questions</h2>
@@ -278,6 +285,7 @@ def exam_page(x):
         <ul>{links_html}</ul>
         <p class="small muted">Links open the official website. We do not host or alter official material.</p>
       </section>
+      {guides_html}
       <section><h2>{e(code(x))} mock test FAQs</h2>
         {''.join(f'<details class="faq-item"><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q, a in faqs)}
       </section>
@@ -296,7 +304,8 @@ def exam_page(x):
     course.pop('educationalCredentialAwarded')
     if revs: course['reviewedBy'] = [{'@type': 'Person', 'name': r['name'], **({'url': r['profileUrl']} if r.get('profileUrl') else {})} for r in revs]
     ld = [breadcrumb_ld(crumbs), course, {'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in faqs]}]
-    return page(exam_url(x), title, desc, body, ld, noindex=x.get('noindex'), active=group_url(g))
+    alts = {'en-IN': exam_url(x), 'hi-IN': hi_url(x)} if x['id'] in HI else None
+    return page(exam_url(x), title, desc, body, ld, noindex=x.get('noindex'), active=group_url(g), alternates=alts)
 
 def practice_questions(x):
     used = {q[1] for q in samples(x)}
@@ -337,6 +346,7 @@ def practice_page(x):
         <p class="small muted">These are original practice questions written to the official syllabus. They are not actual exam questions.</p>
       </section>
       <section><h2>Free {e(code(x))} practice questions</h2>{q_html}</section>
+      {('<section><h2>Practise chapter by chapter</h2><ul class="related">' + ''.join(f'<li><a href="{chapter_url(x, c)}">{e(c)}</a></li>' for c in FREE[x['id']]) + '</ul></section>') if x['id'] in FREE else ''}
       <section><h2>Ready for a full {e(code(x))} mock test?</h2>
         <p>Each mock test has {p['questions']} questions with a timer, your score, chapter-wise analysis and an explanation for every answer. Plans unlock one full-length mock test per day, from ₹{PLANS[0]['price']} including GST.</p>
         <div class="row"><a class="btn btn-primary" href="/#/exam/{x['id']}">See {e(code(x))} plans</a><a class="btn" href="{exam_url(x)}">Exam pattern &amp; syllabus</a></div>
@@ -345,7 +355,8 @@ def practice_page(x):
     lr = {'@type': 'LearningResource', 'name': f"{code(x)} practice questions", 'description': desc, 'url': BASE + practice_url(x), 'inLanguage': 'en-IN',
           'learningResourceType': 'Practice questions', 'educationalLevel': 'Professional certification' if x['group'] in ('NISM', 'Insurance & Finance') else 'Competitive exam',
           'isAccessibleForFree': True, 'provider': {'@id': BASE + '/#org'}, 'dateModified': TODAY.isoformat(), 'about': x['name']}
-    return page(practice_url(x), title, desc, body, [breadcrumb_ld(crumbs), lr], active=group_url(g))
+    alts = {'en-IN': practice_url(x), 'hi-IN': hi_url(x, True)} if x['id'] in HI else None
+    return page(practice_url(x), title, desc, body, [breadcrumb_ld(crumbs), lr], active=group_url(g), alternates=alts)
 
 # ---------- group & hub pages ----------
 GROUP_INTRO = {
@@ -649,6 +660,276 @@ def skill_lesson_page(a, i, l):
         art['hasPart'] = {'@type': 'WebPageElement', 'isAccessibleForFree': False, 'cssSelector': '.paywall'}
     return page(skill_url(a, l), title, desc, body, [breadcrumb_ld(crumbs), art], active='/soft-skills/')
 
+# ---------- free chapter questions, guides and Hindi pages ----------
+FREE = {}
+for f in sorted(glob.glob(os.path.join(ROOT, 'content', 'free-questions', '*.json'))):
+    FREE.update(json.load(open(f, encoding='utf-8')))
+FREE = {k: v for k, v in FREE.items() if any(x['id'] == k and not x.get('noindex') for x in EXAMS)}
+GUIDES = []
+for f in sorted(glob.glob(os.path.join(ROOT, 'content', 'guides', '*.json'))):
+    GUIDES += json.load(open(f, encoding='utf-8'))['guides']
+GUIDES = [g for g in GUIDES if any(x['id'] == g['exam'] and not x.get('noindex') for x in EXAMS)]
+HI = rd('content/hi/exams.json') if os.path.exists(os.path.join(ROOT, 'content', 'hi', 'exams.json')) else {}
+HI = {k: v for k, v in HI.items() if any(x['id'] == k for x in EXAMS)}
+
+def chapter_slug(ch):
+    s = slugify(ch)[:60].strip('-')
+    return 'chapter-' + s if s in ('practice-questions', '') else s
+def chapter_url(x, ch): return exam_url(x) + chapter_slug(ch) + '/'
+def guide_url(g): return f"/guides/{g['slug']}/"
+def guides_for(x): return [g for g in GUIDES if g['exam'] == x['id']]
+def hi_url(x, practice=False): return '/hi' + exam_url(x) + ('practice-questions/' if practice else '')
+
+def q_block(i, q, label=''):
+    return f'''
+        <div class="sample" id="q{i + 1}">
+          <div class="small muted">Question {i + 1}{(' · ' + e(label)) if label else ''}</div>
+          <p class="sample-q">{e(q[0])}</p>
+          <ol class="sample-opts" type="A">{''.join(f'<li>{e(o)}</li>' for o in q[1])}</ol>
+          <details><summary>Show answer &amp; explanation</summary><p><b>Answer: {"ABCD"[q[2]]}. {e(q[1][q[2]])}</b></p><p>{e(q[3])}</p></details>
+        </div>'''
+
+def chapter_page(x, idx, ch, block):
+    g, p = GROUP[x['group']], x['pattern']
+    chs = list(FREE[x['id']].keys())
+    crumbs = [('Home', '/'), ('Exams', '/exams/'), (g['label'], group_url(g)), (code(x), exam_url(x)), (ch, chapter_url(x, ch))]
+    unit = 'Chapter' if x['group'] in ('NISM', 'Insurance & Finance') else 'Section'
+    title = seo_title(f"{code(x)} {ch} Questions with Answers")
+    if len(title) > 70:
+        title = f"{code(x)} {ch} Questions"
+        if len(title) > 65: title = f"{code(x)} {ch[:62 - len(code(x)) - 11].rstrip(' ,&-')}… Questions"
+    qs = block['questions']
+    desc = f"{len(qs)} free {code(x)} practice questions on {ch}, with answers and explanations. Revise this {unit.lower()} and test yourself before the exam."
+    if len(desc) > 158: desc = f"{len(qs)} free {code(x)} questions on {ch[:60]} with answers and explanations."
+    nav = []
+    if idx > 0: nav.append(f'<a class="btn" href="{chapter_url(x, chs[idx - 1])}">&larr; {e(chs[idx - 1])}</a>')
+    if idx + 1 < len(chs): nav.append(f'<a class="btn" href="{chapter_url(x, chs[idx + 1])}">{e(chs[idx + 1])} &rarr;</a>')
+    gl = guides_for(x)
+    body = f'''    <section class="page-hero"><div class="wrap">
+      {crumbs_html(crumbs)}
+      <div class="hero-series">{e(code(x))} · {unit} {idx + 1} of {len(chs)}</div>
+      <h1 style="margin-top:6px">{e(ch)}: {e(code(x))} practice questions</h1>
+      <p class="lead-left">{len(qs)} free questions with answers and explanations on {e(ch)}, from the {e(code(x))} ({e(x['name'])}) syllabus.</p>
+      <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team · <a href="/how-we-create-questions/">How we create questions</a></p>
+    </div></section>
+    <div class="wrap page prose">
+      <section><h2>What this {unit.lower()} covers</h2><p>{e(block['overview'])}</p></section>
+      <section><h2>{e(ch)} questions</h2>{''.join(q_block(i, q) for i, q in enumerate(qs))}</section>
+      <div class="row" style="margin:24px 0">{''.join(nav)}</div>
+      <section><h2>Practise the full {e(code(x))} paper</h2>
+        <p>The real exam mixes every {unit.lower()}: {p['questions']} questions in {p['duration']} minutes{', with negative marking' if p['negative'] else ''}. Full-length mock tests give you the timer, your score and a {unit.lower()}-wise analysis.</p>
+        <div class="row"><a class="btn btn-primary" href="/#/test/{x['id']}?demo=1">Take a free demo test</a><a class="btn" href="{exam_url(x)}">{e(code(x))} mock tests</a><a class="btn" href="{practice_url(x)}">Mixed practice questions</a></div>
+      </section>
+      <section><h2>All {e(code(x))} {unit.lower()}s</h2><ul class="related">{''.join(f'<li><a href="{chapter_url(x, c)}">{e(c)}</a></li>' for c in chs if c != ch)}</ul></section>
+      {('<section><h2>Preparation guides</h2><ul class="related">' + ''.join(f'<li><a href="{guide_url(gd)}">{e(gd["title"])}</a></li>' for gd in gl) + '</ul></section>') if gl else ''}
+    </div>'''
+    lr = {'@type': 'LearningResource', 'name': f"{code(x)} {ch} practice questions", 'description': desc, 'url': BASE + chapter_url(x, ch), 'inLanguage': 'en-IN',
+          'learningResourceType': 'Practice questions', 'isAccessibleForFree': True, 'provider': {'@id': BASE + '/#org'}, 'dateModified': TODAY.isoformat(), 'about': ch,
+          'isPartOf': {'@type': 'Course', 'name': f"{code(x)} Mock Test Series", 'url': BASE + exam_url(x)}}
+    return page(chapter_url(x, ch), title, desc, body, [breadcrumb_ld(crumbs), lr], active=group_url(g))
+
+def guide_page(gd):
+    x = next(y for y in EXAMS if y['id'] == gd['exam'])
+    crumbs = [('Home', '/'), ('Guides', '/guides/'), (gd['title'], guide_url(gd))]
+    secs = ''.join(f'''<section><h2>{e(s["heading"])}</h2>{''.join(f'<p>{e(p)}</p>' for p in s.get('paragraphs', []))}{('<ul>' + ''.join(f'<li>{e(b)}</li>' for b in s['bullets']) + '</ul>') if s.get('bullets') else ''}</section>''' for s in gd['sections'])
+    others = [o for o in GUIDES if o is not gd and (o['exam'] == gd['exam'] or GROUP[next(y for y in EXAMS if y['id'] == o['exam'])['group']] is GROUP[x['group']])][:5]
+    chs = list(FREE.get(x['id'], {}).keys())
+    words = len((gd['intro'] + ' '.join(' '.join(s.get('paragraphs', []) + s.get('bullets', [])) for s in gd['sections'])).split())
+    body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}
+      <div class="hero-series">{e(code(x))} · Preparation guide · {max(1, round(words / 200))} min read</div>
+      <h1 style="margin-top:6px">{e(gd['title'])}</h1><p class="lead-left">{e(gd['intro'])}</p>
+      <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team</p></div></section>
+    <div class="wrap page prose lesson">
+      {secs}
+      <div class="card" style="margin:32px 0"><h3 style="margin-top:0">Practise as you prepare</h3>
+        <p class="muted">Test yourself with free {e(code(x))} practice questions, then take full-length timed mock tests with explanations.</p>
+        <div class="row"><a class="btn btn-primary" href="{practice_url(x)}">Free practice questions</a><a class="btn" href="{exam_url(x)}">{e(code(x))} mock tests</a><a class="btn" href="/tools/exam-score-calculator/?exam={x['id']}">Score calculator</a></div></div>
+      {('<section><h2>Chapter-wise practice</h2><ul class="related">' + ''.join(f'<li><a href="{chapter_url(x, c)}">{e(c)}</a></li>' for c in chs) + '</ul></section>') if chs else ''}
+      <section><h2>FAQs</h2>{''.join(f'<details class="faq-item"><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q, a in gd['faqs'])}</section>
+      {('<section><h2>More guides</h2><ul class="related">' + ''.join(f'<li><a href="{guide_url(o)}">{e(o["title"])}</a></li>' for o in others) + '</ul></section>') if others else ''}
+    </div>'''
+    art = {'@type': 'Article', 'headline': gd['title'], 'description': gd['description'], 'inLanguage': 'en-IN', 'url': BASE + guide_url(gd), 'keywords': ', '.join([gd['primary']] + gd.get('secondary', [])),
+           'author': {'@id': BASE + '/#org'}, 'publisher': {'@id': BASE + '/#org'}, 'dateModified': TODAY.isoformat(), 'wordCount': words, 'about': x['name']}
+    ld = [breadcrumb_ld(crumbs), art, {'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in gd['faqs']]}]
+    return page(guide_url(gd), seo_title(gd['title']), gd['description'], body, ld, active='/exams/')
+
+def guides_hub():
+    crumbs = [('Home', '/'), ('Guides', '/guides/')]
+    blocks = ''
+    for g in GROUPS:
+        gs = [gd for gd in GUIDES if next(y for y in EXAMS if y['id'] == gd['exam'])['group'] == g['id']]
+        if gs: blocks += f'<section><h2>{e(g["label"])}</h2><ul class="related">' + ''.join(f'<li><a href="{guide_url(gd)}">{e(gd["title"])}</a> <span class="small muted">— {e(gd["description"][:110])}…</span></li>' for gd in gs) + '</ul></section>'
+    body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}<h1>Exam preparation guides</h1>
+      <p class="lead-left">Study plans, chapter strategies and exam comparisons for NISM certifications, bank exams, SSC, CAT and IC-38 — written to the official syllabus.</p></div></section>
+    <div class="wrap page prose">{blocks}</div>'''
+    ld = [breadcrumb_ld(crumbs), {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'url': BASE + guide_url(gd), 'name': gd['title']} for i, gd in enumerate(GUIDES)]}]
+    return page('/guides/', seo_title('Exam Preparation Guides: NISM, Bank, SSC and CAT'), 'Free exam preparation guides: day-by-day study plans, toughest chapters and exam comparisons for NISM, IBPS, SBI, SSC CGL, CAT and IC-38.', body, ld, active='/exams/')
+
+HI_L = {'home': 'होम', 'exams': 'परीक्षाएँ', 'pattern': 'परीक्षा पैटर्न', 'questions': 'प्रश्न', 'marks': 'कुल अंक', 'duration': 'समय', 'minutes': 'मिनट',
+        'target': 'लक्ष्य स्कोर', 'pass': 'पासिंग स्कोर', 'neg': 'नेगेटिव मार्किंग', 'none': 'कोई नेगेटिव मार्किंग नहीं', 'about': 'परीक्षा के बारे में', 'who': 'किसे देनी चाहिए',
+        'syllabus': 'सिलेबस', 'faqs': 'अक्सर पूछे जाने वाले प्रश्न', 'plans': 'मॉक टेस्ट प्लान', 'start': 'प्लान देखें और शुरू करें', 'demo': 'फ्री डेमो टेस्ट दें',
+        'practice': 'फ्री प्रैक्टिस प्रश्न (उत्तर सहित)', 'answer': 'उत्तर और व्याख्या देखें', 'ans': 'उत्तर', 'english': 'Read in English', 'updated': 'अंतिम अपडेट',
+        'indicative': 'यह संकेतात्मक पैटर्न है — परीक्षा से पहले नवीनतम आधिकारिक अधिसूचना में पुष्टि करें।', 'not_real': 'ये मूल प्रैक्टिस प्रश्न हैं, असली परीक्षा के प्रश्न नहीं।',
+        'days': 'दिन', 'tests': 'मॉक टेस्ट', 'price': 'कीमत (GST सहित)', 'q': 'प्रश्न'}
+
+def hi_exam_page(x):
+    h, p, g = HI[x['id']], x['pattern'], GROUP[x['group']]
+    comp = competitive(x)
+    crumbs = [(HI_L['home'], '/'), (HI_L['exams'], '/exams/'), (g['label'], group_url(g)), (h['name'], hi_url(x))]
+    neg = (f"हाँ, हर गलत उत्तर पर उस प्रश्न के {round(p['negative'] * 100, 1):g}% अंक कटते हैं" if p['negative'] else HI_L['none'])
+    chs = list(dict.fromkeys(q[0] for q in QB.get(x['id'], [])))
+    body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}
+      <h1>{e(h['h1'])}</h1><p class="lead-left">{e(h['intro'])}</p>
+      <p class="meta-row small muted">{HI_L['updated']}: {DATE_HUMAN} · <a href="{exam_url(x)}" hreflang="en-IN" lang="en">{HI_L['english']}</a></p>
+      <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/exam/{x['id']}">{HI_L['start']}</a><a class="btn btn-lg" href="/#/test/{x['id']}?demo=1">{HI_L['demo']}</a></div>
+    </div></section>
+    <div class="wrap page prose">
+      <section><h2>{HI_L['about']}</h2><p>{e(h['about'])}</p><p><b>{HI_L['who']}:</b> {e(h['who'])}</p></section>
+      <section><h2>{e(h['name'])} {HI_L['pattern']}</h2><div class="table-wrap"><table>
+        <tr><th>{HI_L['questions']}</th><td>{p['questions']}</td></tr><tr><th>{HI_L['marks']}</th><td>{p['marks']}</td></tr>
+        <tr><th>{HI_L['duration']}</th><td>{p['duration']} {HI_L['minutes']}</td></tr>
+        <tr><th>{HI_L['target'] if comp else HI_L['pass']}</th><td>{p['passPct']}%</td></tr><tr><th>{HI_L['neg']}</th><td>{neg}</td></tr></table></div>
+        <p class="small muted">{HI_L['indicative']}</p></section>
+      <section><h2>{HI_L['syllabus']}</h2><ul>{''.join(f'<li>{e(h["chapters"].get(c, c))}</li>' for c in chs)}</ul></section>
+      <section><h2>{HI_L['plans']}</h2><div class="table-wrap"><table><tr><th>{HI_L['days']}</th><th>{HI_L['tests']}</th><th>{HI_L['price']}</th></tr>
+        {''.join(f"<tr><td>{pl['days']}</td><td>{pl['tests']}</td><td>₹{pl['price']}</td></tr>" for pl in PLANS)}</table></div></section>
+      <p><a class="btn" href="{hi_url(x, True)}">{e(h['name'])} — {HI_L['practice']} &rarr;</a></p>
+      <section><h2>{HI_L['faqs']}</h2>{''.join(f'<details class="faq-item"><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q, a in h['faqs'])}</section>
+    </div>'''
+    ld = [breadcrumb_ld(crumbs), {'@type': 'FAQPage', 'inLanguage': 'hi-IN', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in h['faqs']]}]
+    return page(hi_url(x), seo_title(h['title']), h['description'], body, ld, active=group_url(g), lang='hi-IN', alternates={'en-IN': exam_url(x), 'hi-IN': hi_url(x)})
+
+def hi_practice_page(x):
+    h, g = HI[x['id']], GROUP[x['group']]
+    crumbs = [(HI_L['home'], '/'), (HI_L['exams'], '/exams/'), (h['name'], hi_url(x)), (HI_L['practice'], hi_url(x, True))]
+    qs = h['practice']
+    blocks = ''.join(f'''
+        <div class="sample"><div class="small muted">{HI_L['q']} {i + 1} · {e(q[0])}</div><p class="sample-q">{e(q[1])}</p>
+          <ol class="sample-opts" type="A">{''.join(f'<li>{e(o)}</li>' for o in q[2])}</ol>
+          <details><summary>{HI_L['answer']}</summary><p><b>{HI_L['ans']}: {"ABCD"[q[3]]}. {e(q[2][q[3]])}</b></p><p>{e(q[4])}</p></details></div>''' for i, q in enumerate(qs))
+    body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}<h1>{e(h['pq_title'])}</h1><p class="lead-left">{e(h['pq_description'])}</p>
+      <p class="meta-row small muted">{HI_L['updated']}: {DATE_HUMAN} · <a href="{practice_url(x)}" hreflang="en-IN" lang="en">{HI_L['english']}</a></p>
+      <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/test/{x['id']}?demo=1">{HI_L['demo']}</a><a class="btn btn-lg" href="{hi_url(x)}">{e(h['name'])}</a></div></div></section>
+    <div class="wrap page prose"><p class="small muted">{HI_L['not_real']}</p>{blocks}</div>'''
+    lr = {'@type': 'LearningResource', 'name': h['pq_title'], 'description': h['pq_description'], 'url': BASE + hi_url(x, True), 'inLanguage': 'hi-IN', 'isAccessibleForFree': True, 'provider': {'@id': BASE + '/#org'}}
+    return page(hi_url(x, True), seo_title(h['pq_title']), h['pq_description'], body, [breadcrumb_ld(crumbs), lr], active=group_url(g), lang='hi-IN',
+                alternates={'en-IN': practice_url(x), 'hi-IN': hi_url(x, True)})
+
+# ---------- free tools ----------
+TOOLS = [
+    {'slug': 'ctc-to-in-hand-salary-calculator', 'name': 'CTC to In-Hand Salary Calculator', 'short': 'CTC to in-hand salary',
+     'title': 'CTC to In-Hand Salary Calculator 2026 (New Tax Regime)',
+     'desc': 'Convert your CTC to monthly in-hand salary for FY 2026-27 under the new tax regime, after PF, gratuity, professional tax and income tax. Free.',
+     'lead': 'Got an offer letter? Enter your annual CTC to estimate your monthly take-home salary under the new tax regime, with a line-by-line breakdown of PF, gratuity, professional tax and income tax.',
+     'form': '''<form id="ctc-form" class="tool-form" novalidate>
+        <label class="field"><span>Annual CTC (₹)</span><input name="ctc" type="number" inputmode="numeric" min="0" step="1000" value="600000"></label>
+        <label class="field"><span>Variable pay / bonus in CTC (₹ per year)</span><input name="variable" type="number" inputmode="numeric" min="0" step="1000" value="0"></label>
+        <label class="field"><span>Basic salary (% of fixed CTC)</span><input name="basicPct" type="number" min="10" max="100" step="1" value="40"></label>
+        <label class="field"><span>Professional tax (₹ per year)</span><input name="pt" type="number" min="0" step="100" value="2500"></label>
+        <label class="check"><input type="checkbox" name="pfInCtc" checked> Employer PF is part of my CTC</label>
+        <label class="check"><input type="checkbox" name="pfCap"> PF is calculated on basic capped at ₹15,000 a month</label>
+        <label class="check"><input type="checkbox" name="gratuity" checked> Gratuity (4.81% of basic) is part of my CTC</label>
+      </form>''', 'out': 'ctc-out', 'exams': False,
+     'how': ['Your gross fixed salary is your CTC minus the employer\'s PF contribution, gratuity and variable pay, because these are part of the CTC but are not paid to you every month.',
+             'From the gross salary we deduct your own PF contribution (12% of basic), professional tax (set by your state — up to ₹2,500 a year) and income tax.',
+             'Income tax uses the new tax regime: a ₹75,000 standard deduction, slabs of 0% up to ₹4 lakh, 5% to ₹8 lakh, 10% to ₹12 lakh, 15% to ₹16 lakh, 20% to ₹20 lakh, 25% to ₹24 lakh and 30% above, the section 87A rebate that makes taxable income up to ₹12 lakh tax-free, and 4% cess.',
+             'This is an estimate. Your payslip can differ because of allowances, HRA, meal cards, the old tax regime, or how your employer structures PF. Check the exact rules on the income tax department\'s website.'],
+     'faqs': [('Why is my in-hand salary lower than my CTC?', 'CTC includes costs your employer pays on your behalf, such as their PF contribution and gratuity, plus variable pay that is paid later. Your own PF, professional tax and income tax are then deducted from the monthly salary, so in-hand pay is usually 70–90% of CTC divided by 12.'),
+              ('Is a salary of ₹12 lakh tax-free under the new regime?', 'Under the new regime, taxable income up to ₹12 lakh gets a full rebate under section 87A. Salaried people also get a ₹75,000 standard deduction, so gross salary of about ₹12.75 lakh can work out to zero tax. Confirm the current year\'s rules before you file.'),
+              ('Should I choose the old or new tax regime?', 'The new regime has lower rates but almost no deductions. The old regime can work out cheaper if you claim large deductions such as HRA, 80C investments and home-loan interest. Compare both on the income tax department\'s calculator or with a tax adviser — this tool shows the new regime only.')]},
+    {'slug': 'sip-calculator', 'name': 'SIP Calculator', 'short': 'SIP calculator',
+     'title': 'SIP Calculator – Monthly SIP Returns with Step-Up',
+     'desc': 'Estimate how much a monthly SIP could grow to, with an optional yearly step-up. See invested amount, estimated gains and a year-by-year table. Free.',
+     'lead': 'See what a monthly SIP could grow to over time. Add a yearly step-up to see how raising your SIP with each salary hike changes the result.',
+     'form': '''<form id="sip-form" class="tool-form" novalidate>
+        <label class="field"><span>Monthly SIP amount (₹)</span><input name="amount" type="number" inputmode="numeric" min="100" step="100" value="5000"></label>
+        <label class="field"><span>Expected annual return (%)</span><input name="rate" type="number" min="0" max="30" step="0.5" value="12"></label>
+        <label class="field"><span>Time period (years)</span><input name="years" type="number" min="1" max="50" step="1" value="10"></label>
+        <label class="field"><span>Yearly step-up (%)</span><input name="stepup" type="number" min="0" max="50" step="1" value="0"></label>
+      </form>''', 'out': 'sip-out', 'exams': False,
+     'how': ['Each monthly instalment is invested at the start of the month and grows at the expected return, compounded monthly. With a step-up, the SIP amount rises by that percentage every 12 months.',
+             'Mutual fund returns are not fixed. Equity funds can fall in some years, and past returns do not indicate future returns. Use a conservative rate and treat the result as an illustration, not a promise.',
+             'This calculator is for education only and is not investment advice. Mutual fund investments are subject to market risks; read all scheme-related documents carefully.'],
+     'faqs': [('What return should I assume for a SIP?', 'There is no fixed answer because market-linked returns vary. Many people test a few rates — for example 8%, 10% and 12% for equity funds — to see a range of outcomes. A lower assumed rate gives a more conservative plan.'),
+              ('What is a step-up SIP?', 'A step-up SIP increases your monthly instalment by a fixed percentage each year, usually in line with salary hikes. Even a 5–10% yearly increase can make a large difference to the final amount over 10 years or more.'),
+              ('Is the SIP calculator result guaranteed?', 'No. It is a mathematical estimate based on the rate you enter. Actual mutual fund returns depend on markets and can be higher or lower, including negative in some periods.')]},
+    {'slug': 'emi-calculator', 'name': 'EMI Calculator', 'short': 'EMI calculator',
+     'title': 'EMI Calculator for Home, Car and Personal Loans',
+     'desc': 'Calculate the monthly EMI for a home, car, education or personal loan, with total interest payable and the balance left each year. Free and instant.',
+     'lead': 'Work out the monthly EMI for any loan and see how much of what you repay is interest. Useful before taking a personal, education, car or home loan — or a credit card EMI.',
+     'form': '''<form id="emi-form" class="tool-form" novalidate>
+        <label class="field"><span>Loan amount (₹)</span><input name="principal" type="number" inputmode="numeric" min="1000" step="1000" value="500000"></label>
+        <label class="field"><span>Interest rate (% per year)</span><input name="rate" type="number" min="0" max="50" step="0.1" value="10.5"></label>
+        <label class="field"><span>Loan tenure (years)</span><input name="years" type="number" min="0.5" max="30" step="0.5" value="5"></label>
+      </form>''', 'out': 'emi-out', 'exams': False,
+     'how': ['EMI = P × r × (1 + r)ⁿ ÷ ((1 + r)ⁿ − 1), where P is the loan amount, r is the monthly interest rate (annual rate ÷ 12 ÷ 100) and n is the number of monthly instalments.',
+             'In the early years most of each EMI goes towards interest; later, more of it repays the principal. That is why prepaying early saves the most interest.',
+             'Lenders may add processing fees, insurance or GST on charges, and rates can change on floating-rate loans. Check the loan agreement for the exact figures.'],
+     'faqs': [('How can I reduce my EMI?', 'You can choose a longer tenure, make a larger down payment, or negotiate a lower interest rate. A longer tenure lowers the EMI but increases the total interest you pay, so compare the total cost, not just the EMI.'),
+              ('Is a no-cost EMI really free?', 'Often the interest is offset by a discount the seller gives the lender, but processing fees and GST on interest may still apply, and you may lose a cash discount. Read the terms and compare the total amount paid.'),
+              ('How much EMI is affordable?', 'A common rule of thumb is to keep all EMIs together below 30–40% of your monthly take-home pay, so you still have room for savings, emergencies and regular expenses.')]},
+    {'slug': 'exam-score-calculator', 'name': 'Exam Score Calculator', 'short': 'Exam score calculator',
+     'title': 'Exam Score Calculator with Negative Marking',
+     'desc': 'Calculate your score for NISM, IBPS, SBI, SSC, CAT, IC-38 and more with negative marking. Enter right and wrong answers to see your marks.',
+     'lead': 'Pick your exam and enter how many questions you got right and wrong. The calculator applies that exam\'s marks per question and negative marking, and tells you how far you are from the pass mark or target score.',
+     'form': '''<form id="score-form" class="tool-form" novalidate>
+        <label class="field field-wide"><span>Exam</span><select name="exam"></select></label>
+        <p class="small muted field-wide" id="score-pattern"></p>
+        <label class="field"><span>Correct answers</span><input name="right" type="number" inputmode="numeric" min="0" step="1" value="60"></label>
+        <label class="field"><span>Wrong answers</span><input name="wrong" type="number" inputmode="numeric" min="0" step="1" value="15"></label>
+      </form>''', 'out': 'score-out', 'exams': True,
+     'how': ['Score = (correct answers × marks per question) − (wrong answers × negative marks per wrong answer). Unattempted questions score zero.',
+             'Marks per question and the negative-marking rule come from the indicative pattern on each exam\'s page. Many exams deduct a quarter of a question\'s marks for each wrong answer; NISM exams with negative marking typically deduct 25%.',
+             'Competitive exams such as IBPS, SBI, SSC and CAT have sectional and overall cut-offs that change every year and by category, so the target score shown is a practice benchmark, not an official cut-off.'],
+     'faqs': [('Should I attempt questions I am unsure about?', 'With negative marking of one quarter, a guess between two options has a positive expected value, but a blind guess between four does not. Eliminate at least one or two options before guessing.'),
+              ('How is negative marking calculated?', 'If a question carries 1 mark and the penalty is 25%, each wrong answer deducts 0.25 marks. Four wrong answers cancel out one correct answer.'),
+              ('Is this my official result?', 'No. It is an estimate from your own count of right and wrong answers. Official scores may be normalised across shifts, and cut-offs are published by the exam body.')]},
+    {'slug': 'nism-certificate-validity-checker', 'name': 'NISM Certificate Validity Checker', 'short': 'NISM validity checker',
+     'title': 'NISM Certificate Validity Checker and Renewal Date',
+     'desc': 'Check when your NISM certificate expires. Enter your series and pass date to see the expiry date, days left and when to start renewal. Free.',
+     'lead': 'NISM certificates are valid for three years from the date you pass the exam. Enter your series and the date you passed to see your expiry date and when to start renewing.',
+     'form': '''<form id="nism-form" class="tool-form" novalidate>
+        <label class="field field-wide"><span>NISM series</span><select name="series"></select></label>
+        <label class="field"><span>Date you passed the exam</span><input name="passed" type="date"></label>
+      </form>''', 'out': 'nism-out', 'exams': True,
+     'how': ['An NISM certificate is valid for three years from the date of passing the certification examination.',
+             'To keep it valid you can pass the exam again, or — for series where NISM offers it — complete an accredited Continuing Professional Education (CPE) programme before expiry. Rules can change, so confirm on nism.ac.in.',
+             'If you work in a role that requires the certificate (for example as a mutual fund distributor, investment adviser or research analyst), let it lapse only after checking with your employer or the relevant registration body.'],
+     'faqs': [('How long is an NISM certificate valid?', 'Three years from the date you pass the examination. The expiry date is printed on your certificate and can be checked on the NISM portal.'),
+              ('Can I renew my NISM certificate without an exam?', 'For some series NISM accredits Continuing Professional Education (CPE) programmes that can be used to renew the certificate. Check the NISM website for the series and the time window in which CPE must be completed.'),
+              ('What happens if my NISM certificate expires?', 'You may not be able to continue in a role that requires it until you re-certify. Plan ahead: book the exam or CPE programme two to three months before expiry.')]},
+]
+def tool_url(t): return f"/tools/{t['slug']}/"
+
+def tool_page(t):
+    crumbs = [('Home', '/'), ('Free tools', '/tools/'), (t['name'], tool_url(t))]
+    others = ''.join(f'<li><a href="{tool_url(o)}">{e(o["name"])}</a></li>' for o in TOOLS if o is not t)
+    scripts = (f'<script src="/js/data/exams.js?v={ASSET_V}"></script>' if t['exams'] else '') + f'<script src="/js/tools.js?v={ASSET_V}"></script>'
+    body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}<h1>{e(t['name'])}</h1><p class="lead-left">{e(t['lead'])}</p>
+      <p class="meta-row small muted">Last updated {DATE_HUMAN} · Free, no sign-up</p></div></section>
+    <div class="wrap page">
+      <div class="tool-grid"><div class="card">{t['form']}</div><div class="card tool-out" id="{t['out']}" aria-live="polite"></div></div>
+      <div class="prose" style="margin-top:40px">
+        <section><h2>How the {e(t['short'])} works</h2>{''.join(f'<p>{e(p)}</p>' for p in t['how'])}</section>
+        <section><h2>FAQs</h2>{''.join(f'<details class="faq-item"><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q, a in t['faqs'])}</section>
+        <section><h2>More free tools</h2><ul class="related">{others}</ul></section>
+      </div>
+    </div>
+    {scripts}'''
+    app = {'@type': 'WebApplication', 'name': t['name'], 'url': BASE + tool_url(t), 'applicationCategory': 'FinanceApplication' if t['slug'] in ('ctc-to-in-hand-salary-calculator', 'sip-calculator', 'emi-calculator') else 'EducationalApplication',
+           'operatingSystem': 'Any', 'offers': {'@type': 'Offer', 'price': 0, 'priceCurrency': 'INR'}, 'provider': {'@id': BASE + '/#org'}, 'inLanguage': 'en-IN'}
+    ld = [breadcrumb_ld(crumbs), app, {'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in t['faqs']]}]
+    return page(tool_url(t), seo_title(t['title']), t['desc'], body, ld, active='/tools/')
+
+def tools_hub():
+    crumbs = [('Home', '/'), ('Free tools', '/tools/')]
+    cards = ''.join(f'<div class="card"><h2 style="font-size:1.15rem;margin-top:0"><a href="{tool_url(t)}">{e(t["name"])}</a></h2><p class="muted">{e(t["lead"])}</p></div>' for t in TOOLS)
+    body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}<h1>Free calculators for exams, salary and money</h1>
+      <p class="lead-left">Quick, free tools for students and early-career professionals: work out your take-home salary, plan a SIP, check a loan EMI, score your mock test with negative marking and track your NISM certificate's expiry.</p></div></section>
+    <div class="wrap page"><div class="grid">{cards}</div></div>'''
+    ld = [breadcrumb_ld(crumbs), {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'url': BASE + tool_url(t), 'name': t['name']} for i, t in enumerate(TOOLS)]}]
+    return page('/tools/', seo_title('Free Salary, SIP, EMI and Exam Score Calculators'), 'Free online calculators: CTC to in-hand salary, SIP with step-up, loan EMI, exam score with negative marking and NISM certificate validity. No sign-up.', body, ld, active='/tools/')
+
 # ---------- home (SPA shell gets SEO head + crawlable fallback) ----------
 def home_seo():
     title = f"NISM, Bank, SSC & CAT Mock Tests Online | {SITE['name']}"
@@ -685,6 +966,23 @@ def main():
         wr(exam_url(x).strip('/') + '/index.html', exam_page(x)); pages.append((exam_url(x), not x.get('noindex')))
         if not x.get('noindex'):
             wr(practice_url(x).strip('/') + '/index.html', practice_page(x)); pages.append((practice_url(x), True))
+        for i, (ch, block) in enumerate(FREE.get(x['id'], {}).items()):
+            wr(chapter_url(x, ch).strip('/') + '/index.html', chapter_page(x, i, ch, block)); pages.append((chapter_url(x, ch), True))
+        if x['id'] in HI:
+            wr(hi_url(x).strip('/') + '/index.html', hi_exam_page(x)); pages.append((hi_url(x), True))
+            wr(hi_url(x, True).strip('/') + '/index.html', hi_practice_page(x)); pages.append((hi_url(x, True), True))
+    if GUIDES:
+        wr('guides/index.html', guides_hub()); pages.append(('/guides/', True))
+        for gd in GUIDES:
+            wr(guide_url(gd).strip('/') + '/index.html', guide_page(gd)); pages.append((guide_url(gd), True))
+    # free question data for Question of the Day (shuffled once, deterministically)
+    import random
+    for old in glob.glob(os.path.join(ROOT, 'js', 'data', 'free', '*.js')): os.remove(old)
+    for xid, chs in FREE.items():
+        qs = [[ch] + q for ch, b in chs.items() for q in b['questions']]
+        random.Random(xid).shuffle(qs)
+        wr(f'js/data/free/{xid}.js', '// Generated by tools/build_site.py from content/free-questions — free practice questions.\n'
+           + f"(window.FREE_Q = window.FREE_Q || {{}})[{json.dumps(xid)}] = {json.dumps({'qs': qs}, ensure_ascii=False)};\n")
     for g in GROUPS:
         wr(group_url(g).strip('/') + '/index.html', group_page(g)); pages.append((group_url(g), True))
     wr('exams/index.html', exams_hub()); pages.append(('/exams/', True))
@@ -693,6 +991,9 @@ def main():
                      ('/privacy-policy/', privacy_page), ('/terms/', terms_page), ('/refund-policy/', refund_page), ('/disclaimer/', disclaimer_page)]:
         wr(path.strip('/') + '/index.html', fn()); pages.append((path, True))
 
+    wr('tools/index.html', tools_hub()); pages.append(('/tools/', True))
+    for t in TOOLS:
+        wr(tool_url(t).strip('/') + '/index.html', tool_page(t)); pages.append((tool_url(t), True))
     wr('404.html', not_found_page())
     if SKILLS:
         wr('soft-skills/index.html', skills_hub_page()); pages.append(('/soft-skills/', True))
@@ -713,7 +1014,7 @@ def main():
            + f"(window.SKILL_FULL = window.SKILL_FULL || {{}})[{json.dumps(a['slug'])}] = {json.dumps(a['lessons'], ensure_ascii=False)};\n")
 
     # app data
-    app_exams = [{k: v for k, v in x.items() if k not in ('page', 'noindex')} | {'slug': x['slug']} for x in EXAMS]
+    app_exams = [{k: v for k, v in x.items() if k not in ('page', 'noindex')} | {'slug': x['slug']} | ({'free': True} if x['id'] in FREE else {}) for x in EXAMS]
     wr('js/data/exams.js', '// Generated by tools/build_site.py from content/catalog.json — edit the JSON, then rebuild.\n'
        + ''.join(f'window.{k} = {json.dumps(CAT[k], ensure_ascii=False)};\n' for k in ('PLANS', 'MAX_TESTS', 'GROUPS', 'CATEGORIES'))
        + f'window.EXAMS = {json.dumps(app_exams, ensure_ascii=False)};\n')
@@ -734,7 +1035,7 @@ def main():
     wr('robots.txt', f'User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n')
 
     ss = (1 + len(SKILLS) + sum(len(a['lessons']) for a in SKILLS)) if SKILLS else 0
-    print(f'Sitemap: {len(urls)} URLs  (home 1, exam hub 1, categories {len(GROUPS)}, exams {len(INDEXABLE)}, practice-question pages {len(INDEXABLE)}, study material 1, trust pages 7, soft skills {ss})')
+    print(f'Sitemap: {len(urls)} URLs  (chapter pages {sum(len(v) for v in FREE.values())}, guides {len(GUIDES)}, Hindi {2 * len(HI)}, tools {len(TOOLS) + 1}; home 1, exam hub 1, categories {len(GROUPS)}, exams {len(INDEXABLE)}, practice-question pages {len(INDEXABLE)}, study material 1, trust pages 7, soft skills {ss})')
     print(f'Not in sitemap (noindex): {", ".join(code(x) for x in EXAMS if x.get("noindex"))}')
     for w in warnings: print('WARN', w)
 

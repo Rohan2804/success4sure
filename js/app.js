@@ -363,6 +363,7 @@
         : parts[3] === 'scenario' ? viewScenario(parts[1], parts[2], Number(parts[4]) || 0)
         : viewLesson(parts[1], parts[2], params.get('view'))),
       coach: viewCoach,
+      daily: () => viewDaily(params.get('exam')),
     };
     (views[view] || viewNotFound)();
     enhance();
@@ -464,6 +465,8 @@
           <div class="stat"><span class="stat-ico">${icon('phone', 22)}</span><div><b>24×7</b><span>On any device</span></div></div>
         </div>
       </section>
+
+      <section class="section wrap qotd-home" id="qotd-home" style="padding-bottom:0"></section>
 
       <section class="section wrap">
         <div class="section-head reveal">
@@ -596,6 +599,7 @@
       </section>`;
 
     heroQuiz($('#hero-quiz'));
+    renderQotd($('#qotd-home'), qotdState().exam, true);
 
     let cat = 'All';
     const drawGrid = () => {
@@ -999,6 +1003,104 @@
         location.hash = back;
       }, 700);
     });
+  }
+
+  // ---------- question of the day ----------
+  // Free chapter questions live in js/data/free/<examId>.js (generated), loaded on demand.
+  const FREE_V = ((document.querySelector('script[src*="app.js"]') || {}).src || '').split('v=')[1] || '';
+  const freeLoads = {};
+  function loadFree(id) {
+    if ((window.FREE_Q || {})[id]) return Promise.resolve(window.FREE_Q[id]);
+    if (!freeLoads[id]) freeLoads[id] = new Promise((ok, fail) => {
+      const tag = document.createElement('script');
+      tag.src = `/js/data/free/${encodeURIComponent(id)}.js?v=${FREE_V}`;
+      tag.onload = () => ((window.FREE_Q || {})[id] ? ok(window.FREE_Q[id]) : fail());
+      tag.onerror = () => { delete freeLoads[id]; fail(); };
+      document.head.appendChild(tag);
+    });
+    return freeLoads[id];
+  }
+  const istDay = (t = Date.now()) => Math.floor((t + 5.5 * 3600000) / DAY);
+  const QOTD_EXAMS = () => EXAMS.filter((e) => e.free);
+  function qotdState() {
+    const st = store.get('qotd', {});
+    const ok = QOTD_EXAMS();
+    if (!st.exam || !ok.some((e) => e.id === st.exam)) st.exam = (ok.find((e) => e.id === 'v-a') || ok[0] || {}).id;
+    st.days = st.days || {};
+    return st;
+  }
+  function qotdStreak(st) {
+    let n = 0, d = istDay();
+    if (!(d in st.days)) d -= 1; // today not answered yet: streak still counts up to yesterday
+    while (d in st.days) { n++; d--; }
+    return n;
+  }
+  async function renderQotd(el, examId, compact) {
+    if (!el) return;
+    const ex = examById(examId);
+    if (!ex || !ex.free) { el.innerHTML = ''; return; }
+    let data;
+    try { data = await loadFree(ex.id); } catch (e) { el.innerHTML = ''; return; }
+    if (!el.isConnected) return;
+    const day = istDay(), q = data.qs[day % data.qs.length];
+    const st = qotdState(), key = `${day}:${ex.id}`, answered = st.answers && st.answers[key];
+    const streak = qotdStreak(st);
+    const opts = QOTD_EXAMS().map((e) => `<option value="${e.id}" ${e.id === ex.id ? 'selected' : ''}>${esc(examCode(e))}</option>`).join('');
+    const url = `https://success4sure.in/#/daily?exam=${ex.id}`;
+    const shareText = `Question of the day (${examCode(ex)}): ${q[1]}\nCan you answer it? ${url}`;
+    el.innerHTML = `
+      <div class="qotd card">
+        <div class="qotd-top">
+          <div><span class="eyebrow">${icon('bolt', 14)} Question of the day</span><h2>${compact ? 'Your daily practice question' : esc(examCode(ex)) + ' — today\'s question'}</h2></div>
+          <span class="spacer"></span>
+          <label class="qotd-pick"><span class="sr-only">Exam</span><select id="qotd-exam">${opts}</select></label>
+          <span class="qotd-streak" title="Days in a row">🔥 ${streak} day${streak === 1 ? '' : 's'}</span>
+        </div>
+        <div class="small muted">${esc(examCode(ex))} · ${esc(q[0])}</div>
+        <p class="qotd-q">${esc(q[1])}</p>
+        <div class="qotd-opts">${q[2].map((o, i) => `<button class="qopt" data-i="${i}">${'ABCD'[i]}. ${esc(o)}</button>`).join('')}</div>
+        <div class="qotd-foot" ${answered ? '' : 'hidden'}></div>
+      </div>`;
+    const foot = $('.qotd-foot', el);
+    const reveal = (pick) => {
+      $$('.qopt', el).forEach((b, i) => { b.disabled = true; b.classList.toggle('ok', i === q[3]); b.classList.toggle('chosen', i === pick && pick !== q[3]); });
+      const right = pick === q[3];
+      foot.hidden = false;
+      foot.innerHTML = `<div class="notice ${right ? 'ok' : ''}">${right ? icon('check', 16) + ' Correct!' : icon('info', 16) + ` The answer is ${'ABCD'[q[3]]}.`} <span>${esc(q[4])}</span></div>
+        <div class="row" style="margin-top:12px">
+          <span class="small muted">New question every day at midnight.</span><span class="spacer"></span>
+          <a class="btn btn-sm" href="https://wa.me/?text=${encodeURIComponent(shareText)}" target="_blank" rel="noopener">Share on WhatsApp</a>
+          <a class="btn btn-sm" href="/exams/${ex.slug}/practice-questions/">More free ${esc(examCode(ex))} questions</a>
+          <a class="btn btn-primary btn-sm" href="#/test/${ex.id}?demo=1">Take a free demo test</a>
+        </div>`;
+    };
+    if (answered) reveal(answered.pick);
+    $$('.qopt', el).forEach((b) => b.addEventListener('click', () => {
+      const pick = Number(b.dataset.i), s2 = qotdState();
+      s2.answers = s2.answers || {};
+      if (s2.answers[key]) return;
+      s2.answers[key] = { pick, right: pick === q[3] };
+      s2.days[day] = true;
+      // keep storage small: drop answers older than 60 days
+      Object.keys(s2.answers).forEach((k) => { if (Number(k.split(':')[0]) < day - 60) delete s2.answers[k]; });
+      Object.keys(s2.days).forEach((d) => { if (Number(d) < day - 400) delete s2.days[d]; });
+      store.set('qotd', s2);
+      $('.qotd-streak', el).textContent = `🔥 ${qotdStreak(s2)} day${qotdStreak(s2) === 1 ? '' : 's'}`;
+      reveal(pick);
+      if (pick === q[3]) toast(qotdStreak(s2) > 1 ? `${qotdStreak(s2)}-day streak — keep it going!` : 'Correct! Come back tomorrow for a new one.');
+    }));
+    $('#qotd-exam', el).addEventListener('change', (e) => {
+      const s2 = qotdState(); s2.exam = e.target.value; store.set('qotd', s2);
+      if (!compact) history.replaceState(null, '', '#/daily?exam=' + s2.exam);
+      renderQotd(el, s2.exam, compact);
+    });
+  }
+  function viewDaily(examId) {
+    const st = qotdState();
+    if (examId && examById(examId) && examById(examId).free) { st.exam = examId; store.set('qotd', st); }
+    app.innerHTML = `<div class="wrap page"><div id="qotd-page"></div>
+      <div class="card" style="margin-top:20px"><h3 style="margin-top:0">How the streak works</h3><p class="muted" style="margin:0">Answer one question a day for any exam to keep your streak alive. A new question appears every day at midnight (IST). Short daily practice adds up — 30 days is 30 more concepts revised.</p></div></div>`;
+    renderQotd($('#qotd-page'), st.exam, false);
   }
 
   // ---------- dashboard ----------
