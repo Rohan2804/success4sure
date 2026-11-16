@@ -6,7 +6,6 @@
 .assetsignore
 wrangler.jsonc
 node_modules
-tools
 js/data/qbank/*.json
 *.py
 *.md
