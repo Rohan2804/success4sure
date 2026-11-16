@@ -174,6 +174,9 @@ def footer():
         <a href="/soft-skills/">Soft skills courses</a>
         <a href="/study-material/">Free study material</a>
         <a href="/tools/">Free calculators</a>
+        <a href="/glossary/">Finance glossary</a>
+        <a href="/topics/">Bank &amp; SSC topics</a>
+        <a href="/interview-questions/">Interview questions</a>
         <a href="/guides/">Exam preparation guides</a>
         <a href="/privacy-policy/">Privacy policy</a>
         <a href="/terms/">Terms of use</a>
@@ -711,7 +714,7 @@ def chapter_page(x, idx, ch, block):
       <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team · <a href="/how-we-create-questions/">How we create questions</a></p>
     </div></section>
     <div class="wrap page prose">
-      <section><h2>What this {unit.lower()} covers</h2><p>{e(block['overview'])}</p></section>
+      <section><h2>What this {unit.lower()} covers</h2><p>{e(block['overview'])}</p>{('<p><a class="btn" href="' + notes_url(x, ch) + '">Read the ' + e(ch) + ' revision notes</a></p>') if (x['id'], ch) in NOTES else ''}</section>
       <section><h2>{e(ch)} questions</h2>{''.join(q_block(i, q) for i, q in enumerate(qs))}</section>
       <div class="row" style="margin:24px 0">{''.join(nav)}</div>
       <section><h2>Practise the full {e(code(x))} paper</h2>
@@ -812,6 +815,145 @@ def hi_practice_page(x):
     lr = {'@type': 'LearningResource', 'name': h['pq_title'], 'description': h['pq_description'], 'url': BASE + hi_url(x, True), 'inLanguage': 'hi-IN', 'isAccessibleForFree': True, 'provider': {'@id': BASE + '/#org'}}
     return page(hi_url(x, True), seo_title(h['pq_title']), h['pq_description'], body, [breadcrumb_ld(crumbs), lr], active=group_url(g), lang='hi-IN',
                 alternates={'en-IN': practice_url(x), 'hi-IN': hi_url(x, True)})
+
+# ---------- free resources: glossary, chapter notes, topics, interview questions ----------
+def load_items(folder):
+    out = []
+    for f in sorted(glob.glob(os.path.join(ROOT, 'content', folder, '*.json'))):
+        out += json.load(open(f, encoding='utf-8')).get('items', [])
+    return out
+EXAM_BY_ID = {x['id']: x for x in EXAMS}
+GLOSSARY = {}
+for it in load_items('glossary'): GLOSSARY.setdefault(it['slug'], it)
+NOTES = {}
+for it in load_items('notes'):
+    x = EXAM_BY_ID.get(it['exam'])
+    if x and not x.get('noindex'): NOTES[(it['exam'], it['chapter'])] = it
+TOPICS = {}
+for it in load_items('topics'): TOPICS.setdefault(it['slug'], it)
+INTERVIEW = {}
+for it in load_items('interview'): INTERVIEW.setdefault(it['slug'], it)
+COURSE_BY_SLUG = {a['slug']: a for a in SKILLS}
+
+def gl_url(t): return f"/glossary/{t['slug']}/"
+def notes_url(x, ch): return chapter_url(x, ch) + 'notes/'
+def topic_url(t): return f"/topics/{t['slug']}/"
+def iv_url(t): return f"/interview-questions/{t['slug']}/"
+def faq_html(faqs): return ''.join(f'<details class="faq-item"><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q, a in faqs)
+def faq_ld(faqs): return {'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in faqs]}
+def article_ld(headline, desc, url, **extra):
+    return {'@type': 'Article', 'headline': headline, 'description': desc, 'inLanguage': 'en-IN', 'url': BASE + url,
+            'author': {'@id': BASE + '/#org'}, 'publisher': {'@id': BASE + '/#org'}, 'dateModified': TODAY.isoformat(), 'isAccessibleForFree': True, **extra}
+def exam_links(ids):
+    xs = [EXAM_BY_ID[i] for i in ids if i in EXAM_BY_ID and not EXAM_BY_ID[i].get('noindex')]
+    return ''.join(f'<li><a href="{exam_url(x)}">{e(code(x))} mock tests</a> <span class="small muted">· <a href="{practice_url(x)}">practice questions</a></span></li>' for x in xs)
+def hero(crumbs, h1, lead, kicker=''):
+    return f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}
+      {f'<div class="hero-series">{kicker}</div>' if kicker else ''}<h1 style="margin-top:6px">{e(h1)}</h1>{f'<p class="lead-left">{e(lead)}</p>' if lead else ''}
+      <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team · Free</p></div></section>'''
+
+# glossary
+GL_ORDER = ['Mutual funds', 'Investment advisory', 'Personal finance', 'Securities markets', 'Derivatives', 'Regulation & compliance', 'Banking', 'Insurance', 'Economy']
+def glossary_page(t):
+    crumbs = [('Home', '/'), ('Glossary', '/glossary/'), (t['term'], gl_url(t))]
+    rel = [GLOSSARY[r] for r in t.get('related', []) if r in GLOSSARY and r != t['slug']]
+    same = [o for o in GLOSSARY.values() if o['category'] == t['category'] and o is not t and o not in rel][:max(0, 6 - len(rel))]
+    body = hero(crumbs, f"What is {t['term']}?", '', f"{e(t['category'])} · Glossary") + f'''
+    <div class="wrap page prose lesson">
+      <div class="definition"><b>{e(t['term'])}:</b> {e(t['short'])}</div>
+      {''.join(f'<p>{e(p)}</p>' for p in t['body'])}
+      <section><h2>Example</h2><div class="example-box">{''.join(f'<p>{e(p)}</p>' for p in t['example'].split(chr(10)) if p.strip())}</div></section>
+      <section><h2>FAQs</h2>{faq_html(t['faqs'])}</section>
+      {('<section><h2>Where this is tested</h2><ul class="related">' + exam_links(t['exams']) + '</ul></section>') if exam_links(t.get('exams', [])) else ''}
+      <section><h2>Related terms</h2><ul class="related">{''.join(f'<li><a href="{gl_url(o)}">{e(o["term"])}</a></li>' for o in rel + same)}</ul></section>
+      <p class="small muted">For education only — not investment, tax or legal advice. Rules and limits change; check the regulator's website for current values.</p>
+    </div>'''
+    term = {'@type': 'DefinedTerm', 'name': t['term'], 'description': t['short'], 'url': BASE + gl_url(t), 'inDefinedTermSet': BASE + '/glossary/'}
+    return page(gl_url(t), seo_title(t['title']), t['description'], body, [breadcrumb_ld(crumbs), term, faq_ld(t['faqs'])], active='/glossary/')
+
+def glossary_hub():
+    crumbs = [('Home', '/'), ('Glossary', '/glossary/')]
+    terms = sorted(GLOSSARY.values(), key=lambda t: t['term'].lower())
+    letters = sorted({t['term'][0].upper() for t in terms if t['term'][0].isalpha()})
+    az = ''.join(f'<a href="#l-{c}">{c}</a>' for c in letters)
+    blocks = ''.join(f'<section id="l-{c}"><h2>{c}</h2><ul class="term-list">' + ''.join(f'<li><a href="{gl_url(t)}">{e(t["term"])}</a><span class="small muted">{e(t["short"][:110])}{"…" if len(t["short"]) > 110 else ""}</span></li>' for t in terms if t['term'][0].upper() == c) + '</ul></section>' for c in letters)
+    cats = ''.join(f'<li><b>{e(c)}</b> — {sum(1 for t in terms if t["category"] == c)} terms</li>' for c in GL_ORDER if any(t['category'] == c for t in terms))
+    body = hero(crumbs, 'Finance glossary', f"{len(terms)} finance, banking, insurance and stock-market terms explained in plain English with Indian examples — the vocabulary you need for NISM, bank and insurance exams.") + f'''
+    <div class="wrap page prose"><nav class="az" aria-label="Jump to letter">{az}</nav><ul class="cat-count">{cats}</ul>{blocks}</div>'''
+    ld = [breadcrumb_ld(crumbs), {'@type': 'DefinedTermSet', '@id': BASE + '/glossary/', 'name': 'Success4Sure finance glossary', 'hasDefinedTerm': [{'@type': 'DefinedTerm', 'name': t['term'], 'url': BASE + gl_url(t)} for t in terms]}]
+    return page('/glossary/', seo_title('Finance Glossary: Banking, Mutual Fund and Market Terms'), f"Free finance glossary: {len(terms)} banking, mutual fund, insurance and stock-market terms explained simply with Indian examples."[:158], body, ld, active='/glossary/')
+
+# chapter notes
+def notes_page(x, ch, n):
+    g = GROUP[x['group']]
+    chs = [c for c in dict.fromkeys(q[0] for q in QB.get(x['id'], [])) if (x['id'], c) in NOTES]
+    i = chs.index(ch)
+    crumbs = [('Home', '/'), ('Exams', '/exams/'), (code(x), exam_url(x)), (ch, chapter_url(x, ch) if ch in FREE.get(x['id'], {}) else exam_url(x)), ('Notes', notes_url(x, ch))]
+    nav = (f'<a class="btn" href="{notes_url(x, chs[i - 1])}">&larr; {e(chs[i - 1])}</a>' if i > 0 else '') + (f'<a class="btn" href="{notes_url(x, chs[i + 1])}">{e(chs[i + 1])} &rarr;</a>' if i + 1 < len(chs) else '')
+    body = hero(crumbs, f"{ch}: {code(x)} revision notes", n['intro'], f"{e(code(x))} · Chapter notes · {len(n['points'])} key points") + f'''
+    <div class="wrap page prose lesson">
+      <section><h2>Key points</h2>{''.join(f'<h3>{k + 1}. {e(p["heading"])}</h3><p>{e(p["text"])}</p>' for k, p in enumerate(n['points']))}</section>
+      {('<section><h2>Formulas and rules of thumb</h2><ul class="formula-list">' + ''.join(f'<li>{e(f)}</li>' for f in n['formulas']) + '</ul></section>') if n.get('formulas') else ''}
+      <section><h2>Common traps in the exam</h2><ul>{''.join(f'<li>{e(t)}</li>' for t in n['traps'])}</ul></section>
+      <div class="card recap"><h3 style="margin-top:0">Quick recap</h3><p style="margin:0">{e(n['recap'])}</p></div>
+      <div class="row" style="margin:24px 0">{('<a class="btn btn-primary" href="' + chapter_url(x, ch) + '">Practise ' + e(ch) + ' questions</a>') if ch in FREE.get(x['id'], {}) else ''}<a class="btn" href="/#/test/{x['id']}/1">Take a free mock test</a></div>
+      <div class="row">{nav}</div>
+      <section><h2>All {e(code(x))} chapter notes</h2><ul class="related">{''.join(f'<li><a href="{notes_url(x, c)}">{e(c)}</a></li>' for c in chs if c != ch)}</ul></section>
+    </div>'''
+    return page(notes_url(x, ch), seo_title(n['title']), n['description'], body, [breadcrumb_ld(crumbs), article_ld(n['title'], n['description'], notes_url(x, ch), about=ch, learningResourceType='Revision notes')], active=group_url(g))
+
+# topics
+SECTION_ORDER = ['Quantitative Aptitude', 'Data Interpretation', 'Reasoning', 'English Language', 'General Awareness']
+def topic_page(t):
+    crumbs = [('Home', '/'), ('Topics', '/topics/'), (t['topic'], topic_url(t))]
+    rel = [o for o in TOPICS.values() if o['section'] == t['section'] and o is not t][:8]
+    ex = ''.join(f'<div class="sample"><div class="small muted">Example {k + 1}</div><p class="sample-q">{e(x_["question"])}</p><details open><summary>Solution</summary>{"".join(f"<p>{e(l)}</p>" for l in x_["solution"].split(chr(10)) if l.strip())}</details></div>' for k, x_ in enumerate(t['examples']))
+    body = hero(crumbs, t['title'], t['intro'], f"{e(t['section'])} · Topic guide") + f'''
+    <div class="wrap page prose lesson">
+      {''.join(f'<section><h2>{e(c["heading"])}</h2>{"".join(f"<p>{e(l)}</p>" for l in c["text"].split(chr(10)) if l.strip())}{("<div class=" + chr(34) + "formula" + chr(34) + ">" + e(c["formula"]) + "</div>") if c.get("formula") else ""}</section>' for c in t['concepts'])}
+      <section><h2>Shortcuts and tricks</h2><ul>{''.join(f'<li>{e(s_)}</li>' for s_ in t['shortcuts'])}</ul></section>
+      <section><h2>Worked examples</h2>{ex}</section>
+      <section><h2>Practice questions</h2>{''.join(q_block(k, q) for k, q in enumerate(t['practice']))}</section>
+      <section><h2>FAQs</h2>{faq_html(t['faqs'])}</section>
+      {('<section><h2>Practise for these exams</h2><ul class="related">' + exam_links(t['exams']) + '</ul></section>') if exam_links(t.get('exams', [])) else ''}
+      {('<section><h2>More ' + e(t['section']) + ' topics</h2><ul class="related">' + ''.join(f'<li><a href="{topic_url(o)}">{e(o["topic"])}</a></li>' for o in rel) + '</ul></section>') if rel else ''}
+    </div>'''
+    return page(topic_url(t), seo_title(t['title']), t['description'], body, [breadcrumb_ld(crumbs), article_ld(t['title'], t['description'], topic_url(t), about=t['topic']), faq_ld(t['faqs'])], active='/topics/')
+
+def topics_hub():
+    crumbs = [('Home', '/'), ('Topics', '/topics/')]
+    blocks = ''.join(f'<section><h2>{e(sec)}</h2><ul class="term-list">' + ''.join(f'<li><a href="{topic_url(t)}">{e(t["topic"])}</a><span class="small muted">{e(t["description"][:110])}…</span></li>' for t in sorted(TOPICS.values(), key=lambda t: t['topic']) if t['section'] == sec) + '</ul></section>' for sec in SECTION_ORDER if any(t['section'] == sec for t in TOPICS.values()))
+    body = hero(crumbs, 'Bank and SSC exam topics', f"{len(TOPICS)} topic guides for IBPS, SBI, RBI, SSC and CAT: concepts, formulas, shortcut tricks, worked examples and free practice questions.") + f'<div class="wrap page prose">{blocks}</div>'
+    ld = [breadcrumb_ld(crumbs), {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': k + 1, 'url': BASE + topic_url(t), 'name': t['topic']} for k, t in enumerate(TOPICS.values())]}]
+    return page('/topics/', seo_title('Bank and SSC Exam Topics: Tricks, Formulas, Practice'), f"Free topic-wise preparation for bank and SSC exams: {len(TOPICS)} guides on quant, reasoning and English with tricks, examples and practice questions."[:158], body, ld, active='/topics/')
+
+# interview questions
+IV_ORDER = ['HR basics', 'Freshers', 'Behavioural', 'Banking jobs', 'Finance & advisory', 'Sales roles', 'Salary & offers']
+def interview_page(t):
+    crumbs = [('Home', '/'), ('Interview questions', '/interview-questions/'), (t['question'], iv_url(t))]
+    course = COURSE_BY_SLUG.get(t['course'])
+    rel = [o for o in INTERVIEW.values() if o['category'] == t['category'] and o is not t][:8]
+    body = hero(crumbs, t['title'], '', f"{e(t['category'])} · Interview question") + f'''
+    <div class="wrap page prose lesson">
+      <div class="definition"><b>The question:</b> “{e(t['question'])}”</div>
+      <section><h2>Why interviewers ask this</h2><p>{e(t['why_asked'])}</p></section>
+      <section><h2>How to answer</h2><ol>{''.join(f'<li>{e(s_)}</li>' for s_ in t['how_to_answer'])}</ol></section>
+      <section><h2>Sample answers</h2>{''.join(f'<div class="card sample-answer"><div class="small muted">{e(s_["who"])}</div>{"".join(f"<p>{e(l)}</p>" for l in s_["answer"].split(chr(10)) if l.strip())}</div>' for s_ in t['samples'])}
+        <p class="small muted">Use these as a structure, not a script — replace the placeholders with your own facts.</p></section>
+      <section><h2>Mistakes to avoid</h2><ul>{''.join(f'<li>{e(m)}</li>' for m in t['mistakes'])}</ul></section>
+      <section><h2>Likely follow-up questions</h2><ul>{''.join(f'<li>{e(f_)}</li>' for f_ in t['follow_ups'])}</ul></section>
+      {f'<div class="card" style="margin:24px 0"><h3 style="margin-top:0">Practise with a free course</h3><p class="muted">{e(course["name"])}: {e(course["blurb"])}</p><a class="btn btn-primary" href="{skill_url(course)}">Open the free course</a></div>' if course else ''}
+      <section><h2>FAQs</h2>{faq_html(t['faqs'])}</section>
+      {('<section><h2>More ' + e(t['category']) + ' questions</h2><ul class="related">' + ''.join(f'<li><a href="{iv_url(o)}">{e(o["question"])}</a></li>' for o in rel) + '</ul></section>') if rel else ''}
+    </div>'''
+    return page(iv_url(t), seo_title(t['title']), t['description'], body, [breadcrumb_ld(crumbs), article_ld(t['title'], t['description'], iv_url(t), about=t['question']), faq_ld(t['faqs'])], active='/soft-skills/')
+
+def interview_hub():
+    crumbs = [('Home', '/'), ('Interview questions', '/interview-questions/')]
+    blocks = ''.join(f'<section><h2>{e(c)}</h2><ul class="term-list">' + ''.join(f'<li><a href="{iv_url(t)}">{e(t["question"])}</a></li>' for t in INTERVIEW.values() if t['category'] == c) + '</ul></section>' for c in IV_ORDER if any(t['category'] == c for t in INTERVIEW.values()))
+    body = hero(crumbs, 'Interview questions and sample answers', f"{len(INTERVIEW)} common interview questions for freshers, bank jobs and finance roles — why they are asked, how to structure your answer, sample answers and mistakes to avoid.") + f'<div class="wrap page prose">{blocks}</div>'
+    ld = [breadcrumb_ld(crumbs), {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': k + 1, 'url': BASE + iv_url(t), 'name': t['question']} for k, t in enumerate(INTERVIEW.values())]}]
+    return page('/interview-questions/', seo_title('Interview Questions and Sample Answers for Freshers'), f"Free interview preparation: {len(INTERVIEW)} HR, fresher, banking and finance interview questions with how to answer, sample answers and mistakes to avoid."[:158], body, ld, active='/soft-skills/')
 
 # ---------- free tools ----------
 TOOLS = [
@@ -989,6 +1131,17 @@ def main():
                      ('/privacy-policy/', privacy_page), ('/terms/', terms_page), ('/disclaimer/', disclaimer_page)]:
         wr(path.strip('/') + '/index.html', fn()); pages.append((path, True))
 
+    if GLOSSARY:
+        wr('glossary/index.html', glossary_hub()); pages.append(('/glossary/', True))
+        for t in GLOSSARY.values(): wr(gl_url(t).strip('/') + '/index.html', glossary_page(t)); pages.append((gl_url(t), True))
+    for (xid, ch), n in NOTES.items():
+        x = EXAM_BY_ID[xid]; wr(notes_url(x, ch).strip('/') + '/index.html', notes_page(x, ch, n)); pages.append((notes_url(x, ch), True))
+    if TOPICS:
+        wr('topics/index.html', topics_hub()); pages.append(('/topics/', True))
+        for t in TOPICS.values(): wr(topic_url(t).strip('/') + '/index.html', topic_page(t)); pages.append((topic_url(t), True))
+    if INTERVIEW:
+        wr('interview-questions/index.html', interview_hub()); pages.append(('/interview-questions/', True))
+        for t in INTERVIEW.values(): wr(iv_url(t).strip('/') + '/index.html', interview_page(t)); pages.append((iv_url(t), True))
     wr('tools/index.html', tools_hub()); pages.append(('/tools/', True))
     for t in TOOLS:
         wr(tool_url(t).strip('/') + '/index.html', tool_page(t)); pages.append((tool_url(t), True))
@@ -1033,7 +1186,7 @@ def main():
     wr('robots.txt', f'User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n')
 
     ss = (1 + len(SKILLS) + sum(len(a['lessons']) for a in SKILLS)) if SKILLS else 0
-    print(f'Sitemap: {len(urls)} URLs  (chapter pages {sum(len(v) for v in FREE.values())}, guides {len(GUIDES)}, Hindi {2 * len(HI)}, tools {len(TOOLS) + 1}; home 1, exam hub 1, categories {len(GROUPS)}, exams {len(INDEXABLE)}, practice-question pages {len(INDEXABLE)}, study material 1, trust pages 6, soft skills {ss})')
+    print(f'Sitemap: {len(urls)} URLs  (glossary {len(GLOSSARY)}, notes {len(NOTES)}, topics {len(TOPICS)}, interview {len(INTERVIEW)}, chapter pages {sum(len(v) for v in FREE.values())}, guides {len(GUIDES)}, Hindi {2 * len(HI)}, tools {len(TOOLS) + 1}; home 1, exam hub 1, categories {len(GROUPS)}, exams {len(INDEXABLE)}, practice-question pages {len(INDEXABLE)}, study material 1, trust pages 6, soft skills {ss})')
     print(f'Not in sitemap (noindex): {", ".join(code(x) for x in EXAMS if x.get("noindex"))}')
     for w in warnings: print('WARN', w)
 

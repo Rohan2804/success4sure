@@ -723,3 +723,18 @@ body.static .nav-links a { white-space: nowrap; }
   .static .nav-right { flex: none; }
 }
 .prose p > .btn, .prose .row > .btn { white-space: normal; max-width: 100%; text-align: center; }
+
+/* Free resource pages: glossary, notes, topics, interview */
+.definition { background: var(--brand-50); border-left: 4px solid var(--brand); border-radius: 10px; padding: 14px 16px; margin: 0 0 20px; font-size: 1.05rem; }
+.example-box, .formula, .recap { background: var(--surface-2); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+.formula { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .92rem; margin: 10px 0; overflow-x: auto; }
+.formula-list li { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .92rem; }
+.recap { margin-top: 24px; }
+.az { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+.az a { display: inline-grid; place-items: center; min-width: 34px; height: 34px; border: 1px solid var(--border); border-radius: 8px; font-weight: 600; }
+.term-list { list-style: none; padding: 0; display: grid; gap: 10px; }
+.term-list li { display: flex; flex-direction: column; gap: 2px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.cat-count { columns: 2; font-size: .9rem; }
+.sample-answer { margin: 12px 0; }
+.free-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+@media (max-width: 640px) { .cat-count { columns: 1; } }
