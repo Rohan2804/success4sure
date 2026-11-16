@@ -49,6 +49,8 @@ for x in EXAMS: x['slug'] = exam_slug(x) + '-mock-test'
 def exam_url(x): return f"/exams/{x['slug']}/"
 def group_url(g): return f"/exams/{g['slug']}/"
 def competitive(x): return bool(GROUP[x['group']].get('competitive'))
+def per_day(x): return x.get('mocksPerDay', 1)
+def max_mocks(x): return CAT['MAX_TESTS'] * per_day(x)
 def neg_text(x):
     p = x['pattern']; mpq = p['marks'] / p['questions']
     if not p['negative']: return 'No negative marking'
@@ -185,7 +187,7 @@ def footer():
 def plans_table(x):
     q = x['pattern']['questions']
     badge = lambda p: (' <span class="badge">' + e(p['tag']) + '</span>') if p.get('tag') else ''
-    rows = ''.join(f"<tr><td><b>{e(p['label'])}</b>{badge(p)}</td><td>{p['tests']} mock tests</td><td>{p['tests'] * q:,} questions</td><td><b>₹{p['price']}</b> <span class=\"muted small\">incl. GST</span></td></tr>" for p in PLANS)
+    rows = ''.join(f"<tr><td><b>{e(p['label'])}</b>{badge(p)}</td><td>{p['tests'] * per_day(x)} mock tests</td><td>{p['tests'] * per_day(x) * q:,} questions</td><td><b>₹{p['price']}</b> <span class=\"muted small\">incl. GST</span></td></tr>" for p in PLANS)
     return f'<div class="table-wrap"><table><tr><th>Plan</th><th>Mock tests</th><th>Questions</th><th>Price</th></tr>{rows}</table></div>'
 
 def exam_row(x):
@@ -205,7 +207,7 @@ def exam_page(x):
     title = f"{code(x)} Mock Test {YEAR}: {short_name(x)} | {SITE['name']}"
     if len(title) > 68: title = f"{code(x)} Mock Test {YEAR} – Practice Questions | {SITE['name']}"
     if len(title) > 68: title = f"{code(x)} Mock Test {YEAR} | {SITE['name']}"
-    desc = (f"Prepare for {code(x)} ({x['name']}) with up to {CAT['MAX_TESTS']} full-length mock tests of {p['questions']} questions, "
+    desc = (f"Prepare for {code(x)} ({x['name']}) with up to {max_mocks(x)} full-length mock tests of {p['questions']} questions, "
             f"chapter-wise analysis and an explanation for every answer. Free demo; plans from ₹{PLANS[0]['price']}.")
     kw = SEO['exams'].get(x['id'], {})
     if kw.get('title'): title = seo_title(kw['title'])
@@ -215,7 +217,7 @@ def exam_page(x):
         (f"How many questions are there in the {code(x)} exam?", f"The {code(x)} paper has {p['questions']} multiple-choice questions for {p['marks']} marks, to be completed in {p['duration']} minutes. This is the indicative pattern — always confirm it in the latest official notification."),
         (f"Is there negative marking in {code(x)}?", (f"Yes. {neg_text(x)} ({round(p['negative'] * 100, 1):g}% of the marks for that question)." if p['negative'] else "No. There is no negative marking, so attempt every question.") + " Our mock tests apply the same rule."),
         (f"What is the {pw} for {code(x)}?", (f"Cut-offs vary by year and category; our mock tests use {p['passPct']}% as a target score to aim for." if competitive(x) else f"You need {p['passPct']}% to pass. Our mock tests show pass or fail against the same mark.")),
-        (f"How many {code(x)} mock tests do I get?", f"One full-length mock test is unlocked for each day of your plan: {', '.join(str(pl['tests']) for pl in PLANS[:-1])} or {PLANS[-1]['tests']} mock tests on the {', '.join(pl['label'] for pl in PLANS[:-1])} or {PLANS[-1]['label']} plans. You can retake any unlocked test while your plan is active."),
+        (f"How many {code(x)} mock tests do I get?", f"{'Two full-length mock tests, each matching the real ' + str(p['questions']) + '-question paper, are' if per_day(x) == 2 else 'One full-length mock test is'} unlocked for each day of your plan: {', '.join(str(pl['tests'] * per_day(x)) for pl in PLANS[:-1])} or {PLANS[-1]['tests'] * per_day(x)} mock tests on the {', '.join(pl['label'] for pl in PLANS[:-1])} or {PLANS[-1]['label']} plans. You can retake any unlocked test while your plan is active."),
         *[tuple(f) for f in kw.get('faqs', [])],
         ("Are these the actual exam questions?", "No. Every question is an original practice question written to match the official syllabus and the exam's style. Reproducing real exam questions is not permitted, and we do not do it."),
         (f"Where can I get the official {code(x)} study material?", ("NISM provides the latest workbook free of cost on its official portal after a short registration. The link is in the Official study material section on this page." if x['group'] == 'NISM' else "The official syllabus and notifications are published by the conducting body — see the Official resources section on this page.")),
@@ -248,7 +250,7 @@ def exam_page(x):
     body = f'''    <section class="page-hero"><div class="wrap">
       {crumbs_html(crumbs)}
       <h1>{e(code(x))} Mock Test: {e(x['name'])}</h1>
-      <p class="lead-left">{e(kw['intro']) if kw.get('intro') else f"Up to {CAT['MAX_TESTS']} full-length mock tests of {p['questions']} questions each, built on the official syllabus, with an explanation for every answer."}</p>
+      <p class="lead-left">{e(kw['intro']) if kw.get('intro') else f"Up to {max_mocks(x)} full-length mock tests of {p['questions']} questions each, built on the official syllabus, with an explanation for every answer."}</p>
       <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team · <a href="/how-we-create-questions/">How we create questions</a></p>
       {rev_html}{hi_html}
       <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/exam/{x['id']}">See plans &amp; start</a><a class="btn btn-lg" href="/#/test/{x['id']}?demo=1">Try a free demo</a></div>
@@ -277,7 +279,7 @@ def exam_page(x):
         {'' if x.get('noindex') else f'<p><a class="btn" href="{practice_url(x)}">{PRACTICE_N} more free {e(code(x))} practice questions with answers {"&rarr;"}</a></p>'}
       </section>
       <section><h2>{e(code(x))} mock test plans</h2>
-        <p>Every plan unlocks one full-length mock test per day of the plan. Prices include GST.</p>
+        <p>Every plan unlocks {'two full-length mock tests' if per_day(x) == 2 else 'one full-length mock test'} per day of the plan{' — each one matches the real ' + str(p['questions']) + '-question, ' + str(p['duration']) + '-minute paper' if per_day(x) == 2 else ''}. Prices include GST.</p>
         {plans_table(x)}
         <div class="row" style="margin-top:16px"><a class="btn btn-primary" href="/#/exam/{x['id']}">Choose a plan</a><a class="btn" href="/refund-policy/">Refund policy</a></div>
       </section>
@@ -348,7 +350,7 @@ def practice_page(x):
       <section><h2>Free {e(code(x))} practice questions</h2>{q_html}</section>
       {('<section><h2>Practise chapter by chapter</h2><ul class="related">' + ''.join(f'<li><a href="{chapter_url(x, c)}">{e(c)}</a></li>' for c in FREE[x['id']]) + '</ul></section>') if x['id'] in FREE else ''}
       <section><h2>Ready for a full {e(code(x))} mock test?</h2>
-        <p>Each mock test has {p['questions']} questions with a timer, your score, chapter-wise analysis and an explanation for every answer. Plans unlock one full-length mock test per day, from ₹{PLANS[0]['price']} including GST.</p>
+        <p>Each mock test has {p['questions']} questions with a timer, your score, chapter-wise analysis and an explanation for every answer. Plans unlock {'two full-length mock tests' if per_day(x) == 2 else 'one full-length mock test'} per day, from ₹{PLANS[0]['price']} including GST.</p>
         <div class="row"><a class="btn btn-primary" href="/#/exam/{x['id']}">See {e(code(x))} plans</a><a class="btn" href="{exam_url(x)}">Exam pattern &amp; syllabus</a></div>
       </section>
     </div>'''

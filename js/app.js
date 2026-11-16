@@ -242,6 +242,10 @@
     return subs().filter((s) => s.userId === userId && s.examId === examId && s.end > now).sort((a, b) => b.end - a.end)[0] || null;
   }
   const testsIn = (sub) => sub.tests || sub.days;
+  // Some exams (e.g. NISM V-B, a 50-question paper) unlock more than one real-format mock test per plan day.
+  const perDay = (e) => (e && e.mocksPerDay) || 1;
+  const mocksFor = (e, plan) => plan.tests * perDay(e);
+  const maxMocks = (e) => window.MAX_TESTS * perDay(e);
   const num = (n) => Number(n).toLocaleString('en-IN');
   const qPerTest = (e) => e.pattern.questions;
 
@@ -387,7 +391,7 @@
       </div>
       <span class="series">${esc(examCode(e))}</span>
       <h3>${esc(e.name)}</h3>
-      <div class="ec-meta"><span>${icon('book', 14)} Up to ${window.MAX_TESTS} mocks</span><span>${icon('clock', 14)} ${e.pattern.duration} min</span><span>${icon('target', 14)} ${e.pattern.passPct}%</span></div>
+      <div class="ec-meta"><span>${icon('book', 14)} Up to ${maxMocks(e)} mocks</span><span>${icon('clock', 14)} ${e.pattern.duration} min</span><span>${icon('target', 14)} ${e.pattern.passPct}%</span></div>
       <div class="ec-foot"><span>from <b>${inr(window.PLANS[0].price)}</b></span><span class="ec-arrow">${arrow(16)}</span></div>
     </a>`;
   }
@@ -768,7 +772,7 @@
     const done = Object.keys(status).length;
     const next = sub ? nextMock(status, owned) : null;
     const chapters = chaptersFor(e.id);
-    const offer = window.PLANS.filter((pl) => pl.tests > owned);
+    const offer = window.PLANS.filter((pl) => mocksFor(e, pl) > owned);
     let selected = (offer.find((pl) => pl.tag === 'Popular') || offer[0] || {}).days;
 
     const tile = (k) => {
@@ -805,8 +809,8 @@
               <div class="card reveal" id="mocks">
                 <div class="row"><h3 style="margin:0">Your mock tests</h3><span class="spacer"></span><span class="small muted">${done} of ${owned} attempted</span></div>
                 <div class="meter" style="margin-bottom:16px"><span style="width:${(done / owned) * 100}%"></span></div>
-                <div class="mock-grid">${Array.from({ length: window.MAX_TESTS }, (_, i) => tile(i + 1)).join('')}</div>
-                ${owned < window.MAX_TESTS ? `<p class="small muted" style="margin:14px 0 0">${icon('lock', 14)} Mock tests ${owned + 1}–${window.MAX_TESTS} unlock when you upgrade your plan.</p>` : ''}
+                <div class="mock-grid">${Array.from({ length: maxMocks(e) }, (_, i) => tile(i + 1)).join('')}</div>
+                ${owned < maxMocks(e) ? `<p class="small muted" style="margin:14px 0 0">${icon('lock', 14)} Mock tests ${owned + 1}–${maxMocks(e)} unlock when you upgrade your plan.</p>` : ''}
               </div>` : ''}
             <div class="card reveal">
               <h3>Exam pattern</h3>
@@ -853,14 +857,14 @@
                     <label class="plan-opt ${pl.days === selected ? 'selected' : ''}">
                       <input type="radio" name="plan" value="${pl.days}" ${pl.days === selected ? 'checked' : ''}>
                       <span class="radio"></span>
-                      <div><b>${esc(pl.label)}</b> ${pl.tag ? `<span class="badge">${esc(pl.tag)}</span>` : ''}<div class="small muted">${pl.tests} mock tests · ${num(pl.tests * p.questions)} questions</div></div>
+                      <div><b>${esc(pl.label)}</b> ${pl.tag ? `<span class="badge">${esc(pl.tag)}</span>` : ''}<div class="small muted">${mocksFor(e, pl)} mock tests · ${num(mocksFor(e, pl) * p.questions)} questions</div></div>
                       <div class="p-price">${inr(pl.price)}<small>incl. GST</small></div>
                     </label>`).join('')}
                 </div>
                 <a class="btn btn-primary btn-lg btn-block" id="buy" href="#/checkout/${e.id}/${selected}">${sub ? 'Upgrade' : 'Continue'} ${arrow()}</a>
                 <p class="center small muted" style="margin:12px 0 0">${icon('lock', 14)} Secure payment · instant access</p>
               </div>` : `
-              <div class="card reveal small muted">${icon('trophy', 16)} You're on the maximum 30-day plan with all ${window.MAX_TESTS} mock tests unlocked.</div>`}
+              <div class="card reveal small muted">${icon('trophy', 16)} You're on the maximum 30-day plan with all ${maxMocks(e)} mock tests unlocked.</div>`}
             ${sub ? '' : `
               <div class="card reveal" style="--d:.2s">
                 <div class="row" style="flex-wrap:nowrap"><span class="stat-ico">${icon('bolt', 22)}</span><div><b>Not sure yet?</b><div class="small muted">Try a free 3-question demo. No sign-up.</div></div></div>
@@ -950,7 +954,7 @@
     const c = isSkill ? { icon: e.icon, color: e.color } : CAT[e.category];
     const back = isSkill ? skillUrl(e) : '#/exam/' + e.id;
     const existing = activeSub(u.id, e.id);
-    if (existing && plan.tests <= testsIn(existing)) {
+    if (existing && (isSkill ? plan.tests : mocksFor(e, plan)) <= testsIn(existing)) {
       toast(isSkill ? 'You already have this plan or a longer one — pick a longer plan to extend' : `You already have ${testsIn(existing)} mock tests — pick a bigger plan to upgrade`);
       location.hash = back;
       return;
@@ -972,8 +976,8 @@
             <div style="margin-top:20px">
               <div class="summary-row"><span>Plan</span><b>${esc(plan.label)}</b></div>
               ${isSkill ? `<div class="summary-row"><span>Includes</span><b>${e.lessons.length} lessons, ${e.lessons.length * 10} quiz questions, ${scenarioCount(e)} scenarios</b></div>`
-                : `<div class="summary-row"><span>Mock tests</span><b>${plan.tests} tests × ${e.pattern.questions} questions</b></div>
-              <div class="summary-row"><span>Total questions</span><b>${num(plan.tests * e.pattern.questions)}</b></div>`}
+                : `<div class="summary-row"><span>Mock tests</span><b>${mocksFor(e, plan)} tests × ${e.pattern.questions} questions</b></div>
+              <div class="summary-row"><span>Total questions</span><b>${num(mocksFor(e, plan) * e.pattern.questions)}</b></div>`}
               <div class="summary-row"><span>Access</span><b>${fmtDate(start)} → ${fmtDate(end)}</b></div>
               ${existing ? `<div class="notice ok small" style="margin-top:8px">${icon('check', 16)}<span>${isSkill ? 'This replaces your current plan and starts today. Your progress is kept.' : `Upgrade: this replaces your current ${testsIn(existing)}-test plan and starts today. Your past results are kept.`}</span></div>` : ''}
             </div>
@@ -995,10 +999,10 @@
       btn.innerHTML = 'Processing…';
       setTimeout(() => {
         const now = Date.now();
-        const s = { id: uid(), userId: u.id, examId: e.id, days: plan.days, tests: plan.tests, label: plan.label, price: plan.price, start, end, paymentRef: 'DEMO-' + uid().toUpperCase(), created: now };
+        const s = { id: uid(), userId: u.id, examId: e.id, days: plan.days, tests: isSkill ? plan.tests : mocksFor(e, plan), label: plan.label, price: plan.price, start, end, paymentRef: 'DEMO-' + uid().toUpperCase(), created: now };
         const all = subs().map((x) => (existing && x.id === existing.id ? { ...x, end: now, upgradedTo: s.id } : x));
         store.set('subs', [...all, s]);
-        toast(isSkill ? `Payment successful — ${e.name} unlocked for ${plan.days} days` : existing ? `Upgraded — ${plan.tests} mock tests unlocked` : `Payment successful — ${plan.tests} mock tests unlocked`);
+        toast(isSkill ? `Payment successful — ${e.name} unlocked for ${plan.days} days` : existing ? `Upgraded — ${mocksFor(e, plan)} mock tests unlocked` : `Payment successful — ${mocksFor(e, plan)} mock tests unlocked`);
         confetti();
         location.hash = back;
       }, 700);
