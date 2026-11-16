@@ -5,7 +5,7 @@ Run from the project root:  python3 -I tools/build_site.py
 Inputs : content/catalog.json, content/exam-pages.json, content/site.json, js/data/qbank/*.json
 Outputs: js/data/exams.js, js/data/qbank.js, index.html (SEO head + fallback content),
          exams/**, study-material/, about/, how-we-create-questions/, contact/,
-         privacy-policy/, terms/, refund-policy/, disclaimer/, sitemap.xml, robots.txt
+         privacy-policy/, terms/, disclaimer/, sitemap.xml, robots.txt
 """
 import datetime, glob, html, json, os, re, subprocess, sys
 
@@ -177,7 +177,6 @@ def footer():
         <a href="/guides/">Exam preparation guides</a>
         <a href="/privacy-policy/">Privacy policy</a>
         <a href="/terms/">Terms of use</a>
-        <a href="/refund-policy/">Refund policy</a>
         <a href="/disclaimer/">Disclaimer</a>
       </div>
     </div>
@@ -208,7 +207,7 @@ def exam_page(x):
     if len(title) > 68: title = f"{code(x)} Mock Test {YEAR} – Practice Questions | {SITE['name']}"
     if len(title) > 68: title = f"{code(x)} Mock Test {YEAR} | {SITE['name']}"
     desc = (f"Prepare for {code(x)} ({x['name']}) with up to {max_mocks(x)} full-length mock tests of {p['questions']} questions, "
-            f"chapter-wise analysis and an explanation for every answer. Free demo; plans from ₹{PLANS[0]['price']}.")
+            f"chapter-wise analysis and an explanation for every answer. 100% free, no sign-up needed.")
     kw = SEO['exams'].get(x['id'], {})
     if kw.get('title'): title = seo_title(kw['title'])
     if kw.get('description'): desc = kw['description']
@@ -217,7 +216,7 @@ def exam_page(x):
         (f"How many questions are there in the {code(x)} exam?", f"The {code(x)} paper has {p['questions']} multiple-choice questions for {p['marks']} marks, to be completed in {p['duration']} minutes. This is the indicative pattern — always confirm it in the latest official notification."),
         (f"Is there negative marking in {code(x)}?", (f"Yes. {neg_text(x)} ({round(p['negative'] * 100, 1):g}% of the marks for that question)." if p['negative'] else "No. There is no negative marking, so attempt every question.") + " Our mock tests apply the same rule."),
         (f"What is the {pw} for {code(x)}?", (f"Cut-offs vary by year and category; our mock tests use {p['passPct']}% as a target score to aim for." if competitive(x) else f"You need {p['passPct']}% to pass. Our mock tests show pass or fail against the same mark.")),
-        (f"How many {code(x)} mock tests do I get?", f"{'Two full-length mock tests, each matching the real ' + str(p['questions']) + '-question paper, are' if per_day(x) == 2 else 'One full-length mock test is'} unlocked for each day of your plan: {', '.join(str(pl['tests'] * per_day(x)) for pl in PLANS[:-1])} or {PLANS[-1]['tests'] * per_day(x)} mock tests on the {', '.join(pl['label'] for pl in PLANS[:-1])} or {PLANS[-1]['label']} plans. You can retake any unlocked test while your plan is active."),
+        (f"Are the {code(x)} mock tests free?", f"Yes. All {max_mocks(x)} full-length {code(x)} mock tests are free, with no payment or plan. You can start without signing up; log in with Google if you want your results saved across devices. You can retake any test as often as you like."),
         *[tuple(f) for f in kw.get('faqs', [])],
         ("Are these the actual exam questions?", "No. Every question is an original practice question written to match the official syllabus and the exam's style. Reproducing real exam questions is not permitted, and we do not do it."),
         (f"Where can I get the official {code(x)} study material?", ("NISM provides the latest workbook free of cost on its official portal after a short registration. The link is in the Official study material section on this page." if x['group'] == 'NISM' else "The official syllabus and notifications are published by the conducting body — see the Official resources section on this page.")),
@@ -253,7 +252,7 @@ def exam_page(x):
       <p class="lead-left">{e(kw['intro']) if kw.get('intro') else f"Up to {max_mocks(x)} full-length mock tests of {p['questions']} questions each, built on the official syllabus, with an explanation for every answer."}</p>
       <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team · <a href="/how-we-create-questions/">How we create questions</a></p>
       {rev_html}{hi_html}
-      <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/exam/{x['id']}">See plans &amp; start</a><a class="btn btn-lg" href="/#/test/{x['id']}?demo=1">Try a free demo</a></div>
+      <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/test/{x['id']}/1">Start free mock test</a><a class="btn btn-lg" href="/#/test/{x['id']}?demo=1">Try a free demo</a></div>
     </div></section>
     <div class="wrap page prose">
       {f'<div class="notice">{e(x["note"])}</div>' if x.get('note') else ''}
@@ -278,10 +277,9 @@ def exam_page(x):
         {sample_html}
         {'' if x.get('noindex') else f'<p><a class="btn" href="{practice_url(x)}">{PRACTICE_N} more free {e(code(x))} practice questions with answers {"&rarr;"}</a></p>'}
       </section>
-      <section><h2>{e(code(x))} mock test plans</h2>
-        <p>Every plan unlocks {'two full-length mock tests' if per_day(x) == 2 else 'one full-length mock test'} per day of the plan{' — each one matches the real ' + str(p['questions']) + '-question, ' + str(p['duration']) + '-minute paper' if per_day(x) == 2 else ''}. Prices include GST.</p>
-        {plans_table(x)}
-        <div class="row" style="margin-top:16px"><a class="btn btn-primary" href="/#/exam/{x['id']}">Choose a plan</a><a class="btn" href="/refund-policy/">Refund policy</a></div>
+      <section><h2>Free {e(code(x))} mock tests</h2>
+        <p>Take up to {max_mocks(x)} full-length {e(code(x))} mock tests free — each with {p['questions']} questions in {p['duration']} minutes, the real {'pass mark' if not competitive(x) else 'pattern'}{', negative marking' if p['negative'] else ''}, your score, a chapter-wise analysis and an explanation for every answer. No payment and no sign-up; log in only to save your progress.</p>
+        <div class="row" style="margin-top:16px"><a class="btn btn-primary" href="/#/test/{x['id']}/1">Start Mock Test 1</a><a class="btn" href="/#/exam/{x['id']}">See all {max_mocks(x)} mock tests</a></div>
       </section>
       <section><h2>Official {'study material' if x['group'] == 'NISM' else 'resources'}</h2>
         <ul>{links_html}</ul>
@@ -299,7 +297,7 @@ def exam_page(x):
         '@type': 'Course', 'name': f"{code(x)} Mock Test Series", 'description': c.get('about', desc),
         'provider': {'@id': BASE + '/#org'}, 'inLanguage': 'en-IN', 'url': BASE + exam_url(x),
         'educationalCredentialAwarded': None,
-        'offers': {'@type': 'AggregateOffer', 'priceCurrency': 'INR', 'lowPrice': PLANS[0]['price'], 'highPrice': PLANS[-1]['price'], 'offerCount': len(PLANS), 'availability': 'https://schema.org/InStock', 'category': 'Paid'},
+        'isAccessibleForFree': True, 'offers': {'@type': 'Offer', 'price': 0, 'priceCurrency': 'INR', 'availability': 'https://schema.org/InStock', 'category': 'Free'},
         'hasCourseInstance': {'@type': 'CourseInstance', 'courseMode': 'Online', 'courseWorkload': f"PT{p['duration']}M per mock test"},
         'dateModified': TODAY.isoformat(),
     }
@@ -350,8 +348,8 @@ def practice_page(x):
       <section><h2>Free {e(code(x))} practice questions</h2>{q_html}</section>
       {('<section><h2>Practise chapter by chapter</h2><ul class="related">' + ''.join(f'<li><a href="{chapter_url(x, c)}">{e(c)}</a></li>' for c in FREE[x['id']]) + '</ul></section>') if x['id'] in FREE else ''}
       <section><h2>Ready for a full {e(code(x))} mock test?</h2>
-        <p>Each mock test has {p['questions']} questions with a timer, your score, chapter-wise analysis and an explanation for every answer. Plans unlock {'two full-length mock tests' if per_day(x) == 2 else 'one full-length mock test'} per day, from ₹{PLANS[0]['price']} including GST.</p>
-        <div class="row"><a class="btn btn-primary" href="/#/exam/{x['id']}">See {e(code(x))} plans</a><a class="btn" href="{exam_url(x)}">Exam pattern &amp; syllabus</a></div>
+        <p>Each mock test has {p['questions']} questions with a timer, your score, chapter-wise analysis and an explanation for every answer. All {max_mocks(x)} mock tests are free.</p>
+        <div class="row"><a class="btn btn-primary" href="/#/test/{x['id']}/1">Start a free mock test</a><a class="btn" href="{exam_url(x)}">Exam pattern &amp; syllabus</a></div>
       </section>
     </div>'''
     lr = {'@type': 'LearningResource', 'name': f"{code(x)} practice questions", 'description': desc, 'url': BASE + practice_url(x), 'inLanguage': 'en-IN',
@@ -393,10 +391,9 @@ GROUP_GUIDE = {
 }
 
 def group_faqs(g, xs):
-    plans = ', '.join(f"{p['label']} ({p['tests']} mock tests, ₹{p['price']})" for p in PLANS)
     return [
         (f"Which {g['label']} exams can I practise on {SITE['name']}?", f"{', '.join(code(x) for x in xs)}."),
-        (f"How much do {g['label']} mock tests cost?", f"Each exam has its own plan: {plans}. Prices include GST, and every exam has a free demo test."),
+        (f"Are {g['label']} mock tests free?", f"Yes. Every {g['label']} mock test, practice question and chapter page on {SITE['name']} is free. You can start without an account; log in with Google to save your progress."),
         ("Are these real exam questions?", "No. All questions are original and written to the official syllabus and pattern. We do not use or sell actual exam questions."),
     ]
 
@@ -404,7 +401,7 @@ def group_page(g):
     xs = [x for x in INDEXABLE if x['group'] == g['id']]
     crumbs = [('Home', '/'), ('Exams', '/exams/'), (g['label'], group_url(g))]
     title = f"{g['label']} Mock Tests {YEAR} – {len(xs)} Exams | {SITE['name']}"
-    desc = f"Full-length {g['label']} mock tests for {', '.join(code(x) for x in xs[:4])}{' and more' if len(xs) > 4 else ''}. Exam pattern, syllabus, free sample questions and plans from ₹{PLANS[0]['price']}."
+    desc = f"Full-length {g['label']} mock tests for {', '.join(code(x) for x in xs[:4])}{' and more' if len(xs) > 4 else ''}. Exam pattern, syllabus and free practice questions — all free."
     gk = SEO['groups'].get(g['id'], {})
     if gk.get('title'): title = seo_title(gk['title'])
     if gk.get('description'): desc = gk['description']
@@ -470,7 +467,7 @@ def about_page():
     rev = ''.join(f"<li><b>{e(r['name'])}</b> — {e(r.get('credentials', ''))}{(': ' + e(r['bio'])) if r.get('bio') else ''}</li>" for r in SITE.get('reviewers', []) if r.get('name'))
     biz = ''.join(f'<li><b>{lbl}:</b> {e(v)}</li>' for lbl, v in [('Operated by', B.get('legalName')), ('GSTIN', B.get('gstin')), ('Registered address', B.get('address')), ('Email', B.get('email')), ('Phone', B.get('phone'))] if v)
     inner = f'''<p>{e(SITE['name'])} is an online practice platform for Indian certification and recruitment exams. We help candidates prepare for NISM certifications, bank and SSC recruitment, MBA entrance and insurance &amp; banking certifications with full-length mock tests that follow each exam's official pattern.</p>
-<h2>What we offer</h2><ul><li>Full-length, timed mock tests with the real exam's question count, duration and negative marking.</li><li>An explanation for every answer and chapter-wise performance analysis after each test.</li><li>Links to free official study material, such as NISM's free workbooks.</li><li>Simple per-exam plans of 10 to 30 days, with one mock test unlocked for each day.</li></ul>
+<h2>What we offer</h2><ul><li>Full-length, timed mock tests with the real exam's question count, duration and negative marking.</li><li>An explanation for every answer and chapter-wise performance analysis after each test.</li><li>Links to free official study material, such as NISM's free workbooks.</li><li>Free chapter-wise practice questions, preparation guides, a finance glossary, calculators and soft-skills courses.</li><li>Everything is free — no plans, no payments.</li></ul>
 <h2>How our content is made</h2><p>Every question is original and mapped to the exam's official syllabus. Read our <a href="/how-we-create-questions/">editorial process</a> to see how questions are written, checked and corrected.</p>
 {('<h2>Subject-matter reviewers</h2><ul>' + rev + '</ul>') if rev else ''}
 <h2>Independence</h2><p>We are not affiliated with NISM, SEBI or any exam-conducting body. We do not use or sell actual exam questions.</p>
@@ -493,35 +490,35 @@ def contact_page():
         ('Email', f'<a href="mailto:{e(B["email"])}">{e(B["email"])}</a>' if B.get('email') else ''),
         ('Phone', e(B.get('phone', ''))), ('Address', e(B.get('address', ''))), ('Operated by', e(B.get('legalName', ''))), ('GSTIN', e(B.get('gstin', '')))] if v)
     go = (f'<h2>Grievance officer</h2><p>As required under the Information Technology Rules, our grievance officer is <b>{e(GO["name"])}</b>, reachable at <a href="mailto:{e(GO["email"])}">{e(GO["email"])}</a>. We acknowledge complaints within 24 hours and aim to resolve them within 15 days.</p>' if GO.get('name') and GO.get('email') else '')
-    inner = f'''<p>We're happy to help with subscriptions, payments, technical problems or questions about our content.</p>
+    inner = f'''<p>We're happy to help with your account, technical problems or questions about our content.</p>
 {('<ul>' + items + '</ul>') if items else '<p>Contact details are being updated.</p>'}
 <h2>Report a question error</h2><p>Please include the exam, the mock test number and the question text, and tell us what you think the correct answer is and why. See <a href="/how-we-create-questions/">how we handle corrections</a>.</p>
 {go}'''
-    return simple('/contact/', 'Contact us', f"Contact {SITE['name']}", f"How to contact {SITE['name']} about subscriptions, payments, technical issues or question corrections.", inner)
+    return simple('/contact/', 'Contact us', f"Contact {SITE['name']}", f"How to contact {SITE['name']} about your account, technical issues or question corrections.", inner)
 
 def privacy_page():
     inner = f'''<p>This policy explains what personal data {OPERATOR} ("we") collects when you use success4sure.in, why, and your choices.</p>
-<h2>Data we collect</h2><ul><li><b>Account details:</b> your name, email address and mobile number when you sign up.</li><li><b>Payment details:</b> payments are processed by our payment gateway partner. We receive the payment status and a transaction reference; we do not see or store your full card, UPI or bank credentials.</li><li><b>Usage data:</b> your mock test attempts, answers and scores, so we can show results and analysis.</li><li><b>Technical data:</b> basic logs such as IP address, browser and device type, used for security and to keep the service running.</li></ul>
-<h2>How we use it</h2><ul><li>To provide your account, subscriptions and mock tests.</li><li>To process payments, issue GST invoices and handle refunds.</li><li>To respond to support requests and send service messages about your account.</li><li>To keep the service secure and improve it.</li></ul><p>We do not sell your personal data.</p>
-<h2>Sharing</h2><p>We share data only with service providers who help us run the service — such as hosting, payment processing and email — under appropriate safeguards, or where required by law.</p>
-<h2>Retention</h2><p>We keep account and test data while your account is active and for a reasonable period afterwards for legal, tax and accounting purposes, then delete or anonymise it.</p>
+<h2>Data we collect</h2><ul><li><b>Account details:</b> if you sign in with Google, your name, email address and profile photo from your Google account; if you create an email account, the details you enter.</li><li><b>No payment data:</b> {SITE['name']} is free, so we do not collect any card, UPI or bank details.</li><li><b>Usage data:</b> your mock test attempts, answers and scores, so we can show results and analysis.</li><li><b>Technical data:</b> basic logs such as IP address, browser and device type, used for security and to keep the service running.</li></ul>
+<h2>How we use it</h2><ul><li>To provide your account, save your mock-test results and lesson progress, and show your analysis.</li><li>To respond to support requests and send service messages about your account.</li><li>To keep the service secure and improve it.</li></ul><p>We do not sell your personal data.</p>
+<h2>Sharing</h2><p>We share data only with service providers who help us run the service — such as hosting, sign-in (Google and Supabase) and email — under appropriate safeguards, or where required by law.</p>
+<h2>Retention</h2><p>We keep account and test data while your account is active and for a reasonable period afterwards, then delete or anonymise it. You can ask us to delete your account at any time.</p>
 <h2>Your choices and rights</h2><p>You can ask to access, correct or delete your personal data, or withdraw consent, by writing to {contact_line()}. We will respond in line with applicable Indian law, including the Digital Personal Data Protection Act, 2023.</p>
 <h2>Cookies and local storage</h2><p>We use essential browser storage to keep you logged in and remember your progress. We do not use advertising cookies.</p>
 <h2>Changes</h2><p>We may update this policy and will show the date of the latest version at the top of this page.</p>'''
     return simple('/privacy-policy/', 'Privacy policy', f"Privacy Policy | {SITE['name']}", f"How {SITE['name']} collects, uses and protects your personal data.", inner)
 
 def terms_page():
-    inner = f'''<p>These terms govern your use of success4sure.in, operated by {OPERATOR}. By creating an account or buying a plan you agree to them.</p>
-<h2>Accounts</h2><p>You must give accurate details and keep your login private. Plans are for one person; sharing an account is not allowed and may lead to suspension.</p>
-<h2>Plans and access</h2><p>Each plan is for one exam and runs for the number of days shown at purchase, unlocking one mock test for each day of the plan. Access ends automatically when the plan ends. Prices include GST.</p>
-<h2>Our content</h2><p>All questions, explanations and site content are our original work and are protected by copyright. You may use them for your personal preparation only. Copying, scraping, reselling or republishing them is not allowed.</p>
-<h2>No guarantee of results</h2><p>Our mock tests are practice material. They are not official exam questions, and we do not guarantee that you will pass or achieve any score. Exam patterns are indicative; always confirm them with the official notification.</p>
+    inner = f'''<p>These terms govern your use of success4sure.in, operated by {OPERATOR}. By using the site or creating an account you agree to them.</p>
+<h2>Free service</h2><p>{e(SITE['name'])} is free to use. There are no plans, subscriptions or payments. You can take mock tests, practise questions and read lessons without an account; signing in only saves your progress. We may change, add or remove features at any time.</p>
+<h2>Accounts</h2><p>If you sign in, keep your login private and give accurate details. We may suspend accounts that misuse the service, for example through automated scraping or abuse.</p>
+<h2>Our content</h2><p>All questions, explanations and site content are our original work and are protected by copyright. You may use them for your personal preparation and share links to our pages. Copying, scraping, reselling or republishing our content is not allowed.</p>
+<h2>No guarantee of results</h2><p>Our mock tests, notes and guides are practice and learning material. They are not official exam questions, and we do not guarantee that you will pass or achieve any score. Exam patterns and rules are indicative; always confirm them with the official notification or regulator.</p>
+<h2>Not financial advice</h2><p>Glossary entries, calculators and finance lessons are for education only. They are not investment, tax or legal advice for your situation.</p>
 <h2>Independence</h2><p>We are not affiliated with or endorsed by NISM, SEBI or any exam-conducting body. Names of exams are used only to describe what our practice material covers.</p>
-<h2>Liability</h2><p>To the extent permitted by law, our total liability for any claim is limited to the amount you paid for the plan concerned.</p>
-<h2>Refunds</h2><p>See our <a href="/refund-policy/">refund policy</a>.</p>
+<h2>Liability</h2><p>The service is provided free and "as is". To the extent permitted by law, we are not liable for any loss arising from your use of it.</p>
 <h2>Governing law</h2><p>These terms are governed by the laws of India.</p>
 <h2>Contact</h2><p>Questions about these terms: {contact_line()}.</p>'''
-    return simple('/terms/', 'Terms of use', f"Terms of Use | {SITE['name']}", f"The terms that apply when you use {SITE['name']} and buy a mock test plan.", inner)
+    return simple('/terms/', 'Terms of use', f"Terms of Use | {SITE['name']}", f"The terms that apply when you use {SITE['name']}, a free practice platform for Indian exams.", inner)
 
 def refund_page():
     inner = f'''<p>We want you to be happy with your plan. This policy explains when you can get a refund.</p>
@@ -592,7 +589,7 @@ def skills_hub_page():
       <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team</p>
       <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/skills">Start learning</a></div></div></section>
     <div class="wrap page prose">{cards}
-      <section style="margin-top:40px"><h2>How the courses work</h2><p>Each course has six lessons: four core lessons for everyone, one for freshers and one for finance professionals such as mutual fund distributors, advisers and relationship managers. Every lesson takes 5–8 minutes to read and ends with a 10-question quiz and three scenarios where you choose what you would say and see why it works. Plans are per course: 10, 15, 20 or 30 days of full access, from ₹{PLANS[0]['price']}.</p></section>
+      <section style="margin-top:40px"><h2>How the courses work</h2><p>Each course has six lessons: four core lessons for everyone, one for freshers and one for finance professionals such as mutual fund distributors, advisers and relationship managers. Every lesson takes 5–8 minutes to read and ends with a 10-question quiz and three scenarios where you choose what you would say and see why it works. Every course is free — no plans and no sign-up needed.</p></section>
     </div>'''
     ld = [breadcrumb_ld(crumbs), {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'url': BASE + skill_url(a), 'name': a['name']} for i, a in enumerate(SKILLS)]}]
     return page('/soft-skills/', title, desc, body, ld, active='/soft-skills/')
@@ -601,22 +598,21 @@ def skill_area_page(a):
     crumbs = [('Home', '/'), ('Soft skills', '/soft-skills/'), (a['name'], skill_url(a))]
     n = len(a['lessons'])
     title = f"{a['name']} Course – {n} Lessons with Quizzes | {SITE['name']}"
-    desc = f"{a['blurb']} {n} practical lessons, {n * 10} quiz questions and {n * 3} workplace scenarios. First lesson free; plans from ₹{PLANS[0]['price']}."
+    desc = f"{a['blurb']} {n} practical lessons, {n * 10} quiz questions and {n * 3} workplace scenarios. Free, with no sign-up needed."
     ck = SEO['courses'].get(a['slug'], {})
     if ck.get('title'): title = seo_title(ck['title'])
     if ck.get('description'): desc = ck['description']
-    rows = ''.join(f"<tr><td><a href=\"{skill_url(a, l)}\"><b>{e(l['title'])}</b></a><div class=\"small muted\">{e(l['summary'])}</div></td><td>{TRACK_LABEL[l['track']]}</td><td>{l['minutes']} min</td><td>{'Free' if i == 0 else 'Plan'}</td></tr>" for i, l in enumerate(a['lessons']))
+    rows = ''.join(f"<tr><td><a href=\"{skill_url(a, l)}\"><b>{e(l['title'])}</b></a><div class=\"small muted\">{e(l['summary'])}</div></td><td>{TRACK_LABEL[l['track']]}</td><td>{l['minutes']} min</td><td>Free</td></tr>" for i, l in enumerate(a['lessons']))
     faqs = [
         (f"Who is the {a['name']} course for?", "Freshers preparing for or starting their first job, and finance professionals such as mutual fund distributors, investment advisers and relationship managers. Core lessons suit everyone; one lesson is written for each of the two groups."),
-        ("What do I get with a plan?", f"Full access to all {n} lessons, {n * 10} quiz questions with explanations and {n * 3} practice scenarios for the length of your plan: " + ', '.join(f"{p['label']} ₹{p['price']}" for p in PLANS) + ". Prices include GST."),
-        ("Can I try it first?", f"Yes. The first lesson, “{a['lessons'][0]['title']}”, is free with its quiz and scenarios."),
+        ("Is this course free?", f"Yes. All {n} lessons, {n * 10} quiz questions with explanations and {n * 3} practice scenarios are free. You can start without an account; log in with Google to save your progress."),
     ] + [tuple(f) for f in ck.get('faqs', [])]
     learn = ('<section><h2>What you will learn</h2><ul class="checks">' + ''.join(f'<li>{e(t)}</li>' for t in ck['learn']) + '</ul></section>') if ck.get('learn') else ''
     who = ('<section><h2>Who this course is for</h2><ul>' + ''.join(f'<li>{e(t)}</li>' for t in ck['who']) + '</ul></section>') if ck.get('who') else ''
     intro = f'<section><h2>About this {e(a["name"])} course</h2><p>{e(ck["intro"])}</p></section>' if ck.get('intro') else ''
     body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}<h1>{e(a['name'])}</h1><p class="lead-left">{e(a['blurb'])}</p>
       <p class="meta-row small muted">Last updated {DATE_HUMAN} · <a href="/how-we-create-questions/">Our editorial process</a></p>
-      <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/skills/{a['slug']}">See plans &amp; start</a><a class="btn btn-lg" href="{skill_url(a, a['lessons'][0])}">Read lesson 1 free</a></div></div></section>
+      <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="{skill_url(a, a['lessons'][0])}">Start lesson 1</a><a class="btn btn-lg" href="/#/skills/{a['slug']}">Open in the app</a></div></div></section>
     <div class="wrap page prose">
       {('<div class="notice">' + e(a['note']) + '</div>') if a.get('note') else ''}
       {intro}{learn}{who}
@@ -624,13 +620,13 @@ def skill_area_page(a):
       <section><h2>FAQs</h2>{''.join(f'<details class="faq-item"><summary>{e(q)}</summary><p>{e(x)}</p></details>' for q, x in faqs)}</section>
     </div>'''
     course = {'@type': 'Course', 'name': a['name'], 'description': ck.get('intro') or a['blurb'], **({'teaches': ck['learn']} if ck.get('learn') else {}), **({'keywords': ', '.join([ck['primary']] + ck.get('secondary', []))} if ck.get('primary') else {}), 'provider': {'@id': BASE + '/#org'}, 'inLanguage': 'en-IN', 'url': BASE + skill_url(a),
-              'offers': {'@type': 'AggregateOffer', 'priceCurrency': 'INR', 'lowPrice': PLANS[0]['price'], 'highPrice': PLANS[-1]['price'], 'offerCount': len(PLANS), 'category': 'Paid'},
+              'isAccessibleForFree': True, 'offers': {'@type': 'Offer', 'price': 0, 'priceCurrency': 'INR', 'category': 'Free'},
               'hasCourseInstance': {'@type': 'CourseInstance', 'courseMode': 'Online'}, 'dateModified': TODAY.isoformat()}
     ld = [breadcrumb_ld(crumbs), course, {'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': x}} for q, x in faqs]}]
     return page(skill_url(a), title, desc, body, ld, active='/soft-skills/')
 
 def skill_lesson_page(a, i, l):
-    free = i == 0
+    free = True  # every lesson is free
     crumbs = [('Home', '/'), ('Soft skills', '/soft-skills/'), (a['name'], skill_url(a)), (l['title'], skill_url(a, l))]
     title = f"{l['title']} | {SITE['name']}"
     if len(title) > 68: title = l['title'][:66]
@@ -769,7 +765,7 @@ def guides_hub():
 
 HI_L = {'home': 'होम', 'exams': 'परीक्षाएँ', 'pattern': 'परीक्षा पैटर्न', 'questions': 'प्रश्न', 'marks': 'कुल अंक', 'duration': 'समय', 'minutes': 'मिनट',
         'target': 'लक्ष्य स्कोर', 'pass': 'पासिंग स्कोर', 'neg': 'नेगेटिव मार्किंग', 'none': 'कोई नेगेटिव मार्किंग नहीं', 'about': 'परीक्षा के बारे में', 'who': 'किसे देनी चाहिए',
-        'syllabus': 'सिलेबस', 'faqs': 'अक्सर पूछे जाने वाले प्रश्न', 'plans': 'मॉक टेस्ट प्लान', 'start': 'प्लान देखें और शुरू करें', 'demo': 'फ्री डेमो टेस्ट दें',
+        'syllabus': 'सिलेबस', 'faqs': 'अक्सर पूछे जाने वाले प्रश्न', 'plans': 'मॉक टेस्ट प्लान', 'start': 'फ्री मॉक टेस्ट शुरू करें', 'demo': 'फ्री डेमो टेस्ट दें',
         'practice': 'फ्री प्रैक्टिस प्रश्न (उत्तर सहित)', 'answer': 'उत्तर और व्याख्या देखें', 'ans': 'उत्तर', 'english': 'Read in English', 'updated': 'अंतिम अपडेट',
         'indicative': 'यह संकेतात्मक पैटर्न है — परीक्षा से पहले नवीनतम आधिकारिक अधिसूचना में पुष्टि करें।', 'not_real': 'ये मूल प्रैक्टिस प्रश्न हैं, असली परीक्षा के प्रश्न नहीं।',
         'days': 'दिन', 'tests': 'मॉक टेस्ट', 'price': 'कीमत (GST सहित)', 'q': 'प्रश्न'}
@@ -783,7 +779,7 @@ def hi_exam_page(x):
     body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}
       <h1>{e(h['h1'])}</h1><p class="lead-left">{e(h['intro'])}</p>
       <p class="meta-row small muted">{HI_L['updated']}: {DATE_HUMAN} · <a href="{exam_url(x)}" hreflang="en-IN" lang="en">{HI_L['english']}</a></p>
-      <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/exam/{x['id']}">{HI_L['start']}</a><a class="btn btn-lg" href="/#/test/{x['id']}?demo=1">{HI_L['demo']}</a></div>
+      <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/test/{x['id']}/1">{HI_L['start']}</a><a class="btn btn-lg" href="/#/test/{x['id']}?demo=1">{HI_L['demo']}</a></div>
     </div></section>
     <div class="wrap page prose">
       <section><h2>{HI_L['about']}</h2><p>{e(h['about'])}</p><p><b>{HI_L['who']}:</b> {e(h['who'])}</p></section>
@@ -793,8 +789,8 @@ def hi_exam_page(x):
         <tr><th>{HI_L['target'] if comp else HI_L['pass']}</th><td>{p['passPct']}%</td></tr><tr><th>{HI_L['neg']}</th><td>{neg}</td></tr></table></div>
         <p class="small muted">{HI_L['indicative']}</p></section>
       <section><h2>{HI_L['syllabus']}</h2><ul>{''.join(f'<li>{e(h["chapters"].get(c, c))}</li>' for c in chs)}</ul></section>
-      <section><h2>{HI_L['plans']}</h2><div class="table-wrap"><table><tr><th>{HI_L['days']}</th><th>{HI_L['tests']}</th><th>{HI_L['price']}</th></tr>
-        {''.join(f"<tr><td>{pl['days']}</td><td>{pl['tests']}</td><td>₹{pl['price']}</td></tr>" for pl in PLANS)}</table></div></section>
+      <section><h2>{e(h['name'])} — फ्री मॉक टेस्ट</h2><p>{max_mocks(x)} फुल-लेंथ मॉक टेस्ट, हर एक असली पैटर्न में, स्कोर, चैप्टर-वाइज़ विश्लेषण और हर उत्तर की व्याख्या के साथ — पूरी तरह फ्री। कोई प्लान या पेमेंट नहीं।</p>
+        <p><a class="btn btn-primary" href="/#/test/{x['id']}/1">पहला मॉक टेस्ट शुरू करें</a></p></section>
       <p><a class="btn" href="{hi_url(x, True)}">{e(h['name'])} — {HI_L['practice']} &rarr;</a></p>
       <section><h2>{HI_L['faqs']}</h2>{''.join(f'<details class="faq-item"><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q, a in h['faqs'])}</section>
     </div>'''
@@ -935,7 +931,7 @@ def tools_hub():
 # ---------- home (SPA shell gets SEO head + crawlable fallback) ----------
 def home_seo():
     title = f"NISM, Bank, SSC & CAT Mock Tests Online | {SITE['name']}"
-    desc = f"Online mock tests with answers for {len(INDEXABLE)} exams – NISM, IBPS, SBI, SSC, CAT, IC-38 – plus soft-skills courses. Free demo; plans from ₹{PLANS[0]['price']}."
+    desc = f"Online mock tests with answers for {len(INDEXABLE)} exams – NISM, IBPS, SBI, SSC, CAT, IC-38 – plus soft-skills courses. All free."
     ld = {'@context': 'https://schema.org', '@graph': [org_ld(), {'@type': 'WebSite', '@id': BASE + '/#site', 'name': SITE['name'], 'url': BASE + '/', 'publisher': {'@id': BASE + '/#org'}, 'inLanguage': 'en-IN'}]}
     head = f'''<!-- seo:head -->
   <title>{e(title)}</title>
@@ -990,7 +986,7 @@ def main():
     wr('exams/index.html', exams_hub()); pages.append(('/exams/', True))
     wr('study-material/index.html', study_page()); pages.append(('/study-material/', True))
     for path, fn in [('/about/', about_page), ('/how-we-create-questions/', method_page), ('/contact/', contact_page),
-                     ('/privacy-policy/', privacy_page), ('/terms/', terms_page), ('/refund-policy/', refund_page), ('/disclaimer/', disclaimer_page)]:
+                     ('/privacy-policy/', privacy_page), ('/terms/', terms_page), ('/disclaimer/', disclaimer_page)]:
         wr(path.strip('/') + '/index.html', fn()); pages.append((path, True))
 
     wr('tools/index.html', tools_hub()); pages.append(('/tools/', True))
@@ -1037,7 +1033,7 @@ def main():
     wr('robots.txt', f'User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n')
 
     ss = (1 + len(SKILLS) + sum(len(a['lessons']) for a in SKILLS)) if SKILLS else 0
-    print(f'Sitemap: {len(urls)} URLs  (chapter pages {sum(len(v) for v in FREE.values())}, guides {len(GUIDES)}, Hindi {2 * len(HI)}, tools {len(TOOLS) + 1}; home 1, exam hub 1, categories {len(GROUPS)}, exams {len(INDEXABLE)}, practice-question pages {len(INDEXABLE)}, study material 1, trust pages 7, soft skills {ss})')
+    print(f'Sitemap: {len(urls)} URLs  (chapter pages {sum(len(v) for v in FREE.values())}, guides {len(GUIDES)}, Hindi {2 * len(HI)}, tools {len(TOOLS) + 1}; home 1, exam hub 1, categories {len(GROUPS)}, exams {len(INDEXABLE)}, practice-question pages {len(INDEXABLE)}, study material 1, trust pages 6, soft skills {ss})')
     print(f'Not in sitemap (noindex): {", ".join(code(x) for x in EXAMS if x.get("noindex"))}')
     for w in warnings: print('WARN', w)
 

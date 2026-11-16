@@ -1,6 +1,6 @@
 /* Success4Sure prototype — single-page app with hash routing.
    Data lives in localStorage for now; each store maps to a future database table
-   (users, subscriptions, attempts, questions). */
+   (users, attempts, questions). */
 (() => {
   'use strict';
 
@@ -209,6 +209,7 @@
       avatar: m.avatar_url || m.picture || '', provider: 'google', created: prev.created || Date.now() };
     store.set('users', [...list.filter((x) => x.id !== su.id), u]);
     store.set('session', { userId: u.id, provider: 'google' });
+    claimGuest(u.id);
     return u;
   }
 
@@ -237,9 +238,19 @@
   const subs = () => store.get('subs', []);
   const attempts = () => store.get('attempts', []);
 
+  // Everything is free: every exam and course is unlocked for everyone. Guests' results are kept
+  // under 'guest' and moved to their account when they log in.
+  const GUEST = 'guest';
+  const meId = () => (currentUser() || {}).id || GUEST;
   function activeSub(userId, examId) {
-    const now = Date.now();
-    return subs().filter((s) => s.userId === userId && s.examId === examId && s.end > now).sort((a, b) => b.end - a.end)[0] || null;
+    const p = productById(examId);
+    return p ? { free: true, examId, tests: skillById(examId) ? 0 : maxMocks(p), label: 'Free' } : null;
+  }
+  function claimGuest(userId) {
+    const list = attempts();
+    if (list.some((a) => a.userId === GUEST || a.userId === null)) store.set('attempts', list.map((a) => (a.userId === GUEST || a.userId === null ? { ...a, userId } : a)));
+    const sp = store.get('skill_progress', {});
+    if (sp[GUEST]) { sp[userId] = { ...sp[GUEST], ...(sp[userId] || {}) }; delete sp[GUEST]; store.set('skill_progress', sp); }
   }
   const testsIn = (sub) => sub.tests || sub.days;
   // Some exams (e.g. NISM V-B, a 50-question paper) unlock more than one real-format mock test per plan day.
@@ -295,7 +306,7 @@
             <button type="button" class="pmenu-btn ${active === 'profile' ? 'active' : ''}" id="pmenu-btn" aria-haspopup="menu" aria-expanded="false" aria-label="Open profile menu">${avatarHtml(u)}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
             <div class="pmenu-pop" id="pmenu-pop" role="menu" hidden>
               <div class="pmenu-head">${avatarHtml(u, 'avatar avatar-md')}<div><b>${esc(u.name)}</b><span>${esc(u.email || '')}</span></div></div>
-              <a role="menuitem" href="#/profile">${icon('user', 18)} My profile &amp; plans</a>
+              <a role="menuitem" href="#/profile">${icon('user', 18)} My profile &amp; progress</a>
               <a role="menuitem" href="#/dashboard">${icon('grid', 18)} Dashboard</a>
               <a role="menuitem" href="#/" id="logout" class="pmenu-out">${icon('back', 18)} Log out</a>
             </div>
@@ -356,7 +367,7 @@
       exam: () => viewExam(parts[1]),
       login: () => viewAuth('login', params.get('next')),
       register: () => viewAuth('register', params.get('next')),
-      checkout: () => viewCheckout(parts[1], Number(parts[2])),
+      checkout: () => { location.replace('#' + (skillById(parts[1]) ? '/skills/' + skillById(parts[1]).slug : '/exam/' + parts[1])); },
       dashboard: viewDashboard,
       profile: viewProfile,
       test: () => viewTest(parts[1], params.get('demo') === '1', Number(parts[2]) || 0),
@@ -392,7 +403,7 @@
       <span class="series">${esc(examCode(e))}</span>
       <h3>${esc(e.name)}</h3>
       <div class="ec-meta"><span>${icon('book', 14)} Up to ${maxMocks(e)} mocks</span><span>${icon('clock', 14)} ${e.pattern.duration} min</span><span>${icon('target', 14)} ${e.pattern.passPct}%</span></div>
-      <div class="ec-foot"><span>from <b>${inr(window.PLANS[0].price)}</b></span><span class="ec-arrow">${arrow(16)}</span></div>
+      <div class="ec-foot"><span class="badge badge-success">Free</span><span class="ec-arrow">${arrow(16)}</span></div>
     </a>`;
   }
 
@@ -419,12 +430,12 @@
     const totalQ = totalQuestions();
     const faqs = [
       ['Are these actual exam questions?', 'No. All questions are original practice questions written by our team and mapped topic by topic to each exam\'s official syllabus. They prepare you for the concepts and the format — not by leaking real exam content.'],
-      ['How does a subscription work?', 'Pick an exam and a plan of 10, 15, 20 or 30 days. Each day of your plan unlocks one full-length mock test of 100 questions — so a 10-day plan gives you 10 mock tests (1,000 questions) and a 30-day plan gives you 30 (3,000 questions). You can retake any unlocked test until your plan ends.'],
-      ['Can I upgrade my plan?', 'Yes. While a plan is active you can upgrade to a longer one to unlock more mock tests. The maximum plan is 30 days.'],
+      ['Is Success4Sure really free?', 'Yes. Every mock test, practice question, guide, calculator and soft-skills course is free — no plans, no payment and no card details. You can start a mock test without signing up.'],
+      ['Why should I log in?', 'Logging in with Google saves your results, mock-test progress, lesson progress and streaks to your account. Without logging in, they are kept only in this browser.'],
       ['Where do I get the official NISM workbooks?', 'NISM publishes its workbooks free of cost. Our Study Material page links every NISM exam to NISM\'s official free workbook portal, so you always download the latest version straight from the source.'],
       ['Do mock tests follow the real exam pattern?', 'Yes — the same number of questions, time limit, passing percentage and negative marking as the real exam, so exam day feels familiar.'],
       ['Can I practise on my phone?', 'Absolutely. Success4Sure works on any phone, tablet or laptop browser — no app download needed.'],
-      ['How do I pay?', 'UPI, debit/credit cards and net banking via a secure payment gateway. You receive a GST invoice for every purchase.'],
+      ['Do I need to sign up?', 'No. You can take mock tests, practise chapters and read lessons without an account. Sign in with Google only if you want your progress saved across devices.'],
     ];
     app.innerHTML = `
       <section class="hero">
@@ -475,7 +486,7 @@
       <section class="section wrap">
         <div class="section-head reveal">
           <h2>Find your exam</h2>
-          <p>NISM certifications, bank and SSC recruitment, MBA entrance and insurance &amp; banking certifications — all on the same simple plans.</p>
+          <p>NISM certifications, bank and SSC recruitment, MBA entrance and insurance &amp; banking certifications — every mock test free.</p>
         </div>
         <div class="cat-tabs reveal" id="home-cats">${groupTabs('All', false)}</div>
         <div class="grid" id="home-grid"></div>
@@ -535,8 +546,8 @@
           <h2>Three steps to certification</h2>
         </div>
         <div class="steps">
-          <div class="step reveal"><div class="step-num">${icon('search', 26)}<em>1</em></div><h3>Pick your exam</h3><p>Choose any exam and a plan of 10, 15, 20 or 30 days.</p></div>
-          <div class="step reveal" style="--d:.12s"><div class="step-num">${icon('clock', 26)}<em>2</em></div><h3>Take mock tests</h3><p>One full-length, timed mock test unlocked for every day of your plan.</p></div>
+          <div class="step reveal"><div class="step-num">${icon('search', 26)}<em>1</em></div><h3>Pick your exam</h3><p>Choose any of our ${N} exams — every one is free.</p></div>
+          <div class="step reveal" style="--d:.12s"><div class="step-num">${icon('clock', 26)}<em>2</em></div><h3>Take mock tests</h3><p>Up to 30 full-length, timed mock tests per exam, plus chapter-wise practice.</p></div>
           <div class="step reveal" style="--d:.24s"><div class="step-num">${icon('trophy', 26)}<em>3</em></div><h3>Review &amp; pass</h3><p>Learn from explanations, fix weak chapters and walk in confident.</p></div>
         </div>
       </section>
@@ -544,27 +555,14 @@
       <section class="section section-alt">
         <div class="wrap">
           <div class="section-head reveal">
-            <h2>Simple pricing, per exam</h2>
-            <p>One mock test of 100 questions for every day of your plan. Prices include GST.</p>
+            <h2>100% free. No plans, no payment.</h2>
+            <p>Every exam, every mock test and every course is free for everyone. Log in only if you want your progress saved.</p>
           </div>
-          <div class="pricing">
-            ${window.PLANS.map((p, i) => {
-              const featured = !!p.tag && p.tag === 'Popular';
-              return `<div class="price-card ${featured ? 'featured' : ''} reveal" style="--d:${i * 0.1}s">
-                ${p.tag ? `<span class="ribbon">${esc(p.tag)}</span>` : ''}
-                <h3>${esc(p.label)}</h3>
-                <div class="amount">${inr(p.price)}</div>
-                <div class="per-day muted">≈ ${inr((p.price / p.days).toFixed(1))} per day</div>
-                <ul>
-                  <li>${icon('check', 16)} ${p.days} days of access</li>
-                  <li>${icon('check', 16)} <b>${p.tests} mock tests</b></li>
-                  <li>${icon('check', 16)} ${num(p.tests * 100)} questions</li>
-                  <li>${icon('check', 16)} Explanations &amp; analytics</li>
-                </ul>
-                <a class="btn ${featured ? 'btn-primary' : ''} btn-block" href="#/exams">Choose exam ${arrow()}</a>
-              </div>`;
-            }).join('')}
+          <div class="grid free-grid">
+            ${[['grid', 'Up to 30 mock tests per exam', 'Full-length, timed, in the real exam pattern'], ['book', 'Chapter-wise practice', 'Free questions with answers for every chapter'], ['bulb', 'Explanations & analytics', 'Know why each answer is right and where you are weak'], ['user', 'Free soft-skills courses', 'Bite-size lessons, quizzes and scenarios']]
+              .map(([ic, t, d], i) => `<div class="card reveal" style="--d:${i * 0.08}s"><span class="stat-ico">${icon(ic, 22)}</span><h3 style="margin:12px 0 4px;font-size:1.05rem">${t}</h3><p class="muted small" style="margin:0">${d}</p></div>`).join('')}
           </div>
+          <div class="row" style="justify-content:center;margin-top:24px"><a class="btn btn-primary btn-lg" href="#/exams">Start practising free ${arrow()}</a></div>
         </div>
       </section>
 
@@ -654,7 +652,7 @@
           <div class="explain">${icon(ok ? 'check' : 'info', 16)}<div><b>${ok ? 'Correct!' : 'Not quite.'}</b> ${esc(q.explanation)}</div></div>
           <div class="row">
             <button class="btn btn-primary btn-sm" id="quiz-next">Next question ${arrow(16)}</button>
-            <a class="btn btn-ghost btn-sm" href="#/exam/${q.exam.id}">See ${esc(q.exam.series)} plans</a>
+            <a class="btn btn-ghost btn-sm" href="#/exam/${q.exam.id}">Start a free ${esc(q.exam.series)} mock test</a>
           </div>`;
         $('#quiz-next', el).addEventListener('click', () => { i++; draw(); });
       }));
@@ -766,14 +764,12 @@
     const c = CAT[e.category];
     const p = e.pattern;
     const u = currentUser();
-    const sub = u && activeSub(u.id, e.id);
-    const owned = sub ? testsIn(sub) : 0;
-    const status = sub ? mockStatus(u.id, e.id) : {};
+    const sub = activeSub(meId(), e.id);
+    const owned = testsIn(sub);
+    const status = mockStatus(meId(), e.id);
     const done = Object.keys(status).length;
-    const next = sub ? nextMock(status, owned) : null;
+    const next = nextMock(status, owned);
     const chapters = chaptersFor(e.id);
-    const offer = window.PLANS.filter((pl) => mocksFor(e, pl) > owned);
-    let selected = (offer.find((pl) => pl.tag === 'Popular') || offer[0] || {}).days;
 
     const tile = (k) => {
       const m = status[k];
@@ -810,7 +806,7 @@
                 <div class="row"><h3 style="margin:0">Your mock tests</h3><span class="spacer"></span><span class="small muted">${done} of ${owned} attempted</span></div>
                 <div class="meter" style="margin-bottom:16px"><span style="width:${(done / owned) * 100}%"></span></div>
                 <div class="mock-grid">${Array.from({ length: maxMocks(e) }, (_, i) => tile(i + 1)).join('')}</div>
-                ${owned < maxMocks(e) ? `<p class="small muted" style="margin:14px 0 0">${icon('lock', 14)} Mock tests ${owned + 1}–${maxMocks(e)} unlock when you upgrade your plan.</p>` : ''}
+
               </div>` : ''}
             <div class="card reveal">
               <h3>Exam pattern</h3>
@@ -834,50 +830,25 @@
             <div class="card reveal">
               <h3>What you get</h3>
               <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin-top:12px">
-                ${[['grid', 'Up to 30 mock tests', 'One per day of your plan'], ['book', `${p.questions} questions each`, 'Full-length, exam pattern'], ['bulb', 'Explanations', 'For every question'], ['chart', 'Analytics', 'Chapter-wise scores']]
+                ${[['grid', `${maxMocks(e)} free mock tests`, 'Retake any, any time'], ['book', `${p.questions} questions each`, 'Full-length, exam pattern'], ['bulb', 'Explanations', 'For every question'], ['chart', 'Analytics', 'Chapter-wise scores']]
                   .map(([ic, t, s2]) => `<div class="row" style="flex-wrap:nowrap"><span class="stat-ico" style="width:42px;height:42px">${icon(ic, 20)}</span><div><b style="font-size:.95rem">${t}</b><div class="small muted">${s2}</div></div></div>`).join('')}
               </div>
             </div>
           </div>
           <div class="stack sticky">
-            ${sub ? `
               <div class="card access-card reveal">
-                <div class="row"><span class="badge badge-success">${icon('check', 12)} ${esc(sub.label || sub.days + ' Days')} plan active</span></div>
-                <h3 style="margin-top:12px">${owned} mock tests unlocked</h3>
-                <div class="meter"><span style="width:${Math.max(4, Math.min(100, ((sub.end - Date.now()) / (sub.end - sub.start)) * 100))}%"></span></div>
-                <div class="small muted" style="margin-bottom:16px">${Math.ceil((sub.end - Date.now()) / DAY)} days left · until ${fmtDate(sub.end)}</div>
+                <div class="row"><span class="badge badge-success">${icon('check', 12)} Free</span></div>
+                <h3 style="margin-top:12px">All ${owned} mock tests are free</h3>
+                <div class="small muted" style="margin-bottom:16px">${done ? `${done} of ${owned} attempted` : `${p.questions} questions · ${p.duration} minutes each`}</div>
                 ${next ? `<a class="btn btn-primary btn-lg btn-block" href="#/test/${e.id}/${next}">${icon('bolt', 18)} Start Mock Test ${next}</a>`
                   : `<a class="btn btn-lg btn-block" href="#mocks" onclick="document.getElementById('mocks').scrollIntoView({behavior:'smooth'});return false;">All tests attempted — retake any</a>`}
-              </div>` : ''}
-            ${offer.length ? `
-              <div class="card reveal" style="--d:.1s">
-                <h3>${sub ? 'Upgrade for more mock tests' : 'Choose your plan'}</h3>
-                <div id="plans" style="margin-top:14px">
-                  ${offer.map((pl) => `
-                    <label class="plan-opt ${pl.days === selected ? 'selected' : ''}">
-                      <input type="radio" name="plan" value="${pl.days}" ${pl.days === selected ? 'checked' : ''}>
-                      <span class="radio"></span>
-                      <div><b>${esc(pl.label)}</b> ${pl.tag ? `<span class="badge">${esc(pl.tag)}</span>` : ''}<div class="small muted">${mocksFor(e, pl)} mock tests · ${num(mocksFor(e, pl) * p.questions)} questions</div></div>
-                      <div class="p-price">${inr(pl.price)}<small>incl. GST</small></div>
-                    </label>`).join('')}
-                </div>
-                <a class="btn btn-primary btn-lg btn-block" id="buy" href="#/checkout/${e.id}/${selected}">${sub ? 'Upgrade' : 'Continue'} ${arrow()}</a>
-                <p class="center small muted" style="margin:12px 0 0">${icon('lock', 14)} Secure payment · instant access</p>
-              </div>` : `
-              <div class="card reveal small muted">${icon('trophy', 16)} You're on the maximum 30-day plan with all ${maxMocks(e)} mock tests unlocked.</div>`}
-            ${sub ? '' : `
-              <div class="card reveal" style="--d:.2s">
-                <div class="row" style="flex-wrap:nowrap"><span class="stat-ico">${icon('bolt', 22)}</span><div><b>Not sure yet?</b><div class="small muted">Try a free 3-question demo. No sign-up.</div></div></div>
-                <a class="btn btn-block" style="margin-top:14px" href="#/test/${e.id}?demo=1">Try free demo ${arrow()}</a>
-              </div>`}
+                <a class="btn btn-block" style="margin-top:10px" href="#/test/${e.id}?demo=1">Quick 3-question demo</a>
+              </div>
+              ${u ? '' : `<div class="card reveal small" style="--d:.1s">${icon('info', 16)} <b>Save your progress.</b> <span class="muted">Log in with Google to keep your results and streaks on every device.</span><a class="btn btn-sm btn-block" style="margin-top:12px" href="#/login?next=${encodeURIComponent('/exam/' + e.id)}">Log in</a></div>`}
+              ${e.slug ? `<div class="card reveal small" style="--d:.2s"><b>Free practice</b><div class="stack" style="margin-top:10px;gap:6px"><a href="/exams/${e.slug}/practice-questions/">${icon('book', 14)} ${esc(examCode(e))} practice questions</a><a href="/tools/exam-score-calculator/?exam=${e.id}">${icon('target', 14)} Score calculator</a></div></div>` : ''}
           </div>
         </div>
       </div>`;
-    $$('#plans input').forEach((r) => r.addEventListener('change', () => {
-      selected = Number(r.value);
-      $$('#plans .plan-opt').forEach((l) => l.classList.toggle('selected', l.contains(r)));
-      $('#buy').href = `#/checkout/${e.id}/${selected}`;
-    }));
   }
 
   // ---------- auth ----------
@@ -938,74 +909,9 @@
         if (!u) return (err.textContent = 'Incorrect email or password.');
       }
       store.set('session', { userId: u.id });
+      claimGuest(u.id);
       toast(isReg ? `Welcome, ${u.name.split(' ')[0]}!` : 'Logged in');
       location.hash = '#' + (next || '/dashboard');
-    });
-  }
-
-  // ---------- checkout ----------
-  function viewCheckout(examId, days) {
-    const e = productById(examId);
-    const isSkill = !!(e && skillById(examId));
-    const plan = window.PLANS.find((p) => p.days === days);
-    if (!e || !plan) return viewNotFound();
-    if (!requireLogin()) return;
-    const u = currentUser();
-    const c = isSkill ? { icon: e.icon, color: e.color } : CAT[e.category];
-    const back = isSkill ? skillUrl(e) : '#/exam/' + e.id;
-    const existing = activeSub(u.id, e.id);
-    if (existing && (isSkill ? plan.tests : mocksFor(e, plan)) <= testsIn(existing)) {
-      toast(isSkill ? 'You already have this plan or a longer one — pick a longer plan to extend' : `You already have ${testsIn(existing)} mock tests — pick a bigger plan to upgrade`);
-      location.hash = back;
-      return;
-    }
-    const base = plan.price / 1.18;
-    // Plans never stack: an upgrade replaces the current plan, starting today (max 30 days).
-    const start = Date.now();
-    const end = start + plan.days * DAY;
-    app.innerHTML = `
-      <div class="wrap page">
-        <a class="small" href="${back}">${icon('back', 16)} Back to ${isSkill ? 'lessons' : 'exam'}</a>
-        <h1 style="font-size:2rem;margin-top:12px">Checkout</h1>
-        <div class="checkout">
-          <div class="card reveal">
-            <div class="row" style="flex-wrap:nowrap">
-              <span class="ec-icon" style="--c:${c.color};display:grid;place-items:center;width:52px;height:52px;border-radius:16px;color:${c.color};background:color-mix(in srgb, ${c.color} 12%, transparent)">${icon(c.icon, 24)}</span>
-              <div><div class="small muted"><b>${esc(isSkill ? 'Soft skills' : examCode(e))}</b></div><h3 style="margin:2px 0 0">${esc(e.name)}</h3></div>
-            </div>
-            <div style="margin-top:20px">
-              <div class="summary-row"><span>Plan</span><b>${esc(plan.label)}</b></div>
-              ${isSkill ? `<div class="summary-row"><span>Includes</span><b>${e.lessons.length} lessons, ${e.lessons.length * 10} quiz questions, ${scenarioCount(e)} scenarios</b></div>`
-                : `<div class="summary-row"><span>Mock tests</span><b>${mocksFor(e, plan)} tests × ${e.pattern.questions} questions</b></div>
-              <div class="summary-row"><span>Total questions</span><b>${num(mocksFor(e, plan) * e.pattern.questions)}</b></div>`}
-              <div class="summary-row"><span>Access</span><b>${fmtDate(start)} → ${fmtDate(end)}</b></div>
-              ${existing ? `<div class="notice ok small" style="margin-top:8px">${icon('check', 16)}<span>${isSkill ? 'This replaces your current plan and starts today. Your progress is kept.' : `Upgrade: this replaces your current ${testsIn(existing)}-test plan and starts today. Your past results are kept.`}</span></div>` : ''}
-            </div>
-          </div>
-          <div class="card reveal" style="--d:.1s">
-            <h3>Order summary</h3>
-            <div class="summary-row"><span>Price</span><b>${inr(base.toFixed(2))}</b></div>
-            <div class="summary-row"><span>GST (18%)</span><b>${inr((plan.price - base).toFixed(2))}</b></div>
-            <div class="summary-total"><span>Total</span><span class="grad-text">${inr(plan.price)}</span></div>
-            <div class="pay-methods"><span>UPI</span><span>Cards</span><span>Net banking</span></div>
-            <button class="btn btn-primary btn-lg btn-block" id="pay">${icon('lock', 18)} Pay ${inr(plan.price)}</button>
-            <div class="notice small" style="margin-top:14px">${icon('info', 16)}<span>Prototype: no real payment is taken. The live site will open a payment gateway here.</span></div>
-          </div>
-        </div>
-      </div>`;
-    $('#pay').addEventListener('click', (ev) => {
-      const btn = ev.currentTarget;
-      btn.disabled = true;
-      btn.innerHTML = 'Processing…';
-      setTimeout(() => {
-        const now = Date.now();
-        const s = { id: uid(), userId: u.id, examId: e.id, days: plan.days, tests: isSkill ? plan.tests : mocksFor(e, plan), label: plan.label, price: plan.price, start, end, paymentRef: 'DEMO-' + uid().toUpperCase(), created: now };
-        const all = subs().map((x) => (existing && x.id === existing.id ? { ...x, end: now, upgradedTo: s.id } : x));
-        store.set('subs', [...all, s]);
-        toast(isSkill ? `Payment successful — ${e.name} unlocked for ${plan.days} days` : existing ? `Upgraded — ${mocksFor(e, plan)} mock tests unlocked` : `Payment successful — ${mocksFor(e, plan)} mock tests unlocked`);
-        confetti();
-        location.hash = back;
-      }, 700);
     });
   }
 
@@ -1112,14 +1018,11 @@
     if (!requireLogin()) return;
     const u = currentUser();
     const now = Date.now();
-    const mySubs = subs().filter((s) => s.userId === u.id);
-    const byExam = {};
-    mySubs.forEach((s) => { if (!byExam[s.examId] || s.end > byExam[s.examId].end) byExam[s.examId] = s; });
-    const latest = Object.values(byExam).sort((a, b) => b.end - a.end);
     const myAttempts = attempts().filter((a) => a.userId === u.id && a.submittedAt && !a.demo).sort((a, b) => b.submittedAt - a.submittedAt);
     const avg = myAttempts.length ? myAttempts.reduce((s, a) => s + a.result.pct, 0) / myAttempts.length : 0;
     const passes = myAttempts.filter((a) => a.result.passed).length;
-    const activeCount = latest.filter((s) => s.end > now).length;
+    const practised = [...new Set(myAttempts.map((a) => a.examId))].filter((id) => examById(id));
+    const byExam = Object.fromEntries(practised.map((id) => [id, true]));
     const hour = new Date().getHours();
     const greet = hour < 12 ? 'Good morning' : hour < 17 ? 'Good afternoon' : 'Good evening';
     const suggest = EXAMS.filter((e) => e.popular && !byExam[e.id]).slice(0, 3);
@@ -1131,22 +1034,22 @@
         <div class="wrap welcome">
           <div>
             <h1>${greet}, ${esc(u.name.split(' ')[0])}!</h1>
-            <p>${activeCount ? 'Keep the momentum going — every test gets you closer.' : 'Pick your first exam and start practising today.'}</p>
+            <p>${practised.length ? 'Keep the momentum going — every test gets you closer.' : 'Pick your first exam and start practising today — it is all free.'}</p>
           </div>
           <a class="btn btn-lg" href="#/exams">${icon('plus', 18)} Add an exam</a>
         </div>
       </section>
       <div class="wrap page" style="padding-top:0">
         <div class="dash-stats">
-          ${kpi('grid', 'var(--brand-50)', 'var(--brand)', 0, 'Active subscriptions', activeCount)}
+          ${kpi('grid', 'var(--brand-50)', 'var(--brand)', 0, 'Exams practised', practised.length)}
           ${kpi('clock', '#efe9ff', '#7a5af8', 0, 'Tests taken', myAttempts.length)}
           ${kpi('chart', '#e0f5fe', '#0284c7', 0, 'Average score', Math.round(avg), '%')}
           ${kpi('trophy', 'var(--success-soft)', 'var(--success)', 0, 'Tests passed', passes)}
         </div>
 
         <section style="margin-top:40px">
-          ${latest.length ? `<a class="card plans-link reveal" href="#/profile"><span class="stat-ico">${icon('grid', 22)}</span><div><b>My plans</b><span class="small muted">${activeCount ? `${activeCount} active plan${activeCount === 1 ? '' : 's'} · start your next mock test from your profile` : 'All your plans have expired · renew from your profile'}</span></div>${arrow()}</a>`
-            : `<div class="card center reveal" style="padding:48px 24px"><span class="stat-ico" style="margin:0 auto 14px;width:60px;height:60px">${icon('book', 28)}</span><h3>No subscriptions yet</h3><p class="muted">Choose an exam and a plan to unlock up to 30 mock tests.</p><a class="btn btn-primary" href="#/exams">Browse exams ${arrow()}</a></div>`}
+          ${practised.length ? `<div class="row" style="margin-bottom:18px"><h2 style="margin:0;font-size:1.5rem">Continue practising</h2><span class="spacer"></span><a class="btn btn-sm" href="#/exams">${icon('plus', 16)} Add an exam</a></div><div class="grid">${practised.slice(0, 6).map((id, i) => examProgressCard(id, i)).join('')}</div>`
+            : `<div class="card center reveal" style="padding:48px 24px"><span class="stat-ico" style="margin:0 auto 14px;width:60px;height:60px">${icon('book', 28)}</span><h3>No tests taken yet</h3><p class="muted">Every exam has up to 30 free mock tests. Pick one and start.</p><a class="btn btn-primary" href="#/exams">Browse exams ${arrow()}</a></div>`}
         </section>
 
         <section style="margin-top:48px">
@@ -1172,6 +1075,18 @@
   }
 
   // ---------- profile ----------
+  function examProgressCard(id, i) {
+    const e = examById(id), c = CAT[e.category], owned = maxMocks(e);
+    const st = mockStatus(meId(), id), doneN = Object.keys(st).length, nx = nextMock(st, owned);
+    const best = Math.max(0, ...Object.values(st).map((m) => m.best));
+    return `<div class="exam-card sub-card reveal" style="--c:${c.color};--d:${i * 0.05}s">
+      <div class="ec-top"><span class="ec-icon">${icon(c.icon, 24)}</span>${doneN ? `<span class="badge">Best ${best.toFixed(0)}%</span>` : ''}</div>
+      <span class="series">${esc(examCode(e))}</span><h3>${esc(e.name)}</h3>
+      <div class="meter"><span style="width:${(doneN / owned) * 100}%"></span></div>
+      <span class="small muted">${doneN} of ${owned} mock tests attempted</span>
+      <div style="margin-top:auto;padding-top:14px">${nx ? `<a class="btn btn-primary btn-block" href="#/test/${e.id}/${nx}">${icon('bolt', 16)} Start Mock Test ${nx}</a>` : `<a class="btn btn-block" href="#/exam/${e.id}">View all mock tests</a>`}</div>
+    </div>`;
+  }
   function subCard(u, s, i) {
     const now = Date.now();
     if (skillById(s.examId)) {
@@ -1210,7 +1125,9 @@
     if (!requireLogin()) return;
     const u = currentUser();
     const now = Date.now();
-    const mine = subs().filter((s) => s.userId === u.id && productById(s.examId));
+    const mine = [];
+    const practised = [...new Set(attempts().filter((a) => a.userId === u.id && a.submittedAt && !a.demo).map((a) => a.examId))].filter((id) => examById(id));
+    const started = (window.SKILL_AREAS || []).filter((a) => a.lessons.some((l) => lessonProgress(a, l.id).read));
     const byExam = {};
     mine.forEach((s) => { if (!byExam[s.examId] || s.end > byExam[s.examId].end) byExam[s.examId] = s; });
     const current = Object.values(byExam).sort((a, b) => b.end - a.end);
@@ -1233,24 +1150,11 @@
         </div>
 
         <section style="margin-top:40px">
-          <div class="row" style="margin-bottom:18px"><h2 style="margin:0;font-size:1.5rem">My plans</h2><span class="spacer"></span><a class="btn btn-sm" href="#/exams">${icon('plus', 16)} Add an exam</a></div>
-          ${current.length ? `<div class="grid">${current.map((s, i) => subCard(u, s, i)).join('')}</div>`
-            : `<div class="card center reveal" style="padding:48px 24px"><span class="stat-ico" style="margin:0 auto 14px;width:60px;height:60px">${icon('book', 28)}</span><h3>No plans yet</h3><p class="muted">Choose an exam and a plan to unlock up to 30 mock tests.</p><a class="btn btn-primary" href="#/exams">Browse exams ${arrow()}</a></div>`}
+          <div class="row" style="margin-bottom:18px"><h2 style="margin:0;font-size:1.5rem">My exams</h2><span class="spacer"></span><a class="btn btn-sm" href="#/exams">${icon('plus', 16)} Add an exam</a></div>
+          ${practised.length ? `<div class="grid">${practised.map((id, i) => examProgressCard(id, i)).join('')}</div>`
+            : `<div class="card center reveal" style="padding:48px 24px"><span class="stat-ico" style="margin:0 auto 14px;width:60px;height:60px">${icon('book', 28)}</span><h3>No mock tests yet</h3><p class="muted">Every exam has free full-length mock tests. Your results will appear here.</p><a class="btn btn-primary" href="#/exams">Browse exams ${arrow()}</a></div>`}
         </section>
-
-        ${history.length ? `<section style="margin-top:48px">
-          <h2 style="font-size:1.5rem">Purchase history</h2>
-          <div class="card table-wrap reveal" style="padding:8px 16px"><table>
-            <tr><th>Purchased</th><th>Exam</th><th>Plan</th><th>Valid until</th><th>Amount</th><th>Status</th></tr>
-            ${history.map((s) => { const e = productById(s.examId); const sk = skillById(s.examId); return `<tr>
-              <td>${fmtDate(s.created || s.start)}</td>
-              <td><b>${sk ? 'Soft skills' : esc(examCode(e))}</b><div class="small muted">${esc(e.name)}</div></td>
-              <td>${esc(s.label || s.days + ' days')}<div class="small muted">${sk ? 'Full course access' : testsIn(s) + ' mock tests'}</div></td>
-              <td>${fmtDate(s.end)}</td>
-              <td>${s.price !== undefined ? inr(s.price) : '—'}<div class="small muted">${esc(s.paymentRef || '')}</div></td>
-              <td>${status(s)}</td></tr>`; }).join('')}
-          </table></div>
-        </section>` : ''}
+        ${started.length ? `<section style="margin-top:48px"><h2 style="font-size:1.5rem">My courses</h2><div class="grid">${started.map((a, i) => skillCard(a, i)).join('')}</div></section>` : ''}
       </div>`;
     $('#profile-logout').addEventListener('click', () => $('#logout').click());
   }
@@ -1262,16 +1166,10 @@
     const u = currentUser();
     let sub = null;
     if (!demo) {
-      if (!requireLogin()) return;
-      sub = activeSub(u.id, e.id);
-      if (!sub) {
-        toast('Your subscription for this exam is not active');
-        location.hash = '#/exam/' + e.id;
-        return;
-      }
-      if (!mockNo) mockNo = nextMock(mockStatus(u.id, e.id), testsIn(sub)) || 1;
+      sub = activeSub(meId(), e.id);
+      if (!mockNo) mockNo = nextMock(mockStatus(meId(), e.id), testsIn(sub)) || 1;
       if (mockNo > testsIn(sub) || mockNo < 1) {
-        toast(`Mock Test ${mockNo} is locked — upgrade your plan to unlock it`);
+        toast(`There is no Mock Test ${mockNo} for this exam`);
         location.hash = '#/exam/' + e.id;
         return;
       }
@@ -1434,7 +1332,7 @@
       const score = correct * mpq - wrong * mpq * p.negative;
       const pct = Math.max(0, (score / max) * 100);
       const attempt = {
-        id: uid(), userId: u ? u.id : null, examId: e.id, demo, mockNo: demo ? null : mockNo,
+        id: uid(), userId: meId(), examId: e.id, demo, mockNo: demo ? null : mockNo,
         questionIds: qs.map((q) => q.id), answers: st.answers,
         startedAt: st.startedAt, submittedAt: Date.now(),
         result: { correct, wrong, unanswered: qs.length - correct - wrong, score, max, pct, passed: pct >= p.passPct, chapters },
@@ -1459,11 +1357,10 @@
 
   // ---------- results ----------
   function resultActions(a, e) {
-    const u = currentUser();
-    const sub = u && activeSub(u.id, e.id);
-    if (!sub || !a.mockNo) return `<a class="btn btn-primary" href="#/exam/${e.id}">View plans ${arrow()}</a><a class="btn" href="#/dashboard">Dashboard</a>`;
+    const sub = activeSub(meId(), e.id);
+    if (!a.mockNo) return `<a class="btn btn-primary" href="#/test/${e.id}/1">Take full Mock Test 1 — free ${arrow()}</a><a class="btn" href="#/exam/${e.id}">All mock tests</a>`;
     const owned = testsIn(sub);
-    const nx = nextMock(mockStatus(u.id, e.id), owned);
+    const nx = nextMock(mockStatus(meId(), e.id), owned);
     return [
       nx ? `<a class="btn btn-primary" href="#/test/${e.id}/${nx}">Next: Mock Test ${nx} ${arrow()}</a>` : '',
       `<a class="btn" href="#/test/${e.id}/${a.mockNo}">${icon('refresh', 16)} Retake Mock ${a.mockNo}</a>`,
@@ -1585,7 +1482,7 @@
     mine[key] = { ...(mine[key] || {}), ...patch };
     store.set('skill_progress', all);
   }
-  const skillAccess = (area) => { const u = currentUser(); return !!(u && activeSub(u.id, area.id)); };
+  const skillAccess = () => true;
   const lessonFree = (i) => i === 0;
   const canOpenLesson = (area, i) => lessonFree(i) || skillAccess(area);
   const areaDone = (area) => area.lessons.filter((l) => lessonProgress(area, l.id).read).length;
@@ -1615,7 +1512,7 @@
       <p class="small muted" style="margin:2px 0 0">${esc(a.blurb)}</p>
       <div class="ec-meta"><span>${icon('book', 14)} ${n} lessons</span><span>${icon('target', 14)} ${n * 10} quiz Qs</span><span>${icon('flag', 14)} ${scenarioCount(a)} scenarios</span></div>
       ${done ? `<div class="meter"><span style="width:${(done / n) * 100}%"></span></div>` : ''}
-      <div class="ec-foot"><span>from <b>${inr(window.PLANS[0].price)}</b></span><span class="ec-arrow">${arrow(16)}</span></div>
+      <div class="ec-foot"><span class="badge badge-success">Free</span><span class="ec-arrow">${arrow(16)}</span></div>
     </a>`;
   }
 
@@ -1654,9 +1551,6 @@
     const a = skillBySlug(slug);
     if (!a) return viewNotFound();
     const u = currentUser();
-    const sub = u && activeSub(u.id, a.id);
-    const offer = window.PLANS.filter((pl) => pl.days > (sub ? sub.days : 0));
-    let selected = (offer.find((pl) => pl.tag === 'Popular') || offer[0] || {}).days;
     let track = 'all';
     const nextIdx = a.lessons.findIndex((l) => !lessonProgress(a, l.id).read);
     app.innerHTML = `
@@ -1679,34 +1573,14 @@
             </div>
           </div>
           <div class="stack sticky">
-            ${sub ? `
               <div class="card access-card">
-                <span class="badge badge-success">${icon('check', 12)} ${esc(sub.label || sub.days + ' Days')} plan active</span>
-                <h3 style="margin-top:12px">Full access unlocked</h3>
+                <span class="badge badge-success">${icon('check', 12)} Free course</span>
+                <h3 style="margin-top:12px">All ${a.lessons.length} lessons are free</h3>
                 <div class="meter"><span style="width:${(areaDone(a) / a.lessons.length) * 100}%"></span></div>
-                <div class="small muted" style="margin-bottom:16px">${Math.ceil((sub.end - Date.now()) / DAY)} days left · until ${fmtDate(sub.end)}</div>
+                <div class="small muted" style="margin-bottom:16px">${areaDone(a)} of ${a.lessons.length} read · ${a.lessons.length * 10} quiz questions · ${scenarioCount(a)} scenarios</div>
                 <a class="btn btn-primary btn-lg btn-block" href="${skillUrl(a, a.lessons[nextIdx < 0 ? 0 : nextIdx].id)}">${icon('book', 18)} ${nextIdx < 0 ? 'Review lessons' : areaDone(a) ? 'Continue learning' : 'Start learning'}</a>
-              </div>` : ''}
-            ${offer.length ? `
-              <div class="card">
-                <h3>${sub ? 'Extend your access' : 'Unlock all lessons'}</h3>
-                <p class="small muted" style="margin:0 0 14px">Every plan unlocks all ${a.lessons.length} lessons, ${a.lessons.length * 10} quiz questions and ${scenarioCount(a)} scenarios in ${esc(a.name)}.</p>
-                <div id="plans">
-                  ${offer.map((pl) => `
-                    <label class="plan-opt ${pl.days === selected ? 'selected' : ''}">
-                      <input type="radio" name="plan" value="${pl.days}" ${pl.days === selected ? 'checked' : ''}>
-                      <span class="radio"></span>
-                      <div><b>${esc(pl.label)}</b> ${pl.tag ? `<span class="badge">${esc(pl.tag)}</span>` : ''}<div class="small muted">${pl.days} days of full access</div></div>
-                      <div class="p-price">${inr(pl.price)}<small>incl. GST</small></div>
-                    </label>`).join('')}
-                </div>
-                <a class="btn btn-primary btn-lg btn-block" id="buy" href="#/checkout/${a.id}/${selected}">${sub ? 'Extend' : 'Continue'} ${arrow()}</a>
-              </div>` : `<div class="card small muted">${icon('trophy', 16)} You're on the longest plan for ${esc(a.name)}.</div>`}
-            ${sub ? '' : `
-              <div class="card">
-                <div class="row" style="flex-wrap:nowrap"><span class="stat-ico">${icon('bolt', 22)}</span><div><b>Start free</b><div class="small muted">The first lesson, its quiz and scenarios are free.</div></div></div>
-                <a class="btn btn-block" style="margin-top:14px" href="${skillUrl(a, a.lessons[0].id)}">Read lesson 1 free ${arrow()}</a>
-              </div>`}
+              </div>
+              ${u ? '' : `<div class="card small">${icon('info', 16)} <b>Save your progress.</b> <span class="muted">Log in with Google to keep lesson progress on every device.</span><a class="btn btn-sm btn-block" style="margin-top:12px" href="#/login">Log in</a></div>`}
           </div>
         </div>
       </div>`;
@@ -1716,7 +1590,7 @@
         return `<a class="lesson-row ${open ? '' : 'locked'}" href="${skillUrl(a, l.id)}">
           <span class="lesson-num ${p.read ? 'done' : ''}">${p.read ? icon('check', 16) : i + 1}</span>
           <span class="lesson-main"><b>${esc(l.title)}</b><span class="small muted">${l.minutes} min read · ${TRACK_LABEL[l.track]}${p.quizBest != null ? ` · quiz best ${p.quizBest}%` : ''}</span></span>
-          ${lessonFree(i) && !skillAccess(a) ? '<span class="badge badge-success">Free</span>' : open ? arrow(16) : icon('lock', 16)}
+          ${arrow(16)}
         </a>`;
       }).join('') || '<p class="muted small">No lessons in this track.</p>';
     };
@@ -1724,11 +1598,6 @@
       track = b.dataset.t;
       $$('#track-tabs .tab').forEach((x) => x.classList.toggle('active', x === b));
       drawList();
-    }));
-    $$('#plans input').forEach((r) => r.addEventListener('change', () => {
-      selected = Number(r.value);
-      $$('#plans .plan-opt').forEach((x) => x.classList.toggle('selected', x.contains(r)));
-      $('#buy').href = `#/checkout/${a.id}/${selected}`;
     }));
     drawList();
   }
@@ -2047,8 +1916,6 @@
   // ---------- admin ----------
   function viewAdmin() {
     const now = Date.now();
-    const allSubs = subs();
-    const revenue = allSubs.reduce((s, x) => s + x.price, 0);
     const us = users();
     app.innerHTML = `
       <section class="page-hero">
@@ -2060,8 +1927,6 @@
       <div class="wrap page" style="padding-top:0">
         <div class="dash-stats">
           <div class="kpi"><span class="kpi-ico" style="background:var(--brand-50);color:var(--brand)">${icon('user', 22)}</span><div><b>${us.length}</b><span>Registered users</span></div></div>
-          <div class="kpi"><span class="kpi-ico" style="background:var(--success-soft);color:var(--success)">${icon('check', 22)}</span><div><b>${allSubs.filter((s) => s.end > now).length}</b><span>Active subscriptions</span></div></div>
-          <div class="kpi"><span class="kpi-ico" style="background:#fff5e0;color:#b76e00">${icon('chart', 22)}</span><div><b>${inr(revenue)}</b><span>Revenue (demo)</span></div></div>
           <div class="kpi"><span class="kpi-ico" style="background:#efe9ff;color:#7a5af8">${icon('clock', 22)}</span><div><b>${attempts().filter((a) => a.submittedAt).length}</b><span>Tests taken</span></div></div>
         </div>
         <section style="margin-top:40px">
@@ -2091,10 +1956,10 @@
           </table></div>
         </section>
         <section style="margin-top:40px">
-          <h2 style="font-size:1.5rem">Users &amp; subscriptions</h2>
+          <h2 style="font-size:1.5rem">Users</h2>
           <div class="card table-wrap" style="padding:8px 20px">${us.length ? `<table>
-            <tr><th>Name</th><th>Email</th><th>Mobile</th><th>Subscriptions</th></tr>
-            ${us.map((x) => `<tr><td><b>${esc(x.name)}</b></td><td>${esc(x.email)}</td><td>${esc(x.mobile)}</td><td>${allSubs.filter((s) => s.userId === x.id).map((s) => `${esc(skillById(s.examId) ? skillById(s.examId).name : examById(s.examId).series)} <span class="badge ${s.end > now ? '' : 'badge-danger'}">${s.end > now ? 'until ' + fmtDate(s.end) : 'expired'}</span>`).join('<br>') || '<span class="muted">—</span>'}</td></tr>`).join('')}
+            <tr><th>Name</th><th>Email</th><th>Mobile</th><th>Activity</th></tr>
+            ${us.map((x) => `<tr><td><b>${esc(x.name)}</b></td><td>${esc(x.email)}</td><td>${esc(x.mobile || '')}</td><td>${attempts().filter((t) => t.userId === x.id && t.submittedAt).length} tests</td></tr>`).join('')}
           </table>` : '<p class="muted" style="padding:16px 0">No users yet.</p>'}</div>
         </section>
       </div>`;
