@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Combination Problems: Committees, Handshakes and Diagonals</title>
+  <meta name="description" content="Learn nCr for committees, at-least conditions, handshakes, polygon diagonals and triangles from points, with worked examples and practice MCQs.">
+  <link rel="canonical" href="https://success4sure.in/topics/combination-selection-problems/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Success4Sure">
+  <meta property="og:title" content="Combination Problems: Committees, Handshakes and Diagonals">
+  <meta property="og:description" content="Learn nCr for committees, at-least conditions, handshakes, polygon diagonals and triangles from points, with worked examples and practice MCQs.">
+  <meta property="og:url" content="https://success4sure.in/topics/combination-selection-problems/">
+  <meta property="og:locale" content="en_IN">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css?v=20261117">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://success4sure.in/#org", "name": "Success4Sure", "url": "https://success4sure.in/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://success4sure.in/"}, {"@type": "ListItem", "position": 2, "name": "Topics", "item": "https://success4sure.in/topics/"}, {"@type": "ListItem", "position": 3, "name": "Combinations", "item": "https://success4sure.in/topics/combination-selection-problems/"}]}, {"@type": "Article", "headline": "Combination Problems: Committees, Handshakes and Diagonals", "description": "Learn nCr for committees, at-least conditions, handshakes, polygon diagonals and triangles from points, with worked examples and practice MCQs.", "inLanguage": "en-IN", "url": "https://success4sure.in/topics/combination-selection-problems/", "author": {"@id": "https://success4sure.in/#org"}, "publisher": {"@id": "https://success4sure.in/#org"}, "dateModified": "2026-11-17", "isAccessibleForFree": true, "about": "Combinations"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I know whether a question needs combination or permutation?", "acceptedAnswer": {"@type": "Answer", "text": "Ask whether swapping two chosen items gives a different outcome. If choosing Ravi then Meena is the same as Meena then Ravi, it is a combination. If positions, ranks or orders differ, it is a permutation. Some questions need both: select first, then arrange."}}, {"@type": "Question", "name": "Why use the complement for \"at least\" questions?", "acceptedAnswer": {"@type": "Answer", "text": "Because \"at least one\" includes many cases, while its opposite, \"none\", is a single case. Subtracting the single bad case from the total is shorter and less error-prone than adding several good cases separately."}}]}]}</script>
+</head>
+<body class="static">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar"><div class="wrap topbar-inner">
+    <a href="/" class="brand"><span class="brand-mark">S<i>4</i></span><span class="brand-name">Success<b>4</b>Sure</span></a>
+    <nav class="nav"><div class="nav-links"><a href="/exams/" class="">All Exams</a><a href="/exams/nism/" class="">NISM</a><a href="/exams/banking/" class="">Banking</a><a href="/exams/ssc/" class="">SSC</a><a href="/exams/mba-entrance/" class="">MBA</a><a href="/soft-skills/" class="">Soft Skills</a><a href="/tools/" class="">Free Tools</a><a href="/study-material/" class="">Study Material</a></div><div class="nav-right" style="margin-left:auto"><a href="/#/login" class="btn btn-primary btn-sm">Login / Sign up</a></div></nav>
+  </div></header>
+  <main id="main">
+    <section class="page-hero"><div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span class="sep">›</span> <a href="/topics/">Topics</a> <span class="sep">›</span> <span aria-current="page">Combinations</span></nav>
+      <div class="hero-series">Quantitative Aptitude · Topic guide</div><h1 style="margin-top:6px">Combination Problems: Committees, Handshakes and Diagonals</h1><p class="lead-left">Combinations count selections where order does not matter: picking a committee, choosing questions in an exam or drawing balls from a bag. They feed directly into probability, so IBPS PO, SBI PO and RBI Grade B effectively test them every year, and CAT relies on them heavily. SSC CGL asks occasional direct questions on handshakes and diagonals. A handful of patterns — conditional committees, &quot;at least&quot;, geometric counts — cover nearly all questions.</p>
+      <p class="meta-row small muted">Last updated 17 November 2026 · By the Success4Sure editorial team · Free</p></div></section>
+    <div class="wrap page prose lesson">
+      <section><h2>The nCr formula</h2><p>The number of ways to choose r items from n distinct items is nCr = n!/(r!(n − r)!). Useful identities: nC0 = nCn = 1, nC1 = n and nCr = nC(n − r), so 10C8 = 10C2 = 45.</p><div class="formula">nCr = n! / (r!(n − r)!)</div></section><section><h2>Committees with conditions</h2><p>Choose each group separately and multiply. A committee of 3 men and 2 women from 6 men and 5 women: 6C3 × 5C2 = 20 × 10 = 200. If a person must be included, remove them and choose the rest; if excluded, remove them from the pool.</p></section><section><h2>&quot;At least&quot; questions</h2><p>Count the complement: total selections minus those that violate the condition. At least one woman = all committees − all-men committees. This is faster than adding the cases one woman, two women and so on.</p></section><section><h2>Geometry counts</h2><p>Handshakes among n people = nC2. Lines through n points (no three collinear) = nC2; triangles = nC3. Diagonals of an n-sided polygon = nC2 − n = n(n − 3)/2. If k points are collinear, subtract kC3 from triangles because those points form no triangle.</p><div class="formula">Diagonals = n(n − 3) / 2</div></section>
+      <section><h2>Shortcuts and tricks</h2><ul><li>Compute nCr by cancelling: 9C4 = (9 × 8 × 7 × 6)/(4 × 3 × 2 × 1) = 126.</li><li>Pick the smaller of r and n − r before calculating.</li><li>Total subsets of n items = 2ⁿ; non-empty subsets = 2ⁿ − 1.</li><li>Selection then arrangement: choose with nCr, then multiply by r! if the chosen items are ordered.</li><li>Pentagon has 5 diagonals, hexagon 9, octagon 20, decagon 35.</li><li>Decagon diagonals: n(n − 3)/2 = 10 × 7/2 = 35, which is also 10C2 − 10 sides = 45 − 10.</li></ul></section>
+      <section><h2>Worked examples</h2><div class="sample"><div class="small muted">Example 1</div><p class="sample-q">A committee of 3 men and 2 women is to be formed from 6 men and 5 women. In how many ways can this be done?</p><details open><summary>Solution</summary><p>6C3 = 20 and 5C2 = 10. Total = 20 × 10 = 200.</p></details></div><div class="sample"><div class="small muted">Example 2</div><p class="sample-q">From 5 men and 4 women, a committee of 4 is chosen with at least one woman. How many ways?</p><details open><summary>Solution</summary><p>Total committees = 9C4 = 126. All-men committees = 5C4 = 5. Required = 126 − 5 = 121.</p></details></div><div class="sample"><div class="small muted">Example 3</div><p class="sample-q">At a meeting of 12 branch managers, each shakes hands with every other once. How many handshakes take place?</p><details open><summary>Solution</summary><p>12C2 = 12 × 11/2 = 66 handshakes.</p></details></div><div class="sample"><div class="small muted">Example 4</div><p class="sample-q">There are 10 points in a plane, of which 4 are collinear and no other three are. How many triangles can be formed?</p><details open><summary>Solution</summary><p>All triangles = 10C3 = 120. The 4 collinear points give 4C3 = 4 &quot;triangles&quot; that do not exist. Answer = 116.</p></details></div><div class="sample"><div class="small muted">Example 5</div><p class="sample-q">A cricket team of 11 is to be picked from 15 players. The captain must be included and one injured player must be left out. In how many ways can the team be chosen?</p><details open><summary>Solution</summary><p>Remove the captain (already in) and the injured player (out). We now choose 10 more players from the remaining 13: 13C10 = 13C3 = (13 × 12 × 11)/6 = 286 ways.</p></details></div><div class="sample"><div class="small muted">Example 6</div><p class="sample-q">A bag has 4 red and 5 green balls. In how many ways can 3 balls be drawn so that at least 2 are red?</p><details open><summary>Solution</summary><p>Exactly 2 red: 4C2 × 5C1 = 6 × 5 = 30. Exactly 3 red: 4C3 = 4. Total = 34. Here the complement (0 or 1 red) has two cases as well, so direct counting is just as quick; choose whichever side has fewer cases.</p></details></div></section>
+      <section><h2>Practice questions</h2>
+        <div class="sample" id="q1">
+          <div class="small muted">Question 1</div>
+          <p class="sample-q">The value of 8C3 is:</p>
+          <ol class="sample-opts" type="A"><li>336</li><li>28</li><li>56</li><li>70</li></ol>
+          <details><summary>Show answer &amp; explanation</summary><p><b>Answer: C. 56</b></p><p>8C3 = (8 × 7 × 6)/(3 × 2 × 1) = 336/6 = 56 possible selections.</p></details>
+        </div>
+        <div class="sample" id="q2">
+          <div class="small muted">Question 2</div>
+          <p class="sample-q">If 15 people shake hands with each other exactly once, the number of handshakes is:</p>
+          <ol class="sample-opts" type="A"><li>210</li><li>225</li><li>120</li><li>105</li></ol>
+          <details><summary>Show answer &amp; explanation</summary><p><b>Answer: D. 105</b></p><p>Each handshake is a pair, so the count is 15C2 = 15 × 14/2 = 105.</p></details>
+        </div>
+        <div class="sample" id="q3">
+          <div class="small muted">Question 3</div>
+          <p class="sample-q">The number of diagonals of a hexagon is:</p>
+          <ol class="sample-opts" type="A"><li>9</li><li>6</li><li>12</li><li>15</li></ol>
+          <details><summary>Show answer &amp; explanation</summary><p><b>Answer: A. 9</b></p><p>Diagonals = n(n − 3)/2 = 6 × 3/2 = 9, which is 15 lines minus the 6 sides.</p></details>
+        </div>
+        <div class="sample" id="q4">
+          <div class="small muted">Question 4</div>
+          <p class="sample-q">A team of 4 is selected from 7 men and 3 women. In how many ways can it include exactly 2 women?</p>
+          <ol class="sample-opts" type="A"><li>126</li><li>42</li><li>84</li><li>63</li></ol>
+          <details><summary>Show answer &amp; explanation</summary><p><b>Answer: D. 63</b></p><p>Choose 2 women in 3C2 = 3 ways and 2 men in 7C2 = 21 ways, giving 3 × 21 = 63.</p></details>
+        </div>
+        <div class="sample" id="q5">
+          <div class="small muted">Question 5</div>
+          <p class="sample-q">A student must answer 5 of 10 questions, and question 1 is compulsory. In how many ways can he choose?</p>
+          <ol class="sample-opts" type="A"><li>252</li><li>210</li><li>126</li><li>84</li></ol>
+          <details><summary>Show answer &amp; explanation</summary><p><b>Answer: C. 126</b></p><p>With question 1 fixed, he chooses 4 more from the remaining 9: 9C4 = 126 ways.</p></details>
+        </div></section>
+      <section><h2>FAQs</h2><details class="faq-item"><summary>How do I know whether a question needs combination or permutation?</summary><p>Ask whether swapping two chosen items gives a different outcome. If choosing Ravi then Meena is the same as Meena then Ravi, it is a combination. If positions, ranks or orders differ, it is a permutation. Some questions need both: select first, then arrange.</p></details><details class="faq-item"><summary>Why use the complement for &quot;at least&quot; questions?</summary><p>Because &quot;at least one&quot; includes many cases, while its opposite, &quot;none&quot;, is a single case. Subtracting the single bad case from the total is shorter and less error-prone than adding several good cases separately.</p></details></section>
+      <section><h2>Practise for these exams</h2><ul class="related"><li><a href="/exams/ibps-po-mock-test/">IBPS PO mock tests</a> <span class="small muted">· <a href="/exams/ibps-po-mock-test/practice-questions/">practice questions</a></span></li><li><a href="/exams/sbi-po-mock-test/">SBI PO mock tests</a> <span class="small muted">· <a href="/exams/sbi-po-mock-test/practice-questions/">practice questions</a></span></li><li><a href="/exams/rbi-grade-b-mock-test/">RBI Grade B mock tests</a> <span class="small muted">· <a href="/exams/rbi-grade-b-mock-test/practice-questions/">practice questions</a></span></li><li><a href="/exams/ssc-cgl-mock-test/">SSC CGL mock tests</a> <span class="small muted">· <a href="/exams/ssc-cgl-mock-test/practice-questions/">practice questions</a></span></li><li><a href="/exams/cat-mock-test/">CAT mock tests</a> <span class="small muted">· <a href="/exams/cat-mock-test/practice-questions/">practice questions</a></span></li><li><a href="/exams/cmat-mock-test/">CMAT mock tests</a> <span class="small muted">· <a href="/exams/cmat-mock-test/practice-questions/">practice questions</a></span></li><li><a href="/exams/mat-mock-test/">MAT mock tests</a> <span class="small muted">· <a href="/exams/mat-mock-test/practice-questions/">practice questions</a></span></li></ul></section>
+      <section><h2>More Quantitative Aptitude topics</h2><ul class="related"><li><a href="/topics/percentage-tricks-for-bank-exams/">Percentage</a></li><li><a href="/topics/successive-percentage-change-population-depreciation/">Successive Percentage Change</a></li><li><a href="/topics/profit-and-loss-shortcuts/">Profit and Loss</a></li><li><a href="/topics/discount-and-marked-price/">Discount and Marked Price</a></li><li><a href="/topics/simple-interest-formulas-and-tricks/">Simple Interest</a></li><li><a href="/topics/compound-interest-shortcuts/">Compound Interest</a></li><li><a href="/topics/difference-between-compound-and-simple-interest/">CI and SI Difference</a></li><li><a href="/topics/ratio-and-proportion-tricks/">Ratio and Proportion</a></li></ul></section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a href="/" class="brand"><span class="brand-mark">S<i>4</i></span><span class="brand-name">Success<b>4</b>Sure</span></a>
+        <p class="footer-tag">Exam-pattern mock tests with clear explanations for NISM, banking, SSC, MBA entrance and insurance exams.</p>
+      </div>
+      <div>
+        <h4>Popular exams</h4>
+        <a href="/exams/nism-series-v-a-mutual-fund-distributors-mock-test/">NISM Series V-A mock test</a><a href="/exams/nism-series-vii-securities-operations-and-risk-management-mock-test/">NISM Series VII mock test</a><a href="/exams/nism-series-viii-equity-derivatives-mock-test/">NISM Series VIII mock test</a><a href="/exams/nism-series-x-a-investment-adviser-mock-test/">NISM Series X-A mock test</a><a href="/exams/nism-series-xv-research-analyst-mock-test/">NISM Series XV mock test</a><a href="/exams/nism-series-xxi-a-portfolio-management-services-distributors-mock-test/">NISM Series XXI-A mock test</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="/about/">About us</a>
+        <a href="/how-we-create-questions/">How we create questions</a>
+        <a href="/contact/">Contact</a>
+        <a href="/soft-skills/">Soft skills courses</a>
+        <a href="/study-material/">Free study material</a>
+        <a href="/tools/">Free calculators</a>
+        <a href="/glossary/">Finance glossary</a>
+        <a href="/topics/">Bank &amp; SSC topics</a>
+        <a href="/interview-questions/">Interview questions</a>
+        <a href="/guides/">Exam preparation guides</a>
+        <a href="/privacy-policy/">Privacy policy</a>
+        <a href="/terms/">Terms of use</a>
+        <a href="/disclaimer/">Disclaimer</a>
+      </div>
+    </div>
+    <div class="wrap footer-legal">Success4Sure is an independent practice platform and is not affiliated with, endorsed by, or connected to NISM, SEBI, IBPS, SBI, RBI, SSC, the IIMs, NTA, AIMA, IRDAI, the Insurance Institute of India, NSE or IIBF. All questions are original practice questions based on publicly available syllabi; they are not actual exam questions.</div>
+  </footer>
+</body>
+</html>
