@@ -95,7 +95,7 @@ def reviewers_for(x):
     return [r for r in SITE.get('reviewers', []) if r.get('name') and ('*' in r.get('exams', []) or x['id'] in r.get('exams', []))]
 
 # ---------- page shell ----------
-NAV = [('/exams/', 'All Exams')] + [(group_url(g), 'MBA' if g['id'] == 'MBA' else g['label']) for g in GROUPS if g['id'] != 'Insurance & Finance'] + [('/soft-skills/', 'Soft Skills'), ('/tools/', 'Free Tools'), ('/study-material/', 'Study Material')]
+NAV = [('/exams/', 'All Exams')] + [(group_url(g), 'MBA' if g['id'] == 'MBA' else g['label']) for g in GROUPS if g['id'] != 'Insurance & Finance'] + [('/soft-skills/', 'Soft Skills'), ('/blog/', 'Blog'), ('/tools/', 'Free Tools'), ('/study-material/', 'Study Material')]
 
 def org_ld():
     o = {'@type': 'Organization', '@id': BASE + '/#org', 'name': SITE['name'], 'url': BASE + '/'}
@@ -178,6 +178,7 @@ def footer():
         <a href="/topics/">Bank &amp; SSC topics</a>
         <a href="/interview-questions/">Interview questions</a>
         <a href="/guides/">Exam preparation guides</a>
+        <a href="/blog/">Blog</a>
         <a href="/privacy-policy/">Privacy policy</a>
         <a href="/terms/">Terms of use</a>
         <a href="/disclaimer/">Disclaimer</a>
@@ -1061,6 +1062,85 @@ def tool_page(t):
     ld = [breadcrumb_ld(crumbs), app, {'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in t['faqs']]}]
     return page(tool_url(t), seo_title(t['title']), t['desc'], body, ld, active='/tools/')
 
+# ---------- blog ----------
+BLOG_CATS = [
+    {'name': 'MBA', 'slug': 'mba', 'blurb': 'CAT, CMAT, MAT and XAT preparation, choosing a B-school and specialisation, and thinking clearly about whether an MBA is worth it for you.'},
+    {'name': 'AI', 'slug': 'ai', 'blurb': 'Practical, hype-free guides to using AI tools for study and work in India — what they do well, where they fail, and how to use them safely.'},
+    {'name': 'Stock Market', 'slug': 'stock-market', 'blurb': 'How the Indian stock market works, explained from first principles: exchanges, IPOs, ratios, corporate actions and the mistakes beginners make.'},
+    {'name': 'Mutual Funds', 'slug': 'mutual-funds', 'blurb': 'Mutual funds without jargon: fund categories, SIPs, costs, factsheets and taxation, with worked rupee examples.'},
+    {'name': 'Trading', 'slug': 'trading', 'blurb': 'Trading styles, futures and options, margin and risk management — explained honestly, including why most individual F&O traders lose money.'},
+]
+BLOG_CAT = {c['name']: c for c in BLOG_CATS}
+POSTS = [p for p in load_items('blog') if p.get('category') in BLOG_CAT]
+RISK_CATS = {'Stock Market', 'Mutual Funds', 'Trading'}
+TOOL_BY_SLUG = {t['slug']: t for t in TOOLS}
+
+def post_url(p): return f"/blog/{p['slug']}/"
+def blog_cat_url(c): return f"/blog/{c['slug']}/"
+def post_words(p): return len(' '.join([p['excerpt']] + [' '.join(s_.get('paragraphs', []) + s_.get('bullets', [])) for s_ in p['sections']] + p['takeaways']).split())
+def read_min(p): return max(3, round(post_words(p) / 220))
+def post_card(p):
+    c = BLOG_CAT[p['category']]
+    return f'''<article class="card post-card"><a class="badge" href="{blog_cat_url(c)}">{e(c['name'])}</a>
+      <h3><a href="{post_url(p)}">{e(p['h1'])}</a></h3><p class="muted small">{e(p['excerpt'])}</p><span class="small muted">{read_min(p)} min read</span></article>'''
+
+def blog_table(t):
+    return '<div class="table-wrap"><table><tr>' + ''.join(f'<th>{e(h)}</th>' for h in t['head']) + '</tr>' + ''.join('<tr>' + ''.join(f'<td>{e(c)}</td>' for c in r) + '</tr>' for r in t['rows']) + '</table></div>'
+
+def post_page(p):
+    c = BLOG_CAT[p['category']]
+    crumbs = [('Home', '/'), ('Blog', '/blog/'), (c['name'], blog_cat_url(c)), (p['h1'], post_url(p))]
+    secs = ''.join(f'''<section><h2>{e(s_['heading'])}</h2>{''.join(f'<p>{e(x)}</p>' for x in s_['paragraphs'])}{('<ul>' + ''.join(f'<li>{e(b)}</li>' for b in s_['bullets']) + '</ul>') if s_.get('bullets') else ''}{blog_table(s_['table']) if s_.get('table') else ''}</section>''' for s_ in p['sections'])
+    r = p.get('related', {})
+    links = []
+    links += [f'<li><a href="{gl_url(GLOSSARY[g])}">What is {e(GLOSSARY[g]["term"])}?</a></li>' for g in r.get('glossary', []) if g in GLOSSARY]
+    links += [f'<li><a href="{exam_url(EXAM_BY_ID[x])}">{e(code(EXAM_BY_ID[x]))} free mock tests</a></li>' for x in r.get('exams', []) if x in EXAM_BY_ID and not EXAM_BY_ID[x].get('noindex')]
+    links += [f'<li><a href="{tool_url(TOOL_BY_SLUG[t])}">{e(TOOL_BY_SLUG[t]["name"])}</a></li>' for t in r.get('tools', []) if t in TOOL_BY_SLUG]
+    links += [f'<li><a href="{topic_url(TOPICS[t])}">{e(TOPICS[t]["topic"])}: concepts and practice</a></li>' for t in r.get('topics', []) if t in TOPICS]
+    links += [f'<li><a href="{skill_url(COURSE_BY_SLUG[k])}">Free course: {e(COURSE_BY_SLUG[k]["name"])}</a></li>' for k in r.get('courses', []) if k in COURSE_BY_SLUG]
+    more = [o for o in POSTS if o['category'] == p['category'] and o is not p][:5]
+    disclaimer = '<p class="small muted">This article is for education only and is not investment, tax or trading advice. Investments in securities markets are subject to market risks; read all related documents carefully and consider speaking to a SEBI-registered investment adviser before acting.</p>' if p['category'] in RISK_CATS else ''
+    body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}
+      <div class="hero-series"><a href="{blog_cat_url(c)}">{e(c['name'])}</a> · {read_min(p)} min read</div>
+      <h1 style="margin-top:6px">{e(p['h1'])}</h1><p class="lead-left">{e(p['excerpt'])}</p>
+      <p class="meta-row small muted">By the {e(SITE['name'])} editorial team · Updated {DATE_HUMAN} · <a href="/how-we-create-questions/">Editorial process</a></p></div></section>
+    <div class="wrap page prose lesson">
+      <div class="card takeaways-card"><h2 style="margin-top:0;font-size:1.1rem">Key takeaways</h2><ul>{''.join(f'<li>{e(t)}</li>' for t in p['takeaways'])}</ul></div>
+      {secs}
+      {disclaimer}
+      <section><h2>FAQs</h2>{faq_html(p['faqs'])}</section>
+      {('<section><h2>Related on ' + e(SITE['name']) + '</h2><ul class="related">' + ''.join(links) + '</ul></section>') if links else ''}
+      {('<section><h2>More in ' + e(c['name']) + '</h2><div class="post-grid">' + ''.join(post_card(o) for o in more) + '</div></section>') if more else ''}
+    </div>'''
+    words = post_words(p)
+    ld = [breadcrumb_ld(crumbs), {'@type': 'BlogPosting', 'headline': p['h1'], 'description': p['description'], 'inLanguage': 'en-IN', 'url': BASE + post_url(p),
+          'mainEntityOfPage': BASE + post_url(p), 'articleSection': c['name'], 'keywords': ', '.join([p['primary']] + p.get('secondary', [])), 'wordCount': words,
+          'author': {'@id': BASE + '/#org'}, 'publisher': {'@id': BASE + '/#org'}, 'datePublished': TODAY.isoformat(), 'dateModified': TODAY.isoformat(),
+          'isPartOf': {'@type': 'Blog', '@id': BASE + '/blog/'}}, faq_ld(p['faqs'])]
+    return page(post_url(p), seo_title(p['title']), p['description'], body, ld, active='/blog/')
+
+def blog_cat_page(c):
+    posts = [p for p in POSTS if p['category'] == c['name']]
+    crumbs = [('Home', '/'), ('Blog', '/blog/'), (c['name'], blog_cat_url(c))]
+    chips = ''.join(f'<a class="chip {"active" if o is c else ""}" href="{blog_cat_url(o)}">{e(o["name"])}</a>' for o in BLOG_CATS if any(p['category'] == o['name'] for p in POSTS))
+    body = hero(crumbs, f"{c['name']} articles", c['blurb']) + f'''
+    <div class="wrap page"><nav class="chips" aria-label="Blog categories"><a class="chip" href="/blog/">All</a>{chips}</nav>
+      <div class="post-grid">{''.join(post_card(p) for p in posts)}</div></div>'''
+    ld = [breadcrumb_ld(crumbs), {'@type': 'CollectionPage', 'name': f"{c['name']} articles", 'url': BASE + blog_cat_url(c), 'isPartOf': {'@type': 'Blog', '@id': BASE + '/blog/'},
+          'mainEntity': {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': k + 1, 'url': BASE + post_url(p), 'name': p['h1']} for k, p in enumerate(posts)]}}]
+    desc = f"{c['name']} articles from {SITE['name']}: {c['blurb']}"
+    return page(blog_cat_url(c), seo_title(f"{c['name']} Articles and Guides"), desc[:155].rsplit(' ', 1)[0] + '.', body, ld, active='/blog/')
+
+def blog_hub():
+    crumbs = [('Home', '/'), ('Blog', '/blog/')]
+    chips = ''.join(f'<a class="chip" href="{blog_cat_url(c)}">{e(c["name"])}</a>' for c in BLOG_CATS if any(p['category'] == c['name'] for p in POSTS))
+    sections = ''.join(f'<section style="margin-top:32px"><div class="row" style="margin-bottom:12px"><h2 style="margin:0">{e(c["name"])}</h2><span class="spacer"></span><a class="small" href="{blog_cat_url(c)}">All {e(c["name"])} articles &rarr;</a></div><div class="post-grid">' + ''.join(post_card(p) for p in [p for p in POSTS if p['category'] == c['name']][:3]) + '</div></section>' for c in BLOG_CATS if any(p['category'] == c['name'] for p in POSTS))
+    body = hero(crumbs, f"{SITE['name']} blog", 'Clear, practical articles on MBA entrance, AI at work, the stock market, mutual funds and trading — written for Indian students and early-career professionals.') + f'''
+    <div class="wrap page"><nav class="chips" aria-label="Blog categories"><a class="chip active" href="/blog/">All</a>{chips}</nav>{sections}</div>'''
+    ld = [breadcrumb_ld(crumbs), {'@type': 'Blog', '@id': BASE + '/blog/', 'name': f"{SITE['name']} blog", 'url': BASE + '/blog/', 'publisher': {'@id': BASE + '/#org'}, 'inLanguage': 'en-IN',
+          'blogPost': [{'@type': 'BlogPosting', 'headline': p['h1'], 'url': BASE + post_url(p)} for p in POSTS]}]
+    return page('/blog/', seo_title('Blog: MBA, AI, Stock Market, Mutual Funds, Trading'), 'Free articles on MBA entrance, AI at work, the Indian stock market, mutual funds and trading — practical, jargon-free and written for India.', body, ld, active='/blog/')
+
 def tools_hub():
     crumbs = [('Home', '/'), ('Free tools', '/tools/')]
     cards = ''.join(f'<div class="card"><h2 style="font-size:1.15rem;margin-top:0"><a href="{tool_url(t)}">{e(t["name"])}</a></h2><p class="muted">{e(t["lead"])}</p></div>' for t in TOOLS)
@@ -1142,6 +1222,11 @@ def main():
     if INTERVIEW:
         wr('interview-questions/index.html', interview_hub()); pages.append(('/interview-questions/', True))
         for t in INTERVIEW.values(): wr(iv_url(t).strip('/') + '/index.html', interview_page(t)); pages.append((iv_url(t), True))
+    if POSTS:
+        wr('blog/index.html', blog_hub()); pages.append(('/blog/', True))
+        for c in BLOG_CATS:
+            if any(p['category'] == c['name'] for p in POSTS): wr(blog_cat_url(c).strip('/') + '/index.html', blog_cat_page(c)); pages.append((blog_cat_url(c), True))
+        for p in POSTS: wr(post_url(p).strip('/') + '/index.html', post_page(p)); pages.append((post_url(p), True))
     wr('tools/index.html', tools_hub()); pages.append(('/tools/', True))
     for t in TOOLS:
         wr(tool_url(t).strip('/') + '/index.html', tool_page(t)); pages.append((tool_url(t), True))
@@ -1186,7 +1271,7 @@ def main():
     wr('robots.txt', f'User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n')
 
     ss = (1 + len(SKILLS) + sum(len(a['lessons']) for a in SKILLS)) if SKILLS else 0
-    print(f'Sitemap: {len(urls)} URLs  (glossary {len(GLOSSARY)}, notes {len(NOTES)}, topics {len(TOPICS)}, interview {len(INTERVIEW)}, chapter pages {sum(len(v) for v in FREE.values())}, guides {len(GUIDES)}, Hindi {2 * len(HI)}, tools {len(TOOLS) + 1}; home 1, exam hub 1, categories {len(GROUPS)}, exams {len(INDEXABLE)}, practice-question pages {len(INDEXABLE)}, study material 1, trust pages 6, soft skills {ss})')
+    print(f'Sitemap: {len(urls)} URLs  (blog {len(POSTS)}, glossary {len(GLOSSARY)}, notes {len(NOTES)}, topics {len(TOPICS)}, interview {len(INTERVIEW)}, chapter pages {sum(len(v) for v in FREE.values())}, guides {len(GUIDES)}, Hindi {2 * len(HI)}, tools {len(TOOLS) + 1}; home 1, exam hub 1, categories {len(GROUPS)}, exams {len(INDEXABLE)}, practice-question pages {len(INDEXABLE)}, study material 1, trust pages 6, soft skills {ss})')
     print(f'Not in sitemap (noindex): {", ".join(code(x) for x in EXAMS if x.get("noindex"))}')
     for w in warnings: print('WARN', w)
 

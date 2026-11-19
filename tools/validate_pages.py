@@ -105,6 +105,38 @@ def check(kind, it, errs, seen, all_slugs):
         if not 400 <= wc <= 1100: errs.append(f'{wc} words (400–1100)')
         if len(it['faqs']) != 2: errs.append('need exactly 2 faqs')
 
+BLOG_CATS = ('MBA', 'AI', 'Stock Market', 'Mutual Funds', 'Trading')
+TOOL_SLUGS = {'ctc-to-in-hand-salary-calculator', 'sip-calculator', 'emi-calculator', 'exam-score-calculator', 'nism-certificate-validity-checker'}
+def known_slugs(folder):
+    out = set()
+    for f in glob.glob(os.path.join(ROOT, 'content', folder, '*.json')):
+        out |= {it.get('slug') for it in json.load(open(f, encoding='utf-8')).get('items', [])}
+    return out
+def check_blog(it, errs, seen):
+    for k in ('slug', 'category', 'title', 'h1', 'description', 'primary', 'secondary', 'excerpt', 'sections', 'takeaways', 'faqs', 'related'):
+        if k not in it: errs.append(f'missing {k}')
+    if errs: return
+    if not SLUG.match(it['slug']): errs.append('bad slug')
+    if it['slug'] in seen['slug']: errs.append('duplicate slug')
+    seen['slug'].add(it['slug'])
+    if it['category'] not in BLOG_CATS: errs.append(f'category must be one of {BLOG_CATS}')
+    if it['primary'].lower() not in (it['title'] + ' ' + it['h1'] + ' ' + it['excerpt']).lower(): errs.append('primary keyword not in title/h1/excerpt')
+    if not 30 <= len(it['excerpt'].split()) <= 80: errs.append('excerpt 30–80 words')
+    if not 5 <= len(it['sections']) <= 10: errs.append('sections: 5–10')
+    for s_ in it['sections']:
+        if not s_.get('heading') or not s_.get('paragraphs'): errs.append('each section needs heading + paragraphs'); break
+        t = s_.get('table')
+        if t and not (isinstance(t, dict) and t.get('head') and t.get('rows') and all(len(r) == len(t['head']) for r in t['rows'])): errs.append(f'bad table in "{s_["heading"]}"')
+    wc = words(it['excerpt'], *[' '.join(s_.get('paragraphs', []) + s_.get('bullets', [])) for s_ in it['sections']], *it['takeaways'])
+    if not 1100 <= wc <= 2200: errs.append(f'{wc} words (1100–2200)')
+    if not 3 <= len(it['takeaways']) <= 6: errs.append('takeaways: 3–6')
+    if len(it['faqs']) != 3: errs.append('need exactly 3 faqs')
+    r = it['related']
+    gl, tp, cs = known_slugs('glossary'), known_slugs('topics'), COURSES
+    bad = [x for x in r.get('glossary', []) if x not in gl] + [x for x in r.get('exams', []) if x not in EXAM_IDS] + [x for x in r.get('tools', []) if x not in TOOL_SLUGS] + [x for x in r.get('topics', []) if x not in tp] + [x for x in r.get('courses', []) if x not in cs]
+    if bad: errs.append(f'unknown related slugs/ids: {bad}')
+    if sum(len(v) for v in r.values()) < 3: errs.append('related: at least 3 internal links in total')
+
 kind, paths = sys.argv[1], sys.argv[2:]
 items = []
 for p in paths:
@@ -114,7 +146,8 @@ seen, ok = collections.defaultdict(set), True
 all_slugs = {it.get('slug') for _, it in items}
 for fname, it in items:
     errs = []
-    check(kind, it, errs, seen, all_slugs)
+    (check_blog(it, errs, seen) if kind == 'blog' else None) if kind == 'blog' else check(kind, it, errs, seen, all_slugs)
+    if kind == 'blog': common(it, errs, seen)
     name = it.get('slug') or f"{it.get('exam')}/{it.get('chapter')}"
     if errs: ok = False; print(f'{fname} {name}:'); [print('   ', x) for x in errs[:12]]
 if kind == 'glossary':

@@ -1,0 +1,2546 @@
+{
+ "items": [
+  {
+   "slug": "how-indian-stock-market-works-for-beginners",
+   "category": "Stock Market",
+   "title": "How the Indian Stock Market Works: A Beginner's Map",
+   "h1": "How the Indian Stock Market Actually Works: Follow One ₹10,000 Order From Tap to Demat",
+   "description": "Follow a single share purchase through broker, NSE/BSE, clearing corporation and depository to see how T+1 settlement and SEBI oversight work.",
+   "primary": "how the indian stock market works",
+   "secondary": [
+    "indian stock market for beginners",
+    "nse and bse explained",
+    "t+1 settlement india",
+    "role of sebi in stock market",
+    "nsdl and cdsl depository",
+    "how share trading works in india"
+   ],
+   "excerpt": "Most beginners learn how the Indian stock market works as a list of acronyms: SEBI, NSE, BSE, NSDL, CDSL, T+1. This guide does it differently. We follow one ₹10,000 buy order from the moment you tap 'Buy' to the morning the shares appear in your demat account, and meet each institution exactly where it does its job.",
+   "sections": [
+    {
+     "heading": "Start with the map, not the jargon",
+     "paragraphs": [
+      "Think of the market as a relay race with five runners. You place an order with a stock broker. The broker sends it to a stock exchange, where it is matched with a seller. A clearing corporation steps in to guarantee that both sides settle. A depository moves the shares electronically into your demat account, held through a depository participant. Above all of them sits the regulator, the Securities and Exchange Board of India (SEBI), which writes the rules and punishes those who break them.",
+      "Every single trade, whether it is ₹500 or ₹5 crore, passes through this same chain. Once you understand who holds the baton at each stage, terms that appear in news, broker emails and NISM exam questions start making sense on their own."
+     ],
+     "table": {
+      "head": [
+       "Player",
+       "Examples",
+       "What it does for your order"
+      ],
+      "rows": [
+       [
+        "Regulator",
+        "SEBI",
+        "Sets rules for exchanges, brokers, issuers and investors; investigates manipulation"
+       ],
+       [
+        "Stock exchange",
+        "NSE, BSE",
+        "Runs the electronic order book that matches buyers and sellers"
+       ],
+       [
+        "Clearing corporation",
+        "NSE Clearing, Indian Clearing Corporation",
+        "Becomes the counterparty to both sides and settles the trade"
+       ],
+       [
+        "Depository",
+        "NSDL, CDSL",
+        "Holds shares in electronic form"
+       ],
+       [
+        "Depository participant",
+        "Your broker or bank",
+        "Opens and services your demat account"
+       ],
+       [
+        "Stock broker",
+        "Any SEBI-registered trading member",
+        "Accepts your order, checks funds and routes it to the exchange"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "Step 1: you place the order with a broker",
+     "paragraphs": [
+      "Say Priya, a 23-year-old analyst in Pune, wants to buy 20 shares of a company trading around ₹500. She logs into her broker's app and places a limit order: buy 20 shares at ₹498 or lower. A limit order sets the maximum she is willing to pay; a market order would accept whatever the best available price is at that moment.",
+      "Before the order leaves the broker, its risk system checks that Priya has at least ₹9,960 plus estimated charges in her trading account. Since SEBI's peak margin and upfront collection rules, brokers cannot let you buy first and pay later in the cash segment unless you have opted for a specific facility such as margin trading. That check is why the order is either accepted or rejected within a second."
+     ]
+    },
+    {
+     "heading": "Step 2: the exchange matches it",
+     "paragraphs": [
+      "NSE and BSE run continuous electronic order books during market hours (normal trading runs from 9:15 am to 3:30 pm, with a pre-open session before it; check the exchange website for current timings). Every buy and sell order sits in the book ranked by price and then time. Priya's bid at ₹498 waits until a seller is willing to sell at ₹498 or below. When a match happens, the exchange generates a trade confirmation and her broker sends her a contract note by the end of the day.",
+      "Two things often surprise beginners here. First, you never know who sold you the shares; the exchange matches anonymous orders. Second, the same company can trade at slightly different prices on NSE and BSE at the same second, because each exchange has its own order book. Arbitrageurs quickly close any meaningful gap."
+     ]
+    },
+    {
+     "heading": "Step 3: clearing and T+1 settlement",
+     "paragraphs": [
+      "Matching is a promise, not a delivery. Settlement is when money and shares actually change hands. India moved all equity trades to T+1 settlement in January 2023, meaning a trade done on Monday (T) settles on Tuesday (T+1), assuming Tuesday is a trading day. An optional same-day (T+0) settlement has also been introduced for a limited set of stocks; check SEBI and exchange circulars for its current scope.",
+      "The clearing corporation is the quiet hero. Through novation it becomes the buyer to every seller and the seller to every buyer. If the person who sold to Priya defaults, the clearing corporation still has to deliver, using its settlement guarantee fund and the auction mechanism. That is why retail investors in India rarely worry about counterparty risk on exchange trades."
+     ],
+     "bullets": [
+      "Trade day (T): order matched, contract note issued.",
+      "T+1: funds debited and shares credited to the buyer's demat account; the seller receives money.",
+      "If a seller fails to deliver, the shares are bought in an auction and the defaulting seller bears the cost."
+     ]
+    },
+    {
+     "heading": "Step 4: the depository credits your shares",
+     "paragraphs": [
+      "Shares no longer exist as paper certificates for practical purposes. They are entries in one of two depositories: National Securities Depository Ltd (NSDL) or Central Depository Services Ltd (CDSL). Your demat account is an account with one of these, opened through a depository participant, usually your broker or bank. Each security has a unique ISIN, so the depository knows exactly which share is moving.",
+      "On T+1, Priya's 20 shares are credited to her demat account. When she sells later, she authorises the debit either with a TPIN and OTP or through a DDPI (demat debit and pledge instruction) she signed with her broker. That extra authorisation exists to stop brokers from moving clients' shares without permission, a problem SEBI cracked down on after some broker defaults."
+     ]
+    },
+    {
+     "heading": "Where SEBI fits in, and what it does not do",
+     "paragraphs": [
+      "SEBI registers and supervises exchanges, brokers, depositories, mutual funds, investment advisers and research analysts. It writes rules on disclosure, insider trading, market manipulation and investor protection, and it can bar people from the market or levy penalties. Exchanges also act as front-line regulators of their members.",
+      "What SEBI does not do is protect you from losing money on a bad investment. If a company's business deteriorates and the share falls 60%, that is market risk, not misconduct. Investor protection covers fraud, broker default (to a limit, through the exchange's investor protection fund) and unfair practices. For complaints, the route is your broker first, then SEBI's SCORES portal and the online dispute resolution (ODR) mechanism."
+     ]
+    },
+    {
+     "heading": "What Priya actually paid",
+     "paragraphs": [
+      "Her ₹9,960 purchase does not cost exactly ₹9,960. On top come brokerage (zero for delivery at some brokers, a flat fee or percentage at others), securities transaction tax (STT), exchange transaction charges, SEBI turnover fees, stamp duty on the buy side, and GST on the brokerage and exchange charges. When she sells, DP charges apply per scrip. Rates change from time to time, so check your broker's charges page and the exchange website as of 2026.",
+      "For a long-term investor buying a few times a year, these costs are small. For someone trading the same ₹10,000 ten times a day, they compound into a serious drag. That single observation explains a lot about why frequent trading is harder than it looks."
+     ]
+    },
+    {
+     "heading": "Common confusions cleared up",
+     "paragraphs": [
+      "Beginners often mix up the primary market and the secondary market. The primary market is where a company issues new shares, for example in an IPO, and the money goes to the company or selling shareholders. The secondary market is where existing shares change hands between investors; the company receives nothing when you buy its shares on NSE.",
+      "Another confusion is between the trading account and the demat account. The trading account is where your money sits and orders are placed; the demat account is where shares are stored. Most brokers open both together, which is why they feel like one thing. This post is for education only and is not investment advice."
+     ],
+     "bullets": [
+      "Sensex and Nifty 50 are indices, not exchanges; they summarise how a basket of large companies is moving.",
+      "A broker going bust does not mean your shares vanish, because they sit with the depository in your name.",
+      "Market hours, settlement cycles and charges are set by rules that change; always confirm current details on the NSE, BSE or SEBI websites."
+     ]
+    }
+   ],
+   "takeaways": [
+    "Every trade passes through broker, exchange, clearing corporation and depository, with SEBI overseeing all of them.",
+    "Indian equity trades settle on T+1: shares and money move the next trading day.",
+    "The clearing corporation guarantees settlement, so retail investors rarely face counterparty risk.",
+    "Shares sit in your name with NSDL or CDSL, not with the broker.",
+    "SEBI protects against fraud and misconduct, not against a falling share price."
+   ],
+   "faqs": [
+    [
+     "Do I need both a demat and a trading account to buy shares?",
+     "Yes, for buying listed shares on an exchange. The trading account is used to place orders and hold funds, while the demat account stores the shares electronically with NSDL or CDSL. Most brokers open both through a single KYC process, so it usually feels like one account even though they serve different purposes."
+    ],
+    [
+     "What happens if my broker shuts down?",
+     "Your shares are held in your demat account with a depository, not in the broker's own name, so they remain yours. You can transfer them to another depository participant. Funds lying with the broker are a different matter; exchanges have investor protection funds that compensate eligible claims up to limits, which you should check on the exchange website."
+    ],
+    [
+     "Is T+1 settlement the same as being able to sell on the next day?",
+     "Not exactly. T+1 is when the shares are credited after a purchase. Many brokers let you sell shares bought yesterday even before they reach your demat account (a BTST trade), but this carries short-delivery risk if the original seller defaults. Settlement rules are separate from what your broker's platform permits."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "stock-exchange",
+     "t-plus-1-settlement",
+     "clearing-corporation",
+     "depository",
+     "demat-account",
+     "securities-and-exchange-board-of-india-sebi",
+     "primary-market-vs-secondary-market"
+    ],
+    "exams": [
+     "xii",
+     "vi",
+     "vii"
+    ],
+    "courses": [
+     "money-skills"
+    ]
+   }
+  },
+  {
+   "slug": "how-to-read-a-stock-quote-pe-pb-roe",
+   "category": "Stock Market",
+   "title": "How to Read a Stock Quote: P/E, P/B and ROE Worked Out",
+   "h1": "How to Read a Stock Quote, and What P/E, P/B and ROE Really Tell You",
+   "description": "Decode the numbers on a stock quote page and work through P/E, P/B and ROE for a sample company, with the traps that mislead new investors.",
+   "primary": "how to read a stock quote",
+   "secondary": [
+    "stock quote explained",
+    "p/e ratio meaning",
+    "price to book ratio",
+    "return on equity roe",
+    "52 week high low meaning",
+    "valuation ratios for beginners"
+   ],
+   "excerpt": "Open any stock page and you will see twenty numbers before you see a single sentence. Learning how to read a stock quote is mostly about knowing which numbers describe today's trading and which describe the business. We decode the screen, then calculate P/E, P/B and ROE for an imaginary company so you can see where each one can mislead.",
+   "sections": [
+    {
+     "heading": "The two halves of every quote page",
+     "paragraphs": [
+      "A typical quote screen mixes two very different kinds of information. The first half is about trading: last traded price, change, open, high, low, previous close, volume, the bid and ask, and the 52-week range. These change every second and tell you what buyers and sellers are doing right now. The second half is about the business: market capitalisation, earnings per share, P/E, P/B, dividend yield and sometimes ROE. These are calculated from financial statements and change only when new results or a big price move arrive.",
+      "Keep the halves separate in your head. A stock up 4% today tells you about today's demand, not about whether the company is good. A low P/E tells you about valuation relative to past profit, not about what the price will do tomorrow."
+     ]
+    },
+    {
+     "heading": "Decoding the trading numbers",
+     "paragraphs": [
+      "Here is what each field on the trading side means, using a hypothetical company we will call Sahyadri Foods Ltd."
+     ],
+     "bullets": [
+      "Last traded price (LTP) ₹420: the price of the most recent trade, not necessarily the price you will get.",
+      "Change +₹8 (+1.94%): measured against the previous close of ₹412.",
+      "Open, high, low: the first trade of the day and the day's range so far.",
+      "Bid ₹419.80 / Ask ₹420.10: the best price buyers are offering and sellers are asking. The gap is the bid-ask spread; wide spreads signal thin trading.",
+      "Volume 3.2 lakh shares: how many shares changed hands today. Compare it with the average; a spike usually has a reason such as results or news.",
+      "52-week high/low ₹510 / ₹330: the range over the past year. Being near the low is not automatically cheap, and being near the high is not automatically expensive.",
+      "Upper and lower price band or circuit: the maximum the stock may move in a day under exchange rules."
+     ]
+    },
+    {
+     "heading": "Market cap and EPS: the bridge to the business",
+     "paragraphs": [
+      "Market capitalisation is the share price multiplied by the number of shares. Sahyadri has 5 crore shares, so at ₹420 its market cap is ₹2,100 crore. That is what the market is valuing the whole company's equity at today.",
+      "Earnings per share (EPS) is net profit divided by shares. Suppose Sahyadri earned ₹150 crore of net profit in the last twelve months. EPS = ₹150 crore ÷ 5 crore = ₹30. Quote pages usually show trailing twelve-month (TTM) EPS, which means the last four quarters added up. It is backward-looking by definition."
+     ]
+    },
+    {
+     "heading": "P/E worked out, and what it hides",
+     "paragraphs": [
+      "Price-to-earnings is the share price divided by EPS: ₹420 ÷ ₹30 = 14. Read it as 'investors are paying ₹14 for every ₹1 of last year's profit'. Equivalently, market cap ÷ net profit = ₹2,100 crore ÷ ₹150 crore = 14. The same number either way.",
+      "P/E is useful for comparing a company with its own history or with close peers in the same industry. It is close to useless across industries: a bank, a software company and a cement maker have different growth, capital needs and accounting, so their 'normal' P/Es differ widely.",
+      "The biggest trap is one-off profit. If ₹50 crore of Sahyadri's ₹150 crore came from selling a piece of land, the recurring profit is ₹100 crore, EPS is ₹20 and the true P/E is 21, not 14. A low P/E built on an exceptional gain is a mirage. Always check the 'exceptional items' line in results. The reverse also happens: a company with a one-time loss can show a scarily high P/E.",
+      "A practical tip: many quote pages calculate P/E from consolidated earnings, while some use standalone earnings of the parent company only. For groups with large subsidiaries, these can differ a lot. Check which basis the page uses, and use the same basis when you compare two companies, or your comparison will be meaningless."
+     ]
+    },
+    {
+     "heading": "P/B worked out, and where it matters",
+     "paragraphs": [
+      "Price-to-book compares the market price with the book value per share, which is shareholders' equity (share capital plus reserves) divided by shares. If Sahyadri's net worth on the balance sheet is ₹1,000 crore, book value per share = ₹1,000 crore ÷ 5 crore = ₹200, and P/B = ₹420 ÷ ₹200 = 2.1.",
+      "P/B is most meaningful for businesses whose assets are mostly financial and marked close to market value, which is why analysts lean on it for banks and NBFCs. For a consumer brand or a software firm, the real assets (brands, people, code) are barely on the balance sheet, so P/B tends to look high and says little. A P/B below 1 can signal undervaluation, or it can signal that the market doubts the book value, for example because of hidden bad loans."
+     ]
+    },
+    {
+     "heading": "ROE: the ratio that connects P/E and P/B",
+     "paragraphs": [
+      "Return on equity is net profit divided by shareholders' equity: ₹150 crore ÷ ₹1,000 crore = 15%. It tells you how much profit the business generates on the money shareholders have left in it. Using average equity over the year is more accurate than year-end equity, and many data providers do this.",
+      "Here is the relationship worth bookmarking: P/B = P/E × ROE. For Sahyadri, 14 × 0.15 = 2.1, which matches. So a company with a high ROE can justify a higher P/B for the same P/E. When you see two companies with the same P/E but very different P/Bs, the difference is almost always ROE.",
+      "ROE has its own trap: debt. A company can boost ROE by borrowing heavily, because equity stays small while profit grows. Two companies with 20% ROE can have very different risk if one has almost no debt and the other has debt four times its equity. Look at the debt-to-equity ratio and return on capital employed (ROCE) alongside ROE."
+     ],
+     "table": {
+      "head": [
+       "Ratio",
+       "Formula",
+       "Sahyadri Foods (hypothetical)",
+       "Main trap"
+      ],
+      "rows": [
+       [
+        "P/E",
+        "Price ÷ EPS",
+        "₹420 ÷ ₹30 = 14",
+        "One-off gains or losses distort EPS"
+       ],
+       [
+        "P/B",
+        "Price ÷ book value per share",
+        "₹420 ÷ ₹200 = 2.1",
+        "Less meaningful for asset-light firms"
+       ],
+       [
+        "ROE",
+        "Net profit ÷ shareholders' equity",
+        "₹150 cr ÷ ₹1,000 cr = 15%",
+        "Can be inflated by high debt"
+       ],
+       [
+        "Dividend yield",
+        "Dividend per share ÷ price",
+        "₹6 ÷ ₹420 = 1.4%",
+        "A falling price inflates the yield"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "A five-minute routine for any quote page",
+     "paragraphs": [
+      "When you open a stock page, run through the same questions in the same order. First, what is the market cap, so you know whether this is a large, mid or small company. Second, is the P/E based on normal profit or distorted by one-offs. Third, how does P/E compare with the company's own five-year range and with two or three direct peers. Fourth, is ROE healthy, and is it driven by margins or by debt. Fifth, does the trading data show unusual volume or a stock pinned at its price band, which signals news you should read before anything else.",
+      "None of these ratios tells you whether to buy. They tell you what the price already assumes. A P/E of 40 assumes strong growth for many years; a P/E of 8 assumes the business is stagnant or risky. Your job as a learner is to ask whether those assumptions look reasonable. This post is for education only and is not investment advice."
+     ]
+    }
+   ],
+   "takeaways": [
+    "Separate the trading half of a quote (price, volume, range) from the business half (EPS, P/E, P/B, ROE).",
+    "P/E = price ÷ EPS; check whether EPS includes one-off gains before trusting it.",
+    "P/B matters most for banks and NBFCs and least for asset-light businesses.",
+    "P/B = P/E × ROE, so differences in P/B at the same P/E usually come from ROE.",
+    "High ROE built on heavy debt is riskier than it looks; check debt-to-equity too."
+   ],
+   "faqs": [
+    [
+     "Is a low P/E stock always cheap?",
+     "No. A low P/E can mean the market expects profits to fall, the business is cyclical and currently at peak earnings, or recent profit includes one-time gains. Compare the P/E with the company's own history and close peers, and read the results to see whether earnings are recurring before drawing any conclusion about value."
+    ],
+    [
+     "What is the difference between trailing and forward P/E?",
+     "Trailing P/E uses actual earnings of the last twelve months, so it is based on reported numbers. Forward P/E uses analysts' estimates of next year's earnings, which may turn out wrong. Quote pages in India mostly show trailing P/E. Forward P/E is useful for fast-growing firms but is only as good as the estimate behind it."
+    ],
+    [
+     "Why do banks have low P/E and P/B compared with FMCG companies?",
+     "Banks carry large balance sheets funded mostly by deposits, face credit risk and need regular capital, so the market pays less per rupee of profit and book value. FMCG companies need little capital, earn high returns on equity and have steady demand, so investors pay higher multiples. Comparing valuation ratios across these sectors is therefore misleading."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "bid-ask-spread",
+     "price-band",
+     "circuit-breaker",
+     "free-float-market-capitalisation",
+     "stock-market-index"
+    ],
+    "exams": [
+     "xii",
+     "xv",
+     "x-a"
+    ],
+    "topics": [
+     "profit-and-loss-shortcuts",
+     "ratio-and-proportion-tricks"
+    ],
+    "courses": [
+     "money-skills"
+    ]
+   }
+  },
+  {
+   "slug": "ipo-investing-explained-asba-allotment-listing-day",
+   "category": "Stock Market",
+   "title": "IPO Investing Explained: ASBA, Allotment and Listing Day",
+   "h1": "IPO Investing Explained: What Really Happens Between Applying and Listing Day",
+   "description": "How IPO applications work in India: ASBA and UPI mandates, lottery-based retail allotment, the T+3 timeline and what listing day really tells you.",
+   "primary": "ipo investing",
+   "secondary": [
+    "how to apply for ipo in india",
+    "asba ipo application",
+    "ipo allotment process",
+    "ipo listing gains",
+    "red herring prospectus",
+    "ipo grey market premium"
+   ],
+   "excerpt": "IPO investing in India has become a weekend sport: apply on Friday, check allotment on Tuesday, watch listing on Wednesday. But most applicants do not know why they missed allotment, what the money block means, or why a heavily subscribed issue can still list flat. Here is the full process, with the numbers, and an honest look at listing-day expectations.",
+   "sections": [
+    {
+     "heading": "What an IPO actually is",
+     "paragraphs": [
+      "An initial public offering is the first time a company offers its shares to the public and lists them on a stock exchange. The offer can include a fresh issue, where new shares are created and the money goes to the company, and an offer for sale (OFS), where existing shareholders such as promoters or private equity funds sell part of their stake and the money goes to them, not the company.",
+      "That split matters. If most of an IPO is OFS, the company is not raising money to grow; early investors are cashing out. That is not automatically bad, since venture investors have to exit at some point, but you should know who is selling and why. The red herring prospectus (RHP) lists the objects of the issue and the selling shareholders in detail."
+     ]
+    },
+    {
+     "heading": "Price band, lot size and categories",
+     "paragraphs": [
+      "Most Indian IPOs use book building: the company announces a price band, say ₹285 to ₹300, and investors bid within it. Applications are in lots. If one lot is 50 shares, a retail investor bidding at the upper end needs ₹15,000 per lot. Most retail applicants bid at the 'cut-off' price, which means they accept whatever final price is fixed within the band, and the block is calculated at the upper end.",
+      "The issue is divided into categories. Qualified institutional buyers (QIBs) such as mutual funds and insurers get one portion, with a part reserved for anchor investors who commit a day before the issue opens. Non-institutional investors (NIIs, often called HNIs) get another, and retail individual investors, who bid up to ₹2 lakh, get their own quota. The exact split depends on the type of company and the SEBI rules it falls under, so check the RHP."
+     ]
+    },
+    {
+     "heading": "ASBA and UPI: your money is blocked, not taken",
+     "paragraphs": [
+      "Every public issue application must go through ASBA, Application Supported by Blocked Amount. When you apply through your bank's net banking or through your broker using UPI, the bid amount is blocked in your bank account but not debited. It keeps earning savings interest. Only if you receive an allotment is the relevant amount debited; the rest is unblocked.",
+      "With UPI, you approve a mandate request in your UPI app. If you do not approve it before the cut-off time, your application is not valid, a mistake that silently knocks out many first-time applicants. UPI-based bids are permitted for individual applications up to a limit (₹5 lakh as of 2026 — check SEBI's current circular), which covers all retail bids and smaller NII bids."
+     ]
+    },
+    {
+     "heading": "How retail allotment really works",
+     "paragraphs": [
+      "When the retail portion is oversubscribed, SEBI rules require that as many retail applicants as possible receive at least the minimum lot. Allotment is done by a computerised lottery among valid applicants, with the registrar to the issue (RTA) running the process under exchange supervision.",
+      "Here is what that means in numbers. Suppose the retail quota is 10 lakh shares, the lot is 50 shares, so there are 20,000 lots available. If 4 lakh valid retail applications come in, only 20,000 applicants, about one in twenty, can receive a lot. Applying for 13 lots instead of one does not improve your odds of getting that one lot. It just blocks more money.",
+      "This is why families often apply from several PAN-linked accounts: each distinct PAN is a separate lottery ticket. Applying multiple times from the same PAN, however, gets all those applications rejected as duplicates."
+     ],
+     "table": {
+      "head": [
+       "Scenario",
+       "Retail subscription",
+       "Rough chance of one lot"
+      ],
+      "rows": [
+       [
+        "Under-subscribed",
+        "0.8x",
+        "Full allotment of what you applied for"
+       ],
+       [
+        "Mildly oversubscribed",
+        "2x",
+        "Most applicants get one lot"
+       ],
+       [
+        "Heavily oversubscribed",
+        "20x lots-wise",
+        "About 1 in 20 applicants, decided by lottery"
+       ],
+       [
+        "Extremely oversubscribed",
+        "100x lots-wise",
+        "About 1 in 100"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "The T+3 timeline",
+     "paragraphs": [
+      "SEBI cut the listing timeline to T+3 from the issue closing date (T) for issues from December 2023. In practice: the issue closes on day T, allotment is finalised on T+1, shares are credited to demat accounts and unallotted money unblocked on T+2, and shares list on T+3. Check the specific dates in the RHP and on the exchange website for any issue, because holidays shift them.",
+      "Allotment status can be checked on the registrar's website or the exchange's IPO status page using your PAN or application number. If your money is not unblocked within the stated time, raise it first with your bank and then with the registrar."
+     ]
+    },
+    {
+     "heading": "Common reasons applications get rejected",
+     "paragraphs": [
+      "Every large issue sees a slice of retail bids rejected for avoidable reasons. Knowing them saves you a wasted application and blocked money.",
+      "Mismatch between the PAN on the application and the PAN linked to the demat account is a frequent one, as is applying through a bank account that is not in the applicant's own name. Duplicate applications under the same PAN, across different brokers or banks, are all treated as invalid. Bids above the retail limit of ₹2 lakh are moved out of the retail category. And a UPI mandate left unapproved, or approved after the cut-off on the closing day, means the bid never counted at all. Approve mandates early, and confirm the bid status on the exchange website rather than assuming the broker's 'submitted' message is final."
+     ]
+    },
+    {
+     "heading": "Listing day: why oversubscription is not a promise",
+     "paragraphs": [
+      "Listing day opens with a special pre-open call auction to discover a fair opening price, after which normal trading begins. Heavy subscription often leads to a listing above the issue price, because many applicants who missed allotment try to buy in the market. But it is not a rule. Issues that were subscribed many times have listed at a discount when overall market mood turned or when the valuation looked stretched.",
+      "The grey market premium (GMP) quoted in news and on social media is an unofficial, unregulated indicator. It is based on informal trades outside any exchange, has no investor protection and can be thinly traded or even manipulated. Treat it as gossip, not data.",
+      "Studies of Indian IPOs over the years have found that listing-day gains in hot markets do not reliably continue; many stocks drift below their listing price over the following year while others do very well. The point is that listing day answers one question (how excited is the market today) and not the important one (is this a good business at this price)."
+     ]
+    },
+    {
+     "heading": "Questions to ask before applying",
+     "paragraphs": [
+      "Treat an IPO like any other share purchase, with one handicap: the company has no listed price history. This post is for education only and is not investment advice."
+     ],
+     "bullets": [
+      "How much of the issue is fresh money and how much is OFS, and who is selling?",
+      "What will the money be used for: debt repayment, capacity expansion, or general corporate purposes?",
+      "What is the valuation (P/E, P/B) at the upper price band compared with listed peers mentioned in the RHP?",
+      "What are the top risk factors the company itself discloses in the RHP?",
+      "Am I applying because I like the business, or only for listing gains?",
+      "Can I hold the shares calmly if they list below the issue price?"
+     ]
+    }
+   ],
+   "takeaways": [
+    "Money is only blocked under ASBA; it is debited only if you get shares.",
+    "Approve the UPI mandate before the cut-off or your bid is invalid.",
+    "In oversubscribed issues, retail allotment is a lottery for one minimum lot; more lots do not raise your odds.",
+    "Shares list on T+3 after the issue closes under current SEBI rules.",
+    "Oversubscription and grey market premium do not ensure a listing gain."
+   ],
+   "faqs": [
+    [
+     "Does applying for more lots increase my chance of IPO allotment?",
+     "In a heavily oversubscribed retail category, no. Allotment is decided by lottery among valid applicants for the minimum lot, so one lot and several lots have roughly the same chance. More lots only matter when the issue is undersubscribed or mildly oversubscribed, where applicants may receive more than the minimum."
+    ],
+    [
+     "What does cut-off price mean in an IPO application?",
+     "Bidding at cut-off means you agree to buy at whatever final price the company fixes within the price band. It is available to retail individual investors. Your bank blocks money at the upper end of the band, and if the final price is lower, the difference is released after allotment."
+    ],
+    [
+     "Is the grey market premium reliable for predicting listing price?",
+     "No. GMP comes from informal, unregulated deals outside stock exchanges, with no disclosure, settlement guarantee or investor protection. It can change sharply in a few days and has often been wrong. Rely on the RHP, the subscription data published by exchanges and your own view of the valuation instead."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "initial-public-offering-ipo",
+     "asba-application-supported-by-blocked-amount",
+     "book-building",
+     "red-herring-prospectus-rhp",
+     "anchor-investor",
+     "offer-for-sale-ofs",
+     "registrar-and-transfer-agent-rta"
+    ],
+    "exams": [
+     "ix",
+     "ii-a",
+     "xii"
+    ],
+    "courses": [
+     "money-skills"
+    ]
+   }
+  },
+  {
+   "slug": "index-investing-vs-stock-picking",
+   "category": "Stock Market",
+   "title": "Index Investing vs Stock Picking: An Honest Comparison",
+   "h1": "Index Investing vs Stock Picking: What You Are Really Choosing Between",
+   "description": "Compare index investing with picking your own stocks: effort, cost, diversification, behaviour and the maths of concentration, explained with Indian examples.",
+   "primary": "index investing vs stock picking",
+   "secondary": [
+    "passive vs active investing",
+    "should i pick stocks or buy index",
+    "nifty 50 index investing",
+    "stock picking for beginners",
+    "core and satellite investing",
+    "diversification in stocks"
+   ],
+   "excerpt": "Index investing vs stock picking is usually argued like a cricket rivalry. It is more useful to treat it as a question about your time, temperament and edge. This post lays out what each approach demands, what the maths of a concentrated portfolio looks like, and how many investors combine the two without fooling themselves.",
+   "sections": [
+    {
+     "heading": "Defining the two approaches fairly",
+     "paragraphs": [
+      "Index investing means owning a whole market segment in proportion to its index, for example all 50 companies in the Nifty 50 weighted by free-float market capitalisation. You can do this through an index fund or an exchange-traded fund. You accept the market's return minus a small cost, and you make no attempt to decide which company will do better.",
+      "Stock picking means choosing individual companies you believe will beat the market, sizing them, monitoring them and deciding when to sell. It can be done well, by people who read annual reports, understand industries and stay disciplined. It can also be done badly, by people who buy what was recommended on a messaging group last night. Calling both of these 'stock picking' is what confuses the debate."
+     ]
+    },
+    {
+     "heading": "The arithmetic problem every stock picker faces",
+     "paragraphs": [
+      "Before costs, the average rupee invested in the market must earn the market's return, because together all investors are the market. If some investors beat the index, others must lag it by the same amount. After costs (brokerage, taxes on frequent selling, research time, and for funds, expense ratios), the average active rupee earns less than the index.",
+      "This does not mean nobody beats the index. It means beating it is a competitive game against mutual funds, insurers, foreign institutions and full-time professionals who are on the other side of many of your trades. SEBI and AMFI data, and the S&P Indices Versus Active (SPIVA) India reports, are good places to check how active large-cap funds have fared against their benchmarks over different periods. Results vary by category and time frame, so look up the latest edition rather than relying on old headlines."
+     ]
+    },
+    {
+     "heading": "What concentration does to your outcomes",
+     "paragraphs": [
+      "Picking stocks usually means owning fewer of them. A portfolio of six stocks behaves very differently from a portfolio of fifty. Consider Ravi, who invests ₹3 lakh equally across six companies, ₹50,000 each. Over a few years, imagine four do reasonably, one doubles and one falls 70%.",
+      "His result: four at, say, +40% become ₹70,000 each (₹2.8 lakh), the doubler becomes ₹1 lakh, and the faller becomes ₹15,000. Total ₹3.95 lakh, a 32% gain. Because the six positions were equal, the doubler more than made up for the disaster. Now suppose he had put ₹1.5 lakh into the stock that fell 70% because he felt most confident about it, and ₹30,000 into each of the other five. The faller becomes ₹45,000, the four steady ones ₹1.68 lakh, the doubler ₹60,000: total ₹2.73 lakh, a 9% loss from the same six stocks. In a concentrated portfolio, sizing decisions matter as much as picking decisions, and beginners rarely think about sizing.",
+      "Index investing removes that single-stock risk. When one company in the Nifty 50 collapses, it is a small weight, and the index rule eventually replaces it with a stronger company. You still bear market risk, which can be severe; index investors in India have seen falls of 30% or more in bad years. What you avoid is the risk of being wrong about a specific company."
+     ]
+    },
+    {
+     "heading": "Side by side",
+     "paragraphs": [
+      "The table below summarises the practical differences for an individual investor in India."
+     ],
+     "table": {
+      "head": [
+       "Factor",
+       "Index investing",
+       "Stock picking"
+      ],
+      "rows": [
+       [
+        "Time needed",
+        "A few hours a year",
+        "Several hours a week to do it properly"
+       ],
+       [
+        "Cost",
+        "Low expense ratio for index funds/ETFs",
+        "Brokerage, DP charges, research time, more frequent tax events"
+       ],
+       [
+        "Single-company risk",
+        "Spread across many companies",
+        "High if holding few stocks"
+       ],
+       [
+        "Expected result",
+        "Market return minus small cost",
+        "Anywhere from far below to far above the market"
+       ],
+       [
+        "Main behavioural risk",
+        "Stopping or selling during crashes",
+        "Overconfidence, chasing tips, holding losers too long"
+       ],
+       [
+        "Learning value",
+        "Moderate",
+        "High, if you study businesses seriously"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "When stock picking can make sense",
+     "paragraphs": [
+      "There are honest reasons to pick stocks. Some people enjoy studying businesses and treat it like a serious hobby or a career skill. Finance students preparing for roles in research or advisory learn far more from analysing ten real companies than from reading definitions. Some investors have genuine industry knowledge, such as a pharma professional who understands regulatory approvals better than a generalist.",
+      "The test is whether you can describe your edge in one sentence that does not include the words 'I saw it on' or 'everyone is buying'. If you cannot, you are paying for an expensive education, which is fine as long as you call it that and size it accordingly."
+     ]
+    },
+    {
+     "heading": "Behaviour decides more than strategy",
+     "paragraphs": [
+      "The uncomfortable truth is that investor behaviour often matters more than the choice of approach. An index investor who stops investing and sells after a 25% fall locks in the loss and misses the recovery, which can produce a worse result than a mediocre stock picker who held on. A stock picker who keeps switching to whatever rose last month pays costs and taxes and usually buys late.",
+      "Index investing has a hidden advantage here: there is nothing to tinker with. You cannot second-guess a company's quarterly result because you do not own it individually. The decisions are reduced to how much to invest each month and whether to keep going, which leaves fewer chances to make an emotional mistake. Stock picking, by contrast, offers a decision point every day, and each one is a chance to act on fear or greed.",
+      "So ask yourself not only which approach has the better theory, but which approach you are more likely to follow for ten years without abandoning it in a bad patch. A simple plan you stick with will usually beat a clever plan you drop at the worst moment."
+     ]
+    },
+    {
+     "heading": "Costs and taxes, worked through",
+     "paragraphs": [
+      "Suppose two investors each start with ₹5 lakh. Meera buys an index fund with a low expense ratio and holds. Kabir picks stocks and turns over about half his portfolio each year. Kabir pays brokerage and charges on every trade, and because he sells within a year more often, a part of his gains is taxed as short-term capital gains at a higher rate than the long-term rate Meera pays only when she eventually sells.",
+      "Even if Kabir's stocks rise exactly as much as the index before costs, his after-cost, after-tax wealth ends up lower. To finish level with Meera, he must outperform by enough to cover the drag, every year. That required margin is the real hurdle for a stock picker, and it is worth estimating in rupees using your own contract notes and tax statements."
+     ]
+    },
+    {
+     "heading": "The core-and-satellite compromise",
+     "paragraphs": [
+      "Many investors split the difference with a core-and-satellite structure. The core, perhaps the large majority of the equity money, sits in broad index funds that need no attention. A smaller satellite, sized so that losing a large part of it would hurt but not damage any goal, is used for picking individual stocks.",
+      "The important discipline is to measure the satellite honestly. Track its returns over several years against what the same money would have earned in a Nifty 50 index fund, using XIRR so that the timing of your purchases is accounted for. If after a full market cycle you are behind, that is information, not bad luck. Many investors quietly stop picking stocks after this exercise; others discover they have a real skill. Both are good outcomes because they are based on evidence. This post is for education only and is not investment advice."
+     ],
+     "bullets": [
+      "Decide the satellite size in advance and write it down.",
+      "Do not top up the satellite from the core after a losing year to 'win it back'.",
+      "Compare against the index every year using the same start and end dates.",
+      "Keep a short note on why you bought each stock; reread it before selling."
+     ]
+    }
+   ],
+   "takeaways": [
+    "After costs, the average active rupee must trail the index; beating it is a competitive game.",
+    "Index investing removes single-company risk but not market risk.",
+    "In a concentrated portfolio, position size matters as much as stock selection.",
+    "Stock picking needs a stated edge and real time; otherwise treat it as paid learning.",
+    "A core-and-satellite split lets you pick stocks while measuring yourself honestly against the index."
+   ],
+   "faqs": [
+    [
+     "Is index investing completely safe?",
+     "No. An index fund tracking the Nifty 50 falls when the market falls, and Indian indices have seen deep drawdowns in past crises. What index investing removes is the risk of one company you chose failing badly. It still carries full equity market risk and suits only money you will not need for several years."
+    ],
+    [
+     "How many stocks do I need for reasonable diversification?",
+     "There is no magic number, but a portfolio of three or four stocks is heavily exposed to any one company, while a portfolio spread across fifteen to twenty-five companies in different sectors behaves much more like the market. Beyond that, adding more stocks gives smaller diversification benefits and makes tracking harder for an individual."
+    ],
+    [
+     "How do I fairly compare my stock portfolio with an index?",
+     "Record every purchase and sale with dates and amounts, then calculate XIRR for your portfolio. Run the same cash flows as if they were invested in a Nifty 50 index fund or the index's total return version on the same dates. Comparing your XIRR with that figure shows whether your selections actually added value after costs."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "index-fund",
+     "stock-market-index",
+     "diversification",
+     "core-and-satellite-portfolio",
+     "xirr",
+     "alpha",
+     "total-return-index-tri"
+    ],
+    "exams": [
+     "x-a",
+     "v-a",
+     "xii"
+    ],
+    "tools": [
+     "sip-calculator"
+    ],
+    "courses": [
+     "money-skills"
+    ]
+   }
+  },
+  {
+   "slug": "common-stock-market-mistakes-beginners-make",
+   "category": "Stock Market",
+   "title": "Common Stock Market Mistakes Beginners Make in India",
+   "h1": "Nine Stock Market Mistakes Beginners Make, and the Cheap Habits That Prevent Them",
+   "description": "Nine common stock market mistakes new Indian investors make, from tips and averaging down to ignoring costs and taxes, with simple habits to avoid each.",
+   "primary": "stock market mistakes beginners make",
+   "secondary": [
+    "beginner investing mistakes",
+    "mistakes new investors make india",
+    "averaging down losing stock",
+    "stock tips on telegram",
+    "penny stock trap",
+    "investor behaviour mistakes"
+   ],
+   "excerpt": "Most stock market mistakes beginners make are not about picking the wrong company. They are about process: money invested before an emergency fund exists, positions sized by excitement, and decisions made from a forwarded message. Here are nine mistakes we see again and again among Indian first-time investors, each paired with one cheap habit that prevents it.",
+   "sections": [
+    {
+     "heading": "Mistake 1: investing money you will need soon",
+     "paragraphs": [
+      "A fresher who puts ₹2 lakh of savings into shares in March and needs ₹1.5 lakh in October for a course fee has turned an investment into a forced sale. If the market happens to be down 15% in October, the loss becomes real. Equities are suitable for money you will not need for several years, because short-term price swings can be large.",
+      "Habit: before buying a single share, keep an emergency fund of a few months' expenses in a savings account or liquid fund, and list any big expenses due within three years. That money stays out of the stock market."
+     ]
+    },
+    {
+     "heading": "Mistake 2: buying on tips from strangers",
+     "paragraphs": [
+      "Telegram channels, WhatsApp groups and social media 'finfluencers' often promote stocks with screenshots of past profits. SEBI has repeatedly warned investors about unregistered entities giving stock advice and has acted against several pump-and-dump schemes, where promoters of a cheap stock push tips to retail investors and then sell into the buying.",
+      "Habit: for any recommendation, check whether the person is a SEBI-registered investment adviser or research analyst on the SEBI website. Even if they are, read about the company yourself before acting. If you cannot explain what the company sells, do not own it."
+     ]
+    },
+    {
+     "heading": "Mistake 3: thinking a low share price means cheap",
+     "paragraphs": [
+      "A ₹12 stock is not cheaper than a ₹1,200 stock. Price per share means nothing without the number of shares; valuation depends on market capitalisation relative to profit, assets and growth. Penny stocks attract beginners because ₹10,000 buys a thousand shares, which feels like more ownership. These stocks are often thinly traded, poorly disclosed and easier to manipulate.",
+      "Habit: always look at market cap and P/E, not the share price, when you ask whether something is expensive."
+     ]
+    },
+    {
+     "heading": "Mistake 4: averaging down without a reason",
+     "paragraphs": [
+      "Averaging down means buying more of a stock after it falls so that your average cost drops. It feels smart. But consider Neha, who buys 100 shares at ₹400 (₹40,000). The price falls to ₹250 and she buys 100 more (₹25,000), making her average ₹325. It falls to ₹150 and she buys another 200 (₹30,000). She now has ₹95,000 invested in 400 shares worth ₹60,000, a loss of ₹35,000, and one-third of her equity money is in a company whose problems she never investigated.",
+      "Averaging down only makes sense when your original reasons for owning the business are still valid and the fall is due to the market, not the company. Habit: before buying more of a falling stock, write down what has changed in the business. If you cannot answer, do not add."
+     ]
+    },
+    {
+     "heading": "Mistake 5: ignoring costs and taxes",
+     "paragraphs": [
+      "Every buy and sell attracts brokerage (sometimes zero for delivery), STT, exchange charges, stamp duty, GST and DP charges. Frequent switching also turns gains into short-term capital gains, which are taxed at a higher rate than long-term gains on listed equity (rates as of 2026 — check the income tax department). An investor who flips the same ₹1 lakh twenty times a year can pay a meaningful share of their gains in costs and tax.",
+      "Habit: once a year, add up all charges from your contract notes and the tax paid on capital gains. Seeing the rupee figure usually reduces unnecessary trading."
+     ]
+    },
+    {
+     "heading": "A closer look at mistake 5: what overtrading costs in rupees",
+     "paragraphs": [
+      "Take Sameer, who has ₹1 lakh in equities and turns it over completely every month, so roughly ₹12 lakh of buying and ₹12 lakh of selling a year. Even at low per-trade charges, STT on the sell side, exchange charges, stamp duty on purchases, GST and DP charges on every sale add up to several thousand rupees. If he also books his profits as short-term gains, a larger share of each winning trade goes in tax than it would for a patient investor holding beyond twelve months.",
+      "Now compare Anita, who invests the same ₹1 lakh and makes perhaps four changes in a year. Her total charges are small enough to ignore, and most of her eventual gains will be long-term. Before any difference in skill, Sameer starts every year several percentage points behind. Very few beginners can outperform by that much consistently, and most do not even know the drag exists because it is spread across hundreds of small debits.",
+      "If you want to trade actively to learn, that is your choice, but measure it. Use a small, fixed amount, track charges and taxes separately from price gains, and compare the net result with what the money would have earned simply held in an index fund."
+     ]
+    },
+    {
+     "heading": "Mistakes 6 to 9 in brief",
+     "paragraphs": [
+      "Four more patterns show up constantly in first-year portfolios."
+     ],
+     "bullets": [
+      "Mistake 6, too many stocks or too few: thirty stocks of ₹2,000 each are impossible to follow, while two stocks carry huge single-company risk. Habit: set a range, such as 10 to 20 holdings, and a maximum weight per stock.",
+      "Mistake 7, trading derivatives in the first year: futures and options look like a faster route to profit, but according to SEBI studies (check sebi.gov.in for the latest), a large majority of individual F&O traders lose money. Habit: stay in the cash segment until you understand margin, leverage and expiry thoroughly.",
+      "Mistake 8, checking prices every hour: frequent checking magnifies the pain of small losses and pushes impulsive decisions. Habit: review the portfolio on a fixed day each month.",
+      "Mistake 9, never writing down why you bought: without a record, you cannot tell good decisions that had bad luck from bad decisions. Habit: one paragraph per purchase, stored in a notes app."
+     ]
+    },
+    {
+     "heading": "A one-page checklist before your next purchase",
+     "paragraphs": [
+      "Most of the mistakes above are prevented by slowing down for five minutes. Print or save this list and answer it honestly before any new stock purchase."
+     ],
+     "bullets": [
+      "Is my emergency fund in place, and is this money free for at least five years?",
+      "Where did I first hear about this stock, and is the source SEBI-registered?",
+      "What does the company sell, who are its competitors, and how does it make money?",
+      "What are its market cap, P/E and debt level, and how do they compare with peers?",
+      "How much of my equity portfolio will this be, and what is my maximum per stock?",
+      "What would make me sell, written down now, before emotions get involved?"
+     ]
+    },
+    {
+     "heading": "Why these mistakes persist",
+     "paragraphs": [
+      "Behavioural finance explains most of the list. Loss aversion makes us hold losers too long because selling would make the loss feel real. Overconfidence after a few early wins makes us size positions too large. Herding makes a stock feel safer because everyone in the group bought it. Recency bias makes the last three months seem like the future.",
+      "Knowing these biases does not switch them off. What helps is structure: rules written in advance, a fixed review routine, and limits on how much any single idea can hurt you. Treat your first year as tuition, keep the amounts modest, and focus on building habits rather than chasing a number. This post is for education only and is not investment advice."
+     ]
+    }
+   ],
+   "takeaways": [
+    "Keep an emergency fund and near-term goal money out of equities.",
+    "Verify any adviser on the SEBI website and research the company yourself.",
+    "Judge valuation by market cap and P/E, never by a low share price.",
+    "Average down only when the business case still holds, and write down why.",
+    "Track costs and taxes in rupees once a year; it curbs overtrading."
+   ],
+   "faqs": [
+    [
+     "Is it a mistake to invest small amounts in the stock market?",
+     "No. Starting small is sensible because it lets you learn how orders, settlement, costs and your own emotions work while mistakes remain affordable. Check that fixed charges such as DP fees on selling are not a large share of very small trades, and increase amounts only after you have a written process."
+    ],
+    [
+     "How do I know if a stock tip is a pump-and-dump?",
+     "Warning signs include an unknown small company, sudden promotion across many groups, claims of guaranteed targets, pressure to act quickly and no registered adviser behind the message. SEBI has acted against such schemes. If a tip comes from someone who is not registered with SEBI, the safest response is to ignore it."
+    ],
+    [
+     "Should I sell a stock that has fallen a lot?",
+     "It depends on why it fell. If the business itself has deteriorated, such as falling profits, rising debt or governance concerns, the original reason for owning it may no longer apply. If the whole market fell and the business is unchanged, the case may differ. Review the facts calmly; this is not individual advice."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "behavioural-finance",
+     "loss-aversion",
+     "emergency-fund",
+     "short-term-capital-gains-stcg",
+     "market-manipulation-pfutp",
+     "registered-investment-adviser-ria"
+    ],
+    "exams": [
+     "xii",
+     "x-a"
+    ],
+    "courses": [
+     "money-skills",
+     "critical-thinking"
+    ]
+   }
+  },
+  {
+   "slug": "corporate-actions-dividend-split-bonus-buyback",
+   "category": "Stock Market",
+   "title": "Dividends, Splits, Bonus and Buybacks: Effect on Your Shares",
+   "h1": "Corporate Actions Decoded: What Dividends, Splits, Bonus Issues and Buybacks Do to Your Holding",
+   "description": "See how dividends, stock splits, bonus issues and buybacks change your share count, price and tax position, with worked ₹ examples for each corporate action.",
+   "primary": "corporate actions",
+   "secondary": [
+    "stock split vs bonus issue",
+    "dividend record date ex date",
+    "share buyback tax india",
+    "bonus shares explained",
+    "effect of stock split on price",
+    "dividend taxation india"
+   ],
+   "excerpt": "When a company announces a split, bonus or buyback, the app shows your holding jumping or the price crashing overnight, and beginners panic or celebrate for no reason. Corporate actions mostly rearrange value rather than create it. Here we work through each one with a single holding of 100 shares so you can see exactly what changes and what does not.",
+   "sections": [
+    {
+     "heading": "The starting point: one holding, four events",
+     "paragraphs": [
+      "Assume Arjun holds 100 shares of a hypothetical company bought at ₹1,000 each, so his cost is ₹1,00,000. The share currently trades at ₹1,200, so his holding is worth ₹1,20,000. We will apply each corporate action separately to this starting position and check three things each time: number of shares, value of the holding, and anything that affects tax.",
+      "Two dates appear in every announcement. The record date is when the company checks its register (through the depositories) to see who is entitled. The ex-date is the first trading day on which a buyer no longer gets the benefit. With T+1 settlement, the ex-date and record date are usually the same day for most actions; to be entitled, you must have bought before the ex-date. Always confirm dates in the exchange announcement."
+     ]
+    },
+    {
+     "heading": "Dividends: cash out, price adjusts",
+     "paragraphs": [
+      "Suppose the company declares a dividend of ₹20 per share. Arjun receives ₹2,000. On the ex-date, the share price typically opens lower by roughly the dividend amount, other things being equal, because ₹20 of cash per share has left the company. His holding moves from ₹1,20,000 of shares to about ₹1,18,000 of shares plus ₹2,000 cash. Total value is the same on day one.",
+      "Since April 2020, dividends are taxed in the shareholder's hands at their income tax slab rate, and companies deduct TDS above a threshold amount per year (₹10,000 for resident individuals from April 2025, as of 2026 — check the income tax department). So someone in the 30% slab effectively keeps less of each rupee of dividend than someone in a lower slab. A high-dividend stock is not free money; it is part of the company's value being paid out, then taxed.",
+      "Dividends are still meaningful. A steady dividend backed by steady profits tells you the earnings are real cash, not just accounting. The useful question is whether the payout is sustainable, not how high the yield looks.",
+      "One practical point: do not buy a share just before the ex-date only to capture a dividend. The price drops by roughly the dividend, you pay tax on the dividend at your slab, and you pay transaction costs, so the strategy usually leaves you worse off than doing nothing."
+     ]
+    },
+    {
+     "heading": "Stock splits: more slices, same pizza",
+     "paragraphs": [
+      "In a split, the face value of each share is divided. If the company splits shares of face value ₹10 into face value ₹2, each old share becomes five new ones. Arjun's 100 shares become 500, and the price adjusts from ₹1,200 to about ₹240. Holding value: 500 × ₹240 = ₹1,20,000. Nothing has changed except the number of slices.",
+      "For tax, his cost is spread across the new shares: ₹1,00,000 ÷ 500 = ₹200 per share, and the holding period continues from the original purchase date. Companies split shares mainly to make the price per share more accessible and improve trading liquidity. Any price rise after a split comes from sentiment or business performance, not the split itself."
+     ]
+    },
+    {
+     "heading": "Bonus issues: shares from reserves",
+     "paragraphs": [
+      "A bonus issue gives existing shareholders free additional shares by converting part of the company's reserves into share capital. In a 1:1 bonus, Arjun receives one new share for each share held. He now has 200 shares, and the price adjusts from ₹1,200 to about ₹600. Holding value: ₹1,20,000. Again, no value is created on the day.",
+      "The key difference from a split is accounting: a bonus moves money from reserves to share capital while face value stays the same; a split changes the face value without touching reserves. For you, the economic effect is nearly identical. Tax treatment differs, though. The original 100 shares keep their cost of ₹1,000 each, while the 100 bonus shares have a cost of zero and a holding period that starts from their allotment date. If Arjun sells the bonus shares within twelve months, the whole sale value is a short-term capital gain. This trips up many investors at tax time."
+     ],
+     "table": {
+      "head": [
+       "Action",
+       "Shares after (from 100)",
+       "Price after (approx.)",
+       "Holding value",
+       "Tax point to remember"
+      ],
+      "rows": [
+       [
+        "₹20 dividend",
+        "100",
+        "₹1,180",
+        "₹1,18,000 + ₹2,000 cash",
+        "Dividend taxed at slab rate"
+       ],
+       [
+        "1:5 split (FV ₹10 to ₹2)",
+        "500",
+        "₹240",
+        "₹1,20,000",
+        "Cost spread; holding period unchanged"
+       ],
+       [
+        "1:1 bonus",
+        "200",
+        "₹600",
+        "₹1,20,000",
+        "Bonus shares have zero cost and a fresh holding period"
+       ],
+       [
+        "Buyback at ₹1,400 (20 accepted)",
+        "80",
+        "Market-driven",
+        "₹96,000 + ₹28,000 cash",
+        "Buyback proceeds taxed as dividend (since Oct 2024)"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "Buybacks: the company buys its own shares",
+     "paragraphs": [
+      "In a buyback, the company uses its cash to purchase its own shares, usually at a premium to the market price, through a tender offer or open-market purchases. In a tender offer at ₹1,400, Arjun can offer his shares. Because more shareholders usually tender than the company wants to buy, only a part is accepted. A separate reservation exists for small shareholders, which often gives them a better acceptance ratio. Suppose 20 of his 100 shares are accepted: he receives ₹28,000 and keeps 80 shares.",
+      "Tax rules for buybacks changed significantly from 1 October 2024. The entire buyback amount is now treated as a dividend in the shareholder's hands and taxed at slab rates, while the cost of the shares tendered is treated as a capital loss that can be set off against other capital gains (as of 2026 — check the income tax department for the current position). For Arjun, the ₹28,000 is taxable income, and his ₹20,000 cost of those 20 shares becomes a capital loss. For investors in higher tax slabs, this has made tendering much less attractive than before.",
+      "Why do companies buy back shares? It returns surplus cash, reduces the share count so that each remaining share owns a slightly bigger slice of future profit, and can signal that management thinks the shares are undervalued. Whether it helps continuing shareholders depends on the price paid: buying back expensive shares destroys value."
+     ]
+    },
+    {
+     "heading": "Other corporate actions you will meet",
+     "paragraphs": [
+      "Rights issues let existing shareholders buy new shares, usually at a discount, in proportion to their holding; if you ignore them, your stake gets diluted, though rights entitlements can often be sold on the exchange. Mergers and demergers change which company's shares you hold, with ratios set in the scheme. Delisting offers let promoters take a company private through a price discovery process. This post is for education only and is not investment advice."
+     ],
+     "bullets": [
+      "Read the exchange announcement, not just the app notification, for ratios and dates.",
+      "Your broker's average price may not adjust correctly for bonus or demerger; check your tax computation independently.",
+      "Charts from data providers adjust past prices for splits and bonus, so do not mistake an unadjusted chart for a crash.",
+      "Corporate actions rarely create value on the day; the business does that over years."
+     ]
+    }
+   ],
+   "takeaways": [
+    "Splits and bonus issues change share count and price, not the value of your holding.",
+    "Dividends reduce the share price by about the dividend amount and are taxed at your slab rate.",
+    "Bonus shares have zero cost and a fresh holding period, which matters for capital gains tax.",
+    "Since October 2024, buyback proceeds are taxed as dividend, with the share cost allowed as a capital loss.",
+    "Always confirm record date, ex-date and ratios in the exchange announcement."
+   ],
+   "faqs": [
+    [
+     "Do I need to apply to receive bonus shares or split shares?",
+     "No. If you hold the shares in your demat account as of the record date, the depository credits the additional or split shares automatically, usually within a few days. You only need to act for optional events such as buyback tender offers, rights issues or open offers, where you must apply within the specified window."
+    ],
+    [
+     "Is a stock split a good sign for investors?",
+     "A split by itself does not change the company's value or your share of it. It reduces the price per share, which may improve liquidity and attract small investors. Companies often split after a strong price rise, so it can reflect past success, but future returns depend on the business, not on the split."
+    ],
+    [
+     "Why did my share price fall after the dividend was paid?",
+     "On the ex-dividend date the price usually drops by roughly the dividend amount because the cash has left the company and new buyers no longer receive it. Your total wealth is unchanged at that moment: lower share value plus the dividend cash. Market movement on that day can make the drop larger or smaller."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "corporate-actions",
+     "record-date-and-ex-date",
+     "bonus-issue",
+     "stock-split",
+     "buyback-of-shares",
+     "rights-issue",
+     "short-term-capital-gains-stcg"
+    ],
+    "exams": [
+     "ii-a",
+     "xii",
+     "vi"
+    ],
+    "courses": [
+     "money-skills"
+    ]
+   }
+  },
+  {
+   "slug": "intraday-vs-swing-vs-positional-trading",
+   "category": "Trading",
+   "title": "Intraday vs Swing vs Positional Trading: Key Differences",
+   "h1": "Intraday vs Swing vs Positional Trading: Which Time Frame Fits Your Life?",
+   "description": "Compare intraday, swing and positional trading by holding period, capital, costs, tax, stress and time needed, with candid notes on the risks of each.",
+   "primary": "intraday vs swing vs positional trading",
+   "secondary": [
+    "intraday trading meaning",
+    "swing trading for beginners",
+    "positional trading india",
+    "trading time frames",
+    "intraday tax speculative income",
+    "btst trading"
+   ],
+   "excerpt": "Intraday vs swing vs positional trading is usually framed as a question of strategy. In practice it is a question of lifestyle: how many hours you can watch a screen, how much overnight uncertainty you can sleep with, and how much in costs and tax you are willing to pay. Here is a candid comparison for Indian markets, with rupee examples and the risks spelt out.",
+   "sections": [
+    {
+     "heading": "Three time frames, defined",
+     "paragraphs": [
+      "Intraday trading means opening and closing a position within the same trading session. In the cash segment, a position not squared off by the broker's cut-off is automatically closed by the broker, usually with a charge. Nothing is carried overnight.",
+      "Swing trading means holding for a few days to a few weeks, trying to capture a single 'swing' in price, such as a move from a support level to a resistance level or a reaction to quarterly results. Positions are held overnight, usually as delivery in the cash segment or as futures.",
+      "Positional trading stretches the holding period to several weeks or months and focuses on larger trends. It overlaps with investing, but the decision is still driven mainly by price behaviour and a planned exit rather than by the long-term value of the business."
+     ]
+    },
+    {
+     "heading": "Side-by-side comparison",
+     "paragraphs": [
+      "The differences go well beyond holding period."
+     ],
+     "table": {
+      "head": [
+       "Factor",
+       "Intraday",
+       "Swing",
+       "Positional"
+      ],
+      "rows": [
+       [
+        "Holding period",
+        "Minutes to hours",
+        "Days to weeks",
+        "Weeks to months"
+       ],
+       [
+        "Screen time",
+        "Most of market hours",
+        "An hour or so daily",
+        "A few hours a week"
+       ],
+       [
+        "Overnight gap risk",
+        "None",
+        "Yes",
+        "Yes, over many nights"
+       ],
+       [
+        "Trades per month",
+        "Dozens to hundreds",
+        "A handful to twenty",
+        "A few"
+       ],
+       [
+        "Cost drag",
+        "Highest",
+        "Moderate",
+        "Lowest"
+       ],
+       [
+        "Typical tax treatment (equity)",
+        "Speculative business income",
+        "Usually short-term capital gains or business income",
+        "Short- or long-term capital gains, depending on holding"
+       ],
+       [
+        "Main psychological strain",
+        "Speed, fatigue, impulsive trades",
+        "Overnight news anxiety",
+        "Patience through pullbacks"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "Intraday: the hardest game, despite looking easiest",
+     "paragraphs": [
+      "Intraday trading attracts beginners because results are instant and brokers offer leverage on intraday positions (SEBI rules cap cash-segment intraday leverage; brokers must collect a minimum margin, so check your broker's current terms). With ₹50,000 you may control a position several times larger, which turns a 1% move into a much bigger percentage of your capital, in both directions.",
+      "The difficulty is that intraday price moves contain a lot of noise, and you compete with algorithmic traders and proprietary desks that have faster execution and lower costs. Consider Rahul, who makes ten intraday trades a day with an average position of ₹1 lakh. Even if his combined charges (brokerage, STT, exchange fees, GST, stamp duty) are a small fraction of a percent per round trip, over ten trades a day and around 240 trading days, those fractions compound into a large rupee figure relative to his capital. He must be right often enough to cover that before he earns anything.",
+      "SEBI's analysis of cash-segment intraday traders has also found that a large majority of them lose money (check sebi.gov.in for the study and latest figures). That should shape your expectations before you start."
+     ]
+    },
+    {
+     "heading": "Swing trading: fewer decisions, new risks",
+     "paragraphs": [
+      "Swing trading slows the pace. You might plan two or three trades a week, each with a defined entry, stop-loss and target. That gives you time to think, check the chart and read news, and your costs per rupee of profit fall because you trade less.",
+      "The new risk is the overnight gap. Suppose Kavya buys a stock at ₹600 with a stop-loss at ₹580, risking ₹20 per share. The company announces disappointing results after market hours, and the stock opens at ₹550 the next morning. Her stop-loss order executes near ₹550, not ₹580, so she loses ₹50 per share, two and a half times what she planned. Gaps like this are why swing traders size positions conservatively and many avoid holding through scheduled results."
+     ]
+    },
+    {
+     "heading": "Positional trading: closer to investing, still trading",
+     "paragraphs": [
+      "Positional traders aim to catch bigger trends: a sector re-rating, a breakout from a long consolidation, or a sustained move in an index. Trades are few, stops are wider, and position sizes are therefore smaller for the same rupee risk. A trader who would risk ₹5,000 with a ₹20 stop might hold 250 shares; with a ₹100 stop, the same ₹5,000 risk allows only 50 shares.",
+      "The challenge here is patience. Long trends include sharp pullbacks, and positional traders often exit good trades too early or hold bad ones too long because the plan was vague. A written plan with an exit rule, such as a trailing stop below a moving average or a fixed percentage, matters more than the entry."
+     ]
+    },
+    {
+     "heading": "The same idea, three time frames",
+     "paragraphs": [
+      "To see how the choice changes everything, take one view: you think a large bank stock trading at ₹1,000 will rise after strong credit growth data. An intraday trader might buy at ₹1,002 at 9:30 am with a stop at ₹996 and a target of ₹1,014, closing by afternoon regardless. The plan depends on minute-by-minute price action and requires watching the screen.",
+      "A swing trader might wait for a pullback to ₹985, buy with a stop at ₹960, aim for ₹1,050 over two weeks and check the chart once each evening. A positional trader might buy at ₹1,000 with a stop at ₹920 and hold for three months, trailing the stop upward as the trend develops. Each uses a different stop distance, so for the same ₹5,000 risk the quantities differ: about 830 shares intraday, 200 for the swing trade and roughly 60 for the positional trade. Same stock, same view, three very different experiences of risk, time and stress."
+     ]
+    },
+    {
+     "heading": "Tax treatment differs, and it matters",
+     "paragraphs": [
+      "Under Indian income tax practice, profits and losses from intraday equity trades (no delivery taken) are generally treated as speculative business income. Speculative losses can be set off only against speculative gains and carried forward for a limited number of years. F&O trading is generally treated as non-speculative business income. Delivery-based trades are usually taxed as capital gains, short-term if held up to twelve months and long-term beyond that, though very frequent trading can be treated as business income. If you have business income, you may need to file a different return form and, above certain turnover limits, get a tax audit.",
+      "These rules have specific conditions and change with Finance Acts; the new Income-tax Act, 2025 applies from April 2026. Check the income tax department's website or a qualified tax professional for your situation (as of 2026). The practical point is that your chosen time frame changes how your profits are taxed and how your losses can be used."
+     ]
+    },
+    {
+     "heading": "How to choose honestly",
+     "paragraphs": [
+      "Ask four questions. How many hours during market time can you genuinely give, without hurting your job or studies? Working professionals and students rarely have the uninterrupted attention intraday trading demands, which is why swing or positional frames are more realistic for them. How do you react to overnight uncertainty? If a gap down would cost you sleep, keep sizes small or stick to shorter holds. What is the total amount you can afford to lose entirely while learning? And are you willing to keep a journal of every trade? Without one, no time frame will teach you anything.",
+      "Whichever you choose, start with very small sizes, paper-trade or trade minimum quantities for a few months, and judge yourself on process before profit. Nothing here is investment advice or a recommendation to trade."
+     ],
+     "bullets": [
+      "Full-time job: positional or slow swing trading is the only realistic fit.",
+      "Low tolerance for gaps: avoid holding through results and major events.",
+      "Small capital: costs hurt intraday the most, so fewer trades is kinder.",
+      "No journal, no trading: the record is how you learn."
+     ]
+    }
+   ],
+   "takeaways": [
+    "Time frame is a lifestyle choice as much as a strategy choice.",
+    "Intraday has the highest cost drag and the toughest competition; SEBI data show most intraday traders lose money.",
+    "Swing and positional trades carry overnight gap risk that can blow past a stop-loss.",
+    "Intraday equity profits are generally speculative business income, delivery trades usually capital gains; check current rules.",
+    "Start tiny, keep a journal and judge process before profit."
+   ],
+   "faqs": [
+    [
+     "Is intraday trading good for beginners?",
+     "Intraday trading is usually the hardest place to begin because it requires fast decisions, constant attention and enough edge to cover high cumulative costs. SEBI's own studies have found most intraday traders lose money. Beginners who want to learn trading often find slower time frames with small positions easier to analyse and less expensive."
+    ],
+    [
+     "What is BTST trading and is it risky?",
+     "BTST means buy today, sell tomorrow: selling shares the next day before they are credited to your demat account. The main extra risk is short delivery, where the original seller fails to deliver and your sale has to be settled through the exchange auction, which can cause a penalty. It also carries ordinary overnight gap risk."
+    ],
+    [
+     "Can a salaried person do swing trading?",
+     "Yes, many salaried people swing trade because analysis can be done in the evening and orders, including stop-losses, can be placed before work. They should check their employer's policy on trading, avoid using work time, keep positions small enough to handle gaps and remember that trading income may change their tax return form."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "stop-loss-order",
+     "limit-order-vs-market-order",
+     "short-term-capital-gains-stcg",
+     "auction-and-short-delivery",
+     "margin-trading-facility-mtf"
+    ],
+    "exams": [
+     "viii",
+     "vii",
+     "ncfm-cmd"
+    ],
+    "courses": [
+     "productivity-focus"
+    ]
+   }
+  },
+  {
+   "slug": "futures-and-options-explained-with-pnl-example",
+   "category": "Trading",
+   "title": "Futures and Options Explained With a P&L Example",
+   "h1": "Futures and Options Explained Simply, With a Rupee-by-Rupee P&L Example",
+   "description": "How futures and options work in India using Nifty examples: lot size, margin, premium, breakeven and expiry payoffs, and the risks for buyers and sellers.",
+   "primary": "futures and options explained",
+   "secondary": [
+    "f&o trading basics",
+    "nifty futures example",
+    "call option profit and loss",
+    "put option explained",
+    "option buyer vs option seller",
+    "options breakeven calculation"
+   ],
+   "excerpt": "Futures and options explained in most places stop at definitions. This guide works through actual rupee numbers on an illustrative Nifty contract: what a futures trade gains or loses, how a call option buyer and seller fare at different expiry levels, and why the same contract can feel cheap to one side and dangerous to the other. Read it before you trade a single lot.",
+   "sections": [
+    {
+     "heading": "What a derivative is, in one paragraph",
+     "paragraphs": [
+      "A derivative is a contract whose value comes from something else, the underlying, such as the Nifty 50 index or a stock. Exchange-traded derivatives in India are standardised by NSE and BSE: each contract has a fixed lot size, an expiry date and settlement rules, and the clearing corporation stands between buyer and seller. Futures and options are the two main types. Both use a small amount of money to take exposure to a much larger value, which is what makes them powerful and risky."
+     ]
+    },
+    {
+     "heading": "Futures: an obligation, with daily settlement",
+     "paragraphs": [
+      "A futures contract is an agreement to buy or sell the underlying at a fixed price on a future date. Both sides are obligated. In practice, almost everyone closes the position before expiry or lets it settle in cash (index futures) or by delivery (stock futures, which are physically settled in India).",
+      "For our example, assume the Nifty future is trading at 25,000 and the lot size is 75 units. Lot sizes are set and revised by the exchange, so treat 75 as illustrative and check NSE for the current figure. One lot then represents 25,000 × 75 = ₹18,75,000 of exposure. You do not pay this amount. You deposit an initial margin, a fraction of it, set by the clearing corporation's risk models. Say it is about ₹2.5 lakh for this example.",
+      "If you buy one lot at 25,000 and the future rises to 25,200, your profit is 200 × 75 = ₹15,000. If it falls to 24,800, your loss is ₹15,000. Futures are marked to market daily: profits are credited and losses debited from your account every evening, and if your balance falls below the required margin, you must add funds or your broker will close the position."
+     ],
+     "table": {
+      "head": [
+       "Nifty future at exit",
+       "Points move",
+       "P&L on 1 long lot (75 units)",
+       "As % of ₹2.5 lakh margin"
+      ],
+      "rows": [
+       [
+        "25,400",
+        "+400",
+        "+₹30,000",
+        "+12%"
+       ],
+       [
+        "25,200",
+        "+200",
+        "+₹15,000",
+        "+6%"
+       ],
+       [
+        "25,000",
+        "0",
+        "₹0 (minus charges)",
+        "0%"
+       ],
+       [
+        "24,800",
+        "−200",
+        "−₹15,000",
+        "−6%"
+       ],
+       [
+        "24,500",
+        "−500",
+        "−₹37,500",
+        "−15%"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "Why a 1% move feels like 7%",
+     "paragraphs": [
+      "Look at the last column. A 200-point move is 0.8% on the index, but 6% on the margin you deposited. That ratio is leverage. It works both ways at the same speed, and that is the first thing every beginner underestimates. A futures trader who keeps only the minimum margin in the account can be forced out by an ordinary one-day move, even if the view turns out right a week later."
+     ]
+    },
+    {
+     "heading": "Options: a right for the buyer, an obligation for the seller",
+     "paragraphs": [
+      "An option gives the buyer the right, but not the obligation, to buy (call) or sell (put) the underlying at a fixed strike price on expiry. The buyer pays a price called the premium to the seller (also called the writer). Index options in India are European style, so they can only be exercised at expiry, though they can be bought and sold any time before then.",
+      "Suppose you buy one lot of the Nifty 25,000 call at a premium of ₹150. Your cost is 150 × 75 = ₹11,250, and this is the most you can lose. The seller receives ₹11,250 but takes on an obligation; because their potential loss is open-ended, the seller has to deposit a much larger margin, similar to a futures position."
+     ]
+    },
+    {
+     "heading": "The call option P&L, rupee by rupee",
+     "paragraphs": [
+      "At expiry, a call is worth the amount by which Nifty is above the strike, or zero. Your breakeven is strike plus premium: 25,000 + 150 = 25,150. Here is how the buyer and seller fare at different expiry levels, before charges."
+     ],
+     "table": {
+      "head": [
+       "Nifty at expiry",
+       "Call value per unit",
+       "Buyer P&L (1 lot)",
+       "Seller P&L (1 lot)"
+      ],
+      "rows": [
+       [
+        "24,700",
+        "0",
+        "−₹11,250",
+        "+₹11,250"
+       ],
+       [
+        "25,000",
+        "0",
+        "−₹11,250",
+        "+₹11,250"
+       ],
+       [
+        "25,100",
+        "100",
+        "−₹3,750",
+        "+₹3,750"
+       ],
+       [
+        "25,150",
+        "150",
+        "₹0",
+        "₹0"
+       ],
+       [
+        "25,300",
+        "300",
+        "+₹11,250",
+        "−₹11,250"
+       ],
+       [
+        "25,600",
+        "600",
+        "+₹33,750",
+        "−₹33,750"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "What the table teaches",
+     "paragraphs": [
+      "First, the buyer loses money in most of the rows. Nifty must rise by more than 150 points before expiry just for the buyer to break even. If it stays flat, rises a little, or falls, the premium decays to zero. This decay, called theta, works against the buyer every day.",
+      "Second, the seller wins in more scenarios but with capped profit (₹11,250 at most) and losses that grow with every point above 25,150. A sharp, unexpected rally of 600 points costs the seller ₹33,750, three times the maximum gain. Option sellers often describe their strategy as collecting small, steady income, but the occasional large loss can wipe out months of premium. This is not a 'safe' side; it is a different shape of risk.",
+      "Third, before expiry the premium also depends on implied volatility and time remaining. A buyer can be right about direction and still lose money if volatility collapses after an event such as a policy announcement, because the option's price falls even though the index moved favourably."
+     ]
+    },
+    {
+     "heading": "Puts, briefly",
+     "paragraphs": [
+      "A put works in mirror image. Buying the 25,000 put at ₹140 costs 140 × 75 = ₹10,500, with breakeven at 24,860. The buyer gains if Nifty falls below that by expiry and loses at most the premium. Investors sometimes buy puts to hedge a stock portfolio against a fall, much like insurance, accepting the premium as a cost. The put seller collects ₹10,500 but faces large losses in a sharp fall."
+     ]
+    },
+    {
+     "heading": "Charges and taxes change the table",
+     "paragraphs": [
+      "The P&L tables above are before costs. Every F&O trade attracts brokerage, securities transaction tax, exchange transaction charges, SEBI fees, stamp duty and GST. For options, STT is charged on the premium when you sell, and a higher STT can apply if an in-the-money option is exercised at expiry, so check the current rules before holding to expiry (as of 2026, see the exchange and income tax department websites).",
+      "Costs shift the breakeven. If your round-trip charges on the call trade come to a few hundred rupees, the buyer needs Nifty a few points above 25,150 to actually break even, and the seller's maximum gain falls below ₹11,250. On a single trade that seems trivial; across hundreds of trades a year it becomes one of the main reasons the typical trader's results are negative. F&O profits and losses are also generally taxed as business income rather than capital gains, which affects which return form you file and how losses can be set off."
+     ]
+    },
+    {
+     "heading": "Before you trade your first lot",
+     "paragraphs": [
+      "Derivatives are legitimate tools for hedging and price discovery, and the NISM Equity Derivatives (Series VIII) certification covers them thoroughly for anyone working in the industry. For individuals speculating with them, the evidence is sobering: according to SEBI studies (check sebi.gov.in for the latest), a large majority of individual F&O traders, roughly nine in ten in the samples studied, lost money, and the losses were larger after including transaction costs. SEBI has since tightened rules on contract sizes, weekly expiries and upfront margin collection (as of 2026 — check SEBI circulars for current rules). Nothing here is investment advice or a recommendation to trade."
+     ],
+     "bullets": [
+      "Calculate the full contract value before trading, not just the margin or premium.",
+      "Know your breakeven, including brokerage, STT and other charges.",
+      "Never sell options without understanding the worst-case loss in a gap move.",
+      "Trade only with money you can afford to lose entirely."
+     ]
+    }
+   ],
+   "takeaways": [
+    "A futures lot carries exposure many times the margin, so small index moves cause large P&L swings.",
+    "Futures are marked to market daily; a margin shortfall can force your exit.",
+    "An option buyer's loss is capped at the premium, but breakeven requires a move larger than the premium.",
+    "Option sellers win more often but face losses far larger than the premium collected.",
+    "SEBI studies found most individual F&O traders lose money; trade only what you can lose entirely."
+   ],
+   "faqs": [
+    [
+     "What is the maximum loss when buying an option?",
+     "The maximum loss for an option buyer is the premium paid plus transaction charges. If you buy one lot of a call at ₹150 with a lot size of 75, you can lose at most ₹11,250 plus charges. However, this full loss happens often, because options that expire out of the money become worthless."
+    ],
+    [
+     "Why do option sellers need so much more margin than buyers?",
+     "The seller's potential loss is not capped. A sharp move against a short call or short put can cost many times the premium received. The clearing corporation therefore requires the seller to keep margins comparable to a futures position, so that losses can be covered even in volatile markets."
+    ],
+    [
+     "Are stock futures settled in cash in India?",
+     "No. Stock futures and stock options in India are physically settled, which means positions held at expiry result in actual delivery of shares and payment of the full value. Index derivatives, such as Nifty contracts, are cash-settled. Many traders close stock positions before expiry to avoid delivery obligations and the higher margins near expiry."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "futures-contract",
+     "options-contract",
+     "call-option",
+     "put-option",
+     "option-premium",
+     "lot-size-contract-size",
+     "mark-to-market-mtm",
+     "option-greeks-theta"
+    ],
+    "exams": [
+     "viii",
+     "xiii",
+     "i"
+    ],
+    "courses": [
+     "money-skills"
+    ]
+   }
+  },
+  {
+   "slug": "why-most-fo-traders-lose-money",
+   "category": "Trading",
+   "title": "Why Most F&O Traders Lose Money: What SEBI Found",
+   "h1": "Why Most F&O Traders Lose Money, and What Risk Management Really Means",
+   "description": "SEBI studies found most individual F&O traders lose money. Understand the structural reasons, the hidden costs and what genuine risk management looks like.",
+   "primary": "why most f&o traders lose money",
+   "secondary": [
+    "sebi f&o study",
+    "f&o trader losses india",
+    "risk management in trading",
+    "options trading losses",
+    "sebi f&o new rules",
+    "is f&o trading gambling"
+   ],
+   "excerpt": "Ask why most F&O traders lose money and you will hear 'lack of discipline'. That is part of it, but SEBI's studies point to something more structural: costs, leverage, time decay and an uneven playing field work against the typical individual trader before psychology even enters. Here is what the data say, why the odds look the way they do, and what risk management actually means.",
+   "sections": [
+    {
+     "heading": "What SEBI's studies found",
+     "paragraphs": [
+      "SEBI has published studies of individual traders in the equity F&O segment, and the findings have been consistent: according to SEBI studies (check sebi.gov.in for the latest), a large majority of individual traders, roughly nine in ten, made net losses over the periods studied. Transaction costs added substantially to those losses, and a small minority made most of the profits. The studies also noted a rising share of young traders and traders from smaller cities.",
+      "Proprietary traders and foreign institutions, by contrast, made aggregate profits in the same periods. The money individuals lost did not disappear; much of it went to better-equipped participants and to transaction costs. Read the original SEBI reports on sebi.gov.in for the exact figures and methodology rather than relying on social-media summaries."
+     ]
+    },
+    {
+     "heading": "Reason 1: costs are a guaranteed loss on every trade",
+     "paragraphs": [
+      "Every F&O trade pays brokerage, securities transaction tax (STT), exchange transaction charges, SEBI fees, stamp duty and GST. The STT on F&O was raised in recent years (check current rates as of 2026 on the income tax department or exchange websites). Each round trip may look small, but an active options trader doing several trades a day can rack up costs that run into lakhs of rupees a year on modest capital.",
+      "Think of it as playing a game in which you pay a fee every time you take a turn, win or lose. Even a trader with no skill disadvantage, whose trades are exactly coin flips, will slowly lose money to costs. To profit, you must be good enough not just to break even, but to overcome that fee on every trade."
+     ]
+    },
+    {
+     "heading": "Reason 2: leverage magnifies mistakes faster than skill",
+     "paragraphs": [
+      "F&O lets you control large exposures with small margins. A trader with ₹2 lakh can hold a futures position worth many times that. A normal 1.5% adverse move in the index can then wipe out a large fraction of the account in a day. Leverage does not change your accuracy; it changes how much each mistake costs and how quickly you run out of capital to keep learning.",
+      "The cruel part is that early success with leverage teaches the wrong lesson. A beginner who doubles ₹50,000 in a month with aggressive positions often increases size, and the first ordinary bad week then takes far more than the original gain."
+     ]
+    },
+    {
+     "heading": "Reason 3: option buyers fight time decay, sellers fight tail risk",
+     "paragraphs": [
+      "Most retail participants buy cheap, out-of-the-money options, especially near expiry, because the premium is small and the potential payoff looks huge. But such options expire worthless most of the time, and their value decays faster as expiry approaches. Buying a ₹20 option many times hoping for a ₹200 outcome is closer to buying lottery tickets than to trading.",
+      "Retail option sellers face the opposite problem: they win small amounts most of the time and then suffer a large loss on a sudden move. Neither side is safe. Each simply has a different way of losing money if the trader does not understand the payoff."
+     ]
+    },
+    {
+     "heading": "Reason 4: the playing field is not level",
+     "paragraphs": [
+      "Individual traders compete with algorithmic systems that react in microseconds, proprietary desks with low costs and real-time data, and institutions that hedge large portfolios. When you place a market order on a weekly option at 2:45 pm, the person on the other side is often a machine designed to profit from exactly that kind of order. Information, speed and cost advantages are real, and they compound over thousands of trades.",
+      "SEBI has tightened rules to reduce excessive speculation, including larger minimum contract sizes for index derivatives, fewer weekly expiries, upfront collection of option premium and closer monitoring of position limits (as of 2026 — check SEBI circulars for the current framework). These measures change the economics but do not change the basic arithmetic described above."
+     ]
+    },
+    {
+     "heading": "Two traders, one year",
+     "paragraphs": [
+      "Picture two people who each start the year with ₹3 lakh for F&O. Suresh buys weekly out-of-the-money options several times a day, never sizes trades in advance and adds money twice after big losses. Lata trades two or three times a week, risks 1% of capital per trade, stops after losing 3% in a month and journals every position.",
+      "Suresh may well have exciting months, but his costs alone run high, his options mostly expire worthless, and his top-ups mean he ends up losing more than his starting capital. Lata may also end the year with a loss; good process does not ensure profit. But her loss is limited by design, perhaps a fraction of her capital, and she has a hundred journaled trades that tell her whether to continue. The difference between them is not intelligence. It is whether risk was decided before trading or discovered during it."
+     ]
+    },
+    {
+     "heading": "What risk management really means",
+     "paragraphs": [
+      "Risk management is often reduced to 'use a stop-loss'. Stop-losses help, but genuine risk management is about survival: making sure that no single trade, day or month can damage your finances or force you out of the game. It is decided before you trade, not during.",
+      "In concrete terms, it means deciding the total amount you are prepared to lose on trading this year, and treating that as a fee for learning, separate from your savings and investments. It means limiting the loss on any single trade to a small fraction of trading capital, often 1% or 2%, and having a daily loss limit after which you stop trading. And it means knowing the worst-case outcome of a position, including a gap move through your stop-loss, before you enter."
+     ],
+     "bullets": [
+      "Annual risk budget: an amount whose total loss would not affect your rent, EMIs, goals or emergency fund.",
+      "Per-trade risk: a fixed small percentage of trading capital, calculated from entry and stop-loss.",
+      "Daily stop: after losing a set amount in a day, close the terminal.",
+      "No borrowed money: never trade F&O with loans, credit cards or money meant for family goals.",
+      "Review: a monthly look at net P&L after all charges and taxes, not just the winning trades."
+     ]
+    },
+    {
+     "heading": "A sober way to think about F&O",
+     "paragraphs": [
+      "If you still want to learn derivatives, approach it as a professional would. Study the NISM equity derivatives syllabus, understand margins and the Greeks, paper-trade for a few months, then trade the smallest size possible while keeping a journal. Measure yourself after a hundred trades, net of all costs. If you are losing, the data are telling you something, and the most sensible response may be to stop.",
+      "There is nothing heroic about losing money slowly in a market that is statistically stacked against most individuals. Many who learn derivatives thoroughly end up using them only for occasional hedging, or for careers in broking, risk management and research where the knowledge pays without the personal risk. Nothing here is investment advice or a recommendation to trade."
+     ]
+    }
+   ],
+   "takeaways": [
+    "According to SEBI studies (check sebi.gov.in for the latest), a large majority of individual F&O traders lost money.",
+    "Costs act like a fee on every trade, so even breakeven skill loses money over time.",
+    "Leverage multiplies the cost of each mistake and shortens the learning runway.",
+    "Option buyers lose to time decay; option sellers face rare but large losses.",
+    "Real risk management sets an annual loss budget, per-trade and daily limits before trading."
+   ],
+   "faqs": [
+    [
+     "Is F&O trading the same as gambling?",
+     "Derivatives are legitimate regulated instruments used for hedging and price discovery. However, short-term speculation in them by individuals without an edge has outcomes that look similar to gambling: most participants lose, costs are high, and a few win. Whether it resembles gambling depends on how, why and with how much money you trade."
+    ],
+    [
+     "Do stop-losses prevent big losses in F&O?",
+     "Stop-losses help limit losses in normal conditions, but they do not guarantee an exit at your chosen price. Overnight gaps, sudden news and fast markets can cause execution far beyond the stop level. Options can also move sharply in illiquid strikes. Position sizing that accounts for gap risk is therefore as important as the stop-loss itself."
+    ],
+    [
+     "Where can I read SEBI's study on F&O trader losses?",
+     "SEBI publishes its research studies and press releases on sebi.gov.in under the reports and statistics sections. Search for studies on profit and loss of individual traders in the equity F&O segment. Reading the original report gives you the exact figures, time periods and methodology, which summaries on social media often distort."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "derivative-contract",
+     "option-greeks-theta",
+     "position-limits-and-mwpl",
+     "span-margin",
+     "loss-aversion",
+     "securities-and-exchange-board-of-india-sebi"
+    ],
+    "exams": [
+     "viii",
+     "xiii"
+    ],
+    "courses": [
+     "money-skills",
+     "critical-thinking"
+    ]
+   }
+  },
+  {
+   "slug": "position-sizing-and-stop-loss-with-examples",
+   "category": "Trading",
+   "title": "Position Sizing and Stop-Loss: A Rupee Guide for Traders",
+   "h1": "Position Sizing and Stop-Losses: The Rupee Maths That Keeps Traders in the Game",
+   "description": "Learn position sizing with the fixed-risk method, place stop-losses sensibly and see how drawdowns compound, with simple worked ₹ examples for traders.",
+   "primary": "position sizing",
+   "secondary": [
+    "how many shares to buy",
+    "stop loss placement",
+    "1 percent risk rule",
+    "risk reward ratio",
+    "drawdown recovery",
+    "trading risk per trade"
+   ],
+   "excerpt": "Ask a new trader how many shares they bought and the answer is usually 'whatever my money allowed'. Position sizing flips that around: you decide how much you are willing to lose first, place a stop-loss where your idea is proven wrong, and let those two numbers decide the quantity. Here is the rupee maths, plus why drawdowns are so hard to climb out of.",
+   "sections": [
+    {
+     "heading": "Start from the loss, not the profit",
+     "paragraphs": [
+      "Every trade has two numbers that matter more than the target: where you will exit if you are wrong, and how much money that exit will cost. Beginners obsess over targets because they are pleasant to imagine. Professionals start from the loss because it is the only part of a trade they can control.",
+      "The fixed-fractional method is the simplest way to do this. You decide that no single trade will cost more than a fixed percentage of your trading capital, commonly 0.5% to 2%. That figure, in rupees, is your risk per trade. The distance between your entry and stop-loss is your risk per share. Divide one by the other, and you have your position size."
+     ]
+    },
+    {
+     "heading": "A worked example",
+     "paragraphs": [
+      "Anjali has ₹4,00,000 of trading capital, kept separate from her savings. She decides to risk 1% per trade, which is ₹4,000. She wants to buy a stock at ₹820 because it has bounced from a level where it found buyers several times before. If it falls below ₹795, she believes the setup has failed, so she places her stop-loss there. Risk per share = ₹820 − ₹795 = ₹25.",
+      "Position size = ₹4,000 ÷ ₹25 = 160 shares. Position value = 160 × ₹820 = ₹1,31,200, about a third of her capital. If the stop is hit, she loses about ₹4,000 plus charges, exactly as planned. If the stock rises to her target of ₹880, she gains ₹60 × 160 = ₹9,600, a reward-to-risk ratio of 2.4."
+     ],
+     "table": {
+      "head": [
+       "Stop distance",
+       "Risk per share",
+       "Shares for ₹4,000 risk",
+       "Position value at ₹820"
+      ],
+      "rows": [
+       [
+        "₹795 (tight)",
+        "₹25",
+        "160",
+        "₹1,31,200"
+       ],
+       [
+        "₹780 (moderate)",
+        "₹40",
+        "100",
+        "₹82,000"
+       ],
+       [
+        "₹760 (wide)",
+        "₹60",
+        "66",
+        "₹54,120"
+       ],
+       [
+        "₹740 (very wide)",
+        "₹80",
+        "50",
+        "₹41,000"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "What the table shows",
+     "paragraphs": [
+      "The wider your stop, the fewer shares you buy, and the rupee risk stays the same. This frees you to put the stop where it makes sense on the chart or in your analysis, instead of squeezing it tight so you can buy more shares. A tight stop placed at an arbitrary level gets hit by normal noise; a logical stop with a correctly reduced quantity gives the trade room without risking more money.",
+      "Notice also that the position value can be large relative to capital when the stop is tight. If Anjali used a ₹10 stop, the formula would say 400 shares worth ₹3.28 lakh, almost her whole capital. Most traders add a second cap, such as no single position above 25% or 30% of capital, to avoid concentrating everything on one idea."
+     ]
+    },
+    {
+     "heading": "Where to place the stop-loss",
+     "paragraphs": [
+      "A stop-loss belongs at the price that proves your reason for entering was wrong, not at a round number or a fixed percentage chosen for comfort. If you bought because support held at ₹800, the stop goes a little below that support, allowing for normal fluctuation. If you bought on a breakout above ₹850, a fall back below the breakout level suggests the breakout failed.",
+      "Remember that a stop-loss order is not a guarantee of price. A stop-loss market order executes at the best available price once triggered, which can be worse in a fast fall. A stop-loss limit order sets a worst price but may not execute at all in a gap. Overnight gaps can jump straight past your level, so if you hold positions overnight, size them as though the loss could be bigger than planned."
+     ]
+    },
+    {
+     "heading": "Win rate and reward-to-risk work together",
+     "paragraphs": [
+      "A strategy does not need to win most of the time to make money. It needs the average win, multiplied by how often you win, to exceed the average loss multiplied by how often you lose, after costs. The breakeven win rate for a given reward-to-risk ratio R is 1 ÷ (1 + R).",
+      "At a reward-to-risk of 1, you need to win more than 50% of trades. At 2, you need just over 33%. At 3, 25%. That is why traders favour setups with larger potential rewards relative to the stop. But be honest: targets are often not reached, and a setup that 'should' give 3R may average 1.5R in practice. Measure your real averages from your journal rather than using planned ones."
+     ],
+     "table": {
+      "head": [
+       "Reward : risk",
+       "Breakeven win rate (before costs)"
+      ],
+      "rows": [
+       [
+        "1 : 1",
+        "50%"
+       ],
+       [
+        "1.5 : 1",
+        "40%"
+       ],
+       [
+        "2 : 1",
+        "33.3%"
+       ],
+       [
+        "3 : 1",
+        "25%"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "Why small risk per trade matters: drawdown maths",
+     "paragraphs": [
+      "Losing streaks are normal. Even a strategy that wins half the time will see runs of six, eight or ten losses in a row over a few hundred trades. With 1% risk per trade, ten straight losses reduce capital by about 9.6%. With 5% risk per trade, the same streak cuts capital by about 40%.",
+      "The deeper problem is that recovery is asymmetric. A 10% loss needs an 11.1% gain to get back to where you were. A 20% loss needs 25%. A 40% loss needs 66.7%, and a 50% loss needs 100%. Large risk per trade does not just cause bigger drawdowns; it makes them disproportionately hard to recover from, and it usually triggers emotional decisions such as doubling up to win back losses."
+     ],
+     "table": {
+      "head": [
+       "Drawdown",
+       "Gain needed to recover"
+      ],
+      "rows": [
+       [
+        "−10%",
+        "+11.1%"
+       ],
+       [
+        "−20%",
+        "+25%"
+       ],
+       [
+        "−30%",
+        "+42.9%"
+       ],
+       [
+        "−40%",
+        "+66.7%"
+       ],
+       [
+        "−50%",
+        "+100%"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "Common sizing mistakes",
+     "paragraphs": [
+      "The most frequent mistake is sizing by conviction: putting more money into trades that feel certain. Feelings of certainty are poorly correlated with outcomes, and the biggest losses in many journals come from the 'sure shot' trades. A second mistake is not recalculating risk as capital changes. After a 20% drawdown, 1% of capital is a smaller rupee amount; keeping the old rupee risk means risking a larger percentage just when confidence is lowest.",
+      "A third is ignoring correlation. Three positions in three private banks are not three independent risks; one piece of sector news can hit all of them together. Treat highly correlated positions as one larger position when you add up total open risk. Finally, many traders forget costs. If your round-trip charges are ₹150 and your planned risk is ₹1,000, the real risk is ₹1,150, and on small trades that difference distorts every statistic in your journal."
+     ]
+    },
+    {
+     "heading": "Sizing rules worth writing down",
+     "paragraphs": [
+      "Rules only work if they are decided in calm moments and followed in stressful ones. Write these in your trading journal before your next trade. Nothing here is investment advice or a recommendation to trade."
+     ],
+     "bullets": [
+      "Risk per trade: a fixed percentage of trading capital, recalculated monthly as capital changes.",
+      "Maximum position size: a cap as a share of capital, regardless of how tight the stop is.",
+      "Maximum open risk: total risk across all open positions, for example no more than 4% to 5% at once.",
+      "Daily and monthly loss limits: stop trading for the day or month when they are hit.",
+      "Never move a stop-loss further away once the trade is live.",
+      "For F&O, size by the full contract exposure and gap risk, not by the margin required."
+     ]
+    }
+   ],
+   "takeaways": [
+    "Decide the rupee risk first; quantity = risk per trade ÷ (entry − stop).",
+    "A wider, logical stop with fewer shares beats a tight, arbitrary stop with more shares.",
+    "Breakeven win rate = 1 ÷ (1 + reward-to-risk), before costs.",
+    "Recovery is asymmetric: a 50% loss needs a 100% gain.",
+    "Stop-losses can slip in gaps, so size overnight positions conservatively."
+   ],
+   "faqs": [
+    [
+     "Is risking 1% per trade too conservative?",
+     "It may feel slow, but it allows you to survive long losing streaks that every strategy experiences, and keeps drawdowns recoverable. Many experienced traders risk between 0.5% and 2% per trade. The right figure depends on your strategy's win rate and your tolerance for drawdowns, which you can only judge from your own journal data."
+    ],
+    [
+     "Should I use a percentage stop-loss like 5% on every trade?",
+     "A fixed percentage ignores the structure of each trade. A 5% stop may be too tight for a volatile small-cap stock and too loose for a stable large-cap. It is usually better to place the stop where your trade idea is invalidated and then reduce the quantity so that the rupee risk stays within your limit."
+    ],
+    [
+     "How do I size a position in futures?",
+     "Calculate the rupee loss per lot if your stop-loss is hit: points between entry and stop multiplied by the lot size. Divide your rupee risk per trade by that figure to get the number of lots. If even one lot exceeds your risk limit, the trade is too large for your capital and should be skipped."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "stop-loss-order",
+     "lot-size-contract-size",
+     "standard-deviation",
+     "loss-aversion",
+     "risk-capacity"
+    ],
+    "exams": [
+     "viii",
+     "vii"
+    ],
+    "topics": [
+     "percentage-tricks-for-bank-exams",
+     "successive-percentage-change-population-depreciation"
+    ],
+    "courses": [
+     "money-skills"
+    ]
+   }
+  },
+  {
+   "slug": "margin-leverage-and-margin-calls-explained",
+   "category": "Trading",
+   "title": "Margin, Leverage and Margin Calls in India Explained",
+   "h1": "Margin, Leverage and Margin Calls: How Borrowed Exposure Can Turn Against You",
+   "description": "Understand margin, leverage and margin calls in Indian markets: F&O margins, intraday leverage, MTF and pledging, with ₹ examples of how losses multiply.",
+   "primary": "margin and leverage",
+   "secondary": [
+    "what is margin call",
+    "leverage in trading india",
+    "span and exposure margin",
+    "margin trading facility",
+    "pledge shares for margin",
+    "peak margin rules"
+   ],
+   "excerpt": "Margin and leverage are what let a trader with ₹1 lakh take a position worth ₹5 lakh or more. They are also the most common reason small losses turn into account-ending ones. This post explains how margins work across F&O, intraday and margin trading facility in India, how a margin call unfolds, and the rupee maths that shows why leverage cuts both ways.",
+   "sections": [
+    {
+     "heading": "Margin is a deposit, leverage is the ratio",
+     "paragraphs": [
+      "Margin is the money you must keep with your broker to hold a position. It is a security deposit, not the price of the position. Leverage is the ratio between the exposure you control and the margin you put up. If you control ₹10 lakh of exposure with ₹2 lakh of margin, your leverage is 5 times.",
+      "Leverage does not change the percentage move in the underlying; it changes what that move does to your capital. At 5x leverage, a 2% move against you becomes a 10% loss of your margin. At 10x, the same move costs 20%. The market does not care how much you borrowed."
+     ]
+    },
+    {
+     "heading": "How F&O margins are set",
+     "paragraphs": [
+      "For futures and option selling, the clearing corporation computes margins using a risk-based system. Historically this has been called SPAN margin, covering the worst likely one-day loss on the portfolio, plus an exposure margin as an extra buffer. Margins rise when volatility rises and can be increased further for specific contracts or around expiry. Option buyers pay the full premium upfront instead of margin.",
+      "Take an illustrative Nifty futures lot of 75 units at 25,000, an exposure of ₹18.75 lakh. If the total margin is about ₹2.5 lakh, leverage is roughly 7.5 times. A 1% move in Nifty, 250 points, changes your P&L by ₹18,750, which is 7.5% of your margin. Three bad days in a row can take a large bite out of the account. Margin rates and lot sizes change, so check NSE Clearing and your broker for current numbers (as of 2026)."
+     ]
+    },
+    {
+     "heading": "Intraday leverage in the cash segment",
+     "paragraphs": [
+      "After SEBI's peak margin framework was fully implemented, brokers must collect a minimum upfront margin for intraday trades in the cash segment, which caps the leverage they can offer (check SEBI and your broker for current limits). Before these rules, some brokers offered very high intraday leverage, which magnified retail losses.",
+      "Even within today's limits, intraday leverage can be substantial. If you buy ₹2.5 lakh of a stock intraday with ₹50,000 of margin, a 2% fall costs ₹5,000, or 10% of your money, in a few minutes. Brokers automatically square off intraday positions near the close, and they can close them earlier if your losses eat into the required margin."
+     ]
+    },
+    {
+     "heading": "Margin trading facility: leverage that charges interest",
+     "paragraphs": [
+      "Margin trading facility (MTF) lets you buy shares for delivery by paying a part of the value while the broker funds the rest, with the shares pledged as collateral. Only approved stocks qualify, and the broker charges interest on the funded amount for every day you hold.",
+      "Here is how it can go wrong. Vikram puts in ₹1 lakh and borrows ₹1 lakh under MTF to buy ₹2 lakh of shares. If the shares rise 15%, his position is worth ₹2.3 lakh; after repaying ₹1 lakh plus interest, his gain is about ₹30,000 minus interest, roughly 30% on his own money. If they fall 20% instead, the position is worth ₹1.6 lakh, and after repaying ₹1 lakh plus interest he has less than ₹60,000 left, a loss of over 40%. And the interest keeps running whether the trade works or not."
+     ],
+     "table": {
+      "head": [
+       "Share price change",
+       "Without MTF (₹1 lakh own)",
+       "With MTF (₹1 lakh own + ₹1 lakh funded), before interest"
+      ],
+      "rows": [
+       [
+        "+15%",
+        "+₹15,000 (+15%)",
+        "+₹30,000 (+30%)"
+       ],
+       [
+        "0%",
+        "₹0",
+        "₹0, minus interest"
+       ],
+       [
+        "−10%",
+        "−₹10,000 (−10%)",
+        "−₹20,000 (−20%)"
+       ],
+       [
+        "−20%",
+        "−₹20,000 (−20%)",
+        "−₹40,000 (−40%)"
+       ],
+       [
+        "−35%",
+        "−₹35,000 (−35%)",
+        "−₹70,000 (−70%), likely forced sale earlier"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "How a margin call unfolds",
+     "paragraphs": [
+      "A margin call is your broker's demand for more money when the value of your account falls below the margin required. In F&O, mark-to-market losses are settled daily, so a losing position drains your free margin every evening. If your balance falls below the requirement, the broker asks you to add funds, often with a deadline of the next morning or even within the same session in volatile markets.",
+      "If you cannot or do not add funds, the broker has the right to square off your positions, fully or partly, at whatever price the market offers. This often happens at the worst moment, during a sharp move, locking in the loss. Exchanges also levy penalties on short collection of margin, which brokers pass on to clients. With MTF and pledged shares, a fall in the collateral value can trigger the same process, and the broker may sell your pledged shares."
+     ],
+     "bullets": [
+      "Step 1: the position moves against you; MTM loss reduces available margin.",
+      "Step 2: the account dips below the required margin; the broker sends an alert.",
+      "Step 3: you add funds, reduce the position, or do nothing.",
+      "Step 4: if you do nothing, the broker squares off positions; you bear the loss and any penalty."
+     ]
+    },
+    {
+     "heading": "Pledging shares for margin: useful but not free",
+     "paragraphs": [
+      "Many investors pledge their long-term holdings or mutual fund units to get margin for trading. The pledged securities stay in your demat account, but a haircut is applied, so ₹1 lakh of shares might provide noticeably less than ₹1 lakh of margin. Exchanges also require that a portion of F&O margin be in cash or cash equivalents (check current rules).",
+      "The hidden risk is linkage. If the market falls sharply, your trading positions lose money at the same time that the value of your pledged shares, and therefore your margin, shrinks. A market crash can thus hit you twice and force the sale of investments you never intended to sell. That is how a short-term trading mistake can damage long-term savings."
+     ]
+    },
+    {
+     "heading": "A margin call, day by day",
+     "paragraphs": [
+      "Put the pieces together with an example. Deepa holds ₹3 lakh in her trading account and buys one illustrative Nifty futures lot requiring ₹2.5 lakh of margin, leaving ₹50,000 spare. On day one Nifty falls 1%, about 250 points, and ₹18,750 is debited as mark-to-market loss. Her balance is ₹2,81,250, still above the requirement.",
+      "On day two volatility rises, the exchange increases margin requirements by a little, and Nifty falls another 1.2%. A further ₹22,500 is debited, leaving ₹2,58,750 against a higher requirement of, say, ₹2.65 lakh. Her broker sends a margin call. She has no spare cash that morning, so the broker squares off the lot at the open, after a further dip. In two and a half days, Deepa has lost roughly ₹50,000, a sixth of her account, on an index move of under 3%, and she is no longer in the trade if the market recovers. Had she held a single lot with ₹6 lakh in the account, she could have stayed in; had she not used leverage at all, a 3% dip would have been a minor fluctuation."
+     ]
+    },
+    {
+     "heading": "Using leverage responsibly, if at all",
+     "paragraphs": [
+      "The safest rule is to size positions by full exposure, not margin. If you would not hold ₹18.75 lakh of Nifty in the cash market, a futures lot of the same exposure is too large for you, however small the margin. Keep a buffer well above the minimum margin so that normal volatility does not trigger forced exits. Avoid MTF for speculative trades, and never pledge savings meant for goals. Nothing here is investment advice or a recommendation to trade."
+     ],
+     "bullets": [
+      "Calculate exposure, not margin, before every trade.",
+      "Keep spare cash above the margin requirement to absorb ordinary swings.",
+      "Know your broker's square-off rules and timings.",
+      "Treat interest on MTF as a certain cost against an uncertain gain.",
+      "Do not pledge long-term investments to fund short-term trades."
+     ]
+    }
+   ],
+   "takeaways": [
+    "Margin is a deposit; leverage is exposure divided by margin.",
+    "At 5x leverage a 2% adverse move costs 10% of your capital.",
+    "Unmet margin calls lead to forced square-offs at bad prices, plus possible penalties.",
+    "MTF magnifies gains and losses and charges interest every day.",
+    "Size by full exposure, not margin, and keep a buffer above the minimum."
+   ],
+   "faqs": [
+    [
+     "What happens if I do not meet a margin call?",
+     "Your broker can square off your positions, fully or partly, without further notice to bring the account back within margin requirements. This locks in the loss at prevailing prices, which may be unfavourable in a volatile market. You may also be charged penalties for margin shortfall that the exchange levies on the broker."
+    ],
+    [
+     "Is MTF the same as a loan against shares?",
+     "Both involve borrowing with securities as collateral, but MTF is a broker facility to buy specific approved shares with partial payment, with those shares pledged. A loan against shares is usually from a bank or NBFC against shares you already own, for any purpose. Both charge interest and carry the risk of forced sale if prices fall."
+    ],
+    [
+     "Do option buyers face margin calls?",
+     "An option buyer pays the full premium upfront, so there is no margin call on a simple bought option; the maximum loss is the premium. Option sellers, futures traders and those holding combined strategies with short legs do face margin requirements and can receive margin calls when positions move against them."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "span-margin",
+     "mark-to-market-mtm",
+     "margin-trading-facility-mtf",
+     "demat-debit-and-pledge-instruction-ddpi",
+     "futures-contract",
+     "clearing-corporation"
+    ],
+    "exams": [
+     "viii",
+     "vii",
+     "xiii"
+    ],
+    "courses": [
+     "money-skills"
+    ]
+   }
+  },
+  {
+   "slug": "trading-psychology-and-trading-journal",
+   "category": "Trading",
+   "title": "Trading Psychology and Journaling: A Practical Guide",
+   "h1": "Trading Psychology Without the Clichés: Biases, Tilt and a Journal That Actually Helps",
+   "description": "Spot the biases that wreck trading decisions, catch revenge trading early and keep a trading journal with expectancy maths that reveals your real edge.",
+   "primary": "trading psychology",
+   "secondary": [
+    "trading journal template",
+    "revenge trading",
+    "fomo in trading",
+    "trading discipline tips",
+    "expectancy formula trading",
+    "behavioural biases traders"
+   ],
+   "excerpt": "Trading psychology is usually sold as motivational slogans: be disciplined, control your emotions. Useful advice is more specific. This guide names the biases that show up in real Indian trading accounts, describes the warning signs of tilt before a bad day turns into a disastrous one, and gives you a journal format and expectancy calculation that reveal whether you have an edge at all.",
+   "sections": [
+    {
+     "heading": "Why psychology matters more in trading than in investing",
+     "paragraphs": [
+      "A long-term investor makes a handful of decisions a year and has time to reflect. A trader makes dozens or hundreds, often under time pressure, with money visibly moving on the screen. Each decision is a chance for emotion to override the plan. Small behavioural leaks, repeated many times, add up to the difference between a strategy that works on paper and one that loses money in practice.",
+      "Psychology cannot rescue a strategy with no edge. But it can easily destroy one that has an edge. That is why serious traders treat their own behaviour as a measurable variable, not a matter of willpower."
+     ]
+    },
+    {
+     "heading": "The biases that show up most often",
+     "paragraphs": [
+      "Behavioural finance has catalogued these patterns for decades. In trading accounts they look like this."
+     ],
+     "bullets": [
+      "Loss aversion: losses hurt roughly twice as much as equal gains feel good, so traders hold losers hoping to get back to breakeven and cut winners quickly to lock in the good feeling.",
+      "Disposition effect: the visible result of loss aversion, selling winners too early and holding losers too long.",
+      "Overconfidence: a few winning trades lead to bigger sizes and looser rules, just before an ordinary losing streak arrives.",
+      "Recency bias: the last few trades feel like the truth about a strategy, though they are a tiny sample.",
+      "FOMO (fear of missing out): entering late after a big move because others on social media are posting profits.",
+      "Sunk cost: refusing to exit because of how much has already been lost or how much research went into the idea.",
+      "Confirmation bias: reading only the analysis that supports an open position."
+     ]
+    },
+    {
+     "heading": "Revenge trading and tilt: how a bad day becomes a disaster",
+     "paragraphs": [
+      "Tilt is a term borrowed from poker for the state in which emotion has taken over decision-making. In trading it usually begins with a loss that feels unfair, such as a stop-loss hit just before the price reverses. The next trade is taken faster, bigger and with less analysis, to win the money back. That is revenge trading.",
+      "Consider Imran, who plans to risk ₹2,000 per trade. After two quick losses (−₹4,000), he doubles size to recover in one trade and loses ₹4,000 more. Now down ₹8,000, he skips the stop-loss on the next trade, which falls further, and he exits at −₹9,000. A day that should have ended at −₹4,000 under his rules ends at −₹17,000. Nothing about the market caused the extra ₹13,000 loss; his reaction did.",
+      "Warning signs of tilt are physical and specific: a racing pulse, clicking faster, increasing size after losses, ignoring the plan 'just this once', and feeling that the market owes you. A hard daily loss limit, decided in advance, is the most effective defence. When it is hit, close the platform for the day."
+     ]
+    },
+    {
+     "heading": "Simple rules that reduce emotional decisions",
+     "paragraphs": [
+      "Rules work because they move decisions from the heat of the moment to a calm planning session. The best ones are specific enough that you can check, afterwards, whether you followed them.",
+      "Write the entry, stop and target before placing an order, and place the stop-loss order immediately rather than keeping it 'in your head'. Decide a maximum number of trades per day. Avoid the first few minutes after the open, when spreads and volatility are highest. Do not check social media or trading groups during market hours; their posts are designed to trigger FOMO. Take a short break after any loss larger than planned. And never increase position size during a losing streak, only after a review shows your process is sound.",
+      "These rules may feel restrictive. That is the point. Every rule you set removes a decision you would otherwise make under stress, and the decisions made under stress are the expensive ones."
+     ]
+    },
+    {
+     "heading": "What to record in a trading journal",
+     "paragraphs": [
+      "A journal turns vague feelings into data. It does not need special software; a spreadsheet works. Record every trade, including the ones you are embarrassed about, at the time of entry and exit, not from memory at the weekend."
+     ],
+     "table": {
+      "head": [
+       "Column",
+       "Example entry",
+       "Why it matters"
+      ],
+      "rows": [
+       [
+        "Date and time",
+        "12 Mar, 10:20",
+        "Reveals time-of-day patterns"
+       ],
+       [
+        "Instrument and side",
+        "Stock X, long",
+        "Shows where you do well or badly"
+       ],
+       [
+        "Setup or reason",
+        "Bounce from support at ₹500",
+        "Lets you compare setups"
+       ],
+       [
+        "Entry, stop, target",
+        "₹505 / ₹495 / ₹530",
+        "Defines planned risk and reward"
+       ],
+       [
+        "Quantity and rupee risk",
+        "200 shares, ₹2,000",
+        "Checks your sizing discipline"
+       ],
+       [
+        "Exit and reason",
+        "₹522, trailing stop",
+        "Shows whether you followed the plan"
+       ],
+       [
+        "Net P&L after charges",
+        "+₹3,250",
+        "The only P&L that counts"
+       ],
+       [
+        "Emotion before and after",
+        "Calm / slightly greedy",
+        "Links mood to mistakes"
+       ],
+       [
+        "Followed plan? (Y/N)",
+        "Y",
+        "The key discipline metric"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "Expectancy: the one number that tells you if you have an edge",
+     "paragraphs": [
+      "After at least 50 to 100 trades, calculate expectancy: (win rate × average win) − (loss rate × average loss), all net of charges. It tells you the average rupees you make or lose per trade.",
+      "Say your journal shows 100 trades: 40 winners averaging ₹3,000 and 60 losers averaging ₹1,800. Expectancy = (0.40 × ₹3,000) − (0.60 × ₹1,800) = ₹1,200 − ₹1,080 = ₹120 per trade. That is a small positive edge. If average loss were ₹2,100 instead, expectancy would be ₹1,200 − ₹1,260 = −₹60, a losing system, even though the win rate is the same.",
+      "Now split the same data by the 'followed plan?' column. Traders often find that trades where they followed the plan had positive expectancy while trades where they broke rules had sharply negative expectancy. That single comparison is the most persuasive argument for discipline you will ever see, because it is your own money."
+     ]
+    },
+    {
+     "heading": "Mental capital and life outside the screen",
+     "paragraphs": [
+      "Psychology is not only about the moment of the trade. Sleep, stress at work, exam pressure and money worries all reduce the quality of decisions. A student who trades during college hours, or an employee trading on a phone during meetings, is splitting attention in exactly the way that leads to impulsive mistakes. Trading with money you cannot afford to lose makes every tick feel like a threat and pushes you toward fear-driven exits and hope-driven holds.",
+      "Protect your mental capital the way you protect your financial capital. Trade only at times you can give full attention, keep the amount at risk small enough that a bad day does not affect your mood at home, and take breaks after intense periods. If trading is making you anxious, irritable or secretive about money, treat that as a signal to stop and reassess, not to trade harder."
+     ]
+    },
+    {
+     "heading": "A weekly review routine",
+     "paragraphs": [
+      "Set aside thirty minutes at the weekend, away from market hours. Total net P&L after charges for the week. Count rule breaks. Look at the three biggest losses and ask whether each was a good trade with a bad outcome or a bad trade. Note any emotional pattern, such as losses clustering after a winning streak or late in the day.",
+      "Then write one change for next week, only one. Examples: no trades in the first fifteen minutes, maximum three trades a day, no trades on result days. Small, specific changes are easier to keep than resolutions to 'be more disciplined'."
+     ]
+    },
+    {
+     "heading": "Knowing when to stop",
+     "paragraphs": [
+      "A journal can deliver an uncomfortable verdict: negative expectancy after a few hundred trades. That is valuable. It means your current approach is costing money, and continuing is a choice to keep paying. Stopping, or returning to paper trading while you rethink, is a legitimate and often wise outcome. According to SEBI studies (check sebi.gov.in for the latest), most individual F&O traders lose money, so concluding that trading is not for you puts you in good company, not a failed one. Nothing here is investment advice or a recommendation to trade."
+     ]
+    }
+   ],
+   "takeaways": [
+    "Behavioural biases cost traders more because they make many fast decisions.",
+    "Revenge trading turns small losses into large ones; a hard daily loss limit is the best defence.",
+    "Journal every trade at the time, including emotions and whether you followed the plan.",
+    "Expectancy = (win rate × average win) − (loss rate × average loss), net of charges.",
+    "Compare plan-followed and rule-broken trades to see what discipline is worth in rupees."
+   ],
+   "faqs": [
+    [
+     "How many trades do I need before my journal is meaningful?",
+     "A handful of trades says almost nothing because luck dominates small samples. Aim for at least 50 and preferably 100 or more trades with the same setup before judging it. Even then, treat conclusions as provisional, and keep recording, because market conditions change and strategies that worked can stop working."
+    ],
+    [
+     "Is paper trading useful for psychology?",
+     "Paper trading is useful for learning order types, testing rules and building the habit of journaling. It does not fully replicate the emotions of real money, especially fear after losses. Many traders move from paper trading to very small real positions, so the emotions appear while the rupee consequences stay small."
+    ],
+    [
+     "What is the best way to stop revenge trading?",
+     "Set a daily loss limit in rupees before the market opens and stop trading for the day once it is hit, ideally by logging out. Some brokers allow you to set a kill switch for segments. Recording your emotional state in a journal also helps you notice tilt early, before the next impulsive trade."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "behavioural-finance",
+     "loss-aversion",
+     "stop-loss-order",
+     "risk-adjusted-return"
+    ],
+    "exams": [
+     "viii",
+     "x-a"
+    ],
+    "courses": [
+     "stress-burnout",
+     "critical-thinking",
+     "productivity-focus"
+    ]
+   }
+  },
+  {
+   "slug": "equity-vs-debt-vs-hybrid-mutual-funds",
+   "category": "Mutual Funds",
+   "title": "Equity vs Debt vs Hybrid Mutual Funds: Match Fund to Goal",
+   "h1": "Equity vs Debt vs Hybrid Mutual Funds: Start With the Goal, Not the Fund",
+   "description": "Learn how equity, debt and hybrid mutual funds differ in risk and purpose, and how to match each to short, medium and long-term goals with rupee examples.",
+   "primary": "equity vs debt vs hybrid mutual funds",
+   "secondary": [
+    "types of mutual funds india",
+    "debt fund risks",
+    "hybrid fund categories",
+    "mutual fund for short term goal",
+    "equity mutual fund for long term",
+    "sebi mutual fund categories"
+   ],
+   "excerpt": "The equity vs debt vs hybrid mutual funds question is usually answered with a risk-o-meter and a shrug. A better starting point is the goal: when you need the money and how much a temporary fall would hurt. This guide explains what each family of funds actually holds, how each can lose money, and how to match them to goals, with Indian examples.",
+   "sections": [
+    {
+     "heading": "Three families, one question each",
+     "paragraphs": [
+      "SEBI's categorisation rules, introduced in 2017 and refined since, group open-ended mutual funds into equity, debt, hybrid, solution-oriented and other schemes, each with defined investment limits. For most investors, the first three cover nearly every need.",
+      "Each family answers a different question. Equity funds ask: can you live with large ups and downs for the chance of higher long-term growth? Debt funds ask: do you want relatively stable value with returns linked to interest rates and borrowers' credit quality? Hybrid funds ask: would you rather have a pre-set mix of both, managed for you? None is better in general; each is better for a particular job."
+     ]
+    },
+    {
+     "heading": "Equity funds: growth, with deep temporary falls",
+     "paragraphs": [
+      "An equity fund must keep a large share of its assets in shares; for most equity categories that minimum is 65%, and categories like large cap, mid cap and small cap have additional rules on which companies they can buy. Equity funds aim to grow wealth over long periods by owning parts of businesses whose profits grow.",
+      "The cost of that growth is volatility. In bad years, diversified equity funds in India have fallen by a third or more from their peaks, and small-cap funds have fallen further. Someone who needs the money in the middle of such a fall has to sell at a loss. That is why equity suits goals that are many years away, such as retirement or a child's higher education a decade later, where there is time to wait out downturns.",
+      "Within equity, risk varies by category. Large-cap and flexi-cap funds tend to be less volatile than mid-cap and small-cap funds, while sectoral and thematic funds concentrate on one theme and can swing much more. ELSS funds add a three-year lock-in in exchange for a tax deduction under the old tax regime."
+     ]
+    },
+    {
+     "heading": "Debt funds: steadier, but not risk-free",
+     "paragraphs": [
+      "Debt funds lend money by buying bonds, treasury bills, commercial paper and similar instruments. Their returns come mainly from interest earned and from changes in bond prices. SEBI's debt categories are defined largely by the maturity or duration of the portfolio (overnight, liquid, ultra-short, low, short, medium and long duration, among others) and by credit quality (for example corporate bond funds versus credit risk funds).",
+      "Debt funds carry two main risks. Interest rate risk: when market interest rates rise, existing bond prices fall. A rough rule is that a fund's NAV moves by about its modified duration for each 1% change in rates. A fund with a duration of 5 years could lose around 5% if rates rise by 1 percentage point, while an overnight fund would barely move. Credit risk: a borrower may delay or default on payment. In 2020, one fund house wound up six debt schemes after a liquidity crisis in lower-rated bonds, and investors waited a long time to recover their money. Low-rated paper offers higher yields precisely because this risk is real.",
+      "For goals one to three years away, investors often look at shorter-duration, higher-credit-quality categories, accepting modest returns in exchange for stability. Liquid and overnight funds are commonly used for emergency funds and money needed within months."
+     ]
+    },
+    {
+     "heading": "Hybrid funds: a mix, in several flavours",
+     "paragraphs": [
+      "Hybrid funds hold both equity and debt, and sometimes gold or other assets, in proportions defined by SEBI's categories. The flavours differ a lot, so the word 'hybrid' alone tells you little."
+     ],
+     "table": {
+      "head": [
+       "Hybrid category",
+       "Equity range (broadly)",
+       "Typical role"
+      ],
+      "rows": [
+       [
+        "Conservative hybrid",
+        "10%–25%",
+        "Mostly debt with a small equity kicker"
+       ],
+       [
+        "Balanced hybrid",
+        "40%–60%",
+        "Roughly even mix"
+       ],
+       [
+        "Aggressive hybrid",
+        "65%–80%",
+        "Equity-heavy with a debt cushion"
+       ],
+       [
+        "Dynamic asset allocation / balanced advantage",
+        "Varies with a model",
+        "Shifts equity exposure based on valuations or trends"
+       ],
+       [
+        "Multi-asset allocation",
+        "At least three asset classes, each at least 10%",
+        "Spreads across equity, debt and gold or others"
+       ],
+       [
+        "Arbitrage",
+        "Hedged equity",
+        "Low-risk returns from price differences between cash and futures"
+       ],
+       [
+        "Equity savings",
+        "Mix of equity, arbitrage and debt",
+        "Moderate risk, partly hedged"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "Matching fund family to goal",
+     "paragraphs": [
+      "The single most useful rule of thumb is: the nearer the goal, the less equity it should hold. Consider three goals for a 26-year-old named Tanvi, who earns well and saves ₹30,000 a month.",
+      "Goal 1, an emergency fund of ₹2 lakh, must be available any day. She keeps it in a savings account plus a liquid or overnight fund. Equity is unsuitable here, because an emergency could coincide with a market fall.",
+      "Goal 2, a ₹4 lakh down payment for a car in three years. A 25% equity fall in year three would derail it. She considers short-duration debt funds or a conservative hybrid fund, accepting lower expected returns for more predictable value, and plans to move fully into a liquid fund in the final year.",
+      "Goal 3, retirement more than thirty years away. Here volatility matters far less than growth, so a largely equity allocation, perhaps through index funds or diversified equity funds, fits the time horizon, while she builds the habit of not reacting to falls. As retirement approaches, the mix gradually shifts toward debt."
+     ],
+     "table": {
+      "head": [
+       "Goal horizon",
+       "What matters most",
+       "Fund families investors commonly consider"
+      ],
+      "rows": [
+       [
+        "Under 1 year",
+        "Capital stability and access",
+        "Overnight, liquid, money market funds"
+       ],
+       [
+        "1–3 years",
+        "Limited downside",
+        "Short-duration debt, conservative hybrid, arbitrage"
+       ],
+       [
+        "3–7 years",
+        "Balance of growth and stability",
+        "Hybrid funds or a mix of equity and debt funds"
+       ],
+       [
+        "7+ years",
+        "Long-term growth",
+        "Equity funds, including index funds"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "What a bad year looks like in each family",
+     "paragraphs": [
+      "Numbers make the trade-off concrete. Imagine ₹5 lakh placed in three illustrative portfolios just before a difficult year in which equities fall 30% and interest rates rise by one percentage point. An all-equity fund might drop to around ₹3.5 lakh. A short-duration debt fund with a duration of about two years might lose roughly 2% from the rate rise but earn its interest, ending close to where it started or slightly up. An aggressive hybrid with three-quarters in equity might end around ₹4 lakh, and a conservative hybrid with a fifth in equity somewhere near ₹4.75 lakh.",
+      "These are not forecasts, just arithmetic to show the shape of risk. The question to ask is not 'which fund returned the most last year', but 'if this exact bad year arrived just before I needed the money, would my goal survive?' If the answer is no, the fund is too risky for that goal, however attractive its recent returns look."
+     ]
+    },
+    {
+     "heading": "One portfolio, or one fund?",
+     "paragraphs": [
+      "You can build a mix yourself, say 70% in an equity index fund and 30% in a debt fund, and rebalance once a year. Or you can buy a hybrid fund that does the balancing internally. The do-it-yourself route offers transparency and control; the hybrid route offers convenience and automatic rebalancing without you having to sell anything.",
+      "Tax can tilt the choice, because equity-oriented funds, debt-oriented funds and in-between hybrids are taxed differently. Rebalancing between your own funds triggers capital gains each time, while rebalancing inside a hybrid fund does not create tax for you. Our companion guide on mutual fund taxation works through the rules in detail."
+     ]
+    },
+    {
+     "heading": "Common confusions to avoid",
+     "paragraphs": [
+      "Read the scheme information document and riskometer for any fund you consider; categories set boundaries, but funds within them still differ. This is general education, not investment or tax advice for your situation."
+     ],
+     "bullets": [
+      "Debt funds are not fixed deposits: NAVs can fall, and returns are not fixed in advance.",
+      "Balanced advantage funds are not low-risk by default; their equity exposure can still be substantial.",
+      "Past one-year returns say almost nothing about which category suits your goal.",
+      "A long-term goal does not justify concentrated sectoral bets.",
+      "Arbitrage funds are low-risk but not the same as liquid funds; returns depend on market spreads."
+     ]
+    }
+   ],
+   "takeaways": [
+    "Choose the fund family from the goal's time horizon, not from recent returns.",
+    "Equity funds suit goals many years away because they can fall sharply in between.",
+    "Debt funds carry interest rate risk (linked to duration) and credit risk.",
+    "Hybrid categories range from mostly debt to mostly equity; read which one you are buying.",
+    "The nearer the goal, the less equity it should hold."
+   ],
+   "faqs": [
+    [
+     "Can debt mutual funds give negative returns?",
+     "Yes, over short periods. When interest rates rise sharply, longer-duration debt funds can show negative returns because bond prices fall. Credit events, where a borrower defaults or is downgraded, can also cut NAVs suddenly. Shorter-duration and high-credit-quality funds have historically been steadier, but no debt fund is risk-free."
+    ],
+    [
+     "Is a hybrid fund better than holding separate equity and debt funds?",
+     "Neither is universally better. A hybrid fund rebalances automatically and the internal rebalancing does not create capital gains for you, which is convenient. Separate funds give more control over the exact mix and costs. The choice depends on how hands-on you want to be and the tax treatment of each option."
+    ],
+    [
+     "Which mutual fund is suitable for an emergency fund?",
+     "Money for emergencies must be available quickly and should not be exposed to equity market falls. Many people keep part of it in a savings account and part in liquid or overnight funds, which invest in very short-term instruments. Redemptions from such funds are usually credited the next business day, with some offering limited instant redemption."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "debt-mutual-fund",
+     "hybrid-mutual-fund",
+     "balanced-advantage-fund",
+     "liquid-fund",
+     "arbitrage-fund",
+     "riskometer",
+     "asset-allocation",
+     "goal-based-financial-planning"
+    ],
+    "exams": [
+     "v-a",
+     "v-b",
+     "x-a"
+    ],
+    "tools": [
+     "sip-calculator"
+    ],
+    "courses": [
+     "money-skills"
+    ]
+   }
+  },
+  {
+   "slug": "index-funds-and-etfs-explained",
+   "category": "Mutual Funds",
+   "title": "Index Funds and ETFs Explained: Key Differences",
+   "h1": "Index Funds and ETFs Explained: Same Index, Different Plumbing",
+   "description": "Understand how index funds and ETFs work in India, how tracking error and tracking difference are measured, and how liquidity, costs and convenience differ.",
+   "primary": "index funds and etfs",
+   "secondary": [
+    "index fund vs etf",
+    "what is an etf",
+    "tracking error vs tracking difference",
+    "etf liquidity inav",
+    "nifty 50 index fund",
+    "passive investing india"
+   ],
+   "excerpt": "Index funds and ETFs both copy an index such as the Nifty 50, so they often get treated as the same thing. The investment inside is similar; the plumbing is not. How you buy, what price you pay, what it costs and how closely each follows the index can differ meaningfully. Here is a practical guide to both, with the numbers that actually separate a good passive fund from a poor one.",
+   "sections": [
+    {
+     "heading": "What passive funds try to do",
+     "paragraphs": [
+      "An index fund or exchange-traded fund (ETF) holds the same securities as its benchmark index in the same proportions, aiming to deliver the index's return minus costs. The fund manager makes no attempt to pick better stocks. If the Nifty 50 rises 12% in a year including dividends, a well-run Nifty 50 fund should deliver slightly less than 12%, with the gap explained mainly by its expenses.",
+      "That simplicity is the appeal. You know what you own, costs are generally lower than actively managed funds, and there is no risk that a manager's bets go wrong. You still carry full market risk: when the index falls 25%, so does your fund."
+     ]
+    },
+    {
+     "heading": "Index funds: mutual fund units at NAV",
+     "paragraphs": [
+      "An index fund is an open-ended mutual fund scheme. You buy and redeem units directly with the fund house (or through a platform) at the day's NAV, determined by the cut-off time rules. No demat account is needed, though you can hold units in demat if you choose. SIPs, STPs and SWPs are easy to set up, and you can invest any amount above the scheme minimum, including fractional units.",
+      "Because the fund must handle daily inflows and redemptions, it keeps a small amount of cash and trades frequently to match flows, which adds a little to tracking error. Expense ratios on index funds are typically low compared with active funds, but they vary across fund houses tracking the same index, so compare them."
+     ]
+    },
+    {
+     "heading": "ETFs: units traded on the stock exchange",
+     "paragraphs": [
+      "An ETF is also a mutual fund scheme, but its units are listed and traded on NSE or BSE like shares. You need a demat and trading account, you buy at the market price during trading hours, and you pay brokerage and other transaction charges. Large investors and designated market makers can create or redeem ETF units with the fund house directly in big blocks; individual investors usually trade on the exchange.",
+      "The key practical issue is that the market price of an ETF can differ from its NAV. Fund houses publish an indicative NAV (iNAV) during market hours. In a liquid ETF with active market makers, the price usually stays close to iNAV and the bid-ask spread is narrow. In a thinly traded ETF, you may pay a premium when buying or accept a discount when selling, which can wipe out the cost advantage of a low expense ratio."
+     ]
+    },
+    {
+     "heading": "Side by side",
+     "paragraphs": [
+      "Here is how the two compare for an individual investor."
+     ],
+     "table": {
+      "head": [
+       "Factor",
+       "Index fund",
+       "ETF"
+      ],
+      "rows": [
+       [
+        "Where you transact",
+        "With the fund house or platform",
+        "On the stock exchange"
+       ],
+       [
+        "Price",
+        "End-of-day NAV",
+        "Live market price, can differ from NAV"
+       ],
+       [
+        "Account needed",
+        "No demat required",
+        "Demat and trading account"
+       ],
+       [
+        "SIP",
+        "Easy and automatic",
+        "Possible through some brokers, less seamless"
+       ],
+       [
+        "Transaction costs",
+        "Usually none beyond expense ratio (exit load if any)",
+        "Brokerage, spread, other charges"
+       ],
+       [
+        "Expense ratio",
+        "Low",
+        "Often lower"
+       ],
+       [
+        "Liquidity risk",
+        "Fund handles redemptions",
+        "Depends on trading volume and market makers"
+       ],
+       [
+        "Fractional investing",
+        "Yes, any amount",
+        "Whole units only"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "Tracking error vs tracking difference",
+     "paragraphs": [
+      "These two terms are often mixed up, and the difference matters. Tracking difference is the gap between the fund's return and the index's total return over a period. If the Nifty 50 Total Return Index gained 12.0% and the fund gained 11.7%, the tracking difference is 0.3 percentage points. It mostly reflects the expense ratio plus trading costs and cash drag.",
+      "Tracking error is the standard deviation (variability) of that gap over time, usually calculated from daily returns. A low tracking error means the fund follows the index closely day to day; a high one means its returns wander around the index. SEBI requires passive funds to disclose tracking error, and AMFI publishes data you can compare.",
+      "For a long-term investor, tracking difference is usually what hits your wallet. On ₹10 lakh held for 15 years with the index compounding at an illustrative 11% a year, a fund with 0.2% tracking difference would grow to roughly ₹46.6 lakh, while one with 1.0% would reach about ₹41.8 lakh. That gap of nearly ₹5 lakh comes from a difference that looks tiny in a single year. The 11% is only an assumption for the arithmetic, not an expected return."
+     ]
+    },
+    {
+     "heading": "Costs beyond the expense ratio",
+     "paragraphs": [
+      "The expense ratio is deducted daily from the fund's NAV, so you never see it as a separate charge. For index funds, there are usually no other costs except an exit load if you redeem within a short period, which some schemes charge, and stamp duty on purchases. For ETFs, the visible costs add up differently: brokerage on each trade, the bid-ask spread, DP charges when you sell, and any premium you pay over iNAV.",
+      "Consider Pooja, who invests ₹5,000 every month. If her broker charges a flat fee per ETF order and her ETF trades with a spread of a few paise on a ₹250 unit, her costs per purchase can be a noticeable fraction of each small instalment, and she also ends up with uninvested cash because she can only buy whole units. The same ₹5,000 into an index fund is fully invested at NAV. For a ₹5 lakh lump sum, the comparison often tilts the other way, because fixed charges become negligible and the ETF's lower expense ratio matters more over the years."
+     ]
+    },
+    {
+     "heading": "Choosing the index matters more than the wrapper",
+     "paragraphs": [
+      "Many investors spend hours on index fund versus ETF and minutes on which index to track. The index is the bigger decision. A Nifty 50 fund owns India's largest companies; a Nifty Next 50 fund owns the next 50, which have historically been more volatile; a Nifty 500 or total market fund spreads across large, mid and small companies; a midcap or smallcap index adds more risk.",
+      "There are also 'smart beta' or factor indices, such as momentum, low volatility, quality or equal-weight. These follow fixed rules, so they are passive in execution, but they make an active bet on a factor. They can outperform or underperform the broad market for long stretches. Sectoral and thematic index funds concentrate risk further. Understand the index methodology, published by the index provider, before investing."
+     ]
+    },
+    {
+     "heading": "Which wrapper suits whom",
+     "paragraphs": [
+      "If you invest a fixed amount every month through a SIP, do not have or want a demat account, and value simplicity, an index fund is usually more convenient. If you already have a demat account, invest larger lump sums occasionally, and choose an ETF with good trading volume and a tight spread, an ETF can be slightly cheaper.",
+      "Some fund houses also offer fund of funds that invest in their own ETFs, which give the convenience of an index fund with the ETF inside; check the combined expense ratio. Whatever you choose, compare expense ratio, tracking difference over several years, and for ETFs, volume and spread. This is general education, not investment or tax advice for your situation."
+     ],
+     "bullets": [
+      "Check the fund's tracking difference over one, three and five years against the total return index.",
+      "For ETFs, look at average daily traded value and compare the price with iNAV before placing an order.",
+      "Use limit orders for ETFs to avoid paying an unexpectedly wide spread.",
+      "Avoid trading ETFs in the first and last few minutes of the session, when spreads are often wider."
+     ]
+    }
+   ],
+   "takeaways": [
+    "Index funds and ETFs both copy an index; the difference is how you buy, hold and pay.",
+    "Index funds transact at NAV with no demat needed; ETFs trade at market prices on the exchange.",
+    "An illiquid ETF can trade at a premium or discount to NAV that outweighs its low cost.",
+    "Tracking difference hits returns; tracking error measures how steadily a fund follows the index.",
+    "Choosing which index to track matters more than choosing the wrapper."
+   ],
+   "faqs": [
+    [
+     "Is an ETF cheaper than an index fund?",
+     "ETFs often have lower expense ratios, but you also pay brokerage, the bid-ask spread and possibly a premium to NAV when buying. For small monthly investments, these costs can outweigh the expense ratio saving. For larger lump sums in a liquid ETF, the total cost can be lower. Compare all costs, not just the expense ratio."
+    ],
+    [
+     "What is iNAV in an ETF?",
+     "iNAV, or indicative NAV, is an estimate of the ETF's per-unit value calculated during market hours from the live prices of its underlying holdings. It is published by the fund house or exchange. Comparing an ETF's market price with its iNAV shows whether you are paying a premium or receiving a discount when you trade."
+    ],
+    [
+     "Do index funds have zero risk because they are passive?",
+     "No. Passive only means the fund does not pick stocks; it still holds the same securities as the index. If the index falls sharply, the fund falls by about the same amount. Index funds remove the risk of a manager's choices underperforming, but not market risk, concentration in the index or tracking errors."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "index-fund",
+     "exchange-traded-fund-etf",
+     "tracking-error",
+     "total-return-index-tri",
+     "total-expense-ratio-ter",
+     "bid-ask-spread",
+     "fund-of-funds-fof"
+    ],
+    "exams": [
+     "v-a",
+     "v-b",
+     "xii"
+    ],
+    "tools": [
+     "sip-calculator"
+    ],
+    "courses": [
+     "money-skills"
+    ]
+   }
+  },
+  {
+   "slug": "how-mutual-funds-are-taxed-in-india",
+   "category": "Mutual Funds",
+   "title": "How Mutual Funds Are Taxed in India (2026 Guide)",
+   "h1": "How Mutual Funds Are Taxed in India in 2026, With a Worked Example",
+   "description": "Mutual fund taxation in India as of 2026: equity, debt and hybrid fund capital gains, SIP holding periods, IDCW tax and a worked example with cess.",
+   "primary": "how mutual funds are taxed",
+   "secondary": [
+    "mutual fund taxation india 2026",
+    "equity fund ltcg tax",
+    "debt fund tax slab rate",
+    "sip capital gains tax",
+    "idcw dividend tax",
+    "specified mutual fund tax"
+   ],
+   "excerpt": "How mutual funds are taxed depends on three things: what the fund holds, how long you held each unit, and whether you took gains or IDCW payouts. The rules changed several times between 2023 and 2026, and the new Income-tax Act now applies. This guide sets out the current framework and works through a full example, with a reminder to check official sources.",
+   "sections": [
+    {
+     "heading": "First, a note on the new law",
+     "paragraphs": [
+      "The Income-tax Act, 2025 replaced the Income-tax Act, 1961 from 1 April 2026. It renumbers sections and replaces the old 'previous year' and 'assessment year' with a single 'tax year', but the capital gains rates for mutual funds described below were broadly carried over from the rules in force after the July 2024 Budget. Because section numbers and some details changed, and Finance Acts can amend rates every year, treat every rate here as as of 2026 — check the income tax department (incometax.gov.in) for current rules.",
+      "Throughout, the figures exclude surcharge and include health and education cess of 4% where we calculate tax. This is general education, not investment or tax advice for your situation."
+     ]
+    },
+    {
+     "heading": "The three tax buckets",
+     "paragraphs": [
+      "Mutual funds fall into three broad buckets for capital gains, based on the fund's portfolio, not on its name."
+     ],
+     "table": {
+      "head": [
+       "Bucket",
+       "Which funds",
+       "Short-term",
+       "Long-term"
+      ],
+      "rows": [
+       [
+        "Equity-oriented",
+        "At least 65% in domestic listed equity (most equity funds, aggressive hybrid, arbitrage, many balanced advantage funds)",
+        "Held up to 12 months: 20%",
+        "Held over 12 months: 12.5% on gains above ₹1.25 lakh a year"
+       ],
+       [
+        "Specified (debt-oriented)",
+        "More than 65% in debt and money market instruments (most debt funds, liquid funds, many conservative hybrids)",
+        "Taxed at your slab rate, whatever the holding period",
+        "No long-term category for units bought on or after 1 April 2023"
+       ],
+       [
+        "Other funds",
+        "Neither of the above, e.g. many balanced hybrids, gold funds, international fund of funds",
+        "Held up to 24 months (12 for listed units such as ETFs): slab rate",
+        "Held longer: 12.5%, no indexation"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "Equity-oriented funds in detail",
+     "paragraphs": [
+      "If you redeem equity fund units within twelve months of buying them, the gain is short-term capital gain taxed at 20%. Beyond twelve months, it is long-term, and the first ₹1.25 lakh of total long-term gains from listed equity shares and equity-oriented funds in a tax year is exempt; the rest is taxed at 12.5%. The exemption is per person per year and is shared across all your equity holdings, not per fund.",
+      "Securities transaction tax of a tiny percentage is deducted on redemption of equity fund units, and stamp duty applies on purchases. Units bought before 1 February 2018 have a grandfathering rule that uses the 31 January 2018 value as the cost if it is higher, which matters only for old holdings."
+     ]
+    },
+    {
+     "heading": "Debt and other funds in detail",
+     "paragraphs": [
+      "Funds that invest more than 65% in debt and money market instruments are treated as 'specified mutual funds'. For units bought on or after 1 April 2023, all gains are deemed short-term and added to your income, taxed at your slab rate, regardless of how long you hold. The old benefit of indexation for debt funds held over three years no longer applies to these units. Units bought before April 2023 and held over 24 months are taxed at 12.5% without indexation under the current rules.",
+      "Funds that are neither equity-oriented nor specified, such as some hybrid funds with moderate equity, gold funds and international fund of funds, follow the general rules for other capital assets: long-term after 24 months for unlisted units (12 months for listed units such as ETFs), taxed at 12.5% without indexation; short-term gains taxed at slab rates. Classification depends on the fund's actual portfolio limits, so check the scheme documents or the fund house's tax note."
+     ]
+    },
+    {
+     "heading": "SIPs: every instalment is its own purchase",
+     "paragraphs": [
+      "With a SIP, each monthly instalment buys units on a different date, so each lot has its own holding period. When you redeem, units are treated as sold on a first-in, first-out basis. If you started an equity fund SIP 14 months ago and redeem everything today, the first two instalments are long-term and the remaining twelve are short-term, taxed at 20%.",
+      "This catches many investors who think 'I started my SIP more than a year ago, so it is all long-term'. If you plan a redemption, check the purchase dates in your consolidated account statement; waiting a few months can move more units into the long-term bucket."
+     ]
+    },
+    {
+     "heading": "A worked example",
+     "paragraphs": [
+      "Karan, a salaried professional in the 30% slab under the regime he has chosen, makes three redemptions in tax year 2026-27. All figures are illustrative.",
+      "First, equity index fund units bought three years ago for ₹4,00,000, redeemed for ₹6,10,000. Long-term gain = ₹2,10,000. After the ₹1,25,000 exemption, taxable gain = ₹85,000. Tax at 12.5% = ₹10,625; with 4% cess, ₹11,050.",
+      "Second, flexi-cap fund units bought eight months ago for ₹1,50,000, redeemed for ₹1,80,000. Short-term gain = ₹30,000. Tax at 20% = ₹6,000; with cess, ₹6,240.",
+      "Third, short-duration debt fund units bought in 2024 for ₹2,00,000, redeemed for ₹2,28,000. Gain = ₹28,000, taxed at his 30% slab = ₹8,400; with cess, ₹8,736. Total tax on ₹2,68,000 of gains: ₹26,026. Notice that the debt fund gain, though the smallest, carries the highest rate."
+     ],
+     "table": {
+      "head": [
+       "Redemption",
+       "Gain",
+       "Type",
+       "Rate",
+       "Tax incl. 4% cess"
+      ],
+      "rows": [
+       [
+        "Equity index fund (3 yrs)",
+        "₹2,10,000",
+        "LTCG, ₹1.25 lakh exempt",
+        "12.5% on ₹85,000",
+        "₹11,050"
+       ],
+       [
+        "Flexi-cap fund (8 months)",
+        "₹30,000",
+        "STCG",
+        "20%",
+        "₹6,240"
+       ],
+       [
+        "Debt fund bought 2024",
+        "₹28,000",
+        "Slab (specified fund)",
+        "30%",
+        "₹8,736"
+       ],
+       [
+        "Total",
+        "₹2,68,000",
+        "",
+        "",
+        "₹26,026"
+       ]
+      ]
+     }
+    },
+    {
+     "heading": "Common mistakes at tax time",
+     "paragraphs": [
+      "The most common error is assuming a fund's name decides its tax treatment. A 'balanced' or 'multi-asset' fund may be taxed as equity, as debt or as an 'other' fund depending on its portfolio limits; the fund house's annual tax note and the scheme information document state the treatment. A second error is ignoring small redemptions, such as a few thousand rupees taken from a liquid fund. Every redemption with a gain must be reported, and your registrar's capital gains statement makes this straightforward.",
+      "A third mistake is redeeming equity units a few weeks before they turn long-term. On a ₹60,000 gain, the difference between paying 20% short-term tax (₹12,480 with cess) and paying nothing because the long-term gain sits within the ₹1.25 lakh exemption can be significant. Checking purchase dates before redeeming costs nothing. Finally, investors sometimes forget that IDCW payouts and redemptions appear in the annual information statement (AIS) shared with the tax department, so mismatches in the return can lead to notices."
+     ]
+    },
+    {
+     "heading": "IDCW, switches and losses",
+     "paragraphs": [
+      "Income distributions under the IDCW option (earlier called dividends) are added to your income and taxed at your slab rate. The fund house deducts TDS when payouts from a fund house exceed a threshold in a year (₹10,000 from April 2025, as of 2026 — check the income tax department (incometax.gov.in) for current rules). For investors in higher slabs, IDCW is often less tax-efficient than the growth option, where tax arises only on redemption.",
+      "Switching from one scheme to another, or from a regular plan to a direct plan of the same scheme, is treated as a redemption and a fresh purchase, so it can trigger capital gains tax. Capital losses can be set off: short-term losses against short- or long-term gains, long-term losses only against long-term gains, with unabsorbed losses carried forward for up to eight years if your return is filed on time.",
+      "Some investors redeem and reinvest equity units each year to use the ₹1.25 lakh long-term exemption, sometimes called gains harvesting. It can reduce tax over time but involves exit loads, a brief time out of the market and record-keeping, so weigh it carefully."
+     ],
+     "bullets": [
+      "Rebates available under the new regime may not apply against tax on special-rate capital gains; check current rules.",
+      "Capital gains statements from registrars help you report each lot correctly.",
+      "Gains from mutual funds must be reported in the capital gains schedule of your return, even when no tax is due."
+     ]
+    }
+   ],
+   "takeaways": [
+    "Tax depends on fund type, holding period of each unit and whether you take IDCW.",
+    "Equity funds: 20% short-term; 12.5% long-term above ₹1.25 lakh a year (as of 2026).",
+    "Debt-oriented funds bought from April 2023: gains taxed at slab rate regardless of holding period.",
+    "Every SIP instalment has its own holding period; redemptions follow first-in, first-out.",
+    "Switches count as redemptions; check incometax.gov.in for current rates before acting."
+   ],
+   "faqs": [
+    [
+     "Is the ₹1.25 lakh exemption available separately for each mutual fund?",
+     "No. The exemption applies to your total long-term capital gains from listed equity shares and equity-oriented mutual fund units in a tax year, combined. If you have ₹80,000 of such gains from shares and ₹1,00,000 from equity funds, only ₹1.25 lakh in total is exempt and the remaining ₹55,000 is taxable at the long-term rate."
+    ],
+    [
+     "Are debt mutual funds still better than fixed deposits for tax?",
+     "For units bought on or after 1 April 2023, gains from debt-oriented funds are taxed at your slab rate, much like FD interest. The difference is timing: FD interest is taxed every year as it accrues, while debt fund gains are taxed only on redemption, which can defer tax. Returns and risks also differ, so tax is only one factor."
+    ],
+    [
+     "Do I pay tax on a SIP if I have not redeemed anything?",
+     "No. Capital gains tax arises only when you redeem or switch units. Simply holding a growth option fund, even as its NAV rises, does not create taxable income. If you have chosen an IDCW option, however, any payouts during the year are taxable at your slab rate, even without a redemption."
+    ]
+   ],
+   "related": {
+    "glossary": [
+     "long-term-capital-gains-ltcg",
+     "short-term-capital-gains-stcg",
+     "indexation",
+     "idcw-option",
+     "growth-option",
+     "tax-loss-harvesting",
+     "old-vs-new-tax-regime",
+     "consolidated-account-statement-cas"
+    ],
+    "exams": [
+     "v-a",
+     "x-a",
+     "x-b"
+    ],
+    "tools": [
+     "sip-calculator"
+    ],
+    "courses": [
+     "money-skills"
+    ]
+   }
+  }
+ ]
+}

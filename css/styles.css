@@ -738,3 +738,16 @@ body.static .nav-links a { white-space: nowrap; }
 .sample-answer { margin: 12px 0; }
 .free-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 @media (max-width: 640px) { .cat-count { columns: 1; } }
+
+/* Blog */
+.post-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.post-card { display: flex; flex-direction: column; gap: 8px; }
+.post-card h3 { margin: 4px 0 0; font-size: 1.05rem; line-height: 1.35; }
+.post-card h3 a { color: var(--heading); }
+.post-card .badge { align-self: flex-start; }
+.post-card p { margin: 0; flex: 1; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+.chip { padding: 7px 14px; border: 1px solid var(--border); border-radius: 999px; font-size: .9rem; font-weight: 500; color: var(--text); }
+.chip.active, .chip:hover { border-color: var(--brand); color: var(--brand); background: var(--brand-50); }
+.takeaways-card { margin-bottom: 28px; background: var(--brand-50); border-color: transparent; }
+.takeaways-card ul { margin-bottom: 0; }
