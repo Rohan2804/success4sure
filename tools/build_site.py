@@ -13,7 +13,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TODAY = datetime.date.today()
 YEAR = TODAY.year
 DATE_HUMAN = TODAY.strftime('%-d %B %Y')
-ASSET_V = TODAY.strftime('%Y%m%d')
+ASSET_V = datetime.datetime.now().strftime('%Y%m%d%H%M')  # changes on every build so browsers fetch fresh CSS/JS
 
 def rd(p): return json.load(open(os.path.join(ROOT, p), encoding='utf-8'))
 def wr(p, s):
@@ -1265,7 +1265,7 @@ def main():
     head, body = home_seo()
     idx = re.sub(r'<!-- seo:head -->.*?<!-- /seo:head -->', lambda m: head, idx, flags=re.S)
     idx = re.sub(r'<!-- seo:body -->.*?<!-- /seo:body -->', lambda m: body, idx, flags=re.S)
-    idx = re.sub(r'\?v=[0-9]+', f'?v={ASSET_V}', idx)
+    idx = re.sub(r'\?v=[0-9a-z]+', f'?v={ASSET_V}', idx)
     wr('index.html', idx)
 
     # sitemap + robots
