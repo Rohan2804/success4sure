@@ -461,7 +461,7 @@
         <div class="ticker" aria-label="Exams"><div class="ticker-track">${EXAMS.map((e) => `<a href="#/exam/${e.id}"><b>${esc(examCode(e).replace('NISM Series ', 'NISM '))}</b>${esc(e.name.length > 28 ? e.name.slice(0, 26) + '…' : e.name)}<span class="up">▲ ${e.pattern.passPct}% to pass</span></a>`).join('')}${EXAMS.map((e) => `<a href="#/exam/${e.id}"><b>${esc(examCode(e).replace('NISM Series ', 'NISM '))}</b>${esc(e.name.length > 28 ? e.name.slice(0, 26) + '…' : e.name)}<span class="up">▲ ${e.pattern.passPct}% to pass</span></a>`).join('')}</div></div>
         <div class="hero-blobs" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
         <div class="wrap hero-center hero-anim">
-          <span class="hero-kicker">${icon('sparkle', 14)} 100% free · ${N} exams · sign up in one click</span>
+          <span class="hero-kicker">${icon('sparkle', 14)} 100% free · ${N} exams · mock tests &amp; courses</span>
           <h1>Pass your exam with <span class="grad-word">confidence</span></h1>
           <p class="lead">Exam-pattern mock tests, topic-wise practice and a clear explanation for every answer — for NISM certifications, banking, SSC, MBA entrance and insurance exams.</p>
           <div class="row">
@@ -482,7 +482,7 @@
         </div>
         <div class="wrap">
           <div class="quiz-wrap hero-anim" style="--d:.15s">
-            <div class="quiz-label">Try a question — no sign-up needed</div>
+            <div class="quiz-label">Try a sample question</div>
             <div class="quiz-card" id="hero-quiz"></div>
           </div>
         </div>
@@ -619,7 +619,7 @@
       <section class="wrap" style="padding-bottom:40px">
         <div class="cta-band reveal">
           <h2>Ready to ace your exam?</h2>
-          <p>Try a free demo test right now — no sign-up needed.</p>
+          <p>Try a free 3-question demo, then sign up free for full mock tests.</p>
           <div class="row">
             <a class="btn btn-primary btn-lg" href="#/test/v-a?demo=1">${icon('bolt', 18)} Start free demo</a>
             <a class="btn btn-lg" href="#/exams">Browse exams ${arrow()}</a>

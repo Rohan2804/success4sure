@@ -1051,7 +1051,7 @@ def tool_page(t):
     others = ''.join(f'<li><a href="{tool_url(o)}">{e(o["name"])}</a></li>' for o in TOOLS if o is not t)
     scripts = (f'<script src="/js/data/exams.js?v={ASSET_V}"></script>' if t['exams'] else '') + f'<script src="/js/tools.js?v={ASSET_V}"></script>'
     body = f'''    <section class="page-hero"><div class="wrap">{crumbs_html(crumbs)}<h1>{e(t['name'])}</h1><p class="lead-left">{e(t['lead'])}</p>
-      <p class="meta-row small muted">Last updated {DATE_HUMAN} · Free, no sign-up</p></div></section>
+      <p class="meta-row small muted">Last updated {DATE_HUMAN} · Free to use</p></div></section>
     <div class="wrap page">
       <div class="tool-grid"><div class="card">{t['form']}</div><div class="card tool-out" id="{t['out']}" aria-live="polite"></div></div>
       <div class="prose" style="margin-top:40px">
@@ -1152,7 +1152,7 @@ def tools_hub():
       <p class="lead-left">Quick, free tools for students and early-career professionals: work out your take-home salary, plan a SIP, check a loan EMI, score your mock test with negative marking and track your NISM certificate's expiry.</p></div></section>
     <div class="wrap page"><div class="grid">{cards}</div></div>'''
     ld = [breadcrumb_ld(crumbs), {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'url': BASE + tool_url(t), 'name': t['name']} for i, t in enumerate(TOOLS)]}]
-    return page('/tools/', seo_title('Free Salary, SIP, EMI and Exam Score Calculators'), 'Free online calculators: CTC to in-hand salary, SIP with step-up, loan EMI, exam score with negative marking and NISM certificate validity. No sign-up.', body, ld, active='/tools/')
+    return page('/tools/', seo_title('Free Salary, SIP, EMI and Exam Score Calculators'), 'Free online calculators: CTC to in-hand salary, SIP with step-up, loan EMI, exam score with negative marking and NISM certificate validity.', body, ld, active='/tools/')
 
 # ---------- home (SPA shell gets SEO head + crawlable fallback) ----------
 def home_seo():
