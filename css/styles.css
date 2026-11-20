@@ -921,34 +921,20 @@ a.mock-tile.tried { background: var(--warn-soft); border-color: color-mix(in srg
 .chip[style].active { background: var(--c); color: #fff; border-color: var(--c); }
 
 /* =====================================================================
-   Coloured page background: a fixed multi-colour wash behind every page.
-   Cards stay white on top of it so text keeps its contrast.
+   Page background: one calm colour behind every page; cards stay white.
    ===================================================================== */
-:root { --page-base: #f4f6ff; --wash-1: #d9e2ff; --wash-2: #eadfff; --wash-3: #ffdced; --wash-4: #d4f2ff; --wash-5: #fff0d6; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --page-base: #0f1220; --wash-1: #1b2350; --wash-2: #2a1d4d; --wash-3: #3a1630; --wash-4: #10304a; --wash-5: #33260f; } }
-:root[data-theme="dark"] { --page-base: #0f1220; --wash-1: #1b2350; --wash-2: #2a1d4d; --wash-3: #3a1630; --wash-4: #10304a; --wash-5: #33260f; }
-html { background: var(--page-base); }
-body { background: transparent; position: relative; }
-body::before { content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none;
-  background:
-    radial-gradient(900px 600px at 0% 0%, var(--wash-1), transparent 65%),
-    radial-gradient(800px 560px at 100% 8%, var(--wash-2), transparent 65%),
-    radial-gradient(700px 520px at 85% 70%, var(--wash-3), transparent 65%),
-    radial-gradient(800px 600px at 0% 100%, var(--wash-4), transparent 65%),
-    radial-gradient(600px 400px at 45% 55%, var(--wash-5), transparent 70%),
-    var(--page-base); }
-/* Let the wash show through the big areas; keep content surfaces solid */
+:root { --page-base: #f5f7fc; --band: #edf1fa; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --page-base: #101219; --band: #161924; } }
+:root[data-theme="dark"] { --page-base: #101219; --band: #161924; }
+html, body { background: var(--page-base); }
 .hero { background: transparent; }
-.hero-blobs span { opacity: .75; }
-.hero-blobs span:nth-child(3), .hero-blobs span:nth-child(4) { opacity: .6; }
-.page-hero { background: radial-gradient(600px 240px at 85% 0%, color-mix(in srgb, var(--c-violet) 20%, transparent), transparent 70%), radial-gradient(520px 240px at 0% 100%, color-mix(in srgb, var(--c-teal) 18%, transparent), transparent 70%), color-mix(in srgb, var(--surface) 55%, transparent); border-bottom-color: color-mix(in srgb, var(--c-violet) 15%, var(--border)); }
-.section-alt { background: linear-gradient(120deg, color-mix(in srgb, #2457f5 10%, transparent), color-mix(in srgb, #7a5af8 12%, transparent) 50%, color-mix(in srgb, #e8459c 10%, transparent)); }
-.ticker { background: color-mix(in srgb, var(--surface) 55%, transparent); }
-.stat { background: color-mix(in srgb, var(--surface) 70%, var(--tint-1)); }
-.stat:nth-child(2) { background: color-mix(in srgb, var(--surface) 70%, var(--tint-2)); }
-.stat:nth-child(3) { background: color-mix(in srgb, var(--surface) 70%, var(--tint-3)); }
-.stat:nth-child(4) { background: color-mix(in srgb, var(--surface) 70%, var(--tint-4)); }
+.hero-blobs { display: none; }
+.page-hero { background: var(--band); border-bottom: 1px solid var(--border); }
+.section-alt { background: var(--band); }
+.ticker { background: var(--surface); }
+.stat, .stat:nth-child(2), .stat:nth-child(3), .stat:nth-child(4) { background: var(--surface); }
+.access-card, .takeaways-card, .definition, .tool-result, .recap, .example-box, .study-teaser { background: var(--surface); }
+.definition { border-left: 4px solid var(--brand); }
 .card, .exam-card, .quiz-card, .sample, .table-wrap { background-color: var(--surface); }
 .table-wrap { border-radius: 12px; }
-.prose > section, .lesson > section { position: relative; }
 .footer { margin-top: 0; }

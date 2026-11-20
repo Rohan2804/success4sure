@@ -449,19 +449,19 @@
     const totalQ = totalQuestions();
     const faqs = [
       ['Are these actual exam questions?', 'No. All questions are original practice questions written by our team and mapped topic by topic to each exam\'s official syllabus. They prepare you for the concepts and the format — not by leaking real exam content.'],
-      ['Is Success4Sure really free?', 'Yes. Every mock test, practice question, guide, calculator and soft-skills course is free — no plans, no payment and no card details. You can start a mock test without signing up.'],
-      ['Why should I log in?', 'Logging in with Google saves your results, mock-test progress, lesson progress and streaks to your account. Without logging in, they are kept only in this browser.'],
+      ['Is Success4Sure really free?', 'Yes. Every mock test, practice question, guide, calculator and soft-skills course is free — no plans, no payment and no card details. Just create a free account to start.'],
+      ['Why do I need an account?', 'A free account keeps your mock-test results, lesson progress and streaks safe and available on every device. Sign up in one click with Google.'],
       ['Where do I get the official NISM workbooks?', 'NISM publishes its workbooks free of cost. Our Study Material page links every NISM exam to NISM\'s official free workbook portal, so you always download the latest version straight from the source.'],
       ['Do mock tests follow the real exam pattern?', 'Yes — the same number of questions, time limit, passing percentage and negative marking as the real exam, so exam day feels familiar.'],
       ['Can I practise on my phone?', 'Absolutely. Success4Sure works on any phone, tablet or laptop browser — no app download needed.'],
-      ['Do I need to sign up?', 'No. You can take mock tests, practise chapters and read lessons without an account. Sign in with Google only if you want your progress saved across devices.'],
+      ['Do I need to sign up?', 'Yes, a free account is needed for full mock tests and course lessons. You can try the 3-question demo, the question of the day, free practice questions, notes, the glossary and the blog without signing up.'],
     ];
     app.innerHTML = `
       <section class="hero">
         <div class="ticker" aria-label="Exams"><div class="ticker-track">${EXAMS.map((e) => `<a href="#/exam/${e.id}"><b>${esc(examCode(e).replace('NISM Series ', 'NISM '))}</b>${esc(e.name.length > 28 ? e.name.slice(0, 26) + '…' : e.name)}<span class="up">▲ ${e.pattern.passPct}% to pass</span></a>`).join('')}${EXAMS.map((e) => `<a href="#/exam/${e.id}"><b>${esc(examCode(e).replace('NISM Series ', 'NISM '))}</b>${esc(e.name.length > 28 ? e.name.slice(0, 26) + '…' : e.name)}<span class="up">▲ ${e.pattern.passPct}% to pass</span></a>`).join('')}</div></div>
         <div class="hero-blobs" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
         <div class="wrap hero-center hero-anim">
-          <span class="hero-kicker">${icon('sparkle', 14)} 100% free · ${N} exams · no sign-up needed</span>
+          <span class="hero-kicker">${icon('sparkle', 14)} 100% free · ${N} exams · sign up in one click</span>
           <h1>Pass your exam with <span class="grad-word">confidence</span></h1>
           <p class="lead">Exam-pattern mock tests, topic-wise practice and a clear explanation for every answer — for NISM certifications, banking, SSC, MBA entrance and insurance exams.</p>
           <div class="row">
@@ -871,7 +871,7 @@
                   : `<a class="btn btn-lg btn-block" href="#mocks" onclick="document.getElementById('mocks').scrollIntoView({behavior:'smooth'});return false;">All tests attempted — retake any</a>`}
                 <a class="btn btn-block" style="margin-top:10px" href="#/test/${e.id}?demo=1">Quick 3-question demo</a>
               </div>
-              ${u ? '' : `<div class="card reveal small" style="--d:.1s">${icon('info', 16)} <b>Save your progress.</b> <span class="muted">Log in with Google to keep your results and streaks on every device.</span><a class="btn btn-sm btn-block" style="margin-top:12px" href="#/login?next=${encodeURIComponent('/exam/' + e.id)}">Log in</a></div>`}
+              ${u ? '' : `<div class="card reveal small" style="--d:.1s">${icon('info', 16)} <b>Free account needed.</b> <span class="muted">Sign up in one click with Google to take the mock tests and keep your results on every device.</span><a class="btn btn-sm btn-block" style="margin-top:12px" href="#/login?next=${encodeURIComponent('/exam/' + e.id)}">Sign up free</a></div>`}
               ${e.slug ? `<div class="card reveal small" style="--d:.2s"><b>Free practice</b><div class="stack" style="margin-top:10px;gap:6px"><a href="/exams/${e.slug}/practice-questions/">${icon('book', 14)} ${esc(examCode(e))} practice questions</a><a href="/tools/exam-score-calculator/?exam=${e.id}">${icon('target', 14)} Score calculator</a></div></div>` : ''}
           </div>
         </div>
@@ -1193,6 +1193,7 @@
     const u = currentUser();
     let sub = null;
     if (!demo) {
+      if (!currentUser()) { toast('Sign up free to start full mock tests'); return requireLogin(); }
       sub = activeSub(meId(), e.id);
       if (!mockNo) mockNo = nextMock(mockStatus(meId(), e.id), testsIn(sub)) || 1;
       if (mockNo > testsIn(sub) || mockNo < 1) {
@@ -1607,7 +1608,7 @@
                 <div class="small muted" style="margin-bottom:16px">${areaDone(a)} of ${a.lessons.length} read · ${a.lessons.length * 10} quiz questions · ${scenarioCount(a)} scenarios</div>
                 <a class="btn btn-primary btn-lg btn-block" href="${skillUrl(a, a.lessons[nextIdx < 0 ? 0 : nextIdx].id)}">${icon('book', 18)} ${nextIdx < 0 ? 'Review lessons' : areaDone(a) ? 'Continue learning' : 'Start learning'}</a>
               </div>
-              ${u ? '' : `<div class="card small">${icon('info', 16)} <b>Save your progress.</b> <span class="muted">Log in with Google to keep lesson progress on every device.</span><a class="btn btn-sm btn-block" style="margin-top:12px" href="#/login">Log in</a></div>`}
+              ${u ? '' : `<div class="card small">${icon('info', 16)} <b>Free account needed.</b> <span class="muted">Sign up in one click with Google to read the lessons and keep your progress.</span><a class="btn btn-sm btn-block" style="margin-top:12px" href="#/login?next=${encodeURIComponent('/skills/' + a.slug)}">Sign up free</a></div>`}
           </div>
         </div>
       </div>`;
@@ -1730,6 +1731,7 @@
   function viewLesson(slug, lessonId, view) {
     const f = findLesson(slug, lessonId);
     if (!f) return viewNotFound();
+    if (!currentUser()) { toast('Sign up free to read the lessons'); return requireLogin(); }
     if (!f.a.full) return withFullCourse(f.a);
     const { a, i, l } = f;
     const open = canOpenLesson(a, i);
@@ -1766,6 +1768,7 @@
   }
 
   function gateLesson(f) {
+    if (!currentUser()) { toast('Sign up free to practise'); requireLogin(); return false; }
     if (canOpenLesson(f.a, f.i)) return true;
     toast('Unlock this lesson to practise it');
     location.hash = skillUrl(f.a, f.l.id);

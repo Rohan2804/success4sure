@@ -215,7 +215,7 @@ def exam_page(x):
     if len(title) > 68: title = f"{code(x)} Mock Test {YEAR} – Practice Questions | {SITE['name']}"
     if len(title) > 68: title = f"{code(x)} Mock Test {YEAR} | {SITE['name']}"
     desc = (f"Prepare for {code(x)} ({x['name']}) with up to {max_mocks(x)} full-length mock tests of {p['questions']} questions, "
-            f"chapter-wise analysis and an explanation for every answer. 100% free, no sign-up needed.")
+            f"chapter-wise analysis and an explanation for every answer. 100% free with a one-click sign-up.")
     kw = SEO['exams'].get(x['id'], {})
     if kw.get('title'): title = seo_title(kw['title'])
     if kw.get('description'): desc = kw['description']
@@ -224,7 +224,7 @@ def exam_page(x):
         (f"How many questions are there in the {code(x)} exam?", f"The {code(x)} paper has {p['questions']} multiple-choice questions for {p['marks']} marks, to be completed in {p['duration']} minutes. This is the indicative pattern — always confirm it in the latest official notification."),
         (f"Is there negative marking in {code(x)}?", (f"Yes. {neg_text(x)} ({round(p['negative'] * 100, 1):g}% of the marks for that question)." if p['negative'] else "No. There is no negative marking, so attempt every question.") + " Our mock tests apply the same rule."),
         (f"What is the {pw} for {code(x)}?", (f"Cut-offs vary by year and category; our mock tests use {p['passPct']}% as a target score to aim for." if competitive(x) else f"You need {p['passPct']}% to pass. Our mock tests show pass or fail against the same mark.")),
-        (f"Are the {code(x)} mock tests free?", f"Yes. All {max_mocks(x)} full-length {code(x)} mock tests are free, with no payment or plan. You can start without signing up; log in with Google if you want your results saved across devices. You can retake any test as often as you like."),
+        (f"Are the {code(x)} mock tests free?", f"Yes. All {max_mocks(x)} full-length {code(x)} mock tests are free, with no payment or plan. Create a free account (one click with Google) to start; your results are saved across devices. You can retake any test as often as you like."),
         *[tuple(f) for f in kw.get('faqs', [])],
         ("Are these the actual exam questions?", "No. Every question is an original practice question written to match the official syllabus and the exam's style. Reproducing real exam questions is not permitted, and we do not do it."),
         (f"Where can I get the official {code(x)} study material?", ("NISM provides the latest workbook free of cost on its official portal after a short registration. The link is in the Official study material section on this page." if x['group'] == 'NISM' else "The official syllabus and notifications are published by the conducting body — see the Official resources section on this page.")),
@@ -286,7 +286,7 @@ def exam_page(x):
         {'' if x.get('noindex') else f'<p><a class="btn" href="{practice_url(x)}">{PRACTICE_N} more free {e(code(x))} practice questions with answers {"&rarr;"}</a></p>'}
       </section>
       <section><h2>Free {e(code(x))} mock tests</h2>
-        <p>Take up to {max_mocks(x)} full-length {e(code(x))} mock tests free — each with {p['questions']} questions in {p['duration']} minutes, the real {'pass mark' if not competitive(x) else 'pattern'}{', negative marking' if p['negative'] else ''}, your score, a chapter-wise analysis and an explanation for every answer. No payment and no sign-up; log in only to save your progress.</p>
+        <p>Take up to {max_mocks(x)} full-length {e(code(x))} mock tests free — each with {p['questions']} questions in {p['duration']} minutes, the real {'pass mark' if not competitive(x) else 'pattern'}{', negative marking' if p['negative'] else ''}, your score, a chapter-wise analysis and an explanation for every answer. No payment — just a free account.</p>
         <div class="row" style="margin-top:16px"><a class="btn btn-primary" href="/#/test/{x['id']}/1">Start Mock Test 1</a><a class="btn" href="/#/exam/{x['id']}">See all {max_mocks(x)} mock tests</a></div>
       </section>
       <section><h2>Official {'study material' if x['group'] == 'NISM' else 'resources'}</h2>
@@ -401,7 +401,7 @@ GROUP_GUIDE = {
 def group_faqs(g, xs):
     return [
         (f"Which {g['label']} exams can I practise on {SITE['name']}?", f"{', '.join(code(x) for x in xs)}."),
-        (f"Are {g['label']} mock tests free?", f"Yes. Every {g['label']} mock test, practice question and chapter page on {SITE['name']} is free. You can start without an account; log in with Google to save your progress."),
+        (f"Are {g['label']} mock tests free?", f"Yes. Every {g['label']} mock test, practice question and chapter page on {SITE['name']} is free. Practice questions and chapter pages are open to everyone; full mock tests need a free account."),
         ("Are these real exam questions?", "No. All questions are original and written to the official syllabus and pattern. We do not use or sell actual exam questions."),
     ]
 
@@ -517,7 +517,7 @@ def privacy_page():
 
 def terms_page():
     inner = f'''<p>These terms govern your use of success4sure.in, operated by {OPERATOR}. By using the site or creating an account you agree to them.</p>
-<h2>Free service</h2><p>{e(SITE['name'])} is free to use. There are no plans, subscriptions or payments. You can take mock tests, practise questions and read lessons without an account; signing in only saves your progress. We may change, add or remove features at any time.</p>
+<h2>Free service</h2><p>{e(SITE['name'])} is free to use. There are no plans, subscriptions or payments. Practice questions, notes, guides, the glossary, the blog and calculators are open to everyone; mock tests and course lessons need a free account. We may change, add or remove features at any time.</p>
 <h2>Accounts</h2><p>If you sign in, keep your login private and give accurate details. We may suspend accounts that misuse the service, for example through automated scraping or abuse.</p>
 <h2>Our content</h2><p>All questions, explanations and site content are our original work and are protected by copyright. You may use them for your personal preparation and share links to our pages. Copying, scraping, reselling or republishing our content is not allowed.</p>
 <h2>No guarantee of results</h2><p>Our mock tests, notes and guides are practice and learning material. They are not official exam questions, and we do not guarantee that you will pass or achieve any score. Exam patterns and rules are indicative; always confirm them with the official notification or regulator.</p>
@@ -597,7 +597,7 @@ def skills_hub_page():
       <p class="meta-row small muted">Last updated {DATE_HUMAN} · By the {e(SITE['name'])} editorial team</p>
       <div class="row" style="margin-top:20px"><a class="btn btn-primary btn-lg" href="/#/skills">Start learning</a></div></div></section>
     <div class="wrap page prose">{cards}
-      <section style="margin-top:40px"><h2>How the courses work</h2><p>Each course has six lessons: four core lessons for everyone, one for freshers and one for finance professionals such as mutual fund distributors, advisers and relationship managers. Every lesson takes 5–8 minutes to read and ends with a 10-question quiz and three scenarios where you choose what you would say and see why it works. Every course is free — no plans and no sign-up needed.</p></section>
+      <section style="margin-top:40px"><h2>How the courses work</h2><p>Each course has six lessons: four core lessons for everyone, one for freshers and one for finance professionals such as mutual fund distributors, advisers and relationship managers. Every lesson takes 5–8 minutes to read and ends with a 10-question quiz and three scenarios where you choose what you would say and see why it works. Every course is free — just create a free account.</p></section>
     </div>'''
     ld = [breadcrumb_ld(crumbs), {'@type': 'ItemList', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'url': BASE + skill_url(a), 'name': a['name']} for i, a in enumerate(SKILLS)]}]
     return page('/soft-skills/', title, desc, body, ld, active='/soft-skills/')
@@ -606,14 +606,14 @@ def skill_area_page(a):
     crumbs = [('Home', '/'), ('Soft skills', '/soft-skills/'), (a['name'], skill_url(a))]
     n = len(a['lessons'])
     title = f"{a['name']} Course – {n} Lessons with Quizzes | {SITE['name']}"
-    desc = f"{a['blurb']} {n} practical lessons, {n * 10} quiz questions and {n * 3} workplace scenarios. Free, with no sign-up needed."
+    desc = f"{a['blurb']} {n} practical lessons, {n * 10} quiz questions and {n * 3} workplace scenarios. Free with a one-click sign-up."
     ck = SEO['courses'].get(a['slug'], {})
     if ck.get('title'): title = seo_title(ck['title'])
     if ck.get('description'): desc = ck['description']
     rows = ''.join(f"<tr><td><a href=\"{skill_url(a, l)}\"><b>{e(l['title'])}</b></a><div class=\"small muted\">{e(l['summary'])}</div></td><td>{TRACK_LABEL[l['track']]}</td><td>{l['minutes']} min</td><td>Free</td></tr>" for i, l in enumerate(a['lessons']))
     faqs = [
         (f"Who is the {a['name']} course for?", "Freshers preparing for or starting their first job, and finance professionals such as mutual fund distributors, investment advisers and relationship managers. Core lessons suit everyone; one lesson is written for each of the two groups."),
-        ("Is this course free?", f"Yes. All {n} lessons, {n * 10} quiz questions with explanations and {n * 3} practice scenarios are free. You can start without an account; log in with Google to save your progress."),
+        ("Is this course free?", f"Yes. All {n} lessons, {n * 10} quiz questions with explanations and {n * 3} practice scenarios are free. Create a free account (one click with Google) to start; your progress is saved across devices."),
     ] + [tuple(f) for f in ck.get('faqs', [])]
     learn = ('<section><h2>What you will learn</h2><ul class="checks">' + ''.join(f'<li>{e(t)}</li>' for t in ck['learn']) + '</ul></section>') if ck.get('learn') else ''
     who = ('<section><h2>Who this course is for</h2><ul>' + ''.join(f'<li>{e(t)}</li>' for t in ck['who']) + '</ul></section>') if ck.get('who') else ''
