@@ -70,13 +70,13 @@
     'Mutual Funds': { icon: 'pie', color: '#2457f5' },
     'Derivatives': { icon: 'trend', color: '#7a5af8' },
     'Advisory & Research': { icon: 'bulb', color: '#0ea5e9' },
-    'Operations & Compliance': { icon: 'shield', color: '#2e90fa' },
-    'AIF & PMS': { icon: 'briefcase', color: '#6172f3' },
+    'Operations & Compliance': { icon: 'shield', color: '#0e9384' },
+    'AIF & PMS': { icon: 'briefcase', color: '#e8459c' },
     'Foundation': { icon: 'book', color: '#f79009' },
-    'Banking': { icon: 'bank', color: '#2457f5' },
-    'SSC': { icon: 'flag', color: '#0ea5e9' },
+    'Banking': { icon: 'bank', color: '#12b76a' },
+    'SSC': { icon: 'flag', color: '#f79009' },
     'MBA': { icon: 'trophy', color: '#7a5af8' },
-    'Insurance & Finance': { icon: 'shield', color: '#00a87e' },
+    'Insurance & Finance': { icon: 'shield', color: '#e8459c' },
     'Soft Skills': { icon: 'sparkle', color: '#7a5af8' },
   };
   const GROUP_ICON = { 'NISM': 'chart', 'Banking': 'bank', 'SSC': 'flag', 'MBA': 'trophy', 'Insurance & Finance': 'shield' };
@@ -99,6 +99,24 @@
   }
 
   // Reveal-on-scroll and animated counters, applied after every render.
+  // Cards follow the pointer with a soft colour spotlight and a slight tilt (skipped for reduced motion / touch).
+  function cardFx() {
+    if (reducedMotion || !matchMedia('(hover: hover)').matches) return;
+    app.addEventListener('pointermove', (ev) => {
+      const card = ev.target.closest && ev.target.closest('.exam-card, .card.fx, .post-card, .price-card');
+      if (!card) return;
+      const r = card.getBoundingClientRect(), x = (ev.clientX - r.left) / r.width, y = (ev.clientY - r.top) / r.height;
+      card.style.setProperty('--mx', (x * 100).toFixed(1) + '%');
+      card.style.setProperty('--my', (y * 100).toFixed(1) + '%');
+      if (card.classList.contains('exam-card')) card.style.transform = `perspective(800px) rotateX(${((0.5 - y) * 5).toFixed(2)}deg) rotateY(${((x - 0.5) * 6).toFixed(2)}deg) translateY(-3px)`;
+    });
+    app.addEventListener('pointerout', (ev) => {
+      const card = ev.target.closest && ev.target.closest('.exam-card');
+      if (card && !card.contains(ev.relatedTarget)) card.style.transform = '';
+    });
+  }
+  cardFx();
+
   function enhance() {
     const reveal = (el) => {
       el.classList.add('in');
@@ -441,18 +459,26 @@
     app.innerHTML = `
       <section class="hero">
         <div class="ticker" aria-label="Exams"><div class="ticker-track">${EXAMS.map((e) => `<a href="#/exam/${e.id}"><b>${esc(examCode(e).replace('NISM Series ', 'NISM '))}</b>${esc(e.name.length > 28 ? e.name.slice(0, 26) + '…' : e.name)}<span class="up">▲ ${e.pattern.passPct}% to pass</span></a>`).join('')}${EXAMS.map((e) => `<a href="#/exam/${e.id}"><b>${esc(examCode(e).replace('NISM Series ', 'NISM '))}</b>${esc(e.name.length > 28 ? e.name.slice(0, 26) + '…' : e.name)}<span class="up">▲ ${e.pattern.passPct}% to pass</span></a>`).join('')}</div></div>
+        <div class="hero-blobs" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
         <div class="wrap hero-center hero-anim">
-          <h1>Pass your exam with confidence</h1>
+          <span class="hero-kicker">${icon('sparkle', 14)} 100% free · ${N} exams · no sign-up needed</span>
+          <h1>Pass your exam with <span class="grad-word">confidence</span></h1>
           <p class="lead">Exam-pattern mock tests, topic-wise practice and a clear explanation for every answer — for NISM certifications, banking, SSC, MBA entrance and insurance exams.</p>
           <div class="row">
             <a class="btn btn-primary btn-lg" href="#/exams">Get started</a>
             <a class="btn btn-lg" href="#/study-material">Free study material</a>
           </div>
           <ul class="trust">
-            <li>${icon('check', 16)} No sign-up for demo</li>
+            <li>${icon('check', 16)} Free mock tests</li>
             <li>${icon('check', 16)} Real exam pattern</li>
             <li>${icon('check', 16)} Instant explanations</li>
           </ul>
+          <div class="hero-floats" aria-hidden="true">
+            <span class="hf hf-1">${icon('trophy', 16)} NISM V-A</span>
+            <span class="hf hf-2">${icon('bank', 16)} IBPS PO</span>
+            <span class="hf hf-3">${icon('chart', 16)} CAT</span>
+            <span class="hf hf-4">${icon('shield', 16)} IC-38</span>
+          </div>
         </div>
         <div class="wrap">
           <div class="quiz-wrap hero-anim" style="--d:.15s">
@@ -1507,7 +1533,7 @@
   function skillCard(a, i = 0) {
     const n = a.lessons.length, done = areaDone(a);
     return `<a class="exam-card reveal" style="--c:${a.color};--d:${Math.min(i, 8) * 0.05}s" href="${skillUrl(a)}">
-      <div class="ec-top"><span class="ec-icon">${icon(a.icon, 24)}</span>${skillAccess(a) ? '<span class="badge badge-success">Unlocked</span>' : '<span class="badge">First lesson free</span>'}</div>
+      <div class="ec-top"><span class="ec-icon">${icon(a.icon, 24)}</span>${skillAccess(a) ? '<span class="badge badge-success">Free</span>' : '<span class="badge">First lesson free</span>'}</div>
       <span class="series">Soft skills</span>
       <h3>${esc(a.name)}</h3>
       <p class="small muted" style="margin:2px 0 0">${esc(a.blurb)}</p>

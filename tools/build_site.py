@@ -167,18 +167,22 @@ def footer():
         {''.join(f'<a href="{exam_url(x)}">{e(code(x))} mock test</a>' for x in pop)}
       </div>
       <div>
+        <h4>Free resources</h4>
+        <a href="/study-material/">Free study material</a>
+        <a href="/guides/">Exam preparation guides</a>
+        <a href="/blog/">Blog</a>
+        <a href="/glossary/">Finance glossary</a>
+        <a href="/topics/">Bank &amp; SSC topics</a>
+        <a href="/interview-questions/">Interview questions</a>
+        <a href="/tools/">Free calculators</a>
+        <a href="/soft-skills/">Soft skills courses</a>
+        <a href="/#/daily">Question of the day</a>
+      </div>
+      <div>
         <h4>Company</h4>
         <a href="/about/">About us</a>
         <a href="/how-we-create-questions/">How we create questions</a>
         <a href="/contact/">Contact</a>
-        <a href="/soft-skills/">Soft skills courses</a>
-        <a href="/study-material/">Free study material</a>
-        <a href="/tools/">Free calculators</a>
-        <a href="/glossary/">Finance glossary</a>
-        <a href="/topics/">Bank &amp; SSC topics</a>
-        <a href="/interview-questions/">Interview questions</a>
-        <a href="/guides/">Exam preparation guides</a>
-        <a href="/blog/">Blog</a>
         <a href="/privacy-policy/">Privacy policy</a>
         <a href="/terms/">Terms of use</a>
         <a href="/disclaimer/">Disclaimer</a>
@@ -1064,11 +1068,11 @@ def tool_page(t):
 
 # ---------- blog ----------
 BLOG_CATS = [
-    {'name': 'MBA', 'slug': 'mba', 'blurb': 'CAT, CMAT, MAT and XAT preparation, choosing a B-school and specialisation, and thinking clearly about whether an MBA is worth it for you.'},
-    {'name': 'AI', 'slug': 'ai', 'blurb': 'Practical, hype-free guides to using AI tools for study and work in India — what they do well, where they fail, and how to use them safely.'},
-    {'name': 'Stock Market', 'slug': 'stock-market', 'blurb': 'How the Indian stock market works, explained from first principles: exchanges, IPOs, ratios, corporate actions and the mistakes beginners make.'},
-    {'name': 'Mutual Funds', 'slug': 'mutual-funds', 'blurb': 'Mutual funds without jargon: fund categories, SIPs, costs, factsheets and taxation, with worked rupee examples.'},
-    {'name': 'Trading', 'slug': 'trading', 'blurb': 'Trading styles, futures and options, margin and risk management — explained honestly, including why most individual F&O traders lose money.'},
+    {'name': 'MBA', 'color': '#7a5af8', 'slug': 'mba', 'blurb': 'CAT, CMAT, MAT and XAT preparation, choosing a B-school and specialisation, and thinking clearly about whether an MBA is worth it for you.'},
+    {'name': 'AI', 'color': '#0ea5e9', 'slug': 'ai', 'blurb': 'Practical, hype-free guides to using AI tools for study and work in India — what they do well, where they fail, and how to use them safely.'},
+    {'name': 'Stock Market', 'color': '#2457f5', 'slug': 'stock-market', 'blurb': 'How the Indian stock market works, explained from first principles: exchanges, IPOs, ratios, corporate actions and the mistakes beginners make.'},
+    {'name': 'Mutual Funds', 'color': '#12b76a', 'slug': 'mutual-funds', 'blurb': 'Mutual funds without jargon: fund categories, SIPs, costs, factsheets and taxation, with worked rupee examples.'},
+    {'name': 'Trading', 'color': '#f79009', 'slug': 'trading', 'blurb': 'Trading styles, futures and options, margin and risk management — explained honestly, including why most individual F&O traders lose money.'},
 ]
 BLOG_CAT = {c['name']: c for c in BLOG_CATS}
 POSTS = [p for p in load_items('blog') if p.get('category') in BLOG_CAT]
@@ -1081,7 +1085,7 @@ def post_words(p): return len(' '.join([p['excerpt']] + [' '.join(s_.get('paragr
 def read_min(p): return max(3, round(post_words(p) / 220))
 def post_card(p):
     c = BLOG_CAT[p['category']]
-    return f'''<article class="card post-card"><a class="badge" href="{blog_cat_url(c)}">{e(c['name'])}</a>
+    return f'''<article class="card post-card" style="--c:{c['color']}"><a class="badge" href="{blog_cat_url(c)}">{e(c['name'])}</a>
       <h3><a href="{post_url(p)}">{e(p['h1'])}</a></h3><p class="muted small">{e(p['excerpt'])}</p><span class="small muted">{read_min(p)} min read</span></article>'''
 
 def blog_table(t):
@@ -1122,7 +1126,7 @@ def post_page(p):
 def blog_cat_page(c):
     posts = [p for p in POSTS if p['category'] == c['name']]
     crumbs = [('Home', '/'), ('Blog', '/blog/'), (c['name'], blog_cat_url(c))]
-    chips = ''.join(f'<a class="chip {"active" if o is c else ""}" href="{blog_cat_url(o)}">{e(o["name"])}</a>' for o in BLOG_CATS if any(p['category'] == o['name'] for p in POSTS))
+    chips = ''.join(f'<a class="chip {"active" if o is c else ""}" style="--c:{o["color"]}" href="{blog_cat_url(o)}">{e(o["name"])}</a>' for o in BLOG_CATS if any(p['category'] == o['name'] for p in POSTS))
     body = hero(crumbs, f"{c['name']} articles", c['blurb']) + f'''
     <div class="wrap page"><nav class="chips" aria-label="Blog categories"><a class="chip" href="/blog/">All</a>{chips}</nav>
       <div class="post-grid">{''.join(post_card(p) for p in posts)}</div></div>'''
@@ -1133,7 +1137,7 @@ def blog_cat_page(c):
 
 def blog_hub():
     crumbs = [('Home', '/'), ('Blog', '/blog/')]
-    chips = ''.join(f'<a class="chip" href="{blog_cat_url(c)}">{e(c["name"])}</a>' for c in BLOG_CATS if any(p['category'] == c['name'] for p in POSTS))
+    chips = ''.join(f'<a class="chip" style="--c:{c["color"]}" href="{blog_cat_url(c)}">{e(c["name"])}</a>' for c in BLOG_CATS if any(p['category'] == c['name'] for p in POSTS))
     sections = ''.join(f'<section style="margin-top:32px"><div class="row" style="margin-bottom:12px"><h2 style="margin:0">{e(c["name"])}</h2><span class="spacer"></span><a class="small" href="{blog_cat_url(c)}">All {e(c["name"])} articles &rarr;</a></div><div class="post-grid">' + ''.join(post_card(p) for p in [p for p in POSTS if p['category'] == c['name']][:3]) + '</div></section>' for c in BLOG_CATS if any(p['category'] == c['name'] for p in POSTS))
     body = hero(crumbs, f"{SITE['name']} blog", 'Clear, practical articles on MBA entrance, AI at work, the stock market, mutual funds and trading — written for Indian students and early-career professionals.') + f'''
     <div class="wrap page"><nav class="chips" aria-label="Blog categories"><a class="chip active" href="/blog/">All</a>{chips}</nav>{sections}</div>'''
