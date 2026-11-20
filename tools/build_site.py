@@ -95,7 +95,7 @@ def reviewers_for(x):
     return [r for r in SITE.get('reviewers', []) if r.get('name') and ('*' in r.get('exams', []) or x['id'] in r.get('exams', []))]
 
 # ---------- page shell ----------
-NAV = [('/exams/', 'All Exams')] + [(group_url(g), 'MBA' if g['id'] == 'MBA' else g['label']) for g in GROUPS if g['id'] != 'Insurance & Finance'] + [('/soft-skills/', 'Soft Skills'), ('/blog/', 'Blog'), ('/tools/', 'Free Tools'), ('/study-material/', 'Study Material')]
+NAV = [('/exams/', 'All Exams')] + [(group_url(g), 'MBA' if g['id'] == 'MBA' else g['label']) for g in GROUPS if g['id'] != 'Insurance & Finance'] + [('/soft-skills/', 'Soft Skills'), ('/blog/', 'Blogs'), ('/tools/', 'Free Tools'), ('/study-material/', 'Study Material')]
 
 def org_ld():
     o = {'@type': 'Organization', '@id': BASE + '/#org', 'name': SITE['name'], 'url': BASE + '/'}
@@ -170,7 +170,7 @@ def footer():
         <h4>Free resources</h4>
         <a href="/study-material/">Free study material</a>
         <a href="/guides/">Exam preparation guides</a>
-        <a href="/blog/">Blog</a>
+        <a href="/blog/">Blogs</a>
         <a href="/glossary/">Finance glossary</a>
         <a href="/topics/">Bank &amp; SSC topics</a>
         <a href="/interview-questions/">Interview questions</a>
@@ -1093,7 +1093,7 @@ def blog_table(t):
 
 def post_page(p):
     c = BLOG_CAT[p['category']]
-    crumbs = [('Home', '/'), ('Blog', '/blog/'), (c['name'], blog_cat_url(c)), (p['h1'], post_url(p))]
+    crumbs = [('Home', '/'), ('Blogs', '/blog/'), (c['name'], blog_cat_url(c)), (p['h1'], post_url(p))]
     secs = ''.join(f'''<section><h2>{e(s_['heading'])}</h2>{''.join(f'<p>{e(x)}</p>' for x in s_['paragraphs'])}{('<ul>' + ''.join(f'<li>{e(b)}</li>' for b in s_['bullets']) + '</ul>') if s_.get('bullets') else ''}{blog_table(s_['table']) if s_.get('table') else ''}</section>''' for s_ in p['sections'])
     r = p.get('related', {})
     links = []
@@ -1125,7 +1125,7 @@ def post_page(p):
 
 def blog_cat_page(c):
     posts = [p for p in POSTS if p['category'] == c['name']]
-    crumbs = [('Home', '/'), ('Blog', '/blog/'), (c['name'], blog_cat_url(c))]
+    crumbs = [('Home', '/'), ('Blogs', '/blog/'), (c['name'], blog_cat_url(c))]
     chips = ''.join(f'<a class="chip {"active" if o is c else ""}" style="--c:{o["color"]}" href="{blog_cat_url(o)}">{e(o["name"])}</a>' for o in BLOG_CATS if any(p['category'] == o['name'] for p in POSTS))
     body = hero(crumbs, f"{c['name']} articles", c['blurb']) + f'''
     <div class="wrap page"><nav class="chips" aria-label="Blog categories"><a class="chip" href="/blog/">All</a>{chips}</nav>
@@ -1136,14 +1136,14 @@ def blog_cat_page(c):
     return page(blog_cat_url(c), seo_title(f"{c['name']} Articles and Guides"), desc[:155].rsplit(' ', 1)[0] + '.', body, ld, active='/blog/')
 
 def blog_hub():
-    crumbs = [('Home', '/'), ('Blog', '/blog/')]
+    crumbs = [('Home', '/'), ('Blogs', '/blog/')]
     chips = ''.join(f'<a class="chip" style="--c:{c["color"]}" href="{blog_cat_url(c)}">{e(c["name"])}</a>' for c in BLOG_CATS if any(p['category'] == c['name'] for p in POSTS))
     sections = ''.join(f'<section style="margin-top:32px"><div class="row" style="margin-bottom:12px"><h2 style="margin:0">{e(c["name"])}</h2><span class="spacer"></span><a class="small" href="{blog_cat_url(c)}">All {e(c["name"])} articles &rarr;</a></div><div class="post-grid">' + ''.join(post_card(p) for p in [p for p in POSTS if p['category'] == c['name']][:3]) + '</div></section>' for c in BLOG_CATS if any(p['category'] == c['name'] for p in POSTS))
-    body = hero(crumbs, f"{SITE['name']} blog", 'Clear, practical articles on MBA entrance, AI at work, the stock market, mutual funds and trading — written for Indian students and early-career professionals.') + f'''
+    body = hero(crumbs, f"{SITE['name']} blogs", 'Clear, practical articles on MBA entrance, AI at work, the stock market, mutual funds and trading — written for Indian students and early-career professionals.') + f'''
     <div class="wrap page"><nav class="chips" aria-label="Blog categories"><a class="chip active" href="/blog/">All</a>{chips}</nav>{sections}</div>'''
-    ld = [breadcrumb_ld(crumbs), {'@type': 'Blog', '@id': BASE + '/blog/', 'name': f"{SITE['name']} blog", 'url': BASE + '/blog/', 'publisher': {'@id': BASE + '/#org'}, 'inLanguage': 'en-IN',
+    ld = [breadcrumb_ld(crumbs), {'@type': 'Blog', '@id': BASE + '/blog/', 'name': f"{SITE['name']} blogs", 'url': BASE + '/blog/', 'publisher': {'@id': BASE + '/#org'}, 'inLanguage': 'en-IN',
           'blogPost': [{'@type': 'BlogPosting', 'headline': p['h1'], 'url': BASE + post_url(p)} for p in POSTS]}]
-    return page('/blog/', seo_title('Blog: MBA, AI, Stock Market, Mutual Funds, Trading'), 'Free articles on MBA entrance, AI at work, the Indian stock market, mutual funds and trading — practical, jargon-free and written for India.', body, ld, active='/blog/')
+    return page('/blog/', seo_title('Blogs: MBA, AI, Stock Market, Mutual Funds, Trading'), 'Free articles on MBA entrance, AI at work, the Indian stock market, mutual funds and trading — practical, jargon-free and written for India.', body, ld, active='/blog/')
 
 def tools_hub():
     crumbs = [('Home', '/'), ('Free tools', '/tools/')]

@@ -314,7 +314,7 @@
         ${window.GROUPS.filter((g) => g.id !== 'Insurance & Finance').map((g) => `<a class="nav-cat" href="#/exams?g=${encodeURIComponent(g.id)}">${esc(g.id === 'MBA' ? 'MBA' : g.label)}</a>`).join('')}
         ${link('#/skills', 'Soft Skills', 'skills', 'nav-skills')}
         ${link('#/study-material', 'Study Material', 'study-material', 'nav-study')}
-        <a href="/blog/" class="nav-study">Blog</a>
+        <a href="/blog/" class="nav-study">Blogs</a>
       </div>
       <form class="nav-search" id="nav-search" role="search">
         ${icon('search', 16)}<input type="search" placeholder="Search exams, e.g. NISM V-A, IBPS PO…" aria-label="Search exams"><kbd>⌘K</kbd>
