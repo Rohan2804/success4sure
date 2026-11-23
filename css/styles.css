@@ -985,3 +985,56 @@ html, body { background: var(--page-base); }
 .live-filter .chip { cursor: pointer; font: inherit; font-size: .88rem; background: var(--surface); }
 @media (max-width: 400px) { .live-grid { grid-template-columns: 1fr; } }
 .live-filter .chip.active { background: var(--grad-brand); color: #fff; border-color: transparent; }
+
+/* =====================================================================
+   Hero layout options A–D (data-hero on .hero). Overrides the earlier
+   three-column hero. Phones always stack: headline, then the lists.
+   ===================================================================== */
+.hero .hero-grid { max-width: 1200px; margin: 0 auto; padding: 32px 16px 8px; display: grid; gap: 28px; grid-template-columns: minmax(0, 1fr); grid-template-areas: "c" "l"; }
+.hero .hero-grid > .hero-center { grid-area: c; padding-top: 0; }
+.hero-live { grid-area: l; display: grid; gap: 16px; align-content: start; }
+.hero-live .live-panel { grid-area: auto; margin-top: 0 !important; }
+.hero .hero-grid .hero-center h1 { font-size: clamp(2.3rem, 5vw, 3.6rem); }
+.hero-center .hero-kicker { margin-bottom: 14px; }
+
+/* A · Split: headline left, both lists stacked right */
+@media (min-width: 1000px) {
+  .hero[data-hero="a"] .hero-grid, .hero[data-hero="d"] .hero-grid { grid-template-columns: 1.15fr 1fr; grid-template-areas: "c l"; align-items: center; gap: 48px; padding-top: 48px; }
+  .hero[data-hero="a"] .hero-center, .hero[data-hero="d"] .hero-center { text-align: left; }
+  .hero[data-hero="a"] .hero-center h1, .hero[data-hero="d"] .hero-center h1 { margin-left: 0; }
+  .hero[data-hero="a"] .lead, .hero[data-hero="d"] .lead { margin-left: 0; }
+  .hero[data-hero="a"] .hero-center .row, .hero[data-hero="d"] .hero-center .row, .hero[data-hero="a"] .trust, .hero[data-hero="d"] .trust { justify-content: flex-start; }
+}
+.hero[data-hero="a"] .lp-head .small, .hero[data-hero="c"] .lp-head .small { display: none; }
+
+/* B · Centred headline, two lists side by side underneath */
+@media (min-width: 760px) {
+  .hero[data-hero="b"] .hero-live { grid-template-columns: 1fr 1fr; max-width: 1080px; width: 100%; margin: 0 auto; }
+  .hero[data-hero="b"] .hero-center { max-width: 860px; margin: 0 auto; }
+}
+
+/* C · Centred headline, two horizontal scrolling strips */
+.hero[data-hero="c"] .hero-live .live-panel { padding-bottom: 14px; }
+.hero[data-hero="c"] .lp-list { display: flex; gap: 12px; overflow-x: auto; margin: 8px 0 4px; padding: 2px 2px 8px; scroll-snap-type: x mandatory; scrollbar-width: thin; }
+.hero[data-hero="c"] .lp-list li { flex: 0 0 250px; scroll-snap-align: start; border: 1px solid var(--border) !important; border-radius: 14px; }
+.hero[data-hero="c"] .lp-list li + li { border-top: 1px solid var(--border); }
+.hero[data-hero="c"] .lp-list a { height: 100%; padding: 12px; }
+.hero[data-hero="c"] .lp-head { margin-bottom: 0; }
+.hero[data-hero="c"] .lp-more { margin-top: 0; }
+@media (min-width: 760px) { .hero[data-hero="c"] .hero-center { max-width: 860px; margin: 0 auto; } }
+
+/* D · Headline left, one tabbed card right */
+.lp-tabs { display: none; }
+.hero[data-hero="d"] .hero-live { gap: 0; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); box-shadow: 0 18px 40px -24px rgba(36, 87, 245, .35); overflow: hidden; }
+.hero[data-hero="d"] .lp-tabs { display: grid; grid-template-columns: 1fr 1fr; padding: 6px; gap: 6px; background: var(--band, var(--surface-2)); }
+.lp-tab { display: inline-flex; gap: 8px; align-items: center; justify-content: center; padding: 10px; border: 0; border-radius: 12px; background: transparent; font: 600 .9rem var(--font-body); color: var(--muted); cursor: pointer; transition: background .15s, color .15s; }
+.lp-tab.active { background: var(--surface); color: var(--heading); box-shadow: 0 4px 12px -6px rgba(51, 54, 74, .3); }
+.hero[data-hero="d"] .hero-live .live-panel { border: 0; border-radius: 0; box-shadow: none; }
+.hero[data-hero="d"] .hero-live .live-panel::before { display: none; }
+.hero[data-hero="d"] .hero-live:not([data-show="nfo"]) .lp-nfo, .hero[data-hero="d"] .hero-live[data-show="nfo"] .lp-govt { display: none; }
+
+/* Preview-only switcher (rendered on localhost) */
+.hero-switch { position: fixed; left: 16px; bottom: 16px; z-index: 50; display: flex; gap: 6px; align-items: center; padding: 8px 10px; background: #12142a; color: #fff; border-radius: 999px; font-size: .8rem; box-shadow: 0 10px 30px -10px rgba(0,0,0,.5); }
+.hero-switch b { color: #fff; margin-right: 4px; }
+.hero-switch button { width: 30px; height: 30px; border-radius: 50%; border: 1px solid rgba(255,255,255,.3); background: transparent; color: #fff; font-weight: 700; cursor: pointer; }
+.hero-switch button.active { background: #fff; color: #12142a; }

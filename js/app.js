@@ -445,7 +445,7 @@
 
   // ---------- home ----------
   // Homepage side panels: open government exams (left) and open NFOs (right), from js/data/live.js.
-  function livePanel(kind) {
+  function livePanel(kind, limit = 5) {
     const L = (window.LIVE || {})[kind] || { items: [] };
     const today = new Date(); today.setHours(0, 0, 0, 0);
     const dt = (v) => (v ? new Date(v + 'T00:00:00') : null);
@@ -468,11 +468,14 @@
         <span class="lp-date">${it.status === 'Application open' && it.apply_end ? `Apply by ${short(it.apply_end)} · <em>${left(it.apply_end)}</em>` : it.exam_date ? `Exam ${short(it.exam_date)}` : esc(it.status)}</span></a></li>`;
     }
     return `<div class="lp-head"><span class="lp-ico">${icon(ic, 18)}</span><div><b>${title}</b><span class="small muted">${sub}</span></div><span class="lp-live" title="Updated ${esc(L.updated || '')}">Live</span></div>
-      ${items.length ? `<ul class="lp-list">${items.slice(0, 5).map(row).join('')}</ul>` : `<p class="small muted" style="margin:12px 0">Nothing open right now — check the full list.</p>`}
+      ${items.length ? `<ul class="lp-list">${items.slice(0, limit).map(row).join('')}</ul>` : `<p class="small muted" style="margin:12px 0">Nothing open right now — check the full list.</p>`}
       <a class="lp-more" href="${href}">Show all${items.length ? ` ${items.length}` : ''} ${arrow(14)}</a>`;
   }
 
   function viewHome() {
+    const pick = (new URLSearchParams(location.search).get('hero') || (() => { try { return localStorage.getItem('s4s_hero'); } catch (e) { return null; } })() || 'b').toLowerCase();
+    const HERO = ['a', 'b', 'c', 'd'].includes(pick) ? pick : 'b';
+    const HERO_LIMIT = { a: 3, b: 4, c: 8, d: 5 }[HERO];
     const N = EXAMS.length;
     const totalQ = totalQuestions();
     const faqs = [
@@ -485,12 +488,15 @@
       ['Do I need to sign up?', 'Yes, a free account is needed for full mock tests and course lessons. You can try the 3-question demo, the question of the day, free practice questions, notes, the glossary and the blog without signing up.'],
     ];
     app.innerHTML = `
-      <section class="hero">
+      <section class="hero" data-hero="${HERO}">
         <div class="ticker" aria-label="Exams"><div class="ticker-track">${EXAMS.map((e) => `<a href="#/exam/${e.id}"><b>${esc(examCode(e).replace('NISM Series ', 'NISM '))}</b>${esc(e.name.length > 28 ? e.name.slice(0, 26) + '…' : e.name)}<span class="up">▲ ${e.pattern.passPct}% to pass</span></a>`).join('')}${EXAMS.map((e) => `<a href="#/exam/${e.id}"><b>${esc(examCode(e).replace('NISM Series ', 'NISM '))}</b>${esc(e.name.length > 28 ? e.name.slice(0, 26) + '…' : e.name)}<span class="up">▲ ${e.pattern.passPct}% to pass</span></a>`).join('')}</div></div>
         <div class="hero-blobs" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
         <div class="hero-grid">
-        <aside class="live-panel lp-govt hero-anim" style="--d:.1s" aria-label="Government exams open now">${livePanel('govt')}</aside>
-        <aside class="live-panel lp-nfo hero-anim" style="--d:.2s" aria-label="New fund offers open now">${livePanel('nfo')}</aside>
+        <div class="hero-live">
+          ${HERO === 'd' ? `<div class="lp-tabs" role="tablist"><button class="lp-tab active" data-k="govt" role="tab">${icon('bank', 16)} Govt exams &amp; jobs</button><button class="lp-tab" data-k="nfo" role="tab">${icon('pie', 16)} New Fund Offers</button></div>` : ''}
+          <aside class="live-panel lp-govt hero-anim" style="--d:.1s" aria-label="Government exams open now">${livePanel('govt', HERO_LIMIT)}</aside>
+          <aside class="live-panel lp-nfo hero-anim" style="--d:.2s" aria-label="New fund offers open now">${livePanel('nfo', HERO_LIMIT)}</aside>
+        </div>
         <div class="wrap hero-center hero-anim">
           <span class="hero-kicker">${icon('sparkle', 14)} 100% free · ${N} exams · mock tests &amp; courses</span>
           <h1>Pass your exam with <span class="grad-word">confidence</span></h1>
@@ -655,6 +661,18 @@
       </section>`;
 
     heroQuiz($('#hero-quiz'));
+    $$('.lp-tab').forEach((b) => b.addEventListener('click', () => {
+      $$('.lp-tab').forEach((x) => x.classList.toggle('active', x === b));
+      $('.hero-live').dataset.show = b.dataset.k;
+    }));
+    // Layout preview switcher (localhost only) — lets you compare hero options before one is chosen.
+    if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) {
+      const sw = document.createElement('div');
+      sw.className = 'hero-switch';
+      sw.innerHTML = '<b>Hero layout</b>' + ['a', 'b', 'c', 'd'].map((k) => `<button class="${k === HERO ? 'active' : ''}" data-k="${k}">${k.toUpperCase()}</button>`).join('');
+      $('.hero').appendChild(sw);
+      $$('button', sw).forEach((b) => b.addEventListener('click', () => { try { localStorage.setItem('s4s_hero', b.dataset.k); } catch (e) { /* ignore */ } route(); }));
+    }
     renderQotd($('#qotd-home'), qotdState().exam, true);
 
     let cat = 'All';
