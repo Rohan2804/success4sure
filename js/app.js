@@ -605,7 +605,7 @@
         </div>
       </section>
 
-      <section class="section band-full band-brand">
+      <section class="section">
         <div class="wrap">
           <div class="section-head reveal">
             <h2>100% free. No plans, no payment.</h2>
