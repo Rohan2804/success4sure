@@ -473,9 +473,8 @@
   }
 
   function viewHome() {
-    const pick = (new URLSearchParams(location.search).get('hero') || (() => { try { return localStorage.getItem('s4s_hero'); } catch (e) { return null; } })() || 'b').toLowerCase();
-    const HERO = ['a', 'b', 'c', 'd'].includes(pick) ? pick : 'b';
-    const HERO_LIMIT = { a: 3, b: 4, c: 8, d: 5 }[HERO];
+    const HERO = 'd'; // headline left, tabbed card (govt exams / NFOs) right
+    const HERO_LIMIT = 5;
     const N = EXAMS.length;
     const totalQ = totalQuestions();
     const faqs = [
@@ -513,12 +512,6 @@
         </div>
 
         </div>
-        <div class="wrap">
-          <div class="quiz-wrap hero-anim" style="--d:.15s">
-            <div class="quiz-label">Try a sample question</div>
-            <div class="quiz-card" id="hero-quiz"></div>
-          </div>
-        </div>
       </section>
 
       <section class="wrap promo-banner reveal" aria-label="Sponsored">
@@ -541,19 +534,19 @@
         </div>
       </section>
 
-      <section class="section wrap qotd-home" id="qotd-home" style="padding-bottom:0"></section>
+      <section class="section wrap qotd-home band band-blue" id="qotd-home"></section>
 
-      <section class="section wrap">
+      <section class="section wrap band band-white">
         <div class="section-head reveal">
           <h2>Find your exam</h2>
           <p>NISM certifications, bank and SSC recruitment, MBA entrance and insurance &amp; banking certifications — every mock test free.</p>
         </div>
         <div class="cat-tabs reveal" id="home-cats">${groupTabs('All', false)}</div>
-        <div class="grid" id="home-grid"></div>
+        <div class="grid grid-4" id="home-grid"></div>
         <div class="center reveal" style="margin-top:32px"><a class="btn btn-lg" href="#/exams">View all ${N} exams ${arrow()}</a></div>
       </section>
 
-      ${(window.SKILL_AREAS || []).length ? `<section class="section wrap" style="padding-top:0">
+      ${(window.SKILL_AREAS || []).length ? `<section class="section wrap band band-violet">
         <div class="section-head reveal">
           <span class="badge" style="align-self:flex-start">New</span>
           <h2 style="margin-top:10px">Soft skills for your career</h2>
@@ -563,7 +556,7 @@
         <div class="center reveal" style="margin-top:24px"><a class="btn btn-lg" href="#/skills">See all ${window.SKILL_AREAS.length} soft-skills courses ${arrow()}</a></div>
       </section>` : ''}
 
-      <section class="section section-alt">
+      <section class="section band-full band-dark">
         <div class="wrap">
           <div class="section-head reveal">
             <h2>Everything you need to pass on the first attempt</h2>
@@ -601,8 +594,8 @@
         </div>
       </section>
 
-      <section class="section wrap">
-        <div class="section-head reveal">
+      <section class="section wrap band band-warm">
+        <div class="section-head reveal center">
           <h2>Three steps to certification</h2>
         </div>
         <div class="steps">
@@ -612,11 +605,11 @@
         </div>
       </section>
 
-      <section class="section section-alt">
+      <section class="section band-full band-brand">
         <div class="wrap">
           <div class="section-head reveal">
             <h2>100% free. No plans, no payment.</h2>
-            <p>Every exam, every mock test and every course is free for everyone. Log in only if you want your progress saved.</p>
+            <p>Every exam, every mock test and every course is free for everyone — just create a free account in one click.</p>
           </div>
           <div class="grid free-grid">
             ${[['grid', 'Up to 30 mock tests per exam', 'Full-length, timed, in the real exam pattern'], ['book', 'Chapter-wise practice', 'Free questions with answers for every chapter'], ['bulb', 'Explanations & analytics', 'Know why each answer is right and where you are weak'], ['user', 'Free soft-skills courses', 'Bite-size lessons, quizzes and scenarios']]
@@ -626,7 +619,7 @@
         </div>
       </section>
 
-      <section class="section wrap">
+      <section class="section wrap band band-white">
         <div class="study-teaser reveal">
           <div>
             <span class="badge badge-success">Free</span>
@@ -640,7 +633,7 @@
         </div>
       </section>
 
-      <section class="section wrap" style="padding-top:0">
+      <section class="section wrap band band-blue">
         <div class="section-head reveal">
           <h2>Questions? We've got answers</h2>
         </div>
@@ -649,7 +642,7 @@
         </div>
       </section>
 
-      <section class="wrap" style="padding-bottom:40px">
+      <section class="section wrap">
         <div class="cta-band reveal">
           <h2>Ready to ace your exam?</h2>
           <p>Try a free 3-question demo, then sign up free for full mock tests.</p>
@@ -660,24 +653,17 @@
         </div>
       </section>`;
 
-    heroQuiz($('#hero-quiz'));
     $$('.lp-tab').forEach((b) => b.addEventListener('click', () => {
       $$('.lp-tab').forEach((x) => x.classList.toggle('active', x === b));
       $('.hero-live').dataset.show = b.dataset.k;
     }));
-    // Layout preview switcher (localhost only) — lets you compare hero options before one is chosen.
-    if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) {
-      const sw = document.createElement('div');
-      sw.className = 'hero-switch';
-      sw.innerHTML = '<b>Hero layout</b>' + ['a', 'b', 'c', 'd'].map((k) => `<button class="${k === HERO ? 'active' : ''}" data-k="${k}">${k.toUpperCase()}</button>`).join('');
-      $('.hero').appendChild(sw);
-      $$('button', sw).forEach((b) => b.addEventListener('click', () => { try { localStorage.setItem('s4s_hero', b.dataset.k); } catch (e) { /* ignore */ } route(); }));
-    }
     renderQotd($('#qotd-home'), qotdState().exam, true);
 
     let cat = 'All';
     const drawGrid = () => {
-      const list = (cat === 'All' ? EXAMS.filter((e) => e.popular) : EXAMS.filter((e) => e.group === cat)).slice(0, 6);
+      // 4 × 4: up to 16 exams — popular ones first, then the rest of the category
+      const pool = cat === 'All' ? EXAMS : EXAMS.filter((e) => e.group === cat);
+      const list = [...pool.filter((e) => e.popular), ...pool.filter((e) => !e.popular)].filter((e) => !e.noindex).slice(0, 16);
       $('#home-grid').innerHTML = list.map((e, i) => examCard(e, i)).join('');
       enhance();
     };
