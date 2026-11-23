@@ -938,3 +938,50 @@ html, body { background: var(--page-base); }
 .card, .exam-card, .quiz-card, .sample, .table-wrap { background-color: var(--surface); }
 .table-wrap { border-radius: 12px; }
 .footer { margin-top: 0; }
+
+/* =====================================================================
+   Live panels: government exams (left) and NFOs (right) beside the hero
+   ===================================================================== */
+.hero-grid { display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr); grid-template-areas: "c" "g" "n"; max-width: 1440px; margin: 0 auto; padding: 0 16px; }
+.hero-grid > .hero-center { grid-area: c; padding-left: 0; padding-right: 0; }
+.lp-govt { grid-area: g; } .lp-nfo { grid-area: n; }
+@media (min-width: 700px) { .hero-grid { grid-template-columns: 1fr 1fr; grid-template-areas: "c c" "g n"; } }
+@media (min-width: 1240px) {
+  .hero-grid { grid-template-columns: 300px minmax(0, 1fr) 300px; grid-template-areas: "g c n"; align-items: start; gap: 28px; }
+  .hero-grid .live-panel { margin-top: 48px; }
+  .hero-grid .hero-center h1 { font-size: clamp(2.6rem, 4.4vw, 3.8rem); }
+}
+.live-panel { --c: var(--c-green); position: relative; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 16px 16px 12px; box-shadow: 0 18px 40px -24px rgba(36, 87, 245, .35); text-align: left; overflow: hidden; }
+.live-panel::before { content: ''; position: absolute; inset: 0 0 auto; height: 4px; background: linear-gradient(90deg, var(--c), color-mix(in srgb, var(--c) 45%, #fff)); }
+.lp-nfo { --c: var(--c-violet); }
+.lp-head { display: flex; gap: 10px; align-items: center; margin-bottom: 6px; }
+.lp-head > div { flex: 1; display: flex; flex-direction: column; line-height: 1.3; }
+.lp-head b { font-family: var(--font-head); font-size: 1rem; }
+.lp-ico { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; color: #fff; background: linear-gradient(135deg, color-mix(in srgb, var(--c) 75%, #fff), var(--c)); flex: none; }
+.lp-live { display: inline-flex; align-items: center; gap: 5px; font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--success); }
+.lp-live::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--success); box-shadow: 0 0 0 0 rgba(18, 183, 106, .6); animation: livedot 1.8s infinite; }
+@keyframes livedot { 0% { box-shadow: 0 0 0 0 rgba(18, 183, 106, .55); } 70% { box-shadow: 0 0 0 7px rgba(18, 183, 106, 0); } 100% { box-shadow: 0 0 0 0 rgba(18, 183, 106, 0); } }
+.lp-list { list-style: none; margin: 4px -8px; padding: 0; }
+.lp-list li + li { border-top: 1px solid var(--border); }
+.lp-list a { display: flex; flex-direction: column; gap: 1px; padding: 9px 8px; border-radius: 10px; color: var(--text); transition: background .15s; }
+.lp-list a:hover { background: color-mix(in srgb, var(--c) 8%, var(--surface)); }
+.lp-list b { font-size: .88rem; line-height: 1.35; color: var(--heading); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.lp-list .small { font-size: .76rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lp-date { font-size: .76rem; font-weight: 600; color: var(--c); }
+.lp-date em { font-style: normal; color: var(--danger); }
+.lp-more { display: inline-flex; gap: 6px; align-items: center; margin-top: 6px; font-weight: 600; font-size: .88rem; color: var(--c); }
+@media (prefers-reduced-motion: reduce) { .lp-live::before { animation: none; } }
+
+/* Full NFO / govt exam pages */
+.live-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); margin-top: 16px; }
+.live-card { display: flex; flex-direction: column; gap: 4px; }
+.live-card[hidden] { display: none !important; }
+.live-card h3 { margin: 8px 0 0; font-size: 1.05rem; line-height: 1.35; }
+.live-card .row .badge { margin-right: 4px; }
+.live-dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; margin: 6px 0 0; font-size: .85rem; }
+.live-dl dt { color: var(--muted); }
+.live-dl dd { margin: 0; color: var(--heading); }
+.live-filter { margin-bottom: 4px; }
+.live-filter .chip { cursor: pointer; font: inherit; font-size: .88rem; background: var(--surface); }
+@media (max-width: 400px) { .live-grid { grid-template-columns: 1fr; } }
+.live-filter .chip.active { background: var(--grad-brand); color: #fff; border-color: transparent; }

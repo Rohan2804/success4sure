@@ -171,6 +171,8 @@ def footer():
         <a href="/study-material/">Free study material</a>
         <a href="/guides/">Exam preparation guides</a>
         <a href="/blog/">Blogs</a>
+        <a href="/nfo/">New Fund Offers (NFOs)</a>
+        <a href="/govt-exams/">Govt exams open now</a>
         <a href="/glossary/">Finance glossary</a>
         <a href="/topics/">Bank &amp; SSC topics</a>
         <a href="/interview-questions/">Interview questions</a>
@@ -1145,6 +1147,73 @@ def blog_hub():
           'blogPost': [{'@type': 'BlogPosting', 'headline': p['h1'], 'url': BASE + post_url(p)} for p in POSTS]}]
     return page('/blog/', seo_title('Blogs: MBA, AI, Stock Market, Mutual Funds, Trading'), 'Free articles on MBA entrance, AI at work, the Indian stock market, mutual funds and trading — practical, jargon-free and written for India.', body, ld, active='/blog/')
 
+# ---------- live listings: NFOs and government exams ----------
+def load_live(name):
+    p = os.path.join(ROOT, 'content', 'live', name)
+    return json.load(open(p, encoding='utf-8')) if os.path.exists(p) else {'updated': None, 'items': []}
+LIVE_NFO, LIVE_GOVT = load_live('nfo.json'), load_live('govt-exams.json')
+def fmt_d(v):
+    if not v: return 'Not announced'
+    return datetime.date.fromisoformat(v).strftime('%-d %b %Y')
+# Pages are rebuilt when the data changes; this small script also hides anything that has closed since the last build.
+LIVE_EXPIRE_JS = '''<script>(function(){var t=new Date();t.setHours(0,0,0,0);document.querySelectorAll('[data-ends]').forEach(function(el){var d=el.getAttribute('data-ends');if(d&&new Date(d+'T23:59:59')<t){el.hidden=true;}});
+document.querySelectorAll('[data-left]').forEach(function(el){var d=new Date(el.getAttribute('data-left')+'T00:00:00'),n=Math.round((d-t)/864e5);el.textContent=n<0?'Closed':n===0?'Last day today':n===1?'1 day left':n+' days left';});
+document.querySelectorAll('.live-filter button').forEach(function(b){b.addEventListener('click',function(){var v=b.getAttribute('data-f');b.parentNode.querySelectorAll('button').forEach(function(x){x.classList.toggle('active',x===b);});document.querySelectorAll('.live-card').forEach(function(c){c.style.display=(v==='All'||c.getAttribute('data-f')===v)?'':'none';});});});})();</script>'''
+
+def nfo_card(it):
+    rows = [('Subscription', f"{fmt_d(it.get('open_date'))} – {fmt_d(it.get('close_date'))}"), ('Type', it.get('type')), ('Minimum investment', it.get('min_investment')),
+            ('Benchmark', it.get('benchmark')), ('Exit load', it.get('exit_load')), ('Riskometer', it.get('riskometer')), ('Fund manager', it.get('fund_manager'))]
+    links = f'<a class="btn btn-sm" href="{e(it["source_url"])}" target="_blank" rel="noopener nofollow">AMC page</a>' + (f'<a class="btn btn-sm" href="{e(it["sid_url"])}" target="_blank" rel="noopener nofollow">Scheme document</a>' if it.get('sid_url') else '')
+    return f'''<article class="card live-card" data-ends="{e(it.get('close_date') or '')}" data-f="{e(it['category'].split(' –')[0].split(' (')[0])}">
+      <div class="row"><span class="badge">{e(it['category'])}</span><span class="spacer"></span>{f'<span class="badge badge-warn" data-left="{e(it["close_date"])}">Closes {fmt_d(it["close_date"])}</span>' if it.get('close_date') else ''}</div>
+      <h3>{e(it['scheme'])}</h3><div class="small muted">{e(it['amc'])}</div>
+      <p class="small" style="margin:10px 0">{e(it['objective'])}</p>
+      <dl class="live-dl">{''.join(f'<dt>{k}</dt><dd>{e(v)}</dd>' for k, v in rows if v)}</dl>
+      <div class="row" style="margin-top:12px">{links}</div></article>'''
+
+def govt_card(it):
+    rel = EXAM_BY_ID.get(it.get('related_exam') or '')
+    rows = [('Applications', f"{fmt_d(it.get('apply_start'))} – {fmt_d(it.get('apply_end'))}" if (it.get('apply_start') or it.get('apply_end')) else None), ('Exam date', fmt_d(it['exam_date']) if it.get('exam_date') else None),
+            ('Vacancies', it.get('posts')), ('Eligibility', it.get('eligibility')), ('Age limit', it.get('age_limit'))]
+    status_cls = {'Application open': 'badge-success', 'Upcoming': '', 'Notification expected': 'badge-warn'}.get(it['status'], '')
+    ends = it.get('apply_end') if it['status'] == 'Application open' else (it.get('exam_date') if it['status'] == 'Upcoming' else '')
+    links = f'<a class="btn btn-sm" href="{e(it["official_url"])}" target="_blank" rel="noopener nofollow">Official website</a>' + (f'<a class="btn btn-sm" href="{e(it["notification_url"])}" target="_blank" rel="noopener nofollow">Notification</a>' if it.get('notification_url') else '') \
+        + (f'<a class="btn btn-sm btn-primary" href="{exam_url(rel)}">Free {e(code(rel))} mock tests</a>' if rel and not rel.get('noindex') else '')
+    return f'''<article class="card live-card" data-ends="{e(ends or '')}" data-f="{e(it['sector'])}">
+      <div class="row"><span class="badge {status_cls}">{e(it['status'])}</span><span class="badge">{e(it['sector'])}</span><span class="spacer"></span>{f'<span class="badge badge-warn" data-left="{e(it["apply_end"])}">Apply by {fmt_d(it["apply_end"])}</span>' if it['status'] == 'Application open' and it.get('apply_end') else ''}</div>
+      <h3>{e(it['title'])}</h3><div class="small muted">{e(it['org'])}</div>
+      <dl class="live-dl">{''.join(f'<dt>{k}</dt><dd>{e(v)}</dd>' for k, v in rows if v)}</dl>
+      <div class="row" style="margin-top:12px">{links}</div></article>'''
+
+def live_filter(values):
+    return '<div class="live-filter chips">' + ''.join(f'<button class="chip {"active" if v == "All" else ""}" data-f="{e(v)}">{e(v)}</button>' for v in ['All'] + values) + '</div>'
+
+def nfo_page():
+    items = sorted(LIVE_NFO['items'], key=lambda it: it.get('close_date') or '9999')
+    month = datetime.date.fromisoformat(LIVE_NFO['updated']).strftime('%B %Y') if LIVE_NFO.get('updated') else ''
+    crumbs = [('Home', '/'), ('New Fund Offers', '/nfo/')]
+    cats = sorted({it['category'].split(' –')[0].split(' (')[0] for it in items})
+    body = hero(crumbs, f"New Fund Offers (NFOs) open now{' – ' + month if month else ''}", f"Mutual fund NFOs currently open or opening soon across Indian AMCs, with subscription dates, minimum investment, benchmark, exit load and riskometer. Information last checked {fmt_d(LIVE_NFO.get('updated'))} from AMC and AMFI sources.") + f'''
+    <div class="wrap page">{live_filter(cats)}<div class="live-grid">{''.join(nfo_card(it) for it in items) or '<p class="muted">No NFOs are open right now. Check back soon.</p>'}</div>
+      <div class="notice" style="margin-top:24px">{('<span>')}This list is for information only and is not a recommendation to invest. A new fund has no track record; read the Scheme Information Document (SID) and Key Information Memorandum (KIM) on the AMC's website before investing, and confirm dates there. Mutual fund investments are subject to market risks; read all scheme-related documents carefully.</span></div>
+      <section class="prose" style="margin-top:32px"><h2>What is an NFO?</h2><p>A New Fund Offer is the first subscription period of a new mutual fund scheme, when units are usually offered at ₹10 each. Open-ended schemes reopen for continuous purchase shortly after the NFO closes; close-ended schemes can only be bought during the NFO (and later on the stock exchange, if listed). A ₹10 NFO price does not make a fund "cheap" — what matters is the strategy, costs and how it fits your goals. Learn more: <a href="/glossary/">finance glossary</a> · <a href="/blog/mutual-funds/">mutual fund articles</a>.</p></section>
+    </div>{LIVE_EXPIRE_JS}'''
+    ld = [breadcrumb_ld(crumbs), {'@type': 'ItemList', 'name': 'Open New Fund Offers', 'itemListElement': [{'@type': 'ListItem', 'position': k + 1, 'name': f"{it['scheme']} ({it['amc']})", 'url': it['source_url']} for k, it in enumerate(items)]}]
+    return page('/nfo/', seo_title(f"NFO List: New Fund Offers Open Now{' – ' + month if month else ''}"), f"Mutual fund NFOs open now in India{' (' + month + ')' if month else ''}: scheme, AMC, subscription dates, minimum investment, benchmark, exit load and riskometer, with official links.", body, ld, active='/nfo/')
+
+def govt_page():
+    items = sorted(LIVE_GOVT['items'], key=lambda it: ({'Application open': 0, 'Upcoming': 1, 'Notification expected': 2}[it['status']], it.get('apply_end') or it.get('exam_date') or '9999'))
+    month = datetime.date.fromisoformat(LIVE_GOVT['updated']).strftime('%B %Y') if LIVE_GOVT.get('updated') else ''
+    crumbs = [('Home', '/'), ('Government exams', '/govt-exams/')]
+    secs = [s for s in ['Banking', 'SSC', 'UPSC', 'Railways', 'Insurance', 'PSU', 'Defence', 'Teaching', 'State PSC', 'Other'] if any(it['sector'] == s for it in items)]
+    body = hero(crumbs, f"Government exams and jobs open now{' – ' + month if month else ''}", f"Current and upcoming recruitments from central government, banks, regulators, insurance companies and PSUs — with application dates, vacancies, eligibility and official links. Last checked {fmt_d(LIVE_GOVT.get('updated'))}.") + f'''
+    <div class="wrap page">{live_filter(secs)}<div class="live-grid">{''.join(govt_card(it) for it in items) or '<p class="muted">No openings listed right now. Check back soon.</p>'}</div>
+      <div class="notice" style="margin-top:24px"><span>Dates, vacancies and eligibility are taken from official notifications but can change through corrigenda. Always confirm on the official website before applying. {e(SITE['name'])} is not affiliated with any recruiting body.</span></div>
+      <section class="prose" style="margin-top:32px"><h2>Prepare for free</h2><p>Practise with free full-length mock tests for <a href="/exams/banking/">bank exams</a>, <a href="/exams/ssc/">SSC exams</a> and <a href="/exams/insurance-finance/">insurance exams</a>, revise with <a href="/topics/">topic guides</a> and get ready for the interview round with <a href="/interview-questions/">interview questions and sample answers</a>.</p></section>
+    </div>{LIVE_EXPIRE_JS}'''
+    ld = [breadcrumb_ld(crumbs), {'@type': 'ItemList', 'name': 'Government exams and jobs open now', 'itemListElement': [{'@type': 'ListItem', 'position': k + 1, 'name': it['title'], 'url': it['official_url']} for k, it in enumerate(items)]}]
+    return page('/govt-exams/', seo_title(f"Govt Exams and Jobs Open Now{' – ' + month if month else ''}"), f"Government, bank, SSC, insurance and PSU recruitments open now{' (' + month + ')' if month else ''}: application dates, vacancies, eligibility and official links.", body, ld, active='/govt-exams/')
+
 def tools_hub():
     crumbs = [('Home', '/'), ('Free tools', '/tools/')]
     cards = ''.join(f'<div class="card"><h2 style="font-size:1.15rem;margin-top:0"><a href="{tool_url(t)}">{e(t["name"])}</a></h2><p class="muted">{e(t["lead"])}</p></div>' for t in TOOLS)
@@ -1231,6 +1300,10 @@ def main():
         for c in BLOG_CATS:
             if any(p['category'] == c['name'] for p in POSTS): wr(blog_cat_url(c).strip('/') + '/index.html', blog_cat_page(c)); pages.append((blog_cat_url(c), True))
         for p in POSTS: wr(post_url(p).strip('/') + '/index.html', post_page(p)); pages.append((post_url(p), True))
+    wr('nfo/index.html', nfo_page()); pages.append(('/nfo/', True))
+    wr('govt-exams/index.html', govt_page()); pages.append(('/govt-exams/', True))
+    wr('js/data/live.js', '// Generated by tools/build_site.py from content/live/*.json — NFOs and government exams for the homepage.\n'
+       + f"window.LIVE = {json.dumps({'nfo': LIVE_NFO, 'govt': LIVE_GOVT}, ensure_ascii=False)};\n")
     wr('tools/index.html', tools_hub()); pages.append(('/tools/', True))
     for t in TOOLS:
         wr(tool_url(t).strip('/') + '/index.html', tool_page(t)); pages.append((tool_url(t), True))

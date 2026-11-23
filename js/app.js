@@ -444,6 +444,34 @@
   }
 
   // ---------- home ----------
+  // Homepage side panels: open government exams (left) and open NFOs (right), from js/data/live.js.
+  function livePanel(kind) {
+    const L = (window.LIVE || {})[kind] || { items: [] };
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    const dt = (v) => (v ? new Date(v + 'T00:00:00') : null);
+    const short = (v) => dt(v).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+    const left = (v) => { const n = Math.round((dt(v) - today) / DAY); return n <= 0 ? 'Last day' : n === 1 ? '1 day left' : `${n} days left`; };
+    let items, title, sub, href, ic, row;
+    if (kind === 'nfo') {
+      items = L.items.filter((it) => !it.close_date || dt(it.close_date) >= today).sort((a, b) => (a.close_date || '9').localeCompare(b.close_date || '9'));
+      title = 'New Fund Offers'; sub = 'Mutual fund NFOs open now'; href = '/nfo/'; ic = 'pie';
+      row = (it) => `<li><a href="/nfo/"><b>${esc(it.scheme)}</b><span class="small muted">${esc(it.amc)} · ${esc(it.category)}</span>
+        <span class="lp-date">${dt(it.open_date) > today ? `Opens ${short(it.open_date)}` : `Closes ${short(it.close_date)}`}${it.close_date && dt(it.open_date) <= today ? ` · <em>${left(it.close_date)}</em>` : ''}</span></a></li>`;
+    } else {
+      const rank = { 'Application open': 0, 'Upcoming': 1, 'Notification expected': 2 };
+      items = L.items.filter((it) => it.status !== 'Application open' || !it.apply_end || dt(it.apply_end) >= today)
+        .sort((a, b) => rank[a.status] - rank[b.status] || (a.apply_end || a.exam_date || '9').localeCompare(b.apply_end || b.exam_date || '9'));
+      title = 'Govt exams & jobs'; sub = 'Openings across government, banks and PSUs'; href = '/govt-exams/'; ic = 'bank';
+      // Drop trailing advert codes like "(CRPD/SCO/2026-27/28)" in the compact panel; the full page keeps them.
+      const shortTitle = (t) => t.replace(/\s*\((?:CEN|Advt|CRPD|No\.)[^)]*\)\s*$/i, '').replace(/\s*\([^)]*\/[^)]*\)\s*$/, '');
+      row = (it) => `<li><a href="/govt-exams/"><b>${esc(shortTitle(it.title))}</b><span class="small muted">${esc(it.org)}${it.posts ? ' · ' + esc(it.posts) + ' posts' : ''}</span>
+        <span class="lp-date">${it.status === 'Application open' && it.apply_end ? `Apply by ${short(it.apply_end)} · <em>${left(it.apply_end)}</em>` : it.exam_date ? `Exam ${short(it.exam_date)}` : esc(it.status)}</span></a></li>`;
+    }
+    return `<div class="lp-head"><span class="lp-ico">${icon(ic, 18)}</span><div><b>${title}</b><span class="small muted">${sub}</span></div><span class="lp-live" title="Updated ${esc(L.updated || '')}">Live</span></div>
+      ${items.length ? `<ul class="lp-list">${items.slice(0, 5).map(row).join('')}</ul>` : `<p class="small muted" style="margin:12px 0">Nothing open right now — check the full list.</p>`}
+      <a class="lp-more" href="${href}">Show all${items.length ? ` ${items.length}` : ''} ${arrow(14)}</a>`;
+  }
+
   function viewHome() {
     const N = EXAMS.length;
     const totalQ = totalQuestions();
@@ -460,6 +488,9 @@
       <section class="hero">
         <div class="ticker" aria-label="Exams"><div class="ticker-track">${EXAMS.map((e) => `<a href="#/exam/${e.id}"><b>${esc(examCode(e).replace('NISM Series ', 'NISM '))}</b>${esc(e.name.length > 28 ? e.name.slice(0, 26) + '…' : e.name)}<span class="up">▲ ${e.pattern.passPct}% to pass</span></a>`).join('')}${EXAMS.map((e) => `<a href="#/exam/${e.id}"><b>${esc(examCode(e).replace('NISM Series ', 'NISM '))}</b>${esc(e.name.length > 28 ? e.name.slice(0, 26) + '…' : e.name)}<span class="up">▲ ${e.pattern.passPct}% to pass</span></a>`).join('')}</div></div>
         <div class="hero-blobs" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <div class="hero-grid">
+        <aside class="live-panel lp-govt hero-anim" style="--d:.1s" aria-label="Government exams open now">${livePanel('govt')}</aside>
+        <aside class="live-panel lp-nfo hero-anim" style="--d:.2s" aria-label="New fund offers open now">${livePanel('nfo')}</aside>
         <div class="wrap hero-center hero-anim">
           <span class="hero-kicker">${icon('sparkle', 14)} 100% free · ${N} exams · mock tests &amp; courses</span>
           <h1>Pass your exam with <span class="grad-word">confidence</span></h1>
@@ -473,12 +504,8 @@
             <li>${icon('check', 16)} Real exam pattern</li>
             <li>${icon('check', 16)} Instant explanations</li>
           </ul>
-          <div class="hero-floats" aria-hidden="true">
-            <span class="hf hf-1">${icon('trophy', 16)} NISM V-A</span>
-            <span class="hf hf-2">${icon('bank', 16)} IBPS PO</span>
-            <span class="hf hf-3">${icon('chart', 16)} CAT</span>
-            <span class="hf hf-4">${icon('shield', 16)} IC-38</span>
-          </div>
+        </div>
+
         </div>
         <div class="wrap">
           <div class="quiz-wrap hero-anim" style="--d:.15s">
