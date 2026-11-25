@@ -92,6 +92,13 @@ async function handleCoach(request, env) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    // One canonical host: send http:// and www. to https://success4sure.in with a permanent redirect,
+    // so search engines stop crawling duplicate copies of every page.
+    if (url.hostname === "www.success4sure.in" || (url.protocol === "http:" && url.hostname.endsWith("success4sure.in"))) {
+      url.protocol = "https:";
+      url.hostname = "success4sure.in";
+      return Response.redirect(url.toString(), 301);
+    }
     if (url.pathname === "/api/coach") return handleCoach(request, env);
     // Everything else is the static site (with the 404 page for unknown paths).
     return env.ASSETS.fetch(request);

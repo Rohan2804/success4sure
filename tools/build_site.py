@@ -1253,6 +1253,30 @@ def home_seo():
     return head, body
 
 # ---------- build ----------
+def stamp_dates(urls):
+    """Give each page a stable 'last updated' date: it only changes when the page's content changes.
+    Stored in content/lastmod.json as {path: {"h": content-hash, "d": "YYYY-MM-DD"}}."""
+    import hashlib
+    man_path = os.path.join(ROOT, 'content', 'lastmod.json')
+    man = json.load(open(man_path, encoding='utf-8')) if os.path.exists(man_path) else {}
+    today = TODAY.isoformat()
+    norm = lambda h: re.sub(r'\?v=[0-9a-z]+', '', h).replace(DATE_HUMAN, '@D').replace(today, '@I')
+    out, new_man = {}, {}
+    for u in urls:
+        f = os.path.join(ROOT, 'index.html' if u == '/' else u.strip('/') + '/index.html')
+        h = open(f, encoding='utf-8').read()
+        digest = hashlib.sha1(norm(h).encode('utf-8')).hexdigest()
+        rec = man.get(u)
+        d = rec['d'] if rec and rec.get('h') == digest else today
+        if d != today:
+            human = datetime.date.fromisoformat(d).strftime('%-d %B %Y')
+            h2 = h.replace(DATE_HUMAN, human).replace(today, d)
+            if h2 != h: open(f, 'w', encoding='utf-8').write(h2)
+        out[u] = d
+        new_man[u] = {'h': digest, 'd': d}
+    json.dump(new_man, open(man_path, 'w', encoding='utf-8'), indent=0, sort_keys=True)
+    return out
+
 def main():
     pages = []  # (path, indexable)
     for x in EXAMS:
@@ -1343,8 +1367,21 @@ def main():
 
     # sitemap + robots
     urls = ['/'] + [p for p, ok in pages if ok]
-    wr('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-       + ''.join(f'  <url><loc>{BASE}{u}</loc><lastmod>{TODAY.isoformat()}</lastmod></url>\n' for u in urls) + '</urlset>\n')
+    dates = stamp_dates(urls)
+    # Sitemap index with one child sitemap per section, so Search Console can report indexing per page type.
+    def section(u):
+        seg = u.strip('/').split('/')[0] if u != '/' else ''
+        if seg == 'exams': return 'chapters' if u.count('/') >= 4 else 'exams'
+        return {'glossary': 'glossary', 'topics': 'topics', 'soft-skills': 'soft-skills', 'interview-questions': 'interview-questions',
+                'blog': 'blog', 'guides': 'guides', 'hi': 'hindi', 'tools': 'tools'}.get(seg, 'pages')
+    groups = {}
+    for u in urls: groups.setdefault(section(u), []).append(u)
+    for old in glob.glob(os.path.join(ROOT, 'sitemaps', '*.xml')): os.remove(old)
+    for name, us in groups.items():
+        wr(f'sitemaps/{name}.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+           + ''.join(f'  <url><loc>{BASE}{u}</loc><lastmod>{dates[u]}</lastmod></url>\n' for u in us) + '</urlset>\n')
+    wr('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+       + ''.join(f'  <sitemap><loc>{BASE}/sitemaps/{name}.xml</loc><lastmod>{max(dates[u] for u in us)}</lastmod></sitemap>\n' for name, us in sorted(groups.items())) + '</sitemapindex>\n')
     wr('robots.txt', f'User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n')
 
     ss = (1 + len(SKILLS) + sum(len(a['lessons']) for a in SKILLS)) if SKILLS else 0
