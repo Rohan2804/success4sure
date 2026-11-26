@@ -6,7 +6,10 @@
   const inr = (n) => '₹' + Math.round(n).toLocaleString('en-IN');
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const fmtDate = (d) => d.toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
-  const bind = (form, fn) => { form.addEventListener('input', fn); form.addEventListener('change', fn); form.addEventListener('submit', (e) => { e.preventDefault(); fn(); }); fn(); };
+  // Report one tool_use event per page, on the visitor's first real interaction with the calculator.
+  let used = false;
+  const usedOnce = (form) => { if (used) return; used = true; if (window.s4sTrack) window.s4sTrack('tool_use', { tool_name: form.id.replace(/-form$/, '') }); };
+  const bind = (form, fn) => { form.addEventListener('input', () => { usedOnce(form); fn(); }); form.addEventListener('change', () => { usedOnce(form); fn(); }); form.addEventListener('submit', (e) => { e.preventDefault(); usedOnce(form); fn(); }); fn(); };
 
   // ---------- CTC to in-hand salary (new tax regime) ----------
   // New-regime slabs and rules as applied for FY 2026-27: standard deduction ₹75,000, section 87A rebate up to

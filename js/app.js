@@ -16,6 +16,9 @@
   const reducedMotion = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
   const app = $('#app');
 
+  // Analytics: events go to Google Tag Manager's dataLayer via js/track.js (no-op if it didn't load).
+  const track = (event, params) => { try { (window.s4sTrack || (() => {}))(event, params || {}); } catch (e) { /* never break the app for analytics */ } };
+
   const mem = {};
   const store = {
     get(k, d) {
@@ -240,7 +243,11 @@
           let next = null;
           try { next = sessionStorage.getItem('s4s_next'); sessionStorage.removeItem('s4s_next'); } catch (e) { /* storage unavailable */ }
           if (/[?&]code=/.test(location.search)) history.replaceState(null, '', location.pathname + location.hash);
-          if (next) { toast(`Welcome, ${u.name.split(' ')[0]}!`); location.hash = '#' + next; }
+          if (next) {
+            const isNew = s.user.created_at && Date.now() - new Date(s.user.created_at).getTime() < 10 * 60 * 1000;
+            track(isNew ? 'sign_up' : 'login', { method: 'google' });
+            toast(`Welcome, ${u.name.split(' ')[0]}!`); location.hash = '#' + next;
+          }
           if (fresh || next) route();
           else renderNav((location.hash.replace(/^#\/?/, '').split(/[/?]/)[0]) || '');
         } else if (event === 'SIGNED_OUT' && (store.get('session', null) || {}).provider === 'google') {
@@ -400,6 +407,14 @@
       daily: () => viewDaily(params.get('exam')),
     };
     (views[view] || viewNotFound)();
+    if (route.seen) {
+      setTimeout(() => {
+        const h1 = $('#app h1');
+        track('virtual_page_view', { page_path: location.pathname + location.hash, page_location: location.href,
+          page_title: (h1 ? h1.textContent.trim().replace(/\s+/g, ' ') + ' | ' : '') + 'Success4Sure' });
+      }, 0);
+    }
+    route.seen = true;
     enhance();
   }
 
@@ -455,7 +470,7 @@
     if (kind === 'nfo') {
       items = L.items.filter((it) => !it.close_date || dt(it.close_date) >= today).sort((a, b) => (a.close_date || '9').localeCompare(b.close_date || '9'));
       title = 'New Fund Offers'; sub = 'Mutual fund NFOs open now'; href = '/nfo/'; ic = 'pie';
-      row = (it) => `<li><a href="/nfo/"><b>${esc(it.scheme)}</b><span class="small muted">${esc(it.amc)} · ${esc(it.category)}</span>
+      row = (it) => `<li><a href="/nfo/" data-track="nfo_click" data-track-params='${esc(JSON.stringify({ item_name: it.scheme, amc: it.amc, placement: 'home_panel' }))}'><b>${esc(it.scheme)}</b><span class="small muted">${esc(it.amc)} · ${esc(it.category)}</span>
         <span class="lp-date">${dt(it.open_date) > today ? `Opens ${short(it.open_date)}` : `Closes ${short(it.close_date)}`}${it.close_date && dt(it.open_date) <= today ? ` · <em>${left(it.close_date)}</em>` : ''}</span></a></li>`;
     } else {
       const rank = { 'Application open': 0, 'Upcoming': 1, 'Notification expected': 2 };
@@ -464,12 +479,27 @@
       title = 'Govt exams & jobs'; sub = 'Openings across government, banks and PSUs'; href = '/govt-exams/'; ic = 'bank';
       // Drop trailing advert codes like "(CRPD/SCO/2026-27/28)" in the compact panel; the full page keeps them.
       const shortTitle = (t) => t.replace(/\s*\((?:CEN|Advt|CRPD|No\.)[^)]*\)\s*$/i, '').replace(/\s*\([^)]*\/[^)]*\)\s*$/, '');
-      row = (it) => `<li><a href="/govt-exams/"><b>${esc(shortTitle(it.title))}</b><span class="small muted">${esc(it.org)}${it.posts ? ' · ' + esc(it.posts) + ' posts' : ''}</span>
+      row = (it) => `<li><a href="/govt-exams/" data-track="govt_exam_click" data-track-params='${esc(JSON.stringify({ item_name: it.title, org: it.org, placement: 'home_panel' }))}'><b>${esc(shortTitle(it.title))}</b><span class="small muted">${esc(it.org)}${it.posts ? ' · ' + esc(it.posts) + ' posts' : ''}</span>
         <span class="lp-date">${it.status === 'Application open' && it.apply_end ? `Apply by ${short(it.apply_end)} · <em>${left(it.apply_end)}</em>` : it.exam_date ? `Exam ${short(it.exam_date)}` : esc(it.status)}</span></a></li>`;
     }
     return `<div class="lp-head"><span class="lp-ico">${icon(ic, 18)}</span><div><b>${title}</b><span class="small muted">${sub}</span></div><span class="lp-live" title="Updated ${esc(L.updated || '')}">Live</span></div>
       ${items.length ? `<ul class="lp-list">${items.slice(0, limit).map(row).join('')}</ul>` : `<p class="small muted" style="margin:12px 0">Nothing open right now — check the full list.</p>`}
       <a class="lp-more" href="${href}">Show all${items.length ? ` ${items.length}` : ''} ${arrow(14)}</a>`;
+  }
+
+  function bannerTracking(link) {
+    if (!link) return;
+    const info = () => ({ banner_name: 'indiabulls_securities', placement: 'home_below_hero',
+      creative: matchMedia('(max-width: 640px)').matches ? 'mobile' : 'desktop', link_url: link.href });
+    link.addEventListener('click', () => track('banner_click', info()));
+    if (!('IntersectionObserver' in window)) { track('banner_view', info()); return; }
+    let timer = null;
+    const io = new IntersectionObserver((entries) => entries.forEach((en) => {
+      if (en.isIntersecting && en.intersectionRatio >= 0.5) {
+        timer = timer || setTimeout(() => { track('banner_view', info()); io.disconnect(); }, 1000);
+      } else { clearTimeout(timer); timer = null; }
+    }), { threshold: [0, 0.5, 1] });
+    io.observe(link);
   }
 
   function viewHome() {
@@ -515,7 +545,7 @@
       </section>
 
       <section class="wrap promo-banner reveal" aria-label="Sponsored">
-        <a href="https://indiabullssecurities.onelink.me/Kaqz/success4sure" target="_blank" rel="sponsored noopener">
+        <a href="https://indiabullssecurities.onelink.me/Kaqz/success4sure" target="_blank" rel="sponsored noopener" id="promo-indiabulls">
           <picture>
             <source media="(max-width: 640px)" srcset="/assets/banners/indiabulls-securities-mobile.jpg" width="1000" height="400">
             <img src="/assets/banners/indiabulls-securities.jpg" width="2000" height="267" loading="lazy" decoding="async"
@@ -653,6 +683,7 @@
         </div>
       </section>`;
 
+    bannerTracking($('#promo-indiabulls'));
     $$('.lp-tab').forEach((b) => b.addEventListener('click', () => {
       $$('.lp-tab').forEach((x) => x.classList.toggle('active', x === b));
       $('.hero-live').dataset.show = b.dataset.k;
@@ -968,6 +999,7 @@
       }
       store.set('session', { userId: u.id });
       claimGuest(u.id);
+      track(isReg ? 'sign_up' : 'login', { method: 'email' });
       toast(isReg ? `Welcome, ${u.name.split(' ')[0]}!` : 'Logged in');
       location.hash = '#' + (next || '/dashboard');
     });
@@ -1048,6 +1080,7 @@
       s2.answers = s2.answers || {};
       if (s2.answers[key]) return;
       s2.answers[key] = { pick, right: pick === q[3] };
+      track('qotd_answer', { exam_id: ex.id, correct: pick === q[3] });
       s2.days[day] = true;
       // keep storage small: drop answers older than 60 days
       Object.keys(s2.answers).forEach((k) => { if (Number(k.split(':')[0]) < day - 60) delete s2.answers[k]; });
@@ -1268,7 +1301,10 @@
           <button class="btn btn-primary btn-lg btn-block" id="begin">${icon('bolt', 18)} Begin test</button>
         </div>
       </div>`;
-    $('#begin').addEventListener('click', () => runTest(e, qs, totalSecs, demo, u, mockNo));
+    $('#begin').addEventListener('click', () => {
+      track('mock_test_start', { exam_id: e.id, exam_name: examCode(e), mock_no: demo ? 0 : mockNo, demo: !!demo });
+      runTest(e, qs, totalSecs, demo, u, mockNo);
+    });
   }
 
   function runTest(e, qs, totalSecs, demo, u, mockNo) {
@@ -1397,6 +1433,8 @@
         result: { correct, wrong, unanswered: qs.length - correct - wrong, score, max, pct, passed: pct >= p.passPct, chapters },
       };
       store.set('attempts', [...attempts(), attempt]);
+      track('mock_test_complete', { exam_id: e.id, exam_name: examCode(e), mock_no: demo ? 0 : mockNo, demo: !!demo,
+        score_pct: Math.round(pct), passed: pct >= p.passPct, answered: correct + wrong, total_questions: qs.length });
       sessionStorageSafeSet('s4s_celebrate', attempt.id);
       location.hash = '#/result/' + attempt.id;
     }
@@ -1538,6 +1576,7 @@
     const all = store.get('skill_progress', {});
     const mine = all[progressKey()] || (all[progressKey()] = {});
     const key = area.slug + '/' + lessonId;
+    if (patch.read && !(mine[key] || {}).read) track('lesson_complete', { course: area.slug, lesson: lessonId });
     mine[key] = { ...(mine[key] || {}), ...patch };
     store.set('skill_progress', all);
   }

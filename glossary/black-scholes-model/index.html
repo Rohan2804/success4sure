@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en-IN">
 <head>
+  <!-- Google Tag Manager (loads only on success4sure.in, or anywhere with ?gtm=1 for testing) -->
+  <script>(function(w,d,s,l,i){if(!/(^|\.)success4sure\.in$/.test(location.hostname)&&!/[?&]gtm=1/.test(location.search))return;w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TFQ9CSN9');</script>
+  <!-- End Google Tag Manager -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Black-Scholes Model: Option Pricing Inputs and Assumptions</title>
@@ -17,10 +20,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/styles.css?v=202611251536">
+  <link rel="stylesheet" href="/css/styles.css?v=202611261024">
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://success4sure.in/#org", "name": "Success4Sure", "url": "https://success4sure.in/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://success4sure.in/"}, {"@type": "ListItem", "position": 2, "name": "Glossary", "item": "https://success4sure.in/glossary/"}, {"@type": "ListItem", "position": 3, "name": "Black-Scholes Model", "item": "https://success4sure.in/glossary/black-scholes-model/"}]}, {"@type": "DefinedTerm", "name": "Black-Scholes Model", "description": "The Black-Scholes model is a mathematical formula that estimates the fair value of European options using the spot price, strike, time, interest rate and volatility.", "url": "https://success4sure.in/glossary/black-scholes-model/", "inDefinedTermSet": "https://success4sure.in/glossary/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can Black-Scholes be used for Indian stock options?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Indian equity options are European style, which suits the model. Practitioners adjust for expected dividends and use implied volatility from the market rather than a single historical figure. Exchange and broker option calculators commonly use Black-Scholes or close variants."}}, {"@type": "Question", "name": "What is the biggest limitation of Black-Scholes?", "acceptedAnswer": {"@type": "Answer", "text": "The assumption of constant volatility. In reality, volatility changes over time and differs across strikes, creating the volatility smile or skew. Sudden jumps in prices, for example after unexpected news, are also not captured well. Traders deal with this by using different implied volatilities for different strikes."}}]}]}</script>
 </head>
 <body class="static">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFQ9CSN9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <a class="skip" href="#main">Skip to content</a>
   <header class="topbar"><div class="wrap topbar-inner">
     <a href="/" class="brand"><span class="brand-mark">S<i>4</i></span><span class="brand-name">Success<b>4</b>Sure</span></a>
@@ -29,7 +35,7 @@
   <main id="main">
     <section class="page-hero"><div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span class="sep">›</span> <a href="/glossary/">Glossary</a> <span class="sep">›</span> <span aria-current="page">Black-Scholes Model</span></nav>
       <div class="hero-series">Derivatives · Glossary</div><h1 style="margin-top:6px">What is Black-Scholes Model?</h1>
-      <p class="meta-row small muted">Last updated 25 November 2026 · By the Success4Sure editorial team · Free</p></div></section>
+      <p class="meta-row small muted">Last updated 26 November 2026 · By the Success4Sure editorial team · Free</p></div></section>
     <div class="wrap page prose lesson">
       <div class="definition"><b>Black-Scholes Model:</b> The Black-Scholes model is a mathematical formula that estimates the fair value of European options using the spot price, strike, time, interest rate and volatility.</div>
       <p>Developed by Fischer Black and Myron Scholes in 1973, with contributions from Robert Merton, the model transformed option trading by providing a consistent way to price options. Scholes and Merton received the Nobel Prize in Economics in 1997. Indian exchanges and brokers use Black-Scholes-based calculations to show theoretical prices, implied volatility and Greeks.</p><p>The call value is C = S × N(d1) − K × e^(−rT) × N(d2), and the put value is P = K × e^(−rT) × N(−d2) − S × N(−d1). Here S is the spot price, K the strike, r the risk-free rate, T the time to expiry in years, σ the volatility, and N() the cumulative normal distribution. d1 = [ln(S/K) + (r + σ²/2)T] ÷ (σ√T), and d2 = d1 − σ√T. N(d1) is the call&#x27;s delta.</p><p>Its assumptions include: European exercise; no dividends (in the basic version); constant volatility and interest rate; continuous trading with no transaction costs; and log-normally distributed prices. Real markets violate several of these — volatility changes, prices sometimes jump, and costs exist — which is why market prices show a volatility smile.</p><p>In exams, focus on the inputs and direction of effects rather than computing by hand: a higher spot raises calls and lowers puts; higher volatility raises both; more time generally raises both; a higher interest rate raises calls and lowers puts. The model&#x27;s practical use is less about the &#x27;right&#x27; price and more about a common language for volatility and risk.</p>
@@ -76,5 +82,6 @@
     </div>
     <div class="wrap footer-legal">Success4Sure is an independent practice platform and is not affiliated with, endorsed by, or connected to NISM, SEBI, IBPS, SBI, RBI, SSC, the IIMs, NTA, AIMA, IRDAI, the Insurance Institute of India, NSE or IIBF. All questions are original practice questions based on publicly available syllabi; they are not actual exam questions.</div>
   </footer>
+  <script src="/js/track.js?v=202611261024"></script>
 </body>
 </html>

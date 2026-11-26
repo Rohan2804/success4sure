@@ -121,6 +121,9 @@ def page(path, title, desc, body, ld=None, noindex=False, active='', lang='en-IN
     return f'''<!doctype html>
 <html lang="{lang}">
 <head>
+  <!-- Google Tag Manager (loads only on success4sure.in, or anywhere with ?gtm=1 for testing) -->
+  <script>(function(w,d,s,l,i){{if(!/(^|\.)success4sure\.in$/.test(location.hostname)&&!/[?&]gtm=1/.test(location.search))return;w[l]=w[l]||[];w[l].push({{'gtm.start':new Date().getTime(),event:'gtm.js'}});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);}})(window,document,'script','dataLayer','GTM-TFQ9CSN9');</script>
+  <!-- End Google Tag Manager -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{e(title)}</title>
@@ -141,6 +144,9 @@ def page(path, title, desc, body, ld=None, noindex=False, active='', lang='en-IN
   <script type="application/ld+json">{json.dumps({'@context': 'https://schema.org', '@graph': graph}, ensure_ascii=False)}</script>
 </head>
 <body class="static">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFQ9CSN9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <a class="skip" href="#main">Skip to content</a>
   <header class="topbar"><div class="wrap topbar-inner">
     <a href="/" class="brand"><span class="brand-mark">S<i>4</i></span><span class="brand-name">Success<b>4</b>Sure</span></a>
@@ -150,6 +156,7 @@ def page(path, title, desc, body, ld=None, noindex=False, active='', lang='en-IN
 {body}
   </main>
 {footer()}
+  <script src="/js/track.js?v={ASSET_V}"></script>
 </body>
 </html>
 '''
@@ -510,10 +517,10 @@ def privacy_page():
     inner = f'''<p>This policy explains what personal data {OPERATOR} ("we") collects when you use success4sure.in, why, and your choices.</p>
 <h2>Data we collect</h2><ul><li><b>Account details:</b> if you sign in with Google, your name, email address and profile photo from your Google account; if you create an email account, the details you enter.</li><li><b>No payment data:</b> {SITE['name']} is free, so we do not collect any card, UPI or bank details.</li><li><b>Usage data:</b> your mock test attempts, answers and scores, so we can show results and analysis.</li><li><b>Technical data:</b> basic logs such as IP address, browser and device type, used for security and to keep the service running.</li></ul>
 <h2>How we use it</h2><ul><li>To provide your account, save your mock-test results and lesson progress, and show your analysis.</li><li>To respond to support requests and send service messages about your account.</li><li>To keep the service secure and improve it.</li></ul><p>We do not sell your personal data.</p>
-<h2>Sharing</h2><p>We share data only with service providers who help us run the service — such as hosting, sign-in (Google and Supabase) and email — under appropriate safeguards, or where required by law.</p>
+<h2>Sharing</h2><p>We share data only with service providers who help us run the service — such as hosting, sign-in (Google and Supabase), analytics (Google Analytics) and email — under appropriate safeguards, or where required by law.</p>
 <h2>Retention</h2><p>We keep account and test data while your account is active and for a reasonable period afterwards, then delete or anonymise it. You can ask us to delete your account at any time.</p>
 <h2>Your choices and rights</h2><p>You can ask to access, correct or delete your personal data, or withdraw consent, by writing to {contact_line()}. We will respond in line with applicable Indian law, including the Digital Personal Data Protection Act, 2023.</p>
-<h2>Cookies and local storage</h2><p>We use essential browser storage to keep you logged in and remember your progress. We do not use advertising cookies.</p>
+<h2>Cookies, local storage and analytics</h2><p>We use essential browser storage to keep you logged in and remember your progress. We also use Google Analytics (through Google Tag Manager) to understand how the site is used — for example which pages are visited, which exams are practised and how often a link or banner is clicked. Google Analytics sets analytics cookies and receives information such as pages viewed, approximate location, device and browser; we do not send it your name, email address or answers. You can opt out with Google's <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Analytics opt-out browser add-on</a> or by blocking cookies in your browser. We do not use advertising cookies.</p>
 <h2>Changes</h2><p>We may update this policy and will show the date of the latest version at the top of this page.</p>'''
     return simple('/privacy-policy/', 'Privacy policy', f"Privacy Policy | {SITE['name']}", f"How {SITE['name']} collects, uses and protects your personal data.", inner)
 
@@ -1163,7 +1170,8 @@ document.querySelectorAll('.live-filter button').forEach(function(b){b.addEventL
 def nfo_card(it):
     rows = [('Subscription', f"{fmt_d(it.get('open_date'))} – {fmt_d(it.get('close_date'))}"), ('Type', it.get('type')), ('Minimum investment', it.get('min_investment')),
             ('Benchmark', it.get('benchmark')), ('Exit load', it.get('exit_load')), ('Riskometer', it.get('riskometer')), ('Fund manager', it.get('fund_manager'))]
-    links = f'<a class="btn btn-sm" href="{e(it["source_url"])}" target="_blank" rel="noopener nofollow">AMC page</a>' + (f'<a class="btn btn-sm" href="{e(it["sid_url"])}" target="_blank" rel="noopener nofollow">Scheme document</a>' if it.get('sid_url') else '')
+    tp = e(json.dumps({'item_name': it['scheme'], 'amc': it['amc'], 'placement': 'nfo_page'}))
+    links = f'<a class="btn btn-sm" href="{e(it["source_url"])}" target="_blank" rel="noopener nofollow" data-track="nfo_click" data-track-params="{tp}">AMC page</a>' + (f'<a class="btn btn-sm" href="{e(it["sid_url"])}" target="_blank" rel="noopener nofollow" data-track="nfo_click" data-track-params="{tp}">Scheme document</a>' if it.get('sid_url') else '')
     return f'''<article class="card live-card" data-ends="{e(it.get('close_date') or '')}" data-f="{e(it['category'].split(' –')[0].split(' (')[0])}">
       <div class="row"><span class="badge">{e(it['category'])}</span><span class="spacer"></span>{f'<span class="badge badge-warn" data-left="{e(it["close_date"])}">Closes {fmt_d(it["close_date"])}</span>' if it.get('close_date') else ''}</div>
       <h3>{e(it['scheme'])}</h3><div class="small muted">{e(it['amc'])}</div>
@@ -1177,7 +1185,8 @@ def govt_card(it):
             ('Vacancies', it.get('posts')), ('Eligibility', it.get('eligibility')), ('Age limit', it.get('age_limit'))]
     status_cls = {'Application open': 'badge-success', 'Upcoming': '', 'Notification expected': 'badge-warn'}.get(it['status'], '')
     ends = it.get('apply_end') if it['status'] == 'Application open' else (it.get('exam_date') if it['status'] == 'Upcoming' else '')
-    links = f'<a class="btn btn-sm" href="{e(it["official_url"])}" target="_blank" rel="noopener nofollow">Official website</a>' + (f'<a class="btn btn-sm" href="{e(it["notification_url"])}" target="_blank" rel="noopener nofollow">Notification</a>' if it.get('notification_url') else '') \
+    tp = e(json.dumps({'item_name': it['title'], 'org': it['org'], 'placement': 'govt_page'}))
+    links = f'<a class="btn btn-sm" href="{e(it["official_url"])}" target="_blank" rel="noopener nofollow" data-track="govt_exam_click" data-track-params="{tp}">Official website</a>' + (f'<a class="btn btn-sm" href="{e(it["notification_url"])}" target="_blank" rel="noopener nofollow" data-track="govt_exam_click" data-track-params="{tp}">Notification</a>' if it.get('notification_url') else '') \
         + (f'<a class="btn btn-sm btn-primary" href="{exam_url(rel)}">Free {e(code(rel))} mock tests</a>' if rel and not rel.get('noindex') else '')
     return f'''<article class="card live-card" data-ends="{e(ends or '')}" data-f="{e(it['sector'])}">
       <div class="row"><span class="badge {status_cls}">{e(it['status'])}</span><span class="badge">{e(it['sector'])}</span><span class="spacer"></span>{f'<span class="badge badge-warn" data-left="{e(it["apply_end"])}">Apply by {fmt_d(it["apply_end"])}</span>' if it['status'] == 'Application open' and it.get('apply_end') else ''}</div>
