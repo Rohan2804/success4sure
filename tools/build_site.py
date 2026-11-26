@@ -124,6 +124,11 @@ def page(path, title, desc, body, ld=None, noindex=False, active='', lang='en-IN
   <!-- Google Tag Manager (loads only on success4sure.in, or anywhere with ?gtm=1 for testing) -->
   <script>(function(w,d,s,l,i){{if(!/(^|\.)success4sure\.in$/.test(location.hostname)&&!/[?&]gtm=1/.test(location.search))return;w[l]=w[l]||[];w[l].push({{'gtm.start':new Date().getTime(),event:'gtm.js'}});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);}})(window,document,'script','dataLayer','GTM-TFQ9CSN9');</script>
   <!-- End Google Tag Manager -->
+  <!-- Google Analytics 4 (G-JS9KYRZB46) — loads only on success4sure.in, or anywhere with ?gtm=1 for testing; add ?debug=1 for DebugView -->
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}
+  (function(){{if(!/(^|\.)success4sure\.in$/.test(location.hostname)&&!/[?&]gtm=1/.test(location.search))return;var j=document.createElement('script');j.async=true;j.src='https://www.googletagmanager.com/gtag/js?id=G-JS9KYRZB46';document.head.appendChild(j);
+  gtag('js',new Date());gtag('config','G-JS9KYRZB46',/[?&]debug=1/.test(location.search)?{{debug_mode:true}}:{{}});}})();</script>
+  <!-- End Google Analytics 4 -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{e(title)}</title>
